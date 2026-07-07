@@ -9,6 +9,7 @@ import Portfolio from './pages/Portfolio';
 import CaseStudies from './pages/CaseStudies';
 import Pricing from './pages/Pricing';
 import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 import Contact from './pages/Contact';
 import { PrivacyPolicy, Terms, NotFound } from './pages/Legal';
 import { services } from './data';
@@ -46,6 +47,10 @@ function App() {
     if (path === '/case-studies') return <CaseStudies />;
     if (path === '/pricing') return <Pricing />;
     if (path === '/blog') return <Blog />;
+    if (path.startsWith('/blog/')) {
+      const slug = path.replace('/blog/', '');
+      return <BlogPost slug={slug} />;
+    }
     if (path === '/contact') return <Contact />;
     if (path === '/privacy-policy') return <PrivacyPolicy />;
     if (path === '/terms') return <Terms />;
