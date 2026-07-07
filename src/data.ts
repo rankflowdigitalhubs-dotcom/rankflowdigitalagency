@@ -353,3 +353,16 @@ export const pricingPlans = [
 ];
 
 export const clientLogos = ['BrightPath', 'Nimbus', 'Lakeside', 'UrbanNest', 'Bloom', 'Apex', 'Veridian', 'Northwind'];
+
+export const socialLinks = [
+  { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61591547398435', icon: 'facebook' },
+  { name: 'Instagram', url: 'https://www.instagram.com/rankflowdigitalhubs/', icon: 'instagram' },
+  { name: 'Fiverr', url: 'https://www.fiverr.com/s/kL9AD5w', icon: 'fiverr' },
+];
+
+export const contactInfo = {
+  email: 'info@rankflowagency.online',
+  website: 'https://rankflowagency.online',
+  websiteLabel: 'rankflowagency.online',
+  location: 'Remote · Worldwide',
+};

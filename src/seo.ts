@@ -49,7 +49,12 @@ export const organizationSchema = {
   email: 'info@rankflowagency.online',
   description:
     'Premium SEO & digital marketing agency helping local businesses, startups, SaaS, e-commerce, law firms, dentists, and real estate rank higher and grow revenue.',
-  sameAs: [BASE],
+  sameAs: [
+    'https://www.facebook.com/profile.php?id=61591547398435',
+    'https://www.instagram.com/rankflowdigitalhubs/',
+    'https://www.fiverr.com/s/kL9AD5w',
+    BASE,
+  ],
 };
 
 export function SEO({ title, description, path = '/', schema, ogImage }: SEOProps) {

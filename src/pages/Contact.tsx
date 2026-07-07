@@ -1,6 +1,7 @@
 import { Mail, Globe, MapPin, MessageSquare } from 'lucide-react';
 import { SEO, breadcrumbSchema, localBusinessSchema, faqSchema } from '../seo';
-import { PageHero, ContactForm, FAQList } from '../components';
+import { PageHero, ContactForm, FAQList, SocialIcons } from '../components';
+import { contactInfo } from '../data';
 
 const contactFaqs = [
   { q: 'How quickly will you respond?', a: 'We reply to all inquiries within one business day, often the same day during business hours.' },
@@ -33,27 +34,31 @@ export default function Contact() {
               <h3 className="text-lg font-semibold text-white">Get in touch</h3>
               <p className="mt-2 text-sm text-slate-400">We typically reply within one business day.</p>
               <div className="mt-6 space-y-4">
-                <a href="mailto:info@rankflowagency.online" className="flex items-center gap-3 group">
+                <a href={`mailto:${contactInfo.email}`} className="flex items-center gap-3 group">
                   <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/15 text-brand-300"><Mail className="h-5 w-5" /></span>
                   <div>
                     <div className="text-xs text-slate-400">Email</div>
-                    <div className="text-sm font-medium text-white group-hover:text-brand-300">info@rankflowagency.online</div>
+                    <div className="text-sm font-medium text-white group-hover:text-brand-300">{contactInfo.email}</div>
                   </div>
                 </a>
-                <a href="https://rankflowagency.online" className="flex items-center gap-3 group">
+                <a href={contactInfo.website} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 group">
                   <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/15 text-brand-300"><Globe className="h-5 w-5" /></span>
                   <div>
                     <div className="text-xs text-slate-400">Website</div>
-                    <div className="text-sm font-medium text-white group-hover:text-brand-300">rankflowagency.online</div>
+                    <div className="text-sm font-medium text-white group-hover:text-brand-300">{contactInfo.websiteLabel}</div>
                   </div>
                 </a>
                 <div className="flex items-center gap-3">
                   <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/15 text-brand-300"><MapPin className="h-5 w-5" /></span>
                   <div>
                     <div className="text-xs text-slate-400">Location</div>
-                    <div className="text-sm font-medium text-white">Remote · Worldwide</div>
+                    <div className="text-sm font-medium text-white">{contactInfo.location}</div>
                   </div>
                 </div>
+              </div>
+              <div className="mt-6 border-t border-white/10 pt-5">
+                <div className="text-xs uppercase tracking-wider text-slate-400">Follow us</div>
+                <div className="mt-3"><SocialIcons /></div>
               </div>
             </div>
 

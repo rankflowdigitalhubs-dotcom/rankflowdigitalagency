@@ -1,7 +1,59 @@
 import { useEffect, useRef, useState } from 'react';
 import { ArrowUp, Menu, X, ChevronDown, Mail, Globe, MapPin, ArrowRight } from 'lucide-react';
 import { Link, navigate, useRoute, scrollToId } from './router';
-import { navLinks, services } from './data';
+import { navLinks, services, socialLinks, contactInfo } from './data';
+
+/* ---------------- Brand SVG icons ---------------- */
+function FacebookIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
+      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+    </svg>
+  );
+}
+function InstagramIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
+      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+    </svg>
+  );
+}
+function FiverrIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
+      <path d="M23.004 15.588a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm-1-4.435h-3.846c.07-.354.108-.722.108-1.099 0-3.108-2.392-5.647-5.336-5.647-2.943 0-5.336 2.539-5.336 5.647 0 .377.038.745.108 1.099H7.629V8.823H5.516v2.33H3.846v1.964h1.67v3.05c0 2.566 1.846 4.66 4.115 4.66 2.268 0 4.114-2.094 4.114-4.66v-3.05h2.114c.516 1.766 2.07 3.05 3.873 3.05 2.243 0 4.062-1.943 4.062-4.346 0-.295-.03-.583-.084-.86zm-12.262 1.099v3.05c0 1.485-1.022 2.696-2.279 2.696-1.257 0-2.279-1.21-2.279-2.696v-3.05h4.558zm-2.279-5.781c1.836 0 3.33 1.648 3.33 3.682 0 .377-.052.74-.149 1.082H6.013a3.736 3.736 0 0 1-.149-1.082c0-2.034 1.494-3.682 3.33-3.682z" />
+    </svg>
+  );
+}
+
+const iconMap: Record<string, (p: { className?: string }) => JSX.Element> = {
+  facebook: FacebookIcon,
+  instagram: InstagramIcon,
+  fiverr: FiverrIcon,
+};
+
+export function SocialIcons({ size = 'md' }: { size?: 'sm' | 'md' }) {
+  const dim = size === 'sm' ? 'h-4 w-4' : 'h-5 w-5';
+  return (
+    <div className="flex items-center gap-3">
+      {socialLinks.map((s) => {
+        const Icon = iconMap[s.icon];
+        return (
+          <a
+            key={s.name}
+            href={s.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={s.name}
+            className="group flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:border-brand-400/50 hover:bg-brand-500/15 hover:text-white hover:shadow-glow-sm"
+          >
+            <Icon className={dim} />
+          </a>
+        );
+      })}
+    </div>
+  );
+}
 
 /* ---------------- Loader ---------------- */
 export function Loader() {
@@ -152,6 +204,7 @@ export function Navbar() {
         </div>
 
         <div className="hidden items-center gap-3 lg:flex">
+          <SocialIcons size="sm" />
           <button onClick={() => navigate('/contact')} className="btn-glow text-sm">
             Free SEO Audit <ArrowRight className="h-4 w-4" />
           </button>
@@ -247,15 +300,18 @@ export function Footer() {
               A premium SEO & digital marketing agency helping ambitious brands rank higher, grow traffic, and convert visitors into clients.
             </p>
             <div className="mt-5 space-y-2 text-sm text-slate-400">
-              <a href="mailto:info@rankflowagency.online" className="flex items-center gap-2 hover:text-brand-300">
-                <Mail className="h-4 w-4 text-brand-400" /> info@rankflowagency.online
+              <a href={`mailto:${contactInfo.email}`} className="flex items-center gap-2 hover:text-brand-300">
+                <Mail className="h-4 w-4 text-brand-400" /> {contactInfo.email}
               </a>
-              <a href="https://rankflowagency.online" className="flex items-center gap-2 hover:text-brand-300">
-                <Globe className="h-4 w-4 text-brand-400" /> rankflowagency.online
+              <a href={contactInfo.website} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-brand-300">
+                <Globe className="h-4 w-4 text-brand-400" /> {contactInfo.websiteLabel}
               </a>
               <div className="flex items-center gap-2">
-                <MapPin className="h-4 w-4 text-brand-400" /> Remote · Worldwide
+                <MapPin className="h-4 w-4 text-brand-400" /> {contactInfo.location}
               </div>
+            </div>
+            <div className="mt-6">
+              <SocialIcons />
             </div>
           </div>
 
