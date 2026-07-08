@@ -315,6 +315,7 @@ export const portfolioItems = [
 ];
 
 export const blogPosts = [
+  { slug: 'why-is-my-website-not-ranking-on-google', title: 'Why Is My Website Not Ranking on Google? 12 Common Reasons & How to Fix Them', category: 'SEO', date: 'Jul 8, 2026', readTime: '8 min', excerpt: 'Is your website not ranking on Google? Discover the 12 most common SEO mistakes that prevent websites from ranking and learn practical ways to improve your search visibility.', img: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'seo-strategy-that-actually-works', title: 'The SEO Strategy That Actually Works in 2026: A Complete Blueprint', category: 'SEO Strategy', date: 'Jul 7, 2026', readTime: '13 min', excerpt: 'Most SEO strategies are lists of tactics. This is a complete, repeatable blueprint — from audit to authority — that compounds into real revenue.', img: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-guide-2026', title: 'The Complete Local SEO Guide for 2026', category: 'Local SEO', date: 'Jul 2, 2026', readTime: '12 min', excerpt: 'Everything you need to dominate the map pack, from Google Business Profile to citations and reviews.', img: 'https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=800' },
   { slug: 'core-web-vitals', title: 'Core Web Vitals: The 2026 Technical SEO Checklist', category: 'Technical SEO', date: 'Jun 24, 2026', readTime: '9 min', excerpt: 'LCP, INP, and CLS explained — with the exact fixes that move the needle on rankings.', img: 'https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=800' },
@@ -471,6 +472,321 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       { q: 'Is this SEO strategy white-hat?', a: 'Yes, 100%. Every tactic in this blueprint follows Google’s guidelines. No PBNs, no link farms, no keyword stuffing — only strategies that build lasting authority and withstand algorithm updates.' },
       { q: 'Can I execute this SEO strategy myself, or do I need an agency?', a: 'A motivated in-house team can execute much of this blueprint. However, it requires significant time, specialized tools, and expertise across technical SEO, content, and link building. Most businesses see faster results by partnering with an experienced agency.' },
       { q: 'How much does an SEO strategy cost?', a: 'It depends on your industry, competition, and goals. Our plans start at $899/month for local businesses and scale up for multi-location and enterprise needs. See our pricing page or book a free consultation for a custom quote.' },
+    ],
+  },
+  'why-is-my-website-not-ranking-on-google': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Why Is My Website Not Ranking on Google?',
+        body: (
+          <>
+            <p>You spent weeks—maybe even months—building your website. You chose a professional design, wrote content, added your services, and finally hit the publish button. Then you waited, expecting visitors to start finding your business through Google.</p>
+            <p>Days passed.</p>
+            <p>Then weeks.</p>
+            <p>But nothing happened.</p>
+            <p>No traffic. No inquiries. No phone calls. No new customers.</p>
+            <p>If this sounds familiar, you're not alone.</p>
+            <p>One of the biggest misconceptions about websites is that simply launching one is enough to attract visitors. In reality, Google indexes billions of web pages, and every day thousands of new websites compete for the same audience.</p>
+            <p>The good news is that if your website isn't ranking today, it doesn't mean it never will. In most cases, there are clear reasons behind the problem—and most of them can be fixed.</p>
+            <p>Let's look at the most common reasons your website may not be ranking on Google.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-1-new-website',
+        heading: '1. Your Website Is Still New',
+        body: (
+          <>
+            <p>If your website was launched recently, patience is important.</p>
+            <p>Google doesn't instantly trust every new website. Search engines first need time to discover your pages, understand your content, and evaluate your site's quality before showing it in search results.</p>
+            <p>Many new website owners expect rankings within a few days, but SEO is a long-term strategy.</p>
+            <h3>How to fix it</h3>
+            <ul>
+              <li>Publish useful content consistently.</li>
+              <li>Submit your sitemap to Google Search Console.</li>
+              <li>Build your website's authority over time.</li>
+              <li>Keep improving your pages instead of waiting.</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'reason-2-not-indexed',
+        heading: '2. Google Hasn\'t Indexed Your Website',
+        body: (
+          <>
+            <p>If Google hasn't indexed your pages, they simply cannot appear in search results.</p>
+            <p>A surprising number of websites remain invisible because they were never submitted to Google or because technical issues prevent indexing.</p>
+            <h3>How to check</h3>
+            <p>Search Google for:</p>
+            <p><code>site:yourdomain.com</code></p>
+            <p>If no pages appear, your website may not be indexed.</p>
+            <h3>How to fix it</h3>
+            <ul>
+              <li>Verify your site in Google Search Console.</li>
+              <li>Submit your XML sitemap.</li>
+              <li>Request indexing for important pages.</li>
+              <li>Make sure your pages aren't blocked by robots.txt or "noindex" tags.</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'reason-3-wrong-keywords',
+        heading: '3. You\'re Targeting the Wrong Keywords',
+        body: (
+          <>
+            <p>Many businesses try to rank for extremely competitive keywords such as:</p>
+            <ul>
+              <li>SEO</li>
+              <li>Digital Marketing</li>
+              <li>Web Design</li>
+            </ul>
+            <p>The problem?</p>
+            <p>Thousands of established websites have been competing for these keywords for years.</p>
+            <p>Instead, focus on keywords that match your audience's search intent.</p>
+            <p>For example, instead of targeting:</p>
+            <p><strong>SEO Services</strong></p>
+            <p>Try something more specific like:</p>
+            <p><strong>Affordable SEO Services for Small Businesses</strong></p>
+            <p>or</p>
+            <p><strong>Local SEO Services for Restaurants</strong></p>
+            <p>Long-tail keywords usually have less competition and attract visitors who know exactly what they're looking for.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-4-content-quality',
+        heading: '4. Your Content Doesn\'t Solve Real Problems',
+        body: (
+          <>
+            <p>Google's goal is simple:</p>
+            <p>Show users the most helpful answer.</p>
+            <p>If your page only contains a few hundred words with general information, it probably won't compete with websites offering detailed, practical guidance.</p>
+            <p>Ask yourself:</p>
+            <ul>
+              <li>Does my article answer the reader's question?</li>
+              <li>Would someone learn something useful after reading it?</li>
+              <li>Does my content provide examples, tips, or solutions?</li>
+            </ul>
+            <p>If the answer is "not really," it's time to improve your content. Our <Link to="/content-writing">Content Writing</Link> service creates in-depth, helpful content that ranks.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-5-slow-speed',
+        heading: '5. Your Website Loads Too Slowly',
+        body: (
+          <>
+            <p>Speed matters.</p>
+            <p>Visitors don't enjoy waiting for slow websites, and neither does Google.</p>
+            <p>If your pages take several seconds to load, users often leave before they even read your content.</p>
+            <p>This increases bounce rates and creates a poor user experience.</p>
+            <h3>Ways to improve speed</h3>
+            <ul>
+              <li>Compress large images.</li>
+              <li>Remove unnecessary scripts.</li>
+              <li>Enable browser caching.</li>
+              <li>Use modern image formats.</li>
+              <li>Minify CSS and JavaScript.</li>
+            </ul>
+            <p>A faster website creates a better experience for visitors and supports stronger SEO performance.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-6-not-mobile-friendly',
+        heading: '6. Your Website Isn\'t Mobile-Friendly',
+        body: (
+          <>
+            <p>Today, most Google searches happen on mobile devices.</p>
+            <p>If your website looks great on a desktop but difficult to use on a phone, you're losing both visitors and ranking opportunities.</p>
+            <p>Check whether:</p>
+            <ul>
+              <li>Text is easy to read.</li>
+              <li>Buttons are easy to tap.</li>
+              <li>Images fit the screen.</li>
+              <li>Navigation works smoothly.</li>
+            </ul>
+            <p>Google primarily evaluates the mobile version of your website, so mobile usability is no longer optional.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-7-few-backlinks',
+        heading: '7. You Have Very Few Backlinks',
+        body: (
+          <>
+            <p>Think of backlinks as recommendations.</p>
+            <p>When trusted websites link to your content, Google sees those links as signals that your website provides value.</p>
+            <p>A website with no quality backlinks often struggles to compete against more established competitors.</p>
+            <p>Focus on earning backlinks naturally through:</p>
+            <ul>
+              <li>Helpful blog content</li>
+              <li>Guest posting</li>
+              <li>Industry partnerships</li>
+              <li>Resource pages</li>
+              <li>Digital PR</li>
+            </ul>
+            <p>Remember, quality always matters more than quantity.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-8-on-page-seo',
+        heading: '8. Your On-Page SEO Needs Improvement',
+        body: (
+          <>
+            <p>Even great content can struggle to rank if it's not properly optimized.</p>
+            <p>On-page SEO helps search engines understand what your page is about.</p>
+            <p>Here are a few basics every page should include:</p>
+            <ul>
+              <li>A clear and descriptive title tag</li>
+              <li>A compelling meta description</li>
+              <li>One H1 heading</li>
+              <li>Organized H2 and H3 headings</li>
+              <li>Natural keyword placement</li>
+              <li>Internal links to related pages</li>
+              <li>Optimized images with alt text</li>
+            </ul>
+            <p>Avoid stuffing the same keyword into every paragraph. Write naturally and focus on helping your readers first. Our <Link to="/seo">SEO Services</Link> handle every on-page element with documented precision.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-9-technical-seo',
+        heading: '9. Your Website Has Technical SEO Issues',
+        body: (
+          <>
+            <p>Technical SEO is the foundation of your website. If search engines can't crawl or understand your pages, your rankings can suffer no matter how good your content is.</p>
+            <p>Common technical issues include:</p>
+            <ul>
+              <li>Broken links</li>
+              <li>Missing XML sitemap</li>
+              <li>Duplicate pages</li>
+              <li>Incorrect redirects</li>
+              <li>Crawl errors</li>
+              <li>Poor URL structure</li>
+              <li>Missing HTTPS security</li>
+            </ul>
+            <p>Run regular SEO audits to identify and fix these issues before they affect your visibility. Our <Link to="/technical-seo">Technical SEO</Link> service covers every item on this list.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-10-topical-authority',
+        heading: '10. Your Website Lacks Topical Authority',
+        body: (
+          <>
+            <p>Google prefers websites that cover a topic in depth rather than publishing one article and moving on.</p>
+            <p>For example, if you want to rank for SEO-related searches, don't publish only one article about SEO.</p>
+            <p>Instead, create a complete library of helpful content such as:</p>
+            <ul>
+              <li>What Is SEO?</li>
+              <li>On-Page SEO Guide</li>
+              <li>Technical SEO Checklist</li>
+              <li>Local SEO Tips</li>
+              <li>Keyword Research Guide</li>
+              <li>Link Building Strategies</li>
+              <li>SEO Audit Checklist</li>
+              <li>Common SEO Mistakes</li>
+            </ul>
+            <p>When your content covers an entire subject, Google begins to recognize your website as a trusted resource.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-11-not-updating',
+        heading: '11. You\'re Not Updating Your Content',
+        body: (
+          <>
+            <p>SEO is not a one-time task.</p>
+            <p>Search engines prefer content that stays accurate and relevant.</p>
+            <p>Review your important articles every few months.</p>
+            <p>Update:</p>
+            <ul>
+              <li>Statistics</li>
+              <li>Screenshots</li>
+              <li>Examples</li>
+              <li>SEO recommendations</li>
+              <li>Internal links</li>
+            </ul>
+            <p>Fresh content sends positive signals that your website is actively maintained.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-12-expecting-results-too-quickly',
+        heading: '12. You\'re Expecting Results Too Quickly',
+        body: (
+          <>
+            <p>This is one of the biggest reasons people give up on SEO.</p>
+            <p>Unlike paid advertising, SEO takes time.</p>
+            <p>Depending on your industry, competition, and website quality, meaningful improvements may take several months.</p>
+            <p>The businesses that succeed with SEO are usually the ones that stay consistent.</p>
+            <p>Publishing valuable content, improving technical performance, and building authority over time creates lasting results.</p>
+          </>
+        ),
+      },
+      {
+        id: 'quick-seo-checklist',
+        heading: 'Quick SEO Checklist',
+        body: (
+          <>
+            <p>If your website isn't ranking, go through this checklist:</p>
+            <ul>
+              <li>✅ Verify your website in Google Search Console.</li>
+              <li>✅ Submit your XML sitemap.</li>
+              <li>✅ Publish helpful, original content.</li>
+              <li>✅ Target realistic keywords.</li>
+              <li>✅ Improve page speed.</li>
+              <li>✅ Make your website mobile-friendly.</li>
+              <li>✅ Build quality backlinks.</li>
+              <li>✅ Fix technical SEO issues.</li>
+              <li>✅ Add internal links between related pages.</li>
+              <li>✅ Update older articles regularly.</li>
+            </ul>
+            <p>Consistency is more important than shortcuts.</p>
+          </>
+        ),
+      },
+      {
+        id: 'free-seo-audit-cta',
+        heading: 'Get Your Free SEO Audit',
+        body: (
+          <>
+            <p>If you're struggling to understand why your website isn't getting traffic, a professional SEO audit can uncover the issues holding it back.</p>
+            <p>At Rank Flow Digital, we help businesses improve their online visibility through:</p>
+            <ul>
+              <li>Technical SEO</li>
+              <li>On-Page SEO</li>
+              <li><Link to="/local-seo">Local SEO</Link></li>
+              <li>Content Optimization</li>
+              <li>SEO Audits</li>
+              <li>High-Quality Link Building</li>
+            </ul>
+            <p>Request your Free SEO Audit today and discover the opportunities to grow your organic traffic. <Link to="/contact">Contact us</Link> to get started.</p>
+          </>
+        ),
+      },
+      {
+        id: 'final-thoughts',
+        heading: 'Final Thoughts',
+        body: (
+          <>
+            <p>If your website isn't ranking on Google, don't assume something is permanently wrong. In most cases, the issue comes down to a combination of content quality, technical SEO, keyword strategy, and consistency.</p>
+            <p>SEO is not about finding a secret trick or shortcut. It's about building a website that genuinely helps users, answers their questions, and provides a great experience.</p>
+            <p>Start by fixing the basics, continue publishing valuable content, and monitor your progress regularly. Small improvements made consistently often lead to significant long-term results.</p>
+          </>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'Why is my website not showing up on Google?', a: 'Your website may not be indexed, may target highly competitive keywords, or may have technical SEO issues. Checking Google Search Console is a good first step.' },
+      { q: 'How long does SEO take?', a: 'SEO is a long-term strategy. Some improvements can appear within a few weeks, while competitive keywords often take several months depending on your niche and website authority.' },
+      { q: 'Can I rank without backlinks?', a: 'It is possible for some low-competition keywords, but earning high-quality backlinks generally improves your chances of ranking for more competitive searches.' },
+      { q: 'Does publishing more content improve rankings?', a: 'Publishing more high-quality and relevant content can strengthen your website\'s topical authority. However, quality is always more important than simply increasing the number of articles.' },
     ],
   },
 };
