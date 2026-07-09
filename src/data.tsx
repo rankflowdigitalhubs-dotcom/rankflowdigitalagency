@@ -1147,6 +1147,7 @@ export const socialLinks = [
 
 export const contactInfo = {
   email: 'info@rankflowagency.online',
+  emails: ['info@rankflowagency.online', 'emilyisla732@gmail.com', 'rankflowdigitalhubs@gmail.com'],
   website: 'https://rankflowagency.online',
   websiteLabel: 'rankflowagency.online',
   location: 'Remote · Worldwide',

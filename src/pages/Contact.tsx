@@ -34,13 +34,15 @@ export default function Contact() {
               <h3 className="text-lg font-semibold text-white">Get in touch</h3>
               <p className="mt-2 text-sm text-slate-400">We typically reply within one business day.</p>
               <div className="mt-6 space-y-4">
-                <a href={`mailto:${contactInfo.email}`} className="flex items-center gap-3 group">
-                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/15 text-brand-300"><Mail className="h-5 w-5" /></span>
-                  <div>
-                    <div className="text-xs text-slate-400">Email</div>
-                    <div className="text-sm font-medium text-white group-hover:text-brand-300">{contactInfo.email}</div>
-                  </div>
-                </a>
+                {contactInfo.emails.map((email) => (
+                  <a key={email} href={`mailto:${email}`} className="flex items-center gap-3 group">
+                    <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/15 text-brand-300"><Mail className="h-5 w-5" /></span>
+                    <div>
+                      <div className="text-xs text-slate-400">Email</div>
+                      <div className="text-sm font-medium text-white group-hover:text-brand-300">{email}</div>
+                    </div>
+                  </a>
+                ))}
                 <a href={contactInfo.website} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 group">
                   <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/15 text-brand-300"><Globe className="h-5 w-5" /></span>
                   <div>

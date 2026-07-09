@@ -300,9 +300,11 @@ export function Footer() {
               A premium SEO & digital marketing agency helping ambitious brands rank higher, grow traffic, and convert visitors into clients.
             </p>
             <div className="mt-5 space-y-2 text-sm text-slate-400">
-              <a href={`mailto:${contactInfo.email}`} className="flex items-center gap-2 hover:text-brand-300">
-                <Mail className="h-4 w-4 text-brand-400" /> {contactInfo.email}
-              </a>
+              {contactInfo.emails.map((email) => (
+                <a key={email} href={`mailto:${email}`} className="flex items-center gap-2 hover:text-brand-300">
+                  <Mail className="h-4 w-4 text-brand-400" /> {email}
+                </a>
+              ))}
               <a href={contactInfo.website} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-brand-300">
                 <Globe className="h-4 w-4 text-brand-400" /> {contactInfo.websiteLabel}
               </a>
