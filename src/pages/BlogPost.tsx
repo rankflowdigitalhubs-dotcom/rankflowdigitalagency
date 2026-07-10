@@ -127,7 +127,7 @@ export default function BlogPost({ slug }: { slug: string }) {
               {content.sections.map((section) => (
                 <div key={section.id} id={section.id} className="scroll-mt-28">
                   <h2 className="text-2xl font-bold text-white sm:text-3xl">{section.heading}</h2>
-                  <div className="article-body mt-4 text-slate-300 [&_a]:text-brand-300 [&_a]:underline [&_a:hover]:text-brand-200 [&_h3]:mt-6 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:text-white [&_p]:leading-relaxed [&_p]:mb-4 [&_strong]:text-white [&_ul]:my-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2 [&_li]:text-slate-400">
+                  <div className="article-body mt-4 text-slate-300 [&_a]:text-brand-300 [&_a]:underline [&_a:hover]:text-brand-200 [&_h3]:mt-6 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:text-white [&_p]:leading-relaxed [&_p]:mb-4 [&_strong]:text-white [&_ul]:my-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2 [&_li]:text-slate-400 [&_img]:my-6 [&_img]:w-full [&_img]:rounded-2xl [&_img]:border [&_img]:border-white/10 [&_table]:my-6 [&_table]:w-full [&_table]:border-collapse [&_th]:py-3 [&_th]:px-4 [&_th]:text-left [&_th]:font-semibold [&_th]:text-white [&_td]:py-3 [&_td]:px-4 [&_td]:text-slate-400">
                     {section.body}
                   </div>
                 </div>
