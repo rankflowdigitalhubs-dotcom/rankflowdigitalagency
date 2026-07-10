@@ -315,6 +315,7 @@ export const portfolioItems = [
 ];
 
 export const blogPosts = [
+  { slug: 'ecommerce-store-not-performing', title: '4 Reasons Why Your eCommerce Store Is Not Performing Well (And How to Fix Them)', category: 'E-commerce', date: 'Jul 10, 2026', readTime: '10 min', excerpt: 'Is your online store getting traffic but not making sales? Discover the 4 biggest reasons eCommerce stores underperform — and the exact fixes you can apply today.', img: 'https://images.pexels.com/photos/5077047/pexels-photo-5077047.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-competitors-ranking-higher-on-google', title: 'Why Are My Competitors Ranking Higher on Google?', category: 'SEO', date: 'Jul 9, 2026', readTime: '10 min', excerpt: 'Wondering why competitors outrank you on Google? Discover the real reasons behind their success and learn practical steps to close the gap and rank higher.', img: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-for-small-businesses', title: 'Local SEO for Small Businesses: The Complete Guide to Getting More Local Customers in 2026', category: 'Local SEO', date: 'Jul 8, 2026', readTime: '8 min', excerpt: 'Learn how Local SEO helps small businesses rank higher on Google, attract local customers, and increase sales with proven strategies.', img: 'https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-is-my-website-not-ranking-on-google', title: 'Why Is My Website Not Ranking on Google? 12 Common Reasons & How to Fix Them', category: 'SEO', date: 'Jul 8, 2026', readTime: '8 min', excerpt: 'Is your website not ranking on Google? Discover the 12 most common SEO mistakes that prevent websites from ranking and learn practical ways to improve your search visibility.', img: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200' },
@@ -330,6 +331,309 @@ export const blogPosts = [
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
 
 export const articleContent: Record<string, { sections: ArticleSection[]; faqs: { q: string; a: string }[] }> = {
+  'ecommerce-store-not-performing': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Is Your eCommerce Store Struggling to Make Sales?',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/5077047/pexels-photo-5077047.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="eCommerce store dashboard showing low sales and traffic metrics"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              You launched your online store with high hopes. You added products, set up payment, and maybe even ran some ads. But the sales are not coming in the way you expected. Your website traffic is low, your conversion rate is disappointing, and you are watching competitors rack up reviews while your store sits in silence.
+            </p>
+            <p>
+              If this sounds familiar, you are not alone. Most eCommerce store owners hit this wall. The problem is usually not your product — it is how your store is built, optimized, and presented to both Google and your customers.
+            </p>
+            <p>
+              After running SEO audits on dozens of online stores, we see the same four issues over and over. The good news is that each one has a clear fix. In this article, we will break down exactly why your store is underperforming and what you can do today to turn it around.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-1-poor-product-page-seo',
+        heading: 'Reason 1: Your Product Pages Are Not Optimized for Search',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Product page with SEO elements like title tags and meta descriptions being optimized"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Your product pages are the heart of your online store. They are where browsers become buyers. But if those pages are not optimized for search, Google will not show them — and customers will never find them.
+            </p>
+            <p>
+              Many store owners copy manufacturer descriptions, use generic image filenames like "IMG_4032.jpg," and skip writing meta titles altogether. These mistakes tell Google your pages are thin and not worth ranking.
+            </p>
+            <h3>Common product page SEO mistakes</h3>
+            <ul>
+              <li><strong>Duplicate descriptions</strong> — Using the same manufacturer text as 50 other stores means Google sees no unique value.</li>
+              <li><strong>Missing or generic title tags</strong> — "Product Name | Store" is not enough. You need keywords customers actually search for.</li>
+              <li><strong>No customer reviews</strong> — Reviews add fresh, unique content that Google loves and shoppers trust.</li>
+              <li><strong>Thin content</strong> — A one-line description gives Google nothing to rank. Aim for 200+ words of helpful, original text.</li>
+            </ul>
+            <h3>How to fix your product pages</h3>
+            <ul>
+              <li>Write unique descriptions for every product. Explain benefits, not just features.</li>
+              <li>Include your target keyword in the title tag, H1, URL, and first 100 words.</li>
+              <li>Add structured data (schema markup) so Google can display rich snippets like price and availability.</li>
+              <li>Rename image files with descriptive keywords (e.g., "red-leather-running-shoes.jpg" instead of "IMG_4032.jpg").</li>
+              <li>Encourage and display customer reviews on every product page.</li>
+            </ul>
+            <p>
+              A Shopify SEO client in the fitness niche rewrote 40 product descriptions and added review schema. Within three months, their product pages started ranking for long-tail keywords and organic traffic grew by 62%.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-2-slow-website-speed',
+        heading: 'Reason 2: Your Website Speed Is Driving Customers Away',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/4218627/pexels-photo-4218627.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Website speed test showing slow page load times on a mobile device"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Website speed is not just a technical detail — it directly affects your sales. Research shows that a 1-second delay in page load time can reduce conversion rates by 7%. If your store takes 4 seconds or more to load, you are losing customers before they even see your products.
+            </p>
+            <p>
+              Google also uses page speed as a ranking factor. Slow sites rank lower in search results, which means less website traffic from Google rankings. It is a double loss: fewer visitors and fewer sales from the visitors you do get.
+            </p>
+            <h3>What slows down eCommerce stores</h3>
+            <ul>
+              <li>Large, uncompressed product images (the #1 cause of slow stores)</li>
+              <li>Too many apps or plugins running at once</li>
+              <li>Bloated theme code with unused features</li>
+              <li>No caching or content delivery network (CDN)</li>
+              <li>Render-blocking JavaScript and CSS files</li>
+            </ul>
+            <h3>Speed comparison: Before vs. After optimization</h3>
+            <div className="my-6 overflow-x-auto">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-white/10">
+                    <th className="py-3 pr-4 text-left font-semibold text-white">Metric</th>
+                    <th className="py-3 pr-4 text-left font-semibold text-white">Before</th>
+                    <th className="py-3 text-left font-semibold text-white">After</th>
+                  </tr>
+                </thead>
+                <tbody className="text-slate-400">
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Page load time</td>
+                    <td className="py-3 pr-4">5.8 seconds</td>
+                    <td className="py-3 text-brand-300">1.9 seconds</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Page size</td>
+                    <td className="py-3 pr-4">4.2 MB</td>
+                    <td className="py-3 text-brand-300">1.1 MB</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Google PageSpeed score</td>
+                    <td className="py-3 pr-4">34 / 100</td>
+                    <td className="py-3 text-brand-300">89 / 100</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3 pr-4">Conversion rate</td>
+                    <td className="py-3 pr-4">1.2%</td>
+                    <td className="py-3 text-brand-300">2.8%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3>How to speed up your store</h3>
+            <ul>
+              <li>Compress all product images. Use WebP format instead of PNG or JPG.</li>
+              <li>Remove apps and plugins you are not actively using.</li>
+              <li>Enable lazy loading so images only load when the visitor scrolls to them.</li>
+              <li>Use a CDN like Cloudflare to serve images from servers close to your customers.</li>
+              <li>Minify CSS and JavaScript files to reduce their size.</li>
+            </ul>
+            <p>
+              A WooCommerce SEO client reduced their load time from 5.8 to 1.9 seconds. Their conversion rate jumped from 1.2% to 2.8% — more than doubling their sales from the same amount of traffic.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-3-weak-technical-seo',
+        heading: 'Reason 3: Technical SEO Issues Are Blocking Google',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Technical SEO audit showing crawl errors and indexing issues in Google Search Console"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Technical SEO is the foundation that everything else is built on. If Google cannot crawl and index your store properly, your products will not show up in search results — no matter how good your content is.
+            </p>
+            <p>
+              Many store owners do not even know these problems exist because they are invisible. You need to run an SEO audit to find them.
+            </p>
+            <h3>Common technical SEO issues in eCommerce</h3>
+            <ul>
+              <li><strong>Indexation problems</strong> — Google may be blocked from indexing your product pages due to robots.txt or noindex tags.</li>
+              <li><strong>Broken links and 404 errors</strong> — When products go out of stock or are removed, the old URLs create errors that waste Google's crawl budget.</li>
+              <li><strong>Missing canonical tags</strong> — Product variants (size, color) can create duplicate URLs that confuse Google.</li>
+              <li><strong>Poor URL structure</strong> — URLs like "/collections/all/products/item?id=123" are messy. Clean URLs like "/products/red-leather-jacket" rank better.</li>
+              <li><strong>No XML sitemap</strong> — Without a sitemap, Google may miss important pages on larger stores.</li>
+            </ul>
+            <h3>How to fix technical SEO issues</h3>
+            <ul>
+              <li>Run a full SEO audit using Google Search Console and a tool like Screaming Frog or Ahrefs Site Audit.</li>
+              <li>Set up 301 redirects for discontinued products to point to similar items or category pages.</li>
+              <li>Add canonical tags to product variant pages to point to the main product URL.</li>
+              <li>Submit an updated XML sitemap through Google Search Console.</li>
+              <li>Fix URL structures to be clean, short, and keyword-rich.</li>
+              <li>Check that your robots.txt file is not accidentally blocking important pages.</li>
+            </ul>
+            <p>
+              An online clothing store had 800 product pages, but Google was only indexing 200 of them. After a technical SEO audit, they discovered a robots.txt rule was blocking their product directory. Once fixed, indexed pages jumped to 780 within four weeks.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-4-poor-conversion-rate',
+        heading: "Reason 4: Your Store's Conversion Rate Is Too Low",
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="eCommerce checkout page being optimized to improve conversion rate and reduce cart abandonment"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              You could have thousands of visitors every month and still not make many sales if your conversion rate is low. Conversion rate is the percentage of visitors who actually buy something. The average eCommerce conversion rate is around 2-3%. If yours is below 1%, your store has a problem.
+            </p>
+            <p>
+              Low conversion usually comes down to one thing: trust. If shoppers do not trust your store, they will not give you their money. And trust is built through dozens of small signals on your website.
+            </p>
+            <h3>What kills your conversion rate</h3>
+            <ul>
+              <li><strong>Complicated checkout</strong> — Too many steps, forced account creation, or hidden shipping costs make people leave.</li>
+              <li><strong>No trust signals</strong> — Missing return policy, no security badges, no reviews, and no contact information.</li>
+              <li><strong>Low-quality product images</strong> — Shoppers cannot touch or try products online. They rely on images to decide.</li>
+              <li><strong>Unclear pricing</strong> — Surprise costs at checkout (tax, shipping) cause cart abandonment.</li>
+              <li><strong>No mobile optimization</strong> — Over 60% of online shopping happens on phones. If checkout is hard on mobile, you lose sales.</li>
+            </ul>
+            <h3>How to improve your conversion rate</h3>
+            <ul>
+              <li>Enable guest checkout so customers can buy without creating an account.</li>
+              <li>Show shipping costs upfront on the product page, not at the final checkout step.</li>
+              <li>Add trust badges (SSL, payment security, money-back guarantee) near the "Add to Cart" button.</li>
+              <li>Use high-quality product images from multiple angles. Include zoom functionality.</li>
+              <li>Add a clear, easy-to-find return policy.</li>
+              <li>Display customer reviews and ratings prominently on each product page.</li>
+              <li>Simplify your checkout to 3 steps or fewer: information, shipping, payment.</li>
+            </ul>
+            <p>
+              A home goods store added guest checkout, visible shipping costs, and review badges. Their conversion rate went from 0.8% to 2.4% in six weeks — tripling their sales from the same traffic.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'action-plan',
+        heading: 'Your eCommerce Fix Plan: Step by Step',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/7651975/pexels-photo-7651975.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="eCommerce optimization action plan checklist with step-by-step tasks"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              You do not need to fix everything at once. But you do need a plan. Here is a prioritized schedule you can follow:
+            </p>
+            <ul>
+              <li><strong>Week 1:</strong> Run a full SEO audit on your store. Identify technical issues, broken links, and indexation problems.</li>
+              <li><strong>Week 2:</strong> Fix website speed. Compress all images, remove unused apps, and set up a CDN.</li>
+              <li><strong>Week 3:</strong> Rewrite your top 10 product page descriptions. Add unique titles, meta descriptions, and schema markup.</li>
+              <li><strong>Week 4:</strong> Improve your checkout flow. Enable guest checkout, add trust badges, and show shipping costs upfront.</li>
+              <li><strong>Week 5 onwards:</strong> Continue optimizing product pages in batches of 10 per week. Monitor Google Search Console for improvements.</li>
+            </ul>
+            <p>
+              eCommerce SEO is not a one-time fix. It is an ongoing process of testing, improving, and measuring. But if you follow this plan, you will see results within 3-6 months.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'conclusion',
+        heading: 'Turn Your Struggling Store into a Revenue Machine',
+        body: (
+          <>
+            <p>
+              Your online store has potential. The products are there. The market is there. What is missing is the optimization that turns visitors into buyers and Google rankings into traffic.
+            </p>
+            <p>
+              The four issues we covered — poor product page SEO, slow website speed, technical SEO problems, and low conversion rates — are the most common reasons eCommerce stores underperform. Fix them, and you will see more traffic, more sales, and more growth.
+            </p>
+            <p>
+              But we know that running a business leaves little time for SEO audits, image compression, and schema markup. That is where Rank Flow Agency comes in. Our team specializes in eCommerce SEO for Shopify and WooCommerce stores. We handle the technical work, the optimization, and the content — so you can focus on running your business.
+            </p>
+            <p>
+              <strong>Want to know exactly what is holding your store back?</strong> Get a free SEO audit from Rank Flow Agency. We will identify every issue and give you a clear, prioritized plan to fix it.
+            </p>
+            <p>
+              <a href="#/contact">Contact Rank Flow Agency today and let us turn your store into a revenue machine.</a>
+            </p>
+          </>
+        ),
+      },
+    ],
+    faqs: [
+      {
+        q: 'How long does eCommerce SEO take to show results?',
+        a: 'Most online stores see noticeable improvements in Google rankings and website traffic within 3-6 months. Product page optimization and speed fixes can show results faster — sometimes within 4-8 weeks. Competitive niches may take longer.',
+      },
+      {
+        q: 'Should I choose Shopify or WooCommerce for SEO?',
+        a: 'Both platforms can rank well with proper optimization. Shopify SEO is easier for beginners because it handles technical basics out of the box. WooCommerce SEO offers more flexibility and control but requires more technical knowledge. The best choice depends on your team and needs.',
+      },
+      {
+        q: 'How many product pages should I optimize first?',
+        a: 'Start with your top 10 best-selling or highest-traffic product pages. These give you the fastest return. Once those are optimized, work through the rest in batches of 10 per week.',
+      },
+      {
+        q: 'What is a good conversion rate for an eCommerce store?',
+        a: 'The average eCommerce conversion rate is 2-3%. Stores above 3% are doing well. If your rate is below 1%, focus on checkout simplification, trust signals, and product page improvements.',
+      },
+      {
+        q: 'Do I need to hire an agency for eCommerce SEO?',
+        a: 'You can handle basic SEO yourself with free tools and guides. But if your store has hundreds of products, technical issues, or you lack time, an agency like Rank Flow Agency can save you months of trial and error and get results faster.',
+      },
+    ],
+  },
   'why-competitors-ranking-higher-on-google': {
     sections: [
       {
