@@ -1192,8 +1192,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3775535/pexels-photo-3775535.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Google reviews and star ratings on a phone showing customer feedback for a restaurant"
+              src="https://images.pexels.com/photos/29147202/pexels-photo-29147202.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Charming New York City street corner cafe, representing a restaurant's local presence and Google review visibility"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
