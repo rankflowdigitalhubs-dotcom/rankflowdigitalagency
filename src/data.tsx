@@ -423,7 +423,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/5752102/pexels-photo-5752102.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/5386485/pexels-photo-5386485.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Email marketing campaign on laptop showing newsletter signup form for Shopify store"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
