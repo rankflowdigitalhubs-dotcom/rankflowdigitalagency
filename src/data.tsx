@@ -315,7 +315,7 @@ export const portfolioItems = [
 ];
 
 export const blogPosts = [
-  { slug: 'how-to-get-more-dental-patients-from-google', title: 'How to Get More Dental Patients From Google Without Ads (12 Proven SEO Strategies)', category: 'Dental SEO', date: 'Jul 11, 2026', readTime: '14 min', excerpt: 'Struggling to get new dental patients from Google? Learn 12 proven dental SEO strategies to improve your Google rankings, attract more patients, and grow your practice without paid ads.', img: 'https://images.pexels.com/photos/3779758/pexels-photo-3779758.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'how-to-get-more-dental-patients-from-google', title: 'How to Get More Dental Patients From Google Without Ads (12 Proven SEO Strategies)', category: 'Dental SEO', date: 'Jul 11, 2026', readTime: '14 min', excerpt: 'Struggling to get new dental patients from Google? Learn 12 proven dental SEO strategies to improve your Google rankings, attract more patients, and grow your practice without paid ads.', img: 'https://images.pexels.com/photos/6627574/pexels-photo-6627574.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-is-my-restaurant-not-showing-up-on-google', title: 'Why Is My Restaurant Not Showing Up on Google? (11 Proven Fixes to Get Found by More Customers)', category: 'Local SEO', date: 'Jul 11, 2026', readTime: '11 min', excerpt: 'Is your restaurant invisible on Google Maps and Search? Learn 11 proven fixes to improve your local SEO, rank higher, and get more customers through your doors.', img: 'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'how-to-get-sales-on-shopify-without-ads', title: 'How to Get Sales on Shopify Without Ads', category: 'Shopify SEO', date: 'Jul 11, 2026', readTime: '12 min', excerpt: 'Getting Shopify traffic but no sales? Learn proven, ad-free strategies to increase Shopify sales with SEO, email marketing, social media, and conversion optimization.', img: 'https://images.pexels.com/photos/4219989/pexels-photo-4219989.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'ecommerce-store-not-performing', title: '4 Reasons Why Your eCommerce Store Is Not Performing Well (And How to Fix Them)', category: 'E-commerce', date: 'Jul 10, 2026', readTime: '10 min', excerpt: 'Is your online store getting traffic but not making sales? Discover the 4 biggest reasons eCommerce stores underperform — and the exact fixes you can apply today.', img: 'https://images.pexels.com/photos/5077047/pexels-photo-5077047.jpeg?auto=compress&cs=tinysrgb&w=1200' },
@@ -342,8 +342,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3779758/pexels-photo-3779758.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Dentist reviewing Google search results on a laptop to attract more dental patients through SEO"
+              src="https://images.pexels.com/photos/6627574/pexels-photo-6627574.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Dentist in a modern dental clinic performing a procedure on a patient, representing dental SEO and online visibility"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -376,8 +376,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Google Business Profile for a dental clinic showing complete business information and services"
+              src="https://images.pexels.com/photos/6812461/pexels-photo-6812461.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Dental clinic reception area with modern equipment, representing a Google Business Profile for a dental practice"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -421,8 +421,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/6538962/pexels-photo-6538962.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Local dental keyword research showing searches like dentist near me and cosmetic dentist in city"
+              src="https://images.pexels.com/photos/6627413/pexels-photo-6627413.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Dentist examining a patient in a modern dental office, representing local dental keyword targeting"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -465,8 +465,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/6627574/pexels-photo-6627574.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Dental clinic service pages showing treatments like implants, teeth whitening, and cosmetic dentistry"
+              src="https://images.pexels.com/photos/5355826/pexels-photo-5355826.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Dental implant model and tools on a clinic table, representing dental service pages for implants and treatments"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -509,8 +509,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3820461/pexels-photo-3820461.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Website speed optimization dashboard showing fast loading times for a dental clinic website"
+              src="https://images.pexels.com/photos/3881292/pexels-photo-3881292.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Modern dental clinic interior with dental chair and equipment, representing a fast-loading dental website"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -555,8 +555,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3779760/pexels-photo-3779760.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Mobile-friendly dental website displaying correctly on a smartphone with easy navigation and click-to-call button"
+              src="https://images.pexels.com/photos/6502623/pexels-photo-6502623.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Dental chair in a modern clinic, representing a mobile-friendly dental website with easy navigation"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -600,8 +600,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3779761/pexels-photo-3779761.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Google reviews and star ratings for a dental practice showing patient testimonials and feedback"
+              src="https://images.pexels.com/photos/5355920/pexels-photo-5355920.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Dental patient receiving treatment in a clinic, representing Google reviews and patient testimonials for a dental practice"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -644,8 +644,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3779762/pexels-photo-3779762.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Local business directory listings showing consistent dental practice information across the web"
+              src="https://images.pexels.com/photos/6812483/pexels-photo-6812483.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Dental clinic exterior with signage, representing local citations and directory listings for a dental practice"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -688,8 +688,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3779763/pexels-photo-3779763.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Dental blog content marketing strategy showing articles about oral health, treatments, and patient education"
+              src="https://images.pexels.com/photos/4269682/pexels-photo-4269682.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Dental tools and instruments arranged in a clinic, representing dental blog content about oral health and treatments"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -732,8 +732,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3779790/pexels-photo-3779790.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Website internal linking structure showing connections between dental service pages and blog posts"
+              src="https://images.pexels.com/photos/4687906/pexels-photo-4687906.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Dentist consulting with a patient in a clinic, representing internal linking between dental service pages and blog posts"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -776,8 +776,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3779764/pexels-photo-3779764.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Title tags and meta descriptions being optimized for dental SEO in Google search results"
+              src="https://images.pexels.com/photos/6627447/pexels-photo-6627447.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Dental professional examining tools in a modern clinic, representing optimized title tags and meta descriptions for dental SEO"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -820,8 +820,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Building local backlinks for dental SEO through community partnerships and local business directories"
+              src="https://images.pexels.com/photos/6812569/pexels-photo-6812569.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Modern dental office with advanced equipment, representing local backlinks for dental SEO through community partnerships"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -864,8 +864,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3779791/pexels-photo-3779791.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Google Search Console dashboard showing dental website SEO performance metrics and search queries"
+              src="https://images.pexels.com/photos/8260438/pexels-photo-8260438.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Dental clinic with modern technology and equipment, representing Google Search Console tracking for dental SEO performance"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -909,8 +909,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3779789/pexels-photo-3779789.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Comparison between dental SEO and dental paid ads showing cost, traffic, and long-term results"
+              src="https://images.pexels.com/photos/7800666/pexels-photo-7800666.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Dental team in a modern clinic, comparing dental SEO versus paid ads for long-term practice growth"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
@@ -974,8 +974,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3779792/pexels-photo-3779792.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Dental SEO action checklist with tasks for Google Business Profile, keywords, reviews, and website optimization"
+              src="https://images.pexels.com/photos/4687254/pexels-photo-4687254.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Dental professional working in a clinic, representing a dental SEO action checklist for practice growth"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
