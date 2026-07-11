@@ -315,6 +315,8 @@ export const portfolioItems = [
 ];
 
 export const blogPosts = [
+  { slug: 'how-to-get-sales-on-shopify-without-ads', title: 'How to Get Sales on Shopify Without Ads', category: 'Shopify SEO', date: 'Jul 11, 2026', readTime: '12 min', excerpt: 'Getting Shopify traffic but no sales? Learn proven, ad-free strategies to increase Shopify sales with SEO, email marketing, social media, and conversion optimization.', img: 'https://images.pexels.com/photos/4219989/pexels-photo-4219989.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'ecommerce-store-not-performing', title: '4 Reasons Why Your eCommerce Store Is Not Performing Well (And How to Fix Them)', category: 'E-commerce', date: 'Jul 10, 2026', readTime: '10 min', excerpt: 'Is your online store getting traffic but not making sales? Discover the 4 biggest reasons eCommerce stores underperform — and the exact fixes you can apply today.', img: 'https://images.pexels.com/photos/5077047/pexels-photo-5077047.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-competitors-ranking-higher-on-google', title: 'Why Are My Competitors Ranking Higher on Google?', category: 'SEO', date: 'Jul 9, 2026', readTime: '10 min', excerpt: 'Wondering why competitors outrank you on Google? Discover the real reasons behind their success and learn practical steps to close the gap and rank higher.', img: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-for-small-businesses', title: 'Local SEO for Small Businesses: The Complete Guide to Getting More Local Customers in 2026', category: 'Local SEO', date: 'Jul 8, 2026', readTime: '8 min', excerpt: 'Learn how Local SEO helps small businesses rank higher on Google, attract local customers, and increase sales with proven strategies.', img: 'https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-is-my-website-not-ranking-on-google', title: 'Why Is My Website Not Ranking on Google? 12 Common Reasons & How to Fix Them', category: 'SEO', date: 'Jul 8, 2026', readTime: '8 min', excerpt: 'Is your website not ranking on Google? Discover the 12 most common SEO mistakes that prevent websites from ranking and learn practical ways to improve your search visibility.', img: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200' },
@@ -330,6 +332,646 @@ export const blogPosts = [
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
 
 export const articleContent: Record<string, { sections: ArticleSection[]; faqs: { q: string; a: string }[] }> = {
+  'how-to-get-sales-on-shopify-without-ads': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Getting Traffic But No Sales on Shopify? You Are Not Alone',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/4219989/pexels-photo-4219989.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Shopify store owner looking at laptop with low sales dashboard and feeling frustrated"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              You built your Shopify store. You picked the products. You spent hours designing the layout. And when you finally launched, you waited for the sales to roll in. But they did not. Your traffic is low, your conversion rate is worse, and you are watching competitors rack up reviews while your store sits in silence.
+            </p>
+            <p>
+              Maybe you tried running ads. Maybe you burned through a hundred dollars on Facebook ads with nothing to show for it. Or maybe you simply do not have the budget to pour money into paid ads right now. Either way, you are stuck. You know your products are good. You know people would buy them if they could just find your store. But you do not know how to make that happen without spending money you do not have.
+            </p>
+            <p>
+              Here is the truth: ads are not the only way to get Shopify sales. In fact, many successful Shopify stores get most of their revenue from organic traffic, email marketing, and word-of-mouth. These channels are free. They just take time, effort, and the right strategy.
+            </p>
+            <p>
+              In this guide, I will show you exactly how to increase Shopify sales without spending a single dollar on ads. We will cover Shopify SEO, email marketing, social media, content marketing, and Shopify conversion optimization. By the end, you will have a clear, practical plan to turn your struggling store into a revenue-generating machine.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'shopify-seo-foundation',
+        heading: '1. Master Shopify SEO to Get Free Organic Traffic',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Shopify SEO optimization showing product pages ranking on Google search results"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              If your Shopify store does not show up on Google, you are invisible to the people who are actively searching for your products. Shopify SEO is the process of optimizing your store so Google ranks your product pages higher in search results. Higher Google rankings mean more organic traffic. And organic traffic is free.
+            </p>
+            <p>
+              The beauty of SEO is that it compounds over time. Unlike ads, where you pay for every click, SEO traffic keeps coming month after month without additional cost. Once your product pages start ranking, they can drive sales for years.
+            </p>
+            <h3>Product page SEO: The foundation of Shopify SEO</h3>
+            <p>
+              Every product page is an opportunity to rank on Google. But most Shopify store owners waste that opportunity. They use manufacturer descriptions, generic titles, and image filenames like "IMG_4032.jpg." Google sees these pages as thin and not worth ranking.
+            </p>
+            <p>
+              Here is how to fix your product page SEO:
+            </p>
+            <ul>
+              <li><strong>Write unique product descriptions.</strong> Do not copy what the manufacturer wrote. Explain the benefits in your own words. Aim for 200+ words per product.</li>
+              <li><strong>Optimize your title tags.</strong> Include your target keyword naturally. For example, "Red Leather Running Shoes | Brand Name" is better than just "Running Shoes."</li>
+              <li><strong>Use clean URLs.</strong> Shopify auto-generates URLs, but you can edit them. Keep them short and keyword-rich: "/products/red-leather-running-shoes" not "/products/2024-new-arrival-style-12345".</li>
+              <li><strong>Add alt text to every product image.</strong> Describe what the image shows using keywords. This helps Google understand your images and can drive traffic from Google Images.</li>
+              <li><strong>Add product schema markup.</strong> This lets Google display rich snippets like price, availability, and reviews directly in search results.</li>
+            </ul>
+            <h3>Technical SEO: Fix the hidden issues holding you back</h3>
+            <p>
+              Technical SEO is the behind-the-scenes work that helps Google crawl and index your store. If your store has technical issues, Google may not rank your pages even if your content is great.
+            </p>
+            <p>
+              Common technical SEO issues on Shopify stores include:
+            </p>
+            <ul>
+              <li><strong>Duplicate content</strong> from product variants creating multiple URLs for the same product.</li>
+              <li><strong>Slow page speed</strong> from large images and too many apps.</li>
+              <li><strong>Broken links</strong> from deleted products that return 404 errors.</li>
+              <li><strong>Missing canonical tags</strong> that tell Google which version of a page to index.</li>
+            </ul>
+            <p>
+              <em>Example:</em> A Shopify store selling handmade jewelry had 80 products but only 12 were indexed by Google. After a technical SEO audit, they discovered a robots.txt rule blocking their product directory. Once fixed, 76 products were indexed within three weeks and organic traffic grew by 45%.
+            </p>
+            <p>
+              Want to dig deeper into why your store might not be ranking? Check out our guide on <a href="#/blog/why-competitors-ranking-higher-on-google">why your competitors are ranking higher on Google</a> and our deep dive on <a href="#/blog/ecommerce-store-not-performing">eCommerce store performance issues</a>.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'email-marketing',
+        heading: '2. Build an Email List and Turn Visitors Into Repeat Buyers',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/5752102/pexels-photo-5752102.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Email marketing campaign on laptop showing newsletter signup form for Shopify store"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Email marketing is one of the highest-ROI channels for Shopify stores. For every dollar spent on email marketing, the average return is $36. And unlike ads, you own your email list. No algorithm change can take it away from you.
+            </p>
+            <p>
+              But here is the catch: you need a list first. Most Shopify stores do not collect emails because they do not give visitors a reason to subscribe. A generic "Subscribe to our newsletter" popup does not work. People get enough emails already. You need to offer something valuable in exchange.
+            </p>
+            <h3>How to build your email list without ads</h3>
+            <ol>
+              <li><strong>Offer a discount code.</strong> "Get 10% off your first order" is simple and effective. Most visitors will trade their email for a discount.</li>
+              <li><strong>Create a free guide.</strong> If you sell fitness products, offer a free "7-Day Home Workout Plan" PDF in exchange for an email.</li>
+              <li><strong>Use exit-intent popups.</strong> These appear when a visitor is about to leave your store. Offer your discount or guide right before they go.</li>
+              <li><strong>Add a signup form in your footer.</strong> Not everyone wants a popup. Give them a low-friction option at the bottom of every page.</li>
+            </ol>
+            <h3>Email sequences that drive Shopify sales</h3>
+            <p>
+              Once you have a list, you need to send emails that actually sell. Here is a simple three-email sequence that works for any Shopify store:
+            </p>
+            <ul>
+              <li><strong>Email 1 (Welcome):</strong> Deliver the discount code or free guide. Introduce your brand story. Make a good first impression.</li>
+              <li><strong>Email 2 (Bestsellers):</strong> Send 2-3 days later. Show your best-selling products with direct links to buy.</li>
+              <li><strong>Email 3 (Social proof):</strong> Send 5-7 days later. Share customer reviews, testimonials, or user-generated photos.</li>
+            </ul>
+            <p>
+              <em>Example:</em> A Shopify store selling organic skincare products started collecting emails with a 15% discount popup. In three months, they built a list of 2,400 subscribers. Their welcome sequence generated $4,200 in sales — all without spending on ads.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'social-media-organic',
+        heading: '3. Use Social Media to Drive Free Shopify Traffic',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Social media marketing on phone showing Instagram and TikTok for Shopify store promotion"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Social media is free distribution. You do not need to pay for ads to get reach. You need to create content that people want to engage with. The platforms that work best for Shopify stores right now are Instagram, TikTok, and Pinterest.
+            </p>
+            <p>
+              The key is consistency. You do not need to post five times a day. But you do need to show up regularly with content that your target audience finds useful, entertaining, or inspiring.
+            </p>
+            <h3>Content ideas that drive Shopify traffic</h3>
+            <ul>
+              <li><strong>Product demos.</strong> Show your product in action. People want to see how it works before they buy.</li>
+              <li><strong>Behind-the-scenes content.</strong> Show how your products are made. This builds trust and sets you apart from dropshippers.</li>
+              <li><strong>Customer features.</strong> Share photos or videos from happy customers (with permission). This is the most powerful form of social proof.</li>
+              <li><strong>Educational content.</strong> If you sell coffee, share brewing tips. If you sell fitness gear, share workout advice. Give value first, sell second.</li>
+              <li><strong>Trending audio and formats.</strong> Use trending sounds on TikTok and Reels to get more reach without paying for it.</li>
+            </ul>
+            <p>
+              <em>Example:</em> A Shopify store selling handmade candles started posting 15-second TikTok videos showing the candle-making process. One video got 240,000 views organically. That single video drove 1,800 visitors to their store and generated $3,100 in sales over two weeks — all for free.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'content-marketing',
+        heading: '4. Start Content Marketing to Attract Buyers From Google',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Content marketing strategy on laptop showing blog posts that drive organic traffic to Shopify store"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Content marketing means creating helpful articles, guides, or videos that answer questions your potential customers are searching for. When someone searches "best running shoes for flat feet" on Google, the stores that show up are the ones with content that answers that question.
+            </p>
+            <p>
+              Most Shopify stores only have product pages and a homepage. That is not enough to rank on Google. You need content that targets the questions your customers ask before they are ready to buy. This is called top-of-funnel content, and it is one of the best ways to get organic traffic.
+            </p>
+            <h3>How to start content marketing for your Shopify store</h3>
+            <ol>
+              <li><strong>Find questions your customers ask.</strong> Use Google's "People Also Ask" section, AnswerThePublic, or just think about the questions you get from customers.</li>
+              <li><strong>Write helpful blog posts.</strong> Each post should answer one question thoroughly. Aim for 1,000-1,500 words. Use simple language.</li>
+              <li><strong>Link to your products.</strong> Every blog post should include natural links to relevant products. Do not be pushy. Just make it easy for readers to explore.</li>
+              <li><strong>Promote your content.</strong> Share your posts on social media, in your email newsletter, and in relevant online communities.</li>
+            </ol>
+            <p>
+              <em>Example:</em> A Shopify store selling dog accessories started a blog. They wrote articles like "How to Choose the Right Dog Harness for Your Breed" and linked to their harness product pages. After six months, their blog was driving 3,500 monthly visitors, and 12% of those visitors clicked through to product pages. That is 420 potential buyers every month — all from free content.
+            </p>
+            <p>
+              For more on this approach, read our article on <a href="#/blog/why-is-my-website-not-ranking-on-google">why your website is not ranking on Google</a> and our <a href="#/blog/seo-strategy-that-actually-works">SEO strategy that actually works</a>.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'conversion-optimization',
+        heading: '5. Improve Shopify Conversion Optimization to Sell More From Existing Traffic',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Shopify conversion optimization showing checkout page improvements and A/B testing"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Getting more traffic is only half the battle. If your store converts at 1%, doubling your traffic only doubles your sales. But if you also improve your conversion rate from 1% to 2%, you quadruple your sales. Shopify conversion optimization is about making the most of every visitor you already have.
+            </p>
+            <p>
+              The average Shopify conversion rate is around 1.4%. Top-performing stores hit 3% or higher. The difference is not traffic. It is trust, clarity, and ease of buying.
+            </p>
+            <h3>Conversion rate comparison: Average vs. Optimized Shopify store</h3>
+            <div className="my-6 overflow-x-auto">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-white/10">
+                    <th className="py-3 pr-4 text-left font-semibold text-white">Metric</th>
+                    <th className="py-3 pr-4 text-left font-semibold text-white">Average Store</th>
+                    <th className="py-3 text-left font-semibold text-white">Optimized Store</th>
+                  </tr>
+                </thead>
+                <tbody className="text-slate-400">
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Conversion rate</td>
+                    <td className="py-3 pr-4">1.4%</td>
+                    <td className="py-3 text-brand-300">3.2%</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Cart abandonment</td>
+                    <td className="py-3 pr-4">70%</td>
+                    <td className="py-3 text-brand-300">45%</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Checkout steps</td>
+                    <td className="py-3 pr-4">5 steps</td>
+                    <td className="py-3 text-brand-300">2 steps</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3 pr-4">Mobile conversion</td>
+                    <td className="py-3 pr-4">0.9%</td>
+                    <td className="py-3 text-brand-300">2.8%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3>Practical ways to improve your Shopify conversion rate</h3>
+            <ul>
+              <li><strong>Enable guest checkout.</strong> Forcing account creation is the number one reason people abandon carts. Let them buy as guests.</li>
+              <li><strong>Show shipping costs upfront.</strong> Surprise costs at checkout cause 50% of cart abandonments. Be transparent from the product page.</li>
+              <li><strong>Add trust signals.</strong> Display security badges, return policy, and customer reviews near the Add to Cart button.</li>
+              <li><strong>Use high-quality product images.</strong> Include multiple angles and zoom. Shoppers cannot touch products online — images are all they have.</li>
+              <li><strong>Simplify your checkout.</strong> Reduce it to two steps: information and payment. Remove unnecessary fields.</li>
+              <li><strong>Optimize for mobile.</strong> Over 60% of Shopify traffic comes from phones. If your mobile checkout is clunky, you are losing most of your sales.</li>
+            </ul>
+            <p>
+              <em>Example:</em> A Shopify store selling home decor enabled guest checkout, added review badges, and showed shipping costs on the product page. Their conversion rate went from 1.1% to 2.6% in five weeks. Same traffic, more than double the sales.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'action-plan',
+        heading: 'Your Ad-Free Shopify Sales Plan: Week by Week',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/7651975/pexels-photo-7651975.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Week by week action plan checklist for increasing Shopify sales without ads"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              You do not need to do everything at once. But you do need a plan. Here is a realistic schedule you can follow even if you are running your store alone:
+            </p>
+            <ul>
+              <li><strong>Week 1:</strong> Audit your store. Check Google Search Console for indexing issues. Review your top 10 product pages for SEO basics.</li>
+              <li><strong>Week 2:</strong> Fix product page SEO. Rewrite descriptions, optimize titles, add alt text, and compress images for speed.</li>
+              <li><strong>Week 3:</strong> Set up email capture. Add a discount popup, create a welcome sequence, and start collecting subscribers.</li>
+              <li><strong>Week 4:</strong> Start posting on social media. Commit to 3 posts per week. Focus on product demos and behind-the-scenes content.</li>
+              <li><strong>Week 5:</strong> Write your first blog post. Answer a question your customers ask. Link to your products naturally.</li>
+              <li><strong>Week 6:</strong> Improve conversion rate. Enable guest checkout, add trust signals, and simplify your mobile checkout.</li>
+              <li><strong>Week 7 onwards:</strong> Keep going. SEO and content marketing compound over time. The stores that win are the ones that stay consistent.</li>
+            </ul>
+            <p>
+              You will not see results overnight. But if you follow this plan for 90 days, you will see more organic traffic, more email subscribers, and more Shopify sales — all without spending on ads.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'conclusion',
+        heading: 'You Do Not Need Ads to Grow Your Shopify Store',
+        body: (
+          <>
+            <p>
+              Ads can work. But they are not the only way to get Shopify sales. And they are definitely not the best option when you are just starting out and do not have money to burn.
+            </p>
+            <p>
+              The strategies in this guide — Shopify SEO, email marketing, social media, content marketing, and Shopify conversion optimization — are proven, sustainable, and free. They take effort. But they build a foundation that ads cannot. When you stop paying for ads, the traffic stops. When you invest in SEO and content, the traffic keeps coming.
+            </p>
+            <p>
+              You do not have to figure this out alone. At Rank Flow Agency, we help Shopify store owners increase sales through organic traffic, better SEO, and conversion optimization. We handle the technical work, the content, and the strategy — so you can focus on running your business.
+            </p>
+            <p>
+              <strong>Want to know exactly what is holding your Shopify store back?</strong> <a href="#/contact">Get a free SEO audit from Rank Flow Agency today.</a> We will identify every issue and give you a clear, prioritized plan to fix it — no ads required.
+            </p>
+          </>
+        ),
+      },
+    ],
+    faqs: [
+      {
+        q: 'Can I really get Shopify sales without running any ads?',
+        a: 'Yes. Many successful Shopify stores get most of their sales from organic traffic, email marketing, and social media. These channels take time to build but are free and sustainable long-term. Ads can accelerate growth, but they are not required to make sales.',
+      },
+      {
+        q: 'How long does Shopify SEO take to show results?',
+        a: 'Most Shopify stores see noticeable improvements in Google rankings and organic traffic within 3-6 months. Product page SEO fixes can show results faster, sometimes within 4-8 weeks. Competitive niches may take longer, but consistent effort always pays off.',
+      },
+      {
+        q: 'What is a good conversion rate for a Shopify store?',
+        a: 'The average Shopify conversion rate is around 1.4%. Stores above 2.5% are performing well. If your conversion rate is below 1%, focus on simplifying checkout, adding trust signals, and improving product page quality before investing in more traffic.',
+      },
+      {
+        q: 'What is the best free email marketing tool for Shopify?',
+        a: 'Klaviyo offers a free plan for up to 250 contacts and 500 emails per month. Mailchimp also has a free tier. For new Shopify stores, Klaviyo is recommended because it integrates deeply with Shopify and tracks revenue from each email.',
+      },
+      {
+        q: 'Do I need to write blog posts for my Shopify store?',
+        a: 'You do not have to, but content marketing is one of the most effective ways to get organic traffic from Google. Writing helpful articles that answer your customers questions builds authority, drives traffic, and creates natural links to your product pages. One post per month is a good starting point.',
+      },
+    ],
+  },
+  'ecommerce-store-not-performing': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Is Your eCommerce Store Struggling to Make Sales?',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/5077047/pexels-photo-5077047.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="eCommerce store dashboard showing low sales and traffic metrics"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              You launched your online store with high hopes. You added products, set up payment, and maybe even ran some ads. But the sales are not coming in the way you expected. Your website traffic is low, your conversion rate is disappointing, and you are watching competitors rack up reviews while your store sits in silence.
+            </p>
+            <p>
+              If this sounds familiar, you are not alone. Most eCommerce store owners hit this wall. The problem is usually not your product — it is how your store is built, optimized, and presented to both Google and your customers.
+            </p>
+            <p>
+              After running SEO audits on dozens of online stores, we see the same four issues over and over. The good news is that each one has a clear fix. In this article, we will break down exactly why your store is underperforming and what you can do today to turn it around.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-1-poor-product-page-seo',
+        heading: 'Reason 1: Your Product Pages Are Not Optimized for Search',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Product page with SEO elements like title tags and meta descriptions being optimized"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Your product pages are the heart of your online store. They are where browsers become buyers. But if those pages are not optimized for search, Google will not show them — and customers will never find them.
+            </p>
+            <p>
+              Many store owners copy manufacturer descriptions, use generic image filenames like "IMG_4032.jpg," and skip writing meta titles altogether. These mistakes tell Google your pages are thin and not worth ranking.
+            </p>
+            <h3>Common product page SEO mistakes</h3>
+            <ul>
+              <li><strong>Duplicate descriptions</strong> — Using the same manufacturer text as 50 other stores means Google sees no unique value.</li>
+              <li><strong>Missing or generic title tags</strong> — "Product Name | Store" is not enough. You need keywords customers actually search for.</li>
+              <li><strong>No customer reviews</strong> — Reviews add fresh, unique content that Google loves and shoppers trust.</li>
+              <li><strong>Thin content</strong> — A one-line description gives Google nothing to rank. Aim for 200+ words of helpful, original text.</li>
+            </ul>
+            <h3>How to fix your product pages</h3>
+            <ul>
+              <li>Write unique descriptions for every product. Explain benefits, not just features.</li>
+              <li>Include your target keyword in the title tag, H1, URL, and first 100 words.</li>
+              <li>Add structured data (schema markup) so Google can display rich snippets like price and availability.</li>
+              <li>Rename image files with descriptive keywords (e.g., "red-leather-running-shoes.jpg" instead of "IMG_4032.jpg").</li>
+              <li>Encourage and display customer reviews on every product page.</li>
+            </ul>
+            <p>
+              A Shopify SEO client in the fitness niche rewrote 40 product descriptions and added review schema. Within three months, their product pages started ranking for long-tail keywords and organic traffic grew by 62%.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-2-slow-website-speed',
+        heading: 'Reason 2: Your Website Speed Is Driving Customers Away',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/4218627/pexels-photo-4218627.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Website speed test showing slow page load times on a mobile device"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Website speed is not just a technical detail — it directly affects your sales. Research shows that a 1-second delay in page load time can reduce conversion rates by 7%. If your store takes 4 seconds or more to load, you are losing customers before they even see your products.
+            </p>
+            <p>
+              Google also uses page speed as a ranking factor. Slow sites rank lower in search results, which means less website traffic from Google rankings. It is a double loss: fewer visitors and fewer sales from the visitors you do get.
+            </p>
+            <h3>What slows down eCommerce stores</h3>
+            <ul>
+              <li>Large, uncompressed product images (the #1 cause of slow stores)</li>
+              <li>Too many apps or plugins running at once</li>
+              <li>Bloated theme code with unused features</li>
+              <li>No caching or content delivery network (CDN)</li>
+              <li>Render-blocking JavaScript and CSS files</li>
+            </ul>
+            <h3>Speed comparison: Before vs. After optimization</h3>
+            <div className="my-6 overflow-x-auto">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-white/10">
+                    <th className="py-3 pr-4 text-left font-semibold text-white">Metric</th>
+                    <th className="py-3 pr-4 text-left font-semibold text-white">Before</th>
+                    <th className="py-3 text-left font-semibold text-white">After</th>
+                  </tr>
+                </thead>
+                <tbody className="text-slate-400">
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Page load time</td>
+                    <td className="py-3 pr-4">5.8 seconds</td>
+                    <td className="py-3 text-brand-300">1.9 seconds</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Page size</td>
+                    <td className="py-3 pr-4">4.2 MB</td>
+                    <td className="py-3 text-brand-300">1.1 MB</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Google PageSpeed score</td>
+                    <td className="py-3 pr-4">34 / 100</td>
+                    <td className="py-3 text-brand-300">89 / 100</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3 pr-4">Conversion rate</td>
+                    <td className="py-3 pr-4">1.2%</td>
+                    <td className="py-3 text-brand-300">2.8%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3>How to speed up your store</h3>
+            <ul>
+              <li>Compress all product images. Use WebP format instead of PNG or JPG.</li>
+              <li>Remove apps and plugins you are not actively using.</li>
+              <li>Enable lazy loading so images only load when the visitor scrolls to them.</li>
+              <li>Use a CDN like Cloudflare to serve images from servers close to your customers.</li>
+              <li>Minify CSS and JavaScript files to reduce their size.</li>
+            </ul>
+            <p>
+              A WooCommerce SEO client reduced their load time from 5.8 to 1.9 seconds. Their conversion rate jumped from 1.2% to 2.8% — more than doubling their sales from the same amount of traffic.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-3-weak-technical-seo',
+        heading: 'Reason 3: Technical SEO Issues Are Blocking Google',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Technical SEO audit showing crawl errors and indexing issues in Google Search Console"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Technical SEO is the foundation that everything else is built on. If Google cannot crawl and index your store properly, your products will not show up in search results — no matter how good your content is.
+            </p>
+            <p>
+              Many store owners do not even know these problems exist because they are invisible. You need to run an SEO audit to find them.
+            </p>
+            <h3>Common technical SEO issues in eCommerce</h3>
+            <ul>
+              <li><strong>Indexation problems</strong> — Google may be blocked from indexing your product pages due to robots.txt or noindex tags.</li>
+              <li><strong>Broken links and 404 errors</strong> — When products go out of stock or are removed, the old URLs create errors that waste Google's crawl budget.</li>
+              <li><strong>Missing canonical tags</strong> — Product variants (size, color) can create duplicate URLs that confuse Google.</li>
+              <li><strong>Poor URL structure</strong> — URLs like "/collections/all/products/item?id=123" are messy. Clean URLs like "/products/red-leather-jacket" rank better.</li>
+              <li><strong>No XML sitemap</strong> — Without a sitemap, Google may miss important pages on larger stores.</li>
+            </ul>
+            <h3>How to fix technical SEO issues</h3>
+            <ul>
+              <li>Run a full SEO audit using Google Search Console and a tool like Screaming Frog or Ahrefs Site Audit.</li>
+              <li>Set up 301 redirects for discontinued products to point to similar items or category pages.</li>
+              <li>Add canonical tags to product variant pages to point to the main product URL.</li>
+              <li>Submit an updated XML sitemap through Google Search Console.</li>
+              <li>Fix URL structures to be clean, short, and keyword-rich.</li>
+              <li>Check that your robots.txt file is not accidentally blocking important pages.</li>
+            </ul>
+            <p>
+              An online clothing store had 800 product pages, but Google was only indexing 200 of them. After a technical SEO audit, they discovered a robots.txt rule was blocking their product directory. Once fixed, indexed pages jumped to 780 within four weeks.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-4-poor-conversion-rate',
+        heading: "Reason 4: Your Store's Conversion Rate Is Too Low",
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="eCommerce checkout page being optimized to improve conversion rate and reduce cart abandonment"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              You could have thousands of visitors every month and still not make many sales if your conversion rate is low. Conversion rate is the percentage of visitors who actually buy something. The average eCommerce conversion rate is around 2-3%. If yours is below 1%, your store has a problem.
+            </p>
+            <p>
+              Low conversion usually comes down to one thing: trust. If shoppers do not trust your store, they will not give you their money. And trust is built through dozens of small signals on your website.
+            </p>
+            <h3>What kills your conversion rate</h3>
+            <ul>
+              <li><strong>Complicated checkout</strong> — Too many steps, forced account creation, or hidden shipping costs make people leave.</li>
+              <li><strong>No trust signals</strong> — Missing return policy, no security badges, no reviews, and no contact information.</li>
+              <li><strong>Low-quality product images</strong> — Shoppers cannot touch or try products online. They rely on images to decide.</li>
+              <li><strong>Unclear pricing</strong> — Surprise costs at checkout (tax, shipping) cause cart abandonment.</li>
+              <li><strong>No mobile optimization</strong> — Over 60% of online shopping happens on phones. If checkout is hard on mobile, you lose sales.</li>
+            </ul>
+            <h3>How to improve your conversion rate</h3>
+            <ul>
+              <li>Enable guest checkout so customers can buy without creating an account.</li>
+              <li>Show shipping costs upfront on the product page, not at the final checkout step.</li>
+              <li>Add trust badges (SSL, payment security, money-back guarantee) near the "Add to Cart" button.</li>
+              <li>Use high-quality product images from multiple angles. Include zoom functionality.</li>
+              <li>Add a clear, easy-to-find return policy.</li>
+              <li>Display customer reviews and ratings prominently on each product page.</li>
+              <li>Simplify your checkout to 3 steps or fewer: information, shipping, payment.</li>
+            </ul>
+            <p>
+              A home goods store added guest checkout, visible shipping costs, and review badges. Their conversion rate went from 0.8% to 2.4% in six weeks — tripling their sales from the same traffic.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'action-plan',
+        heading: 'Your eCommerce Fix Plan: Step by Step',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/7651975/pexels-photo-7651975.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="eCommerce optimization action plan checklist with step-by-step tasks"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              You do not need to fix everything at once. But you do need a plan. Here is a prioritized schedule you can follow:
+            </p>
+            <ul>
+              <li><strong>Week 1:</strong> Run a full SEO audit on your store. Identify technical issues, broken links, and indexation problems.</li>
+              <li><strong>Week 2:</strong> Fix website speed. Compress all images, remove unused apps, and set up a CDN.</li>
+              <li><strong>Week 3:</strong> Rewrite your top 10 product page descriptions. Add unique titles, meta descriptions, and schema markup.</li>
+              <li><strong>Week 4:</strong> Improve your checkout flow. Enable guest checkout, add trust badges, and show shipping costs upfront.</li>
+              <li><strong>Week 5 onwards:</strong> Continue optimizing product pages in batches of 10 per week. Monitor Google Search Console for improvements.</li>
+            </ul>
+            <p>
+              eCommerce SEO is not a one-time fix. It is an ongoing process of testing, improving, and measuring. But if you follow this plan, you will see results within 3-6 months.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'conclusion',
+        heading: 'Turn Your Struggling Store into a Revenue Machine',
+        body: (
+          <>
+            <p>
+              Your online store has potential. The products are there. The market is there. What is missing is the optimization that turns visitors into buyers and Google rankings into traffic.
+            </p>
+            <p>
+              The four issues we covered — poor product page SEO, slow website speed, technical SEO problems, and low conversion rates — are the most common reasons eCommerce stores underperform. Fix them, and you will see more traffic, more sales, and more growth.
+            </p>
+            <p>
+              But we know that running a business leaves little time for SEO audits, image compression, and schema markup. That is where Rank Flow Agency comes in. Our team specializes in eCommerce SEO for Shopify and WooCommerce stores. We handle the technical work, the optimization, and the content — so you can focus on running your business.
+            </p>
+            <p>
+              <strong>Want to know exactly what is holding your store back?</strong> Get a free SEO audit from Rank Flow Agency. We will identify every issue and give you a clear, prioritized plan to fix it.
+            </p>
+            <p>
+              <a href="#/contact">Contact Rank Flow Agency today and let us turn your store into a revenue machine.</a>
+            </p>
+          </>
+        ),
+      },
+    ],
+    faqs: [
+      {
+        q: 'How long does eCommerce SEO take to show results?',
+        a: 'Most online stores see noticeable improvements in Google rankings and website traffic within 3-6 months. Product page optimization and speed fixes can show results faster — sometimes within 4-8 weeks. Competitive niches may take longer.',
+      },
+      {
+        q: 'Should I choose Shopify or WooCommerce for SEO?',
+        a: 'Both platforms can rank well with proper optimization. Shopify SEO is easier for beginners because it handles technical basics out of the box. WooCommerce SEO offers more flexibility and control but requires more technical knowledge. The best choice depends on your team and needs.',
+      },
+      {
+        q: 'How many product pages should I optimize first?',
+        a: 'Start with your top 10 best-selling or highest-traffic product pages. These give you the fastest return. Once those are optimized, work through the rest in batches of 10 per week.',
+      },
+      {
+        q: 'What is a good conversion rate for an eCommerce store?',
+        a: 'The average eCommerce conversion rate is 2-3%. Stores above 3% are doing well. If your rate is below 1%, focus on checkout simplification, trust signals, and product page improvements.',
+      },
+      {
+        q: 'Do I need to hire an agency for eCommerce SEO?',
+        a: 'You can handle basic SEO yourself with free tools and guides. But if your store has hundreds of products, technical issues, or you lack time, an agency like Rank Flow Agency can save you months of trial and error and get results faster.',
+      },
+    ],
+  },
   'why-competitors-ranking-higher-on-google': {
     sections: [
       {
