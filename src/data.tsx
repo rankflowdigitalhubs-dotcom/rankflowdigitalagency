@@ -421,7 +421,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/6538962/pexels-photo-6538962.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Local dental keyword research showing searches like dentist near me and cosmetic dentist in city"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
@@ -509,7 +509,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/3820461/pexels-photo-3820461.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Website speed optimization dashboard showing fast loading times for a dental clinic website"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
@@ -555,7 +555,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/3779760/pexels-photo-3779760.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Mobile-friendly dental website displaying correctly on a smartphone with easy navigation and click-to-call button"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
@@ -600,7 +600,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3775535/pexels-photo-3775535.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/3779761/pexels-photo-3779761.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Google reviews and star ratings for a dental practice showing patient testimonials and feedback"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
@@ -644,7 +644,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3214788/pexels-photo-3214788.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/3779762/pexels-photo-3779762.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Local business directory listings showing consistent dental practice information across the web"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
@@ -688,7 +688,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/3779763/pexels-photo-3779763.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dental blog content marketing strategy showing articles about oral health, treatments, and patient education"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
@@ -732,7 +732,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/3779790/pexels-photo-3779790.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Website internal linking structure showing connections between dental service pages and blog posts"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
@@ -776,7 +776,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/3779764/pexels-photo-3779764.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Title tags and meta descriptions being optimized for dental SEO in Google search results"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
@@ -864,7 +864,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/3779791/pexels-photo-3779791.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Google Search Console dashboard showing dental website SEO performance metrics and search queries"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
@@ -909,7 +909,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/3779789/pexels-photo-3779789.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Comparison between dental SEO and dental paid ads showing cost, traffic, and long-term results"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
@@ -974,7 +974,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <img
-              src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/3779792/pexels-photo-3779792.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dental SEO action checklist with tasks for Google Business Profile, keywords, reviews, and website optimization"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
