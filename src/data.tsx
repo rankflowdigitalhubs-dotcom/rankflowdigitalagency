@@ -551,7 +551,6 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       {
         id: 'mobile-friendly',
         heading: '5. Make Your Website Mobile-Friendly',
-        text: 'Make Your Website Mobile-Friendly',
         body: (
           <>
             <img
