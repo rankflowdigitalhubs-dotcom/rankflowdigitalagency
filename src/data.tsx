@@ -315,6 +315,7 @@ export const portfolioItems = [
 ];
 
 export const blogPosts = [
+  { slug: 'why-is-my-restaurant-not-showing-up-on-google', title: 'Why Is My Restaurant Not Showing Up on Google? (11 Proven Fixes to Get Found by More Customers)', category: 'Local SEO', date: 'Jul 11, 2026', readTime: '11 min', excerpt: 'Is your restaurant invisible on Google Maps and Search? Learn 11 proven fixes to improve your local SEO, rank higher, and get more customers through your doors.', img: 'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'how-to-get-sales-on-shopify-without-ads', title: 'How to Get Sales on Shopify Without Ads', category: 'Shopify SEO', date: 'Jul 11, 2026', readTime: '12 min', excerpt: 'Getting Shopify traffic but no sales? Learn proven, ad-free strategies to increase Shopify sales with SEO, email marketing, social media, and conversion optimization.', img: 'https://images.pexels.com/photos/4219989/pexels-photo-4219989.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'ecommerce-store-not-performing', title: '4 Reasons Why Your eCommerce Store Is Not Performing Well (And How to Fix Them)', category: 'E-commerce', date: 'Jul 10, 2026', readTime: '10 min', excerpt: 'Is your online store getting traffic but not making sales? Discover the 4 biggest reasons eCommerce stores underperform — and the exact fixes you can apply today.', img: 'https://images.pexels.com/photos/5077047/pexels-photo-5077047.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-competitors-ranking-higher-on-google', title: 'Why Are My Competitors Ranking Higher on Google?', category: 'SEO', date: 'Jul 9, 2026', readTime: '10 min', excerpt: 'Wondering why competitors outrank you on Google? Discover the real reasons behind their success and learn practical steps to close the gap and rank higher.', img: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1200' },
@@ -332,6 +333,467 @@ export const blogPosts = [
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
 
 export const articleContent: Record<string, { sections: ArticleSection[]; faqs: { q: string; a: string }[] }> = {
+  'why-is-my-restaurant-not-showing-up-on-google': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Why Is My Restaurant Not Showing Up on Google?',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Restaurant owner looking at phone wondering why their restaurant is not showing up on Google Search"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              You poured your heart into your restaurant. The food is great. The service is warm. The atmosphere is exactly what your neighborhood needed. But every time someone searches "restaurant near me" on Google, your place is nowhere to be found.
+            </p>
+            <p>
+              Instead, you watch competitors with worse food and higher prices show up at the top of Google Maps. You see them get the reservations, the foot traffic, the online orders — while your tables sit half empty on a Friday night.
+            </p>
+            <p>
+              It is frustrating. It is unfair. And if you do not know how local SEO works, it feels impossible to fix.
+            </p>
+            <p>
+              Here is the good news: getting your restaurant to show up on Google is not magic. It is a system. And once you understand how that system works, you can start ranking higher, getting found by more customers, and filling more tables — without paying for ads.
+            </p>
+            <p>
+              In this guide, I will walk you through 11 proven fixes for restaurant Google ranking. Whether you are a new restaurant just starting out or an established spot that has been invisible on Google for years, these steps will help you improve your online visibility and get more customers through your doors.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'google-business-profile',
+        heading: '1. Claim and Optimize Your Google Business Profile',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/4252130/pexels-photo-4252130.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Google Business Profile dashboard being optimized for restaurant local SEO with complete business information"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Your Google Business Profile (formerly Google My Business) is the single most important factor in local SEO for restaurants. It is the listing that appears on Google Maps and in the local pack — the top three results that show up when someone searches for a restaurant nearby.
+            </p>
+            <p>
+              If you have not claimed your profile, Google may have created one automatically using publicly available data. That auto-generated profile is often incomplete, inaccurate, and unoptimized. Claiming it gives you control.
+            </p>
+            <h3>How to optimize your Google Business Profile</h3>
+            <ul>
+              <li><strong>Verify your ownership.</strong> Go to business.google.com, search for your restaurant, and follow the verification process (usually a postcard with a code arrives in 1-2 weeks).</li>
+              <li><strong>Fill out every field.</strong> Hours, phone number, website URL, menu link, reservation link, attributes like "outdoor seating" or "family-friendly" — fill in everything Google asks for.</li>
+              <li><strong>Choose the right primary category.</strong> "Restaurant" is too broad. Be specific: "Italian Restaurant," "Sushi Restaurant," "Mexican Restaurant." This single choice affects which searches you appear in.</li>
+              <li><strong>Write a compelling description.</strong> Use 750 characters to describe your food, atmosphere, and what makes you unique. Include keywords naturally — do not stuff them.</li>
+              <li><strong>Add photos regularly.</strong> Restaurants with 100+ photos get significantly more direction requests and calls than those with fewer than 10.</li>
+            </ul>
+            <p>
+              <em>Example:</em> A family-owned Thai restaurant in Austin was not showing up in local searches at all. After claiming their Google Business Profile, selecting "Thai Restaurant" as their category, and adding 40 photos of their dishes and dining room, they appeared in the Google Maps local pack within three weeks. Calls for reservations increased by 35%.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'nap-consistency',
+        heading: '2. Fix Your NAP Citations Across the Web',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/3214788/pexels-photo-3214788.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Local business directory listings showing consistent NAP information for restaurant local SEO"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              NAP stands for Name, Address, and Phone number. Google uses these citations across the web to verify your restaurant's existence and location. If your NAP is inconsistent — different phone numbers on Yelp, Facebook, and your website — Google loses trust and may rank you lower.
+            </p>
+            <h3>How to fix your NAP citations</h3>
+            <ul>
+              <li>Search for your restaurant on Yelp, TripAdvisor, Facebook, Apple Maps, Bing Places, and Yellow Pages.</li>
+              <li>Claim each listing and update the name, address, and phone number to match your Google Business Profile exactly.</li>
+              <li>Use the exact same format everywhere. If your Google profile says "123 Main St," do not write "123 Main Street" elsewhere.</li>
+              <li>Check for duplicate listings and request removal of any old or closed listings.</li>
+            </ul>
+            <p>
+              <em>Example:</em> A burger joint in Chicago had two different phone numbers listed online — their old landline and their new mobile. Google saw conflicting data and demoted their listing. After updating all citations to the correct number, their Google Maps ranking improved within two weeks.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'on-page-seo',
+        heading: '3. Optimize Your Restaurant Website for SEO',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Restaurant website being optimized for SEO with menu pages and local keywords"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Many restaurants do not have a website at all. Others have a single-page site with a PDF menu and nothing else. Neither helps you rank on Google. Restaurant website SEO is about creating pages that Google can understand and rank for local searches.
+            </p>
+            <h3>Essential pages for restaurant website SEO</h3>
+            <ul>
+              <li><strong>Homepage:</strong> Include your restaurant name, cuisine type, city, and neighborhood in the title tag and H1. Example: "Best Italian Restaurant in Downtown Seattle | Marco's Trattoria"</li>
+              <li><strong>Menu page:</strong> Use text, not a PDF. Google cannot read PDFs well. Include dish names, descriptions, and prices as HTML text.</li>
+              <li><strong>About page:</strong> Tell your story. Google values unique, original content. A 300-word about page helps.</li>
+              <li><strong>Contact page:</strong> Include your full address, phone number, hours, and an embedded Google Map.</li>
+              <li><strong>Location/neighborhood page:</strong> Create a page targeting your area. Example: "Italian Restaurant in Capitol Hill, Seattle."</li>
+            </ul>
+            <p>
+              <em>Example:</em> A pizza restaurant in Brooklyn replaced their PDF menu with an HTML text menu page. Within six weeks, they started ranking for searches like "best pepperoni pizza in Brooklyn" and "pizza delivery near me" in their neighborhood.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'reviews',
+        heading: '4. Get More Google Reviews (And Respond to All of Them)',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/3775535/pexels-photo-3775535.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Google reviews and star ratings on a phone showing customer feedback for a restaurant"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Reviews are one of the top three ranking factors for local SEO. Restaurants with more reviews and higher ratings rank higher on Google Maps. But it is not just about quantity — Google also looks at how recent your reviews are and whether you respond to them.
+            </p>
+            <h3>How to get more Google reviews</h3>
+            <ul>
+              <li><strong>Ask at the right moment.</strong> Train your staff to ask for a review when customers express satisfaction — right after a great meal, not at the end of a rushed bill.</li>
+              <li><strong>Use a QR code.</strong> Place a QR code on your check presenter or receipt that links directly to your Google review page.</li>
+              <li><strong>Follow up by email.</strong> If you take online orders, send a follow-up email 24 hours later asking for a review with a direct link.</li>
+              <li><strong>Respond to every review.</strong> Thank happy customers by name. For negative reviews, apologize professionally and offer to make it right. Google sees active engagement as a positive signal.</li>
+            </ul>
+            <p>
+              <em>Example:</em> A sushi restaurant in Miami started placing QR codes on their tables linking to their Google review page. They went from 23 reviews to 187 reviews in four months. Their Google Maps ranking jumped from page 3 to the local pack (top 3).
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'local-keywords',
+        heading: '5. Target Local Keywords on Your Website',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Local keyword research for restaurant SEO showing searches like best restaurant near me and food nearby"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              People do not search for your restaurant by name — they search by cuisine and location. "Best tacos near me," "Italian restaurant in downtown," "brunch in Austin." If your website does not include these local keywords, Google will not show you for those searches.
+            </p>
+            <h3>Where to use local keywords</h3>
+            <ul>
+              <li><strong>Title tags:</strong> "Best Tacos in East Austin | El Paso Taco Co."</li>
+              <li><strong>Meta descriptions:</strong> "Looking for authentic street tacos in East Austin? Visit El Paso Taco Co. for fresh, handmade tacos daily."</li>
+              <li><strong>Page headings:</strong> Use H2 and H3 tags with local keywords like "Our East Austin Taco Menu."</li>
+              <li><strong>Image alt text:</strong> "Carne asada tacos at El Paso Taco Co. in East Austin."</li>
+              <li><strong>URL slugs:</strong> /east-austin-taco-menu instead of /page-3.</li>
+            </ul>
+            <p>
+              <em>Example:</em> A breakfast spot in Portland added a page titled "Best Brunch in Pearl District, Portland." Within two months, they ranked on page 1 for "brunch in Pearl District" and "breakfast near me" in that neighborhood.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'website-speed-mobile',
+        heading: '6. Make Your Website Fast and Mobile-Friendly',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Mobile-friendly restaurant website loading fast on a smartphone showing menu and reservation options"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Over 60% of restaurant searches happen on mobile phones. If your website takes more than 3 seconds to load, most people will leave. Google also uses mobile page speed as a ranking factor — slow sites rank lower.
+            </p>
+            <h3>Quick wins for speed and mobile</h3>
+            <ul>
+              <li>Compress all images. A 5MB hero photo should be under 300KB.</li>
+              <li>Use a mobile-responsive theme. Test it on Google's Mobile-Friendly Test tool.</li>
+              <li>Remove unused plugins and scripts.</li>
+              <li>Use a fast hosting provider.</li>
+              <li>Enable browser caching so returning visitors load faster.</li>
+            </ul>
+            <p>
+              <em>Example:</em> A steakhouse in Denver had a website that took 7 seconds to load on mobile. After compressing images and removing three unused plugins, load time dropped to 2.1 seconds. Their bounce rate fell from 68% to 41%, and Google rankings improved within a month.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'schema-markup',
+        heading: '7. Add Restaurant Schema Markup to Your Website',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Schema markup code being added to a restaurant website for rich snippets in Google Search results"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Schema markup is a type of code that helps Google understand your website better. For restaurants, it lets Google display rich snippets — like your menu, price range, hours, and star ratings — directly in search results. These snippets make your listing more attractive and increase click-through rates.
+            </p>
+            <p>
+              You do not need to be a developer to add schema. Use Google's Structured Data Markup Helper or a WordPress plugin like Yoast Local SEO. The key fields to include are:
+            </p>
+            <ul>
+              <li>Restaurant name, address, and phone number</li>
+              <li>Opening hours for each day</li>
+              <li>Price range (e.g., $)</li>
+              <li>Cuisine type</li>
+              <li>Menu URL</li>
+              <li>Reservation URL</li>
+              <li>Aggregate rating (if you have reviews on your site)</li>
+            </ul>
+            <p>
+              <em>Example:</em> A Mediterranean restaurant in Los Angeles added restaurant schema markup to their homepage. Their Google search listing started showing their price range ($) and hours directly in results. Click-through rate from Google Search increased by 22%.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'content-marketing',
+        heading: '8. Create Local Content That Attracts Organic Traffic',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Restaurant blog content marketing strategy showing local food guides and neighborhood articles"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Most restaurant websites have zero blog content. That is a missed opportunity. Content marketing helps you rank for searches beyond just your restaurant name. People search for "best pizza in [city]," "where to eat in [neighborhood]," and "date night restaurants in [area]." If you create content around these searches, you can capture that organic traffic.
+            </p>
+            <h3>Content ideas for restaurants</h3>
+            <ul>
+              <li>"Top 5 Date Night Restaurants in [Your Neighborhood]" (feature yourself and others)</li>
+              <li>"The History of [Your Cuisine] in [Your City]"</li>
+              <li>"How to Choose the Best Wine for Italian Food" (educational content)</li>
+              <li>"What Makes Our [Signature Dish] Special" (behind-the-scenes story)</li>
+              <li>"A Local's Guide to Eating in [Your Neighborhood]"</li>
+            </ul>
+            <p>
+              <em>Example:</em> A ramen shop in San Francisco started writing monthly blog posts about Japanese food culture and neighborhood dining guides. After five months, their blog posts were driving 1,200 monthly visitors — many of whom discovered the restaurant through the blog and became regular customers.
+            </p>
+            <p>
+              For more content marketing strategies, check out our guide on <a href="#/blog/seo-strategy-that-actually-works">SEO strategy that actually works</a>.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'social-media',
+        heading: '9. Use Social Media to Boost Your Local Search Presence',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Restaurant social media marketing on Instagram showing food photos and customer engagement"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Social media is not a direct Google ranking factor, but it supports your local SEO in two important ways. First, social profiles often rank on Google themselves — your Instagram or Facebook page can show up when people search for your restaurant. Second, social media drives traffic to your website, which Google interprets as a sign of popularity.
+            </p>
+            <h3>How restaurants should use social media for local SEO</h3>
+            <ul>
+              <li>Post photos of your dishes on Instagram with location tags and local hashtags.</li>
+              <li>Share customer photos and tag them (with permission).</li>
+              <li>Post your daily specials on Facebook and Instagram Stories.</li>
+              <li>Link your social profiles back to your website.</li>
+              <li>Engage with local food bloggers and influencers in your area.</li>
+            </ul>
+            <p>
+              <em>Example:</em> A taco truck in Austin posted daily specials on Instagram with the hashtag #AustinTacos. A local food blogger found them through the hashtag, visited, and wrote a review. That review linked to their website, which helped their Google ranking. Within three months, they were in the Google Maps local pack for "tacos near me" in their area.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'comparison-table',
+        heading: '10. Compare Your Online Presence Against Competitors',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Competitor analysis dashboard comparing restaurant online visibility and Google rankings"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              You cannot fix what you do not measure. Search for your top competitors on Google Maps and compare their online presence to yours. Look at their reviews, photos, website quality, and Google Business Profile completeness. This comparison will show you exactly where you are falling behind.
+            </p>
+            <h3>Restaurant local SEO: You vs. Competitors</h3>
+            <div className="my-6 overflow-x-auto">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-white/10">
+                    <th className="py-3 pr-4 text-left font-semibold text-white">Factor</th>
+                    <th className="py-3 pr-4 text-left font-semibold text-white">Your Restaurant</th>
+                    <th className="py-3 text-left font-semibold text-white">Top Competitor</th>
+                  </tr>
+                </thead>
+                <tbody className="text-slate-400">
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Google reviews</td>
+                    <td className="py-3 pr-4">12</td>
+                    <td className="py-3 text-brand-300">347</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Average rating</td>
+                    <td className="py-3 pr-4">4.2</td>
+                    <td className="py-3 text-brand-300">4.7</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Profile photos</td>
+                    <td className="py-3 pr-4">8</td>
+                    <td className="py-3 text-brand-300">120+</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Website</td>
+                    <td className="py-3 pr-4">No website</td>
+                    <td className="py-3 text-brand-300">Mobile-optimized</td>
+                  </tr>
+                  <tr className="border-b border-white/5">
+                    <td className="py-3 pr-4">Menu format</td>
+                    <td className="py-3 pr-4">PDF only</td>
+                    <td className="py-3 text-brand-300">HTML text</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3 pr-4">Posts per week</td>
+                    <td className="py-3 pr-4">0</td>
+                    <td className="py-3 text-brand-300">3-4</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              Once you see the gap, you know exactly what to fix. Start with the biggest gap first — usually reviews and photos — and work your way down the list.
+            </p>
+            <p>
+              <em>Example:</em> A coffee shop in Seattle compared their profile to the top-ranked cafe in their neighborhood. They had 15 photos vs. the competitor's 200. They started adding 5 photos per week. After two months, they moved from page 2 to the bottom of the local pack. After four months, they were in the top 3.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'technical-seo',
+        heading: '11. Fix Technical SEO Issues Holding You Back',
+        body: (
+          <>
+            <img
+              src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Technical SEO audit for restaurant website showing crawl errors and indexing issues in Google Search Console"
+              className="my-6 w-full rounded-2xl border border-white/10"
+              loading="lazy"
+              width={1200}
+              height={630}
+            />
+            <p>
+              Technical SEO is the behind-the-scenes work that helps Google crawl and index your website. If your site has technical issues, Google may not rank your pages — even if your content is great. Run a free audit using Google Search Console or a tool like Screaming Frog.
+            </p>
+            <h3>Common technical SEO issues for restaurant websites</h3>
+            <ul>
+              <li><strong>Missing title tags and meta descriptions</strong> — Google does not know what your pages are about.</li>
+              <li><strong>Duplicate content</strong> — Multiple pages with the same text confuse Google.</li>
+              <li><strong>Broken links</strong> — Links to deleted menu pages or old URLs create 404 errors.</li>
+              <li><strong>No XML sitemap</strong> — Google may miss important pages on your site.</li>
+              <li><strong>Missing SSL certificate</strong> — HTTP sites are ranked lower than HTTPS sites.</li>
+              <li><strong>Blocked by robots.txt</strong> — A misconfigured file can block Google from indexing your site entirely.</li>
+            </ul>
+            <p>
+              <em>Example:</em> A family restaurant in Phoenix had a beautiful website but was not ranking anywhere. An SEO audit revealed their robots.txt file was accidentally blocking Google from indexing all pages. After removing the block, their site was indexed within one week and started appearing in local searches.
+            </p>
+            <p>
+              For a deeper dive, read our guide on <a href="#/blog/why-is-my-website-not-ranking-on-google">why your website is not ranking on Google</a> and our analysis of <a href="#/blog/why-competitors-ranking-higher-on-google">why competitors are ranking higher on Google</a>.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'conclusion',
+        heading: 'Get Found by More Customers Starting Today',
+        body: (
+          <>
+            <p>
+              Your restaurant deserves to be seen. The food is great, the service is warm, and your customers love what you do. But none of that matters if people cannot find you on Google.
+            </p>
+            <p>
+              The 11 fixes in this guide — from optimizing your Google Business Profile to fixing technical SEO issues — are proven to improve your restaurant Google ranking. You do not need to do all 11 today. Start with claiming and optimizing your Google Business Profile. That alone will put you ahead of most restaurants in your area.
+            </p>
+            <p>
+              Then work through the list. Get more reviews. Fix your website. Add local keywords. Create content. Each step compounds, and over 3-6 months, you will see more organic traffic, more calls, more reservations, and more customers walking through your door.
+            </p>
+            <p>
+              But if you do not have time to do all of this yourself — and most restaurant owners do not — that is where Rank Flow Agency comes in. We specialize in local SEO for restaurants. We handle your Google Business Profile, website optimization, review generation, content marketing, and technical SEO — so you can focus on what you do best: making great food.
+            </p>
+            <p>
+              <strong>Want to know exactly why your restaurant is not showing up on Google?</strong> <a href="#/contact">Get a free local SEO audit from Rank Flow Agency today.</a> We will identify every issue and give you a clear, prioritized plan to get your restaurant found by more customers.
+            </p>
+          </>
+        ),
+      },
+    ],
+    faqs: [
+      {
+        q: 'Why is my restaurant not showing up on Google Maps?',
+        a: 'The most common reason is an unclaimed or incomplete Google Business Profile. Other causes include inconsistent NAP citations across the web, few Google reviews, no website, and technical SEO issues. Claim your profile, fill out every field, and start collecting reviews to improve your Google Maps ranking.',
+      },
+      {
+        q: 'How long does it take for my restaurant to show up on Google?',
+        a: 'After claiming and optimizing your Google Business Profile, you can appear in local searches within 1-2 weeks. Significant ranking improvements typically take 3-6 months of consistent effort — adding photos, collecting reviews, and optimizing your website.',
+      },
+      {
+        q: 'How many Google reviews do I need to rank higher?',
+        a: 'There is no exact number, but restaurants in the Google Maps local pack (top 3) typically have 100+ reviews with an average rating of 4.3 or higher. Aim for at least 5 new reviews per month to stay competitive.',
+      },
+      {
+        q: 'Do I need a website for my restaurant to rank on Google?',
+        a: 'You can appear on Google Maps with just a Google Business Profile, but having a website significantly improves your ranking. Google favors businesses with websites, and a website lets you rank for searches beyond just your restaurant name.',
+      },
+      {
+        q: 'What is the best category for my restaurant on Google Business Profile?',
+        a: 'Choose the most specific category that describes your cuisine. "Italian Restaurant" is better than "Restaurant." "Sushi Restaurant" is better than "Japanese Restaurant." The right category determines which searches you appear in.',
+      },
+    ],
+  },
   'how-to-get-sales-on-shopify-without-ads': {
     sections: [
       {
