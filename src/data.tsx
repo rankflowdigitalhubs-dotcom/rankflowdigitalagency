@@ -473,6 +473,7 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 export const blogPosts = [
+  { slug: 'real-estate-agents-seo-property-leads', title: 'How Real Estate Agents Can Get More Property Leads from Google (15 Proven SEO Strategies)', category: 'Real Estate SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Apex', excerpt: 'A practical SEO guide for real estate agents, realtors, and estate agencies. Learn 15 proven strategies to generate more property leads from Google — without relying on paid ads.', img: 'https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'get-more-customers-without-paid-ads', title: 'How Can I Get More Customers Without Paid Ads? (15 Proven Strategies That Actually Work)', category: 'Lead Generation', date: 'Jul 12, 2026', readTime: '14 min', author: 'Muhammad Sarwar', excerpt: 'Stop wasting money on ads. These 15 proven organic strategies help small businesses, local services, and eCommerce stores get more customers — without spending on paid advertising.', img: 'https://images.pexels.com/photos/3183179/pexels-photo-3183179.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-london-small-businesses', title: 'Local SEO for Small Businesses in London: A Complete City-by-City Guide (2026)', category: 'Local SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Muhammad Sarwar', excerpt: 'A practical, city-by-city Local SEO guide for London small businesses. Learn how to rank higher in Google Search and Google Maps across Central London, Westminster, Camden, and 9 more areas.', img: 'https://images.pexels.com/photos/16324758/pexels-photo-16324758.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-is-my-website-not-showing-on-google', title: 'Why Is My Website Not Showing on Google? (12 Common Reasons & How to Fix Them)', category: 'SEO', date: 'Jul 12, 2026', readTime: '12 min', author: 'Muhammad Sarwar', excerpt: 'Is your website not showing on Google? Discover the 12 most common reasons your site is invisible in search results — and the exact steps to fix each one.', img: 'https://images.pexels.com/photos/16368540/pexels-photo-16368540.jpeg?auto=compress&cs=tinysrgb&w=1200' },
@@ -495,6 +496,465 @@ export const blogPosts = [
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
 
 export const articleContent: Record<string, { sections: ArticleSection[]; faqs: { q: string; a: string }[] }> = {
+  'real-estate-agents-seo-property-leads': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Your Website Looks Great. So Where Are the Leads?',
+        body: (
+          <>
+            <p>
+              You have spent thousands on a beautiful real estate website. Professional photos. Elegant design. Every property listed perfectly. But when you search "estate agents in [your area]" on Google, you are nowhere to be found. Meanwhile, competitors with worse listings and uglier websites are getting all the enquiries.
+            </p>
+            <p>
+              Sound familiar? It is the single most common frustration I hear from real estate agents and estate agency owners. You know your properties are better. You know your service is better. But none of that matters if <strong>home buyers</strong> and <strong>property sellers</strong> cannot find you on Google.
+            </p>
+            <p>
+              Here is the truth: Google processes over 8 billion searches per day, and a huge percentage of those are property-related. "Houses for sale in [area]," "best estate agents near me," "2-bedroom apartment in [neighbourhood]" — these are people actively looking to buy or sell. They are not browsing. They are searching with intent.
+            </p>
+            <p>
+              This guide walks you through 15 proven <strong>real estate SEO</strong> strategies that will help your agency show up when it matters most. No fluff. No theory. Just practical steps you can implement to start generating <strong>property leads</strong> from Google — without pouring money into paid ads.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'why-google-best-source',
+        heading: '1. Why Google Is the Best Source of Property Leads',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/13628541/pexels-photo-13628541.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google search homepage on a screen representing Google as the top source of property leads for real estate agents" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> When someone searches "estate agent near me" or "property for sale in [your area]," they are not casually browsing. They are ready to act. Google search traffic is the highest-intent traffic you can get. These are people who are actively looking for what you offer — right now.
+            </p>
+            <p>Compare that to social media, where people scroll past your post while waiting for a bus. There is a place for social, but Google is where buyers and sellers go when they are serious.</p>
+            <p><strong>Common mistake:</strong> Treating your website like a digital brochure instead of a lead generation tool. A pretty website that nobody finds is just an expense.</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>Identify the keywords your potential clients search for (e.g., "property valuation [your area]," "houses for sale [neighbourhood]")</li>
+              <li>Check if your website currently appears for those terms using Google Search Console</li>
+              <li>Make a plan to rank for those keywords using the strategies in this guide</li>
+            </ol>
+            <p><strong>Practical example:</strong> An estate agency in Birmingham started targeting "property valuation Birmingham" instead of just "estate agent Birmingham." They ranked within 3 months and now get 8–10 valuation requests per week — all free.</p>
+            <p><strong>Pro Tip:</strong> Focus on "bottom of funnel" keywords — terms people search when they are ready to act. "How to sell my house fast" beats "what is real estate" every time.</p>
+          </>
+        ),
+      },
+      {
+        id: 'optimize-google-business-profile',
+        heading: '2. Optimize Your Google Business Profile',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/7937748/pexels-photo-7937748.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent placing a for sale sign in front of a modern house representing Google Business Profile optimization" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is what appears in the local pack — the top 3 results with a map that show up for local searches. For estate agents, the local pack is gold. It is the first thing people see when they search for an agent in their area.
+            </p>
+            <p><strong>Common mistake:</strong> Claiming your profile and leaving it half-empty. Missing categories, no photos, no posts, no reviews — Google deprioritizes incomplete profiles.</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>Claim your profile at business.google.com and verify your address</li>
+              <li>Choose "Real Estate Agent" as your primary category — this is critical</li>
+              <li>Add secondary categories like "Property Management" or "Estate Agent" if applicable</li>
+              <li>Upload at least 30 photos: office exterior, team, sold properties, area photos</li>
+              <li>Write a keyword-rich description: "Award-winning estate agent in [your area] helping buyers and sellers since [year]"</li>
+              <li>Post weekly — market updates, new listings, sold properties, area news</li>
+            </ol>
+            <p><strong>Practical example:</strong> An estate agency in Leeds filled out every GBP field, uploaded 40 photos, and started posting weekly. Their profile views went from 200 to 1,800 per month in 8 weeks. Direction requests and calls tripled.</p>
+            <p><strong>Pro Tip:</strong> Post your "just sold" properties on your GBP. It builds social proof and signals to Google that your profile is active and relevant.</p>
+          </>
+        ),
+      },
+      {
+        id: 'individual-pages-services-locations',
+        heading: '3. Create Individual Pages for Every Service and Location',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/8482519/pexels-photo-8482519.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent placing a home for sale sign representing individual service and location pages for real estate websites" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Google ranks pages, not websites. If you have one "Services" page listing everything you do, Google cannot rank it for "property valuation," "property management," and "residential sales" all at once. You need a dedicated page for each service and each area.
+            </p>
+            <p><strong>Common mistake:</strong> Having a single "Areas We Cover" page that lists 20 postcodes. Google will not rank that page for any of them. You need a separate, unique page for each area.</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>List every service you offer (sales, lettings, valuations, property management, commercial)</li>
+              <li>List every area or neighbourhood you cover</li>
+              <li>Create a unique page for each service (e.g., <code>/property-valuation</code>)</li>
+              <li>Create a unique page for each area (e.g., <code>/estate-agent-chelsea</code>)</li>
+              <li>Write at least 500 words of unique content on each page</li>
+              <li>Include local landmarks, property types, and area-specific information</li>
+            </ol>
+            <p><strong>Practical example:</strong> A realtor in London created 12 area pages — one for each neighbourhood they served. Within 4 months, 7 of those pages reached page 1, generating 40+ organic leads per month.</p>
+            <p><strong>Pro Tip:</strong> Do not copy and paste the same content with the area name swapped. Google detects this and ignores it. Write genuinely unique content for each area.</p>
+          </>
+        ),
+      },
+      {
+        id: 'target-high-intent-keywords',
+        heading: '4. Target High-Intent Local Keywords',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/8148362/pexels-photo-8148362.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Aerial view of a suburban neighborhood with residential houses representing local property search and high-intent local keywords" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> <strong>Local SEO</strong> for real estate is all about targeting keywords that include a location. "Houses for sale in Islington" is far more valuable than "houses for sale" because it shows clear local intent — and it is much easier to rank for.
+            </p>
+            <p><strong>Common mistake:</strong> Targeting broad national keywords like "buy property UK." You will never outrank Rightmove and Zoopla. Focus on your local area where you can actually win.</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>Use Google Keyword Planner to find local keywords with search volume</li>
+              <li>Search Google for "estate agent [your area]" and note the "People also ask" questions</li>
+              <li>Target long-tail variations: "2-bedroom flat for sale in [neighbourhood]"</li>
+              <li>Include these keywords naturally in your page titles, headings, and content</li>
+            </ol>
+            <p><strong>Practical example:</strong> An estate agency targeted "sell house fast [their town]" and "free property valuation [their town]." Both ranked within 2 months and now generate 15+ enquiries per month combined.</p>
+            <p><strong>Pro Tip:</strong> Search for your target keyword on Google and scroll to the "Related searches" at the bottom. Those are keywords you should also target on your pages.</p>
+          </>
+        ),
+      },
+      {
+        id: 'create-area-guides',
+        heading: '5. Create Area Guides That Buyers Search For',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/35361412/pexels-photo-35361412.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Contemporary luxury house exterior representing area guides that property buyers search for on Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Before people buy a house, they research the area. They search "best areas to live in [city]," "schools in [neighbourhood]," "transport links in [area]." If your agency publishes the guide they find, you become the expert they trust — and the agent they call.
+            </p>
+            <p><strong>Common mistake:</strong> Writing generic area descriptions copied from Wikipedia. Buyers can tell. Write from your local knowledge — you know these areas better than anyone.</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>Pick 5–10 areas you serve and create a detailed guide for each</li>
+              <li>Include: schools, transport, parks, restaurants, average property prices, and who the area suits</li>
+              <li>Add original photos of the area — streets, parks, landmarks</li>
+              <li>Link from each guide to your area-specific service pages</li>
+              <li>Update guides annually with new information</li>
+            </ol>
+            <p><strong>Practical example:</strong> An estate agency wrote a guide called "Living in Clapham: The Complete Area Guide." It now ranks for 40+ local keywords and brings in 300+ monthly visitors — many of whom become clients.</p>
+            <p><strong>Pro Tip:</strong> Include a "property prices in [area]" section with current average prices. This is one of the most searched real estate phrases and positions you as a local market expert.</p>
+          </>
+        ),
+      },
+      {
+        id: 'optimize-property-listings',
+        heading: '6. Optimize Property Listings for SEO',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/8293674/pexels-photo-8293674.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent showing a modern home interior to a buyer representing optimized property listings for SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Each property listing is a potential SEO page. If optimized properly, your listings can rank on Google for searches like "3-bedroom house for sale in [area]" — bringing buyers directly to your website instead of Rightmove.
+            </p>
+            <p><strong>Common mistake:</strong> Using generic listing descriptions like "Beautiful family home, must be seen." This helps no one — not Google, not buyers. Write detailed, keyword-rich descriptions.</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>Include the property type, number of bedrooms, area, and street name in the listing title</li>
+              <li>Write a unique, detailed description (300+ words) including local features and transport links</li>
+              <li>Use descriptive file names for images (e.g., <code>3-bed-house-chelsea-front.jpg</code>)</li>
+              <li>Add alt text to every property photo describing the room and feature</li>
+              <li>Include a map showing the property location and nearby amenities</li>
+            </ol>
+            <p><strong>Practical example:</strong> An agency started writing 400-word descriptions for each listing with local area details. Their listings started appearing in Google search results within weeks — bringing buyers who never used Rightmove at all.</p>
+            <p><strong>Pro Tip:</strong> Keep sold listings on your site as "Sold Properties" pages. They still bring traffic from people researching areas and price history.</p>
+          </>
+        ),
+      },
+      {
+        id: 'website-speed-mobile',
+        heading: '7. Improve Website Speed and Mobile Experience',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/12969403/pexels-photo-12969403.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop displaying an analytics dashboard representing website speed optimization and mobile experience for real estate websites" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Over 70% of property searches happen on mobile phones. If your <strong>real estate website</strong> takes more than 3 seconds to load, visitors leave. Google also uses speed as a ranking factor — slow sites rank lower.
+            </p>
+            <p><strong>Common mistake:</strong> Uploading 10MB property photos straight from a camera. These slow your site to a crawl and kill your rankings.</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>Test your site with Google PageSpeed Insights and fix major issues</li>
+              <li>Compress all property images to under 200KB before uploading</li>
+              <li>Use WebP format instead of JPEG or PNG where possible</li>
+              <li>Enable lazy loading so images load only when scrolled to</li>
+              <li>Use a CDN like Cloudflare to serve images faster</li>
+              <li>Make sure your site is fully responsive and easy to navigate on mobile</li>
+            </ol>
+            <p><strong>Practical example:</strong> An estate agency reduced their site load time from 6 seconds to 2 seconds by compressing images and enabling caching. Their bounce rate dropped from 65% to 38% and enquiry forms increased by 50%.</p>
+            <p><strong>Pro Tip:</strong> Aim for a mobile PageSpeed score above 80. Google uses mobile-first indexing, so your mobile speed directly affects your rankings.</p>
+          </>
+        ),
+      },
+      {
+        id: 'build-trust-reviews',
+        heading: '8. Build Trust Through Reviews',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/8293700/pexels-photo-8293700.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy couple holding a house key representing positive reviews and trust building for real estate agents" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Selling or buying a property is the biggest financial decision most people make. They need to trust you. Reviews are how you build that trust online — and they also directly impact your <strong>Google Maps</strong> ranking.
+            </p>
+            <p><strong>Common mistake:</strong> Not asking for reviews. Happy clients will not leave reviews on their own. You need to make it part of your process.</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>Create a direct link to your Google review page</li>
+              <li>Ask every client after a successful sale or purchase to leave a review</li>
+              <li>Send a follow-up email with the link 24 hours after asking</li>
+              <li>Respond to every review — positive and negative — within 24 hours</li>
+              <li>Display your best reviews on your website with client photos (with permission)</li>
+            </ol>
+            <p><strong>Practical example:</strong> An estate agency went from 6 Google reviews to 94 in 4 months by asking every client at handover. They now appear in the top 3 of the local pack for "estate agent [their area]."</p>
+            <p><strong>Pro Tip:</strong> Ask clients to mention the service they received in their review — "Sold our house in [area] in 3 weeks" helps you rank for "sell house [area]."</p>
+          </>
+        ),
+      },
+      {
+        id: 'publish-real-estate-blog',
+        heading: '9. Publish Helpful Real Estate Blog Content',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/3747137/pexels-photo-3747137.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Woman writing in a notebook at a desk with a laptop representing real estate blog content creation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> A blog answers the questions your potential clients are already searching for. Every post is a new page that can rank on Google and bring <strong>organic traffic</strong> to your website. Over time, this compounds into a steady stream of free leads.
+            </p>
+            <p><strong>Common mistake:</strong> Writing about industry news or company updates instead of answering client questions. Nobody searches for "Q3 property market update by [your agency]."</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>Write down 20 questions clients ask you regularly</li>
+              <li>Turn each into a detailed, helpful blog post</li>
+              <li>Topics: "How to prepare your house for sale," "First-time buyer guide to [your area]," "How much is my house worth?"</li>
+              <li>Publish at least twice a month</li>
+              <li>Link from each blog post to your relevant service pages</li>
+            </ol>
+            <p><strong>Practical example:</strong> An agency wrote a post called "How to Sell Your House Fast in [Their City]." It ranks number 1 for that phrase and brings in 5–8 seller enquiries per month — all from one blog post.</p>
+            <p><strong>Pro Tip:</strong> Use Google's "People also ask" section for your topic. Those questions are exactly what people search for — answer them in your blog posts.</p>
+          </>
+        ),
+      },
+      {
+        id: 'build-local-backlinks',
+        heading: '10. Build High-Quality Local Backlinks',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/36714212/pexels-photo-36714212.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Two businesswomen shaking hands in a modern office representing local backlink building and real estate partnerships" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Backlinks from other local websites tell Google your agency is trusted in your area. One link from a respected local source can boost your <strong>Google rankings</strong> more than 50 generic directory links.
+            </p>
+            <p><strong>Common mistake:</strong> Buying backlinks or using link farms. Google detects these and can penalize your site. Quality always beats quantity.</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>Sponsor local events, charities, or sports teams — they usually link to sponsors</li>
+              <li>Partner with mortgage brokers, solicitors, and surveyors for cross-promotion</li>
+              <li>Get featured in local newspapers and property blogs</li>
+              <li>Join your local chamber of commerce or estate agent association</li>
+              <li>Create shareable content like local property market reports</li>
+            </ol>
+            <p><strong>Practical example:</strong> An estate agency sponsored a local charity fun run and got a backlink from the charity's website (a .org domain). That single link helped push their site from page 3 to page 1 for "estate agent [their town]."</p>
+            <p><strong>Pro Tip:</strong> Check which sites link to competing estate agencies using Ahrefs' Link Intersect tool. If they link to your competitor, they may link to you too.</p>
+          </>
+        ),
+      },
+      {
+        id: 'internal-linking',
+        heading: '11. Use Internal Linking',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/5223887/pexels-photo-5223887.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Computer screen displaying color-coded code representing internal linking and website structure for real estate SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Internal links connect your pages to each other. They help Google understand your site structure and help visitors discover more of your content. Good internal linking spreads authority from your strongest pages to your weaker ones.
+            </p>
+            <p><strong>Common mistake:</strong> Using "click here" as link text. Google uses anchor text to understand what the linked page is about. Use descriptive text instead.</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>Link from every area guide to your area-specific service pages</li>
+              <li>Link from every blog post to at least 2 relevant service or listing pages</li>
+              <li>Link from your homepage to your most important service pages</li>
+              <li>Use descriptive anchor text: "property valuation in [area]" not "click here"</li>
+              <li>Make sure every page is reachable within 3 clicks from your homepage</li>
+            </ol>
+            <p><strong>Practical example:</strong> An estate agency added internal links from their popular area guides to their "Free Property Valuation" page. Valuation requests from organic traffic increased 35% in 2 months.</p>
+            <p><strong>Pro Tip:</strong> Find your most visited blog post in Google Analytics and add 3 internal links from it to your key service pages. One change can boost those pages' rankings.</p>
+          </>
+        ),
+      },
+      {
+        id: 'optimize-meta-titles',
+        heading: '12. Optimize Meta Titles and Descriptions',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/16592498/pexels-photo-16592498.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Computer screen displaying HTML code representing meta titles and descriptions optimization for real estate SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Meta titles and descriptions are what appear in Google search results. They are your first impression — your free advert on Google. A compelling title and description get more clicks, even if you are not ranked number 1.
+            </p>
+            <p><strong>Common mistake:</strong> Using your agency name as the title for every page. "Home | Smith Estate Agents" tells Google and searchers nothing. Include your keyword and location instead.</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>Write a unique title for every page (under 60 characters)</li>
+              <li>Format: "[Primary Keyword] in [Area] | [Your Agency Name]"</li>
+              <li>Example: "Estate Agent in Chelsea | Smith &amp; Co Property"</li>
+              <li>Write a unique meta description for every page (under 160 characters)</li>
+              <li>Include a call-to-action: "Book your free property valuation today"</li>
+            </ol>
+            <p><strong>Practical example:</strong> An estate agency changed their homepage title from "Welcome to Jones Estate Agents" to "Estate Agent in Islington | Jones Property Sales &amp; Lettings." Click-through rate from Google increased 40%.</p>
+            <p><strong>Pro Tip:</strong> Test different meta descriptions like you would test ad copy. A description that promises a specific benefit ("Free valuation in 24 hours") outperforms a generic one.</p>
+          </>
+        ),
+      },
+      {
+        id: 'schema-markup',
+        heading: '13. Use Schema Markup for Real Estate',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/8730055/pexels-photo-8730055.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent giving house keys to a happy family representing schema markup and structured data for real estate websites" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Schema markup (structured data) is code that helps Google understand your content better. For real estate, it can show your listings directly in search results with prices, photos, and locations — making your result stand out and get more clicks.
+            </p>
+            <p><strong>Common mistake:</strong> Not using schema at all. Most estate agent websites have no structured data, missing an easy opportunity to improve their search appearance.</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>Add <code>LocalBusiness</code> schema to your homepage with your name, address, phone, and opening hours</li>
+              <li>Add <code>RealEstateAgent</code> schema to your service pages</li>
+              <li>Add <code>Product</code> schema to property listings with price, location, and photos</li>
+              <li>Add <code>FAQPage</code> schema to your FAQ pages</li>
+              <li>Test your markup with Google's Rich Results Test tool</li>
+            </ol>
+            <p><strong>Practical example:</strong> An estate agency added <code>RealEstateAgent</code> schema to their service pages. Their search results started showing review stars and opening hours, increasing click-through rate by 25%.</p>
+            <p><strong>Pro Tip:</strong> If you use WordPress with Yoast SEO or Rank Math, schema markup is built in. Just fill out your business information in the plugin settings and it handles the rest.</p>
+          </>
+        ),
+      },
+      {
+        id: 'track-seo-search-console',
+        heading: '14. Track SEO with Google Search Console',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/13364320/pexels-photo-13364320.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Red caution tape at a construction site representing tracking SEO results and avoiding issues with Google Search Console" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Google Search Console is a free tool that shows you exactly which keywords bring people to your site, which pages are indexed, and what issues are holding you back. Without it, you are doing SEO blindfolded.
+            </p>
+            <p><strong>Common mistake:</strong> Setting up Search Console and never looking at it. Schedule 15 minutes every week to review your data.</p>
+            <p><strong>Step-by-step:</strong></p>
+            <ol>
+              <li>Add your website to Google Search Console and verify ownership</li>
+              <li>Submit your XML sitemap</li>
+              <li>Check the Performance report weekly for keywords you are ranking for</li>
+              <li>Look at keywords in positions 5–15 — those are almost on page 1 and easy to improve</li>
+              <li>Check the Coverage report for indexing errors and fix them</li>
+              <li>Double down on what works — write more content for growing keywords</li>
+            </ol>
+            <p><strong>Practical example:</strong> An estate agency noticed via Search Console that they ranked for "property management [their area]" but not "letting agent [their area]." They created a dedicated letting agent page and ranked within 6 weeks.</p>
+            <p><strong>Pro Tip:</strong> Sort your keywords by "impressions" in Search Console. High impressions but low clicks means your meta title and description need improvement.</p>
+          </>
+        ),
+      },
+      {
+        id: 'common-seo-mistakes',
+        heading: '15. Common SEO Mistakes Real Estate Agents Should Avoid',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/3018978/pexels-photo-3018978.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Red warning tape representing common SEO mistakes real estate agents should avoid" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Even agents who try <strong>estate agency SEO</strong> often make these mistakes. Avoid them and you will already be ahead of most competitors:
+            </p>
+            <ul>
+              <li><strong>Targeting broad keywords:</strong> "Houses for sale" instead of "houses for sale in [your area]." You cannot compete with Rightmove — compete locally.</li>
+              <li><strong>Thin area pages:</strong> One paragraph per area with the name swapped. Google ignores these. Write unique, detailed content.</li>
+              <li><strong>No Google Business Profile:</strong> Missing the single biggest local SEO opportunity. Claim and complete it today.</li>
+              <li><strong>Ignoring reviews:</strong> Not asking for reviews and not responding to the ones you get. Reviews drive both rankings and trust.</li>
+              <li><strong>Slow website:</strong> Huge uncompressed property photos dragging your speed down. Compress every image before uploading.</li>
+              <li><strong>No blog:</strong> Only having service pages. Blog content captures buyers and sellers at every stage of their journey.</li>
+              <li><strong>Duplicate content:</strong> Copying listing descriptions across multiple portals. Google penalizes duplicate content.</li>
+              <li><strong>No tracking:</strong> Not using Google Search Console or Analytics. You cannot improve what you do not measure.</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'comparison-table',
+        heading: 'SEO Strategy Comparison: Effort vs. Lead Generation Impact',
+        body: (
+          <>
+            <p>Not sure where to start? Here is a comparison of all 15 strategies, ranked by effort and impact on <strong>property leads</strong>:</p>
+            <div className="overflow-x-auto my-6">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-white/10">
+                    <th className="py-3 px-4 text-left font-semibold text-white">Strategy</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Effort</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Lead Impact</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Time to Results</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Trust Through Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize Meta Titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Schema Markup</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Service &amp; Location Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize Property Listings</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–3 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve Website Speed</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Area Guides</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish Blog Content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Local Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr><td className="py-2.5 px-4 text-slate-300">Track with Search Console</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </>
+        ),
+      },
+      {
+        id: 'checklist',
+        heading: 'Your Real Estate SEO Checklist',
+        body: (
+          <>
+            <p>Work through this checklist to make sure you have covered all the essentials:</p>
+            <ul>
+              <li><input type="checkbox" disabled className="mr-2" /> Claimed and completed your Google Business Profile</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Chosen "Real Estate Agent" as your primary GBP category</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Uploaded at least 30 photos to your GBP listing</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Posted at least one GBP update this week</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Asked at least 2 clients for Google reviews this week</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Created a separate page for each service you offer</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Created a unique page for each area you cover</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Researched 10 local keywords for your area</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Written at least one area guide for your top neighbourhood</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Optimized property listing titles and descriptions with keywords</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Compressed all property images to under 200KB</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Tested your site on Google PageSpeed Insights</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Written unique meta titles and descriptions for every page</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Added schema markup to your key pages</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Set up Google Search Console and submitted your sitemap</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'conclusion',
+        heading: 'The Bottom Line for Real Estate SEO',
+        body: (
+          <>
+            <p>
+              Getting <strong>property leads</strong> from Google is not about having the biggest budget or the flashiest website. It is about being found when buyers and sellers are actively searching for an agent in your area. The 15 strategies in this guide are proven to work for <strong>real estate agent marketing</strong> — and most of them cost nothing but your time.
+            </p>
+            <p>
+              Start with the quick wins: optimize your Google Business Profile, ask for reviews, and fix your meta titles. Then move to the medium-term strategies: create service and location pages, write area guides, and optimize your property listings. Finally, invest in the long-term plays: blog content, local backlinks, and schema markup.
+            </p>
+            <p>
+              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help estate agents and realtors dominate <strong>local property search</strong> with proven <strong>real estate SEO</strong> strategies. <a href="#/contact">Get a free SEO audit today</a> and find out exactly what is holding your website back from generating more property leads.
+            </p>
+            <p>
+              Your competitors are already working on their SEO. The longer you wait, the harder it becomes to catch up. Start today.
+            </p>
+          </>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'How long does real estate SEO take to generate leads?', a: 'Quick wins like Google Business Profile optimization and review collection can generate leads within 2–4 weeks. SEO strategies like content creation, local keywords, and backlink building typically take 3–6 months to show significant results. The key is consistency — agencies that implement these strategies regularly see compounding growth over time.' },
+      { q: 'Can I rank on Google without using Rightmove or Zoopla?', a: 'Yes. While Rightmove and Zoopla dominate broad property searches, you can rank for local, long-tail keywords like "estate agent in [your area]" or "property valuation [your neighbourhood]." These are high-intent searches from people specifically looking for a local agent — and they are much easier to rank for than broad terms.' },
+      { q: 'Do I need a separate website for each area I cover?', a: 'No. You need a single website with a dedicated page for each area. Each page should have unique content about that specific area — local property prices, schools, transport links, and your services there. This is far more effective than separate websites and concentrates all your SEO authority on one domain.' },
+      { q: 'What is the most important SEO strategy for real estate agents?', a: 'Google Business Profile optimization is the most important strategy. A complete, active, well-reviewed GBP listing will outperform a perfectly optimized website with no GBP presence. After that, reviews and local keyword targeting are the next biggest factors for generating property leads.' },
+      { q: 'Should I hire an SEO agency for my real estate business?', a: 'If you have 5–10 hours per week to dedicate to SEO, you can implement many of these strategies yourself. But most estate agents are too busy selling property to also manage SEO. An experienced agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased property leads.' },
+    ],
+  },
   'get-more-customers-without-paid-ads': {
     sections: [
       {
