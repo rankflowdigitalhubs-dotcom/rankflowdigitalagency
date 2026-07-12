@@ -302,16 +302,174 @@ export const caseStudies = [
   { slug: 'apex-white-label', client: 'Apex Agency (White Label)', industry: 'Marketing Agency', result: '20+ clients managed, 95% retention', img: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800', summary: 'A full-service agency needed a reliable SEO partner to white-label to their clients.' },
 ];
 
-export const portfolioItems = [
-  { title: 'BrightPath Law — Local SEO', category: 'Local SEO', img: 'https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=800', tag: 'Law' },
-  { title: 'Nimbus SaaS — Technical SEO', category: 'Technical SEO', img: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800', tag: 'SaaS' },
-  { title: 'Lakeside Dental — GBP', category: 'Local SEO', img: 'https://images.pexels.com/photos/3779605/pexels-photo-3779605.jpeg?auto=compress&cs=tinysrgb&w=800', tag: 'Medical' },
-  { title: 'UrbanNest — Web + SEO', category: 'Web Design', img: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800', tag: 'Real Estate' },
-  { title: 'Bloom Boutique — E-commerce', category: 'SEO', img: 'https://images.pexels.com/photos/264547/pexels-photo-264547.jpeg?auto=compress&cs=tinysrgb&w=800', tag: 'E-commerce' },
-  { title: 'Apex Agency — White Label', category: 'SEO', img: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800', tag: 'Agency' },
-  { title: 'Veridian Health — Content', category: 'Content', img: 'https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=800', tag: 'Medical' },
-  { title: 'Northwind Coffee — Local', category: 'Local SEO', img: 'https://images.pexels.com/photos/185521/pexels-photo-185521.jpeg?auto=compress&cs=tinysrgb&w=800', tag: 'Local' },
-  { title: 'Stratus Finance — Logo', category: 'Logo Design', img: 'https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg?auto=compress&cs=tinysrgb&w=800', tag: 'Finance' },
+export type PortfolioItem = {
+  slug: string;
+  title: string;
+  category: 'SEO Audit' | 'Technical SEO' | 'Local SEO' | 'Keyword Research' | 'Content' | 'On-Page SEO' | 'Website Speed' | 'GBP';
+  industry: string;
+  tag: string;
+  img: string;
+  overview: string;
+  services: string[];
+  tools: string[];
+  challenge: string;
+  solution: string;
+  outcomes: string[];
+};
+
+export const portfolioItems: PortfolioItem[] = [
+  {
+    slug: 'seo-audit-sample',
+    title: 'SEO Audit Sample',
+    category: 'SEO Audit',
+    industry: 'E-commerce',
+    tag: 'Sample Project',
+    img: 'https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    overview: 'A comprehensive SEO audit for a mid-sized e-commerce website, covering technical health, content gaps, backlink profile, and keyword opportunities. This sample demonstrates our audit framework and reporting format.',
+    services: ['Full-site SEO audit', 'Competitor gap analysis', 'Content opportunity mapping', 'Backlink profile review', 'Prioritized action roadmap'],
+    tools: ['Ahrefs', 'Google Search Console', 'Screaming Frog', 'Google Analytics 4'],
+    challenge: 'The sample site had declining organic traffic, unclear keyword targeting, and no documented technical issues. Stakeholders needed a clear, prioritized roadmap to understand what to fix first.',
+    solution: 'We ran a full crawl, analyzed 2,000+ keywords, reviewed 40 competitors, and categorized every issue by impact and effort. The final audit report included a 90-day prioritized action plan with expected impact estimates.',
+    outcomes: [
+      '47 technical issues identified and prioritized',
+      '320 keyword gaps mapped across 5 competitors',
+      '12 quick-win opportunities flagged for immediate action',
+      '90-day prioritized roadmap delivered',
+    ],
+  },
+  {
+    slug: 'technical-seo-audit-example',
+    title: 'Technical SEO Audit Example',
+    category: 'Technical SEO',
+    industry: 'SaaS',
+    tag: 'Demo Project',
+    img: 'https://images.pexels.com/photos/6120206/pexels-photo-6120206.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    overview: 'A deep technical SEO audit for a SaaS platform with JavaScript-heavy rendering, focusing on crawlability, indexation, Core Web Vitals, and structured data. This example shows our technical audit methodology.',
+    services: ['Crawlability & indexation audit', 'Core Web Vitals analysis', 'JavaScript rendering check', 'Schema markup review', 'Site architecture assessment'],
+    tools: ['Screaming Frog', 'Google PageSpeed Insights', 'Chrome DevTools', 'Search Console', 'Sitebulb'],
+    challenge: 'The sample SaaS site relied heavily on client-side rendering, causing indexing issues. Core Web Vitals scores were poor, and structured data was missing across all key page types.',
+    solution: 'We audited render-blocking resources, implemented server-side rendering for critical pages, fixed schema markup across 15 page templates, and created a Core Web Vitals improvement plan targeting LCP, INP, and CLS.',
+    outcomes: [
+      '180 orphan pages discovered and resolved',
+      'Schema markup added to 15 page templates',
+      'Core Web Vitals improvement plan covering LCP, INP, CLS',
+      'Render strategy documented for engineering team',
+    ],
+  },
+  {
+    slug: 'local-seo-optimization-sample',
+    title: 'Local SEO Optimization Sample',
+    category: 'Local SEO',
+    industry: 'Healthcare',
+    tag: 'Portfolio Example',
+    img: 'https://images.pexels.com/photos/5226497/pexels-photo-5226497.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    overview: 'A local SEO optimization sample for a multi-location healthcare practice, covering Google Business Profile optimization, citation building, review management, and local keyword targeting.',
+    services: ['Google Business Profile optimization', 'Local citation building', 'Review management strategy', 'Location page creation', 'Local keyword mapping'],
+    tools: ['Google Business Profile', 'BrightLocal', 'Whitespark', 'Google Search Console'],
+    challenge: 'The sample practice had 6 locations with inconsistent NAP data, no location-specific pages, and only 3 Google reviews per location. Local pack visibility was minimal.',
+    solution: 'We standardized NAP across 50+ directories, created unique location pages with localized content, implemented a review generation workflow, and optimized each GBP listing with photos, posts, and Q&A.',
+    outcomes: [
+      'NAP consistency achieved across 50+ directories',
+      '6 unique location pages with local content created',
+      'Review generation workflow designed for each location',
+      'Local keyword targeting strategy mapped per location',
+    ],
+  },
+  {
+    slug: 'keyword-research-sample',
+    title: 'Keyword Research Sample',
+    category: 'Keyword Research',
+    industry: 'Finance',
+    tag: 'Sample Project',
+    img: 'https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    overview: 'A keyword research sample for a fintech startup, mapping search intent across the full funnel from awareness to conversion. This demonstrates our keyword clustering and prioritization framework.',
+    services: ['Seed keyword expansion', 'Search intent categorization', 'Keyword clustering', 'Difficulty vs. opportunity scoring', 'Content-to-keyword mapping'],
+    tools: ['Ahrefs Keywords Explorer', 'Google Keyword Planner', 'AnswerThePublic', 'Google Search Console'],
+    challenge: 'The sample fintech needed to identify which keywords to target first, given a new domain with limited authority. They needed a realistic content roadmap, not just a keyword list.',
+    solution: 'We expanded 50 seed keywords into 1,800+ variations, clustered them into 24 topic groups, scored each by difficulty and intent, and mapped them to a 6-month content calendar with priority tiers.',
+    outcomes: [
+      '1,800+ keywords expanded and clustered into 24 topic groups',
+      'Search intent mapped across TOFU, MOFU, BOFU',
+      '6-month content calendar with priority tiers delivered',
+      'Difficulty vs. opportunity scoring for every keyword',
+    ],
+  },
+  {
+    slug: 'content-writing-sample',
+    title: 'Content Writing Sample',
+    category: 'Content',
+    industry: 'Travel',
+    tag: 'Demo Project',
+    img: 'https://images.pexels.com/photos/5186349/pexels-photo-5186349.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    overview: 'A content writing sample for a travel booking platform, demonstrating SEO-optimized blog content that ranks for commercial-intent keywords while engaging readers and driving conversions.',
+    services: ['SEO content briefs', 'Long-form article writing', 'Internal linking strategy', 'Content optimization for CTR', 'Meta title & description writing'],
+    tools: ['Surfer SEO', 'Grammarly', 'Google Search Console', 'Ahrefs Content Explorer'],
+    challenge: 'The sample travel site needed blog content that ranked for high-volume keywords but also converted readers into bookings. Previous content was informative but generated zero conversions.',
+    solution: 'We created 10 SEO-optimized articles targeting commercial keywords, each with a clear conversion path, internal links to booking pages, and optimized meta tags for maximum CTR.',
+    outcomes: [
+      '10 SEO-optimized articles targeting commercial keywords',
+      'Internal linking strategy connecting blog to booking pages',
+      'Meta titles and descriptions optimized for CTR',
+      'Content brief template created for scalable production',
+    ],
+  },
+  {
+    slug: 'on-page-seo-optimization-example',
+    title: 'On-Page SEO Optimization Example',
+    category: 'On-Page SEO',
+    industry: 'Education',
+    tag: 'Portfolio Example',
+    img: 'https://images.pexels.com/photos/270488/pexels-photo-270488.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    overview: 'An on-page SEO optimization example for an online education platform, covering title tag optimization, header structure, internal linking, image optimization, and content refinement for 50 key pages.',
+    services: ['Title tag & meta optimization', 'Header structure audit', 'Internal linking optimization', 'Image alt text & filename optimization', 'Content gap filling'],
+    tools: ['Screaming Frog', 'Google Search Console', 'Ahrefs', 'Surfer SEO'],
+    challenge: 'The sample education site had 50 key pages with duplicate title tags, missing H1s, no internal linking strategy, and images without alt text. Rankings were stagnant.',
+    solution: 'We rewrote all 50 title tags and meta descriptions, fixed header hierarchies, added contextual internal links to and from each page, optimized 200+ image alt texts, and filled content gaps identified via SERP analysis.',
+    outcomes: [
+      '50 pages optimized with unique title tags and meta descriptions',
+      'Header hierarchy corrected across all key pages',
+      '200+ images optimized with descriptive alt text',
+      'Internal linking map connecting 50 key pages',
+    ],
+  },
+  {
+    slug: 'website-speed-optimization-example',
+    title: 'Website Speed Optimization Example',
+    category: 'Website Speed',
+    industry: 'Retail',
+    tag: 'Sample Project',
+    img: 'https://images.pexels.com/photos/4114774/pexels-photo-4114774.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    overview: 'A website speed optimization example for a retail e-commerce site, demonstrating Core Web Vitals improvements through image optimization, code minification, lazy loading, and server response time reduction.',
+    services: ['Core Web Vitals audit', 'Image compression & WebP conversion', 'CSS/JS minification', 'Lazy loading implementation', 'Server response time optimization'],
+    tools: ['Google PageSpeed Insights', 'Lighthouse', 'Cloudflare', 'Webpack', 'GTmetrix'],
+    challenge: 'The sample retail site loaded in 6.2 seconds on mobile, with a poor LCP of 4.8s and CLS of 0.34. Bounce rates were high and mobile conversion rates were suffering.',
+    solution: 'We converted all images to WebP, implemented lazy loading, minified CSS/JS, set up a CDN, deferred non-critical JavaScript, and optimized the server response time. We documented each change for the dev team.',
+    outcomes: [
+      'Mobile load time reduced from 6.2s to 2.1s (sample estimate)',
+      'LCP improved from 4.8s to 1.9s',
+      'CLS reduced from 0.34 to 0.02',
+      'CDN configuration documented for dev team handoff',
+    ],
+  },
+  {
+    slug: 'google-business-profile-optimization-sample',
+    title: 'Google Business Profile Optimization Sample',
+    category: 'GBP',
+    industry: 'Hospitality',
+    tag: 'Demo Project',
+    img: 'https://images.pexels.com/photos/5448171/pexels-photo-5448171.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    overview: 'A Google Business Profile optimization sample for a boutique hotel, covering profile completeness, photo strategy, post scheduling, Q&A management, and review response templates.',
+    services: ['GBP profile completeness audit', 'Photo & video strategy', 'GBP post scheduling', 'Q&A management', 'Review response templates'],
+    tools: ['Google Business Profile', 'Google Search Console', 'Canva', 'GBP API'],
+    challenge: 'The sample hotel had an incomplete GBP listing with only 5 photos, no posts in 6 months, unanswered Q&A, and generic review responses. Local pack rankings were low.',
+    solution: 'We uploaded 30+ categorized photos, created a weekly GBP post schedule, pre-populated Q&A with common guest questions, and wrote review response templates for positive, neutral, and negative reviews.',
+    outcomes: [
+      'Profile completeness raised to 100% across all fields',
+      '30+ categorized photos uploaded with SEO descriptions',
+      'Weekly GBP post schedule created for 3 months',
+      'Review response templates for 3 sentiment categories',
+    ],
+  },
 ];
 
 export const blogPosts = [

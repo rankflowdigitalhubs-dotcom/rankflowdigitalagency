@@ -1,29 +1,73 @@
-import { useState } from 'react';
-import { ArrowUpRight } from 'lucide-react';
+import { useState, useEffect, useCallback } from 'react';
+import {
+  ArrowUpRight, X, Check, Wrench, Target, Lightbulb, TrendingUp,
+  Search, Code, MapPin, FileText, Gauge, Building2,
+  type LucideIcon,
+} from 'lucide-react';
 import { SEO, breadcrumbSchema } from '../seo';
 import { PageHero, CTASection } from '../components';
-import { portfolioItems } from '../data';
+import { portfolioItems, type PortfolioItem } from '../data';
 
-const categories = ['All', 'SEO', 'Local SEO', 'Technical SEO', 'Content', 'Web Design', 'Logo Design'];
+const categoryIcons: Record<string, LucideIcon> = {
+  'SEO Audit': Search,
+  'Technical SEO': Code,
+  'Local SEO': MapPin,
+  'Keyword Research': Target,
+  'Content': FileText,
+  'On-Page SEO': Wrench,
+  'Website Speed': Gauge,
+  'GBP': Building2,
+};
+
+const categories = ['All', ...Array.from(new Set(portfolioItems.map((p) => p.category)))];
 
 export default function Portfolio() {
   const [active, setActive] = useState('All');
+  const [selected, setSelected] = useState<PortfolioItem | null>(null);
+
   const filtered = active === 'All' ? portfolioItems : portfolioItems.filter((p) => p.category === active);
+
+  const closeModal = useCallback(() => setSelected(null), []);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') closeModal(); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [closeModal]);
+
+  useEffect(() => {
+    document.body.style.overflow = selected ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [selected]);
 
   return (
     <>
       <SEO
         title="Portfolio"
-        description="Explore our work — SEO campaigns, web designs, and brand identities that drove real revenue for our clients."
+        description="Explore our sample SEO projects — audit samples, technical SEO examples, local SEO samples, keyword research, content writing, on-page optimization, and more. Clearly labeled demo projects."
         path="/portfolio"
         schema={breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Portfolio', path: '/portfolio' }])}
       />
       <PageHero
         eyebrow="Portfolio"
-        title={<>Work we’re <span className="text-gradient">proud of</span></>}
-        subtitle="A selection of SEO campaigns, websites, and brand projects that delivered measurable growth."
+        title={<>Sample projects & <span className="text-gradient">demo work</span></>}
+        subtitle="A collection of clearly labeled sample projects and portfolio examples demonstrating our SEO methodology, reporting format, and approach across industries."
         breadcrumbs={[{ name: 'Home', path: '/' }, { name: 'Portfolio', path: '/portfolio' }]}
       />
+
+      {/* Disclaimer banner */}
+      <section className="container-x -mt-4">
+        <div className="grad-border rounded-2xl">
+          <div className="flex items-start gap-3 rounded-2xl bg-amber-500/[0.06] border border-amber-500/20 p-4 sm:p-5">
+            <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-amber-500/15 text-amber-300">
+              <Lightbulb className="h-4 w-4" />
+            </div>
+            <p className="text-sm leading-relaxed text-amber-100/80">
+              <span className="font-semibold text-amber-200">Note:</span> All projects below are sample/demo projects created to demonstrate our methodology and reporting format. They do not represent real client data or results.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <section className="container-x py-12">
         {/* Filters */}
@@ -45,28 +89,200 @@ export default function Portfolio() {
 
         {/* Grid */}
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((item, i) => (
-            <div key={item.title} className={`group grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="overflow-hidden rounded-3xl">
-                <div className="relative h-60 overflow-hidden rounded-t-3xl">
-                  <img src={item.img} alt={item.title} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/30 to-transparent" />
-                  <span className="absolute left-4 top-4 rounded-full bg-brand-500/90 px-3 py-1 text-xs font-semibold text-white">{item.tag}</span>
-                  <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 opacity-0 backdrop-blur-md transition-all duration-300 group-hover:opacity-100">
-                    <ArrowUpRight className="h-5 w-5 text-white" />
+          {filtered.map((item, i) => {
+            const Icon = categoryIcons[item.category] ?? Search;
+            return (
+              <button
+                key={item.slug}
+                onClick={() => setSelected(item)}
+                className={`group grad-border lift reveal reveal-delay-${(i % 3) + 1} text-left`}
+              >
+                <div className="overflow-hidden rounded-3xl">
+                  {/* Image */}
+                  <div className="relative h-56 overflow-hidden rounded-t-3xl">
+                    <img
+                      src={item.img}
+                      alt={`${item.title} — ${item.category} sample project for ${item.industry} industry`}
+                      loading="lazy"
+                      className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/30 to-transparent" />
+                    {/* Sample tag */}
+                    <span className="absolute left-4 top-4 rounded-full bg-amber-500/90 px-3 py-1 text-xs font-semibold text-white shadow-lg">
+                      {item.tag}
+                    </span>
+                    {/* Category icon */}
+                    <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 opacity-0 backdrop-blur-md transition-all duration-300 group-hover:opacity-100">
+                      <Icon className="h-5 w-5 text-white" />
+                    </div>
+                    {/* Arrow on hover */}
+                    <div className="absolute bottom-4 right-4 flex h-10 w-10 translate-y-2 items-center justify-center rounded-full bg-brand-500/90 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                      <ArrowUpRight className="h-5 w-5 text-white" />
+                    </div>
+                  </div>
+                  {/* Content */}
+                  <div className="rounded-b-3xl bg-white/[0.03] p-6">
+                    <div className="flex items-center gap-2">
+                      <Icon className="h-4 w-4 text-brand-300" />
+                      <span className="text-xs uppercase tracking-wider text-brand-300">{item.category}</span>
+                      <span className="text-slate-600">·</span>
+                      <span className="text-xs text-slate-400">{item.industry}</span>
+                    </div>
+                    <h3 className="mt-3 text-lg font-semibold text-white">{item.title}</h3>
+                    <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-slate-400">{item.overview}</p>
+                    <div className="mt-4 flex flex-wrap gap-1.5">
+                      {item.services.slice(0, 3).map((s) => (
+                        <span key={s} className="rounded-md border border-white/10 bg-white/5 px-2 py-1 text-xs text-slate-300">
+                          {s}
+                        </span>
+                      ))}
+                      {item.services.length > 3 && (
+                        <span className="rounded-md border border-white/10 bg-white/5 px-2 py-1 text-xs text-slate-400">
+                          +{item.services.length - 3} more
+                        </span>
+                      )}
+                    </div>
                   </div>
                 </div>
-                <div className="rounded-b-3xl bg-white/[0.03] p-6">
-                  <div className="text-xs uppercase tracking-wider text-brand-300">{item.category}</div>
-                  <h3 className="mt-2 text-lg font-semibold text-white">{item.title}</h3>
-                </div>
-              </div>
-            </div>
-          ))}
+              </button>
+            );
+          })}
         </div>
       </section>
 
-      <CTASection title="Want results like these?" subtitle="Let’s build your next growth story together." />
+      <CTASection title="Want to see what we can do for you?" subtitle="Get a free SEO audit and a custom growth plan. No obligation, just clarity." />
+
+      {/* Modal */}
+      {selected && (
+        <div
+          className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6"
+          onClick={closeModal}
+        >
+          <div className="absolute inset-0 bg-ink-950/80 backdrop-blur-sm animate-fade-in" />
+          <div
+            className="relative z-10 max-h-[90vh] w-full max-w-3xl overflow-y-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="grad-border rounded-3xl">
+              <div className="rounded-3xl bg-ink-900/95 backdrop-blur-2xl">
+                {/* Modal header image */}
+                <div className="relative h-52 overflow-hidden rounded-t-3xl sm:h-64">
+                  <img
+                    src={selected.img}
+                    alt={`${selected.title} — ${selected.category} sample project for ${selected.industry} industry`}
+                    className="h-full w-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/50 to-transparent" />
+                  <button
+                    onClick={closeModal}
+                    className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-md transition-all hover:bg-white/20"
+                    aria-label="Close"
+                  >
+                    <X className="h-5 w-5" />
+                  </button>
+                  <span className="absolute left-5 top-5 rounded-full bg-amber-500/90 px-3 py-1 text-xs font-semibold text-white shadow-lg">
+                    {selected.tag}
+                  </span>
+                </div>
+
+                {/* Modal body */}
+                <div className="p-6 sm:p-8">
+                  {/* Title row */}
+                  <div className="flex flex-wrap items-center gap-3">
+                    {(() => {
+                      const Icon = categoryIcons[selected.category] ?? Search;
+                      return (
+                        <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-500/15 text-brand-300">
+                          <Icon className="h-5 w-5" />
+                        </div>
+                      );
+                    })()}
+                    <div>
+                      <h2 className="text-2xl font-bold text-white">{selected.title}</h2>
+                      <div className="mt-1 flex items-center gap-2 text-sm text-slate-400">
+                        <span className="text-brand-300">{selected.category}</span>
+                        <span className="text-slate-600">·</span>
+                        <span>{selected.industry} Industry</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Overview */}
+                  <div className="mt-6">
+                    <h3 className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-slate-400">
+                      <Target className="h-4 w-4 text-brand-400" /> Project Overview
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-slate-300">{selected.overview}</p>
+                  </div>
+
+                  {/* Challenge & Solution */}
+                  <div className="mt-6 grid gap-5 sm:grid-cols-2">
+                    <div className="rounded-2xl border border-red-500/15 bg-red-500/[0.04] p-5">
+                      <h3 className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-red-300">
+                        <Lightbulb className="h-4 w-4" /> Challenge
+                      </h3>
+                      <p className="mt-2 text-sm leading-relaxed text-slate-300">{selected.challenge}</p>
+                    </div>
+                    <div className="rounded-2xl border border-emerald-500/15 bg-emerald-500/[0.04] p-5">
+                      <h3 className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-emerald-300">
+                        <Wrench className="h-4 w-4" /> Solution
+                      </h3>
+                      <p className="mt-2 text-sm leading-relaxed text-slate-300">{selected.solution}</p>
+                    </div>
+                  </div>
+
+                  {/* Services & Tools */}
+                  <div className="mt-6 grid gap-5 sm:grid-cols-2">
+                    <div>
+                      <h3 className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-slate-400">
+                        <Check className="h-4 w-4 text-brand-400" /> Services Provided
+                      </h3>
+                      <ul className="mt-3 space-y-2">
+                        {selected.services.map((s) => (
+                          <li key={s} className="flex items-start gap-2 text-sm text-slate-300">
+                            <Check className="mt-0.5 h-4 w-4 shrink-0 text-brand-400" />
+                            {s}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <h3 className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-slate-400">
+                        <Wrench className="h-4 w-4 text-brand-400" /> Tools Used
+                      </h3>
+                      <div className="mt-3 flex flex-wrap gap-2">
+                        {selected.tools.map((t) => (
+                          <span key={t} className="rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-medium text-slate-200">
+                            {t}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Expected Outcomes */}
+                  <div className="mt-6 rounded-2xl border border-brand-500/20 bg-brand-500/[0.05] p-5">
+                    <h3 className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-brand-300">
+                      <TrendingUp className="h-4 w-4" /> Expected Outcomes
+                    </h3>
+                    <ul className="mt-3 space-y-2">
+                      {selected.outcomes.map((o) => (
+                        <li key={o} className="flex items-start gap-2 text-sm text-slate-200">
+                          <div className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-400" />
+                          {o}
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="mt-4 text-xs italic text-slate-500">
+                      Note: These are estimated/sample outcomes for demonstration purposes, not actual client results.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 }
