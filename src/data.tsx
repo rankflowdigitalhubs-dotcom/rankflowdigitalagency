@@ -473,6 +473,7 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 export const blogPosts = [
+  { slug: 'shopify-store-not-getting-sales', title: 'Why Is My Shopify Store Not Getting Sales? (15 Proven Fixes That Increase Conversions)', category: 'Shopify SEO', date: 'Jul 12, 2026', readTime: '16 min', author: 'Jack', excerpt: 'A practical guide for Shopify store owners. Learn why your store is not getting sales and discover 15 proven fixes to increase conversions, traffic, and revenue.', img: 'https://images.pexels.com/photos/6214472/pexels-photo-6214472.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'roofers-get-more-leads-from-google', title: 'How Roofers Can Get More Leads From Google (15 Proven SEO Strategies That Actually Work)', category: 'Roofing SEO', date: 'Jul 12, 2026', readTime: '16 min', author: 'John Smith', excerpt: 'A practical SEO guide for roofing contractors and companies. Learn 15 proven strategies to generate more roofing leads from Google — without relying on paid ads.', img: 'https://images.pexels.com/photos/32050399/pexels-photo-32050399.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'law-firm-not-showing-on-google', title: "Why Isn't My Law Firm Showing on Google? (12 Proven SEO Fixes to Get More Clients)", category: 'Law Firm SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Emily', excerpt: 'A practical SEO guide for law firms, attorneys, and solicitors. Learn why your firm is not appearing on Google and discover 12 proven fixes to attract more legal clients.', img: 'https://images.pexels.com/photos/5668775/pexels-photo-5668775.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'plumbing-business-not-getting-calls', title: "Why Isn't My Plumbing Business Getting Calls? (12 Proven Ways to Get More Customers from Google)", category: 'Local SEO', date: 'Jul 12, 2026', readTime: '14 min', author: 'Emily', excerpt: 'A practical guide for plumbers and plumbing companies. Learn why your phone is not ringing from Google and discover 12 proven ways to get more plumbing calls with Local SEO.', img: 'https://images.pexels.com/photos/8486978/pexels-photo-8486978.jpeg?auto=compress&cs=tinysrgb&w=1200' },
@@ -499,6 +500,563 @@ export const blogPosts = [
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
 
 export const articleContent: Record<string, { sections: ArticleSection[]; faqs: { q: string; a: string }[] }> = {
+  'shopify-store-not-getting-sales': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'You Have Visitors. But Where Are the Sales?',
+        body: (
+          <>
+            <p>
+              You launched your Shopify store. You picked your products, set up your theme, and maybe even ran some ads. People are visiting your site — but when you check your dashboard, the sales are not coming. Visitors land on your homepage, browse a bit, and leave without buying anything.
+            </p>
+            <p>
+              If this sounds like your situation, you are not alone. Most Shopify store owners hit this wall. The problem is rarely one single thing — it is usually a combination of poor <strong>eCommerce SEO</strong>, weak product pages, a slow website, and trust issues that quietly kill conversions.
+            </p>
+            <p>
+              Here is the hard truth: getting traffic is only half the battle. If your store is not built to convert that traffic into sales, you are burning money. A 1% conversion rate means 99 out of 100 visitors leave without buying. Fix the right things and that number goes up — fast.
+            </p>
+            <p>
+              This guide breaks down the 15 most common reasons Shopify stores do not get sales — and exactly what to do about each one. No fluff. Just practical fixes you can implement this week to increase your <strong>Shopify sales</strong> and turn more visitors into customers.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'wrong-traffic',
+        heading: '1. Your Store Is Not Getting the Right Traffic',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/6214370/pexels-photo-6214370.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop displaying online shopping with boxes and cart representing the right traffic for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Not all traffic is equal. 10,000 visitors from a viral TikTok video might produce zero sales if those people are not your target audience. But 500 visitors from a Google search for "buy organic skincare online" could produce 50 sales. The right traffic converts. The wrong traffic bounces.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Chasing vanity metrics — big traffic numbers with no sales</li>
+              <li>Running ads to broad audiences without targeting</li>
+              <li>Ignoring organic search traffic in favour of paid social</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Open Google Analytics and check which channels produce the most sales, not just traffic</li>
+              <li>Identify your highest-converting traffic source and double down on it</li>
+              <li>Invest in <strong>Shopify SEO</strong> to attract high-intent search traffic — people actively searching for your products</li>
+              <li>Use <strong>Google Shopping</strong> ads to reach people searching with buying intent</li>
+              <li>Narrow your social ad targeting to people who match your best customers</li>
+            </ol>
+            <p><strong>Practical example:</strong> A skincare brand was getting 5,000 visitors per month from Instagram ads but only 8 sales. They shifted budget to Google Shopping ads targeting "organic face serum UK." Same budget, 200 visitors, 28 sales. Different traffic, different results.</p>
+            <p><strong>Pro Tip:</strong> Search traffic converts 2–3x better than social traffic because people searching on Google are actively looking to buy. Prioritise SEO over social for sustainable sales.</p>
+          </>
+        ),
+      },
+      {
+        id: 'product-pages-trust',
+        heading: '2. Your Product Pages Do Not Build Trust',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/7191162/pexels-photo-7191162.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up of a laptop screen displaying an online checkout form representing trust-building product pages for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Your product page is where the sale happens. If a visitor does not trust your product, your brand, or your checkout process, they will not hand over their money. Trust is built through reviews, clear policies, professional images, and transparent information.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>No reviews or testimonials on product pages</li>
+              <li>No return policy, shipping info, or FAQ section</li>
+              <li>Low-quality images that do not show the product clearly</li>
+              <li>No stock urgency or social proof</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Add a reviews app like Loox, Judge.me, or Yotpo to collect and display customer reviews</li>
+              <li>Display your return policy and shipping times clearly on every product page</li>
+              <li>Add an FAQ section answering common questions about the product</li>
+              <li>Show stock levels ("Only 3 left") to create urgency</li>
+              <li>Add trust badges (secure checkout, payment methods) near the add-to-cart button</li>
+            </ol>
+            <p><strong>Practical example:</strong> A fashion store added customer photo reviews and a "30-day free returns" badge to their product pages. Conversion rate went from 1.2% to 2.4% in 3 weeks — literally doubling sales with the same traffic.</p>
+            <p><strong>Pro Tip:</strong> Add a "People are viewing this right now" notification using an app like Fomo. Real-time social proof increases urgency and conversions by 10–15%.</p>
+          </>
+        ),
+      },
+      {
+        id: 'slow-website',
+        heading: '3. Your Website Loads Too Slowly',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/7667442/pexels-photo-7667442.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person browsing t-shirt options in an online store on a laptop representing website speed for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> A 1-second delay in page load time can reduce conversions by 7%. Online shoppers are impatient. If your store takes more than 3 seconds to load, visitors hit the back button and buy from a competitor. Google also uses speed as a ranking factor — slow sites rank lower.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Uploading huge uncompressed product images (2MB+ each)</li>
+              <li>Installing too many Shopify apps that bloat your site with scripts</li>
+              <li>Using a heavy, feature-packed theme when a lightweight one would do</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Test your store with Google PageSpeed Insights — it is free</li>
+              <li>Compress all product images to under 200KB before uploading</li>
+              <li>Use Shopify's built-in image optimizer or an app like Crush.pics</li>
+              <li>Uninstall apps you are not actively using — each one adds load time</li>
+              <li>Choose a fast, lightweight theme like Dawn or Turbo</li>
+              <li>Enable lazy loading for images below the fold</li>
+              <li>Aim for a mobile load time under 2.5 seconds</li>
+            </ol>
+            <p><strong>Practical example:</strong> A Shopify store reduced their load time from 6 seconds to 2 seconds by compressing images and removing 8 unused apps. Their bounce rate dropped from 65% to 38% and sales increased 35% — same traffic, faster site.</p>
+            <p><strong>Pro Tip:</strong> Every Shopify app you install adds JavaScript to your store. Audit your apps monthly — if you are not using it, uninstall it. Fewer apps means faster pages.</p>
+          </>
+        ),
+      },
+      {
+        id: 'not-mobile-friendly',
+        heading: '4. Your Store Is Not Mobile Friendly',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/6238100/pexels-photo-6238100.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Woman online shopping with a credit card on a laptop representing mobile-friendly Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Over 70% of eCommerce traffic comes from mobile phones. If your Shopify store is hard to navigate, read, or buy from on a phone, you are losing the majority of your potential customers. Google uses mobile-first indexing, so a bad mobile experience also hurts your <strong>Google rankings</strong>.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Text too small to read on a phone without zooming</li>
+              <li>Add-to-cart and checkout buttons too small to tap</li>
+              <li>Pop-ups that cover the entire mobile screen</li>
+              <li>Product images that do not zoom or swipe properly on mobile</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Choose a mobile-first, responsive Shopify theme</li>
+              <li>Make all buttons at least 48px wide for easy tapping</li>
+              <li>Use large fonts (16px minimum) readable on phones</li>
+              <li>Enable Shopify's accelerated mobile pages (AMP) for product pages</li>
+              <li>Test your checkout process on a real phone — every step</li>
+              <li>Remove or resize any pop-ups that block content on mobile</li>
+              <li>Use Shopify's mobile preview tool to check every page</li>
+            </ol>
+            <p><strong>Practical example:</strong> A beauty store made their add-to-cart button larger and moved it above the fold on mobile. Mobile conversions increased 45% within one month — same traffic, easier buying experience.</p>
+            <p><strong>Pro Tip:</strong> Test your checkout on a phone with slow 3G. If it works well under those conditions, it will work for everyone.</p>
+          </>
+        ),
+      },
+      {
+        id: 'weak-product-descriptions',
+        heading: '5. Weak Product Descriptions',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/6214152/pexels-photo-6214152.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Digital tablet beside credit cards representing product descriptions for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Your product description is your sales pitch. If it just says "Blue cotton t-shirt, size M" you are not giving anyone a reason to buy. Good descriptions sell the benefit, answer questions, and help with <strong>product page SEO</strong> at the same time.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Using manufacturer descriptions that every other store also uses (duplicate content)</li>
+              <li>Listing features without explaining benefits</li>
+              <li>One-sentence descriptions with no detail</li>
+              <li>No keywords for SEO</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Write unique descriptions for every product — never copy from suppliers</li>
+              <li>Follow the formula: headline benefit, 2–3 paragraphs of detail, bullet points of features</li>
+              <li>Include natural keywords like "organic cotton t-shirt" not just "t-shirt"</li>
+              <li>Answer the top 3 questions a customer would ask about the product</li>
+              <li>Add bullet points for easy scanning — shoppers do not read long paragraphs</li>
+              <li>Write at least 150–200 words per product</li>
+            </ol>
+            <p><strong>Practical example:</strong> A Shopify store rewrote their product descriptions from "Stainless steel water bottle, 500ml" to "Keep your drinks cold for 24 hours or hot for 12 hours with our double-walled stainless steel water bottle. BPA-free, leak-proof, and built to last." Sales for that product increased 30%.</p>
+            <p><strong>Pro Tip:</strong> Use the "So what?" test. After every feature, ask "so what?" until you reach the benefit. "500ml capacity" → "So what?" → "Holds enough water for a full workout." That is what you should write.</p>
+          </>
+        ),
+      },
+      {
+        id: 'poor-product-images',
+        heading: '6. Poor Product Images',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/6955179/pexels-photo-6955179.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person holding a dropper with skincare product bottles representing product photography for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Online shoppers cannot touch or try your products. Images are all they have. If your photos are dark, blurry, or show only one angle, customers will not feel confident enough to buy. Great product photography is the single biggest conversion driver in eCommerce.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Only one image per product</li>
+              <li>Dark, low-resolution photos taken on a phone</li>
+              <li>No lifestyle shots showing the product in use</li>
+              <li>No zoom function for detail</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Use at least 5–6 images per product: front, back, side, detail close-up, lifestyle, and scale</li>
+              <li>Shoot in natural light or use a lightbox for clean, bright photos</li>
+              <li>Add lifestyle photos showing the product being used or worn</li>
+              <li>Enable zoom so customers can see product details</li>
+              <li>Use a consistent background and style across all product images</li>
+              <li>Compress images to under 200KB without losing visible quality</li>
+            </ol>
+            <p><strong>Practical example:</strong> A clothing store went from 1 flat image per product to 6 images including lifestyle shots and detail close-ups. Conversion rate for those products increased 40%.</p>
+            <p><strong>Pro Tip:</strong> Add a video to your product pages. Products with video convert 30–80% better than those with images only. Even a simple 15-second phone video of the product in use helps.</p>
+          </>
+        ),
+      },
+      {
+        id: 'no-customer-reviews',
+        heading: '7. No Customer Reviews',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/9821386/pexels-photo-9821386.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Five yellow stars on a blue and pink background representing customer reviews for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> 88% of online shoppers read reviews before buying. If your products have zero reviews, shoppers assume the product is new, untested, or low quality. Reviews build trust and provide the social proof that turns a browser into a buyer.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>No review app installed on the store</li>
+              <li>Never asking customers for reviews after purchase</li>
+              <li>Reviews buried at the bottom of the page where nobody sees them</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Install a review app like Loox, Judge.me, or Yotpo</li>
+              <li>Set up automated review request emails 14 days after purchase</li>
+              <li>Offer a small discount or free shipping for leaving a review with a photo</li>
+              <li>Display review stars prominently near the product title and add-to-cart button</li>
+              <li>Respond to negative reviews professionally — it shows you care</li>
+              <li>Import reviews from AliExpress or suppliers if dropshipping (use dedicated apps)</li>
+            </ol>
+            <p><strong>Practical example:</strong> A Shopify store installed Judge.me and set up automated review emails. Within 2 months they had 40+ reviews on their best-selling product. Conversion rate for that product went from 1.5% to 3.2%.</p>
+            <p><strong>Pro Tip:</strong> Photo reviews convert better than text-only reviews. Offer a 10% discount code in exchange for a review with a photo. Visual proof is powerful.</p>
+          </>
+        ),
+      },
+      {
+        id: 'weak-seo-strategy',
+        heading: '8. Weak SEO Strategy',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/9822732/pexels-photo-9822732.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wooden blocks spelling SEO on a laptop keyboard representing SEO strategy for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> If your Shopify store is not optimised for search engines, you are missing out on free, high-intent traffic. People searching "buy [your product] online" are ready to purchase. <strong>Shopify SEO</strong> helps your product and collection pages rank for those searches — bringing in customers without ad spend.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Using default Shopify page titles and meta descriptions</li>
+              <li>No keyword research — guessing what customers search for</li>
+              <li>No optimised URLs (e.g., <code>/products/white-cotton-t-shirt</code> vs <code>/products/prod-001</code>)</li>
+              <li>No alt text on product images</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Use Google Keyword Planner to find keywords your customers search for</li>
+              <li>Write unique page titles for every product: "[Product Name] | [Brand] | [Keyword]"</li>
+              <li>Write compelling meta descriptions with a call-to-action for each page</li>
+              <li>Rename image files with keywords: <code>organic-cotton-t-shirt-blue.jpg</code> not <code>IMG_4521.jpg</code></li>
+              <li>Add alt text to every product image describing the product with keywords</li>
+              <li>Submit your sitemap to Google Search Console</li>
+            </ol>
+            <p><strong>Practical example:</strong> A Shopify store optimised their product titles and meta descriptions for keywords like "handmade soy candles UK." Within 4 months, organic traffic increased 300% and organic sales went from 2 per week to 18.</p>
+            <p><strong>Pro Tip:</strong> Long-tail keywords convert better. "Buy handmade soy candle in London" has lower search volume than "soy candle" but the people searching are ready to buy — and there is less competition.</p>
+          </>
+        ),
+      },
+      {
+        id: 'category-page-optimization',
+        heading: '9. Poor Category Page Optimization',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/13532889/pexels-photo-13532889.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hanged clothes in a clothing store window representing category page optimization for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Category pages (called "collections" in Shopify) are some of your most valuable SEO assets. They often rank for broad keywords like "men's t-shirts" or "organic skincare." But most stores leave them with default titles, no description, and no SEO optimisation — missing a huge opportunity.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Collection pages with no custom description</li>
+              <li>Default collection titles like "Collection 1" or "Home page"</li>
+              <li>No filtering or sorting options for shoppers</li>
+              <li>No internal links between related collections</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Write a unique 200+ word description for each collection page with keywords</li>
+              <li>Optimise collection titles: "Organic Skincare Products" not just "Skincare"</li>
+              <li>Add filtering options (price, size, colour) so shoppers can find products fast</li>
+              <li>Link related collections to each other ("You may also like" sections)</li>
+              <li>Write unique meta titles and descriptions for each collection</li>
+              <li>Add breadcrumb navigation to help Google understand your site structure</li>
+            </ol>
+            <p><strong>Practical example:</strong> A Shopify store added 200-word SEO descriptions to their 8 collection pages. Within 3 months, 5 of those collections ranked on page 1 for their target keywords, bringing 400+ organic visitors per month.</p>
+            <p><strong>Pro Tip:</strong> Put your collection description below the product grid, not above. Shoppers want to see products first, not read text. Google still reads the description for SEO, but it does not push your products down the page.</p>
+          </>
+        ),
+      },
+      {
+        id: 'complicated-checkout',
+        heading: '10. Complicated Checkout Process',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/7190944/pexels-photo-7190944.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Minimalist laptop showing an online checkout screen representing checkout optimization for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Cart abandonment averages 70% across eCommerce. One of the biggest causes is a complicated checkout process. Every extra step, every required field, every forced account creation — all of it pushes customers away. The simpler your checkout, the more people complete their purchase.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Forcing customers to create an account before buying</li>
+              <li>Asking for unnecessary information (phone number, date of birth)</li>
+              <li>Surprise shipping costs revealed at checkout</li>
+              <li>No express checkout options (Apple Pay, Google Pay, Shop Pay)</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Enable guest checkout — never force account creation</li>
+              <li>Offer express checkout: Shop Pay, Apple Pay, Google Pay, PayPal</li>
+              <li>Show shipping costs on the product page, not at checkout</li>
+              <li>Reduce form fields to the minimum: name, email, address, payment</li>
+              <li>Enable Shopify's one-page checkout if available</li>
+              <li>Add a progress indicator so customers know how many steps remain</li>
+              <li>Send abandoned cart recovery emails automatically</li>
+            </ol>
+            <p><strong>Practical example:</strong> A Shopify store enabled guest checkout and Shop Pay. Cart abandonment dropped from 75% to 55%. Recovered sales from abandoned cart emails added an extra 15% to monthly revenue.</p>
+            <p><strong>Pro Tip:</strong> Offer free shipping over a threshold (e.g., "Free shipping on orders over 50 pounds"). This increases average order value and reduces cart abandonment from shipping costs.</p>
+          </>
+        ),
+      },
+      {
+        id: 'missing-trust-signals',
+        heading: '11. Missing Trust Signals',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/6995252/pexels-photo-6995252.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person holding a credit card doing online shopping representing trust signals for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> First-time visitors do not know your brand. They have no reason to trust you with their money and personal information. Trust signals — badges, policies, reviews, and social proof — reassure them that buying from your store is safe.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>No visible security or payment badges</li>
+              <li>No return policy or shipping information visible</li>
+              <li>No contact information or "About Us" page</li>
+              <li>No social media links showing an active brand</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Add payment trust badges (Visa, Mastercard, PayPal, Apple Pay) near the checkout button</li>
+              <li>Display your return policy prominently on product pages and at checkout</li>
+              <li>Add a contact page with a real email address, phone number, and contact form</li>
+              <li>Write an "About Us" page that tells your brand story and builds connection</li>
+              <li>Link to your active social media profiles in the footer</li>
+              <li>Add an SSL certificate (Shopify includes this by default — make sure it is visible)</li>
+            </ol>
+            <p><strong>Practical example:</strong> A new Shopify store added trust badges, a clear return policy, and an "About Us" page in their first month. Even with no reviews yet, their conversion rate was 1.8% — above the industry average for new stores.</p>
+            <p><strong>Pro Tip:</strong> Add a sticky trust bar at the bottom of product pages showing "Secure checkout | Free returns | 4.8 star rating." It reassures shoppers right where they make the decision to buy.</p>
+          </>
+        ),
+      },
+      {
+        id: 'weak-internal-linking',
+        heading: '12. Weak Internal Linking',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/5632391/pexels-photo-5632391.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hand clicking on a mouse by a miniature shopping cart on a laptop representing internal linking for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Internal links connect your pages to each other. They help Google understand your site structure and help shoppers discover more products. Good internal linking spreads authority from your strongest pages to your weaker ones — and keeps shoppers on your store longer.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>No "related products" or "you may also like" sections</li>
+              <li>No links between blog content and product pages</li>
+              <li>No breadcrumb navigation</li>
+              <li>Orphan pages that no other page links to</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Add "Related products" sections to every product page using Shopify's built-in feature or an app</li>
+              <li>Add "You may also like" sections to collection pages</li>
+              <li>Link from every blog post to relevant product and collection pages</li>
+              <li>Enable breadcrumb navigation across your store</li>
+              <li>Use descriptive anchor text: "organic cotton t-shirts" not "click here"</li>
+              <li>Make sure every product is linked from at least one collection page</li>
+            </ol>
+            <p><strong>Practical example:</strong> A Shopify store added "Related products" to every product page and linked from their blog posts to relevant collections. Average pages per session went from 2.1 to 4.5, and revenue per visitor increased 25%.</p>
+            <p><strong>Pro Tip:</strong> Use Shopify's "Search and Discovery" app to create custom related product rules. Link premium products to mid-range ones to upsell automatically.</p>
+          </>
+        ),
+      },
+      {
+        id: 'no-content-marketing',
+        heading: '13. No Content Marketing Strategy',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/7129710/pexels-photo-7129710.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Male blogger working on a laptop creating content representing content marketing for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Every blog post is a new page that can rank on Google. When you write about problems your customers search for — "how to choose the right skincare routine," "best gifts for runners," "how to style a denim jacket" — you bring <strong>organic traffic</strong> to your store. Some of those readers become customers.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>No blog on the Shopify store at all</li>
+              <li>Writing about company news instead of customer problems</li>
+              <li>Writing one or two posts and then stopping</li>
+              <li>No links from blog posts to product pages</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Enable Shopify's built-in blog feature</li>
+              <li>Write down 20 questions your customers ask about your products</li>
+              <li>Turn each question into a detailed, helpful blog post</li>
+              <li>Topics: "How to choose the right [product]," "Best [product] for [use case]," "[Product] vs [Product] — which is better"</li>
+              <li>Link from every blog post to relevant product and collection pages</li>
+              <li>Publish at least twice a month</li>
+              <li>Add a "Shop the products mentioned" section at the end of each post</li>
+            </ol>
+            <p><strong>Practical example:</strong> A Shopify store selling hiking gear wrote a post called "Best Hiking Boots for Beginners (2026 Guide)." It ranks number 1 for that phrase and brings 300+ visitors per month. About 6% buy — that is 18 sales per month from one blog post.</p>
+            <p><strong>Pro Tip:</strong> Search your topic on Google and look at "People also ask." Answer those exact questions in your blog posts. Google rewards pages that answer common questions with higher rankings.</p>
+          </>
+        ),
+      },
+      {
+        id: 'not-tracking-performance',
+        heading: '14. Not Tracking Performance with Google Search Console and Google Analytics',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="MacBook Pro with shopping bags and boxes representing sales analytics and performance tracking for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> You cannot fix what you do not measure. Google Search Console shows you which keywords bring people to your store. Google Analytics shows you what they do once they arrive — where they drop off, which products they view, and where the checkout process leaks. Without these tools, you are guessing.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Not having Google Search Console or Google Analytics set up</li>
+              <li>Setting them up and never looking at the data</li>
+              <li>Only tracking traffic — not tracking sales, conversion rate, or revenue</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Set up Google Search Console and verify your Shopify store</li>
+              <li>Submit your Shopify sitemap (yourstore.com/sitemap.xml)</li>
+              <li>Set up Google Analytics 4 and add the tracking code to your Shopify theme</li>
+              <li>Enable enhanced eCommerce tracking to see product views, add-to-cart, and checkout events</li>
+              <li>Check Search Console weekly for keywords you are ranking for</li>
+              <li>Check Analytics weekly for traffic, bounce rate, and conversion rate</li>
+              <li>Double down on what works — write more content for growing keywords</li>
+            </ol>
+            <p><strong>Practical example:</strong> A Shopify store noticed via Search Console that they ranked for "vegan leather wallet" but not "cruelty-free wallet." They optimised their product page for that keyword and ranked within 5 weeks. Sales from organic search increased 40%.</p>
+            <p><strong>Pro Tip:</strong> In Analytics, look at your checkout funnel. If 60% of people drop off at the shipping step, your shipping costs are too high or unclear. Fix that one step and recover lost sales.</p>
+          </>
+        ),
+      },
+      {
+        id: 'action-plan',
+        heading: '15. Action Plan to Increase Shopify Sales',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/5849583/pexels-photo-5849583.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Upward trend graph made from coins representing an action plan to increase Shopify sales" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              You do not need to do everything at once. Here are the highest-impact actions you can take this week to start <strong>increasing Shopify sales</strong>:
+            </p>
+            <ol>
+              <li><strong>Install a review app</strong> and set up automated review request emails — reviews are the fastest trust builder</li>
+              <li><strong>Compress all product images</strong> to under 200KB — speed directly impacts conversions</li>
+              <li><strong>Enable guest checkout and express payments</strong> (Shop Pay, Apple Pay) — remove every barrier to buying</li>
+              <li><strong>Add trust badges and a clear return policy</strong> to every product page</li>
+              <li><strong>Write unique meta titles and descriptions</strong> for your top 10 products — this is quick and drives organic traffic</li>
+              <li><strong>Set up Google Search Console and Google Analytics</strong> — you cannot improve what you do not measure</li>
+              <li><strong>Add "Related products" sections</strong> to every product page to increase average order value</li>
+              <li><strong>Write your first blog post</strong> answering a question your customers ask — start building organic traffic</li>
+            </ol>
+            <p><strong>Practical example:</strong> A Shopify store spent one weekend installing a review app, compressing images, enabling guest checkout, and adding trust badges. By the following Friday, their conversion rate had gone from 1.1% to 2.0% — nearly doubling sales with the same traffic.</p>
+            <p><strong>Pro Tip:</strong> Start with the quick wins. Reviews, image compression, and checkout fixes take less than a day to implement and can produce results within a week.</p>
+          </>
+        ),
+      },
+      {
+        id: 'comparison-table',
+        heading: 'Shopify Sales Fixes: Effort vs. Impact on Conversions',
+        body: (
+          <>
+            <p>Not sure where to start? Here is a comparison of all 15 fixes, ranked by effort and impact on your <strong>Shopify conversion rate</strong>:</p>
+            <div className="overflow-x-auto my-6">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-white/10">
+                    <th className="py-3 px-4 text-left font-semibold text-white">Fix</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Effort</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Impact</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Time to Results</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Install reviews app</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Enable guest checkout</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">Immediate</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Add trust badges</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Compress images</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">Immediate</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimise meta titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Add internal links</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Rewrite descriptions</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve product images</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimise collection pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Make site mobile friendly</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve product page trust</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target the right traffic</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish blog content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr><td className="py-2.5 px-4 text-slate-300">Set up tracking tools</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </>
+        ),
+      },
+      {
+        id: 'checklist',
+        heading: 'Your Shopify Sales Checklist',
+        body: (
+          <>
+            <p>Print this or bookmark it. Work through each item to start increasing your Shopify sales:</p>
+            <ul>
+              <li><input type="checkbox" disabled className="mr-2" /> Installed a review app and set up automated review request emails</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Enabled guest checkout and express payment options</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Added trust badges near the checkout button</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Displayed return policy and shipping info on product pages</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Compressed all product images to under 200KB</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Tested store on mobile and fixed any issues</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Written unique meta titles and descriptions for top products</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Added alt text to all product images</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Rewrote weak product descriptions with benefits</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Added 5+ images per product including lifestyle shots</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Added "Related products" sections to every product page</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Written unique descriptions for all collection pages</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Set up Google Search Console and submitted sitemap</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Set up Google Analytics 4 with eCommerce tracking</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Published first blog post answering a customer question</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'conclusion',
+        heading: 'The Bottom Line for Shopify Store Owners',
+        body: (
+          <>
+            <p>
+              Your Shopify store is not getting sales because of fixable issues — the wrong traffic, weak product pages, slow load times, poor trust signals, or a complicated checkout. Every single one of these has a practical solution, and most cost nothing but your time.
+            </p>
+            <p>
+              Start with the quick wins: install a review app, enable guest checkout, compress your images, and add trust badges. Then move to the medium-term fixes: rewrite your product descriptions, optimise your SEO, and improve your product photography. Finally, invest in the long-term plays: publish helpful blog content, build internal links, and track everything with Google Search Console and Analytics.
+            </p>
+            <p>
+              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help Shopify store owners increase sales with proven <strong>Shopify SEO</strong> and <strong>eCommerce marketing</strong> strategies. <a href="#/contact">Get a free Shopify SEO audit today</a> and find out exactly what is holding your store back from converting visitors into customers.
+            </p>
+            <p>
+              Every day you wait, your competitors are winning the sales that should be yours. Start today.
+            </p>
+          </>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'Why is my Shopify store not getting sales?', a: 'The most common reasons are: getting the wrong type of traffic, weak product pages that do not build trust, a slow or non-mobile-friendly website, no customer reviews, poor product descriptions and images, a complicated checkout process, and weak SEO. Fix these issues and your conversion rate will improve significantly.' },
+      { q: 'How can I increase my Shopify conversion rate?', a: 'Start with the highest-impact fixes: install a review app, enable guest checkout and express payments, add trust badges, compress your images for faster loading, and rewrite your product descriptions to sell benefits not just features. These changes alone can double your conversion rate within weeks.' },
+      { q: 'How long does Shopify SEO take to generate sales?', a: 'Quick wins like meta title optimisation and image compression can produce results within 1–2 weeks. SEO strategies like keyword targeting, collection page optimisation, and blog content typically take 3–6 months to generate significant organic traffic and sales. Consistency is key.' },
+      { q: 'Do I need to run ads to get Shopify sales?', a: 'No. While ads can drive immediate traffic, organic SEO brings in visitors who are actively searching for your products — and they convert 2–3x better than social traffic. A strong SEO strategy can reduce your dependence on paid ads and build sustainable, free traffic over time.' },
+      { q: 'Should I hire an SEO agency for my Shopify store?', a: 'If you have 5–10 hours per week to dedicate to SEO and CRO, you can implement many of these strategies yourself. But most store owners are too busy running their business to also manage SEO. An experienced Shopify SEO agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased sales.' },
+    ],
+  },
   'roofers-get-more-leads-from-google': {
     sections: [
       {
