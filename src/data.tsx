@@ -473,6 +473,7 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 export const blogPosts = [
+  { slug: 'roofers-get-more-leads-from-google', title: 'How Roofers Can Get More Leads From Google (15 Proven SEO Strategies That Actually Work)', category: 'Roofing SEO', date: 'Jul 12, 2026', readTime: '16 min', author: 'John Smith', excerpt: 'A practical SEO guide for roofing contractors and companies. Learn 15 proven strategies to generate more roofing leads from Google — without relying on paid ads.', img: 'https://images.pexels.com/photos/32050399/pexels-photo-32050399.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'law-firm-not-showing-on-google', title: "Why Isn't My Law Firm Showing on Google? (12 Proven SEO Fixes to Get More Clients)", category: 'Law Firm SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Emily', excerpt: 'A practical SEO guide for law firms, attorneys, and solicitors. Learn why your firm is not appearing on Google and discover 12 proven fixes to attract more legal clients.', img: 'https://images.pexels.com/photos/5668775/pexels-photo-5668775.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'plumbing-business-not-getting-calls', title: "Why Isn't My Plumbing Business Getting Calls? (12 Proven Ways to Get More Customers from Google)", category: 'Local SEO', date: 'Jul 12, 2026', readTime: '14 min', author: 'Emily', excerpt: 'A practical guide for plumbers and plumbing companies. Learn why your phone is not ringing from Google and discover 12 proven ways to get more plumbing calls with Local SEO.', img: 'https://images.pexels.com/photos/8486978/pexels-photo-8486978.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'real-estate-agents-seo-property-leads', title: 'How Real Estate Agents Can Get More Property Leads from Google (15 Proven SEO Strategies)', category: 'Real Estate SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Apex', excerpt: 'A practical SEO guide for real estate agents, realtors, and estate agencies. Learn 15 proven strategies to generate more property leads from Google — without relying on paid ads.', img: 'https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200' },
@@ -498,6 +499,549 @@ export const blogPosts = [
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
 
 export const articleContent: Record<string, { sections: ArticleSection[]; faqs: { q: string; a: string }[] }> = {
+  'roofers-get-more-leads-from-google': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'You Are a Great Roofer. But Can Google Find You?',
+        body: (
+          <>
+            <p>
+              You do quality work. Your crew is skilled. Your customers are happy. But when someone searches "roofing company near me" or "roof repair in [your area]" on Google, your business is nowhere to be found. Meanwhile, competitors with worse reviews and less experience are getting all the calls.
+            </p>
+            <p>
+              Sound familiar? It is the most common frustration I hear from roofing contractors. You know your work is better, but none of that matters if homeowners cannot find you when they need a roofer — often urgently, after a storm or when they spot a leak.
+            </p>
+            <p>
+              Here is the reality: over 80% of people search online before hiring a local contractor. When a homeowner needs <strong>roof repair</strong> or <strong>roof replacement</strong>, they grab their phone and search Google. If your company does not show up in those results, you are invisible to the exact people who need you right now.
+            </p>
+            <p>
+              This guide walks you through 15 proven <strong>roofing SEO</strong> strategies that will help your company show up when it matters most. No fluff. No theory. Just practical steps you can implement to start generating more <strong>roofing leads</strong> from Google — without pouring money into paid ads.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'why-google-best-source',
+        heading: '1. Why Google Is the Best Source of Roofing Leads',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/38293535/pexels-photo-38293535.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Roofer working on a residential home construction site representing Google as the best source of roofing leads" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> When someone searches "emergency roof repair near me" or "roofing contractor [your area]," they are not casually browsing. They have a problem right now — a leak, storm damage, or a roof that needs replacing. Google search traffic is the highest-intent traffic you can get. These are people ready to hire.
+            </p>
+            <p>Compare that to Facebook or Instagram, where people scroll past your ad while looking at photos. There is a place for social, but Google is where homeowners go when they are serious.</p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Treating your website like a digital brochure instead of a lead generation tool</li>
+              <li>Relying entirely on word of mouth and hoping referrals will sustain growth</li>
+              <li>Spending on paid ads without investing in organic SEO for long-term results</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>Identify the keywords your potential customers search for (e.g., "roof repair [your area]," "roof replacement [your area]")</li>
+              <li>Check if your website currently appears for those terms using Google Search Console</li>
+              <li>Make a plan to rank for those keywords using the strategies in this guide</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofing company in Leeds started targeting "storm damage roof repair Leeds" instead of just "roofer Leeds." They ranked within 3 months and now get 6–8 storm damage enquiries per week — all free, organic leads.</p>
+            <p><strong>Pro Tip:</strong> Focus on emergency-related keywords. "Emergency roof repair [your area]" gets fewer searches than "roofer [your area]" but the people searching need help immediately and call right away.</p>
+          </>
+        ),
+      },
+      {
+        id: 'optimize-google-business-profile',
+        heading: '2. Optimize Your Google Business Profile',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/9957875/pexels-photo-9957875.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service van and workers on a residential street representing Google Business Profile optimization for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is what appears in the local pack — the top 3 results with a map that show up for local searches. For roofers, the local pack is gold. It is the first thing homeowners see when they search for a roofing contractor in their area.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Not claiming your profile at all</li>
+              <li>Choosing the wrong primary category (e.g., "Construction company" instead of "Roofing contractor")</li>
+              <li>Leaving service areas, hours, or description blank</li>
+              <li>Uploading no photos or only a few low-quality ones</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>Claim your profile at business.google.com and verify your address</li>
+              <li>Choose "Roofing contractor" as your primary category — this is critical</li>
+              <li>Add "Roofing service" as a secondary category if applicable</li>
+              <li>Fill out every field: services, service areas, hours, description, attributes</li>
+              <li>Upload at least 20 photos: your van, your crew, job sites, before/after shots</li>
+              <li>Write a keyword-rich description: "Professional roofing contractor in [your area] specialising in roof repair, roof replacement, and storm damage restoration"</li>
+              <li>Post weekly updates — special offers, tips, or recent jobs</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofing company in Bristol had a GBP profile but only 3 photos and no description. After filling out every field and uploading 25 photos, their profile views went from 60 to 500 per month in 6 weeks. Calls doubled.</p>
+            <p><strong>Pro Tip:</strong> Post your "before and after" roof jobs on your GBP. It builds social proof and signals to Google that your profile is active and relevant.</p>
+          </>
+        ),
+      },
+      {
+        id: 'target-high-intent-keywords',
+        heading: '3. Target High-Intent Roofing Keywords',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/33404248/pexels-photo-33404248.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional roofer installing shingles with a nail gun representing targeting high-intent roofing keywords" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> If your website only targets "roofer" or "roofing services," you are competing with every roofing company in the country. You will never rank. But "roof repair in [your area]" or "flat roof replacement [your city]" — those are achievable and bring in ready-to-hire homeowners.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Targeting broad keywords like "roofing" or "roofer UK"</li>
+              <li>Not including your city or area in page titles and headings</li>
+              <li>Ignoring emergency-related keywords that have high purchase intent</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>Use Google Keyword Planner to find local roofing keywords with search volume</li>
+              <li>Search Google for "roofer [your area]" and note the "People also ask" questions</li>
+              <li>Target long-tail keywords: "flat roof repair [area]," "tile roof replacement [area]," "emergency roof leak repair [area]"</li>
+              <li>Create one page per service — one for roof repair, one for roof replacement, one for flat roofing</li>
+              <li>Add these keywords naturally to your page titles, headings, and content</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofer in Cardiff was targeting "roofer Cardiff" and ranking on page 4. He created separate pages for "flat roof repair Cardiff" and "chimney repointing Cardiff." Both ranked on page 1 within 3 months, bringing 10+ calls per week.</p>
+            <p><strong>Pro Tip:</strong> Search for your target keyword on Google and scroll to "Related searches" at the bottom. Those are keywords you should also target on your pages.</p>
+          </>
+        ),
+      },
+      {
+        id: 'dedicated-service-pages',
+        heading: '4. Create Dedicated Service Pages',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/31763541/pexels-photo-31763541.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Partial installation of a terracotta tile roof representing dedicated service pages for roofing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Google ranks pages, not websites. If you have one "Services" page listing everything from roof repair to gutter installation in two sentences each, Google cannot rank it for any of them. You need a dedicated page for each <strong>roofing service</strong> you offer.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>One generic services page with 2–3 sentences per service</li>
+              <li>No mention of your area on service pages</li>
+              <li>No photos of actual roofing work</li>
+              <li>No call-to-action telling visitors to call</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>Create a separate page for each service (roof repair, roof replacement, flat roofing, gutter installation, roof inspection)</li>
+              <li>Include the service name and your area in the page title and URL (e.g., <code>/roof-repair-leeds</code>)</li>
+              <li>Write at least 500 words per page explaining the service, process, and benefits</li>
+              <li>Add before/after photos of real roofing jobs</li>
+              <li>Include FAQs answering common customer questions</li>
+              <li>Add a clear "Call Now" button and phone number on every page</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofing company split their single services page into 7 individual pages. Within 4 months, 5 of those pages reached page 1 for their target keywords. Organic enquiries went from 3 per week to 16.</p>
+            <p><strong>Pro Tip:</strong> Add a "What to expect" section to each service page. Homeowners want to know what happens during the job, how long it takes, and what it costs. This builds trust and gets them to pick up the phone.</p>
+          </>
+        ),
+      },
+      {
+        id: 'location-pages',
+        heading: '5. Build Location Pages for Every Service Area',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/7937291/pexels-photo-7937291.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Aerial view of houses with roof tiles in a suburban neighborhood representing location pages for roofing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> If you serve multiple towns or neighbourhoods, you need a dedicated page for each one. Google will not rank a single "Areas We Cover" page for 20 postcodes. But a unique page for "Roofing Contractor in [Town Name]" can rank for that specific area.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>One "Areas We Cover" page listing 20 postcodes in a paragraph</li>
+              <li>Copying the same content with the town name swapped — Google ignores this</li>
+              <li>No area-specific information or local context</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>List every town, city, or neighbourhood you serve</li>
+              <li>Create a unique page for each area (e.g., <code>/roofing-contractor-batley</code>)</li>
+              <li>Write at least 500 words of unique content per page</li>
+              <li>Include local landmarks, property types common in that area, and area-specific roofing challenges</li>
+              <li>Link from each location page to your service pages</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofing company created 10 location pages — one for each town they served. Within 5 months, 6 of those pages reached page 1, generating 30+ organic leads per month from areas they had never actively targeted.</p>
+            <p><strong>Pro Tip:</strong> Do not copy and paste the same content with the town name swapped. Google detects this and ignores it. Write genuinely unique content for each area.</p>
+          </>
+        ),
+      },
+      {
+        id: 'website-speed',
+        heading: '6. Improve Website Speed',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/6124242/pexels-photo-6124242.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up of worker in gloves hammering nails representing website speed optimization for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> When someone has a roof leak, they are stressed. They search on their phone, click the first result, and if it takes more than 3 seconds to load, they hit the back button and call the next roofer. Google also uses speed as a ranking factor — slow sites rank lower.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Uploading huge uncompressed photos straight from a phone or camera</li>
+              <li>Using cheap shared hosting</li>
+              <li>Too many plugins or scripts running</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>Test your site with Google PageSpeed Insights — it is free</li>
+              <li>Compress all images to under 200KB before uploading</li>
+              <li>Convert images to WebP format for faster loading</li>
+              <li>Enable browser caching and GZIP compression</li>
+              <li>Remove unused plugins and scripts</li>
+              <li>Upgrade to better hosting if your site still loads slowly</li>
+              <li>Aim for a mobile load time under 2.5 seconds</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofing company reduced their site load time from 7 seconds to 2 seconds by compressing images and switching hosting. Their bounce rate dropped from 70% to 35% and call form submissions increased 45%.</p>
+            <p><strong>Pro Tip:</strong> If your site takes longer than 3 seconds to load, you are losing half your potential customers before they even see your phone number.</p>
+          </>
+        ),
+      },
+      {
+        id: 'mobile-friendly',
+        heading: '7. Make Your Website Mobile Friendly',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/18504013/pexels-photo-18504013.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Worker in helmet and reflective vest holding a device at a work site representing mobile-friendly roofing websites" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Over 70% of local service searches happen on mobile phones. When someone spots a roof leak or storm damage, they reach for their phone, not a laptop. If your <strong>roofing website</strong> is hard to read or tap on a phone, they leave and call someone else.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Desktop-only design that does not adapt to mobile screens</li>
+              <li>Phone number is not clickable</li>
+              <li>Text is too small to read without zooming</li>
+              <li>Buttons and links are too small to tap accurately</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>Use a responsive design that adapts to all screen sizes</li>
+              <li>Make your phone number a clickable "tel:" link at the top of every page</li>
+              <li>Use large fonts (16px minimum) readable on phones</li>
+              <li>Make buttons at least 48px wide for easy tapping</li>
+              <li>Put your phone number and "Call Now" button above the fold</li>
+              <li>Remove any pop-ups that block content on mobile</li>
+              <li>Test your site on Google's Mobile-Friendly Test tool</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofer made his phone number clickable on mobile and added a "Call Now" button at the top of every page. Mobile calls increased 60% within one month — same traffic, just easier to contact.</p>
+            <p><strong>Pro Tip:</strong> Google uses mobile-first indexing. This means Google looks at your mobile site first when deciding rankings. If your mobile site is bad, your rankings suffer — even on desktop.</p>
+          </>
+        ),
+      },
+      {
+        id: 'google-reviews',
+        heading: '8. Collect More Google Reviews',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/7578896/pexels-photo-7578896.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Construction contractor interacting with a client on site representing Google reviews for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Reviews are the second biggest local ranking factor. They also directly influence whether a homeowner calls you or your competitor. 88% of people trust online reviews as much as personal recommendations. If your competitor has 80 reviews and you have 6, homeowners will call them — even if your work is better.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Not asking happy customers for reviews</li>
+              <li>Waiting for reviews to come in naturally (they will not)</li>
+              <li>Not responding to reviews — positive or negative</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>Create a direct link to your Google review page</li>
+              <li>Ask every happy customer for a review right after finishing the job</li>
+              <li>Send a follow-up text or email with the review link 24 hours later</li>
+              <li>Respond to every review within 24 hours — thank them and mention the service</li>
+              <li>Never buy reviews — Google detects fake reviews and can suspend your listing</li>
+              <li>Aim for at least one new review per week</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofing company started texting their review link to every customer after completing a job. They went from 8 reviews to 72 in 4 months. They now appear in the top 3 of the local pack for "roofer [their area]."</p>
+            <p><strong>Pro Tip:</strong> Ask customers to mention the specific service in their review. "Fixed our storm-damaged roof in under a day" helps you rank for "storm damage roof repair" searches.</p>
+          </>
+        ),
+      },
+      {
+        id: 'local-backlinks',
+        heading: '9. Build High-Quality Local Backlinks',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/30514132/pexels-photo-30514132.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Construction team working together on a building roof representing local backlink building for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Backlinks are links from other websites to yours. Google treats them as votes of confidence. The more quality local backlinks you have, the higher your <strong>Google rankings</strong> — and the more <strong>organic traffic</strong> you get. One link from a trusted local source can boost your rankings more than 50 generic directory links.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Buying backlinks or using link farms (Google penalizes this)</li>
+              <li>Getting links from irrelevant websites</li>
+              <li>Not actively building any backlinks at all</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>Sponsor a local football team, charity, or community event — they link to sponsors</li>
+              <li>Partner with builders, estate agents, and insurance companies for cross-promotion</li>
+              <li>Get featured in local newspapers and home improvement blogs</li>
+              <li>Join your local chamber of commerce or trade association</li>
+              <li>Get listed on the National Federation of Roofing Contractors website</li>
+              <li>Create shareable content like local roofing cost guides</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofing company sponsored a local youth football team for 200 pounds per season. The club linked to their website from their sponsors page. That single local backlink helped push them from page 2 to page 1 for "roofer [their town]."</p>
+            <p><strong>Pro Tip:</strong> Focus on links from websites in your local area. A link from a local builder's website to your roofing site is worth more than a link from a random blog in another country.</p>
+          </>
+        ),
+      },
+      {
+        id: 'roofing-blog-content',
+        heading: '10. Publish Helpful Roofing Blog Content',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/8960941/pexels-photo-8960941.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Engineer in safety gear reviewing documents at a construction site representing helpful roofing blog content creation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Every blog post is a new page that can rank on Google. When you write about problems homeowners search for — "how to spot roof damage," "what to do if your roof leaks," "signs you need a roof replacement" — you bring people to your website who need help right now. Some of them will call you.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Having no blog at all</li>
+              <li>Writing about company news instead of customer problems</li>
+              <li>Writing one or two posts and then stopping</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>Write down 20 questions customers ask you on call-outs</li>
+              <li>Turn each question into a detailed, helpful blog post</li>
+              <li>Topics: "How to spot storm damage on your roof," "Flat roof vs pitched roof — which is right for you," "How much does a new roof cost in [your area]"</li>
+              <li>Write in simple language — explain like you are talking to a homeowner</li>
+              <li>Publish at least twice a month</li>
+              <li>Link from each blog post to your relevant service pages</li>
+              <li>Add a "Call Now" button on every blog post</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofing company wrote a post called "What to Do If Your Roof Leaks During a Storm (Before You Call a Roofer)." It ranks number 1 for that phrase and brings in 200+ visitors per month. About 8% call — that is 16 leads per month from one blog post.</p>
+            <p><strong>Pro Tip:</strong> Search your topic on Google and look at "People also ask." Answer those exact questions in your blog posts. Google rewards pages that answer common questions.</p>
+          </>
+        ),
+      },
+      {
+        id: 'optimize-meta-titles',
+        heading: '11. Optimize Meta Titles and Descriptions',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/8470057/pexels-photo-8470057.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Top view of construction documents and floor plan with a hard hat representing meta titles and descriptions optimization for roofing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Meta titles and descriptions are what appear in Google search results. They are your first impression — your free advert on Google. A compelling title and description get more clicks, even if you are not ranked number 1.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Using your company name as the title for every page</li>
+              <li>No meta descriptions at all — Google auto-generates them poorly</li>
+              <li>Titles and descriptions with no keywords or location</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>Write a unique title for every page (under 60 characters)</li>
+              <li>Format: "[Primary Keyword] in [Area] | [Your Company Name]"</li>
+              <li>Example: "Roof Repair in Leeds | Apex Roofing Services"</li>
+              <li>Write a unique meta description for every page (under 160 characters)</li>
+              <li>Include a call-to-action: "Call today for a free roof inspection"</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofing company changed their homepage title from "Welcome to Smith Roofing" to "Roofing Contractor in Leeds | Smith Roofing Repair &amp; Replacement." Click-through rate from Google increased 40%.</p>
+            <p><strong>Pro Tip:</strong> Test different meta descriptions like you would test ad copy. A description that promises a specific benefit ("Free roof inspection in 24 hours") outperforms a generic one.</p>
+          </>
+        ),
+      },
+      {
+        id: 'roofing-schema-markup',
+        heading: '12. Use Roofing Schema Markup',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/31763537/pexels-photo-31763537.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wooden roof framing under construction representing roofing schema markup and structured data" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Schema markup is code that helps Google understand your content better. For roofing companies, it can show your services, reviews, and service areas directly in search results — making your listing stand out and get more clicks.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Not using schema at all</li>
+              <li>Using the wrong schema type for a roofing business</li>
+              <li>Not testing markup with Google's Rich Results Test tool</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>Add <code>LocalBusiness</code> schema to your homepage with your name, address, phone, and opening hours</li>
+              <li>Add <code>RoofingContractor</code> schema to your service pages</li>
+              <li>Add <code>Service</code> schema with the type of roofing services you offer</li>
+              <li>Add <code>FAQPage</code> schema to your FAQ pages</li>
+              <li>Add <code>Review</code> schema to display review stars in search results</li>
+              <li>Test your markup with Google's Rich Results Test tool</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofing company added <code>LocalBusiness</code> and <code>Review</code> schema to their site. Their search results started showing review stars and opening hours, increasing click-through rate by 25%.</p>
+            <p><strong>Pro Tip:</strong> If you use WordPress with Yoast SEO or Rank Math, schema markup is built in. Just fill out your business information in the plugin settings.</p>
+          </>
+        ),
+      },
+      {
+        id: 'internal-linking',
+        heading: '13. Improve Internal Linking',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/8470864/pexels-photo-8470864.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hard hat, keys, and blueprints laid out together representing internal linking and website structure for roofing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Internal links connect your pages to each other. They help Google understand your site structure and help visitors discover more of your content. Good internal linking spreads authority from your strongest pages to your weaker ones.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Using "click here" as link text instead of descriptive keywords</li>
+              <li>No links between blog posts and service pages</li>
+              <li>Important pages buried deep in the site, hard to reach</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>Link from every location page to your service pages</li>
+              <li>Link from every blog post to at least 2 relevant service pages</li>
+              <li>Link from your homepage to your most important service pages</li>
+              <li>Use descriptive anchor text: "roof repair in [area]" not "click here"</li>
+              <li>Make sure every page is reachable within 3 clicks from your homepage</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofing company added internal links from their popular blog posts to their "Free Roof Inspection" page. Inspection requests from organic traffic increased 35% in 2 months.</p>
+            <p><strong>Pro Tip:</strong> Find your most visited blog post in Google Analytics and add 3 internal links from it to your key service pages. One change can boost those pages' rankings.</p>
+          </>
+        ),
+      },
+      {
+        id: 'track-seo-performance',
+        heading: '14. Track SEO with Google Search Console',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/4744769/pexels-photo-4744769.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service van parked on a sunny street representing tracking SEO performance with Google Search Console for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> You cannot fix what you do not measure. Google Search Console shows you exactly which keywords bring people to your site, which pages are indexed, and what issues are holding you back. Without it, you are doing <strong>roofing SEO</strong> blindfolded.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Not having Google Search Console set up at all</li>
+              <li>Setting it up and never looking at the data</li>
+              <li>Not tracking which keywords drive phone calls and enquiries</li>
+            </ul>
+            <p><strong>Step-by-step implementation:</strong></p>
+            <ol>
+              <li>Set up Google Search Console and verify your website</li>
+              <li>Submit your XML sitemap</li>
+              <li>Check the Performance report weekly for keywords you are ranking for</li>
+              <li>Look at keywords in positions 5–15 — those are almost on page 1</li>
+              <li>Check the Coverage report for indexing errors and fix them</li>
+              <li>Set up Google Analytics 4 to track enquiry form submissions</li>
+              <li>Double down on what works — write more content for growing keywords</li>
+            </ol>
+            <p><strong>Practical example:</strong> A roofing company noticed via Search Console that they ranked for "flat roof repair" but not "EPDM rubber roof installation." They created a dedicated EPDM page and ranked within 6 weeks. They now get 4–5 calls per week from that page alone.</p>
+            <p><strong>Pro Tip:</strong> Sort your keywords by "impressions" in Search Console. High impressions but low clicks means your page title and meta description need to be more compelling.</p>
+          </>
+        ),
+      },
+      {
+        id: 'common-mistakes',
+        heading: '15. Common Roofing SEO Mistakes to Avoid',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/14615663/pexels-photo-14615663.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up of a broken dilapidated roof with missing shingles representing common roofing SEO mistakes to avoid" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Even roofers who try <strong>roofing company SEO</strong> often make these mistakes. Avoid them and you will already be ahead of most competitors:
+            </p>
+            <ul>
+              <li><strong>Targeting broad keywords:</strong> "Roofing" instead of "roofing contractor [your area]." You cannot compete with national directories — compete locally.</li>
+              <li><strong>Thin service pages:</strong> One paragraph per service. Google will not rank thin content. Write 500+ words per page.</li>
+              <li><strong>No Google Business Profile:</strong> Missing the single biggest local SEO opportunity. Claim and complete it today.</li>
+              <li><strong>Ignoring reviews:</strong> Not asking for reviews and not responding to the ones you get. Reviews drive both rankings and trust.</li>
+              <li><strong>Slow website:</strong> Huge uncompressed job photos dragging your speed down. Compress every image before uploading.</li>
+              <li><strong>No blog:</strong> Only having service pages. Blog content captures homeowners at every stage of their journey.</li>
+              <li><strong>Duplicate content:</strong> Copying the same text across location pages with the town name swapped. Google penalizes this.</li>
+              <li><strong>No tracking:</strong> Not using Google Search Console or Analytics. You cannot improve what you do not measure.</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'comparison-table',
+        heading: 'Roofing SEO Strategy Comparison: Effort vs. Lead Impact',
+        body: (
+          <>
+            <p>Not sure where to start? Here is a comparison of all 15 strategies, ranked by effort and impact on <strong>roofing leads</strong>:</p>
+            <div className="overflow-x-auto my-6">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-white/10">
+                    <th className="py-3 px-4 text-left font-semibold text-white">Strategy</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Effort</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Lead Impact</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Time to Results</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Collect Google Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize Meta Titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Schema Markup</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Service Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Location Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve Website Speed</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Make Site Mobile Friendly</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish Blog Content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Local Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr><td className="py-2.5 px-4 text-slate-300">Track with Search Console</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </>
+        ),
+      },
+      {
+        id: 'checklist',
+        heading: 'Your Roofing SEO Checklist',
+        body: (
+          <>
+            <p>Print this or bookmark it. Work through each item to start getting more leads from Google:</p>
+            <ul>
+              <li><input type="checkbox" disabled className="mr-2" /> Claimed and completed your Google Business Profile</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Chosen "Roofing contractor" as your primary GBP category</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Uploaded at least 20 photos to your GBP listing</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Posted at least one GBP update this week</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Asked at least 3 customers for Google reviews this week</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Responded to all existing Google reviews</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Created a separate page for each roofing service</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Created a unique page for each area you serve</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Researched 10 local roofing keywords for your area</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Written unique meta titles and descriptions for every page</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Made your phone number clickable on mobile</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Added a "Call Now" button above the fold on every page</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Compressed all images to under 200KB</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Tested your site on Google PageSpeed Insights</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Set up Google Search Console and submitted your sitemap</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'conclusion',
+        heading: 'The Bottom Line for Roofing SEO',
+        body: (
+          <>
+            <p>
+              Getting <strong>roofing leads</strong> from Google is not about having the biggest budget or the flashiest website. It is about being found when homeowners are actively searching for a roofing contractor in your area. The 15 strategies in this guide are proven to work for <strong>roofing marketing</strong> — and most of them cost nothing but your time.
+            </p>
+            <p>
+              Start with the quick wins: optimize your Google Business Profile, ask for reviews, and fix your meta titles. Then move to the medium-term strategies: create service and location pages, improve your site speed, and add schema markup. Finally, invest in the long-term plays: blog content, local backlinks, and ongoing tracking.
+            </p>
+            <p>
+              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help roofing contractors and companies dominate local search with proven <strong>local SEO for roofers</strong> strategies. <a href="#/contact">Get a free SEO audit today</a> and find out exactly what is holding your website back from generating more roofing leads.
+            </p>
+            <p>
+              Your competitors are already working on their SEO. The longer you wait, the harder it becomes to catch up. Start today.
+            </p>
+          </>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'How long does roofing SEO take to generate leads?', a: 'Quick wins like Google Business Profile optimization and review collection can generate leads within 1–2 weeks. SEO strategies like keyword targeting, service pages, and content typically take 3–6 months to show significant results. Consistency is key — roofing companies that implement these strategies regularly see compounding growth over time.' },
+      { q: 'What keywords should my roofing company target?', a: 'Target specific, local, service-based keywords like "roof repair [your city]," "roof replacement [your area]," or "flat roofing contractor [your location]." Avoid broad terms like "roofing" or "roofer" — you cannot compete with national directories. Focus on keywords that include your service type and location.' },
+      { q: 'How can I rank higher on Google Maps for roofing?', a: 'The most important factors are a complete and active Google Business Profile, a high number of positive reviews, consistent NAP (name, address, phone) across all directories, and proximity to the searcher. Optimize all of these and your Google Maps ranking should improve within 2–8 weeks.' },
+      { q: 'Do I need a separate website for each area I serve?', a: 'No. You need one website with a dedicated, unique page for each area you serve. Each page should have at least 500 words of unique content about that specific area, including local property types and roofing challenges. This is far more effective than separate websites.' },
+      { q: 'Should I hire an SEO agency for my roofing business?', a: 'If you have 5–10 hours per week to dedicate to SEO, you can implement many of these strategies yourself. But most roofing contractors are too busy on jobs to also manage SEO. An experienced agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased roofing leads.' },
+    ],
+  },
   'law-firm-not-showing-on-google': {
     sections: [
       {
