@@ -372,6 +372,71 @@ export const caseStudies = [
       { label: 'Traffic Value', value: '$8.6K', sub: '/month est.' },
     ],
   },
+  {
+    slug: 'google-search-console-performance',
+    client: 'Multi-Channel Organic Growth Client',
+    industry: 'Content & eCommerce',
+    result: '12.3K clicks · 1.08M impressions · Discover: 3K clicks, 130K impressions',
+    img: '/images/case-studies/website_seo_ss.png',
+    summary: 'A comprehensive content and technical SEO programme produced 1.08M search impressions and 12.3K organic clicks in a three-month window, alongside a Discover traffic spike of 3K clicks from 130K impressions — demonstrating reach far beyond standard search.',
+    stats: [
+      { label: 'Total Clicks', value: '12.3K', sub: 'organic search' },
+      { label: 'Impressions', value: '1.08M', sub: 'search results' },
+      { label: 'Discover Clicks', value: '3K', sub: '130K impressions' },
+    ],
+  },
+  {
+    slug: 'seo-benefits-and-wrongful-termination-law',
+    client: 'SEO Benefits + Wrongful Termination Law Group',
+    industry: 'General SEO & Legal',
+    result: '1,087 → 1,465 keywords + wrongfultermination.com 152 → 645 terms',
+    img: '/images/case-studies/website_seo_ss_(1).png',
+    summary: 'Two simultaneous engagements delivered measurable keyword growth. A general SEO client grew from 1,087 to 1,465 ranking keywords. Wrongful Termination Law Group (wrongfultermination.com) grew from 152 terms to 645 — an increase of 493 keywords — with Page 1 (positions 4–10) gaining 31 additional keywords and Domain Authority rising from 26 to 28.',
+    stats: [
+      { label: 'Legal Keywords', value: '152 → 645', sub: '+493 terms' },
+      { label: 'Page-1 Keywords', value: '+31', sub: 'positions 4–10' },
+      { label: 'Domain Authority', value: '26 → 28', sub: 'DA increase' },
+    ],
+  },
+  {
+    slug: 'decorative-concrete-domain-authority',
+    client: 'Decorative Concrete — Domain Authority & Backlink Profile',
+    industry: 'Home Services',
+    result: 'AS 18 · 1.5K backlinks · 687 referring domains · 2,115 organic visits/month',
+    img: '/images/case-studies/website_seo_ss_(3).png',
+    summary: 'A sustained link-building and on-page SEO programme pushed organic traffic to 2,115 visits per month (+979%) with 1.5K backlinks from 687 referring domains. The domain now draws 91% of its traffic from the US market with 1.8K ranking keywords and an Authority Score of 18.',
+    stats: [
+      { label: 'Authority Score', value: '18', sub: 'Semrush AS' },
+      { label: 'Backlinks', value: '1.5K', sub: '687 ref. domains' },
+      { label: 'Organic Traffic', value: '+979%', sub: '2,115/month' },
+    ],
+  },
+  {
+    slug: 'technical-seo-site-health-recovery',
+    client: 'Technical SEO & Site Health Recovery',
+    industry: 'Home Services',
+    result: 'Site Health 88% · Organic Traffic +979% spike · 1,762 ranking keywords',
+    img: '/images/case-studies/website_seo_ss_(4).png',
+    summary: 'A full technical SEO audit and remediation programme achieved a Site Health score of 88% (placing the site in the top 10% of its category at 92%). Organic traffic surged to 2,115 visits per month with a sharp spike recorded in April 2024, and the site now holds 1,762 ranking keywords across 224 indexable pages.',
+    stats: [
+      { label: 'Site Health', value: '88%', sub: 'top-10% category' },
+      { label: 'Organic Traffic', value: '2,115', sub: 'visits/month' },
+      { label: 'Keywords', value: '1,762', sub: 'ranking positions' },
+    ],
+  },
+  {
+    slug: 'epoxy-flooring-keyword-dominance',
+    client: 'San Diego Decorative Concrete — Epoxy & Keyword Dominance',
+    industry: 'Home Services',
+    result: '1.8K keywords · Traffic +979% · Traffic value $9.1K/month (+1,578%)',
+    img: '/images/case-studies/website_seo_ss_(5).png',
+    summary: 'An advanced keyword targeting strategy pushed the domain to rank for 1,762 organic search positions including high-volume epoxy flooring terms. "Epoxy garage floor" (33.1K monthly searches) reached position 9 generating 1.4K monthly traffic. From a starting point of just 15 keywords, traffic cost grew to $9.1K/month (+1,578%) — a compounding return on SEO investment.',
+    stats: [
+      { label: 'Traffic Value', value: '$9.1K', sub: '+1,578%/month' },
+      { label: 'Traffic Growth', value: '+979%', sub: '2.1K visits/month' },
+      { label: 'Top Keyword Vol.', value: '33.1K', sub: '"epoxy garage floor"' },
+    ],
+  },
 ];
 
 export type PortfolioItem = {
