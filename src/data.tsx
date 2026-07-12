@@ -473,6 +473,7 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 export const blogPosts = [
+  { slug: 'law-firm-not-showing-on-google', title: "Why Isn't My Law Firm Showing on Google? (12 Proven SEO Fixes to Get More Clients)", category: 'Law Firm SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Emily', excerpt: 'A practical SEO guide for law firms, attorneys, and solicitors. Learn why your firm is not appearing on Google and discover 12 proven fixes to attract more legal clients.', img: 'https://images.pexels.com/photos/5668775/pexels-photo-5668775.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'plumbing-business-not-getting-calls', title: "Why Isn't My Plumbing Business Getting Calls? (12 Proven Ways to Get More Customers from Google)", category: 'Local SEO', date: 'Jul 12, 2026', readTime: '14 min', author: 'Emily', excerpt: 'A practical guide for plumbers and plumbing companies. Learn why your phone is not ringing from Google and discover 12 proven ways to get more plumbing calls with Local SEO.', img: 'https://images.pexels.com/photos/8486978/pexels-photo-8486978.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'real-estate-agents-seo-property-leads', title: 'How Real Estate Agents Can Get More Property Leads from Google (15 Proven SEO Strategies)', category: 'Real Estate SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Apex', excerpt: 'A practical SEO guide for real estate agents, realtors, and estate agencies. Learn 15 proven strategies to generate more property leads from Google — without relying on paid ads.', img: 'https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'get-more-customers-without-paid-ads', title: 'How Can I Get More Customers Without Paid Ads? (15 Proven Strategies That Actually Work)', category: 'Lead Generation', date: 'Jul 12, 2026', readTime: '14 min', author: 'Muhammad Sarwar', excerpt: 'Stop wasting money on ads. These 15 proven organic strategies help small businesses, local services, and eCommerce stores get more customers — without spending on paid advertising.', img: 'https://images.pexels.com/photos/3183179/pexels-photo-3183179.jpeg?auto=compress&cs=tinysrgb&w=1200' },
@@ -497,6 +498,477 @@ export const blogPosts = [
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
 
 export const articleContent: Record<string, { sections: ArticleSection[]; faqs: { q: string; a: string }[] }> = {
+  'law-firm-not-showing-on-google': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Your Law Firm Has a Great Website. So Why Is Nobody Finding It on Google?',
+        body: (
+          <>
+            <p>
+              You spent good money on a professional website. It looks polished, your credentials are impressive, and your practice areas are clearly listed. But when you search "solicitor in [your area]" or "personal injury lawyer near me" on Google, your firm is nowhere to be found. Instead, smaller firms with less experience are getting the calls.
+            </p>
+            <p>
+              This is the most common frustration I hear from law firm partners and solo attorneys. You know you are good at what you do. But none of that matters if potential clients cannot find you when they are actively searching for legal help.
+            </p>
+            <p>
+              Here is the reality: when someone needs a lawyer, they turn to Google. Whether it is a divorce, a personal injury claim, an immigration matter, or a criminal charge — the first thing most people do is search online. If your firm is not showing up in those searches, you are losing clients to competitors who may not be half as qualified as you.
+            </p>
+            <p>
+              This guide breaks down the 12 most common reasons law firms do not appear on Google — and exactly what to do about each one. No theory. Just practical steps you can take to improve your <strong>law firm SEO</strong> and start attracting more clients.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'google-business-profile',
+        heading: '1. Your Google Business Profile Is Not Optimized',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/9367109/pexels-photo-9367109.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern law office exterior with elegant facade representing Google Business Profile optimization for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is what appears in the local pack — the top 3 results with a map that show up when someone searches for a lawyer in their area. For law firms, the local pack is where most potential clients click. If your profile is incomplete or inactive, you will not be in that pack.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Not claiming your profile at all</li>
+              <li>Choosing the wrong primary category (e.g., "Legal services" instead of "Personal injury attorney")</li>
+              <li>Leaving service areas, hours, or description blank</li>
+              <li>No photos of your office, team, or building</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Claim your profile at business.google.com and verify your address</li>
+              <li>Choose your most specific primary category — "Personal injury attorney," "Family law attorney," or "Criminal justice attorney"</li>
+              <li>Fill out every field: services, service areas, hours, description, attributes</li>
+              <li>Upload at least 20 photos: your office, team, building, reception area</li>
+              <li>Write a keyword-rich description: "Experienced personal injury lawyer in [your area] helping clients with accident claims, medical negligence, and workplace injuries"</li>
+              <li>Post weekly updates — legal tips, case results, client testimonials, firm news</li>
+            </ol>
+            <p><strong>Practical example:</strong> A family law firm in Manchester had a GBP profile but only 4 photos and no description. After filling out every field and uploading 25 photos, their profile views went from 80 to 700 per month in 6 weeks. Consultation requests doubled.</p>
+            <p><strong>Pro Tip:</strong> Choose the most specific category available. "Family law attorney" is far better than "Lawyer" because it targets exactly the clients you want.</p>
+          </>
+        ),
+      },
+      {
+        id: 'website-not-indexed',
+        heading: '2. Your Law Firm Website Is Not Indexed',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/8731036/pexels-photo-8731036.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Law book with scales of justice icon on a wooden desk representing website indexing for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> If Google has not indexed your website, it does not exist in Google's eyes. No indexing means no rankings, no impressions, no clicks, no clients. Many law firms have beautiful websites that Google has never crawled or added to its index.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>No Google Search Console set up</li>
+              <li>Robots.txt blocking search engines from crawling the site</li>
+              <li>No XML sitemap submitted to Google</li>
+              <li>Site launched with "noindex" tags still enabled from development</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Set up Google Search Console and verify your website</li>
+              <li>Submit your XML sitemap in Search Console</li>
+              <li>Check the Coverage report for any indexing errors</li>
+              <li>Make sure your robots.txt file is not blocking important pages</li>
+              <li>Request indexing for your key pages manually in Search Console</li>
+              <li>Check that no "noindex" meta tags are present on live pages</li>
+            </ol>
+            <p><strong>Practical example:</strong> A law firm discovered their entire site was set to "noindex" from the development phase. Google had never indexed a single page. After fixing the tag and submitting the sitemap, their pages appeared in Google within 2 weeks and they started getting enquiries within a month.</p>
+            <p><strong>Pro Tip:</strong> Check Google Search Console monthly for new indexing errors. Pages can accidentally become unindexed after website updates or plugin changes.</p>
+          </>
+        ),
+      },
+      {
+        id: 'wrong-keywords',
+        heading: '3. You Are Targeting the Wrong Legal Keywords',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/8730366/pexels-photo-8730366.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Female lawyer reviewing papers at her desk representing targeting the right legal keywords for law firm SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> If your website only targets "solicitor" or "law firm," you are competing with every legal website in the country. You will never rank. But "personal injury lawyer in [your area]" or "family solicitor [your city]" — those are achievable and bring in people who are ready to hire.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Targeting broad keywords like "lawyer" or "solicitor"</li>
+              <li>Not including your city or area in page titles and headings</li>
+              <li>Ignoring practice-area-specific keywords that have high intent</li>
+              <li>Not targeting "near me" searches like "attorney near me"</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Use Google Keyword Planner to find local legal keywords with search volume</li>
+              <li>Search Google for "personal injury lawyer [your area]" and note the "People also ask" questions</li>
+              <li>Target long-tail keywords: "car accident solicitor [area]," "divorce lawyer [area]," "immigration attorney [area]"</li>
+              <li>Create one page per practice area, each targeting specific keywords</li>
+              <li>Add these keywords naturally to your page titles, headings, and content</li>
+            </ol>
+            <p><strong>Practical example:</strong> A personal injury firm in Birmingham was targeting "solicitor Birmingham" and ranking on page 5. They created separate pages for "car accident lawyer Birmingham" and "medical negligence solicitor Birmingham." Both ranked on page 1 within 4 months, bringing 15+ enquiries per month.</p>
+            <p><strong>Pro Tip:</strong> Emergency-related keywords convert best. "Emergency criminal defense lawyer [your area]" gets fewer searches than "lawyer [your area]" but the people searching need help immediately and call right away.</p>
+          </>
+        ),
+      },
+      {
+        id: 'practice-area-pages',
+        heading: '4. Your Practice Area Pages Need Improvement',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/7876151/pexels-photo-7876151.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Legal professionals discussing documents with scales of justice representing practice area pages for law firm SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Google ranks pages, not websites. If you have one "Practice Areas" page listing everything from family law to criminal defense in two sentences each, Google cannot rank it for any of them. You need a dedicated, in-depth page for each practice area.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>One generic practice areas page with 2–3 sentences per area</li>
+              <li>No mention of your city or area on practice area pages</li>
+              <li>No case results, testimonials, or trust signals</li>
+              <li>No call-to-action telling visitors to contact you</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Create a separate page for each practice area (personal injury, family law, criminal defense, immigration, estate planning)</li>
+              <li>Include the practice area and your location in the page title and URL (e.g., <code>/personal-injury-lawyer-manchester</code>)</li>
+              <li>Write at least 800 words per page explaining the service, process, and what clients should expect</li>
+              <li>Add case results, client testimonials, and professional credentials</li>
+              <li>Include FAQs answering common client questions</li>
+              <li>Add a clear "Book a Consultation" form and phone number on every page</li>
+            </ol>
+            <p><strong>Practical example:</strong> A law firm split their single practice areas page into 8 individual pages. Within 4 months, 5 of those pages reached page 1 for their target keywords. Organic enquiries went from 4 per week to 22.</p>
+            <p><strong>Pro Tip:</strong> Add a "What to expect during your consultation" section to each practice area page. Potential clients are nervous — telling them what happens during the first meeting reduces anxiety and increases contact form submissions.</p>
+          </>
+        ),
+      },
+      {
+        id: 'slow-website',
+        heading: '5. Your Website Is Too Slow',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/6077665/pexels-photo-6077665.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Scales of justice with technology on an office desk representing website speed optimization for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> When someone needs a lawyer urgently — after an accident, an arrest, or a family crisis — they search on their phone. If your site takes more than 3 seconds to load, they hit the back button and call the next firm. Google also uses speed as a ranking factor.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Large uncompressed images of the team or office</li>
+              <li>Heavy legal document PDFs loading on key pages</li>
+              <li>Cheap shared hosting that cannot handle traffic</li>
+              <li>Too many plugins or tracking scripts</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Test your site with Google PageSpeed Insights — it is free</li>
+              <li>Compress all images to under 200KB before uploading</li>
+              <li>Convert images to WebP format for faster loading</li>
+              <li>Enable browser caching and GZIP compression</li>
+              <li>Remove unused plugins, scripts, and tracking codes</li>
+              <li>Upgrade to better hosting if your site still loads slowly</li>
+              <li>Aim for a mobile load time under 2.5 seconds</li>
+            </ol>
+            <p><strong>Practical example:</strong> A law firm reduced their site load time from 6 seconds to 2 seconds by compressing images and removing unused plugins. Their bounce rate dropped from 68% to 35% and consultation form submissions increased 50%.</p>
+            <p><strong>Pro Tip:</strong> If your site takes longer than 3 seconds to load, you are losing over half your potential clients before they even see your phone number.</p>
+          </>
+        ),
+      },
+      {
+        id: 'not-mobile-friendly',
+        heading: '6. Your Website Is Not Mobile Friendly',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/5668790/pexels-photo-5668790.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Lawyer talking on a mobile phone while working in a law office representing mobile-friendly websites for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Over 70% of people searching for a lawyer do it on their phone — often in stressful situations. If your website is hard to read, navigate, or tap on a mobile screen, they leave and call someone else. Google uses mobile-first indexing, so a bad mobile site also hurts your <strong>Google rankings</strong>.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Desktop-only design that does not adapt to phone screens</li>
+              <li>Phone number is not clickable</li>
+              <li>Text is too small to read without zooming</li>
+              <li>Contact forms are too long and hard to fill on mobile</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Use a responsive design that adapts to all screen sizes</li>
+              <li>Make your phone number a clickable "tel:" link at the top of every page</li>
+              <li>Use large fonts (16px minimum) readable on phones</li>
+              <li>Make buttons at least 48px wide for easy tapping</li>
+              <li>Put your phone number and "Book Consultation" button above the fold</li>
+              <li>Shorten contact forms to name, phone, and brief message only</li>
+              <li>Test your site on Google's Mobile-Friendly Test tool</li>
+            </ol>
+            <p><strong>Practical example:</strong> A law firm made their phone number clickable on mobile and shortened their contact form from 9 fields to 3. Mobile consultation requests increased 55% within one month.</p>
+            <p><strong>Pro Tip:</strong> People seeking legal help are often stressed and in a hurry. The easier you make it to contact you on mobile, the more calls you will get.</p>
+          </>
+        ),
+      },
+      {
+        id: 'client-reviews',
+        heading: '7. You Do Not Have Enough Client Reviews',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/5673493/pexels-photo-5673493.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional colleagues shaking hands representing client reviews and trust building for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Choosing a lawyer is one of the most important decisions someone makes. They need to trust you. Reviews are how you build that trust online. 87% of people look at reviews before hiring a lawyer. If your competitor has 80 reviews and you have 6, clients will call them — even if your experience is better.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Not asking happy clients for reviews</li>
+              <li>Waiting for reviews to come in naturally (they will not)</li>
+              <li>Not responding to reviews — positive or negative</li>
+              <li>Being afraid to ask because it feels awkward</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Create a direct link to your Google review page</li>
+              <li>Ask every satisfied client for a review after their case concludes successfully</li>
+              <li>Send a follow-up email with the review link 24–48 hours later</li>
+              <li>Respond to every review within 24 hours — thank them and mention their case type</li>
+              <li>Never buy or fabricate reviews — Google detects this and can suspend your listing</li>
+              <li>Aim for at least one new review per week</li>
+            </ol>
+            <p><strong>Practical example:</strong> A personal injury firm started emailing their review link to every client after a successful settlement. They went from 12 reviews to 89 in 5 months. They now appear in the top 3 of the local pack for "personal injury lawyer [their area]."</p>
+            <p><strong>Pro Tip:</strong> Ask clients to mention their case type in the review. "Handled my car accident claim brilliantly" helps you rank for "car accident lawyer" searches.</p>
+          </>
+        ),
+      },
+      {
+        id: 'weak-local-seo',
+        heading: '8. Weak Local SEO Signals',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/22882654/pexels-photo-22882654.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Courthouse building exterior representing local SEO signals for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> <strong>Local SEO for lawyers</strong> is about showing up when people search for legal services in your area. Google looks at signals like your Google Business Profile, reviews, citations, and location to decide who ranks in the local pack. Weak signals mean you do not show up.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>No location-specific pages on your website</li>
+              <li>Inconsistent name, address, and phone (NAP) across the web</li>
+              <li>Not mentioning your city or area in page titles and content</li>
+              <li>No Google Maps embed on your contact page</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Add your city or area to your homepage title and H1</li>
+              <li>Create location-specific pages if you serve multiple areas</li>
+              <li>Mention local courthouses, landmarks, and neighbourhoods in your content</li>
+              <li>Embed a Google Map on your contact page</li>
+              <li>Ensure your NAP is identical on your website, GBP, and all directories</li>
+              <li>Add your business to local legal directories and the Law Society</li>
+            </ol>
+            <p><strong>Practical example:</strong> A law firm added "Solicitors in [their city]" to their homepage title and created 4 location pages for nearby areas they served. Within 3 months, they ranked for 12 local keywords and saw a 60% increase in organic enquiries.</p>
+            <p><strong>Pro Tip:</strong> If you serve multiple cities, create a unique page for each city with specific information about that location — not just the city name swapped into the same template.</p>
+          </>
+        ),
+      },
+      {
+        id: 'missing-citations',
+        heading: '9. Missing Local Citations',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/7841456/pexels-photo-7841456.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Lawyer meeting with clients in his office representing local citations and legal directory listings" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Local citations are mentions of your firm's name, address, and phone number on other websites — directories, review sites, and legal listings. Google uses these to verify your firm is legitimate and located where you say it is. Missing or inconsistent citations weaken your local search ranking.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Only being listed on Google and nowhere else</li>
+              <li>Different address or phone number on different sites</li>
+              <li>Not being listed on legal-specific directories</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Get listed on Yell.com, Yelp UK, and Bing Places for Business</li>
+              <li>Add your firm to the Law Society directory and Solicitors Regulation Authority</li>
+              <li>Get listed on FreeIndex, Cylex UK, and Trustpilot</li>
+              <li>Submit to legal-specific directories like Chambers &amp; Partners and Legal 500</li>
+              <li>Ensure your NAP is identical across every single listing</li>
+              <li>Audit existing listings and fix any inconsistencies</li>
+            </ol>
+            <p><strong>Practical example:</strong> A law firm discovered their phone number was outdated on 3 directories. After fixing all listings and adding 5 new citations, their <strong>Google Maps ranking</strong> improved from position 7 to position 3 within 5 weeks.</p>
+            <p><strong>Pro Tip:</strong> Even a small difference — "St." vs "Street" or "0207" vs "020 7" — can confuse Google. Pick one format and use it everywhere.</p>
+          </>
+        ),
+      },
+      {
+        id: 'legal-backlinks',
+        heading: '10. Lack of High-Quality Legal Backlinks',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/5673490/pexels-photo-5673490.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Legal colleagues discussing contract details in a conference hall representing high-quality legal backlinks" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Backlinks are links from other websites to yours. Google treats them as votes of confidence. For law firms, links from respected legal sources carry enormous weight. One link from a trusted legal website can boost your <strong>Google rankings</strong> more than 50 generic directory links.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Buying backlinks or using link farms (Google penalizes this heavily)</li>
+              <li>Getting links from irrelevant websites</li>
+              <li>Not actively building any backlinks at all</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Get listed on the Law Society, Bar Council, and legal association websites</li>
+              <li>Partner with complementary professionals — accountants, estate agents, financial advisors</li>
+              <li>Write guest posts for legal blogs and law society publications</li>
+              <li>Sponsor local events, charities, or community organisations</li>
+              <li>Get featured in local newspapers and legal publications</li>
+              <li>Create shareable content — legal guides, infographics, case studies</li>
+            </ol>
+            <p><strong>Practical example:</strong> A family law firm wrote a guest article for a local family support charity's blog. That single backlink from a respected .org domain helped push their site from page 3 to page 1 for "family lawyer [their city]."</p>
+            <p><strong>Pro Tip:</strong> Check which websites link to competing law firms using Ahrefs' Link Intersect tool. If they link to your competitor, they may link to you too.</p>
+          </>
+        ),
+      },
+      {
+        id: 'internal-linking-content',
+        heading: '11. Poor Internal Linking and Content Strategy',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/8731037/pexels-photo-8731037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Law book and scales of justice on a desk representing internal linking and content strategy for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Internal links connect your pages to each other. They help Google understand your site structure and help visitors discover more of your content. A good content strategy with helpful blog posts brings <strong>organic traffic</strong> from people researching legal issues — many of whom become clients.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+              <ul>
+                <li>No blog or helpful content — only practice area pages</li>
+                <li>Using "click here" instead of descriptive anchor text</li>
+                <li>No links between blog posts and practice area pages</li>
+                <li>Writing about firm news instead of answering client questions</li>
+              </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Write blog posts answering common legal questions ("How to file for divorce in [your area]," "What to do after a car accident")</li>
+              <li>Link from every blog post to at least 2 relevant practice area pages</li>
+              <li>Link from practice area pages to related blog posts for more detail</li>
+              <li>Use descriptive anchor text: "personal injury claims in [area]" not "click here"</li>
+              <li>Make sure every page is reachable within 3 clicks from your homepage</li>
+              <li>Publish at least twice a month</li>
+            </ol>
+            <p><strong>Practical example:</strong> A law firm wrote a post called "What to Do If You Are Arrested in [Their City]." It ranks number 1 for that phrase and brings in 150+ visitors per month. About 10% call the firm — that is 15 potential client calls per month from one blog post.</p>
+            <p><strong>Pro Tip:</strong> Search your topic on Google and look at "People also ask." Answer those exact questions in your blog posts. Google rewards pages that answer common questions with higher rankings.</p>
+          </>
+        ),
+      },
+      {
+        id: 'track-seo-performance',
+        heading: '12. How to Track SEO Performance with Google Search Console',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/6077961/pexels-photo-6077961.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Lawyer working at his desk with scales of justice representing tracking SEO performance with Google Search Console" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> You cannot improve what you do not measure. Google Search Console shows you exactly which keywords bring people to your site, which pages are indexed, and what issues are holding you back. Without it, you are doing <strong>legal SEO</strong> blindfolded.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Not having Google Search Console set up at all</li>
+              <li>Setting it up and never looking at the data</li>
+              <li>Not tracking which keywords drive consultation requests</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Set up Google Search Console and verify your website</li>
+              <li>Submit your XML sitemap</li>
+              <li>Check the Performance report weekly for keywords you are ranking for</li>
+              <li>Look at keywords in positions 5–15 — those are almost on page 1</li>
+              <li>Check the Coverage report for indexing errors and fix them</li>
+              <li>Set up Google Analytics 4 to track consultation form submissions</li>
+              <li>Double down on what works — write more content for growing keywords</li>
+            </ol>
+            <p><strong>Practical example:</strong> A law firm noticed via Search Console that they ranked for "employment law advice" but not "wrongful dismissal solicitor." They created a dedicated page targeting that keyword and ranked within 6 weeks. They now get 6–8 enquiries per week from that page alone.</p>
+            <p><strong>Pro Tip:</strong> Sort your keywords by "impressions" in Search Console. High impressions but low clicks means your page title and meta description need to be more compelling.</p>
+          </>
+        ),
+      },
+      {
+        id: 'comparison-table',
+        heading: 'Quick Comparison: What Is Costing You the Most Clients?',
+        body: (
+          <>
+            <p>Not sure where to start? Here is a comparison of all 12 issues, ranked by how much they hurt your ability to attract clients from Google:</p>
+            <div className="overflow-x-auto my-6">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-white/10">
+                    <th className="py-3 px-4 text-left font-semibold text-white">Issue</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Impact on Clients</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Effort to Fix</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Time to Results</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile not optimized</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website not indexed</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not enough client reviews</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Targeting wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Practice area pages need work</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website too slow</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website not mobile friendly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Weak local SEO signals</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Missing local citations</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Few quality legal backlinks</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Poor internal linking &amp; content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr><td className="py-2.5 px-4 text-slate-300">Not tracking SEO performance</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </>
+        ),
+      },
+      {
+        id: 'checklist',
+        heading: 'Your Law Firm SEO Checklist',
+        body: (
+          <>
+            <p>Print this or bookmark it. Work through each item to start getting more clients from Google:</p>
+            <ul>
+              <li><input type="checkbox" disabled className="mr-2" /> Claimed and completed your Google Business Profile</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Chosen your most specific primary GBP category</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Uploaded at least 20 photos to your GBP listing</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Posted at least one GBP update this week</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Asked at least 3 clients for Google reviews this month</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Responded to all existing Google reviews</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Set up Google Search Console and submitted your sitemap</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Checked for indexing errors in Search Console</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Researched 10 local legal keywords for your area</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Created a separate page for each practice area</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Made your phone number clickable on mobile</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Added a "Book Consultation" button above the fold</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Listed your firm on Yell, Yelp, and the Law Society</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Ensured your NAP is identical across all listings</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Tested your site on Google PageSpeed Insights</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'conclusion',
+        heading: 'The Bottom Line for Law Firms',
+        body: (
+          <>
+            <p>
+              Your firm is not showing on Google because of fixable issues — an unoptimized Google Business Profile, poor keyword targeting, thin practice area pages, too few reviews, or technical problems like slow speed and missing indexing. Every single one of these has a practical solution.
+            </p>
+            <p>
+              Start with the quick wins: complete your Google Business Profile, ask for client reviews, and make sure your site is indexed. Then move to the medium-term fixes: create dedicated practice area pages, target local keywords, and build citations. Finally, invest in the long-term plays: publish helpful legal content, build quality backlinks, and track your results.
+            </p>
+            <p>
+              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help law firms and attorneys dominate local search with proven <strong>law firm SEO</strong> and <strong>law firm marketing</strong> strategies. <a href="#/contact">Get a free SEO audit today</a> and find out exactly what is stopping your firm from appearing on Google.
+            </p>
+            <p>
+              Every day you wait, your competitors are getting the clients that should be yours. Start today.
+            </p>
+          </>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'How long does law firm SEO take to generate clients?', a: 'Quick wins like Google Business Profile optimization and review collection can produce results in 1–2 weeks. SEO strategies like keyword targeting, practice area pages, and content typically take 3–6 months to generate significant organic traffic. Consistency is key — firms that implement these strategies regularly see compounding results over time.' },
+      { q: 'Why is my law firm not showing up on Google Maps?', a: 'The most common reasons are an incomplete Google Business Profile, too few reviews, inconsistent NAP (name, address, phone) across directories, and weak local SEO signals. Fix these issues and your Google Maps ranking should improve within 2–8 weeks.' },
+      { q: 'What keywords should my law firm target?', a: 'Target specific, local, practice-area keywords like "personal injury lawyer [your city]," "family solicitor [your area]," or "immigration attorney [your location]." Avoid broad terms like "lawyer" or "solicitor" — you cannot compete with national legal directories. Focus on keywords that include your practice area and location.' },
+      { q: 'Do I need a separate website for each practice area?', a: 'No. You need one website with a dedicated, in-depth page for each practice area. Each page should have at least 800 words of unique content about that specific service, including FAQs, case results, and a clear call-to-action. This is far more effective than separate websites.' },
+      { q: 'Should I hire an SEO agency for my law firm?', a: 'If you have 5–10 hours per week to dedicate to SEO, you can implement many of these strategies yourself. But most attorneys are too busy with cases to also manage SEO. An experienced agency that specializes in legal marketing can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased client enquiries.' },
+    ],
+  },
   'plumbing-business-not-getting-calls': {
     sections: [
       {
