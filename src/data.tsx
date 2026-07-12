@@ -473,6 +473,7 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 export const blogPosts = [
+  { slug: 'plumbing-business-not-getting-calls', title: "Why Isn't My Plumbing Business Getting Calls? (12 Proven Ways to Get More Customers from Google)", category: 'Local SEO', date: 'Jul 12, 2026', readTime: '14 min', author: 'Emily', excerpt: 'A practical guide for plumbers and plumbing companies. Learn why your phone is not ringing from Google and discover 12 proven ways to get more plumbing calls with Local SEO.', img: 'https://images.pexels.com/photos/8486978/pexels-photo-8486978.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'real-estate-agents-seo-property-leads', title: 'How Real Estate Agents Can Get More Property Leads from Google (15 Proven SEO Strategies)', category: 'Real Estate SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Apex', excerpt: 'A practical SEO guide for real estate agents, realtors, and estate agencies. Learn 15 proven strategies to generate more property leads from Google — without relying on paid ads.', img: 'https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'get-more-customers-without-paid-ads', title: 'How Can I Get More Customers Without Paid Ads? (15 Proven Strategies That Actually Work)', category: 'Lead Generation', date: 'Jul 12, 2026', readTime: '14 min', author: 'Muhammad Sarwar', excerpt: 'Stop wasting money on ads. These 15 proven organic strategies help small businesses, local services, and eCommerce stores get more customers — without spending on paid advertising.', img: 'https://images.pexels.com/photos/3183179/pexels-photo-3183179.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-london-small-businesses', title: 'Local SEO for Small Businesses in London: A Complete City-by-City Guide (2026)', category: 'Local SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Muhammad Sarwar', excerpt: 'A practical, city-by-city Local SEO guide for London small businesses. Learn how to rank higher in Google Search and Google Maps across Central London, Westminster, Camden, and 9 more areas.', img: 'https://images.pexels.com/photos/16324758/pexels-photo-16324758.jpeg?auto=compress&cs=tinysrgb&w=1200' },
@@ -496,6 +497,467 @@ export const blogPosts = [
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
 
 export const articleContent: Record<string, { sections: ArticleSection[]; faqs: { q: string; a: string }[] }> = {
+  'plumbing-business-not-getting-calls': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Your Phone Is Not Ringing. Let Us Fix That.',
+        body: (
+          <>
+            <p>
+              You are a skilled plumber. You show up on time. You do quality work. Your customers are happy. But when you check your phone at the end of the week, there are barely any new enquiries. Meanwhile, the plumber across town — who is not half as good as you — is booked solid.
+            </p>
+            <p>
+              How does that happen? It is simple. When someone searches "plumber near me" or "emergency plumber in [your area]" on Google, your competitor shows up. You do not. It does not matter how good your work is if nobody can find you.
+            </p>
+            <p>
+              Over 80% of people now search online before calling a local service business. If your <strong>plumbing company</strong> is not showing up in Google Search and Google Maps, you are invisible to the very people who need you right now.
+            </p>
+            <p>
+              This guide breaks down the 12 most common reasons plumbers do not get calls from Google — and exactly what to do about each one. No theory. Just practical steps you can take this week to start getting more <strong>plumbing leads</strong>.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'google-business-profile',
+        heading: '1. Your Google Business Profile Is Not Fully Optimized',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Plumber installing pipe fittings with tools representing Google Business Profile optimization for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is the single most important factor in local search for plumbers. When someone searches "plumber near me," Google shows the local pack — the top 3 businesses with a map. If your profile is incomplete or inactive, you will not be in that pack.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Not claiming your profile at all</li>
+              <li>Choosing the wrong primary category (e.g., "Plumbing supply store" instead of "Plumber")</li>
+              <li>Leaving service areas, hours, or description blank</li>
+              <li>Uploading no photos or only a few low-quality ones</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Claim your profile at business.google.com and verify your address</li>
+              <li>Choose "Plumber" as your primary category — this is critical</li>
+              <li>Add "Emergency plumber" as a secondary category if you offer 24/7 service</li>
+              <li>Fill out every field: services, service areas, hours, description, attributes</li>
+              <li>Upload at least 20 photos: your van, your team, job sites, before/after shots</li>
+              <li>Write a keyword-rich description: "Emergency plumber in [your area] offering boiler repairs, leak detection, and bathroom installations"</li>
+              <li>Post weekly updates — special offers, tips, or recent jobs</li>
+            </ol>
+            <p><strong>Practical example:</strong> A plumber in Bristol had a GBP profile but only 3 photos and no description. After filling out every field and uploading 25 photos, his profile views went from 50 to 600 per month in 6 weeks. Calls doubled.</p>
+            <p><strong>Pro Tip:</strong> Choose "Emergency plumber" as your primary category if 24/7 emergency calls are your main revenue source. It targets higher-intent searches and has less competition.</p>
+          </>
+        ),
+      },
+      {
+        id: 'google-maps-ranking',
+        heading: '2. You Are Not Ranking in Google Maps',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/13297280/pexels-photo-13297280.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="White service van parked on a tree-lined urban street representing Google Maps ranking for local plumbers" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> When someone's boiler breaks at 11 PM, they grab their phone and search "emergency plumber near me." Google shows them a map with 3 businesses. If you are not one of those 3, you do not get the call. <strong>Google Maps ranking</strong> is driven by three things: proximity, profile quality, and reviews.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Using a home address when you serve a wider area without setting up service areas correctly</li>
+              <li>Inconsistent name, address, and phone (NAP) across the web</li>
+              <li>No reviews or very few reviews compared to competitors</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Make sure your GBP address matches your website exactly</li>
+              <li>Add all the areas you serve in your GBP service areas</li>
+              <li>Ensure your NAP is identical on your website, GBP, and all directories</li>
+              <li>Get more reviews — businesses with 50+ reviews dominate the map pack</li>
+              <li>Add photos of your service van with your branding visible</li>
+              <li>Keep your profile active with weekly posts</li>
+            </ol>
+            <p><strong>Practical example:</strong> A plumbing company in Manchester fixed an address inconsistency across 6 directories and got 15 new reviews in 2 months. They went from position 8 to position 2 on Google Maps for "plumber Manchester."</p>
+            <p><strong>Pro Tip:</strong> Ask customers to mention their area in their review. "Came out to fix our burst pipe in Salford within 30 minutes" helps you rank for "plumber Salford."</p>
+          </>
+        ),
+      },
+      {
+        id: 'wrong-keywords',
+        heading: '3. You Are Targeting the Wrong Keywords',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/32588548/pexels-photo-32588548.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Plumber repairing a pipe with a wrench indoors representing targeting the right local keywords for plumbing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> If your website only targets "plumber" or "plumbing services," you are competing with every plumbing company in the country. You will never rank. But "emergency plumber in [your town]" or "boiler repair [your area]" — those are achievable and bring in ready-to-call customers.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Targeting broad keywords like "plumbing" or "plumber UK"</li>
+              <li>Not including your city or area in page titles and headings</li>
+              <li>Ignoring emergency-related keywords that have high purchase intent</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Use Google Keyword Planner to find local keywords with search volume</li>
+              <li>Search Google for "plumber [your area]" and note the "People also ask" questions</li>
+              <li>Target long-tail keywords: "boiler repair in [area]," "burst pipe plumber [area]," "bathroom fitter [area]"</li>
+              <li>Add these keywords naturally to your page titles, headings, and content</li>
+              <li>Create one page per service — one for boiler repair, one for leak detection, etc.</li>
+            </ol>
+            <p><strong>Practical example:</strong> A plumber in Leeds was targeting "plumber Leeds" and ranking on page 4. He created separate pages for "boiler repair Leeds" and "emergency plumber Leeds." Both ranked on page 1 within 3 months, bringing 12+ calls per week.</p>
+            <p><strong>Pro Tip:</strong> Emergency keywords convert best. "Emergency plumber [your area]" gets fewer searches than "plumber [your area]" but the people searching need help right now and call immediately.</p>
+          </>
+        ),
+      },
+      {
+        id: 'slow-website',
+        heading: '4. Your Website Loads Too Slowly',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/10961064/pexels-photo-10961064.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Spanner on a stainless steel sink with water droplets representing website speed optimization for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> When someone has a burst pipe, they are stressed. They search on their phone, click the first result, and if it takes more than 3 seconds to load, they hit the back button and call the next plumber. Google also penalizes slow websites with lower <strong>Google rankings</strong>.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Uploading huge uncompressed photos straight from a phone or camera</li>
+              <li>Using a cheap shared hosting plan</li>
+              <li>Having too many plugins or scripts running</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Test your site with Google PageSpeed Insights — it is free</li>
+              <li>Compress all images to under 200KB before uploading</li>
+              <li>Convert images to WebP format for faster loading</li>
+              <li>Enable browser caching and GZIP compression</li>
+              <li>Remove unused plugins and scripts</li>
+              <li>Upgrade to better hosting if your site still loads slowly</li>
+              <li>Aim for a mobile load time under 2.5 seconds</li>
+            </ol>
+            <p><strong>Practical example:</strong> A plumbing company reduced their site load time from 7 seconds to 2 seconds by compressing images and switching hosting. Their bounce rate dropped from 70% to 35% and call form submissions increased 45%.</p>
+            <p><strong>Pro Tip:</strong> If your site takes longer than 3 seconds to load, you are losing half your potential customers before they even see your phone number.</p>
+          </>
+        ),
+      },
+      {
+        id: 'not-mobile-friendly',
+        heading: '5. Your Website Is Not Mobile Friendly',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/33477104/pexels-photo-33477104.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Smiling service worker using a smartphone outdoors representing mobile-friendly websites for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Over 70% of local service searches happen on mobile phones. When someone has a plumbing emergency, they reach for their phone, not a laptop. If your website is hard to read, zoom, or tap on a phone, they leave and call someone else.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Using a desktop design that does not adapt to mobile screens</li>
+              <li>Phone number is not clickable</li>
+              <li>Text is too small to read without zooming</li>
+              <li>Buttons and links are too small to tap accurately</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Use a responsive design that adapts to all screen sizes</li>
+              <li>Make your phone number a clickable "tel:" link at the top of every page</li>
+              <li>Use large fonts (16px minimum) that are readable on phones</li>
+              <li>Make buttons at least 48px wide for easy tapping</li>
+              <li>Put your phone number and "Call Now" button above the fold</li>
+              <li>Remove any pop-ups that block content on mobile</li>
+              <li>Test your site on Google's Mobile-Friendly Test tool</li>
+            </ol>
+            <p><strong>Practical example:</strong> A plumber made his phone number clickable on mobile and added a "Call Now" button at the top of every page. Mobile calls increased 60% within one month — same traffic, just easier to contact.</p>
+            <p><strong>Pro Tip:</strong> Google uses mobile-first indexing. This means Google looks at your mobile site first when deciding rankings. If your mobile site is bad, your rankings suffer — even on desktop.</p>
+          </>
+        ),
+      },
+      {
+        id: 'too-few-reviews',
+        heading: '6. You Have Too Few Google Reviews',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/6994156/pexels-photo-6994156.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service worker giving a thumbs up outside a home representing Google reviews for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Reviews are the second biggest local ranking factor. They also directly influence whether someone calls you or your competitor. 88% of people trust online reviews as much as personal recommendations. If your competitor has 80 reviews and you have 6, customers will call them — even if your work is better.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Not asking happy customers for reviews</li>
+              <li>Waiting for reviews to come in naturally (they will not)</li>
+              <li>Not responding to reviews — positive or negative</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Create a direct link to your Google review page</li>
+              <li>Ask every happy customer for a review right after finishing the job</li>
+              <li>Send a follow-up text or email with the review link 24 hours later</li>
+              <li>Respond to every review within 24 hours — thank them and mention the service</li>
+              <li>Never buy reviews — Google detects fake reviews and can suspend your listing</li>
+              <li>Aim for at least one new review per week</li>
+            </ol>
+            <p><strong>Practical example:</strong> A plumber started texting his review link to every customer after completing a job. He went from 8 reviews to 65 in 4 months. He now appears in the top 3 of Google Maps for "plumber [his area]."</p>
+            <p><strong>Pro Tip:</strong> Ask customers to mention the specific service in their review. "Fixed our leaking boiler in under an hour" helps you rank for "boiler repair" searches.</p>
+          </>
+        ),
+      },
+      {
+        id: 'service-pages',
+        heading: '7. Your Service Pages Need Improvement',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/4239131/pexels-photo-4239131.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person working on a sink in a bathroom representing improved service pages for plumbing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Google ranks pages, not websites. If you have one "Services" page listing everything from boiler repair to bathroom installations in two sentences each, Google cannot rank it for any of them. You need a dedicated page for each <strong>plumbing service</strong> you offer.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>One generic services page with 2 sentences per service</li>
+              <li>No mention of your area on service pages</li>
+              <li>No photos of actual work</li>
+              <li>No call-to-action telling people to call</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Create a separate page for each service (boiler repair, leak detection, bathroom installation, etc.)</li>
+              <li>Include the service name and your area in the page title and URL (e.g., <code>/boiler-repair-leeds</code>)</li>
+              <li>Write at least 500 words per page explaining the service, process, and benefits</li>
+              <li>Add before/after photos of real jobs</li>
+              <li>Include FAQs answering common customer questions</li>
+              <li>Add a clear "Call Now" button and phone number on every page</li>
+            </ol>
+            <p><strong>Practical example:</strong> A plumber split his single services page into 6 individual pages. Within 3 months, 4 of those pages reached page 1 for their target keywords. Organic enquiries went from 3 per week to 14.</p>
+            <p><strong>Pro Tip:</strong> Add a "What to expect" section to each service page. Customers want to know what happens during the call-out, how long it takes, and what it costs. This builds trust and gets them to pick up the phone.</p>
+          </>
+        ),
+      },
+      {
+        id: 'local-citations',
+        heading: '8. You Are Missing Local Citations',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/18031901/pexels-photo-18031901.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service van with equipment organized in a parking lot representing local citations for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Local citations are mentions of your business name, address, and phone number on other websites — directories, review sites, and local listings. Google uses these to verify your business is real and located where you say it is. Missing or inconsistent citations weaken your local search ranking.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Only being listed on Google and nowhere else</li>
+              <li>Inconsistent NAP — different address or phone on different sites</li>
+              <li>Not being listed on plumbing-specific directories</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Get listed on Yell.com, Yelp UK, and Bing Places for Business</li>
+              <li>Add your business to FreeIndex, Cylex UK, and Trustpilot</li>
+              <li>Get listed on the Gas Safe Register if you are Gas Safe registered</li>
+              <li>Submit to your local council's business directory</li>
+              <li>Ensure your NAP is identical across every single listing</li>
+              <li>Audit existing listings and fix any inconsistencies</li>
+            </ol>
+            <p><strong>Practical example:</strong> A plumbing company discovered their phone number was wrong on 4 directories. After fixing all of them and adding 6 new citations, their Google Maps ranking improved from position 6 to position 3 within 5 weeks.</p>
+            <p><strong>Pro Tip:</strong> Even a small difference — "St." vs "Street" or "0207" vs "020 7" — can confuse Google. Pick one format and use it everywhere.</p>
+          </>
+        ),
+      },
+      {
+        id: 'few-backlinks',
+        heading: '9. You Have Very Few Quality Backlinks',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/30223853/pexels-photo-30223853.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Group of construction workers in orange uniforms representing local backlink building and plumbing partnerships" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Backlinks are links from other websites to yours. Google treats them as votes of confidence. The more quality local backlinks you have, the higher your <strong>Google rankings</strong> — and the more <strong>organic traffic</strong> you get. One link from a trusted local source can boost your rankings more than 50 generic directory links.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Buying backlinks or using link farms (Google penalizes this)</li>
+              <li>Getting links from irrelevant websites</li>
+              <li>Not actively building any backlinks at all</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Sponsor a local football team, charity, or community event — they link to sponsors</li>
+              <li>Partner with boiler manufacturers, bathroom suppliers, and builders for cross-promotion</li>
+              <li>Get featured in local newspapers or local home improvement blogs</li>
+              <li>Join your local chamber of commerce or trade association</li>
+              <li>Write guest posts for plumbing or home improvement blogs</li>
+              <li>Get listed on the Gas Safe Register and IPHE websites</li>
+            </ol>
+            <p><strong>Practical example:</strong> A plumber sponsored a local youth football team for 200 pounds per season. The club linked to his website from their sponsors page. That single local backlink helped push him from page 2 to page 1 for "plumber [his town]."</p>
+            <p><strong>Pro Tip:</strong> Focus on links from websites in your local area. A link from a local builder's website to your plumbing site is worth more than a link from a random blog in another country.</p>
+          </>
+        ),
+      },
+      {
+        id: 'no-content',
+        heading: '10. You Are Not Publishing Helpful Plumbing Content',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/8488034/pexels-photo-8488034.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Engineer writing on a clipboard with safety helmet representing helpful plumbing content creation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> Every blog post is a new page that can rank on Google. When you write about problems your customers search for — "how to fix a leaking tap," "what to do if your boiler loses pressure," "how to unfreeze a frozen pipe" — you bring people to your website who need help right now. Some of them will call you.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Having no blog at all</li>
+              <li>Writing about company news instead of customer problems</li>
+              <li>Writing one or two posts and then stopping</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Write down 20 questions customers ask you on call-outs</li>
+              <li>Turn each question into a detailed, helpful blog post</li>
+              <li>Topics: "How to fix a leaking tap," "Signs your boiler needs replacing," "What to do before the plumber arrives"</li>
+              <li>Write in simple language — explain like you are talking to a customer</li>
+              <li>Publish at least twice a month</li>
+              <li>Link from each blog post to your relevant service pages</li>
+              <li>Add a "Call Now" button on every blog post</li>
+            </ol>
+            <p><strong>Practical example:</strong> A plumber wrote a post called "What to Do If Your Boiler Stops Working (Before You Call a Plumber)." It ranks number 1 for that phrase and brings in 200+ visitors per month. About 8% of them call — that is 16 calls per month from one blog post.</p>
+            <p><strong>Pro Tip:</strong> Search your topic on Google and look at "People also ask." Answer those questions in your blog posts. Google loves pages that answer common questions.</p>
+          </>
+        ),
+      },
+      {
+        id: 'not-tracking',
+        heading: '11. You Are Not Tracking SEO Performance',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/3823415/pexels-photo-3823415.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Worker using a laptop at a workbench in a workshop representing tracking SEO performance for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it matters:</strong> You cannot fix what you do not measure. Google Search Console shows you which keywords bring people to your site. Google Analytics shows you what they do once they arrive. Without these tools, you are guessing — and guessing costs you calls.
+            </p>
+            <p><strong>Common mistakes:</strong></p>
+            <ul>
+              <li>Not having Google Search Console or Analytics set up at all</li>
+              <li>Setting them up and never looking at the data</li>
+              <li>Not tracking which keywords are driving calls and enquiries</li>
+            </ul>
+            <p><strong>Step-by-step solution:</strong></p>
+            <ol>
+              <li>Set up Google Search Console and verify your website</li>
+              <li>Set up Google Analytics 4 and add the tracking code</li>
+              <li>Check Search Console weekly for keywords you are ranking for</li>
+              <li>Look at keywords in positions 5–15 — those are almost on page 1</li>
+              <li>Check Analytics weekly for traffic, bounce rate, and conversions</li>
+              <li>Double down on what works — write more content for growing keywords</li>
+              <li>Set up call tracking to see which keywords drive phone calls</li>
+            </ol>
+            <p><strong>Practical example:</strong> A plumber noticed via Search Console that he ranked for "power shower installation" but not "power shower repair." He created a page targeting "power shower repair [his area]" and ranked within 6 weeks. He now gets 4–5 calls per week from that page alone.</p>
+            <p><strong>Pro Tip:</strong> In Search Console, sort keywords by "clicks" and look at the ones in positions 5–15. Small improvements to those pages can push them to page 1 — and page 1 gets 90% of all clicks.</p>
+          </>
+        ),
+      },
+      {
+        id: 'steps-today',
+        heading: '12. Simple Steps You Can Take Today',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/5691663/pexels-photo-5691663.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Man holding a cordless drill ready for work representing simple actionable steps to get more plumbing calls today" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              You do not need to do everything at once. Here are the highest-impact actions you can take today to start <strong>getting more plumbing calls</strong>:
+            </p>
+            <ol>
+              <li><strong>Claim and complete your Google Business Profile</strong> — this alone can double your visibility in a week</li>
+              <li><strong>Make your phone number clickable on mobile</strong> — add a "Call Now" button at the top of your site</li>
+              <li><strong>Text your review link to your last 10 happy customers</strong> — aim for 5 new reviews this week</li>
+              <li><strong>Check your site speed on PageSpeed Insights</strong> — compress any large images</li>
+              <li><strong>Search "plumber [your area]" on Google</strong> — see what your competitors are doing that you are not</li>
+              <li><strong>Write down 10 keywords you want to rank for</strong> — start with "emergency plumber [your area]"</li>
+              <li><strong>Get listed on Yell.com and Yelp UK</strong> — make sure your NAP matches your Google profile</li>
+            </ol>
+            <p><strong>Practical example:</strong> A one-man plumbing business spent one Saturday completing his GBP profile, adding a Call Now button, and texting 10 customers for reviews. By the following Friday, he had 4 new reviews and 3 new calls from Google — all from a few hours of work.</p>
+            <p><strong>Pro Tip:</strong> Start with the quick wins first. GBP optimization, reviews, and a Call Now button take less than a day to set up and can produce results within a week.</p>
+          </>
+        ),
+      },
+      {
+        id: 'comparison-table',
+        heading: 'Quick Comparison: What Is Costing You the Most Calls?',
+        body: (
+          <>
+            <p>Not sure where to start? Here is a comparison of all 12 issues, ranked by how much they hurt your ability to <strong>get more plumbing calls</strong>:</p>
+            <div className="overflow-x-auto my-6">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-white/10">
+                    <th className="py-3 px-4 text-left font-semibold text-white">Issue</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Impact on Calls</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Effort to Fix</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Time to See Results</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile not optimized</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not ranking in Google Maps</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–8 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Too few Google reviews</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website not mobile friendly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website loads too slowly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Targeting wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Service pages need improvement</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Missing local citations</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Few quality backlinks</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not publishing content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not tracking SEO performance</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
+                  <tr><td className="py-2.5 px-4 text-slate-300">Not taking action today</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">Immediate</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </>
+        ),
+      },
+      {
+        id: 'checklist',
+        heading: 'Your Plumbing SEO Checklist',
+        body: (
+          <>
+            <p>Print this or bookmark it. Work through each item to start getting more calls from Google:</p>
+            <ul>
+              <li><input type="checkbox" disabled className="mr-2" /> Claimed and completed your Google Business Profile</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Chosen "Plumber" as your primary GBP category</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Uploaded at least 20 photos to your GBP listing</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Posted at least one GBP update this week</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Asked at least 3 customers for Google reviews this week</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Responded to all existing Google reviews</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Made your phone number clickable on mobile</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Added a "Call Now" button above the fold on every page</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Researched 10 local keywords for your area</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Created a separate page for each service you offer</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Listed your business on Yell, Yelp, and Bing Places</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Ensured your NAP is identical across all listings</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Tested your site on Google PageSpeed Insights</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Compressed all images to under 200KB</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Set up Google Search Console and submitted your sitemap</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'conclusion',
+        heading: 'The Bottom Line for Plumbing Businesses',
+        body: (
+          <>
+            <p>
+              Your phone is not ringing because customers cannot find you on Google. That is the hard truth. But the good news is that every single issue in this guide has a practical fix — and most of them cost nothing but your time.
+            </p>
+            <p>
+              Start with the quick wins: complete your Google Business Profile, ask for reviews, and add a Call Now button to your website. Then move to the medium-term fixes: create service pages, target local keywords, and build citations. Finally, invest in the long-term plays: publish helpful content, build local backlinks, and track your results.
+            </p>
+            <p>
+              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help plumbers and tradespeople dominate local search with proven <strong>plumbing SEO</strong> and <strong>local SEO for plumbers</strong> strategies. <a href="#/contact">Get a free local SEO audit today</a> and find out exactly what is stopping your phone from ringing.
+            </p>
+            <p>
+              Every day you wait, your competitors are getting the calls that should be yours. Start today.
+            </p>
+          </>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'How can I get more plumbing calls from Google?', a: 'The fastest way is to optimize your Google Business Profile, ask happy customers for reviews, and make your phone number clickable on your mobile website. These three steps alone can start generating more calls within 1–2 weeks. For long-term growth, focus on local SEO, service-specific pages, and helpful blog content.' },
+      { q: 'How long does plumbing SEO take to work?', a: 'Quick wins like Google Business Profile optimization and review collection can produce results in 1–2 weeks. SEO strategies like keyword targeting, service pages, and content typically take 3–6 months to generate significant organic traffic. Consistency is key — businesses that implement these strategies regularly see compounding results.' },
+      { q: 'Why am I not showing up on Google Maps for "plumber near me"?', a: 'The most common reasons are an incomplete Google Business Profile, too few reviews, inconsistent NAP (name, address, phone) across directories, and not being active on your profile. Fix these issues and your Google Maps ranking should improve within 2–8 weeks.' },
+      { q: 'Do I need a separate website for each area I serve?', a: 'No. You need one website with a dedicated page for each area you serve. Each page should have unique content about that specific area. This is far more effective than separate websites and concentrates all your SEO authority on one domain.' },
+      { q: 'Should I hire an SEO agency for my plumbing business?', a: 'If you have 5–10 hours per week to dedicate to SEO, you can implement many of these strategies yourself. But most plumbers are too busy on jobs to also manage SEO. An experienced agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased calls.' },
+    ],
+  },
   'real-estate-agents-seo-property-leads': {
     sections: [
       {
