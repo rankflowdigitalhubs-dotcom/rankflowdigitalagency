@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import ServiceDetail from './pages/ServiceDetail';
+import LocalSeo from './pages/LocalSeo';
 import Portfolio from './pages/Portfolio';
 import CaseStudies from './pages/CaseStudies';
 import Pricing from './pages/Pricing';
@@ -54,6 +55,7 @@ function App() {
     if (path === '/contact') return <Contact />;
     if (path === '/privacy-policy') return <PrivacyPolicy />;
     if (path === '/terms') return <Terms />;
+    if (path === '/local-seo') return <LocalSeo />;
     const serviceMatch = path.match(/^\/([a-z-]+)$/);
     if (serviceMatch && serviceSlugs.has(serviceMatch[1])) {
       return <ServiceDetail slug={serviceMatch[1]} />;
