@@ -208,7 +208,7 @@ export default function Home() {
             <Link key={c.slug} to="/case-studies" className={`group grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
               <div className="overflow-hidden rounded-3xl">
                 <div className="relative h-52 overflow-hidden rounded-t-3xl">
-                  <img src={c.img} alt={c.client} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                  <img src={c.img} alt={`${c.client} SEO results`} className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/40 to-transparent" />
                   <span className="absolute left-4 top-4 rounded-full bg-brand-500/90 px-3 py-1 text-xs font-semibold text-white">{c.industry}</span>
                 </div>

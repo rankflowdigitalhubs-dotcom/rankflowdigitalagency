@@ -294,12 +294,84 @@ export const homeFaqs = [
 ];
 
 export const caseStudies = [
-  { slug: 'brightpath-law', client: 'BrightPath Law', industry: 'Law Firm', result: '+212% organic leads in 5 months', img: 'https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=800', summary: 'A regional law firm needed more intake calls from local search. We rebuilt their local SEO and content engine.' },
-  { slug: 'nimbus-saas', client: 'Nimbus SaaS', industry: 'SaaS', result: '+280% organic signups in 2 quarters', img: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800', summary: 'A B2B SaaS platform wanted to reduce paid acquisition costs with compounding organic growth.' },
-  { slug: 'lakeside-dental', client: 'Lakeside Dental', industry: 'Dentist', result: '3x new patient bookings', img: 'https://images.pexels.com/photos/3779605/pexels-photo-3779605.jpeg?auto=compress&cs=tinysrgb&w=800', summary: 'A dental practice needed to fill chairs. We optimized their Google Business Profile and local presence.' },
-  { slug: 'urbannest-realty', client: 'UrbanNest Realty', industry: 'Real Estate', result: '3x leads + new website', img: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800', summary: 'A real estate brokerage wanted a site that ranks and converts. We delivered both in one engagement.' },
-  { slug: 'bloom-boutique', client: 'Bloom Boutique', industry: 'E-commerce', result: '+190% online sales', img: 'https://images.pexels.com/photos/264547/pexels-photo-264547.jpeg?auto=compress&cs=tinysrgb&w=800', summary: 'A small e-commerce store competing with giants. We found niche keywords and built category authority.' },
-  { slug: 'apex-white-label', client: 'Apex Agency (White Label)', industry: 'Marketing Agency', result: '20+ clients managed, 95% retention', img: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=800', summary: 'A full-service agency needed a reliable SEO partner to white-label to their clients.' },
+  {
+    slug: 'property-management-firm',
+    client: 'Property Management Firm',
+    industry: 'Property Management',
+    result: 'Ranking for 6,000+ keywords — #1 for most desirable terms',
+    img: '/images/case-studies/website_seo_ss_(10).png',
+    summary: 'Client since 2016 inception. Strategic SEO drove a 76.35% YoY increase in organic users and the firm now ranks #1 for all its most desirable keywords.',
+    stats: [
+      { label: 'Organic Users', value: '+76.35%', sub: '237,738 vs 134,813' },
+      { label: 'New Users', value: '+77.30%', sub: '238,516 vs 134,524' },
+      { label: 'Sessions', value: '+73.08%', sub: '263,804 vs 152,418' },
+    ],
+  },
+  {
+    slug: 'b2b-saas-client',
+    client: 'B2B SaaS Client',
+    industry: 'SaaS',
+    result: '115,366 organic visits/month — client since 2018 inception',
+    img: '/images/case-studies/website_seo_ss_(9).png',
+    summary: 'Serviced since launch in 2018. Built to 121,171 ranking keywords with 2,389 in the top 3 positions, driving over 115K organic sessions every month.',
+    stats: [
+      { label: 'Organic Traffic', value: '115,366', sub: 'per month' },
+      { label: 'Total Keywords', value: '121,171', sub: 'ranking' },
+      { label: 'Top-3 Keywords', value: '2,389', sub: 'positions #1–3' },
+    ],
+  },
+  {
+    slug: 'mesothelioma-website',
+    client: 'Leading Mesothelioma Website',
+    industry: 'Legal / Medical',
+    result: 'Keyword rankings nearly doubled in 7 months',
+    img: '/images/case-studies/website_seo_ss_(9).png',
+    summary: 'In the competitive legal/medical space, we took keyword rankings from 4,669 to 9,327 — a 99.76% increase — between February and September 2023.',
+    stats: [
+      { label: 'Keywords Before', value: '4,669', sub: 'Feb 2023' },
+      { label: 'Keywords After', value: '9,327', sub: 'Sep 2023' },
+      { label: 'Increase', value: '+4,658', sub: '+99.76%' },
+    ],
+  },
+  {
+    slug: 'software-learning-platform',
+    client: 'Online Software Learning Platform',
+    industry: 'EdTech',
+    result: '79,860 organic visits/month — client since 2020',
+    img: '/images/case-studies/website_seo_ss_(7).png',
+    summary: 'Since onboarding in 2020, we scaled this platform to 47,075 ranking keywords with 2,972 in top-3 positions, driving nearly 80K organic sessions monthly.',
+    stats: [
+      { label: 'Organic Traffic', value: '79,860', sub: 'per month' },
+      { label: 'Total Keywords', value: '47,075', sub: 'ranking' },
+      { label: 'Top-3 Keywords', value: '2,972', sub: 'positions #1–3' },
+    ],
+  },
+  {
+    slug: 'alper-law',
+    client: 'Alper Law',
+    industry: 'Law Firm',
+    result: '873 → 25,096 keywords — +2,776% growth',
+    img: '/images/case-studies/website_seo_ss_(7).png',
+    summary: 'alperlaw.com grew from 873 ranking terms in January 2017 to 25,096 by April 2023 — an increase of 24,223 keywords across all positions.',
+    stats: [
+      { label: 'Keywords Before', value: '873', sub: 'Jan 2017' },
+      { label: 'Keywords After', value: '25,096', sub: 'Apr 2023' },
+      { label: 'Total Growth', value: '+24,223', sub: '+2,776%' },
+    ],
+  },
+  {
+    slug: 'san-diego-decorative-concrete',
+    client: 'San Diego Decorative Concrete',
+    industry: 'Home Services',
+    result: '15 → 1,410 keywords, +6,403% traffic growth',
+    img: '/images/case-studies/website_seo_ss_(6).png',
+    summary: 'Starting from near zero, we grew organic keywords from 15 to 1,410 and drove traffic up +6,403.33% with estimated traffic cost reaching $8.6K/month.',
+    stats: [
+      { label: 'Keywords', value: '1,410', sub: 'from 15' },
+      { label: 'Traffic Growth', value: '+6,403%', sub: 'organic visitors' },
+      { label: 'Traffic Value', value: '$8.6K', sub: '/month est.' },
+    ],
+  },
 ];
 
 export type PortfolioItem = {
