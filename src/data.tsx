@@ -473,6 +473,7 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 export const blogPosts = [
+  { slug: 'why-is-my-website-not-showing-on-google', title: 'Why Is My Website Not Showing on Google? (12 Common Reasons & How to Fix Them)', category: 'SEO', date: 'Jul 12, 2026', readTime: '12 min', author: 'Muhammad Sarwar', excerpt: 'Is your website not showing on Google? Discover the 12 most common reasons your site is invisible in search results — and the exact steps to fix each one.', img: 'https://images.pexels.com/photos/16368540/pexels-photo-16368540.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'how-to-get-more-dental-patients-from-google', title: 'How to Get More Dental Patients From Google Without Ads (12 Proven SEO Strategies)', category: 'Dental SEO', date: 'Jul 11, 2026', readTime: '14 min', excerpt: 'Struggling to get new dental patients from Google? Learn 12 proven dental SEO strategies to improve your Google rankings, attract more patients, and grow your practice without paid ads.', img: 'https://images.pexels.com/photos/6627574/pexels-photo-6627574.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-is-my-restaurant-not-showing-up-on-google', title: 'Why Is My Restaurant Not Showing Up on Google? (11 Proven Fixes to Get Found by More Customers)', category: 'Local SEO', date: 'Jul 11, 2026', readTime: '11 min', excerpt: 'Is your restaurant invisible on Google Maps and Search? Learn 11 proven fixes to improve your local SEO, rank higher, and get more customers through your doors.', img: 'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'how-to-get-sales-on-shopify-without-ads', title: 'How to Get Sales on Shopify Without Ads', category: 'Shopify SEO', date: 'Jul 11, 2026', readTime: '12 min', excerpt: 'Getting Shopify traffic but no sales? Learn proven, ad-free strategies to increase Shopify sales with SEO, email marketing, social media, and conversion optimization.', img: 'https://images.pexels.com/photos/4219989/pexels-photo-4219989.jpeg?auto=compress&cs=tinysrgb&w=1200' },
@@ -492,6 +493,451 @@ export const blogPosts = [
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
 
 export const articleContent: Record<string, { sections: ArticleSection[]; faqs: { q: string; a: string }[] }> = {
+  'why-is-my-website-not-showing-on-google': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Why Your Website Is Invisible on Google',
+        body: (
+          <>
+            <p>
+              You launched your website. You picked a domain name, wrote your about page, added your services, and hit publish. Then you searched for your business on Google — and nothing showed up. Not on page 1. Not on page 5. Not anywhere.
+            </p>
+            <p>
+              If that sounds familiar, you are not alone. Most business owners face this exact problem. In fact, <strong>why is my website not showing on Google</strong> is one of the most searched SEO questions online. The good news? There is almost always a specific reason — and a specific fix.
+            </p>
+            <p>
+              Google uses a three-step process to show websites in search results: <strong>crawling</strong> (discovering your pages), <strong>indexing</strong> (storing them), and <strong>ranking</strong> (deciding where to place them). If your website is not showing up, one or more of these steps is failing.
+            </p>
+            <p>
+              This guide walks you through the 12 most common reasons your website is not appearing on Google — and gives you a step-by-step fix for each one. Whether it is a <strong>Google indexing</strong> issue, a technical SEO problem, or a content gap, you will know exactly what to do by the end.
+            </p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-1-website-not-indexed',
+        heading: '1. Your Website Is Not Indexed',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/6986455/pexels-photo-6986455.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing website indexing status and URL inspection tool" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it happens:</strong> Google has not added your pages to its index. Until a page is indexed, it cannot appear in search results — no matter how good your content is.
+            </p>
+            <p><strong>Signs to look for:</strong></p>
+            <ul>
+              <li>Your site does not appear when you search <code>site:yourdomain.com</code> in Google</li>
+              <li>Google Search Console shows 0 indexed pages</li>
+              <li>Your URL inspection returns "URL is not on Google"</li>
+            </ul>
+            <p><strong>Step-by-step fix:</strong></p>
+            <ol>
+              <li>Open <strong>Google Search Console</strong> and add your website as a property</li>
+              <li>Verify ownership using the HTML tag, DNS record, or Google Analytics method</li>
+              <li>Use the URL Inspection tool to submit your homepage for indexing</li>
+              <li>Submit all important pages one by one until they are indexed</li>
+            </ol>
+            <p><strong>Common mistake:</strong> Assuming Google will find your site automatically. New sites with no backlinks can take weeks to be discovered.</p>
+            <p><strong>Pro Tip:</strong> Request indexing for your most important pages first — homepage, service pages, and contact page. Google prioritizes manually submitted URLs.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-2-google-cannot-crawl',
+        heading: '2. Google Cannot Crawl Your Website',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/8294660/pexels-photo-8294660.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Robot representing Google crawler bots discovering and scanning web pages for indexing" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it happens:</strong> Googlebot visits websites to discover content, but if your site has crawl errors, broken links, or server issues, the crawler gives up and moves on.
+            </p>
+            <p><strong>Signs to look for:</strong></p>
+            <ul>
+              <li>Google Search Console shows crawl errors (404s, 500 errors, DNS issues)</li>
+              <li>Your pages load inconsistently or time out</li>
+              <li>Internal links point to deleted or moved pages</li>
+            </ul>
+            <p><strong>Step-by-step fix:</strong></p>
+            <ol>
+              <li>Check the Coverage report in Google Search Console for errors</li>
+              <li>Fix all 404 errors by redirecting broken URLs with 301 redirects</li>
+              <li>Fix server errors (5xx) by checking your hosting and server logs</li>
+              <li>Test your pages with the URL Inspection tool to confirm Googlebot can fetch them</li>
+            </ol>
+            <p><strong>Common mistake:</strong> Ignoring crawl errors because the site looks fine in your browser. Googlebot sees your site differently than a human visitor does.</p>
+            <p><strong>Pro Tip:</strong> Run a crawl with Screaming Frog or Sitebulb to find broken links before Google does. Fix them first, then request a recrawl.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-3-robots-txt-blocking',
+        heading: '3. Robots.txt Is Blocking Search Engines',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/270632/pexels-photo-270632.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Computer code on screen representing robots.txt file blocking search engine crawlers" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it happens:</strong> The <strong>robots.txt</strong> file tells search engines which pages they can or cannot crawl. A single wrong line in this file can block Google from your entire website.
+            </p>
+            <p><strong>Signs to look for:</strong></p>
+            <ul>
+              <li>Google Search Console shows "blocked by robots.txt" warnings</li>
+              <li>Your site was indexed before but suddenly disappeared</li>
+              <li>You or your developer recently edited the robots.txt file</li>
+            </ul>
+            <p><strong>Step-by-step fix:</strong></p>
+            <ol>
+              <li>Visit <code>yourdomain.com/robots.txt</code> in your browser</li>
+              <li>Look for <code>Disallow: /</code> — this blocks everything</li>
+              <li>Change it to <code>Allow: /</code> or remove the Disallow rule entirely</li>
+              <li>Use the robots.txt Tester in Google Search Console to validate your changes</li>
+              <li>Submit the updated file and request a recrawl of blocked pages</li>
+            </ol>
+            <p><strong>Common mistake:</strong> Leaving a staging or development robots.txt file live when pushing to production. Always check this file after deploying.</p>
+            <p><strong>Pro Tip:</strong> Use robots.txt to block only what you need to — like admin panels, cart pages, or search results. Never block your entire site unless you mean to.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-4-no-sitemap',
+        heading: '4. No Sitemap Submitted',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/3837487/pexels-photo-3837487.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person pointing on a map representing XML sitemap submission to Google Search Console" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it happens:</strong> A <strong>sitemap</strong> is a file that lists all your website's pages for search engines. Without one, Google has to discover every page by following links — which is slow and unreliable.
+            </p>
+            <p><strong>Signs to look for:</strong></p>
+            <ul>
+              <li>No sitemap is listed in Google Search Console</li>
+              <li>Some pages are indexed but others are missing</li>
+              <li>Your site has pages that are not linked from anywhere else</li>
+            </ul>
+            <p><strong>Step-by-step fix:</strong></p>
+            <ol>
+              <li>Generate an XML sitemap using a tool like XML-Sitemaps.com or a Yoast SEO plugin (if you use WordPress)</li>
+              <li>Upload it to your website root as <code>sitemap.xml</code></li>
+              <li>Submit it in Google Search Console under Sitemaps</li>
+              <li>Check the status after a few days — it should show "Success"</li>
+            </ol>
+            <p><strong>Common mistake:</strong> Generating a sitemap once and never updating it. If you add new pages, your sitemap should include them.</p>
+            <p><strong>Pro Tip:</strong> If you use WordPress, install Yoast SEO or Rank Math — they auto-generate and update your sitemap every time you publish new content.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-5-poor-technical-seo',
+        heading: '5. Poor Technical SEO',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop showing HTML code representing technical SEO and website structure optimization" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it happens:</strong> <strong>Technical SEO</strong> covers the behind-the-scenes elements that help Google understand and rank your site. Missing structured data, broken canonical tags, or poor site architecture all hurt your visibility.
+            </p>
+            <p><strong>Signs to look for:</strong></p>
+            <ul>
+              <li>No structured data (schema markup) on your pages</li>
+              <li>Missing or incorrect canonical tags</li>
+              <li>Poor URL structure (long, non-descriptive URLs)</li>
+              <li>No HTTPS (your site loads on HTTP instead of HTTPS)</li>
+            </ul>
+            <p><strong>Step-by-step fix:</strong></p>
+            <ol>
+              <li>Run your site through Google's Rich Results Test to check for schema markup</li>
+              <li>Add structured data for your business type (LocalBusiness, Article, Product, etc.)</li>
+              <li>Fix canonical tags — each page should point to itself as the canonical version</li>
+              <li>Switch to HTTPS if you have not already (Google prioritizes secure sites)</li>
+              <li>Clean up your URL structure — use short, descriptive, keyword-rich URLs</li>
+            </ol>
+            <p><strong>Common mistake:</strong> Focusing only on content and ignoring technical foundations. Great content on a technically broken site will not rank.</p>
+            <p><strong>Pro Tip:</strong> Use Google Search Console's Enhancement reports to find structured data errors and fix them directly. Each fix can improve how your listing looks in search results.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-6-wrong-keyword-targeting',
+        heading: '6. Wrong Keyword Targeting',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/267415/pexels-photo-267415.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO audit blocks on wooden surface representing keyword research and targeting strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it happens:</strong> You are targeting keywords that are too competitive, too broad, or that nobody is actually searching for. Your content might be great, but if it does not match what people type into Google, it will not show up.
+            </p>
+            <p><strong>Signs to look for:</strong></p>
+            <ul>
+              <li>You rank for your brand name but not for service-related keywords</li>
+              <li>Your pages target one-word keywords like "marketing" instead of specific phrases</li>
+              <li>You have no keyword strategy — you just wrote what felt right</li>
+            </ul>
+            <p><strong>Step-by-step fix:</strong></p>
+            <ol>
+              <li>Use Google Keyword Planner or Ahrefs to find keywords with decent search volume and low-to-medium competition</li>
+              <li>Target long-tail keywords (3+ words) like "emergency plumber in Chicago" instead of just "plumber"</li>
+              <li>Map each keyword to a specific page — one primary keyword per page</li>
+              <li>Include the keyword in your title tag, H1, first paragraph, and URL</li>
+            </ol>
+            <p><strong>Common mistake:</strong> Targeting broad keywords with massive competition. A new site cannot compete for "best restaurants" — but it can rank for "best Italian restaurant in [your city]."</p>
+            <p><strong>Pro Tip:</strong> Look at the "People also ask" section in Google search results for your topic. Those questions are keywords you should be answering in your content.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-7-weak-thin-content',
+        heading: '7. Weak or Thin Content',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/7679733/pexels-photo-7679733.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person working on a content plan on a laptop representing content writing and strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it happens:</strong> Google's algorithm prioritizes content that provides real value to users. Pages with very little text, generic descriptions, or no useful information are considered "thin content" and get ignored.
+            </p>
+            <p><strong>Signs to look for:</strong></p>
+            <ul>
+              <li>Pages with less than 300 words of original content</li>
+              <li>Service pages that say "We offer X. Contact us." and nothing else</li>
+              <li>Blog posts that reword what 100 other articles already say</li>
+              <li>High bounce rates and low time-on-page in Google Analytics</li>
+            </ul>
+            <p><strong>Step-by-step fix:</strong></p>
+            <ol>
+              <li>Aim for at least 800–1,500 words on important pages</li>
+              <li>Answer specific questions your customers actually ask</li>
+              <li>Add original insights, examples, or case studies that competitors do not have</li>
+              <li>Use headings, bullet points, and images to make content scannable</li>
+              <li>Update old content regularly — Google rewards fresh, relevant pages</li>
+            </ol>
+            <p><strong>Common mistake:</strong> Writing content for search engines instead of humans. If a real person cannot get value from your page, Google will not rank it.</p>
+            <p><strong>Pro Tip:</strong> Before writing a page, search for the topic on Google and read the top 3 results. Then write something better, more detailed, and more useful than all of them.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-8-duplicate-content',
+        heading: '8. Duplicate Content Issues',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/7968071/pexels-photo-7968071.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Vintage typewriter representing duplicate content and copy issues in SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it happens:</strong> When multiple pages on your site (or across the web) have the same or very similar content, Google does not know which version to rank. Often, it ranks none of them.
+            </p>
+            <p><strong>Signs to look for:</strong></p>
+            <ul>
+              <li>Multiple pages with identical product or service descriptions</li>
+              <li>Content copied from other websites or manufacturer descriptions</li>
+              <li>Google Search Console shows duplicate content warnings</li>
+            </ul>
+            <p><strong>Step-by-step fix:</strong></p>
+            <ol>
+              <li>Use a tool like Siteliner or Copyscape to find duplicate content on your site</li>
+              <li>Rewrite duplicate pages to make each one unique and valuable</li>
+              <li>Use canonical tags to tell Google which version of similar pages is the main one</li>
+              <li>Never copy content from other websites — always write original text</li>
+            </ol>
+            <p><strong>Common mistake:</strong> Using the same boilerplate description across multiple location or product pages. Each page needs unique content.</p>
+            <p><strong>Pro Tip:</strong> If you have similar pages (like product variants), use canonical tags to consolidate them. This tells Google "these are related, but this is the main page."</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-9-slow-website-speed',
+        heading: '9. Slow Website Speed',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/3570733/pexels-photo-3570733.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Glass hourglass representing slow website speed and loading performance issues" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it happens:</strong> Google uses page speed as a ranking factor. If your site takes more than 3 seconds to load, Google lowers its ranking — and visitors leave before the page even finishes loading.
+            </p>
+            <p><strong>Signs to look for:</strong></p>
+            <ul>
+              <li>Google PageSpeed Insights scores below 50 on mobile</li>
+              <li>Poor Core Web Vitals (LCP above 2.5s, INP above 200ms, CLS above 0.1)</li>
+              <li>Large uncompressed images on your pages</li>
+              <li>Too many plugins or scripts loading at once</li>
+            </ul>
+            <p><strong>Step-by-step fix:</strong></p>
+            <ol>
+              <li>Test your site with Google PageSpeed Insights and Lighthouse</li>
+              <li>Compress all images — use WebP format and lazy loading</li>
+              <li>Minify CSS, JavaScript, and HTML files</li>
+              <li>Use a CDN (Content Delivery Network) like Cloudflare</li>
+              <li>Enable browser caching and GZIP compression</li>
+              <li>Remove unused plugins and defer non-critical JavaScript</li>
+            </ol>
+            <p><strong>Common mistake:</strong> Uploading 5MB photos straight from a phone or camera. Always resize and compress images before uploading them to your website.</p>
+            <p><strong>Pro Tip:</strong> Aim for a mobile PageSpeed score above 80. Google uses mobile-first indexing, which means your mobile site speed directly affects your rankings.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-10-no-backlinks',
+        heading: '10. No High-Quality Backlinks',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Network cables connected to ethernet ports representing backlinks and website linking structure" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it happens:</strong> Backlinks are links from other websites pointing to yours. Google treats them as votes of confidence. Without quality backlinks, your site lacks the authority to compete for competitive keywords.
+            </p>
+            <p><strong>Signs to look for:</strong></p>
+            <ul>
+              <li>Your Domain Authority or Domain Rating is below 20</li>
+              <li>You have zero referring domains in Ahrefs or Moz</li>
+              <li>Competitors ranking above you have significantly more backlinks</li>
+            </ul>
+            <p><strong>Step-by-step fix:</strong></p>
+            <ol>
+              <li>Create link-worthy content — original research, guides, infographics, or tools</li>
+              <li>Reach out to industry blogs and offer guest posts</li>
+              <li>Get listed in relevant business directories and industry associations</li>
+              <li>Build relationships with local news sites and blogs for natural mentions</li>
+              <li>Avoid buying backlinks — Google penalizes paid links</li>
+            </ol>
+            <p><strong>Common mistake:</strong> Focusing on quantity over quality. One backlink from a respected industry site is worth more than 100 links from spammy directories.</p>
+            <p><strong>Pro Tip:</strong> Check which sites link to your competitors using Ahrefs' "Link Intersect" tool. If they link to your competitor, they might link to you too — especially if your content is better.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-11-weak-local-seo',
+        heading: '11. Weak Local SEO',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/6033812/pexels-photo-6033812.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Magnifying glass on a map representing local SEO and local business search visibility" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it happens:</strong> If you serve a local area, <strong>local SEO</strong> is critical. Without an optimized Google Business Profile and local citations, you will not appear in the local pack — the map results that show up for local searches.
+            </p>
+            <p><strong>Signs to look for:</strong></p>
+            <ul>
+              <li>You do not have a Google Business Profile listing</li>
+              <li>Your business name, address, and phone number are inconsistent across the web</li>
+              <li>You have no customer reviews on Google</li>
+              <li>Competitors appear in the local map pack but you do not</li>
+            </ul>
+            <p><strong>Step-by-step fix:</strong></p>
+            <ol>
+              <li>Claim and verify your Google Business Profile at business.google.com</li>
+              <li>Fill out every field — categories, hours, services, photos, and description</li>
+              <li>Get consistent NAP (Name, Address, Phone) across all online directories</li>
+              <li>Ask happy customers to leave Google reviews and respond to every review</li>
+              <li>Create location-specific landing pages if you serve multiple areas</li>
+            </ol>
+            <p><strong>Common mistake:</strong> Setting up a Google Business Profile and never updating it. Post updates, add new photos, and respond to reviews regularly.</p>
+            <p><strong>Pro Tip:</strong> Use Google Business Profile posts weekly — they appear in local search results and signal to Google that your listing is active and maintained.</p>
+          </>
+        ),
+      },
+      {
+        id: 'reason-12-website-still-new',
+        heading: '12. Your Website Is Still New',
+        body: (
+          <>
+            <img src="https://images.pexels.com/photos/15351346/pexels-photo-15351346.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wooden letters spelling IDEA representing a new website launch and building online presence" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              <strong>Why it happens:</strong> New domains have no history, no backlinks, and no trust signal. Google takes time to discover, crawl, index, and rank new websites. This is often called the "Google sandbox" period.
+            </p>
+            <p><strong>Signs to look for:</strong></p>
+            <ul>
+              <li>Your domain was registered less than 3–6 months ago</li>
+              <li>You have very few pages or very little content</li>
+              <li>No other websites link to yours yet</li>
+            </ul>
+            <p><strong>Step-by-step fix:</strong></p>
+            <ol>
+              <li>Submit your sitemap to Google Search Console immediately after launch</li>
+              <li>Publish 5–10 high-quality pages right away — not just a homepage</li>
+              <li>Get your first backlinks from business directories, social profiles, and partners</li>
+              <li>Share your content on social media to drive initial traffic</li>
+              <li>Be patient — new sites typically take 3–6 months to start ranking</li>
+            </ol>
+            <p><strong>Common mistake:</strong> Expecting instant results. SEO is a long-term investment. A new site that does everything right still needs time to build trust.</p>
+            <p><strong>Pro Tip:</strong> Use the first 3 months to build a strong foundation — content, technical SEO, and a few quality backlinks. The rankings will follow.</p>
+          </>
+        ),
+      },
+      {
+        id: 'comparison-table',
+        heading: 'Quick Comparison: Common Issues vs. Fix Priority',
+        body: (
+          <>
+            <p>Not sure where to start? Here is a quick comparison of all 12 issues, ranked by how quickly they can impact your Google ranking:</p>
+            <div className="overflow-x-auto my-6">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-white/10">
+                    <th className="py-3 px-4 text-left font-semibold text-white">Issue</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Impact Level</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Fix Difficulty</th>
+                    <th className="py-3 px-4 text-left font-semibold text-white">Time to See Results</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not indexed</td><td className="py-2.5 px-4 text-red-400">Critical</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">1–3 days</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Robots.txt blocking</td><td className="py-2.5 px-4 text-red-400">Critical</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">1–3 days</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">No sitemap</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">3–7 days</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Crawl errors</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Slow speed</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">4–8 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Thin content</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">4–8 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Technical SEO</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-red-400">Hard</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Duplicate content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">No backlinks</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-red-400">Hard</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Weak local SEO</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr><td className="py-2.5 px-4 text-slate-300">New website</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </>
+        ),
+      },
+      {
+        id: 'quick-checklist',
+        heading: 'Your Website SEO Checklist',
+        body: (
+          <>
+            <p>Print this out or bookmark it. Work through each item — by the end, your site will be in much better shape for Google:</p>
+            <ul>
+              <li><input type="checkbox" disabled className="mr-2" /> Verify your site in Google Search Console</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Submit an XML sitemap</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Check robots.txt is not blocking Google</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Fix all crawl errors in Search Console</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Request indexing for your key pages</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Run a PageSpeed test and fix major issues</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Target specific, long-tail keywords on each page</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Write at least 800 words of original content per page</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Check for and fix duplicate content</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Set up and optimize your Google Business Profile</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Build your first 5–10 quality backlinks</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Add structured data (schema markup) to key pages</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        id: 'conclusion',
+        heading: 'The Bottom Line',
+        body: (
+          <>
+            <p>
+              If your website is not showing on Google, the problem almost always comes down to one of these 12 issues. The good news is that most of them are fixable — and many can be resolved in a single afternoon.
+            </p>
+            <p>
+              Start with the basics: verify your site in Google Search Console, submit a sitemap, and make sure robots.txt is not blocking Google. Then work through the content and technical SEO issues one by one.
+            </p>
+            <p>
+              Remember, <strong>website SEO</strong> is not a one-time task. It is an ongoing process of improving your site, creating valuable content, and building authority over time. The sites that win on Google are the ones that consistently put in the work.
+            </p>
+            <p>
+              If you do not have the time or expertise to fix these issues yourself, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help businesses get found on Google with proven <strong>search engine optimization</strong> strategies. <a href="#/contact">Get a free SEO audit today</a> and let us show you exactly what is holding your website back.
+            </p>
+          </>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'How long does it take for Google to index a new website?', a: 'Google typically indexes a new website within 1–3 days if you submit it through Google Search Console. Without manual submission, it can take weeks. Submitting a sitemap and requesting indexing for key pages speeds up the process significantly.' },
+      { q: 'How do I check if my website is indexed on Google?', a: 'Type "site:yourdomain.com" into Google search. If results appear, your site is indexed. If you see "No results found," your site is not indexed. You can also check the Coverage report in Google Search Console for detailed indexing status.' },
+      { q: 'Why does my website show up for my business name but not for keywords?', a: 'This usually means your site has some authority but not enough to rank for competitive keywords. Focus on targeting more specific long-tail keywords, improving your content depth, and building quality backlinks to increase your site\'s authority.' },
+      { q: 'Can a slow website really affect my Google ranking?', a: 'Yes. Google uses page speed as a ranking factor, especially for mobile searches. If your site takes longer than 3 seconds to load, it can hurt your rankings and drive visitors away. Use Google PageSpeed Insights to identify and fix speed issues.' },
+      { q: 'Do I need to pay for Google to show my website in search results?', a: 'No. Organic search results on Google are free. You cannot pay Google to rank higher in organic results. However, you can run Google Ads to appear at the top of search results immediately — but those are paid placements, not organic rankings.' },
+    ],
+  },
   'how-to-get-more-dental-patients-from-google': {
     sections: [
       {

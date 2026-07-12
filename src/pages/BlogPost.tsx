@@ -93,8 +93,8 @@ export default function BlogPost({ slug }: { slug: string }) {
           </h1>
           <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-slate-400 reveal reveal-delay-2">
             <span className="flex items-center gap-2">
-              <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=80" alt="Rank Flow Digital Team" className="h-9 w-9 rounded-full object-cover" />
-              <span className="font-medium text-slate-200">Rank Flow Digital Team</span>
+              <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=80" alt={(post as any).author || 'Rank Flow Digital Team'} className="h-9 w-9 rounded-full object-cover" />
+              <span className="font-medium text-slate-200">{(post as any).author || 'Rank Flow Digital Team'}</span>
             </span>
             <span className="flex items-center gap-1.5"><Calendar className="h-4 w-4 text-brand-400" /> {post.date}</span>
             <span className="flex items-center gap-1.5"><Clock className="h-4 w-4 text-brand-400" /> {post.readTime} read</span>
@@ -107,7 +107,7 @@ export default function BlogPost({ slug }: { slug: string }) {
         <div className="grad-border overflow-hidden rounded-3xl reveal">
           <img
             src={post.img}
-            alt="SEO strategy blueprint: a complete framework for ranking higher and growing organic traffic"
+            alt={post.title}
             className="h-full w-full object-cover"
             loading="eager"
             width={1200}
@@ -172,11 +172,11 @@ export default function BlogPost({ slug }: { slug: string }) {
                 />
                 <div>
                   <div className="text-xs uppercase tracking-wider text-brand-300">Written by</div>
-                  <h3 className="mt-1 text-xl font-bold text-white">Rank Flow Digital Team</h3>
+                  <h3 className="mt-1 text-xl font-bold text-white">{(post as any).author || 'Rank Flow Digital Team'}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-slate-400">
-                    The Rank Flow Digital team is a group of SEO strategists, content writers, and web designers
-                    with over a decade of experience ranking businesses across every industry. We share what we
-                    learn from real campaigns so you can grow faster.
+                    {(post as any).author
+                      ? `${(post as any).author} is an SEO consultant and digital marketing strategist at Rank Flow Digital, helping businesses improve their Google visibility, organic traffic, and website ranking through proven search engine optimization practices.`
+                      : 'The Rank Flow Digital team is a group of SEO strategists, content writers, and web designers with over a decade of experience ranking businesses across every industry. We share what we learn from real campaigns so you can grow faster.'}
                   </p>
                   <div className="mt-4"><SocialIcons size="sm" /></div>
                 </div>
