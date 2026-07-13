@@ -9,6 +9,7 @@ import LocalSeo from './pages/LocalSeo';
 import TechnicalSeo from './pages/TechnicalSeo';
 import ContentWriting from './pages/ContentWriting';
 import GuestPosting from './pages/GuestPosting';
+import LinkBuilding from './pages/LinkBuilding';
 import Portfolio from './pages/Portfolio';
 import CaseStudies from './pages/CaseStudies';
 import Pricing from './pages/Pricing';
@@ -62,6 +63,7 @@ function App() {
     if (path === '/technical-seo') return <TechnicalSeo />;
     if (path === '/content-writing') return <ContentWriting />;
     if (path === '/guest-posting') return <GuestPosting />;
+    if (path === '/link-building') return <LinkBuilding />;
     const serviceMatch = path.match(/^\/([a-z-]+)$/);
     if (serviceMatch && serviceSlugs.has(serviceMatch[1])) {
       return <ServiceDetail slug={serviceMatch[1]} />;
