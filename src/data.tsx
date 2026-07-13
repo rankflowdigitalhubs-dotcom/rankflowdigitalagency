@@ -1,5 +1,5 @@
 import {
-  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp, FileSearch, Globe,
+  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp, FileSearch, Globe, Briefcase,
   type LucideIcon,
 } from 'lucide-react';
 import { Link } from './router';
@@ -420,6 +420,33 @@ export const services: Service[] = [
     faqs: [
       { q: 'What is off-page SEO?', a: 'Off-page SEO is the process of building your website authority through external signals like backlinks, brand mentions, social signals, and digital PR. It tells Google your site is trusted and authoritative.' },
       { q: 'How long until off-page SEO works?', a: 'Most campaigns show ranking improvements in 2-3 months with significant growth in 4-6 months as new backlinks are discovered and credited by Google.' },
+    ],
+  },
+  {
+    slug: 'white-label-seo',
+    title: 'White Label SEO Services',
+    short: 'Outsource SEO to your agency with white label reporting, dedicated specialists, and transparent communication.',
+    icon: Briefcase,
+    tagline: 'Scale your agency with SEO done for you.',
+    description: 'Complete white label SEO services for agencies including local SEO, technical SEO, link building, content writing, and monthly reporting under your brand.',
+    deliverables: [
+      'White label local SEO',
+      'White label technical SEO',
+      'White label on-page SEO',
+      'White label link building',
+      'White label content writing',
+      'White label SEO audits',
+      'Monthly reporting under your brand',
+    ],
+    process: [
+      { title: 'Discovery', desc: 'We learn your agency, your clients, and your goals to build a custom white label SEO program.' },
+      { title: 'Strategy', desc: 'We develop SEO strategies for each of your clients based on their industry and competition.' },
+      { title: 'Implementation', desc: 'Our team executes the SEO work while you maintain client relationships.' },
+      { title: 'Reporting', desc: 'You receive white label reports to send to your clients under your brand.' },
+    ],
+    faqs: [
+      { q: 'What is white label SEO?', a: 'White label SEO is when our team does the SEO work for your clients under your brand name. Your clients never know we exist. You get the credit, the reports carry your logo, and you set the prices.' },
+      { q: 'How does white label SEO pricing work?', a: 'You pay us wholesale rates for the SEO work. You charge your clients retail rates. The difference is your profit margin. We offer flexible packages so you can scale up or down based on client demand.' },
     ],
   },
 ];
