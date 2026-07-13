@@ -159,7 +159,7 @@ export function Navbar() {
               <div key={l.path} className="relative group">
                 <button
                   className={`flex items-center gap-1 rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
-                    isActive('/services') || path.match(/^\/(seo|local-seo|technical-seo|guest-posting|content-writing|logo-design|web-design|monthly-seo-management|link-building|shopify-seo|seo-audit|google-business-profile|ecommerce-seo|on-page-seo)/)
+                    isActive('/services') || path.match(/^\/(seo|local-seo|technical-seo|guest-posting|content-writing|logo-design|web-design|monthly-seo-management|link-building|shopify-seo|seo-audit|google-business-profile|ecommerce-seo|on-page-seo|off-page-seo)/)
                       ? 'text-white'
                       : 'text-slate-300 hover:text-white'
                   }`}
@@ -329,7 +329,7 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white">Services</h4>
             <ul className="mt-4 space-y-2.5 text-sm">
-              {services.slice(0, 14).map((s) => (
+              {services.slice(0, 15).map((s) => (
                 <li key={s.slug}><Link to={`/${s.slug}`} className="text-slate-400 hover:text-brand-300">{s.title}</Link></li>
               ))}
             </ul>

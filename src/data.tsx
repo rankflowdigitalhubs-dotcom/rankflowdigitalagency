@@ -1,5 +1,5 @@
 import {
-  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp, FileSearch,
+  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp, FileSearch, Globe,
   type LucideIcon,
 } from 'lucide-react';
 import { Link } from './router';
@@ -392,6 +392,34 @@ export const services: Service[] = [
     faqs: [
       { q: 'What is on-page SEO?', a: 'On-page SEO is the process of optimizing elements on your website pages to improve search engine rankings. This includes title tags, meta descriptions, headings, content, images, URLs, and schema markup.' },
       { q: 'How long until on-page SEO works?', a: 'Most pages see ranking improvements within 2-4 weeks after optimization. Full results typically appear in 1-3 months as Google re-crawls and re-indexes your pages.' },
+    ],
+  },
+  {
+    slug: 'off-page-seo',
+    title: 'Off-Page SEO Services',
+    short: 'Build authority and improve rankings with white hat link building, digital PR, and brand mentions.',
+    icon: Globe,
+    tagline: 'Build authority that Google trusts.',
+    description: 'Comprehensive off-page SEO including guest posting, manual outreach, high authority backlinks, digital PR, local citations, and competitor backlink analysis.',
+    deliverables: [
+      'Guest posting placements',
+      'Manual outreach link building',
+      'High authority backlinks',
+      'Niche edits and contextual links',
+      'Digital PR and brand mentions',
+      'Local citation building',
+      'Competitor backlink analysis',
+      'Monthly link building reports',
+    ],
+    process: [
+      { title: 'Audit', desc: 'Analyze your current backlink profile and domain authority.' },
+      { title: 'Strategy', desc: 'Develop a custom link building strategy based on your niche.' },
+      { title: 'Outreach', desc: 'Manual, personalized outreach to authority websites.' },
+      { title: 'Report', desc: 'Track new backlinks, domain authority, and ranking growth.' },
+    ],
+    faqs: [
+      { q: 'What is off-page SEO?', a: 'Off-page SEO is the process of building your website authority through external signals like backlinks, brand mentions, social signals, and digital PR. It tells Google your site is trusted and authoritative.' },
+      { q: 'How long until off-page SEO works?', a: 'Most campaigns show ranking improvements in 2-3 months with significant growth in 4-6 months as new backlinks are discovered and credited by Google.' },
     ],
   },
 ];
