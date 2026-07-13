@@ -1,5 +1,5 @@
 import {
-  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp, FileSearch, Globe, Briefcase, Compass, Target,
+  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp, FileSearch, Globe, Briefcase, Compass, Target, Server,
   type LucideIcon,
 } from 'lucide-react';
 import { Link } from './router';
@@ -504,6 +504,36 @@ export const services: Service[] = [
     faqs: [
       { q: 'What is conversion rate optimization?', a: 'CRO is the process of improving your website to increase the percentage of visitors who take a desired action, like making a purchase or filling out a form, without increasing traffic.' },
       { q: 'How long does CRO take?', a: 'Most CRO campaigns show measurable improvements within 4-6 weeks. Significant conversion lifts typically appear in 2-3 months as tests reach statistical significance.' },
+    ],
+  },
+  {
+    slug: 'website-maintenance-seo',
+    title: 'Website Maintenance & SEO Services',
+    short: 'Monthly website maintenance with security, backups, updates, speed optimization, and technical SEO.',
+    icon: Server,
+    tagline: 'Keep your website fast, secure, and ranking.',
+    description: 'Complete monthly website maintenance and SEO services including security monitoring, website backups, plugin and theme updates, broken link fixes, speed optimization, technical SEO, performance monitoring, and malware protection.',
+    deliverables: [
+      'Security monitoring',
+      'Website backups',
+      'Plugin updates',
+      'Theme updates',
+      'Broken link fixes',
+      'Speed optimization',
+      'Technical SEO',
+      'Performance monitoring',
+      'Malware protection',
+      'Monthly reports',
+    ],
+    process: [
+      { title: 'Audit', desc: 'We audit your website for security, performance, and SEO issues to build a maintenance plan.' },
+      { title: 'Secure', desc: 'We implement security monitoring, backups, and malware protection to keep your site safe.' },
+      { title: 'Optimize', desc: 'We update plugins and themes, fix broken links, and optimize speed and technical SEO.' },
+      { title: 'Report', desc: 'You receive monthly reports showing security status, performance, and SEO improvements.' },
+    ],
+    faqs: [
+      { q: 'What is website maintenance?', a: 'Website maintenance is the ongoing process of keeping your website secure, fast, and up-to-date. It includes security monitoring, backups, plugin and theme updates, broken link fixes, speed optimization, and technical SEO.' },
+      { q: 'Why do I need monthly website maintenance?', a: 'Websites require constant upkeep. Plugins and themes release updates, security threats emerge, links break, and performance degrades over time. Monthly maintenance keeps your site secure, fast, and ranking well in search results.' },
     ],
   },
 ];
