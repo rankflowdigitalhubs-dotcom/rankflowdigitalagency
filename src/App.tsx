@@ -11,8 +11,6 @@ import ContentWriting from './pages/ContentWriting';
 import GuestPosting from './pages/GuestPosting';
 import LinkBuilding from './pages/LinkBuilding';
 import ShopifySEO from './pages/ShopifySEO';
-import WebsiteDesign from './pages/WebsiteDesign';
-import SEOAudit from './pages/SEOAudit';
 import Portfolio from './pages/Portfolio';
 import CaseStudies from './pages/CaseStudies';
 import Pricing from './pages/Pricing';
@@ -68,8 +66,6 @@ function App() {
     if (path === '/guest-posting') return <GuestPosting />;
     if (path === '/link-building') return <LinkBuilding />;
     if (path === '/shopify-seo') return <ShopifySEO />;
-    if (path === '/website-design') return <WebsiteDesign />;
-    if (path === '/seo-audit') return <SEOAudit />;
     const serviceMatch = path.match(/^\/([a-z-]+)$/);
     if (serviceMatch && serviceSlugs.has(serviceMatch[1])) {
       return <ServiceDetail slug={serviceMatch[1]} />;
