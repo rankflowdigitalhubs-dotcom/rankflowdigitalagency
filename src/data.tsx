@@ -1,5 +1,5 @@
 import {
-  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp, FileSearch, Globe, Briefcase, Compass,
+  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp, FileSearch, Globe, Briefcase, Compass, Target,
   type LucideIcon,
 } from 'lucide-react';
 import { Link } from './router';
@@ -475,6 +475,35 @@ export const services: Service[] = [
     faqs: [
       { q: 'What is international SEO?', a: 'International SEO is the process of optimizing your website to rank in multiple countries and languages. It involves hreflang tags, country-specific keyword research, localized content, and global link building to reach customers worldwide.' },
       { q: 'How long does international SEO take?', a: 'Most international SEO campaigns show ranking improvements in 3-4 months with significant growth in 6-9 months as Google indexes localized content and credits international backlinks.' },
+    ],
+  },
+  {
+    slug: 'cro-services',
+    title: 'Conversion Rate Optimization Services',
+    short: 'Increase leads, sales, and conversions without increasing ad spend through data-driven CRO.',
+    icon: Target,
+    tagline: 'Turn more visitors into customers.',
+    description: 'Complete CRO services including landing page optimization, A/B testing, heatmap analysis, user journey optimization, CTA optimization, form optimization, mobile CRO, and eCommerce CRO.',
+    deliverables: [
+      'Landing page optimization',
+      'A/B testing',
+      'Heatmap analysis',
+      'User journey optimization',
+      'CTA optimization',
+      'Form optimization',
+      'Mobile CRO',
+      'eCommerce CRO',
+      'Lead generation optimization',
+    ],
+    process: [
+      { title: 'Audit', desc: 'Analyze your current conversion rates, identify bottlenecks, and uncover optimization opportunities.' },
+      { title: 'Hypothesis', desc: 'Develop data-backed hypotheses for what changes will improve conversions.' },
+      { title: 'Test', desc: 'Run A/B tests and multivariate tests to validate hypotheses with real user data.' },
+      { title: 'Optimize', desc: 'Implement winning variations and continuously iterate for ongoing improvement.' },
+    ],
+    faqs: [
+      { q: 'What is conversion rate optimization?', a: 'CRO is the process of improving your website to increase the percentage of visitors who take a desired action, like making a purchase or filling out a form, without increasing traffic.' },
+      { q: 'How long does CRO take?', a: 'Most CRO campaigns show measurable improvements within 4-6 weeks. Significant conversion lifts typically appear in 2-3 months as tests reach statistical significance.' },
     ],
   },
 ];
