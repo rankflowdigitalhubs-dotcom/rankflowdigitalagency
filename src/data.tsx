@@ -1,5 +1,5 @@
 import {
-  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp, FileSearch, Globe, Briefcase,
+  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp, FileSearch, Globe, Briefcase, Compass,
   type LucideIcon,
 } from 'lucide-react';
 import { Link } from './router';
@@ -447,6 +447,34 @@ export const services: Service[] = [
     faqs: [
       { q: 'What is white label SEO?', a: 'White label SEO is when our team does the SEO work for your clients under your brand name. Your clients never know we exist. You get the credit, the reports carry your logo, and you set the prices.' },
       { q: 'How does white label SEO pricing work?', a: 'You pay us wholesale rates for the SEO work. You charge your clients retail rates. The difference is your profit margin. We offer flexible packages so you can scale up or down based on client demand.' },
+    ],
+  },
+  {
+    slug: 'international-seo',
+    title: 'International SEO Services',
+    short: 'Rank in multiple countries with hreflang implementation, multi-language SEO, and global link building.',
+    icon: Compass,
+    tagline: 'Reach customers worldwide.',
+    description: 'Complete international SEO services including hreflang implementation, country-specific keyword research, multi-language SEO, localized landing pages, and global link building.',
+    deliverables: [
+      'International SEO audit',
+      'Country-specific keyword research',
+      'hreflang tag implementation',
+      'Multi-language SEO strategy',
+      'Localized landing pages',
+      'Global link building',
+      'International competitor analysis',
+      'Monthly SEO reporting',
+    ],
+    process: [
+      { title: 'Audit', desc: 'Analyze your current international SEO setup and identify growth opportunities.' },
+      { title: 'Strategy', desc: 'Develop a multi-country SEO strategy tailored to your target markets.' },
+      { title: 'Implementation', desc: 'Execute technical SEO, content localization, and global link building.' },
+      { title: 'Report', desc: 'Track international rankings, traffic, and conversions across all markets.' },
+    ],
+    faqs: [
+      { q: 'What is international SEO?', a: 'International SEO is the process of optimizing your website to rank in multiple countries and languages. It involves hreflang tags, country-specific keyword research, localized content, and global link building to reach customers worldwide.' },
+      { q: 'How long does international SEO take?', a: 'Most international SEO campaigns show ranking improvements in 3-4 months with significant growth in 6-9 months as Google indexes localized content and credits international backlinks.' },
     ],
   },
 ];
