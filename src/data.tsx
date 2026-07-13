@@ -1,5 +1,5 @@
 import {
-  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart,
+  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp,
   type LucideIcon,
 } from 'lucide-react';
 import { Link } from './router';
@@ -40,9 +40,9 @@ export const services: Service[] = [
       { title: 'Reporting', desc: 'Transparent monthly reports tied to revenue metrics.' },
     ],
     faqs: [
-      { q: 'How long until I see results?', a: 'Most clients see meaningful movement in 90 days and significant gains in 4–6 months, depending on competition and starting point.' },
+      { q: 'How long until I see results?', a: 'Most clients see meaningful movement in 90 days and significant gains in 4-6 months, depending on competition and starting point.' },
       { q: 'Do you guarantee #1 rankings?', a: 'No reputable agency guarantees a specific position. We guarantee a rigorous process, transparent reporting, and real revenue growth.' },
-      { q: 'Is your SEO white-hat?', a: 'Yes. We follow Google’s guidelines strictly — no link farms, no PBNs, no risky shortcuts that could get you penalized.' },
+      { q: 'Is your SEO white-hat?', a: 'Yes. We follow Google’s guidelines strictly - no link farms, no PBNs, no risky shortcuts that could get you penalized.' },
     ],
   },
   {
@@ -68,7 +68,7 @@ export const services: Service[] = [
       { title: 'Track', desc: 'Monitor map pack rankings by location.' },
     ],
     faqs: [
-      { q: 'How many locations can you manage?', a: 'From a single location to hundreds — we scale citation building and GBP management to match your footprint.' },
+      { q: 'How many locations can you manage?', a: 'From a single location to hundreds - we scale citation building and GBP management to match your footprint.' },
       { q: 'Do you help with reviews?', a: 'Yes. We set up compliant review request flows and respond to reviews on your behalf with your approval.' },
     ],
   },
@@ -96,7 +96,7 @@ export const services: Service[] = [
     ],
     faqs: [
       { q: 'Do you work with our developers?', a: 'Absolutely. We deliver clear, prioritized specs your team can implement, or we can make changes directly with access.' },
-      { q: 'Can you help with Core Web Vitals?', a: 'Yes — LCP, INP, and CLS diagnostics plus concrete fixes for scripts, images, fonts, and layout.' },
+      { q: 'Can you help with Core Web Vitals?', a: 'Yes - LCP, INP, and CLS diagnostics plus concrete fixes for scripts, images, fonts, and layout.' },
     ],
   },
   {
@@ -104,9 +104,9 @@ export const services: Service[] = [
     title: 'Guest Posting on High DA/DR Sites',
     short: 'Authority backlinks from real, relevant websites.',
     icon: FileText,
-    tagline: 'Links that move rankings — not spam.',
+    tagline: 'Links that move rankings - not spam.',
     description:
-      'We secure genuine editorial backlinks on high-DA/DR websites in your niche. Every placement is hand-pitched, contextually relevant, and published on a real site with real traffic — never a link farm or PBN.',
+      'We secure genuine editorial backlinks on high-DA/DR websites in your niche. Every placement is hand-pitched, contextually relevant, and published on a real site with real traffic - never a link farm or PBN.',
     deliverables: [
       'Prospect list of niche-relevant sites',
       'Hand-crafted pitch emails',
@@ -122,7 +122,7 @@ export const services: Service[] = [
       { title: 'Report', desc: 'Deliver live URLs and metrics.' },
     ],
     faqs: [
-      { q: 'Are these links safe?', a: 'Yes. We only pursue editorial links on real sites with real traffic — fully compliant with Google’s guidelines.' },
+      { q: 'Are these links safe?', a: 'Yes. We only pursue editorial links on real sites with real traffic - fully compliant with Google’s guidelines.' },
       { q: 'What DA/DR can you target?', a: 'We typically secure placements from DA 30+ up to DA 90+, depending on your budget and niche.' },
     ],
   },
@@ -176,7 +176,7 @@ export const services: Service[] = [
     ],
     faqs: [
       { q: 'How many concepts do I get?', a: 'Three unique concepts, then unlimited revisions on your favorite.' },
-      { q: 'Do I own the files?', a: 'Yes — full ownership and all source files are delivered on completion.' },
+      { q: 'Do I own the files?', a: 'Yes - full ownership and all source files are delivered on completion.' },
     ],
   },
   {
@@ -202,7 +202,7 @@ export const services: Service[] = [
       { title: 'Support', desc: 'Ongoing maintenance and updates.' },
     ],
     faqs: [
-      { q: 'What platforms do you build on?', a: 'We build on modern stacks — React/Vite, Next.js, Webflow, and headless CMS — chosen to fit your team.' },
+      { q: 'What platforms do you build on?', a: 'We build on modern stacks - React/Vite, Next.js, Webflow, and headless CMS - chosen to fit your team.' },
       { q: 'Will my site be SEO-ready?', a: 'Yes. Every build includes semantic HTML, schema, fast load times, and on-page SEO fundamentals.' },
     ],
   },
@@ -228,8 +228,138 @@ export const services: Service[] = [
       { title: 'Refine', desc: 'Adjust strategy based on data.' },
     ],
     faqs: [
-      { q: 'Is there a long contract?', a: 'We work on month-to-month or quarterly agreements — no long lock-ins. Stay because you’re growing.' },
-      { q: 'What reporting do I get?', a: 'A live dashboard plus a monthly call covering rankings, traffic, leads, and revenue — not vanity metrics.' },
+      { q: 'Is there a long contract?', a: 'We work on month-to-month or quarterly agreements - no long lock-ins. Stay because you’re growing.' },
+      { q: 'What reporting do I get?', a: 'A live dashboard plus a monthly call covering rankings, traffic, leads, and revenue - not vanity metrics.' },
+    ],
+  },
+  {
+    slug: 'link-building',
+    title: 'Link Building Services',
+    short: 'White hat backlinks from real authority websites to improve rankings and domain authority.',
+    icon: Link2,
+    tagline: 'Safe, manual outreach that builds lasting authority.',
+    description: 'Earn high-quality, white hat backlinks through manual outreach, guest posting, and content-driven link building campaigns.',
+    deliverables: [
+      'White hat link building',
+      'Guest posting placements',
+      'Niche edits & contextual backlinks',
+      'Blogger outreach',
+      'Competitor backlink analysis',
+      'Monthly link building reports',
+    ],
+    process: [
+      { title: 'Audit', desc: 'Analyze your current backlink profile and domain authority.' },
+      { title: 'Research', desc: 'Find high-authority, niche-relevant link opportunities.' },
+      { title: 'Outreach', desc: 'Manual, personalized outreach to website owners.' },
+      { title: 'Placement', desc: 'Secure quality backlinks on real, authoritative websites.' },
+    ],
+    faqs: [
+      { q: 'Are your backlinks safe?', a: 'Yes. We use 100% white hat techniques - no PBNs, no link farms, no paid links. Every link is earned through genuine outreach.' },
+      { q: 'How long do links last?', a: 'Every link is permanent with a 12-month replacement guarantee. If a link is removed, we replace it free.' },
+    ],
+  },
+  {
+    slug: 'shopify-seo',
+    title: 'Shopify SEO Services',
+    short: 'Increase traffic, rankings, and sales for your Shopify store with expert eCommerce SEO.',
+    icon: ShoppingBag,
+    tagline: 'Drive more qualified shoppers to your Shopify store.',
+    description: 'Comprehensive Shopify SEO including product page optimization, collection page SEO, technical fixes, and content strategy.',
+    deliverables: [
+      'Shopify SEO audit',
+      'Product page optimization',
+      'Collection page optimization',
+      'Technical Shopify SEO',
+      'Core Web Vitals optimization',
+      'Monthly SEO reporting',
+    ],
+    process: [
+      { title: 'Audit', desc: 'Full SEO audit of your Shopify store and competitors.' },
+      { title: 'Optimize', desc: 'Optimize product pages, collections, and technical SEO.' },
+      { title: 'Content', desc: 'Create blog content that attracts and converts shoppers.' },
+      { title: 'Report', desc: 'Track traffic, rankings, and sales growth monthly.' },
+    ],
+    faqs: [
+      { q: 'Do you work with all Shopify stores?', a: 'Yes. We work with fashion, beauty, electronics, home decor, and all other Shopify store types.' },
+      { q: 'How long until I see results?', a: 'Most stores see initial improvements in 2-3 months with significant growth in 4-6 months.' },
+    ],
+  },
+  {
+    slug: 'seo-audit',
+    title: 'SEO Audit Services',
+    short: 'Discover what is holding your website back with a comprehensive technical SEO audit.',
+    icon: ClipboardCheck,
+    tagline: 'Find exactly what is stopping your site from ranking.',
+    description: 'A complete website SEO audit covering technical SEO, on-page, off-page, Core Web Vitals, and competitor analysis with actionable recommendations.',
+    deliverables: [
+      'Technical SEO audit',
+      'On-page SEO audit',
+      'Off-page SEO review',
+      'Core Web Vitals analysis',
+      'Competitor analysis',
+      'Priority recommendations report',
+    ],
+    process: [
+      { title: 'Analyze', desc: 'Deep crawl and analysis of your entire website.' },
+      { title: 'Report', desc: 'Detailed SEO report with all issues identified.' },
+      { title: 'Prioritize', desc: 'Actionable recommendations sorted by impact.' },
+      { title: 'Strategy', desc: 'Clear growth strategy to improve rankings and traffic.' },
+    ],
+    faqs: [
+      { q: 'How long does an SEO audit take?', a: 'Most audits are completed within 3-5 business days depending on website size and complexity.' },
+      { q: 'Is the SEO audit really free?', a: 'Yes. We offer a free initial SEO audit to show you what is holding your website back. No obligation.' },
+    ],
+  },
+  {
+    slug: 'google-business-profile',
+    title: 'Google Business Profile Optimization',
+    short: 'Optimize your Google Business Profile to rank higher in local searches and Google Maps.',
+    icon: MapPin,
+    tagline: 'Dominate local search and Google Maps results.',
+    description: 'Complete Google Business Profile optimization including setup, keyword optimization, review management, and local ranking strategies.',
+    deliverables: [
+      'Google Business Profile setup',
+      'Keyword optimization',
+      'Review management strategy',
+      'Photo and post optimization',
+      'Local citation building',
+      'Monthly performance reporting',
+    ],
+    process: [
+      { title: 'Audit', desc: 'Review your current Google Business Profile for issues.' },
+      { title: 'Optimize', desc: 'Optimize all profile fields with target keywords.' },
+      { title: 'Manage', desc: 'Manage reviews, posts, and photos for engagement.' },
+      { title: 'Report', desc: 'Track local rankings, calls, and direction requests.' },
+    ],
+    faqs: [
+      { q: 'Do I need a physical storefront?', a: 'No. Both brick-and-mortar and service-area businesses benefit from Google Business Profile optimization.' },
+      { q: 'How long until I rank in the local pack?', a: 'Most businesses see local pack improvements in 4-8 weeks with consistent optimization.' },
+    ],
+  },
+  {
+    slug: 'ecommerce-seo',
+    title: 'E-commerce SEO Services',
+    short: 'Increase organic traffic and online sales with SEO built for online stores.',
+    icon: TrendingUp,
+    tagline: 'Drive more qualified shoppers and increase online revenue.',
+    description: 'Comprehensive e-commerce SEO including product page optimization, category page SEO, technical fixes, schema markup, and content strategy for online stores.',
+    deliverables: [
+      'Store SEO audit',
+      'Product page optimization',
+      'Category page SEO',
+      'Technical SEO',
+      'Schema markup',
+      'Monthly reporting',
+    ],
+    process: [
+      { title: 'Audit', desc: 'Full SEO audit of your online store and competitors.' },
+      { title: 'Research', desc: 'Keyword research for products and categories.' },
+      { title: 'Optimize', desc: 'Optimize product pages, categories, and technical SEO.' },
+      { title: 'Report', desc: 'Track traffic, rankings, and sales growth monthly.' },
+    ],
+    faqs: [
+      { q: 'Do you work with all e-commerce platforms?', a: 'Yes. We work with Shopify, WooCommerce, Magento, BigCommerce, and custom platforms.' },
+      { q: 'How long until I see results?', a: 'Most stores see initial improvements in 2-3 months with significant growth in 4-6 months.' },
     ],
   },
 ];
@@ -257,7 +387,7 @@ export const whyChooseUs = [
   { title: 'Full Transparency', desc: 'Live dashboards and plain-English reports. You always know what we’re doing and why.' },
   { title: '100% White Hat', desc: 'Strict adherence to Google’s guidelines. No shortcuts, no risk to your domain.' },
   { title: 'Fast Communication', desc: 'Same-day replies from a dedicated strategist who knows your business.' },
-  { title: 'Affordable Pricing', desc: 'Flexible plans for startups to enterprises — no bloated retainers.' },
+  { title: 'Affordable Pricing', desc: 'Flexible plans for startups to enterprises - no bloated retainers.' },
   { title: 'Results Driven', desc: 'We measure success by your revenue, not vanity metrics.' },
 ];
 
@@ -276,19 +406,19 @@ export const testimonials = [
   { name: 'David Chen', role: 'Founder, Nimbus SaaS', quote: 'The most data-driven agency we’ve worked with. Organic signups grew 280% in two quarters.', rating: 5, img: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200' },
   { name: 'Dr. Amara Okafor', role: 'Director, Lakeside Dental', quote: 'New patient bookings from Google have never been higher. The team is responsive and genuinely cares.', rating: 5, img: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=200' },
   { name: 'Marcus Reed', role: 'CMO, UrbanNest Realty', quote: 'They rebuilt our site and our rankings at the same time. Leads are up 3x and the site is gorgeous.', rating: 5, img: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=200' },
-  { name: 'Priya Nair', role: 'Owner, Bloom Boutique', quote: 'As a small e-commerce store, we didn’t think SEO could compete. We were wrong — sales are up 190%.', rating: 5, img: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200' },
+  { name: 'Priya Nair', role: 'Owner, Bloom Boutique', quote: 'As a small e-commerce store, we didn’t think SEO could compete. We were wrong - sales are up 190%.', rating: 5, img: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200' },
   { name: 'James Whitfield', role: 'Marketing Director, Apex White Label', quote: 'We white-label their SEO for 20+ clients. Reliable, transparent, and our clients keep growing.', rating: 5, img: 'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=200' },
 ];
 
 export const homeFaqs = [
   { q: 'What makes Rank Flow Digital different from other SEO agencies?', a: 'We tie every effort to revenue, not vanity metrics. You get a dedicated strategist, live dashboards, and a white-hat process refined over a decade across hundreds of campaigns.' },
-  { q: 'How soon will I see SEO results?', a: 'Most clients see meaningful ranking movement within 90 days and significant traffic gains in 4–6 months. Local SEO often moves faster; competitive national terms take longer.' },
-  { q: 'Do you work with my industry?', a: 'We specialize in local businesses, startups, SaaS, e-commerce, law firms, dentists, medical clinics, real estate, and white-label agency partners — but we’ve ranked businesses in nearly every vertical.' },
-  { q: 'Are your link building practices safe?', a: 'Yes. We only build editorial links on real, relevant websites with genuine traffic. No PBNs, no link farms, no spam — fully compliant with Google’s guidelines.' },
+  { q: 'How soon will I see SEO results?', a: 'Most clients see meaningful ranking movement within 90 days and significant traffic gains in 4-6 months. Local SEO often moves faster; competitive national terms take longer.' },
+  { q: 'Do you work with my industry?', a: 'We specialize in local businesses, startups, SaaS, e-commerce, law firms, dentists, medical clinics, real estate, and white-label agency partners - but we’ve ranked businesses in nearly every vertical.' },
+  { q: 'Are your link building practices safe?', a: 'Yes. We only build editorial links on real, relevant websites with genuine traffic. No PBNs, no link farms, no spam - fully compliant with Google’s guidelines.' },
   { q: 'Do you require long-term contracts?', a: 'No long lock-ins. We work on month-to-month or quarterly agreements. We’d rather earn your retention with results than a contract clause.' },
-  { q: 'Can you redesign my website while doing SEO?', a: 'Absolutely. Our web team builds fast, accessible, SEO-ready sites — so you can redesign and rank at the same time without losing traffic.' },
+  { q: 'Can you redesign my website while doing SEO?', a: 'Absolutely. Our web team builds fast, accessible, SEO-ready sites - so you can redesign and rank at the same time without losing traffic.' },
   { q: 'What reporting will I receive?', a: 'A live dashboard plus a monthly call covering rankings, traffic, leads, and revenue. Everything is in plain English with clear next steps.' },
-  { q: 'Do you offer a free SEO audit?', a: 'Yes. Every prospect gets a complimentary audit covering technical health, keyword opportunities, and quick wins — no obligation.' },
+  { q: 'Do you offer a free SEO audit?', a: 'Yes. Every prospect gets a complimentary audit covering technical health, keyword opportunities, and quick wins - no obligation.' },
   { q: 'Can you manage SEO for multiple locations?', a: 'From a single storefront to hundreds of locations, we scale local SEO with citation building, GBP management, and location pages.' },
   { q: 'How do I get started?', a: 'Book a free consultation or request an audit. We’ll review your site, map opportunities, and send a proposal within 48 hours.' },
 ];
@@ -298,7 +428,7 @@ export const caseStudies = [
     slug: 'property-management-firm',
     client: 'Property Management Firm',
     industry: 'Property Management',
-    result: 'Ranking for 6,000+ keywords — #1 for most desirable terms',
+    result: 'Ranking for 6,000+ keywords - #1 for most desirable terms',
     img: '/images/case-studies/website_seo_ss_(10).png',
     summary: 'Client since 2016 inception. Strategic SEO drove a 76.35% YoY increase in organic users and the firm now ranks #1 for all its most desirable keywords.',
     stats: [
@@ -311,13 +441,13 @@ export const caseStudies = [
     slug: 'b2b-saas-client',
     client: 'B2B SaaS Client',
     industry: 'SaaS',
-    result: '115,366 organic visits/month — client since 2018 inception',
+    result: '115,366 organic visits/month - client since 2018 inception',
     img: '/images/case-studies/website_seo_ss_(9).png',
     summary: 'Serviced since launch in 2018. Built to 121,171 ranking keywords with 2,389 in the top 3 positions, driving over 115K organic sessions every month.',
     stats: [
       { label: 'Organic Traffic', value: '115,366', sub: 'per month' },
       { label: 'Total Keywords', value: '121,171', sub: 'ranking' },
-      { label: 'Top-3 Keywords', value: '2,389', sub: 'positions #1–3' },
+      { label: 'Top-3 Keywords', value: '2,389', sub: 'positions #1-3' },
     ],
   },
   {
@@ -326,7 +456,7 @@ export const caseStudies = [
     industry: 'Legal / Medical',
     result: 'Keyword rankings nearly doubled in 7 months',
     img: '/images/case-studies/website_seo_ss_(9).png',
-    summary: 'In the competitive legal/medical space, we took keyword rankings from 4,669 to 9,327 — a 99.76% increase — between February and September 2023.',
+    summary: 'In the competitive legal/medical space, we took keyword rankings from 4,669 to 9,327 - a 99.76% increase - between February and September 2023.',
     stats: [
       { label: 'Keywords Before', value: '4,669', sub: 'Feb 2023' },
       { label: 'Keywords After', value: '9,327', sub: 'Sep 2023' },
@@ -337,22 +467,22 @@ export const caseStudies = [
     slug: 'software-learning-platform',
     client: 'Online Software Learning Platform',
     industry: 'EdTech',
-    result: '79,860 organic visits/month — client since 2020',
+    result: '79,860 organic visits/month - client since 2020',
     img: '/images/case-studies/website_seo_ss_(7).png',
     summary: 'Since onboarding in 2020, we scaled this platform to 47,075 ranking keywords with 2,972 in top-3 positions, driving nearly 80K organic sessions monthly.',
     stats: [
       { label: 'Organic Traffic', value: '79,860', sub: 'per month' },
       { label: 'Total Keywords', value: '47,075', sub: 'ranking' },
-      { label: 'Top-3 Keywords', value: '2,972', sub: 'positions #1–3' },
+      { label: 'Top-3 Keywords', value: '2,972', sub: 'positions #1-3' },
     ],
   },
   {
     slug: 'alper-law',
     client: 'Alper Law',
     industry: 'Law Firm',
-    result: '873 → 25,096 keywords — +2,776% growth',
+    result: '873 → 25,096 keywords - +2,776% growth',
     img: '/images/case-studies/website_seo_ss_(7).png',
-    summary: 'alperlaw.com grew from 873 ranking terms in January 2017 to 25,096 by April 2023 — an increase of 24,223 keywords across all positions.',
+    summary: 'alperlaw.com grew from 873 ranking terms in January 2017 to 25,096 by April 2023 - an increase of 24,223 keywords across all positions.',
     stats: [
       { label: 'Keywords Before', value: '873', sub: 'Jan 2017' },
       { label: 'Keywords After', value: '25,096', sub: 'Apr 2023' },
@@ -378,7 +508,7 @@ export const caseStudies = [
     industry: 'Content & eCommerce',
     result: '12.3K clicks · 1.08M impressions · Discover: 3K clicks, 130K impressions',
     img: '/images/case-studies/website_seo_ss.png',
-    summary: 'A comprehensive content and technical SEO programme produced 1.08M search impressions and 12.3K organic clicks in a three-month window, alongside a Discover traffic spike of 3K clicks from 130K impressions — demonstrating reach far beyond standard search.',
+    summary: 'A comprehensive content and technical SEO programme produced 1.08M search impressions and 12.3K organic clicks in a three-month window, alongside a Discover traffic spike of 3K clicks from 130K impressions - demonstrating reach far beyond standard search.',
     stats: [
       { label: 'Total Clicks', value: '12.3K', sub: 'organic search' },
       { label: 'Impressions', value: '1.08M', sub: 'search results' },
@@ -391,16 +521,16 @@ export const caseStudies = [
     industry: 'General SEO & Legal',
     result: '1,087 → 1,465 keywords + wrongfultermination.com 152 → 645 terms',
     img: '/images/case-studies/website_seo_ss_(1).png',
-    summary: 'Two simultaneous engagements delivered measurable keyword growth. A general SEO client grew from 1,087 to 1,465 ranking keywords. Wrongful Termination Law Group (wrongfultermination.com) grew from 152 terms to 645 — an increase of 493 keywords — with Page 1 (positions 4–10) gaining 31 additional keywords and Domain Authority rising from 26 to 28.',
+    summary: 'Two simultaneous engagements delivered measurable keyword growth. A general SEO client grew from 1,087 to 1,465 ranking keywords. Wrongful Termination Law Group (wrongfultermination.com) grew from 152 terms to 645 - an increase of 493 keywords - with Page 1 (positions 4-10) gaining 31 additional keywords and Domain Authority rising from 26 to 28.',
     stats: [
       { label: 'Legal Keywords', value: '152 → 645', sub: '+493 terms' },
-      { label: 'Page-1 Keywords', value: '+31', sub: 'positions 4–10' },
+      { label: 'Page-1 Keywords', value: '+31', sub: 'positions 4-10' },
       { label: 'Domain Authority', value: '26 → 28', sub: 'DA increase' },
     ],
   },
   {
     slug: 'decorative-concrete-domain-authority',
-    client: 'Decorative Concrete — Domain Authority & Backlink Profile',
+    client: 'Decorative Concrete - Domain Authority & Backlink Profile',
     industry: 'Home Services',
     result: 'AS 18 · 1.5K backlinks · 687 referring domains · 2,115 organic visits/month',
     img: '/images/case-studies/website_seo_ss_(3).png',
@@ -426,11 +556,11 @@ export const caseStudies = [
   },
   {
     slug: 'epoxy-flooring-keyword-dominance',
-    client: 'San Diego Decorative Concrete — Epoxy & Keyword Dominance',
+    client: 'San Diego Decorative Concrete - Epoxy & Keyword Dominance',
     industry: 'Home Services',
     result: '1.8K keywords · Traffic +979% · Traffic value $9.1K/month (+1,578%)',
     img: '/images/case-studies/website_seo_ss_(5).png',
-    summary: 'An advanced keyword targeting strategy pushed the domain to rank for 1,762 organic search positions including high-volume epoxy flooring terms. "Epoxy garage floor" (33.1K monthly searches) reached position 9 generating 1.4K monthly traffic. From a starting point of just 15 keywords, traffic cost grew to $9.1K/month (+1,578%) — a compounding return on SEO investment.',
+    summary: 'An advanced keyword targeting strategy pushed the domain to rank for 1,762 organic search positions including high-volume epoxy flooring terms. "Epoxy garage floor" (33.1K monthly searches) reached position 9 generating 1.4K monthly traffic. From a starting point of just 15 keywords, traffic cost grew to $9.1K/month (+1,578%) - a compounding return on SEO investment.',
     stats: [
       { label: 'Traffic Value', value: '$9.1K', sub: '+1,578%/month' },
       { label: 'Traffic Growth', value: '+979%', sub: '2.1K visits/month' },
@@ -611,26 +741,26 @@ export const portfolioItems: PortfolioItem[] = [
 
 export const blogPosts = [
   { slug: 'shopify-store-not-getting-sales', title: 'Why Is My Shopify Store Not Getting Sales? (15 Proven Fixes That Increase Conversions)', category: 'Shopify SEO', date: 'Jul 12, 2026', readTime: '16 min', author: 'Jack', excerpt: 'A practical guide for Shopify store owners. Learn why your store is not getting sales and discover 15 proven fixes to increase conversions, traffic, and revenue.', img: 'https://images.pexels.com/photos/6214472/pexels-photo-6214472.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'roofers-get-more-leads-from-google', title: 'How Roofers Can Get More Leads From Google (15 Proven SEO Strategies That Actually Work)', category: 'Roofing SEO', date: 'Jul 12, 2026', readTime: '16 min', author: 'John Smith', excerpt: 'A practical SEO guide for roofing contractors and companies. Learn 15 proven strategies to generate more roofing leads from Google — without relying on paid ads.', img: 'https://images.pexels.com/photos/32050399/pexels-photo-32050399.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'law-firm-not-showing-on-google', title: "Why Isn't My Law Firm Showing on Google? (12 Proven SEO Fixes to Get More Clients)", category: 'Law Firm SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Emily', excerpt: 'A practical SEO guide for law firms, attorneys, and solicitors. Learn why your firm is not appearing on Google and discover 12 proven fixes to attract more legal clients.', img: 'https://images.pexels.com/photos/5668775/pexels-photo-5668775.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'plumbing-business-not-getting-calls', title: "Why Isn't My Plumbing Business Getting Calls? (12 Proven Ways to Get More Customers from Google)", category: 'Local SEO', date: 'Jul 12, 2026', readTime: '14 min', author: 'Emily', excerpt: 'A practical guide for plumbers and plumbing companies. Learn why your phone is not ringing from Google and discover 12 proven ways to get more plumbing calls with Local SEO.', img: 'https://images.pexels.com/photos/8486978/pexels-photo-8486978.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'real-estate-agents-seo-property-leads', title: 'How Real Estate Agents Can Get More Property Leads from Google (15 Proven SEO Strategies)', category: 'Real Estate SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Apex', excerpt: 'A practical SEO guide for real estate agents, realtors, and estate agencies. Learn 15 proven strategies to generate more property leads from Google — without relying on paid ads.', img: 'https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'get-more-customers-without-paid-ads', title: 'How Can I Get More Customers Without Paid Ads? (15 Proven Strategies That Actually Work)', category: 'Lead Generation', date: 'Jul 12, 2026', readTime: '14 min', author: 'Muhammad Sarwar', excerpt: 'Stop wasting money on ads. These 15 proven organic strategies help small businesses, local services, and eCommerce stores get more customers — without spending on paid advertising.', img: 'https://images.pexels.com/photos/3183179/pexels-photo-3183179.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'roofers-get-more-leads-from-google', title: 'How Roofers Can Get More Leads From Google (15 Proven SEO Strategies That Actually Work)', category: 'Roofing SEO', date: 'Jul 12, 2026', readTime: '16 min', author: 'John Smith', excerpt: 'A practical SEO guide for roofing contractors and companies. Learn 15 proven strategies to generate more roofing leads from Google - without relying on paid ads.', img: 'https://images.pexels.com/photos/32050399/pexels-photo-32050399.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'law-firm-not-showing-on-google', title: "Why Isn’t My Law Firm Showing on Google? (12 Proven SEO Fixes to Get More Clients)", category: 'Law Firm SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Emily', excerpt: 'A practical SEO guide for law firms, attorneys, and solicitors. Learn why your firm is not appearing on Google and discover 12 proven fixes to attract more legal clients.', img: 'https://images.pexels.com/photos/5668775/pexels-photo-5668775.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'plumbing-business-not-getting-calls', title: "Why Isn’t My Plumbing Business Getting Calls? (12 Proven Ways to Get More Customers from Google)", category: 'Local SEO', date: 'Jul 12, 2026', readTime: '14 min', author: 'Emily', excerpt: 'A practical guide for plumbers and plumbing companies. Learn why your phone is not ringing from Google and discover 12 proven ways to get more plumbing calls with Local SEO.', img: 'https://images.pexels.com/photos/8486978/pexels-photo-8486978.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'real-estate-agents-seo-property-leads', title: 'How Real Estate Agents Can Get More Property Leads from Google (15 Proven SEO Strategies)', category: 'Real Estate SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Apex', excerpt: 'A practical SEO guide for real estate agents, realtors, and estate agencies. Learn 15 proven strategies to generate more property leads from Google - without relying on paid ads.', img: 'https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'get-more-customers-without-paid-ads', title: 'How Can I Get More Customers Without Paid Ads? (15 Proven Strategies That Actually Work)', category: 'Lead Generation', date: 'Jul 12, 2026', readTime: '14 min', author: 'Muhammad Sarwar', excerpt: 'Stop wasting money on ads. These 15 proven organic strategies help small businesses, local services, and eCommerce stores get more customers - without spending on paid advertising.', img: 'https://images.pexels.com/photos/3183179/pexels-photo-3183179.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-london-small-businesses', title: 'Local SEO for Small Businesses in London: A Complete City-by-City Guide (2026)', category: 'Local SEO', date: 'Jul 12, 2026', readTime: '15 min', author: 'Muhammad Sarwar', excerpt: 'A practical, city-by-city Local SEO guide for London small businesses. Learn how to rank higher in Google Search and Google Maps across Central London, Westminster, Camden, and 9 more areas.', img: 'https://images.pexels.com/photos/16324758/pexels-photo-16324758.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'why-is-my-website-not-showing-on-google', title: 'Why Is My Website Not Showing on Google? (12 Common Reasons & How to Fix Them)', category: 'SEO', date: 'Jul 12, 2026', readTime: '12 min', author: 'Muhammad Sarwar', excerpt: 'Is your website not showing on Google? Discover the 12 most common reasons your site is invisible in search results — and the exact steps to fix each one.', img: 'https://images.pexels.com/photos/16368540/pexels-photo-16368540.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'why-is-my-website-not-showing-on-google', title: 'Why Is My Website Not Showing on Google? (12 Common Reasons & How to Fix Them)', category: 'SEO', date: 'Jul 12, 2026', readTime: '12 min', author: 'Muhammad Sarwar', excerpt: 'Is your website not showing on Google? Discover the 12 most common reasons your site is invisible in search results - and the exact steps to fix each one.', img: 'https://images.pexels.com/photos/16368540/pexels-photo-16368540.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'how-to-get-more-dental-patients-from-google', title: 'How to Get More Dental Patients From Google Without Ads (12 Proven SEO Strategies)', category: 'Dental SEO', date: 'Jul 11, 2026', readTime: '14 min', excerpt: 'Struggling to get new dental patients from Google? Learn 12 proven dental SEO strategies to improve your Google rankings, attract more patients, and grow your practice without paid ads.', img: 'https://images.pexels.com/photos/6627574/pexels-photo-6627574.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-is-my-restaurant-not-showing-up-on-google', title: 'Why Is My Restaurant Not Showing Up on Google? (11 Proven Fixes to Get Found by More Customers)', category: 'Local SEO', date: 'Jul 11, 2026', readTime: '11 min', excerpt: 'Is your restaurant invisible on Google Maps and Search? Learn 11 proven fixes to improve your local SEO, rank higher, and get more customers through your doors.', img: 'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'how-to-get-sales-on-shopify-without-ads', title: 'How to Get Sales on Shopify Without Ads', category: 'Shopify SEO', date: 'Jul 11, 2026', readTime: '12 min', excerpt: 'Getting Shopify traffic but no sales? Learn proven, ad-free strategies to increase Shopify sales with SEO, email marketing, social media, and conversion optimization.', img: 'https://images.pexels.com/photos/4219989/pexels-photo-4219989.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'ecommerce-store-not-performing', title: '4 Reasons Why Your eCommerce Store Is Not Performing Well (And How to Fix Them)', category: 'E-commerce', date: 'Jul 10, 2026', readTime: '10 min', excerpt: 'Is your online store getting traffic but not making sales? Discover the 4 biggest reasons eCommerce stores underperform — and the exact fixes you can apply today.', img: 'https://images.pexels.com/photos/5077047/pexels-photo-5077047.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'ecommerce-store-not-performing', title: '4 Reasons Why Your eCommerce Store Is Not Performing Well (And How to Fix Them)', category: 'E-commerce', date: 'Jul 10, 2026', readTime: '10 min', excerpt: 'Is your online store getting traffic but not making sales? Discover the 4 biggest reasons eCommerce stores underperform - and the exact fixes you can apply today.', img: 'https://images.pexels.com/photos/5077047/pexels-photo-5077047.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-competitors-ranking-higher-on-google', title: 'Why Are My Competitors Ranking Higher on Google?', category: 'SEO', date: 'Jul 9, 2026', readTime: '10 min', excerpt: 'Wondering why competitors outrank you on Google? Discover the real reasons behind their success and learn practical steps to close the gap and rank higher.', img: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-for-small-businesses', title: 'Local SEO for Small Businesses: The Complete Guide to Getting More Local Customers in 2026', category: 'Local SEO', date: 'Jul 8, 2026', readTime: '8 min', excerpt: 'Learn how Local SEO helps small businesses rank higher on Google, attract local customers, and increase sales with proven strategies.', img: 'https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-is-my-website-not-ranking-on-google', title: 'Why Is My Website Not Ranking on Google? 12 Common Reasons & How to Fix Them', category: 'SEO', date: 'Jul 8, 2026', readTime: '8 min', excerpt: 'Is your website not ranking on Google? Discover the 12 most common SEO mistakes that prevent websites from ranking and learn practical ways to improve your search visibility.', img: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'seo-strategy-that-actually-works', title: 'The SEO Strategy That Actually Works in 2026: A Complete Blueprint', category: 'SEO Strategy', date: 'Jul 7, 2026', readTime: '13 min', excerpt: 'Most SEO strategies are lists of tactics. This is a complete, repeatable blueprint — from audit to authority — that compounds into real revenue.', img: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'seo-strategy-that-actually-works', title: 'The SEO Strategy That Actually Works in 2026: A Complete Blueprint', category: 'SEO Strategy', date: 'Jul 7, 2026', readTime: '13 min', excerpt: 'Most SEO strategies are lists of tactics. This is a complete, repeatable blueprint - from audit to authority - that compounds into real revenue.', img: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-guide-2026', title: 'The Complete Local SEO Guide for 2026', category: 'Local SEO', date: 'Jul 2, 2026', readTime: '12 min', excerpt: 'Everything you need to dominate the map pack, from Google Business Profile to citations and reviews.', img: 'https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { slug: 'core-web-vitals', title: 'Core Web Vitals: The 2026 Technical SEO Checklist', category: 'Technical SEO', date: 'Jun 24, 2026', readTime: '9 min', excerpt: 'LCP, INP, and CLS explained — with the exact fixes that move the needle on rankings.', img: 'https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=800' },
+  { slug: 'core-web-vitals', title: 'Core Web Vitals: The 2026 Technical SEO Checklist', category: 'Technical SEO', date: 'Jun 24, 2026', readTime: '9 min', excerpt: 'LCP, INP, and CLS explained - with the exact fixes that move the needle on rankings.', img: 'https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=800' },
   { slug: 'link-building-white-hat', title: 'White-Hat Link Building That Actually Works', category: 'Link Building', date: 'Jun 15, 2026', readTime: '11 min', excerpt: 'How we build authority backlinks on real sites without risking a single penalty.', img: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800' },
   { slug: 'saas-seo-playbook', title: 'The SaaS SEO Playbook: From Trial to Revenue', category: 'SaaS', date: 'Jun 6, 2026', readTime: '14 min', excerpt: 'A repeatable framework for turning organic search into a compounding SaaS growth channel.', img: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { slug: 'content-that-converts', title: 'Writing Content That Ranks AND Converts', category: 'Content', date: 'May 28, 2026', readTime: '8 min', excerpt: 'The balance between SEO optimization and persuasion — with templates you can use today.', img: 'https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg?auto=compress&cs=tinysrgb&w=800' },
+  { slug: 'content-that-converts', title: 'Writing Content That Ranks AND Converts', category: 'Content', date: 'May 28, 2026', readTime: '8 min', excerpt: 'The balance between SEO optimization and persuasion - with templates you can use today.', img: 'https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg?auto=compress&cs=tinysrgb&w=800' },
   { slug: 'ecommerce-category-pages', title: 'How to Rank E-commerce Category Pages', category: 'E-commerce', date: 'May 19, 2026', readTime: '10 min', excerpt: 'Category pages are your biggest SEO asset. Here’s how to optimize them for revenue.', img: 'https://images.pexels.com/photos/421965/pexels-photo-421965.jpeg?auto=compress&cs=tinysrgb&w=800' },
 ];
 
@@ -645,16 +775,16 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>
-              You launched your Shopify store. You picked your products, set up your theme, and maybe even ran some ads. People are visiting your site — but when you check your dashboard, the sales are not coming. Visitors land on your homepage, browse a bit, and leave without buying anything.
+              You launched your Shopify store. You picked your products, set up your theme, and maybe even ran some ads. People are visiting your site - but when you check your dashboard, the sales are not coming. Visitors land on your homepage, browse a bit, and leave without buying anything.
             </p>
             <p>
-              If this sounds like your situation, you are not alone. Most Shopify store owners hit this wall. The problem is rarely one single thing — it is usually a combination of poor <strong>eCommerce SEO</strong>, weak product pages, a slow website, and trust issues that quietly kill conversions.
+              If this sounds like your situation, you are not alone. Most Shopify store owners hit this wall. The problem is rarely one single thing - it is usually a combination of poor <strong>eCommerce SEO</strong>, weak product pages, a slow website, and trust issues that quietly kill conversions.
             </p>
             <p>
-              Here is the hard truth: getting traffic is only half the battle. If your store is not built to convert that traffic into sales, you are burning money. A 1% conversion rate means 99 out of 100 visitors leave without buying. Fix the right things and that number goes up — fast.
+              Here is the hard truth: getting traffic is only half the battle. If your store is not built to convert that traffic into sales, you are burning money. A 1% conversion rate means 99 out of 100 visitors leave without buying. Fix the right things and that number goes up - fast.
             </p>
             <p>
-              This guide breaks down the 15 most common reasons Shopify stores do not get sales — and exactly what to do about each one. No fluff. Just practical fixes you can implement this week to increase your <strong>Shopify sales</strong> and turn more visitors into customers.
+              This guide breaks down the 15 most common reasons Shopify stores do not get sales - and exactly what to do about each one. No fluff. Just practical fixes you can implement this week to increase your <strong>Shopify sales</strong> and turn more visitors into customers.
             </p>
           </>
         ),
@@ -670,7 +800,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
-              <li>Chasing vanity metrics — big traffic numbers with no sales</li>
+              <li>Chasing vanity metrics - big traffic numbers with no sales</li>
               <li>Running ads to broad audiences without targeting</li>
               <li>Ignoring organic search traffic in favour of paid social</li>
             </ul>
@@ -678,12 +808,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <ol>
               <li>Open Google Analytics and check which channels produce the most sales, not just traffic</li>
               <li>Identify your highest-converting traffic source and double down on it</li>
-              <li>Invest in <strong>Shopify SEO</strong> to attract high-intent search traffic — people actively searching for your products</li>
+              <li>Invest in <strong>Shopify SEO</strong> to attract high-intent search traffic - people actively searching for your products</li>
               <li>Use <strong>Google Shopping</strong> ads to reach people searching with buying intent</li>
               <li>Narrow your social ad targeting to people who match your best customers</li>
             </ol>
             <p><strong>Practical example:</strong> A skincare brand was getting 5,000 visitors per month from Instagram ads but only 8 sales. They shifted budget to Google Shopping ads targeting "organic face serum UK." Same budget, 200 visitors, 28 sales. Different traffic, different results.</p>
-            <p><strong>Pro Tip:</strong> Search traffic converts 2–3x better than social traffic because people searching on Google are actively looking to buy. Prioritise SEO over social for sustainable sales.</p>
+            <p><strong>Pro Tip:</strong> Search traffic converts 2-3x better than social traffic because people searching on Google are actively looking to buy. Prioritise SEO over social for sustainable sales.</p>
           </>
         ),
       },
@@ -711,8 +841,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Show stock levels ("Only 3 left") to create urgency</li>
               <li>Add trust badges (secure checkout, payment methods) near the add-to-cart button</li>
             </ol>
-            <p><strong>Practical example:</strong> A fashion store added customer photo reviews and a "30-day free returns" badge to their product pages. Conversion rate went from 1.2% to 2.4% in 3 weeks — literally doubling sales with the same traffic.</p>
-            <p><strong>Pro Tip:</strong> Add a "People are viewing this right now" notification using an app like Fomo. Real-time social proof increases urgency and conversions by 10–15%.</p>
+            <p><strong>Practical example:</strong> A fashion store added customer photo reviews and a "30-day free returns" badge to their product pages. Conversion rate went from 1.2% to 2.4% in 3 weeks - literally doubling sales with the same traffic.</p>
+            <p><strong>Pro Tip:</strong> Add a "People are viewing this right now" notification using an app like Fomo. Real-time social proof increases urgency and conversions by 10-15%.</p>
           </>
         ),
       },
@@ -723,7 +853,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/7667442/pexels-photo-7667442.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person browsing t-shirt options in an online store on a laptop representing website speed for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> A 1-second delay in page load time can reduce conversions by 7%. Online shoppers are impatient. If your store takes more than 3 seconds to load, visitors hit the back button and buy from a competitor. Google also uses speed as a ranking factor — slow sites rank lower.
+              <strong>Why it matters:</strong> A 1-second delay in page load time can reduce conversions by 7%. Online shoppers are impatient. If your store takes more than 3 seconds to load, visitors hit the back button and buy from a competitor. Google also uses speed as a ranking factor - slow sites rank lower.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -733,16 +863,16 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
-              <li>Test your store with Google PageSpeed Insights — it is free</li>
+              <li>Test your store with Google PageSpeed Insights - it is free</li>
               <li>Compress all product images to under 200KB before uploading</li>
-              <li>Use Shopify's built-in image optimizer or an app like Crush.pics</li>
-              <li>Uninstall apps you are not actively using — each one adds load time</li>
+              <li>Use Shopify’s built-in image optimizer or an app like Crush.pics</li>
+              <li>Uninstall apps you are not actively using - each one adds load time</li>
               <li>Choose a fast, lightweight theme like Dawn or Turbo</li>
               <li>Enable lazy loading for images below the fold</li>
               <li>Aim for a mobile load time under 2.5 seconds</li>
             </ol>
-            <p><strong>Practical example:</strong> A Shopify store reduced their load time from 6 seconds to 2 seconds by compressing images and removing 8 unused apps. Their bounce rate dropped from 65% to 38% and sales increased 35% — same traffic, faster site.</p>
-            <p><strong>Pro Tip:</strong> Every Shopify app you install adds JavaScript to your store. Audit your apps monthly — if you are not using it, uninstall it. Fewer apps means faster pages.</p>
+            <p><strong>Practical example:</strong> A Shopify store reduced their load time from 6 seconds to 2 seconds by compressing images and removing 8 unused apps. Their bounce rate dropped from 65% to 38% and sales increased 35% - same traffic, faster site.</p>
+            <p><strong>Pro Tip:</strong> Every Shopify app you install adds JavaScript to your store. Audit your apps monthly - if you are not using it, uninstall it. Fewer apps means faster pages.</p>
           </>
         ),
       },
@@ -767,12 +897,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Choose a mobile-first, responsive Shopify theme</li>
               <li>Make all buttons at least 48px wide for easy tapping</li>
               <li>Use large fonts (16px minimum) readable on phones</li>
-              <li>Enable Shopify's accelerated mobile pages (AMP) for product pages</li>
-              <li>Test your checkout process on a real phone — every step</li>
+              <li>Enable Shopify’s accelerated mobile pages (AMP) for product pages</li>
+              <li>Test your checkout process on a real phone - every step</li>
               <li>Remove or resize any pop-ups that block content on mobile</li>
-              <li>Use Shopify's mobile preview tool to check every page</li>
+              <li>Use Shopify’s mobile preview tool to check every page</li>
             </ol>
-            <p><strong>Practical example:</strong> A beauty store made their add-to-cart button larger and moved it above the fold on mobile. Mobile conversions increased 45% within one month — same traffic, easier buying experience.</p>
+            <p><strong>Practical example:</strong> A beauty store made their add-to-cart button larger and moved it above the fold on mobile. Mobile conversions increased 45% within one month - same traffic, easier buying experience.</p>
             <p><strong>Pro Tip:</strong> Test your checkout on a phone with slow 3G. If it works well under those conditions, it will work for everyone.</p>
           </>
         ),
@@ -795,12 +925,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
-              <li>Write unique descriptions for every product — never copy from suppliers</li>
-              <li>Follow the formula: headline benefit, 2–3 paragraphs of detail, bullet points of features</li>
+              <li>Write unique descriptions for every product - never copy from suppliers</li>
+              <li>Follow the formula: headline benefit, 2-3 paragraphs of detail, bullet points of features</li>
               <li>Include natural keywords like "organic cotton t-shirt" not just "t-shirt"</li>
               <li>Answer the top 3 questions a customer would ask about the product</li>
-              <li>Add bullet points for easy scanning — shoppers do not read long paragraphs</li>
-              <li>Write at least 150–200 words per product</li>
+              <li>Add bullet points for easy scanning - shoppers do not read long paragraphs</li>
+              <li>Write at least 150-200 words per product</li>
             </ol>
             <p><strong>Practical example:</strong> A Shopify store rewrote their product descriptions from "Stainless steel water bottle, 500ml" to "Keep your drinks cold for 24 hours or hot for 12 hours with our double-walled stainless steel water bottle. BPA-free, leak-proof, and built to last." Sales for that product increased 30%.</p>
             <p><strong>Pro Tip:</strong> Use the "So what?" test. After every feature, ask "so what?" until you reach the benefit. "500ml capacity" → "So what?" → "Holds enough water for a full workout." That is what you should write.</p>
@@ -825,7 +955,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
-              <li>Use at least 5–6 images per product: front, back, side, detail close-up, lifestyle, and scale</li>
+              <li>Use at least 5-6 images per product: front, back, side, detail close-up, lifestyle, and scale</li>
               <li>Shoot in natural light or use a lightbox for clean, bright photos</li>
               <li>Add lifestyle photos showing the product being used or worn</li>
               <li>Enable zoom so customers can see product details</li>
@@ -833,7 +963,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Compress images to under 200KB without losing visible quality</li>
             </ol>
             <p><strong>Practical example:</strong> A clothing store went from 1 flat image per product to 6 images including lifestyle shots and detail close-ups. Conversion rate for those products increased 40%.</p>
-            <p><strong>Pro Tip:</strong> Add a video to your product pages. Products with video convert 30–80% better than those with images only. Even a simple 15-second phone video of the product in use helps.</p>
+            <p><strong>Pro Tip:</strong> Add a video to your product pages. Products with video convert 30-80% better than those with images only. Even a simple 15-second phone video of the product in use helps.</p>
           </>
         ),
       },
@@ -858,7 +988,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Set up automated review request emails 14 days after purchase</li>
               <li>Offer a small discount or free shipping for leaving a review with a photo</li>
               <li>Display review stars prominently near the product title and add-to-cart button</li>
-              <li>Respond to negative reviews professionally — it shows you care</li>
+              <li>Respond to negative reviews professionally - it shows you care</li>
               <li>Import reviews from AliExpress or suppliers if dropshipping (use dedicated apps)</li>
             </ol>
             <p><strong>Practical example:</strong> A Shopify store installed Judge.me and set up automated review emails. Within 2 months they had 40+ reviews on their best-selling product. Conversion rate for that product went from 1.5% to 3.2%.</p>
@@ -873,12 +1003,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/9822732/pexels-photo-9822732.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wooden blocks spelling SEO on a laptop keyboard representing SEO strategy for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> If your Shopify store is not optimised for search engines, you are missing out on free, high-intent traffic. People searching "buy [your product] online" are ready to purchase. <strong>Shopify SEO</strong> helps your product and collection pages rank for those searches — bringing in customers without ad spend.
+              <strong>Why it matters:</strong> If your Shopify store is not optimised for search engines, you are missing out on free, high-intent traffic. People searching "buy [your product] online" are ready to purchase. <strong>Shopify SEO</strong> helps your product and collection pages rank for those searches - bringing in customers without ad spend.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
               <li>Using default Shopify page titles and meta descriptions</li>
-              <li>No keyword research — guessing what customers search for</li>
+              <li>No keyword research - guessing what customers search for</li>
               <li>No optimised URLs (e.g., <code>/products/white-cotton-t-shirt</code> vs <code>/products/prod-001</code>)</li>
               <li>No alt text on product images</li>
             </ul>
@@ -892,7 +1022,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Submit your sitemap to Google Search Console</li>
             </ol>
             <p><strong>Practical example:</strong> A Shopify store optimised their product titles and meta descriptions for keywords like "handmade soy candles UK." Within 4 months, organic traffic increased 300% and organic sales went from 2 per week to 18.</p>
-            <p><strong>Pro Tip:</strong> Long-tail keywords convert better. "Buy handmade soy candle in London" has lower search volume than "soy candle" but the people searching are ready to buy — and there is less competition.</p>
+            <p><strong>Pro Tip:</strong> Long-tail keywords convert better. "Buy handmade soy candle in London" has lower search volume than "soy candle" but the people searching are ready to buy - and there is less competition.</p>
           </>
         ),
       },
@@ -903,7 +1033,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/13532889/pexels-photo-13532889.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hanged clothes in a clothing store window representing category page optimization for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Category pages (called "collections" in Shopify) are some of your most valuable SEO assets. They often rank for broad keywords like "men's t-shirts" or "organic skincare." But most stores leave them with default titles, no description, and no SEO optimisation — missing a huge opportunity.
+              <strong>Why it matters:</strong> Category pages (called "collections" in Shopify) are some of your most valuable SEO assets. They often rank for broad keywords like "men’s t-shirts" or "organic skincare." But most stores leave them with default titles, no description, and no SEO optimisation - missing a huge opportunity.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -933,7 +1063,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/7190944/pexels-photo-7190944.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Minimalist laptop showing an online checkout screen representing checkout optimization for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Cart abandonment averages 70% across eCommerce. One of the biggest causes is a complicated checkout process. Every extra step, every required field, every forced account creation — all of it pushes customers away. The simpler your checkout, the more people complete their purchase.
+              <strong>Why it matters:</strong> Cart abandonment averages 70% across eCommerce. One of the biggest causes is a complicated checkout process. Every extra step, every required field, every forced account creation - all of it pushes customers away. The simpler your checkout, the more people complete their purchase.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -944,11 +1074,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
-              <li>Enable guest checkout — never force account creation</li>
+              <li>Enable guest checkout - never force account creation</li>
               <li>Offer express checkout: Shop Pay, Apple Pay, Google Pay, PayPal</li>
               <li>Show shipping costs on the product page, not at checkout</li>
               <li>Reduce form fields to the minimum: name, email, address, payment</li>
-              <li>Enable Shopify's one-page checkout if available</li>
+              <li>Enable Shopify’s one-page checkout if available</li>
               <li>Add a progress indicator so customers know how many steps remain</li>
               <li>Send abandoned cart recovery emails automatically</li>
             </ol>
@@ -964,7 +1094,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/6995252/pexels-photo-6995252.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person holding a credit card doing online shopping representing trust signals for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> First-time visitors do not know your brand. They have no reason to trust you with their money and personal information. Trust signals — badges, policies, reviews, and social proof — reassure them that buying from your store is safe.
+              <strong>Why it matters:</strong> First-time visitors do not know your brand. They have no reason to trust you with their money and personal information. Trust signals - badges, policies, reviews, and social proof - reassure them that buying from your store is safe.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -980,9 +1110,9 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Add a contact page with a real email address, phone number, and contact form</li>
               <li>Write an "About Us" page that tells your brand story and builds connection</li>
               <li>Link to your active social media profiles in the footer</li>
-              <li>Add an SSL certificate (Shopify includes this by default — make sure it is visible)</li>
+              <li>Add an SSL certificate (Shopify includes this by default - make sure it is visible)</li>
             </ol>
-            <p><strong>Practical example:</strong> A new Shopify store added trust badges, a clear return policy, and an "About Us" page in their first month. Even with no reviews yet, their conversion rate was 1.8% — above the industry average for new stores.</p>
+            <p><strong>Practical example:</strong> A new Shopify store added trust badges, a clear return policy, and an "About Us" page in their first month. Even with no reviews yet, their conversion rate was 1.8% - above the industry average for new stores.</p>
             <p><strong>Pro Tip:</strong> Add a sticky trust bar at the bottom of product pages showing "Secure checkout | Free returns | 4.8 star rating." It reassures shoppers right where they make the decision to buy.</p>
           </>
         ),
@@ -994,7 +1124,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/5632391/pexels-photo-5632391.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hand clicking on a mouse by a miniature shopping cart on a laptop representing internal linking for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Internal links connect your pages to each other. They help Google understand your site structure and help shoppers discover more products. Good internal linking spreads authority from your strongest pages to your weaker ones — and keeps shoppers on your store longer.
+              <strong>Why it matters:</strong> Internal links connect your pages to each other. They help Google understand your site structure and help shoppers discover more products. Good internal linking spreads authority from your strongest pages to your weaker ones - and keeps shoppers on your store longer.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -1005,7 +1135,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
-              <li>Add "Related products" sections to every product page using Shopify's built-in feature or an app</li>
+              <li>Add "Related products" sections to every product page using Shopify’s built-in feature or an app</li>
               <li>Add "You may also like" sections to collection pages</li>
               <li>Link from every blog post to relevant product and collection pages</li>
               <li>Enable breadcrumb navigation across your store</li>
@@ -1013,7 +1143,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Make sure every product is linked from at least one collection page</li>
             </ol>
             <p><strong>Practical example:</strong> A Shopify store added "Related products" to every product page and linked from their blog posts to relevant collections. Average pages per session went from 2.1 to 4.5, and revenue per visitor increased 25%.</p>
-            <p><strong>Pro Tip:</strong> Use Shopify's "Search and Discovery" app to create custom related product rules. Link premium products to mid-range ones to upsell automatically.</p>
+            <p><strong>Pro Tip:</strong> Use Shopify’s "Search and Discovery" app to create custom related product rules. Link premium products to mid-range ones to upsell automatically.</p>
           </>
         ),
       },
@@ -1024,7 +1154,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/7129710/pexels-photo-7129710.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Male blogger working on a laptop creating content representing content marketing for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Every blog post is a new page that can rank on Google. When you write about problems your customers search for — "how to choose the right skincare routine," "best gifts for runners," "how to style a denim jacket" — you bring <strong>organic traffic</strong> to your store. Some of those readers become customers.
+              <strong>Why it matters:</strong> Every blog post is a new page that can rank on Google. When you write about problems your customers search for - "how to choose the right skincare routine," "best gifts for runners," "how to style a denim jacket" - you bring <strong>organic traffic</strong> to your store. Some of those readers become customers.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -1035,15 +1165,15 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
-              <li>Enable Shopify's built-in blog feature</li>
+              <li>Enable Shopify’s built-in blog feature</li>
               <li>Write down 20 questions your customers ask about your products</li>
               <li>Turn each question into a detailed, helpful blog post</li>
-              <li>Topics: "How to choose the right [product]," "Best [product] for [use case]," "[Product] vs [Product] — which is better"</li>
+              <li>Topics: "How to choose the right [product]," "Best [product] for [use case]," "[Product] vs [Product] - which is better"</li>
               <li>Link from every blog post to relevant product and collection pages</li>
               <li>Publish at least twice a month</li>
               <li>Add a "Shop the products mentioned" section at the end of each post</li>
             </ol>
-            <p><strong>Practical example:</strong> A Shopify store selling hiking gear wrote a post called "Best Hiking Boots for Beginners (2026 Guide)." It ranks number 1 for that phrase and brings 300+ visitors per month. About 6% buy — that is 18 sales per month from one blog post.</p>
+            <p><strong>Practical example:</strong> A Shopify store selling hiking gear wrote a post called "Best Hiking Boots for Beginners (2026 Guide)." It ranks number 1 for that phrase and brings 300+ visitors per month. About 6% buy - that is 18 sales per month from one blog post.</p>
             <p><strong>Pro Tip:</strong> Search your topic on Google and look at "People also ask." Answer those exact questions in your blog posts. Google rewards pages that answer common questions with higher rankings.</p>
           </>
         ),
@@ -1055,13 +1185,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="MacBook Pro with shopping bags and boxes representing sales analytics and performance tracking for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> You cannot fix what you do not measure. Google Search Console shows you which keywords bring people to your store. Google Analytics shows you what they do once they arrive — where they drop off, which products they view, and where the checkout process leaks. Without these tools, you are guessing.
+              <strong>Why it matters:</strong> You cannot fix what you do not measure. Google Search Console shows you which keywords bring people to your store. Google Analytics shows you what they do once they arrive - where they drop off, which products they view, and where the checkout process leaks. Without these tools, you are guessing.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
               <li>Not having Google Search Console or Google Analytics set up</li>
               <li>Setting them up and never looking at the data</li>
-              <li>Only tracking traffic — not tracking sales, conversion rate, or revenue</li>
+              <li>Only tracking traffic - not tracking sales, conversion rate, or revenue</li>
             </ul>
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
@@ -1071,7 +1201,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Enable enhanced eCommerce tracking to see product views, add-to-cart, and checkout events</li>
               <li>Check Search Console weekly for keywords you are ranking for</li>
               <li>Check Analytics weekly for traffic, bounce rate, and conversion rate</li>
-              <li>Double down on what works — write more content for growing keywords</li>
+              <li>Double down on what works - write more content for growing keywords</li>
             </ol>
             <p><strong>Practical example:</strong> A Shopify store noticed via Search Console that they ranked for "vegan leather wallet" but not "cruelty-free wallet." They optimised their product page for that keyword and ranked within 5 weeks. Sales from organic search increased 40%.</p>
             <p><strong>Pro Tip:</strong> In Analytics, look at your checkout funnel. If 60% of people drop off at the shipping step, your shipping costs are too high or unclear. Fix that one step and recover lost sales.</p>
@@ -1088,16 +1218,16 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               You do not need to do everything at once. Here are the highest-impact actions you can take this week to start <strong>increasing Shopify sales</strong>:
             </p>
             <ol>
-              <li><strong>Install a review app</strong> and set up automated review request emails — reviews are the fastest trust builder</li>
-              <li><strong>Compress all product images</strong> to under 200KB — speed directly impacts conversions</li>
-              <li><strong>Enable guest checkout and express payments</strong> (Shop Pay, Apple Pay) — remove every barrier to buying</li>
+              <li><strong>Install a review app</strong> and set up automated review request emails - reviews are the fastest trust builder</li>
+              <li><strong>Compress all product images</strong> to under 200KB - speed directly impacts conversions</li>
+              <li><strong>Enable guest checkout and express payments</strong> (Shop Pay, Apple Pay) - remove every barrier to buying</li>
               <li><strong>Add trust badges and a clear return policy</strong> to every product page</li>
-              <li><strong>Write unique meta titles and descriptions</strong> for your top 10 products — this is quick and drives organic traffic</li>
-              <li><strong>Set up Google Search Console and Google Analytics</strong> — you cannot improve what you do not measure</li>
+              <li><strong>Write unique meta titles and descriptions</strong> for your top 10 products - this is quick and drives organic traffic</li>
+              <li><strong>Set up Google Search Console and Google Analytics</strong> - you cannot improve what you do not measure</li>
               <li><strong>Add "Related products" sections</strong> to every product page to increase average order value</li>
-              <li><strong>Write your first blog post</strong> answering a question your customers ask — start building organic traffic</li>
+              <li><strong>Write your first blog post</strong> answering a question your customers ask - start building organic traffic</li>
             </ol>
-            <p><strong>Practical example:</strong> A Shopify store spent one weekend installing a review app, compressing images, enabling guest checkout, and adding trust badges. By the following Friday, their conversion rate had gone from 1.1% to 2.0% — nearly doubling sales with the same traffic.</p>
+            <p><strong>Practical example:</strong> A Shopify store spent one weekend installing a review app, compressing images, enabling guest checkout, and adding trust badges. By the following Friday, their conversion rate had gone from 1.1% to 2.0% - nearly doubling sales with the same traffic.</p>
             <p><strong>Pro Tip:</strong> Start with the quick wins. Reviews, image compression, and checkout fixes take less than a day to implement and can produce results within a week.</p>
           </>
         ),
@@ -1119,19 +1249,19 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Install reviews app</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Install reviews app</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
                   <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Enable guest checkout</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">Immediate</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Add trust badges</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Add trust badges</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
                   <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Compress images</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">Immediate</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimise meta titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Add internal links</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Rewrite descriptions</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve product images</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimise collection pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Make site mobile friendly</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve product page trust</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target the right traffic</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish blog content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimise meta titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Add internal links</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Rewrite descriptions</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve product images</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimise collection pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Make site mobile friendly</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve product page trust</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target the right traffic</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish blog content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
                   <tr><td className="py-2.5 px-4 text-slate-300">Set up tracking tools</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
                 </tbody>
               </table>
@@ -1171,7 +1301,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>
-              Your Shopify store is not getting sales because of fixable issues — the wrong traffic, weak product pages, slow load times, poor trust signals, or a complicated checkout. Every single one of these has a practical solution, and most cost nothing but your time.
+              Your Shopify store is not getting sales because of fixable issues - the wrong traffic, weak product pages, slow load times, poor trust signals, or a complicated checkout. Every single one of these has a practical solution, and most cost nothing but your time.
             </p>
             <p>
               Start with the quick wins: install a review app, enable guest checkout, compress your images, and add trust badges. Then move to the medium-term fixes: rewrite your product descriptions, optimise your SEO, and improve your product photography. Finally, invest in the long-term plays: publish helpful blog content, build internal links, and track everything with Google Search Console and Analytics.
@@ -1189,9 +1319,9 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
     faqs: [
       { q: 'Why is my Shopify store not getting sales?', a: 'The most common reasons are: getting the wrong type of traffic, weak product pages that do not build trust, a slow or non-mobile-friendly website, no customer reviews, poor product descriptions and images, a complicated checkout process, and weak SEO. Fix these issues and your conversion rate will improve significantly.' },
       { q: 'How can I increase my Shopify conversion rate?', a: 'Start with the highest-impact fixes: install a review app, enable guest checkout and express payments, add trust badges, compress your images for faster loading, and rewrite your product descriptions to sell benefits not just features. These changes alone can double your conversion rate within weeks.' },
-      { q: 'How long does Shopify SEO take to generate sales?', a: 'Quick wins like meta title optimisation and image compression can produce results within 1–2 weeks. SEO strategies like keyword targeting, collection page optimisation, and blog content typically take 3–6 months to generate significant organic traffic and sales. Consistency is key.' },
-      { q: 'Do I need to run ads to get Shopify sales?', a: 'No. While ads can drive immediate traffic, organic SEO brings in visitors who are actively searching for your products — and they convert 2–3x better than social traffic. A strong SEO strategy can reduce your dependence on paid ads and build sustainable, free traffic over time.' },
-      { q: 'Should I hire an SEO agency for my Shopify store?', a: 'If you have 5–10 hours per week to dedicate to SEO and CRO, you can implement many of these strategies yourself. But most store owners are too busy running their business to also manage SEO. An experienced Shopify SEO agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased sales.' },
+      { q: 'How long does Shopify SEO take to generate sales?', a: 'Quick wins like meta title optimisation and image compression can produce results within 1-2 weeks. SEO strategies like keyword targeting, collection page optimisation, and blog content typically take 3-6 months to generate significant organic traffic and sales. Consistency is key.' },
+      { q: 'Do I need to run ads to get Shopify sales?', a: 'No. While ads can drive immediate traffic, organic SEO brings in visitors who are actively searching for your products - and they convert 2-3x better than social traffic. A strong SEO strategy can reduce your dependence on paid ads and build sustainable, free traffic over time.' },
+      { q: 'Should I hire an SEO agency for my Shopify store?', a: 'If you have 5-10 hours per week to dedicate to SEO and CRO, you can implement many of these strategies yourself. But most store owners are too busy running their business to also manage SEO. An experienced Shopify SEO agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased sales.' },
     ],
   },
   'roofers-get-more-leads-from-google': {
@@ -1205,13 +1335,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               You do quality work. Your crew is skilled. Your customers are happy. But when someone searches "roofing company near me" or "roof repair in [your area]" on Google, your business is nowhere to be found. Meanwhile, competitors with worse reviews and less experience are getting all the calls.
             </p>
             <p>
-              Sound familiar? It is the most common frustration I hear from roofing contractors. You know your work is better, but none of that matters if homeowners cannot find you when they need a roofer — often urgently, after a storm or when they spot a leak.
+              Sound familiar? It is the most common frustration I hear from roofing contractors. You know your work is better, but none of that matters if homeowners cannot find you when they need a roofer - often urgently, after a storm or when they spot a leak.
             </p>
             <p>
               Here is the reality: over 80% of people search online before hiring a local contractor. When a homeowner needs <strong>roof repair</strong> or <strong>roof replacement</strong>, they grab their phone and search Google. If your company does not show up in those results, you are invisible to the exact people who need you right now.
             </p>
             <p>
-              This guide walks you through 15 proven <strong>roofing SEO</strong> strategies that will help your company show up when it matters most. No fluff. No theory. Just practical steps you can implement to start generating more <strong>roofing leads</strong> from Google — without pouring money into paid ads.
+              This guide walks you through 15 proven <strong>roofing SEO</strong> strategies that will help your company show up when it matters most. No fluff. No theory. Just practical steps you can implement to start generating more <strong>roofing leads</strong> from Google - without pouring money into paid ads.
             </p>
           </>
         ),
@@ -1223,7 +1353,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/38293535/pexels-photo-38293535.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Roofer working on a residential home construction site representing Google as the best source of roofing leads" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> When someone searches "emergency roof repair near me" or "roofing contractor [your area]," they are not casually browsing. They have a problem right now — a leak, storm damage, or a roof that needs replacing. Google search traffic is the highest-intent traffic you can get. These are people ready to hire.
+              <strong>Why it matters:</strong> When someone searches "emergency roof repair near me" or "roofing contractor [your area]," they are not casually browsing. They have a problem right now - a leak, storm damage, or a roof that needs replacing. Google search traffic is the highest-intent traffic you can get. These are people ready to hire.
             </p>
             <p>Compare that to Facebook or Instagram, where people scroll past your ad while looking at photos. There is a place for social, but Google is where homeowners go when they are serious.</p>
             <p><strong>Common mistakes:</strong></p>
@@ -1238,7 +1368,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Check if your website currently appears for those terms using Google Search Console</li>
               <li>Make a plan to rank for those keywords using the strategies in this guide</li>
             </ol>
-            <p><strong>Practical example:</strong> A roofing company in Leeds started targeting "storm damage roof repair Leeds" instead of just "roofer Leeds." They ranked within 3 months and now get 6–8 storm damage enquiries per week — all free, organic leads.</p>
+            <p><strong>Practical example:</strong> A roofing company in Leeds started targeting "storm damage roof repair Leeds" instead of just "roofer Leeds." They ranked within 3 months and now get 6-8 storm damage enquiries per week - all free, organic leads.</p>
             <p><strong>Pro Tip:</strong> Focus on emergency-related keywords. "Emergency roof repair [your area]" gets fewer searches than "roofer [your area]" but the people searching need help immediately and call right away.</p>
           </>
         ),
@@ -1250,7 +1380,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/9957875/pexels-photo-9957875.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service van and workers on a residential street representing Google Business Profile optimization for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is what appears in the local pack — the top 3 results with a map that show up for local searches. For roofers, the local pack is gold. It is the first thing homeowners see when they search for a roofing contractor in their area.
+              <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is what appears in the local pack - the top 3 results with a map that show up for local searches. For roofers, the local pack is gold. It is the first thing homeowners see when they search for a roofing contractor in their area.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -1262,12 +1392,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Step-by-step implementation:</strong></p>
             <ol>
               <li>Claim your profile at business.google.com and verify your address</li>
-              <li>Choose "Roofing contractor" as your primary category — this is critical</li>
+              <li>Choose "Roofing contractor" as your primary category - this is critical</li>
               <li>Add "Roofing service" as a secondary category if applicable</li>
               <li>Fill out every field: services, service areas, hours, description, attributes</li>
               <li>Upload at least 20 photos: your van, your crew, job sites, before/after shots</li>
               <li>Write a keyword-rich description: "Professional roofing contractor in [your area] specialising in roof repair, roof replacement, and storm damage restoration"</li>
-              <li>Post weekly updates — special offers, tips, or recent jobs</li>
+              <li>Post weekly updates - special offers, tips, or recent jobs</li>
             </ol>
             <p><strong>Practical example:</strong> A roofing company in Bristol had a GBP profile but only 3 photos and no description. After filling out every field and uploading 25 photos, their profile views went from 60 to 500 per month in 6 weeks. Calls doubled.</p>
             <p><strong>Pro Tip:</strong> Post your "before and after" roof jobs on your GBP. It builds social proof and signals to Google that your profile is active and relevant.</p>
@@ -1281,7 +1411,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/33404248/pexels-photo-33404248.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional roofer installing shingles with a nail gun representing targeting high-intent roofing keywords" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> If your website only targets "roofer" or "roofing services," you are competing with every roofing company in the country. You will never rank. But "roof repair in [your area]" or "flat roof replacement [your city]" — those are achievable and bring in ready-to-hire homeowners.
+              <strong>Why it matters:</strong> If your website only targets "roofer" or "roofing services," you are competing with every roofing company in the country. You will never rank. But "roof repair in [your area]" or "flat roof replacement [your city]" - those are achievable and bring in ready-to-hire homeowners.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -1294,7 +1424,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Use Google Keyword Planner to find local roofing keywords with search volume</li>
               <li>Search Google for "roofer [your area]" and note the "People also ask" questions</li>
               <li>Target long-tail keywords: "flat roof repair [area]," "tile roof replacement [area]," "emergency roof leak repair [area]"</li>
-              <li>Create one page per service — one for roof repair, one for roof replacement, one for flat roofing</li>
+              <li>Create one page per service - one for roof repair, one for roof replacement, one for flat roofing</li>
               <li>Add these keywords naturally to your page titles, headings, and content</li>
             </ol>
             <p><strong>Practical example:</strong> A roofer in Cardiff was targeting "roofer Cardiff" and ranking on page 4. He created separate pages for "flat roof repair Cardiff" and "chimney repointing Cardiff." Both ranked on page 1 within 3 months, bringing 10+ calls per week.</p>
@@ -1313,7 +1443,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
-              <li>One generic services page with 2–3 sentences per service</li>
+              <li>One generic services page with 2-3 sentences per service</li>
               <li>No mention of your area on service pages</li>
               <li>No photos of actual roofing work</li>
               <li>No call-to-action telling visitors to call</li>
@@ -1344,7 +1474,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Common mistakes:</strong></p>
             <ul>
               <li>One "Areas We Cover" page listing 20 postcodes in a paragraph</li>
-              <li>Copying the same content with the town name swapped — Google ignores this</li>
+              <li>Copying the same content with the town name swapped - Google ignores this</li>
               <li>No area-specific information or local context</li>
             </ul>
             <p><strong>Step-by-step implementation:</strong></p>
@@ -1355,7 +1485,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Include local landmarks, property types common in that area, and area-specific roofing challenges</li>
               <li>Link from each location page to your service pages</li>
             </ol>
-            <p><strong>Practical example:</strong> A roofing company created 10 location pages — one for each town they served. Within 5 months, 6 of those pages reached page 1, generating 30+ organic leads per month from areas they had never actively targeted.</p>
+            <p><strong>Practical example:</strong> A roofing company created 10 location pages - one for each town they served. Within 5 months, 6 of those pages reached page 1, generating 30+ organic leads per month from areas they had never actively targeted.</p>
             <p><strong>Pro Tip:</strong> Do not copy and paste the same content with the town name swapped. Google detects this and ignores it. Write genuinely unique content for each area.</p>
           </>
         ),
@@ -1367,7 +1497,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/6124242/pexels-photo-6124242.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up of worker in gloves hammering nails representing website speed optimization for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> When someone has a roof leak, they are stressed. They search on their phone, click the first result, and if it takes more than 3 seconds to load, they hit the back button and call the next roofer. Google also uses speed as a ranking factor — slow sites rank lower.
+              <strong>Why it matters:</strong> When someone has a roof leak, they are stressed. They search on their phone, click the first result, and if it takes more than 3 seconds to load, they hit the back button and call the next roofer. Google also uses speed as a ranking factor - slow sites rank lower.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -1377,7 +1507,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step implementation:</strong></p>
             <ol>
-              <li>Test your site with Google PageSpeed Insights — it is free</li>
+              <li>Test your site with Google PageSpeed Insights - it is free</li>
               <li>Compress all images to under 200KB before uploading</li>
               <li>Convert images to WebP format for faster loading</li>
               <li>Enable browser caching and GZIP compression</li>
@@ -1414,10 +1544,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Make buttons at least 48px wide for easy tapping</li>
               <li>Put your phone number and "Call Now" button above the fold</li>
               <li>Remove any pop-ups that block content on mobile</li>
-              <li>Test your site on Google's Mobile-Friendly Test tool</li>
+              <li>Test your site on Google’s Mobile-Friendly Test tool</li>
             </ol>
-            <p><strong>Practical example:</strong> A roofer made his phone number clickable on mobile and added a "Call Now" button at the top of every page. Mobile calls increased 60% within one month — same traffic, just easier to contact.</p>
-            <p><strong>Pro Tip:</strong> Google uses mobile-first indexing. This means Google looks at your mobile site first when deciding rankings. If your mobile site is bad, your rankings suffer — even on desktop.</p>
+            <p><strong>Practical example:</strong> A roofer made his phone number clickable on mobile and added a "Call Now" button at the top of every page. Mobile calls increased 60% within one month - same traffic, just easier to contact.</p>
+            <p><strong>Pro Tip:</strong> Google uses mobile-first indexing. This means Google looks at your mobile site first when deciding rankings. If your mobile site is bad, your rankings suffer - even on desktop.</p>
           </>
         ),
       },
@@ -1428,21 +1558,21 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/7578896/pexels-photo-7578896.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Construction contractor interacting with a client on site representing Google reviews for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Reviews are the second biggest local ranking factor. They also directly influence whether a homeowner calls you or your competitor. 88% of people trust online reviews as much as personal recommendations. If your competitor has 80 reviews and you have 6, homeowners will call them — even if your work is better.
+              <strong>Why it matters:</strong> Reviews are the second biggest local ranking factor. They also directly influence whether a homeowner calls you or your competitor. 88% of people trust online reviews as much as personal recommendations. If your competitor has 80 reviews and you have 6, homeowners will call them - even if your work is better.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
               <li>Not asking happy customers for reviews</li>
               <li>Waiting for reviews to come in naturally (they will not)</li>
-              <li>Not responding to reviews — positive or negative</li>
+              <li>Not responding to reviews - positive or negative</li>
             </ul>
             <p><strong>Step-by-step implementation:</strong></p>
             <ol>
               <li>Create a direct link to your Google review page</li>
               <li>Ask every happy customer for a review right after finishing the job</li>
               <li>Send a follow-up text or email with the review link 24 hours later</li>
-              <li>Respond to every review within 24 hours — thank them and mention the service</li>
-              <li>Never buy reviews — Google detects fake reviews and can suspend your listing</li>
+              <li>Respond to every review within 24 hours - thank them and mention the service</li>
+              <li>Never buy reviews - Google detects fake reviews and can suspend your listing</li>
               <li>Aim for at least one new review per week</li>
             </ol>
             <p><strong>Practical example:</strong> A roofing company started texting their review link to every customer after completing a job. They went from 8 reviews to 72 in 4 months. They now appear in the top 3 of the local pack for "roofer [their area]."</p>
@@ -1457,7 +1587,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/30514132/pexels-photo-30514132.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Construction team working together on a building roof representing local backlink building for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Backlinks are links from other websites to yours. Google treats them as votes of confidence. The more quality local backlinks you have, the higher your <strong>Google rankings</strong> — and the more <strong>organic traffic</strong> you get. One link from a trusted local source can boost your rankings more than 50 generic directory links.
+              <strong>Why it matters:</strong> Backlinks are links from other websites to yours. Google treats them as votes of confidence. The more quality local backlinks you have, the higher your <strong>Google rankings</strong> - and the more <strong>organic traffic</strong> you get. One link from a trusted local source can boost your rankings more than 50 generic directory links.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -1467,7 +1597,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step implementation:</strong></p>
             <ol>
-              <li>Sponsor a local football team, charity, or community event — they link to sponsors</li>
+              <li>Sponsor a local football team, charity, or community event - they link to sponsors</li>
               <li>Partner with builders, estate agents, and insurance companies for cross-promotion</li>
               <li>Get featured in local newspapers and home improvement blogs</li>
               <li>Join your local chamber of commerce or trade association</li>
@@ -1475,7 +1605,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Create shareable content like local roofing cost guides</li>
             </ol>
             <p><strong>Practical example:</strong> A roofing company sponsored a local youth football team for 200 pounds per season. The club linked to their website from their sponsors page. That single local backlink helped push them from page 2 to page 1 for "roofer [their town]."</p>
-            <p><strong>Pro Tip:</strong> Focus on links from websites in your local area. A link from a local builder's website to your roofing site is worth more than a link from a random blog in another country.</p>
+            <p><strong>Pro Tip:</strong> Focus on links from websites in your local area. A link from a local builder’s website to your roofing site is worth more than a link from a random blog in another country.</p>
           </>
         ),
       },
@@ -1486,7 +1616,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/8960941/pexels-photo-8960941.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Engineer in safety gear reviewing documents at a construction site representing helpful roofing blog content creation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Every blog post is a new page that can rank on Google. When you write about problems homeowners search for — "how to spot roof damage," "what to do if your roof leaks," "signs you need a roof replacement" — you bring people to your website who need help right now. Some of them will call you.
+              <strong>Why it matters:</strong> Every blog post is a new page that can rank on Google. When you write about problems homeowners search for - "how to spot roof damage," "what to do if your roof leaks," "signs you need a roof replacement" - you bring people to your website who need help right now. Some of them will call you.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -1498,13 +1628,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <ol>
               <li>Write down 20 questions customers ask you on call-outs</li>
               <li>Turn each question into a detailed, helpful blog post</li>
-              <li>Topics: "How to spot storm damage on your roof," "Flat roof vs pitched roof — which is right for you," "How much does a new roof cost in [your area]"</li>
-              <li>Write in simple language — explain like you are talking to a homeowner</li>
+              <li>Topics: "How to spot storm damage on your roof," "Flat roof vs pitched roof - which is right for you," "How much does a new roof cost in [your area]"</li>
+              <li>Write in simple language - explain like you are talking to a homeowner</li>
               <li>Publish at least twice a month</li>
               <li>Link from each blog post to your relevant service pages</li>
               <li>Add a "Call Now" button on every blog post</li>
             </ol>
-            <p><strong>Practical example:</strong> A roofing company wrote a post called "What to Do If Your Roof Leaks During a Storm (Before You Call a Roofer)." It ranks number 1 for that phrase and brings in 200+ visitors per month. About 8% call — that is 16 leads per month from one blog post.</p>
+            <p><strong>Practical example:</strong> A roofing company wrote a post called "What to Do If Your Roof Leaks During a Storm (Before You Call a Roofer)." It ranks number 1 for that phrase and brings in 200+ visitors per month. About 8% call - that is 16 leads per month from one blog post.</p>
             <p><strong>Pro Tip:</strong> Search your topic on Google and look at "People also ask." Answer those exact questions in your blog posts. Google rewards pages that answer common questions.</p>
           </>
         ),
@@ -1516,12 +1646,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/8470057/pexels-photo-8470057.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Top view of construction documents and floor plan with a hard hat representing meta titles and descriptions optimization for roofing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Meta titles and descriptions are what appear in Google search results. They are your first impression — your free advert on Google. A compelling title and description get more clicks, even if you are not ranked number 1.
+              <strong>Why it matters:</strong> Meta titles and descriptions are what appear in Google search results. They are your first impression - your free advert on Google. A compelling title and description get more clicks, even if you are not ranked number 1.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
               <li>Using your company name as the title for every page</li>
-              <li>No meta descriptions at all — Google auto-generates them poorly</li>
+              <li>No meta descriptions at all - Google auto-generates them poorly</li>
               <li>Titles and descriptions with no keywords or location</li>
             </ul>
             <p><strong>Step-by-step implementation:</strong></p>
@@ -1544,13 +1674,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/31763537/pexels-photo-31763537.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wooden roof framing under construction representing roofing schema markup and structured data" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Schema markup is code that helps Google understand your content better. For roofing companies, it can show your services, reviews, and service areas directly in search results — making your listing stand out and get more clicks.
+              <strong>Why it matters:</strong> Schema markup is code that helps Google understand your content better. For roofing companies, it can show your services, reviews, and service areas directly in search results - making your listing stand out and get more clicks.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
               <li>Not using schema at all</li>
               <li>Using the wrong schema type for a roofing business</li>
-              <li>Not testing markup with Google's Rich Results Test tool</li>
+              <li>Not testing markup with Google’s Rich Results Test tool</li>
             </ul>
             <p><strong>Step-by-step implementation:</strong></p>
             <ol>
@@ -1559,7 +1689,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Add <code>Service</code> schema with the type of roofing services you offer</li>
               <li>Add <code>FAQPage</code> schema to your FAQ pages</li>
               <li>Add <code>Review</code> schema to display review stars in search results</li>
-              <li>Test your markup with Google's Rich Results Test tool</li>
+              <li>Test your markup with Google’s Rich Results Test tool</li>
             </ol>
             <p><strong>Practical example:</strong> A roofing company added <code>LocalBusiness</code> and <code>Review</code> schema to their site. Their search results started showing review stars and opening hours, increasing click-through rate by 25%.</p>
             <p><strong>Pro Tip:</strong> If you use WordPress with Yoast SEO or Rank Math, schema markup is built in. Just fill out your business information in the plugin settings.</p>
@@ -1614,12 +1744,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Set up Google Search Console and verify your website</li>
               <li>Submit your XML sitemap</li>
               <li>Check the Performance report weekly for keywords you are ranking for</li>
-              <li>Look at keywords in positions 5–15 — those are almost on page 1</li>
+              <li>Look at keywords in positions 5-15 - those are almost on page 1</li>
               <li>Check the Coverage report for indexing errors and fix them</li>
               <li>Set up Google Analytics 4 to track enquiry form submissions</li>
-              <li>Double down on what works — write more content for growing keywords</li>
+              <li>Double down on what works - write more content for growing keywords</li>
             </ol>
-            <p><strong>Practical example:</strong> A roofing company noticed via Search Console that they ranked for "flat roof repair" but not "EPDM rubber roof installation." They created a dedicated EPDM page and ranked within 6 weeks. They now get 4–5 calls per week from that page alone.</p>
+            <p><strong>Practical example:</strong> A roofing company noticed via Search Console that they ranked for "flat roof repair" but not "EPDM rubber roof installation." They created a dedicated EPDM page and ranked within 6 weeks. They now get 4-5 calls per week from that page alone.</p>
             <p><strong>Pro Tip:</strong> Sort your keywords by "impressions" in Search Console. High impressions but low clicks means your page title and meta description need to be more compelling.</p>
           </>
         ),
@@ -1634,7 +1764,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Even roofers who try <strong>roofing company SEO</strong> often make these mistakes. Avoid them and you will already be ahead of most competitors:
             </p>
             <ul>
-              <li><strong>Targeting broad keywords:</strong> "Roofing" instead of "roofing contractor [your area]." You cannot compete with national directories — compete locally.</li>
+              <li><strong>Targeting broad keywords:</strong> "Roofing" instead of "roofing contractor [your area]." You cannot compete with national directories - compete locally.</li>
               <li><strong>Thin service pages:</strong> One paragraph per service. Google will not rank thin content. Write 500+ words per page.</li>
               <li><strong>No Google Business Profile:</strong> Missing the single biggest local SEO opportunity. Claim and complete it today.</li>
               <li><strong>Ignoring reviews:</strong> Not asking for reviews and not responding to the ones you get. Reviews drive both rankings and trust.</li>
@@ -1663,18 +1793,18 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Collect Google Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize Meta Titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Schema Markup</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Service Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Location Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve Website Speed</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Make Site Mobile Friendly</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish Blog Content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Local Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Collect Google Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize Meta Titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Schema Markup</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Service Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Location Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve Website Speed</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Make Site Mobile Friendly</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish Blog Content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Local Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
                   <tr><td className="py-2.5 px-4 text-slate-300">Track with Search Console</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
                 </tbody>
               </table>
@@ -1714,7 +1844,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>
-              Getting <strong>roofing leads</strong> from Google is not about having the biggest budget or the flashiest website. It is about being found when homeowners are actively searching for a roofing contractor in your area. The 15 strategies in this guide are proven to work for <strong>roofing marketing</strong> — and most of them cost nothing but your time.
+              Getting <strong>roofing leads</strong> from Google is not about having the biggest budget or the flashiest website. It is about being found when homeowners are actively searching for a roofing contractor in your area. The 15 strategies in this guide are proven to work for <strong>roofing marketing</strong> - and most of them cost nothing but your time.
             </p>
             <p>
               Start with the quick wins: optimize your Google Business Profile, ask for reviews, and fix your meta titles. Then move to the medium-term strategies: create service and location pages, improve your site speed, and add schema markup. Finally, invest in the long-term plays: blog content, local backlinks, and ongoing tracking.
@@ -1730,11 +1860,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       },
     ],
     faqs: [
-      { q: 'How long does roofing SEO take to generate leads?', a: 'Quick wins like Google Business Profile optimization and review collection can generate leads within 1–2 weeks. SEO strategies like keyword targeting, service pages, and content typically take 3–6 months to show significant results. Consistency is key — roofing companies that implement these strategies regularly see compounding growth over time.' },
-      { q: 'What keywords should my roofing company target?', a: 'Target specific, local, service-based keywords like "roof repair [your city]," "roof replacement [your area]," or "flat roofing contractor [your location]." Avoid broad terms like "roofing" or "roofer" — you cannot compete with national directories. Focus on keywords that include your service type and location.' },
-      { q: 'How can I rank higher on Google Maps for roofing?', a: 'The most important factors are a complete and active Google Business Profile, a high number of positive reviews, consistent NAP (name, address, phone) across all directories, and proximity to the searcher. Optimize all of these and your Google Maps ranking should improve within 2–8 weeks.' },
+      { q: 'How long does roofing SEO take to generate leads?', a: 'Quick wins like Google Business Profile optimization and review collection can generate leads within 1-2 weeks. SEO strategies like keyword targeting, service pages, and content typically take 3-6 months to show significant results. Consistency is key - roofing companies that implement these strategies regularly see compounding growth over time.' },
+      { q: 'What keywords should my roofing company target?', a: 'Target specific, local, service-based keywords like "roof repair [your city]," "roof replacement [your area]," or "flat roofing contractor [your location]." Avoid broad terms like "roofing" or "roofer" - you cannot compete with national directories. Focus on keywords that include your service type and location.' },
+      { q: 'How can I rank higher on Google Maps for roofing?', a: 'The most important factors are a complete and active Google Business Profile, a high number of positive reviews, consistent NAP (name, address, phone) across all directories, and proximity to the searcher. Optimize all of these and your Google Maps ranking should improve within 2-8 weeks.' },
       { q: 'Do I need a separate website for each area I serve?', a: 'No. You need one website with a dedicated, unique page for each area you serve. Each page should have at least 500 words of unique content about that specific area, including local property types and roofing challenges. This is far more effective than separate websites.' },
-      { q: 'Should I hire an SEO agency for my roofing business?', a: 'If you have 5–10 hours per week to dedicate to SEO, you can implement many of these strategies yourself. But most roofing contractors are too busy on jobs to also manage SEO. An experienced agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased roofing leads.' },
+      { q: 'Should I hire an SEO agency for my roofing business?', a: 'If you have 5-10 hours per week to dedicate to SEO, you can implement many of these strategies yourself. But most roofing contractors are too busy on jobs to also manage SEO. An experienced agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased roofing leads.' },
     ],
   },
   'law-firm-not-showing-on-google': {
@@ -1751,10 +1881,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               This is the most common frustration I hear from law firm partners and solo attorneys. You know you are good at what you do. But none of that matters if potential clients cannot find you when they are actively searching for legal help.
             </p>
             <p>
-              Here is the reality: when someone needs a lawyer, they turn to Google. Whether it is a divorce, a personal injury claim, an immigration matter, or a criminal charge — the first thing most people do is search online. If your firm is not showing up in those searches, you are losing clients to competitors who may not be half as qualified as you.
+              Here is the reality: when someone needs a lawyer, they turn to Google. Whether it is a divorce, a personal injury claim, an immigration matter, or a criminal charge - the first thing most people do is search online. If your firm is not showing up in those searches, you are losing clients to competitors who may not be half as qualified as you.
             </p>
             <p>
-              This guide breaks down the 12 most common reasons law firms do not appear on Google — and exactly what to do about each one. No theory. Just practical steps you can take to improve your <strong>law firm SEO</strong> and start attracting more clients.
+              This guide breaks down the 12 most common reasons law firms do not appear on Google - and exactly what to do about each one. No theory. Just practical steps you can take to improve your <strong>law firm SEO</strong> and start attracting more clients.
             </p>
           </>
         ),
@@ -1766,7 +1896,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/9367109/pexels-photo-9367109.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern law office exterior with elegant facade representing Google Business Profile optimization for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is what appears in the local pack — the top 3 results with a map that show up when someone searches for a lawyer in their area. For law firms, the local pack is where most potential clients click. If your profile is incomplete or inactive, you will not be in that pack.
+              <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is what appears in the local pack - the top 3 results with a map that show up when someone searches for a lawyer in their area. For law firms, the local pack is where most potential clients click. If your profile is incomplete or inactive, you will not be in that pack.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -1778,11 +1908,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
               <li>Claim your profile at business.google.com and verify your address</li>
-              <li>Choose your most specific primary category — "Personal injury attorney," "Family law attorney," or "Criminal justice attorney"</li>
+              <li>Choose your most specific primary category - "Personal injury attorney," "Family law attorney," or "Criminal justice attorney"</li>
               <li>Fill out every field: services, service areas, hours, description, attributes</li>
               <li>Upload at least 20 photos: your office, team, building, reception area</li>
               <li>Write a keyword-rich description: "Experienced personal injury lawyer in [your area] helping clients with accident claims, medical negligence, and workplace injuries"</li>
-              <li>Post weekly updates — legal tips, case results, client testimonials, firm news</li>
+              <li>Post weekly updates - legal tips, case results, client testimonials, firm news</li>
             </ol>
             <p><strong>Practical example:</strong> A family law firm in Manchester had a GBP profile but only 4 photos and no description. After filling out every field and uploading 25 photos, their profile views went from 80 to 700 per month in 6 weeks. Consultation requests doubled.</p>
             <p><strong>Pro Tip:</strong> Choose the most specific category available. "Family law attorney" is far better than "Lawyer" because it targets exactly the clients you want.</p>
@@ -1796,7 +1926,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/8731036/pexels-photo-8731036.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Law book with scales of justice icon on a wooden desk representing website indexing for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> If Google has not indexed your website, it does not exist in Google's eyes. No indexing means no rankings, no impressions, no clicks, no clients. Many law firms have beautiful websites that Google has never crawled or added to its index.
+              <strong>Why it matters:</strong> If Google has not indexed your website, it does not exist in Google’s eyes. No indexing means no rankings, no impressions, no clicks, no clients. Many law firms have beautiful websites that Google has never crawled or added to its index.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -1826,7 +1956,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/8730366/pexels-photo-8730366.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Female lawyer reviewing papers at her desk representing targeting the right legal keywords for law firm SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> If your website only targets "solicitor" or "law firm," you are competing with every legal website in the country. You will never rank. But "personal injury lawyer in [your area]" or "family solicitor [your city]" — those are achievable and bring in people who are ready to hire.
+              <strong>Why it matters:</strong> If your website only targets "solicitor" or "law firm," you are competing with every legal website in the country. You will never rank. But "personal injury lawyer in [your area]" or "family solicitor [your city]" - those are achievable and bring in people who are ready to hire.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -1859,7 +1989,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
-              <li>One generic practice areas page with 2–3 sentences per area</li>
+              <li>One generic practice areas page with 2-3 sentences per area</li>
               <li>No mention of your city or area on practice area pages</li>
               <li>No case results, testimonials, or trust signals</li>
               <li>No call-to-action telling visitors to contact you</li>
@@ -1874,7 +2004,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Add a clear "Book a Consultation" form and phone number on every page</li>
             </ol>
             <p><strong>Practical example:</strong> A law firm split their single practice areas page into 8 individual pages. Within 4 months, 5 of those pages reached page 1 for their target keywords. Organic enquiries went from 4 per week to 22.</p>
-            <p><strong>Pro Tip:</strong> Add a "What to expect during your consultation" section to each practice area page. Potential clients are nervous — telling them what happens during the first meeting reduces anxiety and increases contact form submissions.</p>
+            <p><strong>Pro Tip:</strong> Add a "What to expect during your consultation" section to each practice area page. Potential clients are nervous - telling them what happens during the first meeting reduces anxiety and increases contact form submissions.</p>
           </>
         ),
       },
@@ -1885,7 +2015,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/6077665/pexels-photo-6077665.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Scales of justice with technology on an office desk representing website speed optimization for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> When someone needs a lawyer urgently — after an accident, an arrest, or a family crisis — they search on their phone. If your site takes more than 3 seconds to load, they hit the back button and call the next firm. Google also uses speed as a ranking factor.
+              <strong>Why it matters:</strong> When someone needs a lawyer urgently - after an accident, an arrest, or a family crisis - they search on their phone. If your site takes more than 3 seconds to load, they hit the back button and call the next firm. Google also uses speed as a ranking factor.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -1896,7 +2026,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
-              <li>Test your site with Google PageSpeed Insights — it is free</li>
+              <li>Test your site with Google PageSpeed Insights - it is free</li>
               <li>Compress all images to under 200KB before uploading</li>
               <li>Convert images to WebP format for faster loading</li>
               <li>Enable browser caching and GZIP compression</li>
@@ -1916,7 +2046,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/5668790/pexels-photo-5668790.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Lawyer talking on a mobile phone while working in a law office representing mobile-friendly websites for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Over 70% of people searching for a lawyer do it on their phone — often in stressful situations. If your website is hard to read, navigate, or tap on a mobile screen, they leave and call someone else. Google uses mobile-first indexing, so a bad mobile site also hurts your <strong>Google rankings</strong>.
+              <strong>Why it matters:</strong> Over 70% of people searching for a lawyer do it on their phone - often in stressful situations. If your website is hard to read, navigate, or tap on a mobile screen, they leave and call someone else. Google uses mobile-first indexing, so a bad mobile site also hurts your <strong>Google rankings</strong>.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -1933,7 +2063,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Make buttons at least 48px wide for easy tapping</li>
               <li>Put your phone number and "Book Consultation" button above the fold</li>
               <li>Shorten contact forms to name, phone, and brief message only</li>
-              <li>Test your site on Google's Mobile-Friendly Test tool</li>
+              <li>Test your site on Google’s Mobile-Friendly Test tool</li>
             </ol>
             <p><strong>Practical example:</strong> A law firm made their phone number clickable on mobile and shortened their contact form from 9 fields to 3. Mobile consultation requests increased 55% within one month.</p>
             <p><strong>Pro Tip:</strong> People seeking legal help are often stressed and in a hurry. The easier you make it to contact you on mobile, the more calls you will get.</p>
@@ -1947,22 +2077,22 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/5673493/pexels-photo-5673493.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional colleagues shaking hands representing client reviews and trust building for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Choosing a lawyer is one of the most important decisions someone makes. They need to trust you. Reviews are how you build that trust online. 87% of people look at reviews before hiring a lawyer. If your competitor has 80 reviews and you have 6, clients will call them — even if your experience is better.
+              <strong>Why it matters:</strong> Choosing a lawyer is one of the most important decisions someone makes. They need to trust you. Reviews are how you build that trust online. 87% of people look at reviews before hiring a lawyer. If your competitor has 80 reviews and you have 6, clients will call them - even if your experience is better.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
               <li>Not asking happy clients for reviews</li>
               <li>Waiting for reviews to come in naturally (they will not)</li>
-              <li>Not responding to reviews — positive or negative</li>
+              <li>Not responding to reviews - positive or negative</li>
               <li>Being afraid to ask because it feels awkward</li>
             </ul>
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
               <li>Create a direct link to your Google review page</li>
               <li>Ask every satisfied client for a review after their case concludes successfully</li>
-              <li>Send a follow-up email with the review link 24–48 hours later</li>
-              <li>Respond to every review within 24 hours — thank them and mention their case type</li>
-              <li>Never buy or fabricate reviews — Google detects this and can suspend your listing</li>
+              <li>Send a follow-up email with the review link 24-48 hours later</li>
+              <li>Respond to every review within 24 hours - thank them and mention their case type</li>
+              <li>Never buy or fabricate reviews - Google detects this and can suspend your listing</li>
               <li>Aim for at least one new review per week</li>
             </ol>
             <p><strong>Practical example:</strong> A personal injury firm started emailing their review link to every client after a successful settlement. They went from 12 reviews to 89 in 5 months. They now appear in the top 3 of the local pack for "personal injury lawyer [their area]."</p>
@@ -1996,7 +2126,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Add your business to local legal directories and the Law Society</li>
             </ol>
             <p><strong>Practical example:</strong> A law firm added "Solicitors in [their city]" to their homepage title and created 4 location pages for nearby areas they served. Within 3 months, they ranked for 12 local keywords and saw a 60% increase in organic enquiries.</p>
-            <p><strong>Pro Tip:</strong> If you serve multiple cities, create a unique page for each city with specific information about that location — not just the city name swapped into the same template.</p>
+            <p><strong>Pro Tip:</strong> If you serve multiple cities, create a unique page for each city with specific information about that location - not just the city name swapped into the same template.</p>
           </>
         ),
       },
@@ -2007,7 +2137,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/7841456/pexels-photo-7841456.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Lawyer meeting with clients in his office representing local citations and legal directory listings" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Local citations are mentions of your firm's name, address, and phone number on other websites — directories, review sites, and legal listings. Google uses these to verify your firm is legitimate and located where you say it is. Missing or inconsistent citations weaken your local search ranking.
+              <strong>Why it matters:</strong> Local citations are mentions of your firm’s name, address, and phone number on other websites - directories, review sites, and legal listings. Google uses these to verify your firm is legitimate and located where you say it is. Missing or inconsistent citations weaken your local search ranking.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -2025,7 +2155,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Audit existing listings and fix any inconsistencies</li>
             </ol>
             <p><strong>Practical example:</strong> A law firm discovered their phone number was outdated on 3 directories. After fixing all listings and adding 5 new citations, their <strong>Google Maps ranking</strong> improved from position 7 to position 3 within 5 weeks.</p>
-            <p><strong>Pro Tip:</strong> Even a small difference — "St." vs "Street" or "0207" vs "020 7" — can confuse Google. Pick one format and use it everywhere.</p>
+            <p><strong>Pro Tip:</strong> Even a small difference - "St." vs "Street" or "0207" vs "020 7" - can confuse Google. Pick one format and use it everywhere.</p>
           </>
         ),
       },
@@ -2047,13 +2177,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
               <li>Get listed on the Law Society, Bar Council, and legal association websites</li>
-              <li>Partner with complementary professionals — accountants, estate agents, financial advisors</li>
+              <li>Partner with complementary professionals - accountants, estate agents, financial advisors</li>
               <li>Write guest posts for legal blogs and law society publications</li>
               <li>Sponsor local events, charities, or community organisations</li>
               <li>Get featured in local newspapers and legal publications</li>
-              <li>Create shareable content — legal guides, infographics, case studies</li>
+              <li>Create shareable content - legal guides, infographics, case studies</li>
             </ol>
-            <p><strong>Practical example:</strong> A family law firm wrote a guest article for a local family support charity's blog. That single backlink from a respected .org domain helped push their site from page 3 to page 1 for "family lawyer [their city]."</p>
+            <p><strong>Practical example:</strong> A family law firm wrote a guest article for a local family support charity’s blog. That single backlink from a respected .org domain helped push their site from page 3 to page 1 for "family lawyer [their city]."</p>
             <p><strong>Pro Tip:</strong> Check which websites link to competing law firms using Ahrefs' Link Intersect tool. If they link to your competitor, they may link to you too.</p>
           </>
         ),
@@ -2065,11 +2195,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/8731037/pexels-photo-8731037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Law book and scales of justice on a desk representing internal linking and content strategy for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Internal links connect your pages to each other. They help Google understand your site structure and help visitors discover more of your content. A good content strategy with helpful blog posts brings <strong>organic traffic</strong> from people researching legal issues — many of whom become clients.
+              <strong>Why it matters:</strong> Internal links connect your pages to each other. They help Google understand your site structure and help visitors discover more of your content. A good content strategy with helpful blog posts brings <strong>organic traffic</strong> from people researching legal issues - many of whom become clients.
             </p>
             <p><strong>Common mistakes:</strong></p>
               <ul>
-                <li>No blog or helpful content — only practice area pages</li>
+                <li>No blog or helpful content - only practice area pages</li>
                 <li>Using "click here" instead of descriptive anchor text</li>
                 <li>No links between blog posts and practice area pages</li>
                 <li>Writing about firm news instead of answering client questions</li>
@@ -2083,7 +2213,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Make sure every page is reachable within 3 clicks from your homepage</li>
               <li>Publish at least twice a month</li>
             </ol>
-            <p><strong>Practical example:</strong> A law firm wrote a post called "What to Do If You Are Arrested in [Their City]." It ranks number 1 for that phrase and brings in 150+ visitors per month. About 10% call the firm — that is 15 potential client calls per month from one blog post.</p>
+            <p><strong>Practical example:</strong> A law firm wrote a post called "What to Do If You Are Arrested in [Their City]." It ranks number 1 for that phrase and brings in 150+ visitors per month. About 10% call the firm - that is 15 potential client calls per month from one blog post.</p>
             <p><strong>Pro Tip:</strong> Search your topic on Google and look at "People also ask." Answer those exact questions in your blog posts. Google rewards pages that answer common questions with higher rankings.</p>
           </>
         ),
@@ -2108,12 +2238,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Set up Google Search Console and verify your website</li>
               <li>Submit your XML sitemap</li>
               <li>Check the Performance report weekly for keywords you are ranking for</li>
-              <li>Look at keywords in positions 5–15 — those are almost on page 1</li>
+              <li>Look at keywords in positions 5-15 - those are almost on page 1</li>
               <li>Check the Coverage report for indexing errors and fix them</li>
               <li>Set up Google Analytics 4 to track consultation form submissions</li>
-              <li>Double down on what works — write more content for growing keywords</li>
+              <li>Double down on what works - write more content for growing keywords</li>
             </ol>
-            <p><strong>Practical example:</strong> A law firm noticed via Search Console that they ranked for "employment law advice" but not "wrongful dismissal solicitor." They created a dedicated page targeting that keyword and ranked within 6 weeks. They now get 6–8 enquiries per week from that page alone.</p>
+            <p><strong>Practical example:</strong> A law firm noticed via Search Console that they ranked for "employment law advice" but not "wrongful dismissal solicitor." They created a dedicated page targeting that keyword and ranked within 6 weeks. They now get 6-8 enquiries per week from that page alone.</p>
             <p><strong>Pro Tip:</strong> Sort your keywords by "impressions" in Search Console. High impressions but low clicks means your page title and meta description need to be more compelling.</p>
           </>
         ),
@@ -2135,17 +2265,17 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile not optimized</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website not indexed</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not enough client reviews</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Targeting wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Practice area pages need work</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website too slow</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website not mobile friendly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Weak local SEO signals</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Missing local citations</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Few quality legal backlinks</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Poor internal linking &amp; content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile not optimized</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website not indexed</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not enough client reviews</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Targeting wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Practice area pages need work</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website too slow</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website not mobile friendly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Weak local SEO signals</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Missing local citations</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Few quality legal backlinks</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Poor internal linking &amp; content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
                   <tr><td className="py-2.5 px-4 text-slate-300">Not tracking SEO performance</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
                 </tbody>
               </table>
@@ -2185,7 +2315,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>
-              Your firm is not showing on Google because of fixable issues — an unoptimized Google Business Profile, poor keyword targeting, thin practice area pages, too few reviews, or technical problems like slow speed and missing indexing. Every single one of these has a practical solution.
+              Your firm is not showing on Google because of fixable issues - an unoptimized Google Business Profile, poor keyword targeting, thin practice area pages, too few reviews, or technical problems like slow speed and missing indexing. Every single one of these has a practical solution.
             </p>
             <p>
               Start with the quick wins: complete your Google Business Profile, ask for client reviews, and make sure your site is indexed. Then move to the medium-term fixes: create dedicated practice area pages, target local keywords, and build citations. Finally, invest in the long-term plays: publish helpful legal content, build quality backlinks, and track your results.
@@ -2201,11 +2331,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       },
     ],
     faqs: [
-      { q: 'How long does law firm SEO take to generate clients?', a: 'Quick wins like Google Business Profile optimization and review collection can produce results in 1–2 weeks. SEO strategies like keyword targeting, practice area pages, and content typically take 3–6 months to generate significant organic traffic. Consistency is key — firms that implement these strategies regularly see compounding results over time.' },
-      { q: 'Why is my law firm not showing up on Google Maps?', a: 'The most common reasons are an incomplete Google Business Profile, too few reviews, inconsistent NAP (name, address, phone) across directories, and weak local SEO signals. Fix these issues and your Google Maps ranking should improve within 2–8 weeks.' },
-      { q: 'What keywords should my law firm target?', a: 'Target specific, local, practice-area keywords like "personal injury lawyer [your city]," "family solicitor [your area]," or "immigration attorney [your location]." Avoid broad terms like "lawyer" or "solicitor" — you cannot compete with national legal directories. Focus on keywords that include your practice area and location.' },
+      { q: 'How long does law firm SEO take to generate clients?', a: 'Quick wins like Google Business Profile optimization and review collection can produce results in 1-2 weeks. SEO strategies like keyword targeting, practice area pages, and content typically take 3-6 months to generate significant organic traffic. Consistency is key - firms that implement these strategies regularly see compounding results over time.' },
+      { q: 'Why is my law firm not showing up on Google Maps?', a: 'The most common reasons are an incomplete Google Business Profile, too few reviews, inconsistent NAP (name, address, phone) across directories, and weak local SEO signals. Fix these issues and your Google Maps ranking should improve within 2-8 weeks.' },
+      { q: 'What keywords should my law firm target?', a: 'Target specific, local, practice-area keywords like "personal injury lawyer [your city]," "family solicitor [your area]," or "immigration attorney [your location]." Avoid broad terms like "lawyer" or "solicitor" - you cannot compete with national legal directories. Focus on keywords that include your practice area and location.' },
       { q: 'Do I need a separate website for each practice area?', a: 'No. You need one website with a dedicated, in-depth page for each practice area. Each page should have at least 800 words of unique content about that specific service, including FAQs, case results, and a clear call-to-action. This is far more effective than separate websites.' },
-      { q: 'Should I hire an SEO agency for my law firm?', a: 'If you have 5–10 hours per week to dedicate to SEO, you can implement many of these strategies yourself. But most attorneys are too busy with cases to also manage SEO. An experienced agency that specializes in legal marketing can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased client enquiries.' },
+      { q: 'Should I hire an SEO agency for my law firm?', a: 'If you have 5-10 hours per week to dedicate to SEO, you can implement many of these strategies yourself. But most attorneys are too busy with cases to also manage SEO. An experienced agency that specializes in legal marketing can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased client enquiries.' },
     ],
   },
   'plumbing-business-not-getting-calls': {
@@ -2216,7 +2346,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>
-              You are a skilled plumber. You show up on time. You do quality work. Your customers are happy. But when you check your phone at the end of the week, there are barely any new enquiries. Meanwhile, the plumber across town — who is not half as good as you — is booked solid.
+              You are a skilled plumber. You show up on time. You do quality work. Your customers are happy. But when you check your phone at the end of the week, there are barely any new enquiries. Meanwhile, the plumber across town - who is not half as good as you - is booked solid.
             </p>
             <p>
               How does that happen? It is simple. When someone searches "plumber near me" or "emergency plumber in [your area]" on Google, your competitor shows up. You do not. It does not matter how good your work is if nobody can find you.
@@ -2225,7 +2355,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Over 80% of people now search online before calling a local service business. If your <strong>plumbing company</strong> is not showing up in Google Search and Google Maps, you are invisible to the very people who need you right now.
             </p>
             <p>
-              This guide breaks down the 12 most common reasons plumbers do not get calls from Google — and exactly what to do about each one. No theory. Just practical steps you can take this week to start getting more <strong>plumbing leads</strong>.
+              This guide breaks down the 12 most common reasons plumbers do not get calls from Google - and exactly what to do about each one. No theory. Just practical steps you can take this week to start getting more <strong>plumbing leads</strong>.
             </p>
           </>
         ),
@@ -2237,7 +2367,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Plumber installing pipe fittings with tools representing Google Business Profile optimization for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is the single most important factor in local search for plumbers. When someone searches "plumber near me," Google shows the local pack — the top 3 businesses with a map. If your profile is incomplete or inactive, you will not be in that pack.
+              <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is the single most important factor in local search for plumbers. When someone searches "plumber near me," Google shows the local pack - the top 3 businesses with a map. If your profile is incomplete or inactive, you will not be in that pack.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -2249,12 +2379,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
               <li>Claim your profile at business.google.com and verify your address</li>
-              <li>Choose "Plumber" as your primary category — this is critical</li>
+              <li>Choose "Plumber" as your primary category - this is critical</li>
               <li>Add "Emergency plumber" as a secondary category if you offer 24/7 service</li>
               <li>Fill out every field: services, service areas, hours, description, attributes</li>
               <li>Upload at least 20 photos: your van, your team, job sites, before/after shots</li>
               <li>Write a keyword-rich description: "Emergency plumber in [your area] offering boiler repairs, leak detection, and bathroom installations"</li>
-              <li>Post weekly updates — special offers, tips, or recent jobs</li>
+              <li>Post weekly updates - special offers, tips, or recent jobs</li>
             </ol>
             <p><strong>Practical example:</strong> A plumber in Bristol had a GBP profile but only 3 photos and no description. After filling out every field and uploading 25 photos, his profile views went from 50 to 600 per month in 6 weeks. Calls doubled.</p>
             <p><strong>Pro Tip:</strong> Choose "Emergency plumber" as your primary category if 24/7 emergency calls are your main revenue source. It targets higher-intent searches and has less competition.</p>
@@ -2268,7 +2398,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/13297280/pexels-photo-13297280.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="White service van parked on a tree-lined urban street representing Google Maps ranking for local plumbers" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> When someone's boiler breaks at 11 PM, they grab their phone and search "emergency plumber near me." Google shows them a map with 3 businesses. If you are not one of those 3, you do not get the call. <strong>Google Maps ranking</strong> is driven by three things: proximity, profile quality, and reviews.
+              <strong>Why it matters:</strong> When someone’s boiler breaks at 11 PM, they grab their phone and search "emergency plumber near me." Google shows them a map with 3 businesses. If you are not one of those 3, you do not get the call. <strong>Google Maps ranking</strong> is driven by three things: proximity, profile quality, and reviews.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -2281,7 +2411,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Make sure your GBP address matches your website exactly</li>
               <li>Add all the areas you serve in your GBP service areas</li>
               <li>Ensure your NAP is identical on your website, GBP, and all directories</li>
-              <li>Get more reviews — businesses with 50+ reviews dominate the map pack</li>
+              <li>Get more reviews - businesses with 50+ reviews dominate the map pack</li>
               <li>Add photos of your service van with your branding visible</li>
               <li>Keep your profile active with weekly posts</li>
             </ol>
@@ -2297,7 +2427,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/32588548/pexels-photo-32588548.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Plumber repairing a pipe with a wrench indoors representing targeting the right local keywords for plumbing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> If your website only targets "plumber" or "plumbing services," you are competing with every plumbing company in the country. You will never rank. But "emergency plumber in [your town]" or "boiler repair [your area]" — those are achievable and bring in ready-to-call customers.
+              <strong>Why it matters:</strong> If your website only targets "plumber" or "plumbing services," you are competing with every plumbing company in the country. You will never rank. But "emergency plumber in [your town]" or "boiler repair [your area]" - those are achievable and bring in ready-to-call customers.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -2311,7 +2441,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Search Google for "plumber [your area]" and note the "People also ask" questions</li>
               <li>Target long-tail keywords: "boiler repair in [area]," "burst pipe plumber [area]," "bathroom fitter [area]"</li>
               <li>Add these keywords naturally to your page titles, headings, and content</li>
-              <li>Create one page per service — one for boiler repair, one for leak detection, etc.</li>
+              <li>Create one page per service - one for boiler repair, one for leak detection, etc.</li>
             </ol>
             <p><strong>Practical example:</strong> A plumber in Leeds was targeting "plumber Leeds" and ranking on page 4. He created separate pages for "boiler repair Leeds" and "emergency plumber Leeds." Both ranked on page 1 within 3 months, bringing 12+ calls per week.</p>
             <p><strong>Pro Tip:</strong> Emergency keywords convert best. "Emergency plumber [your area]" gets fewer searches than "plumber [your area]" but the people searching need help right now and call immediately.</p>
@@ -2335,7 +2465,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
-              <li>Test your site with Google PageSpeed Insights — it is free</li>
+              <li>Test your site with Google PageSpeed Insights - it is free</li>
               <li>Compress all images to under 200KB before uploading</li>
               <li>Convert images to WebP format for faster loading</li>
               <li>Enable browser caching and GZIP compression</li>
@@ -2372,10 +2502,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Make buttons at least 48px wide for easy tapping</li>
               <li>Put your phone number and "Call Now" button above the fold</li>
               <li>Remove any pop-ups that block content on mobile</li>
-              <li>Test your site on Google's Mobile-Friendly Test tool</li>
+              <li>Test your site on Google’s Mobile-Friendly Test tool</li>
             </ol>
-            <p><strong>Practical example:</strong> A plumber made his phone number clickable on mobile and added a "Call Now" button at the top of every page. Mobile calls increased 60% within one month — same traffic, just easier to contact.</p>
-            <p><strong>Pro Tip:</strong> Google uses mobile-first indexing. This means Google looks at your mobile site first when deciding rankings. If your mobile site is bad, your rankings suffer — even on desktop.</p>
+            <p><strong>Practical example:</strong> A plumber made his phone number clickable on mobile and added a "Call Now" button at the top of every page. Mobile calls increased 60% within one month - same traffic, just easier to contact.</p>
+            <p><strong>Pro Tip:</strong> Google uses mobile-first indexing. This means Google looks at your mobile site first when deciding rankings. If your mobile site is bad, your rankings suffer - even on desktop.</p>
           </>
         ),
       },
@@ -2386,21 +2516,21 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/6994156/pexels-photo-6994156.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service worker giving a thumbs up outside a home representing Google reviews for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Reviews are the second biggest local ranking factor. They also directly influence whether someone calls you or your competitor. 88% of people trust online reviews as much as personal recommendations. If your competitor has 80 reviews and you have 6, customers will call them — even if your work is better.
+              <strong>Why it matters:</strong> Reviews are the second biggest local ranking factor. They also directly influence whether someone calls you or your competitor. 88% of people trust online reviews as much as personal recommendations. If your competitor has 80 reviews and you have 6, customers will call them - even if your work is better.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
               <li>Not asking happy customers for reviews</li>
               <li>Waiting for reviews to come in naturally (they will not)</li>
-              <li>Not responding to reviews — positive or negative</li>
+              <li>Not responding to reviews - positive or negative</li>
             </ul>
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
               <li>Create a direct link to your Google review page</li>
               <li>Ask every happy customer for a review right after finishing the job</li>
               <li>Send a follow-up text or email with the review link 24 hours later</li>
-              <li>Respond to every review within 24 hours — thank them and mention the service</li>
-              <li>Never buy reviews — Google detects fake reviews and can suspend your listing</li>
+              <li>Respond to every review within 24 hours - thank them and mention the service</li>
+              <li>Never buy reviews - Google detects fake reviews and can suspend your listing</li>
               <li>Aim for at least one new review per week</li>
             </ol>
             <p><strong>Practical example:</strong> A plumber started texting his review link to every customer after completing a job. He went from 8 reviews to 65 in 4 months. He now appears in the top 3 of Google Maps for "plumber [his area]."</p>
@@ -2445,12 +2575,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/18031901/pexels-photo-18031901.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service van with equipment organized in a parking lot representing local citations for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Local citations are mentions of your business name, address, and phone number on other websites — directories, review sites, and local listings. Google uses these to verify your business is real and located where you say it is. Missing or inconsistent citations weaken your local search ranking.
+              <strong>Why it matters:</strong> Local citations are mentions of your business name, address, and phone number on other websites - directories, review sites, and local listings. Google uses these to verify your business is real and located where you say it is. Missing or inconsistent citations weaken your local search ranking.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
               <li>Only being listed on Google and nowhere else</li>
-              <li>Inconsistent NAP — different address or phone on different sites</li>
+              <li>Inconsistent NAP - different address or phone on different sites</li>
               <li>Not being listed on plumbing-specific directories</li>
             </ul>
             <p><strong>Step-by-step solution:</strong></p>
@@ -2458,12 +2588,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Get listed on Yell.com, Yelp UK, and Bing Places for Business</li>
               <li>Add your business to FreeIndex, Cylex UK, and Trustpilot</li>
               <li>Get listed on the Gas Safe Register if you are Gas Safe registered</li>
-              <li>Submit to your local council's business directory</li>
+              <li>Submit to your local council’s business directory</li>
               <li>Ensure your NAP is identical across every single listing</li>
               <li>Audit existing listings and fix any inconsistencies</li>
             </ol>
             <p><strong>Practical example:</strong> A plumbing company discovered their phone number was wrong on 4 directories. After fixing all of them and adding 6 new citations, their Google Maps ranking improved from position 6 to position 3 within 5 weeks.</p>
-            <p><strong>Pro Tip:</strong> Even a small difference — "St." vs "Street" or "0207" vs "020 7" — can confuse Google. Pick one format and use it everywhere.</p>
+            <p><strong>Pro Tip:</strong> Even a small difference - "St." vs "Street" or "0207" vs "020 7" - can confuse Google. Pick one format and use it everywhere.</p>
           </>
         ),
       },
@@ -2474,7 +2604,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/30223853/pexels-photo-30223853.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Group of construction workers in orange uniforms representing local backlink building and plumbing partnerships" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Backlinks are links from other websites to yours. Google treats them as votes of confidence. The more quality local backlinks you have, the higher your <strong>Google rankings</strong> — and the more <strong>organic traffic</strong> you get. One link from a trusted local source can boost your rankings more than 50 generic directory links.
+              <strong>Why it matters:</strong> Backlinks are links from other websites to yours. Google treats them as votes of confidence. The more quality local backlinks you have, the higher your <strong>Google rankings</strong> - and the more <strong>organic traffic</strong> you get. One link from a trusted local source can boost your rankings more than 50 generic directory links.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -2484,7 +2614,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step solution:</strong></p>
             <ol>
-              <li>Sponsor a local football team, charity, or community event — they link to sponsors</li>
+              <li>Sponsor a local football team, charity, or community event - they link to sponsors</li>
               <li>Partner with boiler manufacturers, bathroom suppliers, and builders for cross-promotion</li>
               <li>Get featured in local newspapers or local home improvement blogs</li>
               <li>Join your local chamber of commerce or trade association</li>
@@ -2492,7 +2622,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Get listed on the Gas Safe Register and IPHE websites</li>
             </ol>
             <p><strong>Practical example:</strong> A plumber sponsored a local youth football team for 200 pounds per season. The club linked to his website from their sponsors page. That single local backlink helped push him from page 2 to page 1 for "plumber [his town]."</p>
-            <p><strong>Pro Tip:</strong> Focus on links from websites in your local area. A link from a local builder's website to your plumbing site is worth more than a link from a random blog in another country.</p>
+            <p><strong>Pro Tip:</strong> Focus on links from websites in your local area. A link from a local builder’s website to your plumbing site is worth more than a link from a random blog in another country.</p>
           </>
         ),
       },
@@ -2503,7 +2633,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/8488034/pexels-photo-8488034.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Engineer writing on a clipboard with safety helmet representing helpful plumbing content creation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Every blog post is a new page that can rank on Google. When you write about problems your customers search for — "how to fix a leaking tap," "what to do if your boiler loses pressure," "how to unfreeze a frozen pipe" — you bring people to your website who need help right now. Some of them will call you.
+              <strong>Why it matters:</strong> Every blog post is a new page that can rank on Google. When you write about problems your customers search for - "how to fix a leaking tap," "what to do if your boiler loses pressure," "how to unfreeze a frozen pipe" - you bring people to your website who need help right now. Some of them will call you.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -2516,12 +2646,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Write down 20 questions customers ask you on call-outs</li>
               <li>Turn each question into a detailed, helpful blog post</li>
               <li>Topics: "How to fix a leaking tap," "Signs your boiler needs replacing," "What to do before the plumber arrives"</li>
-              <li>Write in simple language — explain like you are talking to a customer</li>
+              <li>Write in simple language - explain like you are talking to a customer</li>
               <li>Publish at least twice a month</li>
               <li>Link from each blog post to your relevant service pages</li>
               <li>Add a "Call Now" button on every blog post</li>
             </ol>
-            <p><strong>Practical example:</strong> A plumber wrote a post called "What to Do If Your Boiler Stops Working (Before You Call a Plumber)." It ranks number 1 for that phrase and brings in 200+ visitors per month. About 8% of them call — that is 16 calls per month from one blog post.</p>
+            <p><strong>Practical example:</strong> A plumber wrote a post called "What to Do If Your Boiler Stops Working (Before You Call a Plumber)." It ranks number 1 for that phrase and brings in 200+ visitors per month. About 8% of them call - that is 16 calls per month from one blog post.</p>
             <p><strong>Pro Tip:</strong> Search your topic on Google and look at "People also ask." Answer those questions in your blog posts. Google loves pages that answer common questions.</p>
           </>
         ),
@@ -2533,7 +2663,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/3823415/pexels-photo-3823415.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Worker using a laptop at a workbench in a workshop representing tracking SEO performance for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> You cannot fix what you do not measure. Google Search Console shows you which keywords bring people to your site. Google Analytics shows you what they do once they arrive. Without these tools, you are guessing — and guessing costs you calls.
+              <strong>Why it matters:</strong> You cannot fix what you do not measure. Google Search Console shows you which keywords bring people to your site. Google Analytics shows you what they do once they arrive. Without these tools, you are guessing - and guessing costs you calls.
             </p>
             <p><strong>Common mistakes:</strong></p>
             <ul>
@@ -2546,13 +2676,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Set up Google Search Console and verify your website</li>
               <li>Set up Google Analytics 4 and add the tracking code</li>
               <li>Check Search Console weekly for keywords you are ranking for</li>
-              <li>Look at keywords in positions 5–15 — those are almost on page 1</li>
+              <li>Look at keywords in positions 5-15 - those are almost on page 1</li>
               <li>Check Analytics weekly for traffic, bounce rate, and conversions</li>
-              <li>Double down on what works — write more content for growing keywords</li>
+              <li>Double down on what works - write more content for growing keywords</li>
               <li>Set up call tracking to see which keywords drive phone calls</li>
             </ol>
-            <p><strong>Practical example:</strong> A plumber noticed via Search Console that he ranked for "power shower installation" but not "power shower repair." He created a page targeting "power shower repair [his area]" and ranked within 6 weeks. He now gets 4–5 calls per week from that page alone.</p>
-            <p><strong>Pro Tip:</strong> In Search Console, sort keywords by "clicks" and look at the ones in positions 5–15. Small improvements to those pages can push them to page 1 — and page 1 gets 90% of all clicks.</p>
+            <p><strong>Practical example:</strong> A plumber noticed via Search Console that he ranked for "power shower installation" but not "power shower repair." He created a page targeting "power shower repair [his area]" and ranked within 6 weeks. He now gets 4-5 calls per week from that page alone.</p>
+            <p><strong>Pro Tip:</strong> In Search Console, sort keywords by "clicks" and look at the ones in positions 5-15. Small improvements to those pages can push them to page 1 - and page 1 gets 90% of all clicks.</p>
           </>
         ),
       },
@@ -2566,15 +2696,15 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               You do not need to do everything at once. Here are the highest-impact actions you can take today to start <strong>getting more plumbing calls</strong>:
             </p>
             <ol>
-              <li><strong>Claim and complete your Google Business Profile</strong> — this alone can double your visibility in a week</li>
-              <li><strong>Make your phone number clickable on mobile</strong> — add a "Call Now" button at the top of your site</li>
-              <li><strong>Text your review link to your last 10 happy customers</strong> — aim for 5 new reviews this week</li>
-              <li><strong>Check your site speed on PageSpeed Insights</strong> — compress any large images</li>
-              <li><strong>Search "plumber [your area]" on Google</strong> — see what your competitors are doing that you are not</li>
-              <li><strong>Write down 10 keywords you want to rank for</strong> — start with "emergency plumber [your area]"</li>
-              <li><strong>Get listed on Yell.com and Yelp UK</strong> — make sure your NAP matches your Google profile</li>
+              <li><strong>Claim and complete your Google Business Profile</strong> - this alone can double your visibility in a week</li>
+              <li><strong>Make your phone number clickable on mobile</strong> - add a "Call Now" button at the top of your site</li>
+              <li><strong>Text your review link to your last 10 happy customers</strong> - aim for 5 new reviews this week</li>
+              <li><strong>Check your site speed on PageSpeed Insights</strong> - compress any large images</li>
+              <li><strong>Search "plumber [your area]" on Google</strong> - see what your competitors are doing that you are not</li>
+              <li><strong>Write down 10 keywords you want to rank for</strong> - start with "emergency plumber [your area]"</li>
+              <li><strong>Get listed on Yell.com and Yelp UK</strong> - make sure your NAP matches your Google profile</li>
             </ol>
-            <p><strong>Practical example:</strong> A one-man plumbing business spent one Saturday completing his GBP profile, adding a Call Now button, and texting 10 customers for reviews. By the following Friday, he had 4 new reviews and 3 new calls from Google — all from a few hours of work.</p>
+            <p><strong>Practical example:</strong> A one-man plumbing business spent one Saturday completing his GBP profile, adding a Call Now button, and texting 10 customers for reviews. By the following Friday, he had 4 new reviews and 3 new calls from Google - all from a few hours of work.</p>
             <p><strong>Pro Tip:</strong> Start with the quick wins first. GBP optimization, reviews, and a Call Now button take less than a day to set up and can produce results within a week.</p>
           </>
         ),
@@ -2596,16 +2726,16 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile not optimized</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not ranking in Google Maps</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–8 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Too few Google reviews</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website not mobile friendly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website loads too slowly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Targeting wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Service pages need improvement</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Missing local citations</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Few quality backlinks</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not publishing content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile not optimized</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not ranking in Google Maps</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-8 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Too few Google reviews</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website not mobile friendly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website loads too slowly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Targeting wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Service pages need improvement</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Missing local citations</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Few quality backlinks</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not publishing content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
                   <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not tracking SEO performance</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
                   <tr><td className="py-2.5 px-4 text-slate-300">Not taking action today</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">Immediate</td></tr>
                 </tbody>
@@ -2646,7 +2776,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>
-              Your phone is not ringing because customers cannot find you on Google. That is the hard truth. But the good news is that every single issue in this guide has a practical fix — and most of them cost nothing but your time.
+              Your phone is not ringing because customers cannot find you on Google. That is the hard truth. But the good news is that every single issue in this guide has a practical fix - and most of them cost nothing but your time.
             </p>
             <p>
               Start with the quick wins: complete your Google Business Profile, ask for reviews, and add a Call Now button to your website. Then move to the medium-term fixes: create service pages, target local keywords, and build citations. Finally, invest in the long-term plays: publish helpful content, build local backlinks, and track your results.
@@ -2662,11 +2792,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       },
     ],
     faqs: [
-      { q: 'How can I get more plumbing calls from Google?', a: 'The fastest way is to optimize your Google Business Profile, ask happy customers for reviews, and make your phone number clickable on your mobile website. These three steps alone can start generating more calls within 1–2 weeks. For long-term growth, focus on local SEO, service-specific pages, and helpful blog content.' },
-      { q: 'How long does plumbing SEO take to work?', a: 'Quick wins like Google Business Profile optimization and review collection can produce results in 1–2 weeks. SEO strategies like keyword targeting, service pages, and content typically take 3–6 months to generate significant organic traffic. Consistency is key — businesses that implement these strategies regularly see compounding results.' },
-      { q: 'Why am I not showing up on Google Maps for "plumber near me"?', a: 'The most common reasons are an incomplete Google Business Profile, too few reviews, inconsistent NAP (name, address, phone) across directories, and not being active on your profile. Fix these issues and your Google Maps ranking should improve within 2–8 weeks.' },
+      { q: 'How can I get more plumbing calls from Google?', a: 'The fastest way is to optimize your Google Business Profile, ask happy customers for reviews, and make your phone number clickable on your mobile website. These three steps alone can start generating more calls within 1-2 weeks. For long-term growth, focus on local SEO, service-specific pages, and helpful blog content.' },
+      { q: 'How long does plumbing SEO take to work?', a: 'Quick wins like Google Business Profile optimization and review collection can produce results in 1-2 weeks. SEO strategies like keyword targeting, service pages, and content typically take 3-6 months to generate significant organic traffic. Consistency is key - businesses that implement these strategies regularly see compounding results.' },
+      { q: 'Why am I not showing up on Google Maps for "plumber near me"?', a: 'The most common reasons are an incomplete Google Business Profile, too few reviews, inconsistent NAP (name, address, phone) across directories, and not being active on your profile. Fix these issues and your Google Maps ranking should improve within 2-8 weeks.' },
       { q: 'Do I need a separate website for each area I serve?', a: 'No. You need one website with a dedicated page for each area you serve. Each page should have unique content about that specific area. This is far more effective than separate websites and concentrates all your SEO authority on one domain.' },
-      { q: 'Should I hire an SEO agency for my plumbing business?', a: 'If you have 5–10 hours per week to dedicate to SEO, you can implement many of these strategies yourself. But most plumbers are too busy on jobs to also manage SEO. An experienced agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased calls.' },
+      { q: 'Should I hire an SEO agency for my plumbing business?', a: 'If you have 5-10 hours per week to dedicate to SEO, you can implement many of these strategies yourself. But most plumbers are too busy on jobs to also manage SEO. An experienced agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased calls.' },
     ],
   },
   'real-estate-agents-seo-property-leads': {
@@ -2683,10 +2813,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Sound familiar? It is the single most common frustration I hear from real estate agents and estate agency owners. You know your properties are better. You know your service is better. But none of that matters if <strong>home buyers</strong> and <strong>property sellers</strong> cannot find you on Google.
             </p>
             <p>
-              Here is the truth: Google processes over 8 billion searches per day, and a huge percentage of those are property-related. "Houses for sale in [area]," "best estate agents near me," "2-bedroom apartment in [neighbourhood]" — these are people actively looking to buy or sell. They are not browsing. They are searching with intent.
+              Here is the truth: Google processes over 8 billion searches per day, and a huge percentage of those are property-related. "Houses for sale in [area]," "best estate agents near me," "2-bedroom apartment in [neighbourhood]" - these are people actively looking to buy or sell. They are not browsing. They are searching with intent.
             </p>
             <p>
-              This guide walks you through 15 proven <strong>real estate SEO</strong> strategies that will help your agency show up when it matters most. No fluff. No theory. Just practical steps you can implement to start generating <strong>property leads</strong> from Google — without pouring money into paid ads.
+              This guide walks you through 15 proven <strong>real estate SEO</strong> strategies that will help your agency show up when it matters most. No fluff. No theory. Just practical steps you can implement to start generating <strong>property leads</strong> from Google - without pouring money into paid ads.
             </p>
           </>
         ),
@@ -2698,7 +2828,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/13628541/pexels-photo-13628541.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google search homepage on a screen representing Google as the top source of property leads for real estate agents" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> When someone searches "estate agent near me" or "property for sale in [your area]," they are not casually browsing. They are ready to act. Google search traffic is the highest-intent traffic you can get. These are people who are actively looking for what you offer — right now.
+              <strong>Why it matters:</strong> When someone searches "estate agent near me" or "property for sale in [your area]," they are not casually browsing. They are ready to act. Google search traffic is the highest-intent traffic you can get. These are people who are actively looking for what you offer - right now.
             </p>
             <p>Compare that to social media, where people scroll past your post while waiting for a bus. There is a place for social, but Google is where buyers and sellers go when they are serious.</p>
             <p><strong>Common mistake:</strong> Treating your website like a digital brochure instead of a lead generation tool. A pretty website that nobody finds is just an expense.</p>
@@ -2708,8 +2838,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Check if your website currently appears for those terms using Google Search Console</li>
               <li>Make a plan to rank for those keywords using the strategies in this guide</li>
             </ol>
-            <p><strong>Practical example:</strong> An estate agency in Birmingham started targeting "property valuation Birmingham" instead of just "estate agent Birmingham." They ranked within 3 months and now get 8–10 valuation requests per week — all free.</p>
-            <p><strong>Pro Tip:</strong> Focus on "bottom of funnel" keywords — terms people search when they are ready to act. "How to sell my house fast" beats "what is real estate" every time.</p>
+            <p><strong>Practical example:</strong> An estate agency in Birmingham started targeting "property valuation Birmingham" instead of just "estate agent Birmingham." They ranked within 3 months and now get 8-10 valuation requests per week - all free.</p>
+            <p><strong>Pro Tip:</strong> Focus on "bottom of funnel" keywords - terms people search when they are ready to act. "How to sell my house fast" beats "what is real estate" every time.</p>
           </>
         ),
       },
@@ -2720,17 +2850,17 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/7937748/pexels-photo-7937748.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent placing a for sale sign in front of a modern house representing Google Business Profile optimization" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is what appears in the local pack — the top 3 results with a map that show up for local searches. For estate agents, the local pack is gold. It is the first thing people see when they search for an agent in their area.
+              <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is what appears in the local pack - the top 3 results with a map that show up for local searches. For estate agents, the local pack is gold. It is the first thing people see when they search for an agent in their area.
             </p>
-            <p><strong>Common mistake:</strong> Claiming your profile and leaving it half-empty. Missing categories, no photos, no posts, no reviews — Google deprioritizes incomplete profiles.</p>
+            <p><strong>Common mistake:</strong> Claiming your profile and leaving it half-empty. Missing categories, no photos, no posts, no reviews - Google deprioritizes incomplete profiles.</p>
             <p><strong>Step-by-step:</strong></p>
             <ol>
               <li>Claim your profile at business.google.com and verify your address</li>
-              <li>Choose "Real Estate Agent" as your primary category — this is critical</li>
+              <li>Choose "Real Estate Agent" as your primary category - this is critical</li>
               <li>Add secondary categories like "Property Management" or "Estate Agent" if applicable</li>
               <li>Upload at least 30 photos: office exterior, team, sold properties, area photos</li>
               <li>Write a keyword-rich description: "Award-winning estate agent in [your area] helping buyers and sellers since [year]"</li>
-              <li>Post weekly — market updates, new listings, sold properties, area news</li>
+              <li>Post weekly - market updates, new listings, sold properties, area news</li>
             </ol>
             <p><strong>Practical example:</strong> An estate agency in Leeds filled out every GBP field, uploaded 40 photos, and started posting weekly. Their profile views went from 200 to 1,800 per month in 8 weeks. Direction requests and calls tripled.</p>
             <p><strong>Pro Tip:</strong> Post your "just sold" properties on your GBP. It builds social proof and signals to Google that your profile is active and relevant.</p>
@@ -2756,7 +2886,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Write at least 500 words of unique content on each page</li>
               <li>Include local landmarks, property types, and area-specific information</li>
             </ol>
-            <p><strong>Practical example:</strong> A realtor in London created 12 area pages — one for each neighbourhood they served. Within 4 months, 7 of those pages reached page 1, generating 40+ organic leads per month.</p>
+            <p><strong>Practical example:</strong> A realtor in London created 12 area pages - one for each neighbourhood they served. Within 4 months, 7 of those pages reached page 1, generating 40+ organic leads per month.</p>
             <p><strong>Pro Tip:</strong> Do not copy and paste the same content with the area name swapped. Google detects this and ignores it. Write genuinely unique content for each area.</p>
           </>
         ),
@@ -2768,7 +2898,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/8148362/pexels-photo-8148362.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Aerial view of a suburban neighborhood with residential houses representing local property search and high-intent local keywords" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> <strong>Local SEO</strong> for real estate is all about targeting keywords that include a location. "Houses for sale in Islington" is far more valuable than "houses for sale" because it shows clear local intent — and it is much easier to rank for.
+              <strong>Why it matters:</strong> <strong>Local SEO</strong> for real estate is all about targeting keywords that include a location. "Houses for sale in Islington" is far more valuable than "houses for sale" because it shows clear local intent - and it is much easier to rank for.
             </p>
             <p><strong>Common mistake:</strong> Targeting broad national keywords like "buy property UK." You will never outrank Rightmove and Zoopla. Focus on your local area where you can actually win.</p>
             <p><strong>Step-by-step:</strong></p>
@@ -2790,18 +2920,18 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/35361412/pexels-photo-35361412.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Contemporary luxury house exterior representing area guides that property buyers search for on Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Before people buy a house, they research the area. They search "best areas to live in [city]," "schools in [neighbourhood]," "transport links in [area]." If your agency publishes the guide they find, you become the expert they trust — and the agent they call.
+              <strong>Why it matters:</strong> Before people buy a house, they research the area. They search "best areas to live in [city]," "schools in [neighbourhood]," "transport links in [area]." If your agency publishes the guide they find, you become the expert they trust - and the agent they call.
             </p>
-            <p><strong>Common mistake:</strong> Writing generic area descriptions copied from Wikipedia. Buyers can tell. Write from your local knowledge — you know these areas better than anyone.</p>
+            <p><strong>Common mistake:</strong> Writing generic area descriptions copied from Wikipedia. Buyers can tell. Write from your local knowledge - you know these areas better than anyone.</p>
             <p><strong>Step-by-step:</strong></p>
             <ol>
-              <li>Pick 5–10 areas you serve and create a detailed guide for each</li>
+              <li>Pick 5-10 areas you serve and create a detailed guide for each</li>
               <li>Include: schools, transport, parks, restaurants, average property prices, and who the area suits</li>
-              <li>Add original photos of the area — streets, parks, landmarks</li>
+              <li>Add original photos of the area - streets, parks, landmarks</li>
               <li>Link from each guide to your area-specific service pages</li>
               <li>Update guides annually with new information</li>
             </ol>
-            <p><strong>Practical example:</strong> An estate agency wrote a guide called "Living in Clapham: The Complete Area Guide." It now ranks for 40+ local keywords and brings in 300+ monthly visitors — many of whom become clients.</p>
+            <p><strong>Practical example:</strong> An estate agency wrote a guide called "Living in Clapham: The Complete Area Guide." It now ranks for 40+ local keywords and brings in 300+ monthly visitors - many of whom become clients.</p>
             <p><strong>Pro Tip:</strong> Include a "property prices in [area]" section with current average prices. This is one of the most searched real estate phrases and positions you as a local market expert.</p>
           </>
         ),
@@ -2813,9 +2943,9 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/8293674/pexels-photo-8293674.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent showing a modern home interior to a buyer representing optimized property listings for SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Each property listing is a potential SEO page. If optimized properly, your listings can rank on Google for searches like "3-bedroom house for sale in [area]" — bringing buyers directly to your website instead of Rightmove.
+              <strong>Why it matters:</strong> Each property listing is a potential SEO page. If optimized properly, your listings can rank on Google for searches like "3-bedroom house for sale in [area]" - bringing buyers directly to your website instead of Rightmove.
             </p>
-            <p><strong>Common mistake:</strong> Using generic listing descriptions like "Beautiful family home, must be seen." This helps no one — not Google, not buyers. Write detailed, keyword-rich descriptions.</p>
+            <p><strong>Common mistake:</strong> Using generic listing descriptions like "Beautiful family home, must be seen." This helps no one - not Google, not buyers. Write detailed, keyword-rich descriptions.</p>
             <p><strong>Step-by-step:</strong></p>
             <ol>
               <li>Include the property type, number of bedrooms, area, and street name in the listing title</li>
@@ -2824,7 +2954,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Add alt text to every property photo describing the room and feature</li>
               <li>Include a map showing the property location and nearby amenities</li>
             </ol>
-            <p><strong>Practical example:</strong> An agency started writing 400-word descriptions for each listing with local area details. Their listings started appearing in Google search results within weeks — bringing buyers who never used Rightmove at all.</p>
+            <p><strong>Practical example:</strong> An agency started writing 400-word descriptions for each listing with local area details. Their listings started appearing in Google search results within weeks - bringing buyers who never used Rightmove at all.</p>
             <p><strong>Pro Tip:</strong> Keep sold listings on your site as "Sold Properties" pages. They still bring traffic from people researching areas and price history.</p>
           </>
         ),
@@ -2836,7 +2966,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/12969403/pexels-photo-12969403.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop displaying an analytics dashboard representing website speed optimization and mobile experience for real estate websites" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Over 70% of property searches happen on mobile phones. If your <strong>real estate website</strong> takes more than 3 seconds to load, visitors leave. Google also uses speed as a ranking factor — slow sites rank lower.
+              <strong>Why it matters:</strong> Over 70% of property searches happen on mobile phones. If your <strong>real estate website</strong> takes more than 3 seconds to load, visitors leave. Google also uses speed as a ranking factor - slow sites rank lower.
             </p>
             <p><strong>Common mistake:</strong> Uploading 10MB property photos straight from a camera. These slow your site to a crawl and kill your rankings.</p>
             <p><strong>Step-by-step:</strong></p>
@@ -2860,7 +2990,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/8293700/pexels-photo-8293700.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy couple holding a house key representing positive reviews and trust building for real estate agents" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Selling or buying a property is the biggest financial decision most people make. They need to trust you. Reviews are how you build that trust online — and they also directly impact your <strong>Google Maps</strong> ranking.
+              <strong>Why it matters:</strong> Selling or buying a property is the biggest financial decision most people make. They need to trust you. Reviews are how you build that trust online - and they also directly impact your <strong>Google Maps</strong> ranking.
             </p>
             <p><strong>Common mistake:</strong> Not asking for reviews. Happy clients will not leave reviews on their own. You need to make it part of your process.</p>
             <p><strong>Step-by-step:</strong></p>
@@ -2868,11 +2998,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Create a direct link to your Google review page</li>
               <li>Ask every client after a successful sale or purchase to leave a review</li>
               <li>Send a follow-up email with the link 24 hours after asking</li>
-              <li>Respond to every review — positive and negative — within 24 hours</li>
+              <li>Respond to every review - positive and negative - within 24 hours</li>
               <li>Display your best reviews on your website with client photos (with permission)</li>
             </ol>
             <p><strong>Practical example:</strong> An estate agency went from 6 Google reviews to 94 in 4 months by asking every client at handover. They now appear in the top 3 of the local pack for "estate agent [their area]."</p>
-            <p><strong>Pro Tip:</strong> Ask clients to mention the service they received in their review — "Sold our house in [area] in 3 weeks" helps you rank for "sell house [area]."</p>
+            <p><strong>Pro Tip:</strong> Ask clients to mention the service they received in their review - "Sold our house in [area] in 3 weeks" helps you rank for "sell house [area]."</p>
           </>
         ),
       },
@@ -2894,8 +3024,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Publish at least twice a month</li>
               <li>Link from each blog post to your relevant service pages</li>
             </ol>
-            <p><strong>Practical example:</strong> An agency wrote a post called "How to Sell Your House Fast in [Their City]." It ranks number 1 for that phrase and brings in 5–8 seller enquiries per month — all from one blog post.</p>
-            <p><strong>Pro Tip:</strong> Use Google's "People also ask" section for your topic. Those questions are exactly what people search for — answer them in your blog posts.</p>
+            <p><strong>Practical example:</strong> An agency wrote a post called "How to Sell Your House Fast in [Their City]." It ranks number 1 for that phrase and brings in 5-8 seller enquiries per month - all from one blog post.</p>
+            <p><strong>Pro Tip:</strong> Use Google’s "People also ask" section for your topic. Those questions are exactly what people search for - answer them in your blog posts.</p>
           </>
         ),
       },
@@ -2911,13 +3041,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Common mistake:</strong> Buying backlinks or using link farms. Google detects these and can penalize your site. Quality always beats quantity.</p>
             <p><strong>Step-by-step:</strong></p>
             <ol>
-              <li>Sponsor local events, charities, or sports teams — they usually link to sponsors</li>
+              <li>Sponsor local events, charities, or sports teams - they usually link to sponsors</li>
               <li>Partner with mortgage brokers, solicitors, and surveyors for cross-promotion</li>
               <li>Get featured in local newspapers and property blogs</li>
               <li>Join your local chamber of commerce or estate agent association</li>
               <li>Create shareable content like local property market reports</li>
             </ol>
-            <p><strong>Practical example:</strong> An estate agency sponsored a local charity fun run and got a backlink from the charity's website (a .org domain). That single link helped push their site from page 3 to page 1 for "estate agent [their town]."</p>
+            <p><strong>Practical example:</strong> An estate agency sponsored a local charity fun run and got a backlink from the charity’s website (a .org domain). That single link helped push their site from page 3 to page 1 for "estate agent [their town]."</p>
             <p><strong>Pro Tip:</strong> Check which sites link to competing estate agencies using Ahrefs' Link Intersect tool. If they link to your competitor, they may link to you too.</p>
           </>
         ),
@@ -2952,7 +3082,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/16592498/pexels-photo-16592498.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Computer screen displaying HTML code representing meta titles and descriptions optimization for real estate SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Meta titles and descriptions are what appear in Google search results. They are your first impression — your free advert on Google. A compelling title and description get more clicks, even if you are not ranked number 1.
+              <strong>Why it matters:</strong> Meta titles and descriptions are what appear in Google search results. They are your first impression - your free advert on Google. A compelling title and description get more clicks, even if you are not ranked number 1.
             </p>
             <p><strong>Common mistake:</strong> Using your agency name as the title for every page. "Home | Smith Estate Agents" tells Google and searchers nothing. Include your keyword and location instead.</p>
             <p><strong>Step-by-step:</strong></p>
@@ -2975,7 +3105,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/8730055/pexels-photo-8730055.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent giving house keys to a happy family representing schema markup and structured data for real estate websites" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it matters:</strong> Schema markup (structured data) is code that helps Google understand your content better. For real estate, it can show your listings directly in search results with prices, photos, and locations — making your result stand out and get more clicks.
+              <strong>Why it matters:</strong> Schema markup (structured data) is code that helps Google understand your content better. For real estate, it can show your listings directly in search results with prices, photos, and locations - making your result stand out and get more clicks.
             </p>
             <p><strong>Common mistake:</strong> Not using schema at all. Most estate agent websites have no structured data, missing an easy opportunity to improve their search appearance.</p>
             <p><strong>Step-by-step:</strong></p>
@@ -2984,7 +3114,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Add <code>RealEstateAgent</code> schema to your service pages</li>
               <li>Add <code>Product</code> schema to property listings with price, location, and photos</li>
               <li>Add <code>FAQPage</code> schema to your FAQ pages</li>
-              <li>Test your markup with Google's Rich Results Test tool</li>
+              <li>Test your markup with Google’s Rich Results Test tool</li>
             </ol>
             <p><strong>Practical example:</strong> An estate agency added <code>RealEstateAgent</code> schema to their service pages. Their search results started showing review stars and opening hours, increasing click-through rate by 25%.</p>
             <p><strong>Pro Tip:</strong> If you use WordPress with Yoast SEO or Rank Math, schema markup is built in. Just fill out your business information in the plugin settings and it handles the rest.</p>
@@ -3006,9 +3136,9 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Add your website to Google Search Console and verify ownership</li>
               <li>Submit your XML sitemap</li>
               <li>Check the Performance report weekly for keywords you are ranking for</li>
-              <li>Look at keywords in positions 5–15 — those are almost on page 1 and easy to improve</li>
+              <li>Look at keywords in positions 5-15 - those are almost on page 1 and easy to improve</li>
               <li>Check the Coverage report for indexing errors and fix them</li>
-              <li>Double down on what works — write more content for growing keywords</li>
+              <li>Double down on what works - write more content for growing keywords</li>
             </ol>
             <p><strong>Practical example:</strong> An estate agency noticed via Search Console that they ranked for "property management [their area]" but not "letting agent [their area]." They created a dedicated letting agent page and ranked within 6 weeks.</p>
             <p><strong>Pro Tip:</strong> Sort your keywords by "impressions" in Search Console. High impressions but low clicks means your meta title and description need improvement.</p>
@@ -3025,7 +3155,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Even agents who try <strong>estate agency SEO</strong> often make these mistakes. Avoid them and you will already be ahead of most competitors:
             </p>
             <ul>
-              <li><strong>Targeting broad keywords:</strong> "Houses for sale" instead of "houses for sale in [your area]." You cannot compete with Rightmove — compete locally.</li>
+              <li><strong>Targeting broad keywords:</strong> "Houses for sale" instead of "houses for sale in [your area]." You cannot compete with Rightmove - compete locally.</li>
               <li><strong>Thin area pages:</strong> One paragraph per area with the name swapped. Google ignores these. Write unique, detailed content.</li>
               <li><strong>No Google Business Profile:</strong> Missing the single biggest local SEO opportunity. Claim and complete it today.</li>
               <li><strong>Ignoring reviews:</strong> Not asking for reviews and not responding to the ones you get. Reviews drive both rankings and trust.</li>
@@ -3054,18 +3184,18 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Trust Through Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize Meta Titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Schema Markup</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Service &amp; Location Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize Property Listings</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–3 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve Website Speed</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Area Guides</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish Blog Content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Local Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Trust Through Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize Meta Titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Schema Markup</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Service &amp; Location Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize Property Listings</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-3 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve Website Speed</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Area Guides</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish Blog Content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Local Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
                   <tr><td className="py-2.5 px-4 text-slate-300">Track with Search Console</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
                 </tbody>
               </table>
@@ -3105,7 +3235,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>
-              Getting <strong>property leads</strong> from Google is not about having the biggest budget or the flashiest website. It is about being found when buyers and sellers are actively searching for an agent in your area. The 15 strategies in this guide are proven to work for <strong>real estate agent marketing</strong> — and most of them cost nothing but your time.
+              Getting <strong>property leads</strong> from Google is not about having the biggest budget or the flashiest website. It is about being found when buyers and sellers are actively searching for an agent in your area. The 15 strategies in this guide are proven to work for <strong>real estate agent marketing</strong> - and most of them cost nothing but your time.
             </p>
             <p>
               Start with the quick wins: optimize your Google Business Profile, ask for reviews, and fix your meta titles. Then move to the medium-term strategies: create service and location pages, write area guides, and optimize your property listings. Finally, invest in the long-term plays: blog content, local backlinks, and schema markup.
@@ -3121,11 +3251,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       },
     ],
     faqs: [
-      { q: 'How long does real estate SEO take to generate leads?', a: 'Quick wins like Google Business Profile optimization and review collection can generate leads within 2–4 weeks. SEO strategies like content creation, local keywords, and backlink building typically take 3–6 months to show significant results. The key is consistency — agencies that implement these strategies regularly see compounding growth over time.' },
-      { q: 'Can I rank on Google without using Rightmove or Zoopla?', a: 'Yes. While Rightmove and Zoopla dominate broad property searches, you can rank for local, long-tail keywords like "estate agent in [your area]" or "property valuation [your neighbourhood]." These are high-intent searches from people specifically looking for a local agent — and they are much easier to rank for than broad terms.' },
-      { q: 'Do I need a separate website for each area I cover?', a: 'No. You need a single website with a dedicated page for each area. Each page should have unique content about that specific area — local property prices, schools, transport links, and your services there. This is far more effective than separate websites and concentrates all your SEO authority on one domain.' },
+      { q: 'How long does real estate SEO take to generate leads?', a: 'Quick wins like Google Business Profile optimization and review collection can generate leads within 2-4 weeks. SEO strategies like content creation, local keywords, and backlink building typically take 3-6 months to show significant results. The key is consistency - agencies that implement these strategies regularly see compounding growth over time.' },
+      { q: 'Can I rank on Google without using Rightmove or Zoopla?', a: 'Yes. While Rightmove and Zoopla dominate broad property searches, you can rank for local, long-tail keywords like "estate agent in [your area]" or "property valuation [your neighbourhood]." These are high-intent searches from people specifically looking for a local agent - and they are much easier to rank for than broad terms.' },
+      { q: 'Do I need a separate website for each area I cover?', a: 'No. You need a single website with a dedicated page for each area. Each page should have unique content about that specific area - local property prices, schools, transport links, and your services there. This is far more effective than separate websites and concentrates all your SEO authority on one domain.' },
       { q: 'What is the most important SEO strategy for real estate agents?', a: 'Google Business Profile optimization is the most important strategy. A complete, active, well-reviewed GBP listing will outperform a perfectly optimized website with no GBP presence. After that, reviews and local keyword targeting are the next biggest factors for generating property leads.' },
-      { q: 'Should I hire an SEO agency for my real estate business?', a: 'If you have 5–10 hours per week to dedicate to SEO, you can implement many of these strategies yourself. But most estate agents are too busy selling property to also manage SEO. An experienced agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased property leads.' },
+      { q: 'Should I hire an SEO agency for my real estate business?', a: 'If you have 5-10 hours per week to dedicate to SEO, you can implement many of these strategies yourself. But most estate agents are too busy selling property to also manage SEO. An experienced agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment typically pays for itself within a few months through increased property leads.' },
     ],
   },
   'get-more-customers-without-paid-ads': {
@@ -3142,10 +3272,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               That is the problem with paid advertising. You are essentially renting traffic. The moment you stop paying, the tap shuts off.
             </p>
             <p>
-              But there is a better way. <strong>Organic strategies</strong> — SEO, content, reviews, referrals, and local search — build a foundation that keeps bringing customers month after month, even when you are not actively spending. Yes, they take time. But once they start working, they compound. One blog post can bring traffic for years. One review can convince dozens of customers. One top Google Maps ranking can fill your calendar every week.
+              But there is a better way. <strong>Organic strategies</strong> - SEO, content, reviews, referrals, and local search - build a foundation that keeps bringing customers month after month, even when you are not actively spending. Yes, they take time. But once they start working, they compound. One blog post can bring traffic for years. One review can convince dozens of customers. One top Google Maps ranking can fill your calendar every week.
             </p>
             <p>
-              This guide covers 15 proven strategies to <strong>get customers organically</strong> — no paid ads required. Whether you run a dental practice, a plumbing company, a Shopify store, or a local restaurant, these tactics will help you build a steady stream of customers without draining your budget.
+              This guide covers 15 proven strategies to <strong>get customers organically</strong> - no paid ads required. Whether you run a dental practice, a plumbing company, a Shopify store, or a local restaurant, these tactics will help you build a steady stream of customers without draining your budget.
             </p>
           </>
         ),
@@ -3162,7 +3292,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Step-by-step:</strong></p>
             <ol>
               <li>Claim your profile at business.google.com if you have not already</li>
-              <li>Fill out every field — categories, hours, services, description, attributes</li>
+              <li>Fill out every field - categories, hours, services, description, attributes</li>
               <li>Upload at least 20 photos of your business, team, and work</li>
               <li>Post weekly updates about offers, events, or tips</li>
               <li>Answer common questions in the Q&amp;A section</li>
@@ -3203,18 +3333,18 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/5239880/pexels-photo-5239880.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hands typing on a laptop displaying a content plan document representing blog content creation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it works:</strong> <strong>Content marketing</strong> brings people to your website who are asking questions related to your business. Every blog post is a new entry point — a new way for someone to find you on Google without you paying for their click.
+              <strong>Why it works:</strong> <strong>Content marketing</strong> brings people to your website who are asking questions related to your business. Every blog post is a new entry point - a new way for someone to find you on Google without you paying for their click.
             </p>
             <p><strong>Step-by-step:</strong></p>
             <ol>
               <li>Write down 20 questions your customers ask you regularly</li>
               <li>Turn each question into a blog post with a clear, helpful answer</li>
-              <li>Use simple language — write like you are explaining to a friend</li>
+              <li>Use simple language - write like you are explaining to a friend</li>
               <li>Publish at least twice a month and share each post on social media</li>
               <li>Link from each blog post to your service pages so readers can learn more</li>
             </ol>
             <p><strong>Common mistake:</strong> Writing about your company news instead of answering customer questions. Nobody searches for "Company X quarterly update." They search for "how to fix a leaky tap."</p>
-            <p><strong>Real-world example:</strong> A salon owner started writing posts like "How to choose the right hair colour for your skin tone." After 6 months, those posts brought in 800+ monthly visitors and 15+ new bookings per month — all free.</p>
+            <p><strong>Real-world example:</strong> A salon owner started writing posts like "How to choose the right hair colour for your skin tone." After 6 months, those posts brought in 800+ monthly visitors and 15+ new bookings per month - all free.</p>
             <p><strong>Pro Tip:</strong> Before writing, search your topic on Google and read the top 3 results. Then write something more detailed and more helpful than all of them.</p>
           </>
         ),
@@ -3226,7 +3356,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/4905089/pexels-photo-4905089.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Map with location pins representing local keyword targeting for nearby customer searches" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it works:</strong> <strong>Local SEO</strong> helps you show up when people search for services near them. "Dentist near me" or "best pizza in [your area]" are local searches — and they have high purchase intent. People searching these terms are ready to buy.
+              <strong>Why it works:</strong> <strong>Local SEO</strong> helps you show up when people search for services near them. "Dentist near me" or "best pizza in [your area]" are local searches - and they have high purchase intent. People searching these terms are ready to buy.
             </p>
             <p><strong>Step-by-step:</strong></p>
             <ol>
@@ -3235,9 +3365,9 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Mention local landmarks and neighbourhoods in your content</li>
               <li>Get listed on local directories with consistent name, address, and phone</li>
             </ol>
-            <p><strong>Common mistake:</strong> Trying to rank for "best restaurant London" when you are in one neighbourhood. Target "best restaurant [your area]" instead — it is achievable and brings in local customers.</p>
+            <p><strong>Common mistake:</strong> Trying to rank for "best restaurant London" when you are in one neighbourhood. Target "best restaurant [your area]" instead - it is achievable and brings in local customers.</p>
             <p><strong>Real-world example:</strong> An electrician created pages for 5 different areas they served. Each page ranked within 3 months, and they went from 2 calls a week to 12.</p>
-            <p><strong>Pro Tip:</strong> Use Google's "People also ask" section to find local question-based keywords. Answer those questions on your location pages.</p>
+            <p><strong>Pro Tip:</strong> Use Google’s "People also ask" section to find local question-based keywords. Answer those questions on your location pages.</p>
           </>
         ),
       },
@@ -3255,7 +3385,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Create a direct link to your Google review page</li>
               <li>Ask every happy customer for a review right after service</li>
               <li>Send a follow-up email or SMS with the link 24 hours later</li>
-              <li>Respond to every review — positive and negative — within 24 hours</li>
+              <li>Respond to every review - positive and negative - within 24 hours</li>
               <li>Display your best reviews on your website and social media</li>
             </ol>
             <p><strong>Common mistake:</strong> Waiting for reviews to come in naturally. Most happy customers will not leave one unless you ask. Make it part of your process.</p>
@@ -3277,7 +3407,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <ol>
               <li>Put your phone number and a "Book Now" button at the top of every page</li>
               <li>Use clear, action-focused headings that tell visitors what you do</li>
-              <li>Add trust signals — reviews, certifications, and guarantees</li>
+              <li>Add trust signals - reviews, certifications, and guarantees</li>
               <li>Reduce form fields to the minimum needed (name, phone, email)</li>
               <li>Make sure your site loads in under 3 seconds</li>
             </ol>
@@ -3316,7 +3446,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website design on a screen representing high-quality service pages for businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it works:</strong> A dedicated page for each service you offer gives Google a specific page to rank for that service. One generic "Services" page will not rank for "teeth whitening" and "dental implants" — but separate pages for each will.
+              <strong>Why it works:</strong> A dedicated page for each service you offer gives Google a specific page to rank for that service. One generic "Services" page will not rank for "teeth whitening" and "dental implants" - but separate pages for each will.
             </p>
             <p><strong>Step-by-step:</strong></p>
             <ol>
@@ -3328,7 +3458,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ol>
             <p><strong>Common mistake:</strong> Listing all services on one page with 2 sentences each. Google cannot rank a paragraph for a competitive keyword.</p>
             <p><strong>Real-world example:</strong> A salon split their single services page into 6 individual pages (haircuts, colouring, manicures, etc.). Within 3 months, 4 of those pages reached page 1 for their respective keywords.</p>
-            <p><strong>Pro Tip:</strong> Add schema markup (structured data) to each service page so Google can display rich snippets in search results — like pricing and reviews right on the results page.</p>
+            <p><strong>Pro Tip:</strong> Add schema markup (structured data) to each service page so Google can display rich snippets in search results - like pricing and reviews right on the results page.</p>
           </>
         ),
       },
@@ -3339,7 +3469,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/4427925/pexels-photo-4427925.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Business networking and handshake representing building authority with backlinks and partnerships" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it works:</strong> Backlinks are links from other websites to yours. Google treats them as votes of confidence. The more quality backlinks you have, the higher your <strong>Google rankings</strong> — and the more <strong>organic traffic</strong> you get.
+              <strong>Why it works:</strong> Backlinks are links from other websites to yours. Google treats them as votes of confidence. The more quality backlinks you have, the higher your <strong>Google rankings</strong> - and the more <strong>organic traffic</strong> you get.
             </p>
             <p><strong>Step-by-step:</strong></p>
             <ol>
@@ -3390,13 +3520,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Step-by-step:</strong></p>
             <ol>
               <li>Add an email signup form on your website (pop-up or inline)</li>
-              <li>Offer an incentive — 10% off, a free guide, or a useful checklist</li>
+              <li>Offer an incentive - 10% off, a free guide, or a useful checklist</li>
               <li>Send a welcome email immediately, then regular updates</li>
-              <li>Share tips, offers, and updates — not just promotions</li>
+              <li>Share tips, offers, and updates - not just promotions</li>
               <li>Segment your list so customers get relevant content</li>
             </ol>
             <p><strong>Common mistake:</strong> Only sending promotional emails. If every email is "buy now," people unsubscribe. Mix in helpful content that adds value.</p>
-            <p><strong>Real-world example:</strong> A Shopify store built an email list of 3,000 subscribers by offering a free sizing guide. Their email campaigns now generate 25% of monthly revenue — without ad spend.</p>
+            <p><strong>Real-world example:</strong> A Shopify store built an email list of 3,000 subscribers by offering a free sizing guide. Their email campaigns now generate 25% of monthly revenue - without ad spend.</p>
             <p><strong>Pro Tip:</strong> Send one email per week. Consistency matters more than perfection. A short tip with a link to your latest product or service is enough.</p>
           </>
         ),
@@ -3413,7 +3543,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Step-by-step:</strong></p>
             <ol>
               <li>Identify one problem your customers always ask about</li>
-              <li>Create a 5–10 page guide, checklist, or template that solves it</li>
+              <li>Create a 5-10 page guide, checklist, or template that solves it</li>
               <li>Design it simply using Canva or Google Docs</li>
               <li>Add a signup form on your site offering the free resource</li>
               <li>Follow up with a welcome email series that introduces your services</li>
@@ -3435,15 +3565,15 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <p><strong>Step-by-step:</strong></p>
             <ol>
-              <li>Pick 1–2 platforms where your customers spend time (not all of them)</li>
-              <li>Post 3 times per week — mix of tips, behind-the-scenes, and customer stories</li>
+              <li>Pick 1-2 platforms where your customers spend time (not all of them)</li>
+              <li>Post 3 times per week - mix of tips, behind-the-scenes, and customer stories</li>
               <li>Use local hashtags and location tags for local businesses</li>
-              <li>Engage with followers — reply to every comment and DM</li>
+              <li>Engage with followers - reply to every comment and DM</li>
               <li>Share your blog posts and lead magnets to drive traffic to your site</li>
             </ol>
             <p><strong>Common mistake:</strong> Posting the same content on every platform. Instagram needs visuals, LinkedIn needs professional insights, and Facebook needs community posts. Tailor your content.</p>
             <p><strong>Real-world example:</strong> A bakery posted daily photos of fresh bread on Instagram with location tags. They gained 2,000 local followers and foot traffic increased 30% in 4 months.</p>
-            <p><strong>Pro Tip:</strong> Share customer photos and tag them. User-generated content gets 3x more engagement than branded content — and it is free.</p>
+            <p><strong>Pro Tip:</strong> Share customer photos and tag them. User-generated content gets 3x more engagement than branded content - and it is free.</p>
           </>
         ),
       },
@@ -3459,13 +3589,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Step-by-step:</strong></p>
             <ol>
               <li>Ask for a referral right after delivering great service</li>
-              <li>Offer a simple incentive — "Refer a friend and you both get 10% off"</li>
-              <li>Make it easy — provide a shareable link or card they can hand out</li>
+              <li>Offer a simple incentive - "Refer a friend and you both get 10% off"</li>
+              <li>Make it easy - provide a shareable link or card they can hand out</li>
               <li>Thank every referrer personally, even if the referral does not convert</li>
               <li>Track referrals so you know which customers bring you the most business</li>
             </ol>
-            <p><strong>Common mistake:</strong> Being too pushy. Do not ask every customer. Ask the ones who are clearly happy — the ones who compliment your work or rebook without hesitation.</p>
-            <p><strong>Real-world example:</strong> A hair salon started giving clients 2 referral cards after each visit — one for them, one for a friend. Referral bookings went from 2 per month to 18.</p>
+            <p><strong>Common mistake:</strong> Being too pushy. Do not ask every customer. Ask the ones who are clearly happy - the ones who compliment your work or rebook without hesitation.</p>
+            <p><strong>Real-world example:</strong> A hair salon started giving clients 2 referral cards after each visit - one for them, one for a friend. Referral bookings went from 2 per month to 18.</p>
             <p><strong>Pro Tip:</strong> The best time to ask for a referral is when the customer is still excited about the result. That is when they are most likely to recommend you.</p>
           </>
         ),
@@ -3485,11 +3615,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Set up Google Analytics 4 and add the tracking code to your site</li>
               <li>Check Search Console weekly for new keywords you are ranking for</li>
               <li>Check Analytics weekly for traffic sources, bounce rate, and conversions</li>
-              <li>Double down on what works — write more content for keywords that are growing</li>
+              <li>Double down on what works - write more content for keywords that are growing</li>
             </ol>
             <p><strong>Common mistake:</strong> Setting up tracking and never looking at it. Schedule 15 minutes every Monday to review your numbers. Small, regular check-ins are more useful than monthly deep dives.</p>
             <p><strong>Real-world example:</strong> A roofing company noticed via Search Console that they were ranking for "flat roof repair" but not "flat roof replacement." They created a new page targeting that keyword and tripled their inquiries for that service.</p>
-            <p><strong>Pro Tip:</strong> In Search Console, sort keywords by "clicks" and look at the ones in positions 5–15. Those are pages that are almost on page 1 — improving them slightly can push them to the top.</p>
+            <p><strong>Pro Tip:</strong> In Search Console, sort keywords by "clicks" and look at the ones in positions 5-15. Those are pages that are almost on page 1 - improving them slightly can push them to the top.</p>
           </>
         ),
       },
@@ -3510,20 +3640,20 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Collect Google Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Collect Google Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
                   <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Ask for Referrals</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">Immediate</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize for Google Maps</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–8 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize for Conversions</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Service Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish Blog Content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Rank with SEO</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Email Marketing</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1–2 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Lead Magnets</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1–3 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Social Media (Organic)</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize for Google Maps</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-8 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize for Conversions</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Service Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish Blog Content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Rank with SEO</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Email Marketing</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Lead Magnets</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1-3 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Social Media (Organic)</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
                   <tr><td className="py-2.5 px-4 text-slate-300">Track Results</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
                 </tbody>
               </table>
@@ -3563,13 +3693,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>
-              You do not need a massive ad budget to get more customers. The 15 strategies in this guide are proven, practical, and free to implement. They take time and consistency — but once they start working, they create a steady, predictable stream of customers that paid ads simply cannot match.
+              You do not need a massive ad budget to get more customers. The 15 strategies in this guide are proven, practical, and free to implement. They take time and consistency - but once they start working, they create a steady, predictable stream of customers that paid ads simply cannot match.
             </p>
             <p>
               Start with the quick wins: optimize your Google Business Profile, ask for reviews, and set up conversion tracking. Then move to the medium-term strategies: local keywords, service pages, and blog content. Finally, invest in the long-term plays: SEO, backlinks, and email marketing.
             </p>
             <p>
-              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help businesses <strong>increase website traffic</strong> and generate more leads with proven <strong>SEO and digital marketing</strong> strategies — no paid ads required. <a href="#/contact">Get a free SEO audit today</a> and let us show you exactly how to grow your customer base organically.
+              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help businesses <strong>increase website traffic</strong> and generate more leads with proven <strong>SEO and digital marketing</strong> strategies - no paid ads required. <a href="#/contact">Get a free SEO audit today</a> and let us show you exactly how to grow your customer base organically.
             </p>
             <p>
               The best time to start was 6 months ago. The second best time is today. Pick 3 strategies from this guide and start implementing them this week.
@@ -3580,10 +3710,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
     ],
     faqs: [
       { q: 'How can I get more customers without paid ads?', a: 'Focus on organic strategies: optimize your Google Business Profile, rank your website with SEO, publish helpful blog content, collect Google reviews, and ask happy customers for referrals. These methods take time but build a sustainable customer base without ongoing ad spend.' },
-      { q: 'How long does it take to see results from organic marketing?', a: 'Quick wins like Google Business Profile optimization and review collection can show results in 2–4 weeks. SEO and content marketing typically take 3–6 months to generate significant traffic. The key is consistency — businesses that implement these strategies regularly see compounding results over time.' },
+      { q: 'How long does it take to see results from organic marketing?', a: 'Quick wins like Google Business Profile optimization and review collection can show results in 2-4 weeks. SEO and content marketing typically take 3-6 months to generate significant traffic. The key is consistency - businesses that implement these strategies regularly see compounding results over time.' },
       { q: 'Which strategy should I start with if I have limited time?', a: 'Start with your Google Business Profile, collecting reviews, and asking for referrals. These three strategies require the least effort, have the highest impact, and can produce results within weeks. Once those are running, add SEO and content marketing for long-term growth.' },
-      { q: 'Do these strategies work for eCommerce stores as well as local businesses?', a: 'Yes. Local businesses benefit most from Google Business Profile and local SEO, while eCommerce stores benefit more from SEO, content marketing, email marketing, and lead magnets. All 15 strategies apply to both — you just prioritize differently based on your business type.' },
-      { q: 'Is organic marketing really free?', a: 'The strategies themselves are free — you do not pay per click or per impression. However, they require your time and effort. If you hire an agency or freelancer, there is a cost for their services. But unlike paid ads, once you stop spending on implementation, the results continue. A blog post ranked on page 1 keeps bringing traffic for years.' },
+      { q: 'Do these strategies work for eCommerce stores as well as local businesses?', a: 'Yes. Local businesses benefit most from Google Business Profile and local SEO, while eCommerce stores benefit more from SEO, content marketing, email marketing, and lead magnets. All 15 strategies apply to both - you just prioritize differently based on your business type.' },
+      { q: 'Is organic marketing really free?', a: 'The strategies themselves are free - you do not pay per click or per impression. However, they require your time and effort. If you hire an agency or freelancer, there is a cost for their services. But unlike paid ads, once you stop spending on implementation, the results continue. A blog post ranked on page 1 keeps bringing traffic for years.' },
     ],
   },
   'local-seo-london-small-businesses': {
@@ -3594,16 +3724,16 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>
-              Walk down any high street in London — Oxford Street, Camden Lock, King's Road — and you will see brilliant businesses. Great food. Excellent service. Loyal customers who keep coming back. But when you search for those same businesses on Google, many of them simply do not appear.
+              Walk down any high street in London - Oxford Street, Camden Lock, King’s Road - and you will see brilliant businesses. Great food. Excellent service. Loyal customers who keep coming back. But when you search for those same businesses on Google, many of them simply do not appear.
             </p>
             <p>
-              They are not on the first page. They are not in the local map pack. They are not even on page two. And every day they stay invisible, they lose customers to competitors who rank higher — even if those competitors offer a worse service.
+              They are not on the first page. They are not in the local map pack. They are not even on page two. And every day they stay invisible, they lose customers to competitors who rank higher - even if those competitors offer a worse service.
             </p>
             <p>
               This is the reality for thousands of <strong>London business</strong> owners. You can have the best product in your area, but if people cannot find you on Google, you do not exist. <strong>Local SEO</strong> is how you fix that.
             </p>
             <p>
-              This guide is a complete, practical Local SEO playbook for London small businesses. We will cover the core strategies — Google Business Profile, reviews, citations, content, and more — then walk through 12 specific London areas with tailored keyword and link-building strategies for each one.
+              This guide is a complete, practical Local SEO playbook for London small businesses. We will cover the core strategies - Google Business Profile, reviews, citations, content, and more - then walk through 12 specific London areas with tailored keyword and link-building strategies for each one.
             </p>
             <p>
               Whether you run a dental practice in Westminster, a salon in Chelsea, or a plumbing company in Croydon, this guide will help you show up when nearby customers search for what you offer.
@@ -3618,7 +3748,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/19963850/pexels-photo-19963850.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Red location pin on a map of the UK representing local SEO and nearby search visibility" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Local SEO</strong> is the process of optimizing your online presence so your business appears in <strong>local search</strong> results — the results Google shows when someone searches for a product or service near them. Think "plumber near me" or "best Italian restaurant in Soho."
+              <strong>Local SEO</strong> is the process of optimizing your online presence so your business appears in <strong>local search</strong> results - the results Google shows when someone searches for a product or service near them. Think "plumber near me" or "best Italian restaurant in Soho."
             </p>
             <p>
               When you search for a local service on Google, you usually see two things: the <strong>local pack</strong> (the top 3 businesses shown with a map) and the <strong>organic results</strong> below it. Local SEO gets you into both.
@@ -3636,13 +3766,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/13342192/pexels-photo-13342192.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Bustling London street with shops and foot traffic showing the competitive local business landscape" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              London has over 1 million registered businesses. It is one of the most competitive local search markets in the world. Ranking for "dentist in London" is nearly impossible for a small practice — but ranking for "dentist in Islington" or "emergency dentist near Angel station" is absolutely achievable.
+              London has over 1 million registered businesses. It is one of the most competitive local search markets in the world. Ranking for "dentist in London" is nearly impossible for a small practice - but ranking for "dentist in Islington" or "emergency dentist near Angel station" is absolutely achievable.
             </p>
             <p>
               Here is why <strong>Local SEO London</strong> is different from general SEO:
             </p>
             <ul>
-              <li><strong>Proximity matters:</strong> Google prioritizes businesses closest to the searcher. If you are in Croydon, you will not show up for someone searching in Camden — and that is fine. You want to dominate your local area first.</li>
+              <li><strong>Proximity matters:</strong> Google prioritizes businesses closest to the searcher. If you are in Croydon, you will not show up for someone searching in Camden - and that is fine. You want to dominate your local area first.</li>
               <li><strong>Google Business Profile is critical:</strong> Your GBP listing is often the first thing a customer sees. It needs to be complete, accurate, and active.</li>
               <li><strong>Reviews drive decisions:</strong> 88% of consumers trust online reviews as much as personal recommendations. More reviews means more clicks, calls, and customers.</li>
               <li><strong>Mobile dominates:</strong> Most local searches happen on phones. If your site is slow or hard to use on mobile, you lose customers before they even read your page.</li>
@@ -3661,7 +3791,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <ol>
               <li><strong>Claim and verify your listing</strong> at business.google.com. If you have not done this yet, do it today.</li>
-              <li><strong>Fill out every field.</strong> Business name, address, phone, website, hours, services, attributes, description — leave nothing blank.</li>
+              <li><strong>Fill out every field.</strong> Business name, address, phone, website, hours, services, attributes, description - leave nothing blank.</li>
               <li><strong>Choose the right primary category.</strong> This is the most important field. "Emergency plumber" vs "Plumber" can completely change who finds you.</li>
               <li><strong>Upload at least 30 photos.</strong> Exterior, interior, team, products, before/after shots. Google rewards active profiles with more visibility.</li>
               <li><strong>Post weekly.</strong> GBP posts show up in local search and signal to Google that your business is active. Share offers, events, or updates.</li>
@@ -3678,7 +3808,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/38472818/pexels-photo-38472818.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Five wooden stars on a blue background representing Google reviews and customer star ratings" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Google reviews</strong> are the second biggest local ranking factor after proximity. They also directly influence whether someone clicks your listing or your competitor's.
+              <strong>Google reviews</strong> are the second biggest local ranking factor after proximity. They also directly influence whether someone clicks your listing or your competitor’s.
             </p>
             <p>Here is a simple system to get more reviews:</p>
             <ol>
@@ -3699,7 +3829,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/2764993/pexels-photo-2764993.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Computer monitor showing code and data representing local keyword research and SEO analytics" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Local keywords</strong> are search terms that include a location — like "roofers in Wimbledon" or "solicitor near Canary Wharf." Targeting these is how you rank for <strong>nearby searches</strong> instead of competing with all of London.
+              <strong>Local keywords</strong> are search terms that include a location - like "roofers in Wimbledon" or "solicitor near Canary Wharf." Targeting these is how you rank for <strong>nearby searches</strong> instead of competing with all of London.
             </p>
             <p>How to find the right local keywords:</p>
             <ol>
@@ -3708,7 +3838,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li><strong>Check competitor GBP listings.</strong> See what categories and keywords your top-ranking competitors use.</li>
               <li><strong>Target long-tail variations.</strong> "Emergency electrician in Hammersmith" has far less competition than "electrician London."</li>
             </ol>
-            <p><strong>Pro Tip:</strong> Create a keyword map — assign each local keyword to a specific page on your website. One keyword per page, no duplicates.</p>
+            <p><strong>Pro Tip:</strong> Create a keyword map - assign each local keyword to a specific page on your website. One keyword per page, no duplicates.</p>
           </>
         ),
       },
@@ -3741,13 +3871,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/7634233/pexels-photo-7634233.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="World map with pins and markers representing local business citations and directory listings" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Local citations</strong> are mentions of your business name, address, and phone number (NAP) on other websites — directories, review sites, and local business listings. Google uses these to verify your business is real and located where you say it is.
+              <strong>Local citations</strong> are mentions of your business name, address, and phone number (NAP) on other websites - directories, review sites, and local business listings. Google uses these to verify your business is real and located where you say it is.
             </p>
             <p>Key citations every London business should have:</p>
             <ul>
               <li>Google Business Profile (the most important one)</li>
               <li>Bing Places for Business</li>
-              <li>Yell.com (the UK's main business directory)</li>
+              <li>Yell.com (the UK’s main business directory)</li>
               <li>Yelp UK</li>
               <li>Trustpilot</li>
               <li>FreeIndex and Cylex UK</li>
@@ -3775,7 +3905,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Show your address and a click-to-call button above the fold</li>
               <li>Remove pop-ups that block content on mobile</li>
             </ul>
-            <p><strong>Pro Tip:</strong> Test your site on Google's Mobile-Friendly Test tool. If it fails, you are losing rankings. Fix it immediately.</p>
+            <p><strong>Pro Tip:</strong> Test your site on Google’s Mobile-Friendly Test tool. If it fails, you are losing rankings. Fix it immediately.</p>
           </>
         ),
       },
@@ -3786,7 +3916,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/10350221/pexels-photo-10350221.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Car speedometer gauge displaying high speed representing website speed optimization and performance" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Website optimization</strong> for speed is a direct ranking factor. Google's Core Web Vitals measure how fast your page loads (LCP), how quickly it becomes interactive (INP), and how stable it is visually (CLS). If your site loads slowly, Google ranks you lower — and visitors leave.
+              <strong>Website optimization</strong> for speed is a direct ranking factor. Google’s Core Web Vitals measure how fast your page loads (LCP), how quickly it becomes interactive (INP), and how stable it is visually (CLS). If your site loads slowly, Google ranks you lower - and visitors leave.
             </p>
             <p>Quick speed wins:</p>
             <ol>
@@ -3797,7 +3927,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Remove unused plugins and scripts</li>
               <li>Aim for a mobile load time under 2.5 seconds</li>
             </ol>
-            <p><strong>Pro Tip:</strong> Run your site through Google PageSpeed Insights. Focus on the mobile score first — that is what Google uses for ranking.</p>
+            <p><strong>Pro Tip:</strong> Run your site through Google PageSpeed Insights. Focus on the mobile score first - that is what Google uses for ranking.</p>
           </>
         ),
       },
@@ -3812,12 +3942,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <p>Local link-building ideas:</p>
             <ul>
-              <li>Sponsor a local event, charity, or sports team — they usually link back to sponsors</li>
+              <li>Sponsor a local event, charity, or sports team - they usually link back to sponsors</li>
               <li>Get featured in local newspapers (Evening Standard, Time Out, local blogs)</li>
               <li>Partner with complementary businesses for cross-promotion</li>
               <li>Join the local chamber of commerce or business association</li>
               <li>Write guest posts for London-based industry blogs</li>
-              <li>Get listed on your local council's business directory</li>
+              <li>Get listed on your local council’s business directory</li>
             </ul>
             <p><strong>Pro Tip:</strong> Focus on links from websites in your same London borough. A link from a Camden blog to your Camden business is worth more than a link from a site in Manchester.</p>
           </>
@@ -3840,7 +3970,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Case studies featuring customers from specific areas</li>
               <li>FAQ pages answering common local questions</li>
             </ul>
-            <p><strong>Pro Tip:</strong> Write one local content piece per month. Over a year, that is 12 pages targeting different local keywords — each one a new entry point for Google traffic.</p>
+            <p><strong>Pro Tip:</strong> Write one local content piece per month. Over a year, that is 12 pages targeting different local keywords - each one a new entry point for Google traffic.</p>
           </>
         ),
       },
@@ -3877,11 +4007,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Recommended keyword strategy:</strong></p>
             <ul>
               <li>Target hyper-specific long-tail keywords: "24-hour dentist in Soho" or "emergency locksmith Covent Garden"</li>
-              <li>Avoid broad terms like "restaurant Central London" — compete on specificity instead</li>
+              <li>Avoid broad terms like "restaurant Central London" - compete on specificity instead</li>
               <li>Use landmark-based keywords: "near Oxford Street," "close to Tottenham Court Road station"</li>
             </ul>
             <p><strong>GBP tips:</strong> Post daily during peak season. Use high-quality photos of your storefront with recognizable Central London landmarks nearby. Add attributes like "Wheelchair accessible" and "Free Wi-Fi" to stand out.</p>
-            <p><strong>Local content ideas:</strong> Write guides about navigating Central London — "Where to park in Soho," "Best lunch spots near Covent Garden." These attract tourists and locals searching for area information.</p>
+            <p><strong>Local content ideas:</strong> Write guides about navigating Central London - "Where to park in Soho," "Best lunch spots near Covent Garden." These attract tourists and locals searching for area information.</p>
             <p><strong>Link-building opportunities:</strong> Partner with West End theatres, local hotels, and tourism blogs. Get listed on Time Out London and visitlondon.com.</p>
           </>
         ),
@@ -3898,10 +4028,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Recommended keyword strategy:</strong></p>
             <ul>
               <li>Target professional services: "solicitor near Parliament," "accountant in Victoria"</li>
-              <li>Use tourist-adjacent keywords: "coffee shop near Westminster Abbey," "restaurant near St James's Park"</li>
+              <li>Use tourist-adjacent keywords: "coffee shop near Westminster Abbey," "restaurant near St James’s Park"</li>
             </ul>
             <p><strong>GBP tips:</strong> If you serve tourists, add multi-language attributes. Upload photos showing your proximity to landmarks. Post about local events and Parliament sessions.</p>
-            <p><strong>Local content ideas:</strong> Write about Westminster-specific topics — "Best hotels near Buckingham Palace," "Where to eat near Parliament." Tourist search volume is huge here.</p>
+            <p><strong>Local content ideas:</strong> Write about Westminster-specific topics - "Best hotels near Buckingham Palace," "Where to eat near Parliament." Tourist search volume is huge here.</p>
             <p><strong>Link-building opportunities:</strong> Partner with nearby hotels, tour companies, and government-adjacent businesses. Get links from Westminster community blogs.</p>
           </>
         ),
@@ -3920,9 +4050,9 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Target creative and indie keywords: "vintage clothing Camden Market," "independent hair salon Camden Town"</li>
               <li>Use music and culture keywords: "live music venue Camden," "restaurant near Camden Lock"</li>
             </ul>
-            <p><strong>GBP tips:</strong> Emphasize your unique selling point in your description. Camden customers value authenticity — show your personality in photos and posts. Use the "Identifies as women-led" or "LGBTQ+ friendly" attributes if they apply.</p>
-            <p><strong>Local content ideas:</strong> Write about Camden culture — "Camden Market shopping guide," "Best live music venues in Camden." These topics have strong local search volume.</p>
-            <p><strong>Link-building opportunities:</strong> Get featured on Camden Market's official website, local music blogs, and Camden-based lifestyle publications.</p>
+            <p><strong>GBP tips:</strong> Emphasize your unique selling point in your description. Camden customers value authenticity - show your personality in photos and posts. Use the "Identifies as women-led" or "LGBTQ+ friendly" attributes if they apply.</p>
+            <p><strong>Local content ideas:</strong> Write about Camden culture - "Camden Market shopping guide," "Best live music venues in Camden." These topics have strong local search volume.</p>
+            <p><strong>Link-building opportunities:</strong> Get featured on Camden Market’s official website, local music blogs, and Camden-based lifestyle publications.</p>
           </>
         ),
       },
@@ -3940,8 +4070,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Target premium keywords: "luxury salon Kensington," "private dentist Kensington High Street"</li>
               <li>Use museum and cultural keywords: "restaurant near Natural History Museum," "cafe near Kensington Gardens"</li>
             </ul>
-            <p><strong>GBP tips:</strong> Use high-quality professional photography. Add premium attributes like "High-end" and "Appointment only." Respond to reviews promptly — Kensington customers expect excellent service.</p>
-            <p><strong>Local content ideas:</strong> Write about Kensington lifestyle — "Best afternoon tea in Kensington," "Shopping guide for Kensington High Street." Affluent audiences search for quality-focused content.</p>
+            <p><strong>GBP tips:</strong> Use high-quality professional photography. Add premium attributes like "High-end" and "Appointment only." Respond to reviews promptly - Kensington customers expect excellent service.</p>
+            <p><strong>Local content ideas:</strong> Write about Kensington lifestyle - "Best afternoon tea in Kensington," "Shopping guide for Kensington High Street." Affluent audiences search for quality-focused content.</p>
             <p><strong>Link-building opportunities:</strong> Partner with Kensington museums, luxury blogs, and local lifestyle magazines. Get listed on premium business directories.</p>
           </>
         ),
@@ -3953,15 +4083,15 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/9828170/pexels-photo-9828170.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Clothing store exterior on a rainy London street representing the Chelsea area and its boutique businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Competition level:</strong> High. Chelsea is one of London's most prestigious areas. Businesses here compete on brand reputation and quality, not just price.
+              <strong>Competition level:</strong> High. Chelsea is one of London’s most prestigious areas. Businesses here compete on brand reputation and quality, not just price.
             </p>
             <p><strong>Recommended keyword strategy:</strong></p>
             <ul>
-              <li>Target boutique keywords: "boutique hair salon Chelsea," "private GP King's Road"</li>
+              <li>Target boutique keywords: "boutique hair salon Chelsea," "private GP King’s Road"</li>
               <li>Use luxury-adjacent terms: "high-end florist Chelsea," "luxury spa Sloane Square"</li>
             </ul>
             <p><strong>GBP tips:</strong> Showcase awards and certifications in your listing. Upload photos of your interior design and premium products. Post about exclusive offers and events.</p>
-            <p><strong>Local content ideas:</strong> Write about Chelsea lifestyle and events — "Chelsea Flower Show guide," "Best boutiques on King's Road." These attract both locals and visitors.</p>
+            <p><strong>Local content ideas:</strong> Write about Chelsea lifestyle and events - "Chelsea Flower Show guide," "Best boutiques on King’s Road." These attract both locals and visitors.</p>
             <p><strong>Link-building opportunities:</strong> Partner with Chelsea-based fashion brands, art galleries, and luxury lifestyle blogs. Sponsor local art events or fashion shows.</p>
           </>
         ),
@@ -3981,7 +4111,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Use lifestyle keywords: "brunch Upper Street," "yoga studio Islington"</li>
             </ul>
             <p><strong>GBP tips:</strong> Emphasize community involvement. Post about local events on Upper Street, mention your involvement in Islington community initiatives. Add family-friendly attributes.</p>
-            <p><strong>Local content ideas:</strong> Write about Islington living — "Best restaurants on Upper Street," "Family activities in Islington." Local residents search for community-focused content.</p>
+            <p><strong>Local content ideas:</strong> Write about Islington living - "Best restaurants on Upper Street," "Family activities in Islington." Local residents search for community-focused content.</p>
             <p><strong>Link-building opportunities:</strong> Partner with Islington Gazette, local community organizations, and Upper Street business associations.</p>
           </>
         ),
@@ -3993,7 +4123,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/31671970/pexels-photo-31671970.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Charming suburban house in London with tree-lined street representing the Croydon area" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Competition level:</strong> Medium-Low. Croydon is a growing area with less SEO competition than Central London. This is good news — a well-optimized business can rank quickly here.
+              <strong>Competition level:</strong> Medium-Low. Croydon is a growing area with less SEO competition than Central London. This is good news - a well-optimized business can rank quickly here.
             </p>
             <p><strong>Recommended keyword strategy:</strong></p>
             <ul>
@@ -4001,8 +4131,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Use commuter keywords: "breakfast near East Croydon station," "dry cleaning Croydon town centre"</li>
             </ul>
             <p><strong>GBP tips:</strong> Focus on reliability and speed. Croydon residents value tradespeople who respond quickly. Add attributes like "Offers online appointments" and "Response time within 1 hour."</p>
-            <p><strong>Local content ideas:</strong> Write about home improvement and local services — "How to choose a roofer in Croydon," "Best tradespeople in South Croydon." Practical, problem-solving content works well here.</p>
-            <p><strong>Link-building opportunities:</strong> Get listed on Croydon Council's business directory, partner with local community groups, and get featured in the Croydon Advertiser.</p>
+            <p><strong>Local content ideas:</strong> Write about home improvement and local services - "How to choose a roofer in Croydon," "Best tradespeople in South Croydon." Practical, problem-solving content works well here.</p>
+            <p><strong>Link-building opportunities:</strong> Get listed on Croydon Council’s business directory, partner with local community groups, and get featured in the Croydon Advertiser.</p>
           </>
         ),
       },
@@ -4021,7 +4151,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Target residential keywords: "GP Greenwich," "dentist Greenwich town centre"</li>
             </ul>
             <p><strong>GBP tips:</strong> If you are near the river or a landmark, mention it in your description. Upload photos showing your proximity to Greenwich Market or the Cutty Sark. Post about Greenwich events and festivals.</p>
-            <p><strong>Local content ideas:</strong> Write about Greenwich attractions — "Greenwich Market guide," "Best riverside pubs in Greenwich." Tourist-focused content has high search volume here.</p>
+            <p><strong>Local content ideas:</strong> Write about Greenwich attractions - "Greenwich Market guide," "Best riverside pubs in Greenwich." Tourist-focused content has high search volume here.</p>
             <p><strong>Link-building opportunities:</strong> Partner with Royal Museums Greenwich, local tour operators, and Greenwich tourism websites.</p>
           </>
         ),
@@ -4041,7 +4171,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Target residential keywords: "plumber Hammersmith," "hair salon King Street"</li>
             </ul>
             <p><strong>GBP tips:</strong> Highlight your proximity to Hammersmith station and the Apollo theatre. Post about lunch deals and after-work offers if you serve the office crowd.</p>
-            <p><strong>Local content ideas:</strong> Write about Hammersmith life — "Best pubs near Hammersmith Apollo," "Where to eat on King Street." Mix commuter and residential content.</p>
+            <p><strong>Local content ideas:</strong> Write about Hammersmith life - "Best pubs near Hammersmith Apollo," "Where to eat on King Street." Mix commuter and residential content.</p>
             <p><strong>Link-building opportunities:</strong> Partner with the Hammersmith Apollo, local business improvement district, and West London lifestyle blogs.</p>
           </>
         ),
@@ -4061,7 +4191,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Use seasonal keywords during the tournament: "pubs showing Wimbledon tennis," "restaurants near All England Club"</li>
             </ul>
             <p><strong>GBP tips:</strong> During the Wimbledon Championships, post daily about specials and offers. Upload photos showing your proximity to the tennis grounds. Use event-related attributes.</p>
-            <p><strong>Local content ideas:</strong> Write about Wimbledon living and the tournament — "Wimbledon tennis viewing guide," "Best restaurants in Wimbledon Village." Seasonal content drives huge traffic in June and July.</p>
+            <p><strong>Local content ideas:</strong> Write about Wimbledon living and the tournament - "Wimbledon tennis viewing guide," "Best restaurants in Wimbledon Village." Seasonal content drives huge traffic in June and July.</p>
             <p><strong>Link-building opportunities:</strong> Partner with local tennis clubs, Wimbledon Guild, and South London lifestyle publications.</p>
           </>
         ),
@@ -4081,7 +4211,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Target residential keywords: "plumber Stratford," "barber Stratford Broadway"</li>
             </ul>
             <p><strong>GBP tips:</strong> If you are inside or near Westfield, mention it in your listing. Upload photos of your storefront with the shopping centre context. Post about offers and events at Westfield.</p>
-            <p><strong>Local content ideas:</strong> Write about Stratford development and lifestyle — "Stratford dining guide," "Queen Elizabeth Olympic Park activities." The area is evolving, and content about new developments attracts search traffic.</p>
+            <p><strong>Local content ideas:</strong> Write about Stratford development and lifestyle - "Stratford dining guide," "Queen Elizabeth Olympic Park activities." The area is evolving, and content about new developments attracts search traffic.</p>
             <p><strong>Link-building opportunities:</strong> Partner with Westfield Stratford City, Olympic Park organisations, and East London business networks.</p>
           </>
         ),
@@ -4101,7 +4231,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Use commute keywords: "breakfast near Canary Wharf station," "dry cleaning Canary Wharf"</li>
             </ul>
             <p><strong>GBP tips:</strong> Focus on speed and convenience. Canary Wharf workers have limited lunch breaks. Add attributes like "Quick service" and "Order online." Post daily lunch specials.</p>
-            <p><strong>Local content ideas:</strong> Write about Canary Wharf work life — "Best lunch spots in Canary Wharf," "After-work bars near Canada Square." Office workers search for convenience-focused content.</p>
+            <p><strong>Local content ideas:</strong> Write about Canary Wharf work life - "Best lunch spots in Canary Wharf," "After-work bars near Canada Square." Office workers search for convenience-focused content.</p>
             <p><strong>Link-building opportunities:</strong> Partner with Canary Wharf Group, corporate wellness programs, and Docklands business networks.</p>
           </>
         ),
@@ -4123,18 +4253,18 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Central London</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">Tourism, food, retail</td><td className="py-2.5 px-4 text-slate-400">6–12 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Westminster</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">Professional services, tourism</td><td className="py-2.5 px-4 text-slate-400">4–8 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Camden</td><td className="py-2.5 px-4 text-orange-400">Med-High</td><td className="py-2.5 px-4 text-slate-400">Creative, food, entertainment</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Kensington</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">Premium services, dining</td><td className="py-2.5 px-4 text-slate-400">4–8 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Chelsea</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">Boutiques, luxury services</td><td className="py-2.5 px-4 text-slate-400">4–8 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Islington</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Family services, dining</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Croydon</td><td className="py-2.5 px-4 text-emerald-400">Med-Low</td><td className="py-2.5 px-4 text-slate-400">Tradespeople, local services</td><td className="py-2.5 px-4 text-slate-400">1–3 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Greenwich</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Tourism, pubs, local services</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Hammersmith</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Commuter services, dining</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Wimbledon</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Local services, seasonal tourism</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Stratford</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Retail, dining, local services</td><td className="py-2.5 px-4 text-slate-400">2–4 months</td></tr>
-                  <tr><td className="py-2.5 px-4 text-slate-300">Canary Wharf</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">Corporate services, food</td><td className="py-2.5 px-4 text-slate-400">4–8 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Central London</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">Tourism, food, retail</td><td className="py-2.5 px-4 text-slate-400">6-12 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Westminster</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">Professional services, tourism</td><td className="py-2.5 px-4 text-slate-400">4-8 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Camden</td><td className="py-2.5 px-4 text-orange-400">Med-High</td><td className="py-2.5 px-4 text-slate-400">Creative, food, entertainment</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Kensington</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">Premium services, dining</td><td className="py-2.5 px-4 text-slate-400">4-8 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Chelsea</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">Boutiques, luxury services</td><td className="py-2.5 px-4 text-slate-400">4-8 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Islington</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Family services, dining</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Croydon</td><td className="py-2.5 px-4 text-emerald-400">Med-Low</td><td className="py-2.5 px-4 text-slate-400">Tradespeople, local services</td><td className="py-2.5 px-4 text-slate-400">1-3 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Greenwich</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Tourism, pubs, local services</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Hammersmith</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Commuter services, dining</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Wimbledon</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Local services, seasonal tourism</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Stratford</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Retail, dining, local services</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
+                  <tr><td className="py-2.5 px-4 text-slate-300">Canary Wharf</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">Corporate services, food</td><td className="py-2.5 px-4 text-slate-400">4-8 months</td></tr>
                 </tbody>
               </table>
             </div>
@@ -4173,13 +4303,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>
-              Local SEO is not complicated, but it takes consistency. The businesses that win in London are not the ones with the biggest budgets — they are the ones that show up every day, optimize their profiles, ask for reviews, and create content that helps their local customers.
+              Local SEO is not complicated, but it takes consistency. The businesses that win in London are not the ones with the biggest budgets - they are the ones that show up every day, optimize their profiles, ask for reviews, and create content that helps their local customers.
             </p>
             <p>
-              Start with the basics: claim your Google Business Profile, get reviews, and build citations. Then create location-specific pages for each area you serve. Write content that answers local questions. Build links from local websites. Do this consistently for 3–6 months, and you will see your business climb in both Google Search and Google Maps.
+              Start with the basics: claim your Google Business Profile, get reviews, and build citations. Then create location-specific pages for each area you serve. Write content that answers local questions. Build links from local websites. Do this consistently for 3-6 months, and you will see your business climb in both Google Search and Google Maps.
             </p>
             <p>
-              If you do not have the time to do all of this yourself — and most business owners do not — that is exactly what we do at <strong>Rank Flow Agency</strong>. We help London businesses dominate local search with proven <strong>Local SEO services London</strong> strategies. <a href="#/contact">Get a free local SEO audit today</a> and find out exactly what is holding your business back from ranking in your area.
+              If you do not have the time to do all of this yourself - and most business owners do not - that is exactly what we do at <strong>Rank Flow Agency</strong>. We help London businesses dominate local search with proven <strong>Local SEO services London</strong> strategies. <a href="#/contact">Get a free local SEO audit today</a> and find out exactly what is holding your business back from ranking in your area.
             </p>
             <p>
               Your competitors are already working on their local SEO. The longer you wait, the harder it gets to catch up. Start today.
@@ -4189,11 +4319,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       },
     ],
     faqs: [
-      { q: 'How long does Local SEO take to work in London?', a: 'Most London businesses see noticeable improvements in 2–4 months. Areas with lower competition like Croydon or Islington can see results in 1–3 months. Highly competitive areas like Central London or Canary Wharf may take 6–12 months. Consistency is the key — businesses that optimize regularly see faster results.' },
+      { q: 'How long does Local SEO take to work in London?', a: 'Most London businesses see noticeable improvements in 2-4 months. Areas with lower competition like Croydon or Islington can see results in 1-3 months. Highly competitive areas like Central London or Canary Wharf may take 6-12 months. Consistency is the key - businesses that optimize regularly see faster results.' },
       { q: 'Do I need a separate Google Business Profile for each London area I serve?', a: 'No. You should have one GBP listing for your physical location. If you serve multiple areas, create separate landing pages on your website for each one instead of creating multiple GBP listings. Multiple listings for the same business violate Google\'s guidelines and can result in suspension.' },
       { q: 'What is the most important Local SEO factor for London businesses?', a: 'Google Business Profile optimization is the most important factor. A complete, active, and well-reviewed GBP listing will outperform a perfectly optimized website with no GBP presence. After that, reviews and consistent NAP citations are the next biggest factors.' },
-      { q: 'How many Google reviews do I need to rank in the local pack?', a: 'There is no exact number, but businesses in the top 3 local pack results typically have 50+ reviews and a 4.5+ star rating. Aim for at least one new review per week. The recency of reviews also matters — Google rewards businesses that get fresh reviews regularly.' },
-      { q: 'Should I hire an SEO agency London for local SEO or do it myself?', a: 'If you have 5–10 hours per week to dedicate to Local SEO, you can do it yourself. But most business owners do not have that time. An experienced SEO agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment usually pays for itself within a few months through increased leads and customers.' },
+      { q: 'How many Google reviews do I need to rank in the local pack?', a: 'There is no exact number, but businesses in the top 3 local pack results typically have 50+ reviews and a 4.5+ star rating. Aim for at least one new review per week. The recency of reviews also matters - Google rewards businesses that get fresh reviews regularly.' },
+      { q: 'Should I hire an SEO agency London for local SEO or do it myself?', a: 'If you have 5-10 hours per week to dedicate to Local SEO, you can do it yourself. But most business owners do not have that time. An experienced SEO agency can implement everything faster, avoid costly mistakes, and track results with proper tools. The investment usually pays for itself within a few months through increased leads and customers.' },
     ],
   },
   'why-is-my-website-not-showing-on-google': {
@@ -4204,16 +4334,16 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>
-              You launched your website. You picked a domain name, wrote your about page, added your services, and hit publish. Then you searched for your business on Google — and nothing showed up. Not on page 1. Not on page 5. Not anywhere.
+              You launched your website. You picked a domain name, wrote your about page, added your services, and hit publish. Then you searched for your business on Google - and nothing showed up. Not on page 1. Not on page 5. Not anywhere.
             </p>
             <p>
-              If that sounds familiar, you are not alone. Most business owners face this exact problem. In fact, <strong>why is my website not showing on Google</strong> is one of the most searched SEO questions online. The good news? There is almost always a specific reason — and a specific fix.
+              If that sounds familiar, you are not alone. Most business owners face this exact problem. In fact, <strong>why is my website not showing on Google</strong> is one of the most searched SEO questions online. The good news? There is almost always a specific reason - and a specific fix.
             </p>
             <p>
               Google uses a three-step process to show websites in search results: <strong>crawling</strong> (discovering your pages), <strong>indexing</strong> (storing them), and <strong>ranking</strong> (deciding where to place them). If your website is not showing up, one or more of these steps is failing.
             </p>
             <p>
-              This guide walks you through the 12 most common reasons your website is not appearing on Google — and gives you a step-by-step fix for each one. Whether it is a <strong>Google indexing</strong> issue, a technical SEO problem, or a content gap, you will know exactly what to do by the end.
+              This guide walks you through the 12 most common reasons your website is not appearing on Google - and gives you a step-by-step fix for each one. Whether it is a <strong>Google indexing</strong> issue, a technical SEO problem, or a content gap, you will know exactly what to do by the end.
             </p>
           </>
         ),
@@ -4225,7 +4355,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/6986455/pexels-photo-6986455.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing website indexing status and URL inspection tool" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it happens:</strong> Google has not added your pages to its index. Until a page is indexed, it cannot appear in search results — no matter how good your content is.
+              <strong>Why it happens:</strong> Google has not added your pages to its index. Until a page is indexed, it cannot appear in search results - no matter how good your content is.
             </p>
             <p><strong>Signs to look for:</strong></p>
             <ul>
@@ -4241,7 +4371,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Submit all important pages one by one until they are indexed</li>
             </ol>
             <p><strong>Common mistake:</strong> Assuming Google will find your site automatically. New sites with no backlinks can take weeks to be discovered.</p>
-            <p><strong>Pro Tip:</strong> Request indexing for your most important pages first — homepage, service pages, and contact page. Google prioritizes manually submitted URLs.</p>
+            <p><strong>Pro Tip:</strong> Request indexing for your most important pages first - homepage, service pages, and contact page. Google prioritizes manually submitted URLs.</p>
           </>
         ),
       },
@@ -4290,13 +4420,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Step-by-step fix:</strong></p>
             <ol>
               <li>Visit <code>yourdomain.com/robots.txt</code> in your browser</li>
-              <li>Look for <code>Disallow: /</code> — this blocks everything</li>
+              <li>Look for <code>Disallow: /</code> - this blocks everything</li>
               <li>Change it to <code>Allow: /</code> or remove the Disallow rule entirely</li>
               <li>Use the robots.txt Tester in Google Search Console to validate your changes</li>
               <li>Submit the updated file and request a recrawl of blocked pages</li>
             </ol>
             <p><strong>Common mistake:</strong> Leaving a staging or development robots.txt file live when pushing to production. Always check this file after deploying.</p>
-            <p><strong>Pro Tip:</strong> Use robots.txt to block only what you need to — like admin panels, cart pages, or search results. Never block your entire site unless you mean to.</p>
+            <p><strong>Pro Tip:</strong> Use robots.txt to block only what you need to - like admin panels, cart pages, or search results. Never block your entire site unless you mean to.</p>
           </>
         ),
       },
@@ -4307,7 +4437,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/3837487/pexels-photo-3837487.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person pointing on a map representing XML sitemap submission to Google Search Console" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it happens:</strong> A <strong>sitemap</strong> is a file that lists all your website's pages for search engines. Without one, Google has to discover every page by following links — which is slow and unreliable.
+              <strong>Why it happens:</strong> A <strong>sitemap</strong> is a file that lists all your website’s pages for search engines. Without one, Google has to discover every page by following links - which is slow and unreliable.
             </p>
             <p><strong>Signs to look for:</strong></p>
             <ul>
@@ -4320,10 +4450,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Generate an XML sitemap using a tool like XML-Sitemaps.com or a Yoast SEO plugin (if you use WordPress)</li>
               <li>Upload it to your website root as <code>sitemap.xml</code></li>
               <li>Submit it in Google Search Console under Sitemaps</li>
-              <li>Check the status after a few days — it should show "Success"</li>
+              <li>Check the status after a few days - it should show "Success"</li>
             </ol>
             <p><strong>Common mistake:</strong> Generating a sitemap once and never updating it. If you add new pages, your sitemap should include them.</p>
-            <p><strong>Pro Tip:</strong> If you use WordPress, install Yoast SEO or Rank Math — they auto-generate and update your sitemap every time you publish new content.</p>
+            <p><strong>Pro Tip:</strong> If you use WordPress, install Yoast SEO or Rank Math - they auto-generate and update your sitemap every time you publish new content.</p>
           </>
         ),
       },
@@ -4345,14 +4475,14 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step fix:</strong></p>
             <ol>
-              <li>Run your site through Google's Rich Results Test to check for schema markup</li>
+              <li>Run your site through Google’s Rich Results Test to check for schema markup</li>
               <li>Add structured data for your business type (LocalBusiness, Article, Product, etc.)</li>
-              <li>Fix canonical tags — each page should point to itself as the canonical version</li>
+              <li>Fix canonical tags - each page should point to itself as the canonical version</li>
               <li>Switch to HTTPS if you have not already (Google prioritizes secure sites)</li>
-              <li>Clean up your URL structure — use short, descriptive, keyword-rich URLs</li>
+              <li>Clean up your URL structure - use short, descriptive, keyword-rich URLs</li>
             </ol>
             <p><strong>Common mistake:</strong> Focusing only on content and ignoring technical foundations. Great content on a technically broken site will not rank.</p>
-            <p><strong>Pro Tip:</strong> Use Google Search Console's Enhancement reports to find structured data errors and fix them directly. Each fix can improve how your listing looks in search results.</p>
+            <p><strong>Pro Tip:</strong> Use Google Search Console’s Enhancement reports to find structured data errors and fix them directly. Each fix can improve how your listing looks in search results.</p>
           </>
         ),
       },
@@ -4369,16 +4499,16 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <ul>
               <li>You rank for your brand name but not for service-related keywords</li>
               <li>Your pages target one-word keywords like "marketing" instead of specific phrases</li>
-              <li>You have no keyword strategy — you just wrote what felt right</li>
+              <li>You have no keyword strategy - you just wrote what felt right</li>
             </ul>
             <p><strong>Step-by-step fix:</strong></p>
             <ol>
               <li>Use Google Keyword Planner or Ahrefs to find keywords with decent search volume and low-to-medium competition</li>
               <li>Target long-tail keywords (3+ words) like "emergency plumber in Chicago" instead of just "plumber"</li>
-              <li>Map each keyword to a specific page — one primary keyword per page</li>
+              <li>Map each keyword to a specific page - one primary keyword per page</li>
               <li>Include the keyword in your title tag, H1, first paragraph, and URL</li>
             </ol>
-            <p><strong>Common mistake:</strong> Targeting broad keywords with massive competition. A new site cannot compete for "best restaurants" — but it can rank for "best Italian restaurant in [your city]."</p>
+            <p><strong>Common mistake:</strong> Targeting broad keywords with massive competition. A new site cannot compete for "best restaurants" - but it can rank for "best Italian restaurant in [your city]."</p>
             <p><strong>Pro Tip:</strong> Look at the "People also ask" section in Google search results for your topic. Those questions are keywords you should be answering in your content.</p>
           </>
         ),
@@ -4390,7 +4520,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/7679733/pexels-photo-7679733.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person working on a content plan on a laptop representing content writing and strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it happens:</strong> Google's algorithm prioritizes content that provides real value to users. Pages with very little text, generic descriptions, or no useful information are considered "thin content" and get ignored.
+              <strong>Why it happens:</strong> Google’s algorithm prioritizes content that provides real value to users. Pages with very little text, generic descriptions, or no useful information are considered "thin content" and get ignored.
             </p>
             <p><strong>Signs to look for:</strong></p>
             <ul>
@@ -4401,11 +4531,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step fix:</strong></p>
             <ol>
-              <li>Aim for at least 800–1,500 words on important pages</li>
+              <li>Aim for at least 800-1,500 words on important pages</li>
               <li>Answer specific questions your customers actually ask</li>
               <li>Add original insights, examples, or case studies that competitors do not have</li>
               <li>Use headings, bullet points, and images to make content scannable</li>
-              <li>Update old content regularly — Google rewards fresh, relevant pages</li>
+              <li>Update old content regularly - Google rewards fresh, relevant pages</li>
             </ol>
             <p><strong>Common mistake:</strong> Writing content for search engines instead of humans. If a real person cannot get value from your page, Google will not rank it.</p>
             <p><strong>Pro Tip:</strong> Before writing a page, search for the topic on Google and read the top 3 results. Then write something better, more detailed, and more useful than all of them.</p>
@@ -4432,7 +4562,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Use a tool like Siteliner or Copyscape to find duplicate content on your site</li>
               <li>Rewrite duplicate pages to make each one unique and valuable</li>
               <li>Use canonical tags to tell Google which version of similar pages is the main one</li>
-              <li>Never copy content from other websites — always write original text</li>
+              <li>Never copy content from other websites - always write original text</li>
             </ol>
             <p><strong>Common mistake:</strong> Using the same boilerplate description across multiple location or product pages. Each page needs unique content.</p>
             <p><strong>Pro Tip:</strong> If you have similar pages (like product variants), use canonical tags to consolidate them. This tells Google "these are related, but this is the main page."</p>
@@ -4446,7 +4576,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/3570733/pexels-photo-3570733.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Glass hourglass representing slow website speed and loading performance issues" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it happens:</strong> Google uses page speed as a ranking factor. If your site takes more than 3 seconds to load, Google lowers its ranking — and visitors leave before the page even finishes loading.
+              <strong>Why it happens:</strong> Google uses page speed as a ranking factor. If your site takes more than 3 seconds to load, Google lowers its ranking - and visitors leave before the page even finishes loading.
             </p>
             <p><strong>Signs to look for:</strong></p>
             <ul>
@@ -4458,7 +4588,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Step-by-step fix:</strong></p>
             <ol>
               <li>Test your site with Google PageSpeed Insights and Lighthouse</li>
-              <li>Compress all images — use WebP format and lazy loading</li>
+              <li>Compress all images - use WebP format and lazy loading</li>
               <li>Minify CSS, JavaScript, and HTML files</li>
               <li>Use a CDN (Content Delivery Network) like Cloudflare</li>
               <li>Enable browser caching and GZIP compression</li>
@@ -4486,14 +4616,14 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p><strong>Step-by-step fix:</strong></p>
             <ol>
-              <li>Create link-worthy content — original research, guides, infographics, or tools</li>
+              <li>Create link-worthy content - original research, guides, infographics, or tools</li>
               <li>Reach out to industry blogs and offer guest posts</li>
               <li>Get listed in relevant business directories and industry associations</li>
               <li>Build relationships with local news sites and blogs for natural mentions</li>
-              <li>Avoid buying backlinks — Google penalizes paid links</li>
+              <li>Avoid buying backlinks - Google penalizes paid links</li>
             </ol>
             <p><strong>Common mistake:</strong> Focusing on quantity over quality. One backlink from a respected industry site is worth more than 100 links from spammy directories.</p>
-            <p><strong>Pro Tip:</strong> Check which sites link to your competitors using Ahrefs' "Link Intersect" tool. If they link to your competitor, they might link to you too — especially if your content is better.</p>
+            <p><strong>Pro Tip:</strong> Check which sites link to your competitors using Ahrefs' "Link Intersect" tool. If they link to your competitor, they might link to you too - especially if your content is better.</p>
           </>
         ),
       },
@@ -4504,7 +4634,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img src="https://images.pexels.com/photos/6033812/pexels-photo-6033812.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Magnifying glass on a map representing local SEO and local business search visibility" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
-              <strong>Why it happens:</strong> If you serve a local area, <strong>local SEO</strong> is critical. Without an optimized Google Business Profile and local citations, you will not appear in the local pack — the map results that show up for local searches.
+              <strong>Why it happens:</strong> If you serve a local area, <strong>local SEO</strong> is critical. Without an optimized Google Business Profile and local citations, you will not appear in the local pack - the map results that show up for local searches.
             </p>
             <p><strong>Signs to look for:</strong></p>
             <ul>
@@ -4516,13 +4646,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p><strong>Step-by-step fix:</strong></p>
             <ol>
               <li>Claim and verify your Google Business Profile at business.google.com</li>
-              <li>Fill out every field — categories, hours, services, photos, and description</li>
+              <li>Fill out every field - categories, hours, services, photos, and description</li>
               <li>Get consistent NAP (Name, Address, Phone) across all online directories</li>
               <li>Ask happy customers to leave Google reviews and respond to every review</li>
               <li>Create location-specific landing pages if you serve multiple areas</li>
             </ol>
             <p><strong>Common mistake:</strong> Setting up a Google Business Profile and never updating it. Post updates, add new photos, and respond to reviews regularly.</p>
-            <p><strong>Pro Tip:</strong> Use Google Business Profile posts weekly — they appear in local search results and signal to Google that your listing is active and maintained.</p>
+            <p><strong>Pro Tip:</strong> Use Google Business Profile posts weekly - they appear in local search results and signal to Google that your listing is active and maintained.</p>
           </>
         ),
       },
@@ -4537,20 +4667,20 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <p><strong>Signs to look for:</strong></p>
             <ul>
-              <li>Your domain was registered less than 3–6 months ago</li>
+              <li>Your domain was registered less than 3-6 months ago</li>
               <li>You have very few pages or very little content</li>
               <li>No other websites link to yours yet</li>
             </ul>
             <p><strong>Step-by-step fix:</strong></p>
             <ol>
               <li>Submit your sitemap to Google Search Console immediately after launch</li>
-              <li>Publish 5–10 high-quality pages right away — not just a homepage</li>
+              <li>Publish 5-10 high-quality pages right away - not just a homepage</li>
               <li>Get your first backlinks from business directories, social profiles, and partners</li>
               <li>Share your content on social media to drive initial traffic</li>
-              <li>Be patient — new sites typically take 3–6 months to start ranking</li>
+              <li>Be patient - new sites typically take 3-6 months to start ranking</li>
             </ol>
             <p><strong>Common mistake:</strong> Expecting instant results. SEO is a long-term investment. A new site that does everything right still needs time to build trust.</p>
-            <p><strong>Pro Tip:</strong> Use the first 3 months to build a strong foundation — content, technical SEO, and a few quality backlinks. The rankings will follow.</p>
+            <p><strong>Pro Tip:</strong> Use the first 3 months to build a strong foundation - content, technical SEO, and a few quality backlinks. The rankings will follow.</p>
           </>
         ),
       },
@@ -4571,18 +4701,18 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not indexed</td><td className="py-2.5 px-4 text-red-400">Critical</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">1–3 days</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Robots.txt blocking</td><td className="py-2.5 px-4 text-red-400">Critical</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">1–3 days</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">No sitemap</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">3–7 days</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Crawl errors</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1–2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Slow speed</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">4–8 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Thin content</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">4–8 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Technical SEO</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-red-400">Hard</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Duplicate content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">No backlinks</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-red-400">Hard</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Weak local SEO</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2–4 weeks</td></tr>
-                  <tr><td className="py-2.5 px-4 text-slate-300">New website</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">3–6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not indexed</td><td className="py-2.5 px-4 text-red-400">Critical</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">1-3 days</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Robots.txt blocking</td><td className="py-2.5 px-4 text-red-400">Critical</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">1-3 days</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">No sitemap</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">3-7 days</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Crawl errors</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Slow speed</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">4-8 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Thin content</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">4-8 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Technical SEO</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-red-400">Hard</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Duplicate content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">No backlinks</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-red-400">Hard</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
+                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Weak local SEO</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
+                  <tr><td className="py-2.5 px-4 text-slate-300">New website</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
                 </tbody>
               </table>
             </div>
@@ -4594,7 +4724,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Your Website SEO Checklist',
         body: (
           <>
-            <p>Print this out or bookmark it. Work through each item — by the end, your site will be in much better shape for Google:</p>
+            <p>Print this out or bookmark it. Work through each item - by the end, your site will be in much better shape for Google:</p>
             <ul>
               <li><input type="checkbox" disabled className="mr-2" /> Verify your site in Google Search Console</li>
               <li><input type="checkbox" disabled className="mr-2" /> Submit an XML sitemap</li>
@@ -4606,7 +4736,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li><input type="checkbox" disabled className="mr-2" /> Write at least 800 words of original content per page</li>
               <li><input type="checkbox" disabled className="mr-2" /> Check for and fix duplicate content</li>
               <li><input type="checkbox" disabled className="mr-2" /> Set up and optimize your Google Business Profile</li>
-              <li><input type="checkbox" disabled className="mr-2" /> Build your first 5–10 quality backlinks</li>
+              <li><input type="checkbox" disabled className="mr-2" /> Build your first 5-10 quality backlinks</li>
               <li><input type="checkbox" disabled className="mr-2" /> Add structured data (schema markup) to key pages</li>
             </ul>
           </>
@@ -4618,7 +4748,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>
-              If your website is not showing on Google, the problem almost always comes down to one of these 12 issues. The good news is that most of them are fixable — and many can be resolved in a single afternoon.
+              If your website is not showing on Google, the problem almost always comes down to one of these 12 issues. The good news is that most of them are fixable - and many can be resolved in a single afternoon.
             </p>
             <p>
               Start with the basics: verify your site in Google Search Console, submit a sitemap, and make sure robots.txt is not blocking Google. Then work through the content and technical SEO issues one by one.
@@ -4634,11 +4764,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       },
     ],
     faqs: [
-      { q: 'How long does it take for Google to index a new website?', a: 'Google typically indexes a new website within 1–3 days if you submit it through Google Search Console. Without manual submission, it can take weeks. Submitting a sitemap and requesting indexing for key pages speeds up the process significantly.' },
+      { q: 'How long does it take for Google to index a new website?', a: 'Google typically indexes a new website within 1-3 days if you submit it through Google Search Console. Without manual submission, it can take weeks. Submitting a sitemap and requesting indexing for key pages speeds up the process significantly.' },
       { q: 'How do I check if my website is indexed on Google?', a: 'Type "site:yourdomain.com" into Google search. If results appear, your site is indexed. If you see "No results found," your site is not indexed. You can also check the Coverage report in Google Search Console for detailed indexing status.' },
       { q: 'Why does my website show up for my business name but not for keywords?', a: 'This usually means your site has some authority but not enough to rank for competitive keywords. Focus on targeting more specific long-tail keywords, improving your content depth, and building quality backlinks to increase your site\'s authority.' },
       { q: 'Can a slow website really affect my Google ranking?', a: 'Yes. Google uses page speed as a ranking factor, especially for mobile searches. If your site takes longer than 3 seconds to load, it can hurt your rankings and drive visitors away. Use Google PageSpeed Insights to identify and fix speed issues.' },
-      { q: 'Do I need to pay for Google to show my website in search results?', a: 'No. Organic search results on Google are free. You cannot pay Google to rank higher in organic results. However, you can run Google Ads to appear at the top of search results immediately — but those are paid placements, not organic rankings.' },
+      { q: 'Do I need to pay for Google to show my website in search results?', a: 'No. Organic search results on Google are free. You cannot pay Google to rank higher in organic results. However, you can run Google Ads to appear at the top of search results immediately - but those are paid placements, not organic rankings.' },
     ],
   },
   'how-to-get-more-dental-patients-from-google': {
@@ -4660,7 +4790,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               You built a beautiful dental website. You hired a designer. You listed all your services. You even added a contact form. But when you search for a dentist in your city on Google, your practice is nowhere to be found.
             </p>
             <p>
-              Instead, you watch other dental clinics show up at the top of Google Maps and Google Search. They get the calls. They get the new patients. They get the online appointment requests — while your chairs sit empty on weekdays.
+              Instead, you watch other dental clinics show up at the top of Google Maps and Google Search. They get the calls. They get the new patients. They get the online appointment requests - while your chairs sit empty on weekdays.
             </p>
             <p>
               If that sounds familiar, you are not alone. Most dental practices struggle with the same problem. They have a great website but no organic traffic. And without traffic, a website is just a digital brochure that nobody reads.
@@ -4669,7 +4799,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Here is the truth: patients are searching on Google right now. They type "dentist near me," "emergency dentist in [city]," "cosmetic dentist," "teeth whitening near me." If your practice does not show up for those searches, those patients go to your competitors.
             </p>
             <p>
-              The good news is that you do not need a massive advertising budget to fix this. Dental SEO — the process of optimizing your website and online presence to rank higher on Google — can bring you a steady stream of new patients for free. Once you rank, the traffic keeps coming month after month without paying for every click.
+              The good news is that you do not need a massive advertising budget to fix this. Dental SEO - the process of optimizing your website and online presence to rank higher on Google - can bring you a steady stream of new patients for free. Once you rank, the traffic keeps coming month after month without paying for every click.
             </p>
             <p>
               In this guide, I will walk you through 12 proven dental SEO strategies that actually work. These are the same methods we use at Rank Flow Agency to help dental practices grow. No fluff. No theory. Just practical steps you can start using today.
@@ -4691,16 +4821,16 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              Your Google Business Profile is the most powerful tool for local SEO for dentists. It is the listing that appears on Google Maps and in the local pack — the top three results that show up when someone searches for a dentist nearby.
+              Your Google Business Profile is the most powerful tool for local SEO for dentists. It is the listing that appears on Google Maps and in the local pack - the top three results that show up when someone searches for a dentist nearby.
             </p>
             <h3>Why it matters</h3>
             <p>
-              When someone searches "dentist near me," Google shows the local pack first. If your profile is incomplete or unoptimized, you will not appear there — and you will lose that patient to a competitor who does.
+              When someone searches "dentist near me," Google shows the local pack first. If your profile is incomplete or unoptimized, you will not appear there - and you will lose that patient to a competitor who does.
             </p>
             <h3>Common mistakes</h3>
             <ul>
               <li>Choosing "Dentist" as your only category instead of specific categories like "Cosmetic Dentist" or "Emergency Dentist"</li>
-              <li>Leaving fields empty — no services listed, no hours, no description</li>
+              <li>Leaving fields empty - no services listed, no hours, no description</li>
               <li>Not adding photos of your office, team, and equipment</li>
               <li>Ignoring patient questions on the profile</li>
             </ul>
@@ -4710,7 +4840,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Choose the most specific primary category (e.g., "Cosmetic Dentist" rather than just "Dentist")</li>
               <li>Fill out every field: hours, phone, website, services, attributes like "wheelchair accessible"</li>
               <li>Write a 750-character description that includes your city, services, and what makes your practice unique</li>
-              <li>Add at least 20 photos — your office, team, equipment, before/after smiles</li>
+              <li>Add at least 20 photos - your office, team, equipment, before/after smiles</li>
               <li>Post weekly updates about services, offers, or dental tips</li>
             </ul>
             <p>
@@ -4736,11 +4866,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              Patients do not search for your practice by name — they search by service and location. "Dentist near me," "emergency dentist in Dallas," "teeth whitening in Austin." If your website does not include these local keywords, Google will not show you for those searches.
+              Patients do not search for your practice by name - they search by service and location. "Dentist near me," "emergency dentist in Dallas," "teeth whitening in Austin." If your website does not include these local keywords, Google will not show you for those searches.
             </p>
             <h3>Why it matters</h3>
             <p>
-              Local keywords tell Google exactly where you are and what you do. Without them, your website competes nationally — and you will never outrank national dental directories for broad terms like "dentist."
+              Local keywords tell Google exactly where you are and what you do. Without them, your website competes nationally - and you will never outrank national dental directories for broad terms like "dentist."
             </p>
             <h3>Common mistakes</h3>
             <ul>
@@ -4754,7 +4884,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Use Google Keyword Planner or Ubersuggest to find local dental keywords</li>
               <li>Map each keyword to a specific page on your website</li>
               <li>Include your city and neighborhood in title tags, H1s, and meta descriptions</li>
-              <li>Use keywords naturally in your page content — never force them</li>
+              <li>Use keywords naturally in your page content - never force them</li>
               <li>Create location pages if you serve multiple areas</li>
             </ul>
             <p>
@@ -4873,7 +5003,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3>Why it matters</h3>
             <p>
-              Google uses mobile-first indexing. This means Google looks at the mobile version of your website first to decide rankings. If your mobile site is broken or slow, your rankings will suffer — even if your desktop site is perfect.
+              Google uses mobile-first indexing. This means Google looks at the mobile version of your website first to decide rankings. If your mobile site is broken or slow, your rankings will suffer - even if your desktop site is perfect.
             </p>
             <h3>Common mistakes</h3>
             <ul>
@@ -4884,7 +5014,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <h3>Step-by-step implementation</h3>
             <ul>
-              <li>Test your site with Google's Mobile-Friendly Test tool</li>
+              <li>Test your site with Google’s Mobile-Friendly Test tool</li>
               <li>Use a responsive theme that adapts to all screen sizes</li>
               <li>Make your phone number clickable (tel: links)</li>
               <li>Ensure font size is at least 16px on mobile</li>
@@ -4895,7 +5025,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <em>Example:</em> A dental clinic in Seattle made their phone number clickable and added a sticky "Book Appointment" button on mobile. Mobile conversions (calls and form submissions) increased by 45% within one month.
             </p>
             <p>
-              <strong>Pro Tip:</strong> Use Google's Chrome DevTools mobile emulator to test your website on different screen sizes. Every page should be easy to navigate with one thumb.
+              <strong>Pro Tip:</strong> Use Google’s Chrome DevTools mobile emulator to test your website on different screen sizes. Every page should be easy to navigate with one thumb.
             </p>
           </>
         ),
@@ -4918,7 +5048,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3>Why it matters</h3>
             <p>
-              When patients see a dental practice with 200 reviews and a 4.8 rating next to one with 12 reviews and a 4.2 rating, they choose the one with more reviews. Reviews build trust — and Google rewards trust with higher rankings.
+              When patients see a dental practice with 200 reviews and a 4.8 rating next to one with 12 reviews and a 4.2 rating, they choose the one with more reviews. Reviews build trust - and Google rewards trust with higher rankings.
             </p>
             <h3>Common mistakes</h3>
             <ul>
@@ -4929,11 +5059,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <h3>Step-by-step implementation</h3>
             <ul>
-              <li>Ask for reviews at the right moment — right after a successful appointment</li>
+              <li>Ask for reviews at the right moment - right after a successful appointment</li>
               <li>Train your front desk staff to mention reviews when patients express satisfaction</li>
               <li>Send a follow-up email or text 24 hours after each appointment with a direct review link</li>
               <li>Place a QR code in your waiting room that links to your Google review page</li>
-              <li>Respond to every review — thank happy patients and address concerns professionally</li>
+              <li>Respond to every review - thank happy patients and address concerns professionally</li>
             </ul>
             <p>
               <em>Example:</em> A dental practice in Chicago started sending review request texts after appointments. They went from 34 reviews to 210 reviews in five months. Their Google Maps ranking moved from page 2 to the local pack top 3.
@@ -4958,7 +5088,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              Citations are mentions of your dental practice on other websites — directories like Yelp, Healthgrades, Doctor.com, and Apple Maps. Each citation includes your name, address, and phone number (NAP). Google uses these to verify your practice exists and is located where you say it is.
+              Citations are mentions of your dental practice on other websites - directories like Yelp, Healthgrades, Doctor.com, and Apple Maps. Each citation includes your name, address, and phone number (NAP). Google uses these to verify your practice exists and is located where you say it is.
             </p>
             <h3>Why it matters</h3>
             <p>
@@ -5006,7 +5136,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3>Why it matters</h3>
             <p>
-              Every blog post is a new opportunity to rank on Google. A dental practice with 30 blog posts has 30 chances to appear in search results. A practice with zero blog posts has only their service pages — and those are much harder to rank.
+              Every blog post is a new opportunity to rank on Google. A dental practice with 30 blog posts has 30 chances to appear in search results. A practice with zero blog posts has only their service pages - and those are much harder to rank.
             </p>
             <h3>Common mistakes</h3>
             <ul>
@@ -5019,7 +5149,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <ul>
               <li>Make a list of 20 questions your patients ask you every week</li>
               <li>Write one blog post per week answering each question (800-1,200 words)</li>
-              <li>Use a simple, friendly tone — write like you are talking to a patient in your chair</li>
+              <li>Use a simple, friendly tone - write like you are talking to a patient in your chair</li>
               <li>Link each blog post to a relevant service page (e.g., a post about implants links to your implants page)</li>
               <li>Share your blog posts on social media and in your email newsletter</li>
             </ul>
@@ -5027,7 +5157,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <em>Example:</em> A dental practice in Austin started publishing weekly blog posts answering patient questions. After six months, their blog drove 1,500 monthly visitors. Many of those visitors booked appointments after reading the blog.
             </p>
             <p>
-              <strong>Pro Tip:</strong> Use Google's "People Also Ask" feature to find questions patients are searching for. Type "dental implants" into Google and look at the questions that appear — each one is a blog post idea.
+              <strong>Pro Tip:</strong> Use Google’s "People Also Ask" feature to find questions patients are searching for. Type "dental implants" into Google and look at the questions that appear - each one is a blog post idea.
             </p>
           </>
         ),
@@ -5050,7 +5180,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3>Why it matters</h3>
             <p>
-              Internal links help Google crawl and understand your website. They also keep visitors on your site longer. A patient reading a blog post about Invisalign should be able to click directly to your Invisalign service page — not hunt for it in the menu.
+              Internal links help Google crawl and understand your website. They also keep visitors on your site longer. A patient reading a blog post about Invisalign should be able to click directly to your Invisalign service page - not hunt for it in the menu.
             </p>
             <h3>Common mistakes</h3>
             <ul>
@@ -5090,7 +5220,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              Title tags and meta descriptions are what appear in Google search results. They are the first thing a potential patient sees before they click. If they are boring or generic, people will skip your listing — even if you rank #1.
+              Title tags and meta descriptions are what appear in Google search results. They are the first thing a potential patient sees before they click. If they are boring or generic, people will skip your listing - even if you rank #1.
             </p>
             <h3>Why it matters</h3>
             <p>
@@ -5134,11 +5264,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              Backlinks are links from other websites to yours. Google treats them like votes of confidence. The more high-quality websites link to your dental practice, the more Google trusts you — and the higher you rank.
+              Backlinks are links from other websites to yours. Google treats them like votes of confidence. The more high-quality websites link to your dental practice, the more Google trusts you - and the higher you rank.
             </p>
             <h3>Why it matters</h3>
             <p>
-              Backlinks remain one of Google's top ranking factors. But not all backlinks are equal. A link from your local dental association is worth more than 50 links from random spam directories. Quality beats quantity.
+              Backlinks remain one of Google’s top ranking factors. But not all backlinks are equal. A link from your local dental association is worth more than 50 links from random spam directories. Quality beats quantity.
             </p>
             <h3>Common mistakes</h3>
             <ul>
@@ -5156,10 +5286,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Use a tool like Ahrefs or Ubersuggest to see which sites link to your competitors and reach out to them</li>
             </ul>
             <p>
-              <em>Example:</em> A dental practice in Nashville sponsored a local Little League team and got a link from the league's website. They also joined the Tennessee Dental Association and got a directory link. These two local backlinks helped them rank in the top 3 for "dentist in Nashville" within four months.
+              <em>Example:</em> A dental practice in Nashville sponsored a local Little League team and got a link from the league’s website. They also joined the Tennessee Dental Association and got a directory link. These two local backlinks helped them rank in the top 3 for "dentist in Nashville" within four months.
             </p>
             <p>
-              <strong>Pro Tip:</strong> Focus on local relevance. A link from your city's chamber of commerce is worth more than 10 links from websites in other countries.
+              <strong>Pro Tip:</strong> Focus on local relevance. A link from your city’s chamber of commerce is worth more than 10 links from websites in other countries.
             </p>
           </>
         ),
@@ -5204,7 +5334,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <em>Example:</em> A dental clinic in Orlando found through Google Search Console that they ranked #14 for "affordable dental implants in Orlando." They optimized that page with more content and internal links. Within six weeks, the page moved to #4, bringing in 80+ new visitors per month.
             </p>
             <p>
-              <strong>Pro Tip:</strong> Connect Google Search Console to Google Analytics. This gives you a complete picture — which searches bring visitors and what those visitors do on your site.
+              <strong>Pro Tip:</strong> Connect Google Search Console to Google Analytics. This gives you a complete picture - which searches bring visitors and what those visitors do on your site.
             </p>
           </>
         ),
@@ -5269,7 +5399,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               </table>
             </div>
             <p>
-              The smartest dental practices use both — ads for immediate patients while SEO builds, then reduce ads as SEO traffic grows. But if you can only choose one for long-term growth, SEO wins every time.
+              The smartest dental practices use both - ads for immediate patients while SEO builds, then reduce ads as SEO traffic grows. But if you can only choose one for long-term growth, SEO wins every time.
             </p>
           </>
         ),
@@ -5299,7 +5429,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Include 3-5 FAQs on each service page</li>
               <li>Test website speed with Google PageSpeed Insights</li>
               <li>Compress all images to under 200KB</li>
-              <li>Test mobile-friendliness with Google's Mobile-Friendly Test</li>
+              <li>Test mobile-friendliness with Google’s Mobile-Friendly Test</li>
               <li>Add a clickable phone number and sticky "Book Now" button on mobile</li>
               <li>Set up a review collection system (email or text after appointments)</li>
               <li>Respond to every Google review (positive and negative)</li>
@@ -5327,13 +5457,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Getting more dental patients from Google is not about luck. It is about doing the right things consistently. The 12 strategies in this guide are proven to work for dental practices of all sizes.
             </p>
             <p>
-              Start with your Google Business Profile — that alone will put you ahead of most competitors. Then create service pages, collect reviews, publish helpful content, and fix technical issues. Each step compounds. In 3-6 months, you will see more organic traffic, more calls, and more new patients booking appointments.
+              Start with your Google Business Profile - that alone will put you ahead of most competitors. Then create service pages, collect reviews, publish helpful content, and fix technical issues. Each step compounds. In 3-6 months, you will see more organic traffic, more calls, and more new patients booking appointments.
             </p>
             <p>
               But SEO takes time and consistency. If you are running a dental practice, you already have a full-time job. You should not have to become an SEO expert too.
             </p>
             <p>
-              That is where Rank Flow Agency comes in. We specialize in dental SEO and dental clinic marketing. We handle everything — your Google Business Profile, website optimization, content creation, review generation, local citations, and technical SEO. Our goal is simple: help you get more dental patients from Google so you can focus on providing great care.
+              That is where Rank Flow Agency comes in. We specialize in dental SEO and dental clinic marketing. We handle everything - your Google Business Profile, website optimization, content creation, review generation, local citations, and technical SEO. Our goal is simple: help you get more dental patients from Google so you can focus on providing great care.
             </p>
             <p>
               <strong>Want to know exactly why your dental practice is not ranking on Google?</strong> <a href="#/contact">Get a free dental SEO audit from Rank Flow Agency today.</a> We will identify every issue and give you a clear, step-by-step plan to grow your practice.
@@ -5348,7 +5478,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
     faqs: [
       {
         q: 'How long does dental SEO take to show results?',
-        a: 'Most dental practices see noticeable improvements in Google rankings within 3-6 months of consistent SEO work. Some changes — like optimizing your Google Business Profile — can show results in 2-4 weeks. Long-term ranking gains typically compound over 6-12 months.',
+        a: 'Most dental practices see noticeable improvements in Google rankings within 3-6 months of consistent SEO work. Some changes - like optimizing your Google Business Profile - can show results in 2-4 weeks. Long-term ranking gains typically compound over 6-12 months.',
       },
       {
         q: 'Do I need a new website for dental SEO to work?',
@@ -5360,7 +5490,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       },
       {
         q: 'Can I do dental SEO myself or do I need an agency?',
-        a: 'You can start with basic steps like claiming your Google Business Profile, collecting reviews, and optimizing title tags. However, dental SEO requires ongoing work — content creation, technical optimization, link building, and performance tracking. Most busy dentists benefit from hiring an agency to handle it.',
+        a: 'You can start with basic steps like claiming your Google Business Profile, collecting reviews, and optimizing title tags. However, dental SEO requires ongoing work - content creation, technical optimization, link building, and performance tracking. Most busy dentists benefit from hiring an agency to handle it.',
       },
       {
         q: 'What is the most important dental SEO strategy?',
@@ -5387,13 +5517,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               You poured your heart into your restaurant. The food is great. The service is warm. The atmosphere is exactly what your neighborhood needed. But every time someone searches "restaurant near me" on Google, your place is nowhere to be found.
             </p>
             <p>
-              Instead, you watch competitors with worse food and higher prices show up at the top of Google Maps. You see them get the reservations, the foot traffic, the online orders — while your tables sit half empty on a Friday night.
+              Instead, you watch competitors with worse food and higher prices show up at the top of Google Maps. You see them get the reservations, the foot traffic, the online orders - while your tables sit half empty on a Friday night.
             </p>
             <p>
               It is frustrating. It is unfair. And if you do not know how local SEO works, it feels impossible to fix.
             </p>
             <p>
-              Here is the good news: getting your restaurant to show up on Google is not magic. It is a system. And once you understand how that system works, you can start ranking higher, getting found by more customers, and filling more tables — without paying for ads.
+              Here is the good news: getting your restaurant to show up on Google is not magic. It is a system. And once you understand how that system works, you can start ranking higher, getting found by more customers, and filling more tables - without paying for ads.
             </p>
             <p>
               In this guide, I will walk you through 11 proven fixes for restaurant Google ranking. Whether you are a new restaurant just starting out or an established spot that has been invisible on Google for years, these steps will help you improve your online visibility and get more customers through your doors.
@@ -5415,7 +5545,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              Your Google Business Profile (formerly Google My Business) is the single most important factor in local SEO for restaurants. It is the listing that appears on Google Maps and in the local pack — the top three results that show up when someone searches for a restaurant nearby.
+              Your Google Business Profile (formerly Google My Business) is the single most important factor in local SEO for restaurants. It is the listing that appears on Google Maps and in the local pack - the top three results that show up when someone searches for a restaurant nearby.
             </p>
             <p>
               If you have not claimed your profile, Google may have created one automatically using publicly available data. That auto-generated profile is often incomplete, inaccurate, and unoptimized. Claiming it gives you control.
@@ -5423,9 +5553,9 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <h3>How to optimize your Google Business Profile</h3>
             <ul>
               <li><strong>Verify your ownership.</strong> Go to business.google.com, search for your restaurant, and follow the verification process (usually a postcard with a code arrives in 1-2 weeks).</li>
-              <li><strong>Fill out every field.</strong> Hours, phone number, website URL, menu link, reservation link, attributes like "outdoor seating" or "family-friendly" — fill in everything Google asks for.</li>
+              <li><strong>Fill out every field.</strong> Hours, phone number, website URL, menu link, reservation link, attributes like "outdoor seating" or "family-friendly" - fill in everything Google asks for.</li>
               <li><strong>Choose the right primary category.</strong> "Restaurant" is too broad. Be specific: "Italian Restaurant," "Sushi Restaurant," "Mexican Restaurant." This single choice affects which searches you appear in.</li>
-              <li><strong>Write a compelling description.</strong> Use 750 characters to describe your food, atmosphere, and what makes you unique. Include keywords naturally — do not stuff them.</li>
+              <li><strong>Write a compelling description.</strong> Use 750 characters to describe your food, atmosphere, and what makes you unique. Include keywords naturally - do not stuff them.</li>
               <li><strong>Add photos regularly.</strong> Restaurants with 100+ photos get significantly more direction requests and calls than those with fewer than 10.</li>
             </ul>
             <p>
@@ -5448,7 +5578,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              NAP stands for Name, Address, and Phone number. Google uses these citations across the web to verify your restaurant's existence and location. If your NAP is inconsistent — different phone numbers on Yelp, Facebook, and your website — Google loses trust and may rank you lower.
+              NAP stands for Name, Address, and Phone number. Google uses these citations across the web to verify your restaurant’s existence and location. If your NAP is inconsistent - different phone numbers on Yelp, Facebook, and your website - Google loses trust and may rank you lower.
             </p>
             <h3>How to fix your NAP citations</h3>
             <ul>
@@ -5458,7 +5588,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Check for duplicate listings and request removal of any old or closed listings.</li>
             </ul>
             <p>
-              <em>Example:</em> A burger joint in Chicago had two different phone numbers listed online — their old landline and their new mobile. Google saw conflicting data and demoted their listing. After updating all citations to the correct number, their Google Maps ranking improved within two weeks.
+              <em>Example:</em> A burger joint in Chicago had two different phone numbers listed online - their old landline and their new mobile. Google saw conflicting data and demoted their listing. After updating all citations to the correct number, their Google Maps ranking improved within two weeks.
             </p>
           </>
         ),
@@ -5481,7 +5611,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3>Essential pages for restaurant website SEO</h3>
             <ul>
-              <li><strong>Homepage:</strong> Include your restaurant name, cuisine type, city, and neighborhood in the title tag and H1. Example: "Best Italian Restaurant in Downtown Seattle | Marco's Trattoria"</li>
+              <li><strong>Homepage:</strong> Include your restaurant name, cuisine type, city, and neighborhood in the title tag and H1. Example: "Best Italian Restaurant in Downtown Seattle | Marco’s Trattoria"</li>
               <li><strong>Menu page:</strong> Use text, not a PDF. Google cannot read PDFs well. Include dish names, descriptions, and prices as HTML text.</li>
               <li><strong>About page:</strong> Tell your story. Google values unique, original content. A 300-word about page helps.</li>
               <li><strong>Contact page:</strong> Include your full address, phone number, hours, and an embedded Google Map.</li>
@@ -5500,18 +5630,18 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <img
               src="https://images.pexels.com/photos/29147202/pexels-photo-29147202.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Charming New York City street corner cafe, representing a restaurant's local presence and Google review visibility"
+              alt="Charming New York City street corner cafe, representing a restaurant’s local presence and Google review visibility"
               className="my-6 w-full rounded-2xl border border-white/10"
               loading="lazy"
               width={1200}
               height={630}
             />
             <p>
-              Reviews are one of the top three ranking factors for local SEO. Restaurants with more reviews and higher ratings rank higher on Google Maps. But it is not just about quantity — Google also looks at how recent your reviews are and whether you respond to them.
+              Reviews are one of the top three ranking factors for local SEO. Restaurants with more reviews and higher ratings rank higher on Google Maps. But it is not just about quantity - Google also looks at how recent your reviews are and whether you respond to them.
             </p>
             <h3>How to get more Google reviews</h3>
             <ul>
-              <li><strong>Ask at the right moment.</strong> Train your staff to ask for a review when customers express satisfaction — right after a great meal, not at the end of a rushed bill.</li>
+              <li><strong>Ask at the right moment.</strong> Train your staff to ask for a review when customers express satisfaction - right after a great meal, not at the end of a rushed bill.</li>
               <li><strong>Use a QR code.</strong> Place a QR code on your check presenter or receipt that links directly to your Google review page.</li>
               <li><strong>Follow up by email.</strong> If you take online orders, send a follow-up email 24 hours later asking for a review with a direct link.</li>
               <li><strong>Respond to every review.</strong> Thank happy customers by name. For negative reviews, apologize professionally and offer to make it right. Google sees active engagement as a positive signal.</li>
@@ -5536,7 +5666,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              People do not search for your restaurant by name — they search by cuisine and location. "Best tacos near me," "Italian restaurant in downtown," "brunch in Austin." If your website does not include these local keywords, Google will not show you for those searches.
+              People do not search for your restaurant by name - they search by cuisine and location. "Best tacos near me," "Italian restaurant in downtown," "brunch in Austin." If your website does not include these local keywords, Google will not show you for those searches.
             </p>
             <h3>Where to use local keywords</h3>
             <ul>
@@ -5566,12 +5696,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              Over 60% of restaurant searches happen on mobile phones. If your website takes more than 3 seconds to load, most people will leave. Google also uses mobile page speed as a ranking factor — slow sites rank lower.
+              Over 60% of restaurant searches happen on mobile phones. If your website takes more than 3 seconds to load, most people will leave. Google also uses mobile page speed as a ranking factor - slow sites rank lower.
             </p>
             <h3>Quick wins for speed and mobile</h3>
             <ul>
               <li>Compress all images. A 5MB hero photo should be under 300KB.</li>
-              <li>Use a mobile-responsive theme. Test it on Google's Mobile-Friendly Test tool.</li>
+              <li>Use a mobile-responsive theme. Test it on Google’s Mobile-Friendly Test tool.</li>
               <li>Remove unused plugins and scripts.</li>
               <li>Use a fast hosting provider.</li>
               <li>Enable browser caching so returning visitors load faster.</li>
@@ -5596,10 +5726,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              Schema markup is a type of code that helps Google understand your website better. For restaurants, it lets Google display rich snippets — like your menu, price range, hours, and star ratings — directly in search results. These snippets make your listing more attractive and increase click-through rates.
+              Schema markup is a type of code that helps Google understand your website better. For restaurants, it lets Google display rich snippets - like your menu, price range, hours, and star ratings - directly in search results. These snippets make your listing more attractive and increase click-through rates.
             </p>
             <p>
-              You do not need to be a developer to add schema. Use Google's Structured Data Markup Helper or a WordPress plugin like Yoast Local SEO. The key fields to include are:
+              You do not need to be a developer to add schema. Use Google’s Structured Data Markup Helper or a WordPress plugin like Yoast Local SEO. The key fields to include are:
             </p>
             <ul>
               <li>Restaurant name, address, and phone number</li>
@@ -5638,10 +5768,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>"The History of [Your Cuisine] in [Your City]"</li>
               <li>"How to Choose the Best Wine for Italian Food" (educational content)</li>
               <li>"What Makes Our [Signature Dish] Special" (behind-the-scenes story)</li>
-              <li>"A Local's Guide to Eating in [Your Neighborhood]"</li>
+              <li>"A Local’s Guide to Eating in [Your Neighborhood]"</li>
             </ul>
             <p>
-              <em>Example:</em> A ramen shop in San Francisco started writing monthly blog posts about Japanese food culture and neighborhood dining guides. After five months, their blog posts were driving 1,200 monthly visitors — many of whom discovered the restaurant through the blog and became regular customers.
+              <em>Example:</em> A ramen shop in San Francisco started writing monthly blog posts about Japanese food culture and neighborhood dining guides. After five months, their blog posts were driving 1,200 monthly visitors - many of whom discovered the restaurant through the blog and became regular customers.
             </p>
             <p>
               For more content marketing strategies, check out our guide on <a href="#/blog/seo-strategy-that-actually-works">SEO strategy that actually works</a>.
@@ -5663,7 +5793,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              Social media is not a direct Google ranking factor, but it supports your local SEO in two important ways. First, social profiles often rank on Google themselves — your Instagram or Facebook page can show up when people search for your restaurant. Second, social media drives traffic to your website, which Google interprets as a sign of popularity.
+              Social media is not a direct Google ranking factor, but it supports your local SEO in two important ways. First, social profiles often rank on Google themselves - your Instagram or Facebook page can show up when people search for your restaurant. Second, social media drives traffic to your website, which Google interprets as a sign of popularity.
             </p>
             <h3>How restaurants should use social media for local SEO</h3>
             <ul>
@@ -5740,10 +5870,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               </table>
             </div>
             <p>
-              Once you see the gap, you know exactly what to fix. Start with the biggest gap first — usually reviews and photos — and work your way down the list.
+              Once you see the gap, you know exactly what to fix. Start with the biggest gap first - usually reviews and photos - and work your way down the list.
             </p>
             <p>
-              <em>Example:</em> A coffee shop in Seattle compared their profile to the top-ranked cafe in their neighborhood. They had 15 photos vs. the competitor's 200. They started adding 5 photos per week. After two months, they moved from page 2 to the bottom of the local pack. After four months, they were in the top 3.
+              <em>Example:</em> A coffee shop in Seattle compared their profile to the top-ranked cafe in their neighborhood. They had 15 photos vs. the competitor’s 200. They started adding 5 photos per week. After two months, they moved from page 2 to the bottom of the local pack. After four months, they were in the top 3.
             </p>
           </>
         ),
@@ -5762,16 +5892,16 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              Technical SEO is the behind-the-scenes work that helps Google crawl and index your website. If your site has technical issues, Google may not rank your pages — even if your content is great. Run a free audit using Google Search Console or a tool like Screaming Frog.
+              Technical SEO is the behind-the-scenes work that helps Google crawl and index your website. If your site has technical issues, Google may not rank your pages - even if your content is great. Run a free audit using Google Search Console or a tool like Screaming Frog.
             </p>
             <h3>Common technical SEO issues for restaurant websites</h3>
             <ul>
-              <li><strong>Missing title tags and meta descriptions</strong> — Google does not know what your pages are about.</li>
-              <li><strong>Duplicate content</strong> — Multiple pages with the same text confuse Google.</li>
-              <li><strong>Broken links</strong> — Links to deleted menu pages or old URLs create 404 errors.</li>
-              <li><strong>No XML sitemap</strong> — Google may miss important pages on your site.</li>
-              <li><strong>Missing SSL certificate</strong> — HTTP sites are ranked lower than HTTPS sites.</li>
-              <li><strong>Blocked by robots.txt</strong> — A misconfigured file can block Google from indexing your site entirely.</li>
+              <li><strong>Missing title tags and meta descriptions</strong> - Google does not know what your pages are about.</li>
+              <li><strong>Duplicate content</strong> - Multiple pages with the same text confuse Google.</li>
+              <li><strong>Broken links</strong> - Links to deleted menu pages or old URLs create 404 errors.</li>
+              <li><strong>No XML sitemap</strong> - Google may miss important pages on your site.</li>
+              <li><strong>Missing SSL certificate</strong> - HTTP sites are ranked lower than HTTPS sites.</li>
+              <li><strong>Blocked by robots.txt</strong> - A misconfigured file can block Google from indexing your site entirely.</li>
             </ul>
             <p>
               <em>Example:</em> A family restaurant in Phoenix had a beautiful website but was not ranking anywhere. An SEO audit revealed their robots.txt file was accidentally blocking Google from indexing all pages. After removing the block, their site was indexed within one week and started appearing in local searches.
@@ -5791,13 +5921,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Your restaurant deserves to be seen. The food is great, the service is warm, and your customers love what you do. But none of that matters if people cannot find you on Google.
             </p>
             <p>
-              The 11 fixes in this guide — from optimizing your Google Business Profile to fixing technical SEO issues — are proven to improve your restaurant Google ranking. You do not need to do all 11 today. Start with claiming and optimizing your Google Business Profile. That alone will put you ahead of most restaurants in your area.
+              The 11 fixes in this guide - from optimizing your Google Business Profile to fixing technical SEO issues - are proven to improve your restaurant Google ranking. You do not need to do all 11 today. Start with claiming and optimizing your Google Business Profile. That alone will put you ahead of most restaurants in your area.
             </p>
             <p>
               Then work through the list. Get more reviews. Fix your website. Add local keywords. Create content. Each step compounds, and over 3-6 months, you will see more organic traffic, more calls, more reservations, and more customers walking through your door.
             </p>
             <p>
-              But if you do not have time to do all of this yourself — and most restaurant owners do not — that is where Rank Flow Agency comes in. We specialize in local SEO for restaurants. We handle your Google Business Profile, website optimization, review generation, content marketing, and technical SEO — so you can focus on what you do best: making great food.
+              But if you do not have time to do all of this yourself - and most restaurant owners do not - that is where Rank Flow Agency comes in. We specialize in local SEO for restaurants. We handle your Google Business Profile, website optimization, review generation, content marketing, and technical SEO - so you can focus on what you do best: making great food.
             </p>
             <p>
               <strong>Want to know exactly why your restaurant is not showing up on Google?</strong> <a href="#/contact">Get a free local SEO audit from Rank Flow Agency today.</a> We will identify every issue and give you a clear, prioritized plan to get your restaurant found by more customers.
@@ -5813,7 +5943,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       },
       {
         q: 'How long does it take for my restaurant to show up on Google?',
-        a: 'After claiming and optimizing your Google Business Profile, you can appear in local searches within 1-2 weeks. Significant ranking improvements typically take 3-6 months of consistent effort — adding photos, collecting reviews, and optimizing your website.',
+        a: 'After claiming and optimizing your Google Business Profile, you can appear in local searches within 1-2 weeks. Significant ranking improvements typically take 3-6 months of consistent effort - adding photos, collecting reviews, and optimizing your website.',
       },
       {
         q: 'How many Google reviews do I need to rank higher?',
@@ -5950,7 +6080,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li><strong>Email 3 (Social proof):</strong> Send 5-7 days later. Share customer reviews, testimonials, or user-generated photos.</li>
             </ul>
             <p>
-              <em>Example:</em> A Shopify store selling organic skincare products started collecting emails with a 15% discount popup. In three months, they built a list of 2,400 subscribers. Their welcome sequence generated $4,200 in sales — all without spending on ads.
+              <em>Example:</em> A Shopify store selling organic skincare products started collecting emails with a 15% discount popup. In three months, they built a list of 2,400 subscribers. Their welcome sequence generated $4,200 in sales - all without spending on ads.
             </p>
           </>
         ),
@@ -5983,7 +6113,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li><strong>Trending audio and formats.</strong> Use trending sounds on TikTok and Reels to get more reach without paying for it.</li>
             </ul>
             <p>
-              <em>Example:</em> A Shopify store selling handmade candles started posting 15-second TikTok videos showing the candle-making process. One video got 240,000 views organically. That single video drove 1,800 visitors to their store and generated $3,100 in sales over two weeks — all for free.
+              <em>Example:</em> A Shopify store selling handmade candles started posting 15-second TikTok videos showing the candle-making process. One video got 240,000 views organically. That single video drove 1,800 visitors to their store and generated $3,100 in sales over two weeks - all for free.
             </p>
           </>
         ),
@@ -6009,13 +6139,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3>How to start content marketing for your Shopify store</h3>
             <ol>
-              <li><strong>Find questions your customers ask.</strong> Use Google's "People Also Ask" section, AnswerThePublic, or just think about the questions you get from customers.</li>
+              <li><strong>Find questions your customers ask.</strong> Use Google’s "People Also Ask" section, AnswerThePublic, or just think about the questions you get from customers.</li>
               <li><strong>Write helpful blog posts.</strong> Each post should answer one question thoroughly. Aim for 1,000-1,500 words. Use simple language.</li>
               <li><strong>Link to your products.</strong> Every blog post should include natural links to relevant products. Do not be pushy. Just make it easy for readers to explore.</li>
               <li><strong>Promote your content.</strong> Share your posts on social media, in your email newsletter, and in relevant online communities.</li>
             </ol>
             <p>
-              <em>Example:</em> A Shopify store selling dog accessories started a blog. They wrote articles like "How to Choose the Right Dog Harness for Your Breed" and linked to their harness product pages. After six months, their blog was driving 3,500 monthly visitors, and 12% of those visitors clicked through to product pages. That is 420 potential buyers every month — all from free content.
+              <em>Example:</em> A Shopify store selling dog accessories started a blog. They wrote articles like "How to Choose the Right Dog Harness for Your Breed" and linked to their harness product pages. After six months, their blog was driving 3,500 monthly visitors, and 12% of those visitors clicked through to product pages. That is 420 potential buyers every month - all from free content.
             </p>
             <p>
               For more on this approach, read our article on <a href="#/blog/why-is-my-website-not-ranking-on-google">why your website is not ranking on Google</a> and our <a href="#/blog/seo-strategy-that-actually-works">SEO strategy that actually works</a>.
@@ -6081,7 +6211,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li><strong>Enable guest checkout.</strong> Forcing account creation is the number one reason people abandon carts. Let them buy as guests.</li>
               <li><strong>Show shipping costs upfront.</strong> Surprise costs at checkout cause 50% of cart abandonments. Be transparent from the product page.</li>
               <li><strong>Add trust signals.</strong> Display security badges, return policy, and customer reviews near the Add to Cart button.</li>
-              <li><strong>Use high-quality product images.</strong> Include multiple angles and zoom. Shoppers cannot touch products online — images are all they have.</li>
+              <li><strong>Use high-quality product images.</strong> Include multiple angles and zoom. Shoppers cannot touch products online - images are all they have.</li>
               <li><strong>Simplify your checkout.</strong> Reduce it to two steps: information and payment. Remove unnecessary fields.</li>
               <li><strong>Optimize for mobile.</strong> Over 60% of Shopify traffic comes from phones. If your mobile checkout is clunky, you are losing most of your sales.</li>
             </ul>
@@ -6117,7 +6247,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li><strong>Week 7 onwards:</strong> Keep going. SEO and content marketing compound over time. The stores that win are the ones that stay consistent.</li>
             </ul>
             <p>
-              You will not see results overnight. But if you follow this plan for 90 days, you will see more organic traffic, more email subscribers, and more Shopify sales — all without spending on ads.
+              You will not see results overnight. But if you follow this plan for 90 days, you will see more organic traffic, more email subscribers, and more Shopify sales - all without spending on ads.
             </p>
           </>
         ),
@@ -6131,13 +6261,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Ads can work. But they are not the only way to get Shopify sales. And they are definitely not the best option when you are just starting out and do not have money to burn.
             </p>
             <p>
-              The strategies in this guide — Shopify SEO, email marketing, social media, content marketing, and Shopify conversion optimization — are proven, sustainable, and free. They take effort. But they build a foundation that ads cannot. When you stop paying for ads, the traffic stops. When you invest in SEO and content, the traffic keeps coming.
+              The strategies in this guide - Shopify SEO, email marketing, social media, content marketing, and Shopify conversion optimization - are proven, sustainable, and free. They take effort. But they build a foundation that ads cannot. When you stop paying for ads, the traffic stops. When you invest in SEO and content, the traffic keeps coming.
             </p>
             <p>
-              You do not have to figure this out alone. At Rank Flow Agency, we help Shopify store owners increase sales through organic traffic, better SEO, and conversion optimization. We handle the technical work, the content, and the strategy — so you can focus on running your business.
+              You do not have to figure this out alone. At Rank Flow Agency, we help Shopify store owners increase sales through organic traffic, better SEO, and conversion optimization. We handle the technical work, the content, and the strategy - so you can focus on running your business.
             </p>
             <p>
-              <strong>Want to know exactly what is holding your Shopify store back?</strong> <a href="#/contact">Get a free SEO audit from Rank Flow Agency today.</a> We will identify every issue and give you a clear, prioritized plan to fix it — no ads required.
+              <strong>Want to know exactly what is holding your Shopify store back?</strong> <a href="#/contact">Get a free SEO audit from Rank Flow Agency today.</a> We will identify every issue and give you a clear, prioritized plan to fix it - no ads required.
             </p>
           </>
         ),
@@ -6185,7 +6315,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               You launched your online store with high hopes. You added products, set up payment, and maybe even ran some ads. But the sales are not coming in the way you expected. Your website traffic is low, your conversion rate is disappointing, and you are watching competitors rack up reviews while your store sits in silence.
             </p>
             <p>
-              If this sounds familiar, you are not alone. Most eCommerce store owners hit this wall. The problem is usually not your product — it is how your store is built, optimized, and presented to both Google and your customers.
+              If this sounds familiar, you are not alone. Most eCommerce store owners hit this wall. The problem is usually not your product - it is how your store is built, optimized, and presented to both Google and your customers.
             </p>
             <p>
               After running SEO audits on dozens of online stores, we see the same four issues over and over. The good news is that each one has a clear fix. In this article, we will break down exactly why your store is underperforming and what you can do today to turn it around.
@@ -6207,17 +6337,17 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              Your product pages are the heart of your online store. They are where browsers become buyers. But if those pages are not optimized for search, Google will not show them — and customers will never find them.
+              Your product pages are the heart of your online store. They are where browsers become buyers. But if those pages are not optimized for search, Google will not show them - and customers will never find them.
             </p>
             <p>
               Many store owners copy manufacturer descriptions, use generic image filenames like "IMG_4032.jpg," and skip writing meta titles altogether. These mistakes tell Google your pages are thin and not worth ranking.
             </p>
             <h3>Common product page SEO mistakes</h3>
             <ul>
-              <li><strong>Duplicate descriptions</strong> — Using the same manufacturer text as 50 other stores means Google sees no unique value.</li>
-              <li><strong>Missing or generic title tags</strong> — "Product Name | Store" is not enough. You need keywords customers actually search for.</li>
-              <li><strong>No customer reviews</strong> — Reviews add fresh, unique content that Google loves and shoppers trust.</li>
-              <li><strong>Thin content</strong> — A one-line description gives Google nothing to rank. Aim for 200+ words of helpful, original text.</li>
+              <li><strong>Duplicate descriptions</strong> - Using the same manufacturer text as 50 other stores means Google sees no unique value.</li>
+              <li><strong>Missing or generic title tags</strong> - "Product Name | Store" is not enough. You need keywords customers actually search for.</li>
+              <li><strong>No customer reviews</strong> - Reviews add fresh, unique content that Google loves and shoppers trust.</li>
+              <li><strong>Thin content</strong> - A one-line description gives Google nothing to rank. Aim for 200+ words of helpful, original text.</li>
             </ul>
             <h3>How to fix your product pages</h3>
             <ul>
@@ -6247,7 +6377,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              Website speed is not just a technical detail — it directly affects your sales. Research shows that a 1-second delay in page load time can reduce conversion rates by 7%. If your store takes 4 seconds or more to load, you are losing customers before they even see your products.
+              Website speed is not just a technical detail - it directly affects your sales. Research shows that a 1-second delay in page load time can reduce conversion rates by 7%. If your store takes 4 seconds or more to load, you are losing customers before they even see your products.
             </p>
             <p>
               Google also uses page speed as a ranking factor. Slow sites rank lower in search results, which means less website traffic from Google rankings. It is a double loss: fewer visitors and fewer sales from the visitors you do get.
@@ -6303,7 +6433,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Minify CSS and JavaScript files to reduce their size.</li>
             </ul>
             <p>
-              A WooCommerce SEO client reduced their load time from 5.8 to 1.9 seconds. Their conversion rate jumped from 1.2% to 2.8% — more than doubling their sales from the same amount of traffic.
+              A WooCommerce SEO client reduced their load time from 5.8 to 1.9 seconds. Their conversion rate jumped from 1.2% to 2.8% - more than doubling their sales from the same amount of traffic.
             </p>
           </>
         ),
@@ -6322,18 +6452,18 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               height={630}
             />
             <p>
-              Technical SEO is the foundation that everything else is built on. If Google cannot crawl and index your store properly, your products will not show up in search results — no matter how good your content is.
+              Technical SEO is the foundation that everything else is built on. If Google cannot crawl and index your store properly, your products will not show up in search results - no matter how good your content is.
             </p>
             <p>
               Many store owners do not even know these problems exist because they are invisible. You need to run an SEO audit to find them.
             </p>
             <h3>Common technical SEO issues in eCommerce</h3>
             <ul>
-              <li><strong>Indexation problems</strong> — Google may be blocked from indexing your product pages due to robots.txt or noindex tags.</li>
-              <li><strong>Broken links and 404 errors</strong> — When products go out of stock or are removed, the old URLs create errors that waste Google's crawl budget.</li>
-              <li><strong>Missing canonical tags</strong> — Product variants (size, color) can create duplicate URLs that confuse Google.</li>
-              <li><strong>Poor URL structure</strong> — URLs like "/collections/all/products/item?id=123" are messy. Clean URLs like "/products/red-leather-jacket" rank better.</li>
-              <li><strong>No XML sitemap</strong> — Without a sitemap, Google may miss important pages on larger stores.</li>
+              <li><strong>Indexation problems</strong> - Google may be blocked from indexing your product pages due to robots.txt or noindex tags.</li>
+              <li><strong>Broken links and 404 errors</strong> - When products go out of stock or are removed, the old URLs create errors that waste Google’s crawl budget.</li>
+              <li><strong>Missing canonical tags</strong> - Product variants (size, color) can create duplicate URLs that confuse Google.</li>
+              <li><strong>Poor URL structure</strong> - URLs like "/collections/all/products/item?id=123" are messy. Clean URLs like "/products/red-leather-jacket" rank better.</li>
+              <li><strong>No XML sitemap</strong> - Without a sitemap, Google may miss important pages on larger stores.</li>
             </ul>
             <h3>How to fix technical SEO issues</h3>
             <ul>
@@ -6352,7 +6482,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       },
       {
         id: 'reason-4-poor-conversion-rate',
-        heading: "Reason 4: Your Store's Conversion Rate Is Too Low",
+        heading: "Reason 4: Your Store’s Conversion Rate Is Too Low",
         body: (
           <>
             <img
@@ -6371,11 +6501,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3>What kills your conversion rate</h3>
             <ul>
-              <li><strong>Complicated checkout</strong> — Too many steps, forced account creation, or hidden shipping costs make people leave.</li>
-              <li><strong>No trust signals</strong> — Missing return policy, no security badges, no reviews, and no contact information.</li>
-              <li><strong>Low-quality product images</strong> — Shoppers cannot touch or try products online. They rely on images to decide.</li>
-              <li><strong>Unclear pricing</strong> — Surprise costs at checkout (tax, shipping) cause cart abandonment.</li>
-              <li><strong>No mobile optimization</strong> — Over 60% of online shopping happens on phones. If checkout is hard on mobile, you lose sales.</li>
+              <li><strong>Complicated checkout</strong> - Too many steps, forced account creation, or hidden shipping costs make people leave.</li>
+              <li><strong>No trust signals</strong> - Missing return policy, no security badges, no reviews, and no contact information.</li>
+              <li><strong>Low-quality product images</strong> - Shoppers cannot touch or try products online. They rely on images to decide.</li>
+              <li><strong>Unclear pricing</strong> - Surprise costs at checkout (tax, shipping) cause cart abandonment.</li>
+              <li><strong>No mobile optimization</strong> - Over 60% of online shopping happens on phones. If checkout is hard on mobile, you lose sales.</li>
             </ul>
             <h3>How to improve your conversion rate</h3>
             <ul>
@@ -6388,7 +6518,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Simplify your checkout to 3 steps or fewer: information, shipping, payment.</li>
             </ul>
             <p>
-              A home goods store added guest checkout, visible shipping costs, and review badges. Their conversion rate went from 0.8% to 2.4% in six weeks — tripling their sales from the same traffic.
+              A home goods store added guest checkout, visible shipping costs, and review badges. Their conversion rate went from 0.8% to 2.4% in six weeks - tripling their sales from the same traffic.
             </p>
           </>
         ),
@@ -6431,10 +6561,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Your online store has potential. The products are there. The market is there. What is missing is the optimization that turns visitors into buyers and Google rankings into traffic.
             </p>
             <p>
-              The four issues we covered — poor product page SEO, slow website speed, technical SEO problems, and low conversion rates — are the most common reasons eCommerce stores underperform. Fix them, and you will see more traffic, more sales, and more growth.
+              The four issues we covered - poor product page SEO, slow website speed, technical SEO problems, and low conversion rates - are the most common reasons eCommerce stores underperform. Fix them, and you will see more traffic, more sales, and more growth.
             </p>
             <p>
-              But we know that running a business leaves little time for SEO audits, image compression, and schema markup. That is where Rank Flow Agency comes in. Our team specializes in eCommerce SEO for Shopify and WooCommerce stores. We handle the technical work, the optimization, and the content — so you can focus on running your business.
+              But we know that running a business leaves little time for SEO audits, image compression, and schema markup. That is where Rank Flow Agency comes in. Our team specializes in eCommerce SEO for Shopify and WooCommerce stores. We handle the technical work, the optimization, and the content - so you can focus on running your business.
             </p>
             <p>
               <strong>Want to know exactly what is holding your store back?</strong> Get a free SEO audit from Rank Flow Agency. We will identify every issue and give you a clear, prioritized plan to fix it.
@@ -6449,7 +6579,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
     faqs: [
       {
         q: 'How long does eCommerce SEO take to show results?',
-        a: 'Most online stores see noticeable improvements in Google rankings and website traffic within 3-6 months. Product page optimization and speed fixes can show results faster — sometimes within 4-8 weeks. Competitive niches may take longer.',
+        a: 'Most online stores see noticeable improvements in Google rankings and website traffic within 3-6 months. Product page optimization and speed fixes can show results faster - sometimes within 4-8 weeks. Competitive niches may take longer.',
       },
       {
         q: 'Should I choose Shopify or WooCommerce for SEO?',
@@ -6593,7 +6723,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Reason 5: They Have Been Around Longer',
         body: (
           <>
-            <p>This one is tough to hear, but it is real. Older websites often have an advantage. They have had more time to build backlinks, publish content, and earn Google's trust. If your competitor has been online for ten years and you launched six months ago, they have a head start.</p>
+            <p>This one is tough to hear, but it is real. Older websites often have an advantage. They have had more time to build backlinks, publish content, and earn Google’s trust. If your competitor has been online for ten years and you launched six months ago, they have a head start.</p>
             <h3>But age is not everything</h3>
             <p>Do not let this discourage you. A new site with great content and good backlinks can absolutely outrank an older site that has gone stale. Google cares more about what you are doing now than how long you have existed. If your competitor stopped updating their site and you keep publishing helpful content, you will close the gap over time.</p>
             <h3>How to compete as a newer site</h3>
@@ -6673,9 +6803,9 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p>Do not copy them. Learn from them and then do it better.</p>
             <h3>Step 3: Improve your content</h3>
-            <p>Take your most important pages and make them better than your competitor's version. Add more detail, include real examples, answer common questions, and make the layout easy to follow.</p>
+            <p>Take your most important pages and make them better than your competitor’s version. Add more detail, include real examples, answer common questions, and make the layout easy to follow.</p>
             <h3>Step 4: Build backlinks</h3>
-            <p>Start reaching out to websites in your industry. Offer to write guest posts, share your expertise, or collaborate on content. Every quality backlink you earn brings you closer to your competitor's authority level.</p>
+            <p>Start reaching out to websites in your industry. Offer to write guest posts, share your expertise, or collaborate on content. Every quality backlink you earn brings you closer to your competitor’s authority level.</p>
             <h3>Step 5: Fix your technical issues</h3>
             <p>Make sure your site is fast, mobile-friendly, and easy to navigate. Fix broken links, compress images, and clean up any code that slows things down.</p>
             <h3>Step 6: Be patient and consistent</h3>
@@ -6726,14 +6856,14 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Most SEO Strategies Fail',
         body: (
           <>
-            <p>Most SEO strategies fail for one simple reason: they are lists of tactics, not strategies. A checklist of "fix title tags, build links, write content" is not a strategy — it is a to-do list. Real strategy answers three questions first: <strong>where are we now, where do we need to be, and what is the most efficient path between the two?</strong></p>
-            <p>At Rank Flow Digital, we have run over 320 SEO campaigns across nearly every industry — from local dentists to multi-location SaaS platforms. The blueprint below is the exact framework we use, refined over a decade. It is not a list of tricks. It is a repeatable system that compounds into real revenue.</p>
+            <p>Most SEO strategies fail for one simple reason: they are lists of tactics, not strategies. A checklist of "fix title tags, build links, write content" is not a strategy - it is a to-do list. Real strategy answers three questions first: <strong>where are we now, where do we need to be, and what is the most efficient path between the two?</strong></p>
+            <p>At Rank Flow Digital, we have run over 320 SEO campaigns across nearly every industry - from local dentists to multi-location SaaS platforms. The blueprint below is the exact framework we use, refined over a decade. It is not a list of tricks. It is a repeatable system that compounds into real revenue.</p>
           </>
         ),
       },
       {
         id: 'step-1-audit',
-        heading: 'Step 1: The Foundation — A Real SEO Audit',
+        heading: 'Step 1: The Foundation - A Real SEO Audit',
         body: (
           <>
             <p>Before you optimize anything, you need to know exactly where you stand. A proper audit covers four pillars: <strong>technical health, content gaps, backlink profile, and competitive position</strong>. Skip any one and your strategy is built on assumptions.</p>
@@ -6750,7 +6880,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       },
       {
         id: 'step-2-research',
-        heading: 'Step 2: Research — Keywords With Intent',
+        heading: 'Step 2: Research - Keywords With Intent',
         body: (
           <>
             <p>Keyword research is not about volume. It is about <strong>intent</strong>. A keyword with 10,000 monthly searches that never converts is worth less than a keyword with 200 searches that turns into a paying client. Group every keyword into one of four intent buckets:</p>
@@ -6760,7 +6890,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li><strong>Commercial:</strong> the searcher is comparing options. Capture with comparison and pricing content.</li>
               <li><strong>Transactional:</strong> the searcher is ready to buy. Capture with service and landing pages.</li>
             </ul>
-            <p>Map each keyword to a specific page on your site. If two keywords share the same intent, they should target the same page — not compete with each other. This is how you avoid keyword cannibalization, one of the most common mistakes we see in audits.</p>
+            <p>Map each keyword to a specific page on your site. If two keywords share the same intent, they should target the same page - not compete with each other. This is how you avoid keyword cannibalization, one of the most common mistakes we see in audits.</p>
           </>
         ),
       },
@@ -6773,7 +6903,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <h3>The on-page checklist</h3>
             <ul>
               <li><strong>Title tag:</strong> include the primary keyword near the front, keep it under 60 characters, and make it compelling.</li>
-              <li><strong>Meta description:</strong> 150–160 characters that earn the click, not just describe the page.</li>
+              <li><strong>Meta description:</strong> 150-160 characters that earn the click, not just describe the page.</li>
               <li><strong>H1:</strong> one per page, containing the primary keyword naturally.</li>
               <li><strong>Internal links:</strong> link to and from your most important pages using descriptive anchor text.</li>
               <li><strong>Schema markup:</strong> Article, FAQ, Breadcrumb, and Organization schema where relevant.</li>
@@ -6787,23 +6917,23 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Step 4: Content That Ranks AND Converts',
         body: (
           <>
-            <p>Content is where most SEO campaigns win or lose. The old approach — publish thin, keyword-stuffed pages — does not work anymore. Google rewards content that demonstrates <strong>experience, expertise, authority, and trust</strong> (E-E-A-T). That means:</p>
+            <p>Content is where most SEO campaigns win or lose. The old approach - publish thin, keyword-stuffed pages - does not work anymore. Google rewards content that demonstrates <strong>experience, expertise, authority, and trust</strong> (E-E-A-T). That means:</p>
             <ul>
               <li>Original research, data, or insights that no competitor has.</li>
               <li>Comprehensive coverage that answers the searcher’s full question, not just the headline query.</li>
               <li>Clear, scannable formatting with proper heading hierarchy.</li>
               <li>Internal links that guide readers to related topics and conversion pages.</li>
             </ul>
-            <p>If writing is not your team’s strength, our <Link to="/content-writing">Content Writing</Link> service produces SEO-driven content that ranks and persuades — without sounding like it was written for a robot.</p>
+            <p>If writing is not your team’s strength, our <Link to="/content-writing">Content Writing</Link> service produces SEO-driven content that ranks and persuades - without sounding like it was written for a robot.</p>
           </>
         ),
       },
       {
         id: 'step-5-local',
-        heading: 'Step 5: Local SEO — If You Serve a Geographic Area',
+        heading: 'Step 5: Local SEO - If You Serve a Geographic Area',
         body: (
           <>
-            <p>If you serve customers in a specific city or region, <Link to="/local-seo">Local SEO</Link> is not optional — it is the highest-ROI work you can do. The map pack (the top three local results on Google) captures the majority of clicks for local-intent searches.</p>
+            <p>If you serve customers in a specific city or region, <Link to="/local-seo">Local SEO</Link> is not optional - it is the highest-ROI work you can do. The map pack (the top three local results on Google) captures the majority of clicks for local-intent searches.</p>
             <h3>The local SEO essentials</h3>
             <ul>
               <li><strong>Google Business Profile:</strong> complete every field, add photos weekly, and post updates.</li>
@@ -6816,13 +6946,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       },
       {
         id: 'step-6-links',
-        heading: 'Step 6: Authority — Link Building Done Right',
+        heading: 'Step 6: Authority - Link Building Done Right',
         body: (
           <>
-            <p>Links remain one of Google’s top ranking signals — but the bar for quality has never been higher. One link from a relevant, high-authority site is worth more than a hundred links from low-quality directories. Focus on:</p>
+            <p>Links remain one of Google’s top ranking signals - but the bar for quality has never been higher. One link from a relevant, high-authority site is worth more than a hundred links from low-quality directories. Focus on:</p>
             <ul>
               <li><strong>Digital PR:</strong> create data-driven stories that journalists want to cite.</li>
-              <li><strong>Guest posting:</strong> publish original content on real sites in your niche — not link farms.</li>
+              <li><strong>Guest posting:</strong> publish original content on real sites in your niche - not link farms.</li>
               <li><strong>Resource pages:</strong> get listed on curated resource lists where your content genuinely belongs.</li>
               <li><strong>Broken link building:</strong> find broken links on relevant sites and offer your content as a replacement.</li>
             </ul>
@@ -6835,7 +6965,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Step 7: Measure What Matters',
         body: (
           <>
-            <p>The final step is measurement — and most agencies measure the wrong things. Rankings are a leading indicator, but they are not the goal. Traffic is closer, but it is still not the goal. The goal is <strong>revenue</strong>. Track the full funnel:</p>
+            <p>The final step is measurement - and most agencies measure the wrong things. Rankings are a leading indicator, but they are not the goal. Traffic is closer, but it is still not the goal. The goal is <strong>revenue</strong>. Track the full funnel:</p>
             <ul>
               <li><strong>Rankings:</strong> are you moving up for your target keywords?</li>
               <li><strong>Organic traffic:</strong> is it growing, and from which pages?</li>
@@ -6851,16 +6981,16 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Putting It All Together',
         body: (
           <>
-            <p>A winning SEO strategy is not a secret. It is a disciplined process: audit, research, optimize, create, build authority, and measure — then repeat. The compounding effect is real. Every month you execute this framework, your moat grows wider and your competitors fall further behind.</p>
-            <p>If you want a team that has executed this blueprint across hundreds of campaigns, <Link to="/contact">get a free SEO audit</Link>. We will show you exactly where you stand and the most efficient path to growth — no obligation.</p>
+            <p>A winning SEO strategy is not a secret. It is a disciplined process: audit, research, optimize, create, build authority, and measure - then repeat. The compounding effect is real. Every month you execute this framework, your moat grows wider and your competitors fall further behind.</p>
+            <p>If you want a team that has executed this blueprint across hundreds of campaigns, <Link to="/contact">get a free SEO audit</Link>. We will show you exactly where you stand and the most efficient path to growth - no obligation.</p>
           </>
         ),
       },
     ],
     faqs: [
-      { q: 'How long does an SEO strategy take to show results?', a: 'Most campaigns show meaningful ranking movement within 90 days and significant traffic gains in 4–6 months. Local SEO often moves faster; competitive national terms take longer. The blueprint above is designed to compound, so results accelerate over time.' },
+      { q: 'How long does an SEO strategy take to show results?', a: 'Most campaigns show meaningful ranking movement within 90 days and significant traffic gains in 4-6 months. Local SEO often moves faster; competitive national terms take longer. The blueprint above is designed to compound, so results accelerate over time.' },
       { q: 'Do I need to do all seven steps, or can I skip some?', a: 'Every step builds on the previous one. Skipping the audit leads to wasted optimization; skipping content means you have nothing to rank; skipping links means your content will not outrank competitors. The steps are sequential for a reason.' },
-      { q: 'Is this SEO strategy white-hat?', a: 'Yes, 100%. Every tactic in this blueprint follows Google’s guidelines. No PBNs, no link farms, no keyword stuffing — only strategies that build lasting authority and withstand algorithm updates.' },
+      { q: 'Is this SEO strategy white-hat?', a: 'Yes, 100%. Every tactic in this blueprint follows Google guidelines. No PBNs, no link farms, no keyword stuffing - only strategies that build lasting authority and withstand algorithm updates.' },
       { q: 'Can I execute this SEO strategy myself, or do I need an agency?', a: 'A motivated in-house team can execute much of this blueprint. However, it requires significant time, specialized tools, and expertise across technical SEO, content, and link building. Most businesses see faster results by partnering with an experienced agency.' },
       { q: 'How much does an SEO strategy cost?', a: 'It depends on your industry, competition, and goals. Our plans start at $899/month for local businesses and scale up for multi-location and enterprise needs. See our pricing page or book a free consultation for a custom quote.' },
     ],
@@ -6872,15 +7002,15 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Is My Website Not Ranking on Google?',
         body: (
           <>
-            <p>You spent weeks—maybe even months—building your website. You chose a professional design, wrote content, added your services, and finally hit the publish button. Then you waited, expecting visitors to start finding your business through Google.</p>
+            <p>You spent weeks-maybe even months-building your website. You chose a professional design, wrote content, added your services, and finally hit the publish button. Then you waited, expecting visitors to start finding your business through Google.</p>
             <p>Days passed.</p>
             <p>Then weeks.</p>
             <p>But nothing happened.</p>
             <p>No traffic. No inquiries. No phone calls. No new customers.</p>
-            <p>If this sounds familiar, you're not alone.</p>
+            <p>If this sounds familiar, you’re not alone.</p>
             <p>One of the biggest misconceptions about websites is that simply launching one is enough to attract visitors. In reality, Google indexes billions of web pages, and every day thousands of new websites compete for the same audience.</p>
-            <p>The good news is that if your website isn't ranking today, it doesn't mean it never will. In most cases, there are clear reasons behind the problem—and most of them can be fixed.</p>
-            <p>Let's look at the most common reasons your website may not be ranking on Google.</p>
+            <p>The good news is that if your website isn’t ranking today, it doesn’t mean it never will. In most cases, there are clear reasons behind the problem-and most of them can be fixed.</p>
+            <p>Let’s look at the most common reasons your website may not be ranking on Google.</p>
           </>
         ),
       },
@@ -6890,13 +7020,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>If your website was launched recently, patience is important.</p>
-            <p>Google doesn't instantly trust every new website. Search engines first need time to discover your pages, understand your content, and evaluate your site's quality before showing it in search results.</p>
+            <p>Google doesn’t instantly trust every new website. Search engines first need time to discover your pages, understand your content, and evaluate your site’s quality before showing it in search results.</p>
             <p>Many new website owners expect rankings within a few days, but SEO is a long-term strategy.</p>
             <h3>How to fix it</h3>
             <ul>
               <li>Publish useful content consistently.</li>
               <li>Submit your sitemap to Google Search Console.</li>
-              <li>Build your website's authority over time.</li>
+              <li>Build your website’s authority over time.</li>
               <li>Keep improving your pages instead of waiting.</li>
             </ul>
           </>
@@ -6907,7 +7037,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '2. Google Hasn\'t Indexed Your Website',
         body: (
           <>
-            <p>If Google hasn't indexed your pages, they simply cannot appear in search results.</p>
+            <p>If Google hasn’t indexed your pages, they simply cannot appear in search results.</p>
             <p>A surprising number of websites remain invisible because they were never submitted to Google or because technical issues prevent indexing.</p>
             <h3>How to check</h3>
             <p>Search Google for:</p>
@@ -6918,7 +7048,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Verify your site in Google Search Console.</li>
               <li>Submit your XML sitemap.</li>
               <li>Request indexing for important pages.</li>
-              <li>Make sure your pages aren't blocked by robots.txt or "noindex" tags.</li>
+              <li>Make sure your pages aren’t blocked by robots.txt or "noindex" tags.</li>
             </ul>
           </>
         ),
@@ -6936,14 +7066,14 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <p>The problem?</p>
             <p>Thousands of established websites have been competing for these keywords for years.</p>
-            <p>Instead, focus on keywords that match your audience's search intent.</p>
+            <p>Instead, focus on keywords that match your audience’s search intent.</p>
             <p>For example, instead of targeting:</p>
             <p><strong>SEO Services</strong></p>
             <p>Try something more specific like:</p>
             <p><strong>Affordable SEO Services for Small Businesses</strong></p>
             <p>or</p>
             <p><strong>Local SEO Services for Restaurants</strong></p>
-            <p>Long-tail keywords usually have less competition and attract visitors who know exactly what they're looking for.</p>
+            <p>Long-tail keywords usually have less competition and attract visitors who know exactly what they’re looking for.</p>
           </>
         ),
       },
@@ -6952,16 +7082,16 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '4. Your Content Doesn\'t Solve Real Problems',
         body: (
           <>
-            <p>Google's goal is simple:</p>
+            <p>Google’s goal is simple:</p>
             <p>Show users the most helpful answer.</p>
-            <p>If your page only contains a few hundred words with general information, it probably won't compete with websites offering detailed, practical guidance.</p>
+            <p>If your page only contains a few hundred words with general information, it probably won’t compete with websites offering detailed, practical guidance.</p>
             <p>Ask yourself:</p>
             <ul>
-              <li>Does my article answer the reader's question?</li>
+              <li>Does my article answer the reader’s question?</li>
               <li>Would someone learn something useful after reading it?</li>
               <li>Does my content provide examples, tips, or solutions?</li>
             </ul>
-            <p>If the answer is "not really," it's time to improve your content. Our <Link to="/content-writing">Content Writing</Link> service creates in-depth, helpful content that ranks.</p>
+            <p>If the answer is "not really," it’s time to improve your content. Our <Link to="/content-writing">Content Writing</Link> service creates in-depth, helpful content that ranks.</p>
           </>
         ),
       },
@@ -6971,7 +7101,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>Speed matters.</p>
-            <p>Visitors don't enjoy waiting for slow websites, and neither does Google.</p>
+            <p>Visitors don’t enjoy waiting for slow websites, and neither does Google.</p>
             <p>If your pages take several seconds to load, users often leave before they even read your content.</p>
             <p>This increases bounce rates and creates a poor user experience.</p>
             <h3>Ways to improve speed</h3>
@@ -6992,7 +7122,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>Today, most Google searches happen on mobile devices.</p>
-            <p>If your website looks great on a desktop but difficult to use on a phone, you're losing both visitors and ranking opportunities.</p>
+            <p>If your website looks great on a desktop but difficult to use on a phone, you’re losing both visitors and ranking opportunities.</p>
             <p>Check whether:</p>
             <ul>
               <li>Text is easy to read.</li>
@@ -7029,7 +7159,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '8. Your On-Page SEO Needs Improvement',
         body: (
           <>
-            <p>Even great content can struggle to rank if it's not properly optimized.</p>
+            <p>Even great content can struggle to rank if it’s not properly optimized.</p>
             <p>On-page SEO helps search engines understand what your page is about.</p>
             <p>Here are a few basics every page should include:</p>
             <ul>
@@ -7050,7 +7180,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '9. Your Website Has Technical SEO Issues',
         body: (
           <>
-            <p>Technical SEO is the foundation of your website. If search engines can't crawl or understand your pages, your rankings can suffer no matter how good your content is.</p>
+            <p>Technical SEO is the foundation of your website. If search engines can’t crawl or understand your pages, your rankings can suffer no matter how good your content is.</p>
             <p>Common technical issues include:</p>
             <ul>
               <li>Broken links</li>
@@ -7071,7 +7201,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>Google prefers websites that cover a topic in depth rather than publishing one article and moving on.</p>
-            <p>For example, if you want to rank for SEO-related searches, don't publish only one article about SEO.</p>
+            <p>For example, if you want to rank for SEO-related searches, don’t publish only one article about SEO.</p>
             <p>Instead, create a complete library of helpful content such as:</p>
             <ul>
               <li>What Is SEO?</li>
@@ -7125,7 +7255,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Quick SEO Checklist',
         body: (
           <>
-            <p>If your website isn't ranking, go through this checklist:</p>
+            <p>If your website isn’t ranking, go through this checklist:</p>
             <ul>
               <li>✅ Verify your website in Google Search Console.</li>
               <li>✅ Submit your XML sitemap.</li>
@@ -7147,7 +7277,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Get Your Free SEO Audit',
         body: (
           <>
-            <p>If you're struggling to understand why your website isn't getting traffic, a professional SEO audit can uncover the issues holding it back.</p>
+            <p>If you’re struggling to understand why your website isn’t getting traffic, a professional SEO audit can uncover the issues holding it back.</p>
             <p>At Rank Flow Digital, we help businesses improve their online visibility through:</p>
             <ul>
               <li>Technical SEO</li>
@@ -7166,8 +7296,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Thoughts',
         body: (
           <>
-            <p>If your website isn't ranking on Google, don't assume something is permanently wrong. In most cases, the issue comes down to a combination of content quality, technical SEO, keyword strategy, and consistency.</p>
-            <p>SEO is not about finding a secret trick or shortcut. It's about building a website that genuinely helps users, answers their questions, and provides a great experience.</p>
+            <p>If your website isn’t ranking on Google, don’t assume something is permanently wrong. In most cases, the issue comes down to a combination of content quality, technical SEO, keyword strategy, and consistency.</p>
+            <p>SEO is not about finding a secret trick or shortcut. It’s about building a website that genuinely helps users, answers their questions, and provides a great experience.</p>
             <p>Start by fixing the basics, continue publishing valuable content, and monitor your progress regularly. Small improvements made consistently often lead to significant long-term results.</p>
           </>
         ),
@@ -7197,9 +7327,9 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p>Within seconds, Google displays a list of local businesses.</p>
             <p>Now ask yourself one simple question:</p>
             <p>Is your business one of them?</p>
-            <p>If the answer is no, you're likely missing valuable customers every single day.</p>
-            <p>The good news is that you don't need a huge advertising budget to compete with larger companies. By using Local SEO effectively, even a small business can appear in front of nearby customers who are actively looking for its products or services.</p>
-            <p>In this guide, you'll learn what Local SEO is, why it matters, and the practical steps you can take to improve your local visibility and attract more customers.</p>
+            <p>If the answer is no, you’re likely missing valuable customers every single day.</p>
+            <p>The good news is that you don’t need a huge advertising budget to compete with larger companies. By using Local SEO effectively, even a small business can appear in front of nearby customers who are actively looking for its products or services.</p>
+            <p>In this guide, you’ll learn what Local SEO is, why it matters, and the practical steps you can take to improve your local visibility and attract more customers.</p>
           </>
         ),
       },
@@ -7218,7 +7348,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Coffee shop near me</li>
             </ul>
             <p>These searches have strong buying intent because people are usually ready to contact or visit a business.</p>
-            <p>That's why Local SEO is one of the most valuable marketing strategies for service-based businesses. Learn more about how it fits into a broader strategy in our <Link to="/seo">SEO Services</Link> overview.</p>
+            <p>That’s why Local SEO is one of the most valuable marketing strategies for service-based businesses. Learn more about how it fits into a broader strategy in our <Link to="/seo">SEO Services</Link> overview.</p>
           </>
         ),
       },
@@ -7230,7 +7360,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p>Think about your own habits.</p>
             <p>When you need a nearby restaurant, mechanic, or digital marketing agency, you probably search on Google instead of asking everyone you know.</p>
             <p>Your potential customers do exactly the same.</p>
-            <p>If your business doesn't appear in local search results, they'll likely choose one of your competitors.</p>
+            <p>If your business doesn’t appear in local search results, they’ll likely choose one of your competitors.</p>
             <p>Local SEO helps your business:</p>
             <ul>
               <li>Get found by nearby customers</li>
@@ -7303,7 +7433,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <h3>4. Encourage Customer Reviews</h3>
             <p>Positive reviews improve both trust and local rankings.</p>
             <p>After completing a project, politely ask your clients to leave an honest review.</p>
-            <p>Respond to every review, whether it's positive or negative.</p>
+            <p>Respond to every review, whether it’s positive or negative.</p>
             <p>Google values businesses that actively engage with their customers.</p>
             <h3>5. Keep Your Contact Information Consistent</h3>
             <p>Your business name, address, and phone number should remain consistent across:</p>
@@ -7348,17 +7478,17 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p>Many business owners create a Google Business Profile but never update it again. An incomplete profile with missing information, outdated hours, or no photos is less likely to attract customers.</p>
             <p>Keep your profile active by updating your services, posting business updates, and adding new photos regularly.</p>
             <h3>Using the Same Content for Every City</h3>
-            <p>If you serve multiple locations, don't copy the same page and simply replace the city name.</p>
+            <p>If you serve multiple locations, don’t copy the same page and simply replace the city name.</p>
             <p>Google values original content.</p>
             <p>Instead, write unique pages that mention local landmarks, customer needs, and services specific to that location.</p>
             <h3>Ignoring Customer Reviews</h3>
             <p>Reviews are one of the strongest trust signals for both Google and potential customers.</p>
-            <p>Don't wait for customers to leave reviews on their own.</p>
+            <p>Don’t wait for customers to leave reviews on their own.</p>
             <p>After successfully completing a project, politely ask them for honest feedback.</p>
             <p>A steady flow of genuine reviews can significantly improve your local visibility.</p>
             <h3>Forgetting Mobile Users</h3>
-            <p>Imagine someone searching for your business while standing outside your competitor's store.</p>
-            <p>If your website is slow or difficult to use on a mobile phone, they'll likely leave before contacting you.</p>
+            <p>Imagine someone searching for your business while standing outside your competitor’s store.</p>
+            <p>If your website is slow or difficult to use on a mobile phone, they’ll likely leave before contacting you.</p>
             <p>Always test your website on different screen sizes and ensure visitors can quickly find your contact details.</p>
           </>
         ),
@@ -7368,7 +7498,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Build Local Citations',
         body: (
           <>
-            <p>A local citation is any online mention of your business's:</p>
+            <p>A local citation is any online mention of your business’s:</p>
             <ul>
               <li>Business Name</li>
               <li>Address</li>
@@ -7429,7 +7559,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Direction requests</li>
               <li>Customer reviews</li>
             </ul>
-            <p>Tracking these metrics helps you understand what's working and where improvements are needed.</p>
+            <p>Tracking these metrics helps you understand what’s working and where improvements are needed.</p>
           </>
         ),
       },
@@ -7438,7 +7568,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Local SEO Checklist',
         body: (
           <>
-            <p>Before publishing your website, make sure you've completed these essential steps:</p>
+            <p>Before publishing your website, make sure you’ve completed these essential steps:</p>
             <ul>
               <li>✅ Create and verify your Google Business Profile.</li>
               <li>✅ Add your business name, address, and phone number consistently.</li>
@@ -7460,7 +7590,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Ready to Grow Your Local Business?',
         body: (
           <>
-            <p>If your business isn't attracting enough local customers, now is the perfect time to improve your online visibility.</p>
+            <p>If your business isn’t attracting enough local customers, now is the perfect time to improve your online visibility.</p>
             <p>At Rank Flow Digital, we help businesses increase local rankings through:</p>
             <ul>
               <li><Link to="/local-seo">Local SEO Optimization</Link></li>
@@ -7480,9 +7610,9 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Thoughts',
         body: (
           <>
-            <p>Local SEO isn't just about appearing on Google—it's about connecting with people who are already looking for the products or services you offer.</p>
-            <p>Whether you're running a local restaurant, a plumbing company, a law firm, or a digital marketing agency, investing in Local SEO can help you attract more qualified customers, build trust in your community, and grow your business over time.</p>
-            <p>Remember, success doesn't come from trying to trick search engines. It comes from providing useful information, maintaining an excellent user experience, and consistently improving your online presence.</p>
+            <p>Local SEO isn’t just about appearing on Google-it’s about connecting with people who are already looking for the products or services you offer.</p>
+            <p>Whether you’re running a local restaurant, a plumbing company, a law firm, or a digital marketing agency, investing in Local SEO can help you attract more qualified customers, build trust in your community, and grow your business over time.</p>
+            <p>Remember, success doesn’t come from trying to trick search engines. It comes from providing useful information, maintaining an excellent user experience, and consistently improving your online presence.</p>
             <p>Small improvements made consistently often lead to significant long-term results.</p>
           </>
         ),
