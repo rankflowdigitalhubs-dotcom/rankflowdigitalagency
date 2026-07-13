@@ -1,23 +1,23 @@
 import { Check, ArrowRight, Sparkles } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema } from '../seo';
-import { PageHero, CTASection } from '../components';
+import { PageHero } from '../components';
 import { pricingPlans } from '../data';
 
 export default function Pricing() {
   return (
     <>
       <SEO
-        title="Pricing"
-        description="Transparent SEO and digital marketing pricing. Flexible monthly plans for startups, growing brands, and multi-location enterprises — no long contracts."
+        title="Monthly SEO Packages"
+        description="Choose the SEO plan that best fits your business goals. Starter SEO at $99/month, Growth SEO at $249/month, and Premium SEO at $499/month. White-hat SEO strategies to improve Google rankings and organic traffic."
         path="/pricing"
-        schema={breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Pricing', path: '/pricing' }])}
+        schema={breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Monthly SEO Packages', path: '/pricing' }])}
       />
       <PageHero
-        eyebrow="Pricing"
-        title={<>Simple, transparent <span className="text-gradient">pricing</span></>}
-        subtitle="Flexible monthly plans with no long lock-ins. Stay because you’re growing, not because of a contract."
-        breadcrumbs={[{ name: 'Home', path: '/' }, { name: 'Pricing', path: '/pricing' }]}
+        eyebrow="Monthly SEO Packages"
+        title={<>Monthly SEO <span className="text-gradient">Packages</span></>}
+        subtitle="Choose the SEO plan that best fits your business goals. Every package is customized using white-hat SEO strategies to help improve your Google rankings, increase organic traffic, and generate more qualified leads."
+        breadcrumbs={[{ name: 'Home', path: '/' }, { name: 'Monthly SEO Packages', path: '/pricing' }]}
       />
 
       <section className="container-x py-12">
@@ -61,12 +61,27 @@ export default function Pricing() {
           ))}
         </div>
 
-        <p className="mt-10 text-center text-sm text-slate-400">
-          Need something custom? <button onClick={() => navigate('/contact')} className="font-semibold text-brand-300 hover:text-brand-200">Talk to our team</button> about enterprise and white-label plans.
-        </p>
+        {/* Custom SEO Plan CTA */}
+        <div className="mt-16 reveal">
+          <div className="grad-border relative overflow-hidden rounded-3xl">
+            <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-12 text-center sm:px-16">
+              <div className="blob -left-10 top-0 h-56 w-56 bg-brand-500/20" />
+              <div className="blob -right-10 bottom-0 h-56 w-56 bg-accent-500/15" />
+              <div className="relative">
+                <h2 className="mx-auto max-w-xl text-2xl font-bold text-white sm:text-3xl">
+                  Need a Custom SEO Plan?
+                </h2>
+                <p className="mx-auto mt-4 max-w-lg text-base text-slate-300">
+                  Every business is different. Contact us for a free consultation and we'll create a custom SEO strategy tailored to your goals and budget.
+                </p>
+                <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+                  Request Custom Quote <ArrowRight className="h-4 w-4" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-
-      <CTASection title="Not sure which plan fits?" subtitle="Book a free consultation and we’ll recommend the right plan for your goals and budget." />
     </>
   );
 }
