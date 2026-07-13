@@ -20,7 +20,6 @@ import WhiteLabelSEO from './pages/WhiteLabelSEO';
 import InternationalSEO from './pages/InternationalSEO';
 import CROServices from './pages/CROServices';
 import WebsiteMaintenanceSEO from './pages/WebsiteMaintenanceSEO';
-import EnterpriseSEO from './pages/EnterpriseSEO';
 import Portfolio from './pages/Portfolio';
 import CaseStudies from './pages/CaseStudies';
 import Pricing from './pages/Pricing';
@@ -85,7 +84,6 @@ function App() {
     if (path === '/international-seo') return <InternationalSEO />;
     if (path === '/cro-services') return <CROServices />;
     if (path === '/website-maintenance-seo') return <WebsiteMaintenanceSEO />;
-    if (path === '/enterprise-seo') return <EnterpriseSEO />;
     const serviceMatch = path.match(/^\/([a-z-]+)$/);
     if (serviceMatch && serviceSlugs.has(serviceMatch[1])) {
       return <ServiceDetail slug={serviceMatch[1]} />;
