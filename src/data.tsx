@@ -1,5 +1,5 @@
 import {
-  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp,
+  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp, FileSearch,
   type LucideIcon,
 } from 'lucide-react';
 import { Link } from './router';
@@ -360,6 +360,38 @@ export const services: Service[] = [
     faqs: [
       { q: 'Do you work with all e-commerce platforms?', a: 'Yes. We work with Shopify, WooCommerce, Magento, BigCommerce, and custom platforms.' },
       { q: 'How long until I see results?', a: 'Most stores see initial improvements in 2-3 months with significant growth in 4-6 months.' },
+    ],
+  },
+  {
+    slug: 'on-page-seo',
+    title: 'On-Page SEO Services',
+    short: 'Optimize every page element to rank higher and convert more visitors into customers.',
+    icon: FileSearch,
+    tagline: 'Optimize every element on every page.',
+    description: 'Comprehensive on-page SEO including keyword research, title tags, meta descriptions, heading structure, internal linking, image SEO, schema markup, and content optimization.',
+    deliverables: [
+      'Keyword research',
+      'Title tag optimization',
+      'Meta description optimization',
+      'Heading structure (H1-H6)',
+      'URL optimization',
+      'Internal linking strategy',
+      'Image SEO and ALT tags',
+      'Content optimization',
+      'Schema markup',
+      'Featured snippet optimization',
+      'E-E-A-T improvements',
+      'Core Web Vitals recommendations',
+    ],
+    process: [
+      { title: 'Audit', desc: 'Full on-page SEO audit of every page on your website.' },
+      { title: 'Research', desc: 'Keyword research to find the best target keywords for each page.' },
+      { title: 'Optimize', desc: 'Optimize titles, meta, headings, content, images, and schema.' },
+      { title: 'Report', desc: 'Track ranking improvements and organic traffic growth.' },
+    ],
+    faqs: [
+      { q: 'What is on-page SEO?', a: 'On-page SEO is the process of optimizing elements on your website pages to improve search engine rankings. This includes title tags, meta descriptions, headings, content, images, URLs, and schema markup.' },
+      { q: 'How long until on-page SEO works?', a: 'Most pages see ranking improvements within 2-4 weeks after optimization. Full results typically appear in 1-3 months as Google re-crawls and re-indexes your pages.' },
     ],
   },
 ];

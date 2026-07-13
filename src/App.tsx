@@ -14,6 +14,7 @@ import ShopifySEO from './pages/ShopifySEO';
 import WebsiteDesign from './pages/WebsiteDesign';
 import SEOAudit from './pages/SEOAudit';
 import EcommerceSEO from './pages/EcommerceSEO';
+import OnPageSEO from './pages/OnPageSEO';
 import Portfolio from './pages/Portfolio';
 import CaseStudies from './pages/CaseStudies';
 import Pricing from './pages/Pricing';
@@ -72,6 +73,7 @@ function App() {
     if (path === '/website-design') return <WebsiteDesign />;
     if (path === '/seo-audit') return <SEOAudit />;
     if (path === '/ecommerce-seo') return <EcommerceSEO />;
+    if (path === '/on-page-seo') return <OnPageSEO />;
     const serviceMatch = path.match(/^\/([a-z-]+)$/);
     if (serviceMatch && serviceSlugs.has(serviceMatch[1])) {
       return <ServiceDetail slug={serviceMatch[1]} />;
