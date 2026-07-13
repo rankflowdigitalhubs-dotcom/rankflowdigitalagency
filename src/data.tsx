@@ -1,5 +1,5 @@
 import {
-  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart,
+  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck,
   type LucideIcon,
 } from 'lucide-react';
 import { Link } from './router';
@@ -230,6 +230,84 @@ export const services: Service[] = [
     faqs: [
       { q: 'Is there a long contract?', a: 'We work on month-to-month or quarterly agreements — no long lock-ins. Stay because you’re growing.' },
       { q: 'What reporting do I get?', a: 'A live dashboard plus a monthly call covering rankings, traffic, leads, and revenue — not vanity metrics.' },
+    ],
+  },
+  {
+    slug: 'link-building',
+    title: 'Link Building Services',
+    short: 'White hat backlinks from real authority websites to improve rankings and domain authority.',
+    icon: Link2,
+    tagline: 'Safe, manual outreach that builds lasting authority.',
+    description: 'Earn high-quality, white hat backlinks through manual outreach, guest posting, and content-driven link building campaigns.',
+    deliverables: [
+      'White hat link building',
+      'Guest posting placements',
+      'Niche edits & contextual backlinks',
+      'Blogger outreach',
+      'Competitor backlink analysis',
+      'Monthly link building reports',
+    ],
+    process: [
+      { title: 'Audit', desc: 'Analyze your current backlink profile and domain authority.' },
+      { title: 'Research', desc: 'Find high-authority, niche-relevant link opportunities.' },
+      { title: 'Outreach', desc: 'Manual, personalized outreach to website owners.' },
+      { title: 'Placement', desc: 'Secure quality backlinks on real, authoritative websites.' },
+    ],
+    faqs: [
+      { q: 'Are your backlinks safe?', a: 'Yes. We use 100% white hat techniques — no PBNs, no link farms, no paid links. Every link is earned through genuine outreach.' },
+      { q: 'How long do links last?', a: 'Every link is permanent with a 12-month replacement guarantee. If a link is removed, we replace it free.' },
+    ],
+  },
+  {
+    slug: 'shopify-seo',
+    title: 'Shopify SEO Services',
+    short: 'Increase traffic, rankings, and sales for your Shopify store with expert eCommerce SEO.',
+    icon: ShoppingBag,
+    tagline: 'Drive more qualified shoppers to your Shopify store.',
+    description: 'Comprehensive Shopify SEO including product page optimization, collection page SEO, technical fixes, and content strategy.',
+    deliverables: [
+      'Shopify SEO audit',
+      'Product page optimization',
+      'Collection page optimization',
+      'Technical Shopify SEO',
+      'Core Web Vitals optimization',
+      'Monthly SEO reporting',
+    ],
+    process: [
+      { title: 'Audit', desc: 'Full SEO audit of your Shopify store and competitors.' },
+      { title: 'Optimize', desc: 'Optimize product pages, collections, and technical SEO.' },
+      { title: 'Content', desc: 'Create blog content that attracts and converts shoppers.' },
+      { title: 'Report', desc: 'Track traffic, rankings, and sales growth monthly.' },
+    ],
+    faqs: [
+      { q: 'Do you work with all Shopify stores?', a: 'Yes. We work with fashion, beauty, electronics, home decor, and all other Shopify store types.' },
+      { q: 'How long until I see results?', a: 'Most stores see initial improvements in 2–3 months with significant growth in 4–6 months.' },
+    ],
+  },
+  {
+    slug: 'seo-audit',
+    title: 'SEO Audit Services',
+    short: 'Discover what is holding your website back with a comprehensive technical SEO audit.',
+    icon: ClipboardCheck,
+    tagline: 'Find exactly what is stopping your site from ranking.',
+    description: 'A complete website SEO audit covering technical SEO, on-page, off-page, Core Web Vitals, and competitor analysis with actionable recommendations.',
+    deliverables: [
+      'Technical SEO audit',
+      'On-page SEO audit',
+      'Off-page SEO review',
+      'Core Web Vitals analysis',
+      'Competitor analysis',
+      'Priority recommendations report',
+    ],
+    process: [
+      { title: 'Analyze', desc: 'Deep crawl and analysis of your entire website.' },
+      { title: 'Report', desc: 'Detailed SEO report with all issues identified.' },
+      { title: 'Prioritize', desc: 'Actionable recommendations sorted by impact.' },
+      { title: 'Strategy', desc: 'Clear growth strategy to improve rankings and traffic.' },
+    ],
+    faqs: [
+      { q: 'How long does an SEO audit take?', a: 'Most audits are completed within 3–5 business days depending on website size and complexity.' },
+      { q: 'Is the SEO audit really free?', a: 'Yes. We offer a free initial SEO audit to show you what is holding your website back. No obligation.' },
     ],
   },
 ];
