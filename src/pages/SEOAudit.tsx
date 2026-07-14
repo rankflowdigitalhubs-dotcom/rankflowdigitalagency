@@ -1,7 +1,7 @@
 import { Search, Check, ArrowRight, Gauge, Smartphone, Zap, Bug, Database, Code2, Link2, BarChart3, Target, TrendingUp, FileText } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -72,7 +72,7 @@ export default function SEOAudit() {
     <>
       <SEO
         title="SEO Audit Services"
-        description="Discover what's holding your website back with Rank Flow Agency's professional SEO audit services. Technical SEO, on-page, off-page, Core Web Vitals, and competitor analysis. Request a free audit today."
+        description="Discover what is holding your website back with our professional SEO audit services. Technical SEO, on-page, off-page, Core Web Vitals, and competitor analysis."
         path="/seo-audit"
         schema={[breadcrumbSchema(crumbs), faqSchema(auditFaqs)]}
       />
@@ -462,6 +462,8 @@ export default function SEOAudit() {
           <FAQList faqs={auditFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="seo-audit" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

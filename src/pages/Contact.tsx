@@ -1,6 +1,7 @@
 import { Mail, Globe, MapPin, MessageSquare } from 'lucide-react';
 import { SEO, breadcrumbSchema, localBusinessSchema, faqSchema } from '../seo';
 import { PageHero, ContactForm, FAQList, SocialIcons } from '../components';
+import { Link } from '../router';
 import { contactInfo } from '../data';
 
 const contactFaqs = [
@@ -15,7 +16,7 @@ export default function Contact() {
     <>
       <SEO
         title="Contact Us"
-        description="Get in touch with Rank Flow Digital for a free SEO audit, consultation, or proposal. Email info@rankflowagency.online or send us a message."
+        description="Get in touch with Rank Flow Digital for a free SEO audit, consultation, or proposal. Email us at info@rankflowagency.online or send a message."
         path="/contact"
         schema={[breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Contact', path: '/contact' }]), localBusinessSchema, faqSchema(contactFaqs)]}
       />
@@ -85,6 +86,24 @@ export default function Contact() {
             </div>
             <ContactForm />
           </div>
+        </div>
+      </section>
+
+      {/* Quick links to services */}
+      <section className="container-x py-12">
+        <div className="text-center">
+          <span className="eyebrow reveal">Our Services</span>
+          <h2 className="mt-4 text-2xl font-bold text-white reveal reveal-delay-1">Not sure where to start?</h2>
+          <p className="mt-3 text-slate-400">Explore our most popular services and see how we can help your business grow.</p>
+        </div>
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <Link to="/seo" className="btn-ghost text-sm">SEO Services</Link>
+          <Link to="/local-seo" className="btn-ghost text-sm">Local SEO</Link>
+          <Link to="/technical-seo" className="btn-ghost text-sm">Technical SEO</Link>
+          <Link to="/seo-audit" className="btn-ghost text-sm">SEO Audit</Link>
+          <Link to="/link-building" className="btn-ghost text-sm">Link Building</Link>
+          <Link to="/content-writing" className="btn-ghost text-sm">Content Writing</Link>
+          <Link to="/website-design" className="btn-ghost text-sm">Web Design</Link>
         </div>
       </section>
 

@@ -1,7 +1,7 @@
 import { Check, ArrowRight, Shield, HardDrive, RefreshCw, Palette, Link2, Zap, Code2, Activity, Lock, FileText, Server, Users, ShoppingBag, BarChart3, Briefcase, HeartPulse } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -59,7 +59,7 @@ export default function WebsiteMaintenanceSEO() {
     <>
       <SEO
         title="Website Maintenance & SEO Services"
-        description="Monthly website maintenance with security monitoring, daily backups, plugin updates, speed optimization, and technical SEO. Keep your website fast, secure, and ranking. Get a free website maintenance audit from Rank Flow Agency."
+        description="Monthly website maintenance with security monitoring, daily backups, plugin updates, speed optimization, and technical SEO. Keep your site fast and ranking."
         path="/website-maintenance-seo"
         schema={[breadcrumbSchema(crumbs), faqSchema(maintFaqs)]}
       />
@@ -368,6 +368,8 @@ export default function WebsiteMaintenanceSEO() {
           </div>
         </div>
       </section>
+      <RelatedServices currentSlug="website-maintenance-seo" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

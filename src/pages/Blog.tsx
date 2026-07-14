@@ -10,7 +10,7 @@ export default function Blog() {
     <>
       <SEO
         title="Blog"
-        description="SEO insights, guides, and playbooks from the Rank Flow Digital team — local SEO, technical SEO, link building, content, and more."
+        description="SEO insights, guides, and playbooks from Rank Flow Digital. Learn local SEO, technical SEO, link building, content marketing, web design, and more."
         path="/blog"
         schema={breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Blog', path: '/blog' }])}
       />
@@ -69,6 +69,24 @@ export default function Blog() {
               </div>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* Quick links */}
+      <section className="container-x py-12">
+        <div className="text-center">
+          <span className="eyebrow reveal">Our Services</span>
+          <h2 className="mt-4 text-2xl font-bold text-white reveal reveal-delay-1">Explore our services</h2>
+          <p className="mt-3 text-slate-400">Learn more about the SEO services we offer.</p>
+        </div>
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <Link to="/seo" className="btn-ghost text-sm">SEO Services</Link>
+          <Link to="/local-seo" className="btn-ghost text-sm">Local SEO</Link>
+          <Link to="/technical-seo" className="btn-ghost text-sm">Technical SEO</Link>
+          <Link to="/seo-audit" className="btn-ghost text-sm">SEO Audit</Link>
+          <Link to="/link-building" className="btn-ghost text-sm">Link Building</Link>
+          <Link to="/content-writing" className="btn-ghost text-sm">Content Writing</Link>
+          <Link to="/website-design" className="btn-ghost text-sm">Web Design</Link>
         </div>
       </section>
 

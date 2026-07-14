@@ -1,7 +1,7 @@
 import { Search, Check, ArrowRight, TrendingUp, ShoppingCart, Tag, Gauge, Link2, Image as ImageIcon, Code2, FileText, BarChart3, ShoppingBag, Globe } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -78,7 +78,7 @@ export default function ShopifySEO() {
     <>
       <SEO
         title="Shopify SEO Services"
-        description="Increase traffic, rankings, and sales with Rank Flow Agency's Shopify SEO services. Product page optimization, technical SEO, content strategy, and link building for Shopify stores. Get a free audit."
+        description="Increase traffic, rankings, and sales with our Shopify SEO services. Product page optimization, technical SEO, content strategy, and link building for Shopify."
         path="/shopify-seo"
         schema={[breadcrumbSchema(crumbs), faqSchema(shopifyFaqs)]}
       />
@@ -468,6 +468,8 @@ export default function ShopifySEO() {
           <FAQList faqs={shopifyFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="shopify-seo" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

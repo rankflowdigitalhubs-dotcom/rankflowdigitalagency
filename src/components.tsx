@@ -557,3 +557,20 @@ export function Parallax({ children, strength = 20 }: { children: React.ReactNod
 }
 
 export { scrollToId };
+
+export function RelatedServices({ currentSlug, title = 'Explore more services' }: { currentSlug: string; title?: string }) {
+  const related = services.filter((s) => s.slug !== currentSlug).slice(0, 4);
+  return (
+    <section className="container-x py-16">
+      <h2 className="text-2xl font-bold text-white">{title}</h2>
+      <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {related.map((s) => (
+          <Link key={s.slug} to={`/${s.slug}`} className="glass lift p-5">
+            <s.icon className="h-6 w-6 text-brand-300" />
+            <h3 className="mt-3 text-sm font-semibold text-white">{s.title}</h3>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}

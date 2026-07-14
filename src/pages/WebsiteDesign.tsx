@@ -1,7 +1,7 @@
 import { Check, ArrowRight, Smartphone, Zap, Search, Mail, MessageCircle, MapPin, Share2, Lock, Menu, Palette, Image as ImageIcon, Code2, ShoppingBag, Globe, FileCode, Layout, RefreshCw, Gauge } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -90,7 +90,7 @@ export default function WebsiteDesign() {
     <>
       <SEO
         title="Professional Website Design Services"
-        description="Get a modern, responsive, SEO-friendly website that grows your business. Rank Flow Agency offers business, eCommerce, Shopify, and WordPress website design services. Get a free quote."
+        description="Get a modern, responsive, SEO-friendly website that grows your business. We offer business, eCommerce, Shopify, and WordPress website design. Get a free quote."
         path="/website-design"
         schema={[breadcrumbSchema(crumbs), faqSchema(designFaqs)]}
       />
@@ -467,6 +467,8 @@ export default function WebsiteDesign() {
           <FAQList faqs={designFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="website-design" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

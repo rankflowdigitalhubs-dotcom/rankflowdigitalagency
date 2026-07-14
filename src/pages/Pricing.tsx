@@ -2,6 +2,7 @@ import { Check, ArrowRight, Sparkles } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema } from '../seo';
 import { PageHero } from '../components';
+import { Link } from '../router';
 import { pricingPlans } from '../data';
 
 export default function Pricing() {
@@ -9,7 +10,7 @@ export default function Pricing() {
     <>
       <SEO
         title="Monthly SEO Packages"
-        description="Choose the SEO plan that best fits your business goals. Starter SEO at $99/month, Growth SEO at $249/month, and Premium SEO at $499/month. White-hat SEO strategies to improve Google rankings and organic traffic."
+        description="Choose the SEO plan that fits your goals. Starter at $99/mo, Growth at $249/mo, and Premium at $499/mo. White-hat SEO to improve rankings and traffic."
         path="/pricing"
         schema={breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Monthly SEO Packages', path: '/pricing' }])}
       />
@@ -80,6 +81,24 @@ export default function Pricing() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Quick links */}
+      <section className="container-x py-12">
+        <div className="text-center">
+          <span className="eyebrow reveal">Our Services</span>
+          <h2 className="mt-4 text-2xl font-bold text-white reveal reveal-delay-1">Explore our services</h2>
+          <p className="mt-3 text-slate-400">Not sure which plan is right? Learn more about what each service includes.</p>
+        </div>
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <Link to="/seo" className="btn-ghost text-sm">SEO Services</Link>
+          <Link to="/local-seo" className="btn-ghost text-sm">Local SEO</Link>
+          <Link to="/technical-seo" className="btn-ghost text-sm">Technical SEO</Link>
+          <Link to="/seo-audit" className="btn-ghost text-sm">SEO Audit</Link>
+          <Link to="/link-building" className="btn-ghost text-sm">Link Building</Link>
+          <Link to="/content-writing" className="btn-ghost text-sm">Content Writing</Link>
+          <Link to="/website-design" className="btn-ghost text-sm">Web Design</Link>
         </div>
       </section>
     </>

@@ -1,7 +1,7 @@
 import { Check, ArrowRight, Search, TrendingUp, Zap, Gauge, Smartphone, Code2, Link2, BarChart3, Tag, FileText, Image as ImageIcon, Layout, ShoppingCart } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -79,7 +79,7 @@ export default function EcommerceSEO() {
     <>
       <SEO
         title="E-commerce SEO Services"
-        description="Increase organic traffic and online sales with Rank Flow Agency's e-commerce SEO services. Product page optimization, category SEO, technical SEO, and link building for Shopify, WooCommerce, Magento, and BigCommerce stores. Get a free audit."
+        description="Increase organic traffic and online sales with our e-commerce SEO services. Product page optimization, category SEO, and link building for all major platforms."
         path="/ecommerce-seo"
         schema={[breadcrumbSchema(crumbs), faqSchema(ecommerceFaqs)]}
       />
@@ -438,6 +438,8 @@ export default function EcommerceSEO() {
           <FAQList faqs={ecommerceFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="ecommerce-seo" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

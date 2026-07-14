@@ -9,7 +9,7 @@ export default function Services() {
     <>
       <SEO
         title="Our Services"
-        description="Full-stack SEO and digital marketing services: SEO, local SEO, technical SEO, guest posting, content writing, web design, logo design, and monthly SEO management."
+        description="Full-stack SEO and digital marketing services: SEO, local SEO, technical SEO, guest posting, content writing, web design, and monthly SEO management."
         path="/services"
         schema={breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Services', path: '/services' }])}
       />

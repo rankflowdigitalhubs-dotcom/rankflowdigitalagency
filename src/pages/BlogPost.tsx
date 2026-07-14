@@ -71,7 +71,7 @@ export default function BlogPost({ slug }: { slug: string }) {
     <>
       <SEO
         title={post.title}
-        description={post.excerpt}
+        description={post.excerpt.length > 160 ? post.excerpt.slice(0, 157).trim() + '...' : post.excerpt}
         path={`/blog/${slug}`}
         ogImage={post.img}
         schema={[

@@ -1,7 +1,7 @@
 import { Check, ArrowRight, TrendingUp, Target, BarChart3, MousePointerClick, Eye, Smartphone, ShoppingCart, Filter, PenLine, Users, ShieldCheck, Award, Zap, GitCompare, ArrowLeftRight } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -69,7 +69,7 @@ export default function CROServices() {
     <>
       <SEO
         title="Conversion Rate Optimization (CRO) Services"
-        description="Increase leads, sales, and conversions without increasing ad spend. Our CRO services include landing page optimization, A/B testing, heatmap analysis, mobile CRO, and eCommerce CRO. Get a free CRO audit from Rank Flow Agency."
+        description="Increase leads and conversions without more ad spend. Our CRO services include A/B testing, heatmap analysis, mobile CRO, and landing page optimization."
         path="/cro-services"
         schema={[breadcrumbSchema(crumbs), faqSchema(croFaqs)]}
       />
@@ -430,6 +430,8 @@ export default function CROServices() {
           <FAQList faqs={croFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="cro-services" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

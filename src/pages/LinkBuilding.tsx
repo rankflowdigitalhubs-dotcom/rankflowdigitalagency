@@ -1,7 +1,7 @@
 import { Search, Check, ArrowRight, Link2, Mail, TrendingUp, Award, Target, BarChart3, ShieldCheck, Wrench, FileSearch } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -75,7 +75,7 @@ export default function LinkBuilding() {
     <>
       <SEO
         title="Link Building Services"
-        description="Improve rankings and authority with Rank Flow Agency's white hat link building services. Guest posts, niche edits, blogger outreach, and authority backlinks. Get a free backlink audit today."
+        description="Improve rankings and authority with our white hat link building services. Guest posts, niche edits, blogger outreach, and authority backlinks. Get a free audit."
         path="/link-building"
         schema={[breadcrumbSchema(crumbs), faqSchema(linkFaqs)]}
       />
@@ -465,6 +465,8 @@ export default function LinkBuilding() {
           <FAQList faqs={linkFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="link-building" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

@@ -1,7 +1,7 @@
 import { Check, ArrowRight, Search, TrendingUp, Globe, BarChart3, Compass, MapPin, Wrench, FileSearch, Link2, PenLine, ShieldCheck, Award, Code2, LineChart } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -76,7 +76,7 @@ export default function InternationalSEO() {
     <>
       <SEO
         title="International SEO Services"
-        description="Rank in multiple countries with Rank Flow Agency's international SEO services. hreflang implementation, multi-language SEO, country-specific keyword research, global link building, and localized landing pages. Get a free international SEO audit."
+        description="Rank in multiple countries with our international SEO services. hreflang implementation, multi-language SEO, keyword research, and global link building."
         path="/international-seo"
         schema={[breadcrumbSchema(crumbs), faqSchema(intlFaqs)]}
       />
@@ -370,6 +370,8 @@ export default function InternationalSEO() {
           <FAQList faqs={intlFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="international-seo" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

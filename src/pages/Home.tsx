@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <SEO
         title="Premium SEO & Digital Marketing Agency"
-        description="Rank Flow Digital helps local businesses, startups, SaaS, e-commerce, law firms, dentists, and real estate rank higher and grow revenue with white-hat SEO, content, and web design."
+        description="Rank Flow Digital helps businesses rank higher and grow revenue with white-hat SEO, content writing, and web design. Get a free SEO audit today."
         path="/"
         schema={[localBusinessSchema, faqSchema(homeFaqs)]}
       />

@@ -1,7 +1,7 @@
 import { Check, ArrowRight, Search, TrendingUp, Link2, Globe, BarChart3, Target, PenLine, Megaphone, Building2, Users, ShieldCheck, Award, FileText, Trash2, Repeat } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -77,7 +77,7 @@ export default function OffPageSEO() {
     <>
       <SEO
         title="Off-Page SEO Services"
-        description="Build authority and increase Google rankings with Rank Flow Agency's off-page SEO services. White hat link building, guest posting, digital PR, high authority backlinks, and competitor analysis. Get a free consultation."
+        description="Build authority and increase Google rankings with our off-page SEO services. White hat link building, guest posting, digital PR, and competitor analysis."
         path="/off-page-seo"
         schema={[breadcrumbSchema(crumbs), faqSchema(offPageFaqs)]}
       />
@@ -436,6 +436,8 @@ export default function OffPageSEO() {
           <FAQList faqs={offPageFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="off-page-seo" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

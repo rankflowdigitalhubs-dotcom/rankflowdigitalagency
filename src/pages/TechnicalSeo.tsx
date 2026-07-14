@@ -1,7 +1,7 @@
 import { Search, Check, ArrowRight, Gauge, Smartphone, Code2, ShieldCheck, FileCode, Link2, Image as ImageIcon, Settings, AlertTriangle, RefreshCw, FileBarChart, Map as MapIcon } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -78,7 +78,7 @@ export default function TechnicalSeo() {
     <>
       <SEO
         title="Technical SEO Services"
-        description="Fix crawl errors, improve Core Web Vitals, optimize page speed, and rank higher with Rank Flow Agency's Technical SEO services. Get a free technical SEO audit today."
+        description="Fix crawl errors, improve Core Web Vitals, optimize page speed, and rank higher with our Technical SEO services. Get a free technical SEO audit today."
         path="/technical-seo"
         schema={[breadcrumbSchema(crumbs), faqSchema(techSeoFaqs)]}
       />
@@ -471,6 +471,8 @@ export default function TechnicalSeo() {
           <FAQList faqs={techSeoFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="technical-seo" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

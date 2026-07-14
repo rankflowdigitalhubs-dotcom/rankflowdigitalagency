@@ -7,6 +7,7 @@ import {
 import { SEO, breadcrumbSchema } from '../seo';
 import { PageHero, CTASection } from '../components';
 import { portfolioItems, type PortfolioItem } from '../data';
+import { Link } from '../router';
 
 const categoryIcons: Record<string, LucideIcon> = {
   'SEO Audit': Search,
@@ -44,7 +45,7 @@ export default function Portfolio() {
     <>
       <SEO
         title="Portfolio"
-        description="Explore our sample SEO projects — audit samples, technical SEO examples, local SEO samples, keyword research, content writing, on-page optimization, and more. Clearly labeled demo projects."
+        description="Explore our sample SEO projects: audit samples, technical SEO examples, local SEO samples, keyword research, content writing, and on-page optimization."
         path="/portfolio"
         schema={breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Portfolio', path: '/portfolio' }])}
       />
@@ -147,6 +148,24 @@ export default function Portfolio() {
               </button>
             );
           })}
+        </div>
+      </section>
+
+      {/* Quick links to services */}
+      <section className="container-x py-12">
+        <div className="text-center">
+          <span className="eyebrow reveal">Our Services</span>
+          <h2 className="mt-4 text-2xl font-bold text-white reveal reveal-delay-1">Ready to get started?</h2>
+          <p className="mt-3 text-slate-400">Explore our services and see how we can help your business grow.</p>
+        </div>
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <Link to="/seo" className="btn-ghost text-sm">SEO Services</Link>
+          <Link to="/local-seo" className="btn-ghost text-sm">Local SEO</Link>
+          <Link to="/technical-seo" className="btn-ghost text-sm">Technical SEO</Link>
+          <Link to="/seo-audit" className="btn-ghost text-sm">SEO Audit</Link>
+          <Link to="/link-building" className="btn-ghost text-sm">Link Building</Link>
+          <Link to="/content-writing" className="btn-ghost text-sm">Content Writing</Link>
+          <Link to="/website-design" className="btn-ghost text-sm">Web Design</Link>
         </div>
       </section>
 

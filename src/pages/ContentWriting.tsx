@@ -1,7 +1,7 @@
 import { Search, Check, ArrowRight, FileText, Layout, MapPin, ShoppingBag, FileBarChart, RefreshCw, Bot, ClipboardList, TrendingUp, Users, Star, BookOpen } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -75,7 +75,7 @@ export default function ContentWriting() {
     <>
       <SEO
         title="SEO Content Writing Services"
-        description="Drive organic traffic and generate leads with Rank Flow Agency's SEO content writing services. Human-written blog posts, website copy, landing pages, and content strategy. Get a free consultation."
+        description="Drive organic traffic with our SEO content writing services. Human-written blog posts, website copy, landing pages, and content strategy. Free consultation."
         path="/content-writing"
         schema={[breadcrumbSchema(crumbs), faqSchema(contentFaqs)]}
       />
@@ -465,6 +465,8 @@ export default function ContentWriting() {
           <FAQList faqs={contentFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="content-writing" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

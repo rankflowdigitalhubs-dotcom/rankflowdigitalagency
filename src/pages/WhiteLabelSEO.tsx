@@ -1,7 +1,7 @@
 import { Check, ArrowRight, TrendingUp, Link2, BarChart3, Briefcase, Users, ShieldCheck, Award, MapPin, Wrench, PenLine, ShoppingBag, ClipboardCheck, LineChart, FileSearch } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -73,7 +73,7 @@ export default function WhiteLabelSEO() {
     <>
       <SEO
         title="White Label SEO Services"
-        description="Scale your agency with white label SEO services from Rank Flow Agency. White label link building, content writing, technical SEO, local SEO, and reporting under your brand. Become a white label SEO partner today."
+        description="Scale your agency with white label SEO from Rank Flow Agency. White label link building, content writing, technical SEO, and local SEO under your brand name."
         path="/white-label-seo"
         schema={[breadcrumbSchema(crumbs), faqSchema(whiteLabelFaqs)]}
       />
@@ -432,6 +432,8 @@ export default function WhiteLabelSEO() {
           <FAQList faqs={whiteLabelFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="white-label-seo" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

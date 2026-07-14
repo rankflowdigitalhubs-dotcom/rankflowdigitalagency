@@ -17,7 +17,7 @@ export default function ServiceDetail({ slug }: { slug: string }) {
     <>
       <SEO
         title={service.title}
-        description={service.short}
+        description={service.description.length > 140 ? service.description.slice(0, 157).trim() + '...' : service.description}
         path={`/${slug}`}
         schema={[breadcrumbSchema(crumbs), faqSchema(service.faqs)]}
       />

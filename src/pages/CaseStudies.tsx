@@ -2,6 +2,7 @@ import { TrendingUp, ArrowRight } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema } from '../seo';
 import { PageHero, CTASection } from '../components';
+import { Link } from '../router';
 import { caseStudies } from '../data';
 
 export default function CaseStudies() {
@@ -88,6 +89,24 @@ export default function CaseStudies() {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Quick links */}
+      <section className="container-x py-12">
+        <div className="text-center">
+          <span className="eyebrow reveal">Our Services</span>
+          <h2 className="mt-4 text-2xl font-bold text-white reveal reveal-delay-1">Explore our services</h2>
+          <p className="mt-3 text-slate-400">See how our services can help you achieve similar results.</p>
+        </div>
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+          <Link to="/seo" className="btn-ghost text-sm">SEO Services</Link>
+          <Link to="/local-seo" className="btn-ghost text-sm">Local SEO</Link>
+          <Link to="/technical-seo" className="btn-ghost text-sm">Technical SEO</Link>
+          <Link to="/seo-audit" className="btn-ghost text-sm">SEO Audit</Link>
+          <Link to="/link-building" className="btn-ghost text-sm">Link Building</Link>
+          <Link to="/content-writing" className="btn-ghost text-sm">Content Writing</Link>
+          <Link to="/website-design" className="btn-ghost text-sm">Web Design</Link>
         </div>
       </section>
 

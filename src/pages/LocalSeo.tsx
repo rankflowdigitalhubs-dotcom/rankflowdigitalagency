@@ -1,7 +1,7 @@
 import { MapPin, Search, Check, ArrowRight, Phone, TrendingUp, Users, Star, Navigation, FileBarChart, PenLine, Link2, Building2, Settings, ClipboardList } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -74,7 +74,7 @@ export default function LocalSeo() {
     <>
       <SEO
         title="Local SEO Services for Small Businesses"
-        description="Rank higher on Google Maps and local search with Rank Flow Agency's Local SEO services. We optimize your Google Business Profile, build local citations, and drive more calls and customers to your business."
+        description="Rank higher on Google Maps and local search with our Local SEO services. We optimize your Google Business Profile, build citations, and drive more calls."
         path="/local-seo"
         schema={[breadcrumbSchema(crumbs), faqSchema(localSeoFaqs)]}
       />
@@ -457,6 +457,8 @@ export default function LocalSeo() {
           <FAQList faqs={localSeoFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="local-seo" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

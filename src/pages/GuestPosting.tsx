@@ -1,7 +1,7 @@
 import { Search, Check, ArrowRight, Link2, Mail, TrendingUp, Users, Award, Target, BarChart3, PenLine, ShieldCheck } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -75,7 +75,7 @@ export default function GuestPosting() {
     <>
       <SEO
         title="Guest Posting Services"
-        description="Build authority and improve rankings with Rank Flow Agency's guest posting services. High DA backlinks, manual outreach, white hat link building, and quality content included. Get a free consultation."
+        description="Build authority and improve rankings with our guest posting services. High DA backlinks, manual outreach, white hat link building, and quality content included."
         path="/guest-posting"
         schema={[breadcrumbSchema(crumbs), faqSchema(guestPostFaqs)]}
       />
@@ -465,6 +465,8 @@ export default function GuestPosting() {
           <FAQList faqs={guestPostFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="guest-posting" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

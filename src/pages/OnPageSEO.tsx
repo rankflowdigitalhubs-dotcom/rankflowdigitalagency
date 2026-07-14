@@ -1,7 +1,7 @@
 import { Check, ArrowRight, Search, TrendingUp, Code2, Link2, FileText, Image as ImageIcon, Tag, Gauge, Smartphone, BarChart3, Target, Type, Layers, Award } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -79,7 +79,7 @@ export default function OnPageSEO() {
     <>
       <SEO
         title="On-Page SEO Services"
-        description="Improve your Google rankings with Rank Flow Agency's on-page SEO services. Keyword research, title tags, meta descriptions, heading structure, internal linking, image SEO, schema markup, and content optimization. Get a free audit."
+        description="Improve your Google rankings with our on-page SEO services. Keyword research, title tags, meta descriptions, headings, internal linking, and schema markup."
         path="/on-page-seo"
         schema={[breadcrumbSchema(crumbs), faqSchema(onPageFaqs)]}
       />
@@ -469,6 +469,8 @@ export default function OnPageSEO() {
           <FAQList faqs={onPageFaqs} />
         </div>
       </section>
+      <RelatedServices currentSlug="on-page-seo" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">

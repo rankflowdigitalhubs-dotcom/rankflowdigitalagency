@@ -1,7 +1,7 @@
 import { Check, ArrowRight, Building2, Code2, PenLine, Link2, Globe, MapPin, Zap, BarChart3, Users, Server, ShieldCheck, Award, TrendingUp, Briefcase, HeartPulse, ShoppingBag, Cpu } from 'lucide-react';
 import { navigate } from '../router';
 import { SEO, breadcrumbSchema, faqSchema } from '../seo';
-import { FAQList } from '../components';
+import { FAQList, RelatedServices } from '../components';
 
 const crumbs = [
   { name: 'Home', path: '/' },
@@ -67,7 +67,7 @@ export default function EnterpriseSEO() {
     <>
       <SEO
         title="Enterprise SEO Services"
-        description="Scalable enterprise SEO services for large companies and high-traffic websites. Technical SEO, content strategy, link building, international SEO, multi-location SEO, SEO automation, and dedicated teams. Get a free enterprise SEO audit from Rank Flow Agency."
+        description="Scalable enterprise SEO for large companies and high-traffic websites. Technical SEO, content strategy, link building, international SEO, and dedicated teams."
         path="/enterprise-seo"
         schema={[breadcrumbSchema(crumbs), faqSchema(entFaqs)]}
       />
@@ -513,6 +513,8 @@ export default function EnterpriseSEO() {
           </div>
         </div>
       </section>
+      <RelatedServices currentSlug="enterprise-seo" />
+
 
       {/* STRONG CTA */}
       <section className="container-x py-24">
