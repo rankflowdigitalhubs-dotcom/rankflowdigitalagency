@@ -54,15 +54,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-      - name: Submit URLs to IndexNow
-        run: |
-          KEY="c23db36687f03815dd1872fca085583a"
-          KEY_LOCATION="https://rankflowagency.online/${KEY}.txt"
-          HOST="rankflowagency.online"
-          URLS=$(grep -oP '(?<=<loc>)[^<]+' dist/sitemap.xml)
-          URL_ARRAY=$(echo "$URLS" | sed 's/.*/"&"/' | paste -sd, -)
-          curl -s -X POST "https://api.indexnow.org/IndexNow" \
-            -H "Content-Type: application/json" \
-            -d "{\"host\":\"$HOST\",\"key\":\"$KEY\",\"keyLocation\":\"$KEY_LOCATION\",\"urlList\":[$URL_ARRAY]}" \
-            -o /dev/null -w "%{http_code}" || true
