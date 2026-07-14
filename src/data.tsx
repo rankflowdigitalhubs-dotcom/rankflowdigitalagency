@@ -966,6 +966,7 @@ export const blogPosts = [
   { slug: 'content-that-converts', title: 'Writing Content That Ranks AND Converts', category: 'Content', date: 'May 28, 2026', readTime: '8 min', excerpt: 'The balance between SEO optimization and persuasion - with templates you can use today.', img: 'https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg?auto=compress&cs=tinysrgb&w=800' },
   { slug: 'ecommerce-category-pages', title: 'How to Rank E-commerce Category Pages', category: 'E-commerce', date: 'May 19, 2026', readTime: '10 min', excerpt: 'Category pages are your biggest SEO asset. Here\'s how to optimize them for revenue.', img: 'https://images.pexels.com/photos/421965/pexels-photo-421965.jpeg?auto=compress&cs=tinysrgb&w=800' },
   { slug: 'hvac-business-not-showing-on-google', title: 'Why Isn\'t My HVAC Business Showing on Google? (10 Proven Fixes to Get More Calls)', category: 'Local SEO', date: 'Jul 14, 2026', readTime: '14 min', author: 'Emily', excerpt: 'Is your HVAC business invisible on Google Search and Maps? Learn why and discover 10 proven fixes to rank higher, get more calls, and grow your HVAC business with Local SEO.', img: 'https://images.pexels.com/photos/5463582/pexels-photo-5463582.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'electrical-business-not-showing-on-google', title: 'Why Isn\'t My Electrical Business Showing on Google? (10 Fixes to Get More Calls)', category: 'Local SEO', date: 'Jul 14, 2026', readTime: '14 min', author: 'Jack', excerpt: 'Is your electrical business invisible on Google Search and Maps? Learn why and discover 10 proven fixes to rank higher, get more calls, and grow your electrical contracting business with Local SEO.', img: 'https://images.pexels.com/photos/10871585/pexels-photo-10871585.jpeg?auto=compress&cs=tinysrgb&w=1200' },
 ];
 
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
@@ -8103,6 +8104,283 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       { q: 'What is the best category for an HVAC business on Google?', a: 'The best primary category is "HVAC contractor." Add secondary categories like "Air conditioning contractor," "Heating contractor," and "Air conditioning repair service" to cover all your services. Avoid generic categories like "Contractor" that do not specifically describe HVAC services.' },
       { q: 'Why did my Google Business Profile get suspended?', a: 'Common reasons for suspension include using a virtual office or PO box instead of a physical address, keyword stuffing in your business name, listing a service area that is too broad, having duplicate listings, or violating Google\'s guidelines. To fix it, correct the violation and submit a reinstatement request.' },
       { q: 'How much does HVAC SEO cost?', a: 'HVAC SEO costs vary depending on your market, competition, and the scope of work. Most reputable SEO agencies charge between $500 and $2,500 per month for local SEO. At Rank Flow Agency, we offer affordable plans starting at $99/month. Contact us for a free audit and custom quote.' },
+    ],
+  },
+  'electrical-business-not-showing-on-google': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Why Isn\'t My Electrical Business Showing on Google?',
+        body: (
+          <div className="space-y-4">
+            <p>
+              You have been running your electrical business for years. You are licensed, insured, and your customers trust you. But when someone in your city searches for "electrician near me" or "electrical contractor in [city]," your business is nowhere to be found. Instead, you see your competitors sitting comfortably at the top of Google Search and Google Maps, collecting calls that should be yours.
+            </p>
+            <p>
+              If that sounds like your situation, you are not alone. Many electricians and electrical contractors face the same problem. They do excellent work but struggle to get found online. The issue is not your skills or your service. The issue is that Google does not know enough about your business to show it to potential customers.
+            </p>
+            <p>
+              The good news is that this is completely fixable. In this guide, I will explain exactly why your electrical business is not showing on Google and what you can do to change it. We will cover <strong>electrician SEO</strong>, <strong>local SEO for electricians</strong>, <strong>Google Business Profile for electricians</strong>, <strong>electrician Google Maps ranking</strong>, and practical steps you can take today to start getting more calls from local customers.
+            </p>
+            <p>
+              If you want professional help implementing these strategies, <a href="#/local-seo">Rank Flow Agency offers dedicated Local SEO services</a> for trades and home service businesses. You can also <a href="#/contact">request a free SEO audit</a> to find out exactly what is holding your electrical business back.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'why-not-showing',
+        heading: 'Why Your Electrical Business Isn\'t Showing on Google',
+        body: (
+          <div className="space-y-5">
+            <p>
+              Before we fix the problem, we need to understand what is causing it. There are ten common reasons why your electrical business is not appearing on Google Search or Google Maps. Let us walk through each one.
+            </p>
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/7793650/pexels-photo-7793650.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Frustrated electrical business owner looking at laptop wondering why business is not showing on Google" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+            <h3 className="text-xl font-semibold text-white mt-6">1. Unoptimized Google Business Profile</h3>
+            <p>
+              Your <strong>Google Business Profile</strong> is the most important tool for local search visibility. If you have not claimed it, or if you claimed it but left it half-finished, Google has very little information to work with. No photos, no services listed, no business hours, no description. Without these details, Google cannot match your business to relevant searches, and you will not appear in the Local Pack (the top three results on Google Maps).
+            </p>
+            <p>
+              Many electricians create a profile, fill in the basics, and never touch it again. That is a missed opportunity. Google rewards profiles that are complete, accurate, and active. If you want to maximize your visibility, check out our <a href="#/google-business-profile">Google Business Profile optimization services</a>.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">2. Wrong Business Category</h3>
+            <p>
+              When setting up your Google Business Profile, you choose a primary category. Many electrical businesses pick something generic like "Contractor" or "Home Service" instead of specific categories like "Electrician," "Electrical contractor," or "Lighting contractor." This is a serious problem. Your primary category is one of Google's strongest ranking signals. If you choose the wrong one, you will not show up for the searches that actually matter to your business.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">3. Poor Local SEO</h3>
+            <p>
+              <strong>Local SEO for electricians</strong> goes beyond your Google Business Profile. It includes your website content, local keywords, location pages, directory citations, and customer reviews. If you are not actively working on local SEO, your competitors who are will keep outranking you. A solid <a href="#/local-seo">Local SEO strategy</a> tells Google exactly where you operate and what services you offer.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">4. Inconsistent NAP Information</h3>
+            <p>
+              NAP stands for Name, Address, and Phone number. Google checks your NAP across the web to verify your business. If your NAP is inconsistent (different phone numbers on different directories, a slightly different business name, or an old address), Google loses confidence in your business information. This confusion can push you down in the rankings or prevent you from showing up at all.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">5. Weak Website SEO</h3>
+            <p>
+              Your website is the foundation of your online presence. If it is slow, hard to navigate, or missing key information like services, service areas, and contact details, Google will struggle to rank it. Your site needs clear service pages for each type of work you do (residential, commercial, emergency repairs, lighting installation, panel upgrades, etc.), location-specific content, and a mobile-friendly design. If your site needs a rebuild, our <a href="#/website-design">website design services</a> can help.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">6. Technical SEO Problems</h3>
+            <p>
+              <strong>Technical SEO</strong> is the behind-the-scenes work that helps Google crawl and index your website. Common issues include missing meta tags, broken links, slow page speed, no XML sitemap, and poor mobile responsiveness. These problems silently hold back your rankings. Our <a href="#/technical-seo">technical SEO services</a> can identify and fix these issues so your site performs at its best.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">7. Lack of Customer Reviews</h3>
+            <p>
+              Reviews are one of the top local ranking factors. They also heavily influence whether a potential customer clicks on your business or your competitor's. If you have fewer than 10 reviews or your average rating is below 4 stars, you are at a serious disadvantage. Businesses with dozens of positive reviews consistently rank higher and get more calls.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">8. Poor Internal Linking</h3>
+            <p>
+              Internal linking is how pages on your website link to each other. If your service pages do not link to your contact page, your blog posts do not link to your service pages, and your homepage does not link to your location pages, Google has a hard time understanding the structure of your site. Poor internal linking means your most important pages do not get the attention they deserve from both Google and visitors.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">9. Low Website Authority</h3>
+            <p>
+              Website authority is a measure of how trustworthy and authoritative your site is in the eyes of Google. It is largely determined by the quality and quantity of backlinks (links from other websites to yours). If your website has few or low-quality backlinks, Google will not consider it authoritative enough to rank at the top. Building high-quality backlinks through professional <a href="#/link-building">link building services</a> is essential for long-term SEO success.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">10. Google Business Profile Suspension</h3>
+            <p>
+              If your profile has been suspended, your business will not show on Google at all. Suspensions happen for several reasons: using a virtual office address, keyword stuffing in your business name, listing an overly broad service area, or violating Google's guidelines in some other way. If you have been suspended, you need to identify the issue, fix it, and submit a reinstatement request.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'step-by-step-solutions',
+        heading: 'Step-by-Step Solutions',
+        body: (
+          <div className="space-y-5">
+            <p>
+              Now that you know what is holding your electrical business back, let us fix it. Here is a step-by-step plan for each problem we identified.
+            </p>
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/27928762/pexels-photo-27928762.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Electrician working on electrical panel representing step-by-step SEO solutions for electrical businesses" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+            <h3 className="text-xl font-semibold text-white mt-6">Step 1: Fully Optimize Your Google Business Profile</h3>
+            <p>
+              Go to google.com/business and claim your profile if you have not already. Fill out every single field: business name, address, phone number, website, operating hours, services, service areas, and a 750-character description that includes your primary keywords naturally. Upload at least 10 photos of your team, your van, your equipment, and completed jobs. Post updates at least once a week. The more complete and active your profile, the better you will rank.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Step 2: Choose the Right Categories</h3>
+            <p>
+              Set your primary category to "Electrician." Add secondary categories like "Electrical contractor," "Lighting contractor," and "Electrical repair service" if they apply to your business. Do not add categories that do not reflect what you actually do. Google penalizes businesses that stuff irrelevant categories.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Step 3: Invest in Local SEO</h3>
+            <p>
+              Create dedicated location pages on your website for every city or neighborhood you serve. Use local keywords naturally in your content ("electrician in [City]," "electrical contractor [City]"). Build citations on relevant directories. Get listed on electrician-specific and trades directories. A comprehensive <a href="#/local-seo">Local SEO campaign</a> covers all of these bases.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Step 4: Make Your NAP Consistent Everywhere</h3>
+            <p>
+              Choose one exact business name, one address, and one phone number. Use that exact combination on your website, Google Business Profile, Yelp, Facebook, Yellow Pages, Angi, and every other directory. Even small variations can cause problems. Audit your existing listings and correct any inconsistencies.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Step 5: Optimize Your Website</h3>
+            <p>
+              Create separate service pages for residential electrical work, commercial electrical work, emergency repairs, lighting installation, panel upgrades, and any other services you offer. Include your service areas, a clear phone number in the header, and a contact form. Make sure your site loads in under 3 seconds and works perfectly on mobile phones, since most electrician searches happen on mobile.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Step 6: Fix Technical SEO Issues</h3>
+            <p>
+              Run a <a href="#/seo-audit">comprehensive SEO audit</a> to find technical problems. Fix broken links, optimize meta titles and descriptions, submit an XML sitemap to Google Search Console, and improve page speed. Technical issues will hold back every other SEO effort if left unaddressed.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Step 7: Get More Customer Reviews</h3>
+            <p>
+              Ask every satisfied customer for a review. Send a follow-up text or email with a direct link to your Google review page. Respond to every review, whether it is positive or negative. Aim for at least one new review per week. Reviews build trust with both Google and potential customers.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Step 8: Improve Your Internal Linking</h3>
+            <p>
+              Make sure your homepage links to all your service pages. Your service pages should link to your contact page and relevant location pages. Your blog posts should link to your service pages. A well-structured internal linking system helps Google understand your site and rank your most important pages higher.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Step 9: Build Website Authority</h3>
+            <p>
+              Focus on earning links from relevant, authoritative websites. Reach out to local Chambers of Commerce, trade associations, and industry blogs. Create valuable content that other sites want to link to. Avoid buying links or using spammy directories. Quality matters far more than quantity when it comes to backlinks.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Step 10: Appeal a Suspension</h3>
+            <p>
+              If your profile is suspended, review Google's guidelines carefully, fix any violations, and submit a reinstatement request through Google Business Profile support. Be patient, as the process can take several weeks, but it is worth it to get your business back on Google.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'local-seo-checklist',
+        heading: 'Complete Local SEO Checklist for Electricians',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Use this checklist to make sure you have covered all the essentials of <strong>electrical contractor SEO</strong>. Work through each item systematically.
+            </p>
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/7718755/pexels-photo-7718755.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Clipboard with checklist representing complete local SEO checklist for electricians" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+            <ul className="space-y-2">
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Google Business Profile claimed and fully optimized with every field completed</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Primary category set to "Electrician" with relevant secondary categories</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>NAP (Name, Address, Phone) is identical across all directories and your website</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>At least 10 photos uploaded to your Google Business Profile</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Weekly Google Business Profile posts about services, tips, or recent projects</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Dedicated service pages for residential, commercial, emergency, and specialty work</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Location-specific landing pages for every city or area you serve</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Website loads in under 3 seconds on mobile devices</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Click-to-call button prominently displayed on mobile site</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>At least 25 Google reviews with an average rating of 4.5 or higher</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Listed on Yelp, Facebook, Yellow Pages, Angi, and HomeAdvisor</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>XML sitemap submitted to Google Search Console</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Local business schema markup installed on your website</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Internal links connecting your homepage, service pages, and location pages</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Backlinks from at least 10 local or industry-relevant websites</span></li>
+            </ul>
+            <p>
+              If you can check every box on this list, you are in a strong position to dominate local search. If you need help, <a href="#/contact">reach out to Rank Flow Agency</a> and we will handle it for you.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'google-maps-rankings',
+        heading: 'How Google Maps Rankings Work',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Understanding how <strong>electrician Google Maps ranking</strong> works is essential to showing up when customers search for electrical services in your area. Google uses three main factors to rank businesses on Google Maps: Relevance, Distance, and Prominence.
+            </p>
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/5921677/pexels-photo-5921677.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up of Google Maps on smartphone representing how Google Maps rankings work for electricians" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+            <h3 className="text-xl font-semibold text-white mt-6">Relevance</h3>
+            <p>
+              Relevance is how well your business matches the searcher's query. If someone searches "emergency electrician," Google looks for businesses that offer emergency electrical services. Your Google Business Profile categories, services, and description all signal relevance. The more specific and accurate your profile, the better Google can match you to the right searches.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Distance</h3>
+            <p>
+              Distance is how far your business is from the searcher's location. Google tries to show the closest relevant businesses first. If you are in Chicago and someone in Chicago searches for an electrician, you have an advantage. This is why having your correct address and service areas listed accurately is critical. If you serve multiple cities but do not have a physical location in each one, location-specific landing pages on your website can help bridge the gap.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Prominence</h3>
+            <p>
+              Prominence is how well-known and trusted your business is online. Google measures this through reviews, backlinks, website authority, and overall online presence. A business with 100 five-star reviews and a strong, well-optimized website will outrank a business with 5 reviews and no website. Prominence is where you can truly set yourself apart from the competition.
+            </p>
+            <p>
+              To improve your Google Maps ranking, work on all three factors. Optimize your profile for relevance, ensure your address is correct for distance, and build reviews and backlinks for prominence. If you want a detailed breakdown of where you stand, our <a href="#/seo-audit">SEO audit services</a> will show you exactly that.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'common-mistakes',
+        heading: 'Common SEO Mistakes Electricians Make',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Even with the best intentions, many electrical businesses make SEO mistakes that hold them back. Here are the most common ones to avoid.
+            </p>
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/3912976/pexels-photo-3912976.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop displaying analytics graphs and charts representing common SEO mistakes electricians make" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+            <ul className="space-y-3">
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Keyword stuffing:</strong> Cramming "electrician [City]" into every sentence makes your content unreadable and can trigger Google penalties. Use keywords naturally and sparingly.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Ignoring mobile users:</strong> Over 60% of electrician searches happen on mobile phones. If your site is not mobile-friendly, you are losing customers.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Not responding to reviews:</strong> Responding to reviews shows Google and customers that you are active and engaged. Ignoring reviews, especially negative ones, hurts trust.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Thin service pages:</strong> Service pages with only a few sentences do not rank. Each service page should have at least 500 words of helpful, original content.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Buying reviews:</strong> Google can detect fake reviews and will penalize your business. Focus on earning genuine reviews from real customers.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>No blog or content strategy:</strong> Publishing helpful content about electrical safety, common problems, and tips builds authority and attracts organic traffic.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Ignoring technical SEO:</strong> Broken links, slow load times, and missing meta tags silently damage your rankings. <a href="#/technical-seo">Technical SEO</a> fixes are non-negotiable.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>No internal linking:</strong> If your pages do not link to each other, Google struggles to understand your site structure and your most important pages get buried.</span></li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'faq',
+        heading: 'Frequently Asked Questions',
+        body: (
+          <div className="space-y-4">
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/7821908/pexels-photo-7821908.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Electrician talking with customer representing frequently asked questions about electrician SEO" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+          </div>
+        ),
+      },
+      {
+        id: 'final-summary',
+        heading: 'Final Summary',
+        body: (
+          <div className="space-y-4">
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/7792833/pexels-photo-7792833.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Confident and successful electrical business owner representing growth through SEO" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+            <p>
+              If your electrical business is not showing on Google, it is not because Google has something against you. It is because your online presence needs work. The ten problems we covered (unoptimized Google Business Profile, wrong categories, poor local SEO, inconsistent NAP, weak website, technical SEO issues, lack of reviews, poor internal linking, low website authority, and profile suspension) are all fixable.
+            </p>
+            <p>
+              Start with your Google Business Profile. It is the fastest way to improve your visibility on Google Search and Maps. Then work through the Local SEO checklist for electricians. Fix your website, build reviews, improve your internal linking, and invest in <strong>electrician marketing</strong> that drives real leads. Over time, these efforts compound and your business will start showing up when customers search for electrical services in your area.
+            </p>
+            <p>
+              SEO is not a one-time task. It is an ongoing process that requires consistent effort. But the payoff is worth it. Every call you get from Google is a customer who was actively looking for an electrician. That is the highest quality lead you can ask for.
+            </p>
+            <div className="grad-border rounded-3xl p-8 mt-8 text-center">
+              <h3 className="text-2xl font-bold text-white">Ready to Get More Electrical Calls from Google?</h3>
+              <p className="mt-3 text-slate-300">
+                Stop losing customers to competitors who rank above you. <strong>Rank Flow Agency</strong> specializes in <strong>electrician SEO</strong> and <strong>local SEO for electricians</strong>. We will optimize your Google Business Profile, fix your website, build your local presence, and get you ranking on Google Search and Google Maps.
+              </p>
+              <p className="mt-3 text-slate-300">
+                <a href="#/contact" className="btn-glow inline-flex items-center gap-2">Get a FREE Electrician SEO Audit</a>
+              </p>
+              <p className="mt-4 text-sm text-slate-400">
+                No obligation. No pressure. Just a clear plan to get your electrical business showing on Google and generating more calls.
+              </p>
+            </div>
+          </div>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'Why isn\'t my electrical business showing on Google Maps?', a: 'The most common reasons are an unoptimized Google Business Profile, wrong business category, inconsistent NAP information, few customer reviews, or a suspended profile. Fix these issues by claiming and fully optimizing your profile, choosing the correct categories, building reviews, and ensuring your business information is consistent across the web.' },
+      { q: 'How long does it take for my electrical business to show up on Google?', a: 'If you just created or verified your Google Business Profile, it can take a few days to a few weeks to appear. If you have had a profile for a while but are still not ranking, it usually means your profile needs optimization, your website needs SEO work, or your competitors have stronger local SEO.' },
+      { q: 'What is electrician SEO?', a: 'Electrician SEO is the process of optimizing your electrical business website and online presence to rank higher on Google for searches related to electrical services. It includes local SEO, technical SEO, content creation, review building, and link building.' },
+      { q: 'How do I improve my electrician Google Maps ranking?', a: 'To improve your Google Maps ranking, optimize your Google Business Profile with accurate categories, photos, and regular posts. Get more customer reviews. Ensure your NAP is consistent. Build local citations and backlinks. Create location-specific pages on your website. Google ranks businesses based on relevance, distance, and prominence.' },
+      { q: 'Do I need a website for local SEO as an electrician?', a: 'While you can appear on Google Maps with just a Google Business Profile, having a website significantly improves your rankings. Your website provides content, service pages, location pages, and backlink opportunities that boost your prominence. A well-optimized website is essential for competitive electrical markets.' },
+      { q: 'How many Google reviews do I need to rank well?', a: 'There is no exact number, but businesses in the top 3 Google Maps results typically have at least 25 to 50 reviews. Aim for a steady stream of new reviews (at least one per week) and maintain an average rating of 4.5 stars or higher. Quality and recency matter as much as quantity.' },
+      { q: 'Can I do electrician SEO myself or should I hire an agency?', a: 'You can handle basic electrician SEO yourself by optimizing your Google Business Profile, building reviews, and creating service pages. However, technical SEO, link building, and content strategy require expertise. If you do not have the time or knowledge, hiring an agency like Rank Flow Agency can save you time and deliver faster results.' },
+      { q: 'What is the best Google Business Profile category for an electrician?', a: 'The best primary category is "Electrician." Add secondary categories like "Electrical contractor," "Lighting contractor," and "Electrical repair service" to cover all your services. Avoid generic categories like "Contractor" that do not specifically describe electrical work.' },
+      { q: 'Why was my Google Business Profile suspended?', a: 'Common reasons for suspension include using a virtual office or PO box instead of a physical address, keyword stuffing in your business name, listing a service area that is too broad, having duplicate listings, or violating Google\'s guidelines. To fix it, correct the violation and submit a reinstatement request.' },
+      { q: 'How much does electrician SEO cost?', a: 'Electrician SEO costs vary depending on your market, competition, and the scope of work. Most reputable SEO agencies charge between $500 and $2,500 per month for local SEO. At Rank Flow Agency, we offer affordable plans starting at $99/month. Contact us for a free audit and custom quote.' },
     ],
   },
 };
