@@ -964,7 +964,8 @@ export const blogPosts = [
   { slug: 'link-building-white-hat', title: 'White-Hat Link Building That Actually Works', category: 'Link Building', date: 'Jun 15, 2026', readTime: '11 min', excerpt: 'How we build authority backlinks on real sites without risking a single penalty.', img: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800' },
   { slug: 'saas-seo-playbook', title: 'The SaaS SEO Playbook: From Trial to Revenue', category: 'SaaS', date: 'Jun 6, 2026', readTime: '14 min', excerpt: 'A repeatable framework for turning organic search into a compounding SaaS growth channel.', img: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800' },
   { slug: 'content-that-converts', title: 'Writing Content That Ranks AND Converts', category: 'Content', date: 'May 28, 2026', readTime: '8 min', excerpt: 'The balance between SEO optimization and persuasion - with templates you can use today.', img: 'https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { slug: 'ecommerce-category-pages', title: 'How to Rank E-commerce Category Pages', category: 'E-commerce', date: 'May 19, 2026', readTime: '10 min', excerpt: 'Category pages are your biggest SEO asset. Here’s how to optimize them for revenue.', img: 'https://images.pexels.com/photos/421965/pexels-photo-421965.jpeg?auto=compress&cs=tinysrgb&w=800' },
+  { slug: 'ecommerce-category-pages', title: 'How to Rank E-commerce Category Pages', category: 'E-commerce', date: 'May 19, 2026', readTime: '10 min', excerpt: 'Category pages are your biggest SEO asset. Here\'s how to optimize them for revenue.', img: 'https://images.pexels.com/photos/421965/pexels-photo-421965.jpeg?auto=compress&cs=tinysrgb&w=800' },
+  { slug: 'hvac-business-not-showing-on-google', title: 'Why Isn\'t My HVAC Business Showing on Google? (10 Proven Fixes to Get More Calls)', category: 'Local SEO', date: 'Jul 14, 2026', readTime: '14 min', author: 'Emily', excerpt: 'Is your HVAC business invisible on Google Search and Maps? Learn why and discover 10 proven fixes to rank higher, get more calls, and grow your HVAC business with Local SEO.', img: 'https://images.pexels.com/photos/5463582/pexels-photo-5463582.jpeg?auto=compress&cs=tinysrgb&w=1200' },
 ];
 
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
@@ -7826,6 +7827,282 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       { q: 'Is Local SEO only for businesses with physical locations?', a: 'No. Service-area businesses such as SEO agencies, plumbers, electricians, consultants, and home service providers can also benefit from Local SEO by targeting the locations they serve.' },
       { q: 'Do customer reviews really help rankings?', a: 'Yes. Genuine customer reviews help build trust with both Google and potential customers. Businesses with strong review profiles often have an advantage in local search results.' },
       { q: 'Can I do Local SEO without paying for ads?', a: 'Absolutely. Local SEO focuses on improving your organic visibility. While paid advertising can complement your marketing efforts, many businesses generate valuable leads through Local SEO alone.' },
+    ],
+  },
+  'hvac-business-not-showing-on-google': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Why Isn\'t My HVAC Business Showing on Google?',
+        body: (
+          <div className="space-y-4">
+            <p>
+              You run a solid HVAC company. Your technicians show up on time, your customers are happy, and your work is top-notch. But when someone in your city searches for "AC repair near me" or "heating and cooling services," your business is nowhere to be found. Instead, you see your competitors ranking at the top of Google Search and Google Maps, grabbing all the calls and leads.
+            </p>
+            <p>
+              If that sounds familiar, you are not alone. Many HVAC business owners struggle with the same problem. They know they offer better service than the competition, but Google does not seem to care. The truth is, Google does not know your business exists unless you tell it. And even when it does, it needs clear signals that your HVAC business is relevant, trustworthy, and local.
+            </p>
+            <p>
+              The good news is that this is fixable. In this guide, I will walk you through exactly why your HVAC business is not showing on Google and what you can do about it. We will cover <strong>HVAC SEO</strong>, <strong>Google Business Profile for HVAC</strong>, <strong>HVAC Google Maps ranking</strong>, and practical steps to get more calls from local customers. Whether you are just starting out or have been in business for years, these strategies will help you climb the rankings and grow your customer base.
+            </p>
+            <p>
+              If you want professional help implementing these strategies, <a href="#/local-seo">Rank Flow Agency offers dedicated Local SEO services</a> designed specifically for home service businesses like yours. You can also <a href="#/contact">request a free SEO audit</a> to see exactly what is holding your HVAC business back.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'why-not-showing',
+        heading: 'Why Your HVAC Business May Not Be Showing on Google',
+        body: (
+          <div className="space-y-5">
+            <p>
+              Before we fix the problem, we need to understand what is causing it. There are ten common reasons why your HVAC business is not appearing on Google Search or Google Maps. Let us go through each one.
+            </p>
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/7927357/pexels-photo-7927357.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Frustrated HVAC business owner looking at laptop wondering why business is not showing on Google" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+            <h3 className="text-xl font-semibold text-white mt-6">1. Your Google Business Profile Is Not Optimized</h3>
+            <p>
+              Your <strong>Google Business Profile</strong> (formerly Google My Business) is the single most important factor for local search visibility. If you have not claimed or optimized your profile, Google has very little information about your business. No photos, no services listed, no business hours, no description. That makes it nearly impossible to rank in the Local Pack (the top three results on Google Maps).
+            </p>
+            <p>
+              Many HVAC owners create a profile, fill in the basics, and never touch it again. That is a mistake. Google rewards active, complete, and accurate profiles. If you want to learn how to optimize yours, check out our <a href="#/google-business-profile">Google Business Profile optimization services</a>.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">2. Wrong Business Categories</h3>
+            <p>
+              When you set up your Google Business Profile, you choose a primary category. Many HVAC businesses pick a generic category like "Contractor" or "Home Service" instead of specific ones like "HVAC contractor," "Air conditioning contractor," or "Heating contractor." This is a big problem. Google uses your primary category as one of its strongest ranking signals. If you pick the wrong one, you will not rank for the searches that matter.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">3. Inconsistent NAP Information</h3>
+            <p>
+              NAP stands for Name, Address, and Phone number. Google uses NAP information across the web to verify your business. If your NAP is inconsistent (different phone numbers on different directories, slightly different business names, or an old address), Google loses trust. This inconsistency confuses the algorithm and can push your business down in the rankings.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">4. Poor Local SEO</h3>
+            <p>
+              <strong>Local SEO for HVAC</strong> is about more than just your Google Business Profile. It includes your website content, local keywords, location pages, citations, and reviews. If you are not actively working on local SEO, your competitors who are will keep outranking you. A strong <a href="#/local-seo">Local SEO strategy</a> ensures Google understands exactly where you operate and what services you offer.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">5. Weak Website Optimization</h3>
+            <p>
+              Your website is the foundation of your online presence. If it is slow, hard to navigate, or missing key information like services, service areas, and contact details, Google will struggle to rank it. Your website needs clear service pages, location-specific content, and a mobile-friendly design. If your site needs work, our <a href="#/website-design">website design services</a> can help you build a site that ranks and converts.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">6. Technical SEO Issues</h3>
+            <p>
+              Technical SEO is the behind-the-scenes stuff that helps Google crawl and index your website. Common issues include missing meta tags, broken links, slow page speed, no XML sitemap, and poor mobile responsiveness. These issues prevent Google from understanding your site. Our <a href="#/technical-seo">technical SEO services</a> can identify and fix these problems so your site performs at its best.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">7. Low-Quality Backlinks</h3>
+            <p>
+              Backlinks (links from other websites to yours) are a major ranking factor. But not all backlinks are good. Low-quality, spammy, or irrelevant backlinks can actually hurt your rankings. If your link profile is weak or toxic, Google will not trust your site. Building high-quality, relevant backlinks through <a href="#/link-building">link building services</a> and <a href="#/off-page-seo">off-page SEO</a> is essential for long-term success.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">8. Few Customer Reviews</h3>
+            <p>
+              Reviews are one of the top local ranking factors. They also play a huge role in whether someone clicks on your business or your competitor's. If you have fewer than 10 reviews or your rating is below 4 stars, you are at a disadvantage. Businesses with dozens of positive reviews consistently rank higher and get more calls.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">9. Duplicate Business Listings</h3>
+            <p>
+              If you have multiple Google Business Profiles for the same business (maybe someone on your team created a second one by mistake), Google gets confused. Duplicate listings split your reviews, dilute your ranking power, and can lead to suspension. You should have exactly one profile per physical location.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">10. Google Business Profile Suspension</h3>
+            <p>
+              If your profile was suspended, your business will not show on Google at all. Suspensions happen for various reasons: using a virtual office address, keyword stuffing in your business name, listing a service area that is too broad, or violating Google's guidelines. If you have been suspended, you need to fix the issue and request reinstatement.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'how-to-fix',
+        heading: 'How to Fix Each Problem',
+        body: (
+          <div className="space-y-5">
+            <p>
+              Now that you know what is holding your HVAC business back, let us fix it. Here is a step-by-step plan for each problem we identified.
+            </p>
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/6471913/pexels-photo-6471913.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician repairing air conditioning unit representing step-by-step SEO fixes for HVAC businesses" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+            <h3 className="text-xl font-semibold text-white mt-6">Fix 1: Optimize Your Google Business Profile</h3>
+            <p>
+              Claim your profile at google.com/business if you have not already. Fill out every single field: business name, address, phone, website, hours, services, service areas, and a 750-character description. Upload at least 10 photos of your team, trucks, and work. Post updates weekly. The more complete and active your profile, the better you will rank.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Fix 2: Choose the Right Categories</h3>
+            <p>
+              Set your primary category to "HVAC contractor." Add secondary categories like "Air conditioning contractor," "Heating contractor," and "Air conditioning repair service." Do not pick categories that do not apply. Google penalizes businesses that stuff irrelevant categories.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Fix 3: Make Your NAP Consistent Everywhere</h3>
+            <p>
+              Pick one exact business name, one address, and one phone number. Use that exact combination on your website, Google Business Profile, Yelp, Facebook, Yellow Pages, and every other directory. Even small differences (like "LLC" vs "L.L.C.") can cause problems. Audit your listings and fix any inconsistencies.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Fix 4: Invest in Local SEO</h3>
+            <p>
+              Create location-specific pages on your website for every city or neighborhood you serve. Use local keywords naturally in your content ("AC repair in [City]," "heating installation [City]"). Build local citations on relevant directories. Get listed on HVAC-specific and home service directories. A well-rounded <a href="#/local-seo">Local SEO campaign</a> covers all of these.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Fix 5: Optimize Your Website</h3>
+            <p>
+              Make sure your website has dedicated service pages for AC repair, heating repair, installation, maintenance, and emergency service. Include your service areas, a clear phone number in the header, and a contact form. Ensure your site loads in under 3 seconds and works perfectly on mobile phones, since most HVAC searches happen on mobile.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Fix 6: Fix Technical SEO Issues</h3>
+            <p>
+              Run a <a href="#/seo-audit">comprehensive SEO audit</a> to find technical issues. Fix broken links, optimize meta titles and descriptions, submit an XML sitemap to Google Search Console, and improve page speed. If your site has technical problems, they will hold back all your other SEO efforts.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Fix 7: Build High-Quality Backlinks</h3>
+            <p>
+              Focus on earning links from relevant, authoritative websites. Reach out to local business associations, Chambers of Commerce, and industry blogs. Create valuable content that other sites want to link to. Avoid buying links or using spammy directories. Quality matters far more than quantity.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Fix 8: Get More Customer Reviews</h3>
+            <p>
+              Ask every happy customer for a review. Send a follow-up text or email with a direct link to your Google review page. Respond to every review, positive and negative. Aim for at least one new review per week. Reviews build trust with both Google and potential customers.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Fix 9: Remove Duplicate Listings</h3>
+            <p>
+              Search for your business on Google Maps. If you see multiple listings, contact Google Business Profile support to merge or remove the duplicates. Keep only the one with the most reviews and accurate information.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Fix 10: Appeal a Suspension</h3>
+            <p>
+              If your profile is suspended, review Google's guidelines, fix any violations, and submit a reinstatement request through Google Business Profile support. Be patient. The process can take several weeks, but it is worth it to get your business back on Google.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'local-seo-checklist',
+        heading: 'HVAC Local SEO Checklist',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Use this checklist to make sure you have covered all the essentials of <strong>HVAC business SEO</strong>. Print it out, share it with your team, and work through each item.
+            </p>
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/8293680/pexels-photo-8293680.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person holding clipboard with checklist representing HVAC local SEO checklist" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+            <ul className="space-y-2">
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Google Business Profile claimed and fully optimized with all fields filled out</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Primary category set to "HVAC contractor" with relevant secondary categories</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>NAP (Name, Address, Phone) is consistent across all directories and your website</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>At least 10 photos uploaded to your Google Business Profile</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Weekly Google Business Profile posts about services, tips, or promotions</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Dedicated service pages for AC repair, heating repair, installation, and maintenance</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Location-specific landing pages for every city you serve</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Website loads in under 3 seconds on mobile devices</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Click-to-call button prominently displayed on mobile site</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>At least 25 Google reviews with an average rating of 4.5 or higher</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Listed on Yelp, Facebook, Yellow Pages, Angi, and HomeAdvisor</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>XML sitemap submitted to Google Search Console</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Schema markup for local business installed on your website</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>No duplicate Google Business Profiles</span></li>
+              <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Backlinks from at least 10 local or industry-relevant websites</span></li>
+            </ul>
+            <p>
+              If you can check every box on this list, you are well on your way to dominating local search. If you need help, <a href="#/contact">reach out to Rank Flow Agency</a> and we will handle it for you.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'google-maps-rankings',
+        heading: 'How Google Maps Rankings Work',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Understanding how <strong>HVAC Google Maps ranking</strong> works is key to showing up when customers search for HVAC services in your area. Google uses three main factors to rank businesses on Google Maps: Relevance, Distance, and Prominence.
+            </p>
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/10161200/pexels-photo-10161200.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person using Google Maps navigation on phone representing how Google Maps rankings work for HVAC businesses" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+            <h3 className="text-xl font-semibold text-white mt-6">Relevance</h3>
+            <p>
+              Relevance is how well your business matches the searcher's query. If someone searches "AC repair," Google looks for businesses that offer AC repair. Your Google Business Profile categories, services, and description all signal relevance. The more specific and accurate your profile, the better Google can match you to relevant searches.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Distance</h3>
+            <p>
+              Distance is how far your business is from the searcher's location. Google tries to show the closest relevant businesses. If you are in Dallas and someone in Dallas searches for HVAC services, you have an advantage. This is why having your correct address and service areas listed is critical. If you serve a wide area but do not have a physical location in every city, location-specific landing pages on your website can help.
+            </p>
+            <h3 className="text-xl font-semibold text-white mt-6">Prominence</h3>
+            <p>
+              Prominence is how well-known and trusted your business is. Google measures this through reviews, backlinks, website authority, and overall online presence. A business with 100 five-star reviews and a strong website will outrank a business with 5 reviews and no website. Prominence is where you can really separate yourself from the competition.
+            </p>
+            <p>
+              To improve your Google Maps ranking, focus on all three factors. Optimize your profile for relevance, ensure your address is correct for distance, and build reviews and backlinks for prominence. If you want a deeper dive, our <a href="#/seo-audit">SEO audit services</a> will show you exactly where you stand on all three.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'common-mistakes',
+        heading: 'Common HVAC SEO Mistakes',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Even with the best intentions, many HVAC businesses make mistakes that hurt their SEO. Here are the most common ones to avoid.
+            </p>
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/5717766/pexels-photo-5717766.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop displaying business analytics and charts representing common HVAC SEO mistakes to avoid" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+            <ul className="space-y-3">
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Keyword stuffing:</strong> Cramming "HVAC repair [City]" into every sentence makes your content unreadable and can trigger Google penalties. Use keywords naturally.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Ignoring mobile users:</strong> Over 60% of HVAC searches happen on mobile phones. If your site is not mobile-friendly, you are losing customers.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Not responding to reviews:</strong> Responding to reviews shows Google and customers that you are active and engaged. Ignoring reviews, especially negative ones, hurts trust.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Thin content pages:</strong> Service pages with only 100 words of content do not rank. Each service page should have at least 500 words of helpful, original content.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Buying reviews:</strong> Google can detect fake reviews and will penalize your business. Focus on earning genuine reviews from real customers.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>No blog or content strategy:</strong> Publishing helpful content about HVAC tips, maintenance, and common problems builds authority and attracts organic traffic. Our <a href="#/content-writing">SEO content writing services</a> can help.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Ignoring technical SEO:</strong> Broken links, slow load times, and missing meta tags silently hurt your rankings. <a href="#/technical-seo">Technical SEO</a> fixes are essential.</span></li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'faq',
+        heading: 'Frequently Asked Questions',
+        body: (
+          <div className="space-y-4">
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/6720525/pexels-photo-6720525.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician talking with customer representing frequently asked questions about HVAC SEO" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+          </div>
+        ),
+      },
+      {
+        id: 'final-summary',
+        heading: 'Final Summary',
+        body: (
+          <div className="space-y-4">
+            <div className="grad-border rounded-2xl overflow-hidden my-6">
+              <img src="https://images.pexels.com/photos/22756973/pexels-photo-22756973.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy and confident HVAC business owner representing successful HVAC business growth through SEO" className="w-full h-64 object-cover" loading="lazy" />
+            </div>
+            <p>
+              If your HVAC business is not showing on Google, it is not because Google does not like you. It is because your online presence needs work. The ten problems we covered (unoptimized Google Business Profile, wrong categories, inconsistent NAP, poor local SEO, weak website, technical SEO issues, low-quality backlinks, few reviews, duplicate listings, and suspensions) are all fixable.
+            </p>
+            <p>
+              Start with your Google Business Profile. It is the fastest way to improve your visibility on Google Search and Maps. Then work through the HVAC Local SEO checklist. Fix your website, build reviews, and invest in <strong>HVAC marketing</strong> that drives <strong>HVAC lead generation</strong>. Over time, these efforts compound and your business will start showing up when customers search for HVAC services in your area.
+            </p>
+            <p>
+              SEO is not a one-time task. It is an ongoing process that requires consistent effort. But the payoff is worth it. Every call you get from Google is a customer who was actively looking for your services. That is the highest quality lead you can get.
+            </p>
+            <div className="grad-border rounded-3xl p-8 mt-8 text-center">
+              <h3 className="text-2xl font-bold text-white">Ready to Get More HVAC Calls from Google?</h3>
+              <p className="mt-3 text-slate-300">
+                Stop losing customers to competitors who rank higher than you. <strong>Rank Flow Agency</strong> specializes in <strong>HVAC SEO</strong> and <strong>local SEO for HVAC</strong> businesses. We will optimize your Google Business Profile, fix your website, build your local presence, and get you ranking on Google Search and Google Maps.
+              </p>
+              <p className="mt-3 text-slate-300">
+                <a href="#/contact" className="btn-glow inline-flex items-center gap-2">Get a FREE HVAC SEO Audit</a>
+              </p>
+              <p className="mt-4 text-sm text-slate-400">
+                No obligation. No pressure. Just a clear plan to get your HVAC business showing on Google and generating more calls.
+              </p>
+            </div>
+          </div>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'Why isn\'t my HVAC business showing on Google Maps?', a: 'The most common reasons are an unoptimized Google Business Profile, wrong business categories, inconsistent NAP information, few customer reviews, or a suspended profile. Fix these issues by claiming and optimizing your profile, choosing the right categories, building reviews, and ensuring your business information is consistent across the web.' },
+      { q: 'How long does it take for my HVAC business to show up on Google?', a: 'If you just created or verified your Google Business Profile, it can take a few days to a few weeks to appear. If you have had a profile for a while but are still not ranking, it usually means your profile needs optimization, your website needs SEO work, or your competitors have stronger local SEO.' },
+      { q: 'What is HVAC SEO?', a: 'HVAC SEO is the process of optimizing your HVAC business website and online presence to rank higher on Google for searches related to heating, cooling, and air conditioning services. It includes local SEO, technical SEO, content creation, review building, and link building.' },
+      { q: 'How do I improve my HVAC Google Maps ranking?', a: 'To improve your Google Maps ranking, optimize your Google Business Profile with accurate categories, photos, and posts. Get more customer reviews. Ensure your NAP is consistent. Build local citations and backlinks. Create location-specific pages on your website. Google ranks businesses based on relevance, distance, and prominence.' },
+      { q: 'Do I need a website for local SEO?', a: 'While you can appear on Google Maps with just a Google Business Profile, having a website significantly improves your rankings. Your website provides content, service pages, location pages, and backlink opportunities that boost your prominence. A well-optimized website is essential for competitive HVAC markets.' },
+      { q: 'How many reviews do I need to rank on Google?', a: 'There is no magic number, but businesses in the top 3 Google Maps results typically have at least 25 to 50 reviews. Aim for a steady stream of new reviews (at least one per week) and maintain an average rating of 4.5 stars or higher. Quality and recency matter as much as quantity.' },
+      { q: 'Can I do HVAC SEO myself or should I hire an agency?', a: 'You can do basic HVAC SEO yourself by optimizing your Google Business Profile, building reviews, and creating service pages. However, technical SEO, link building, and content strategy require expertise. If you do not have the time or knowledge, hiring an agency like Rank Flow Agency can save you time and deliver faster results.' },
+      { q: 'What is the best category for an HVAC business on Google?', a: 'The best primary category is "HVAC contractor." Add secondary categories like "Air conditioning contractor," "Heating contractor," and "Air conditioning repair service" to cover all your services. Avoid generic categories like "Contractor" that do not specifically describe HVAC services.' },
+      { q: 'Why did my Google Business Profile get suspended?', a: 'Common reasons for suspension include using a virtual office or PO box instead of a physical address, keyword stuffing in your business name, listing a service area that is too broad, having duplicate listings, or violating Google\'s guidelines. To fix it, correct the violation and submit a reinstatement request.' },
+      { q: 'How much does HVAC SEO cost?', a: 'HVAC SEO costs vary depending on your market, competition, and the scope of work. Most reputable SEO agencies charge between $500 and $2,500 per month for local SEO. At Rank Flow Agency, we offer affordable plans starting at $99/month. Contact us for a free audit and custom quote.' },
     ],
   },
 };
