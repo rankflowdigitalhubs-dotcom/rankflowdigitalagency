@@ -1,5 +1,5 @@
 import {
-  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp, FileSearch, Globe, Briefcase, Compass, Target, Server,
+  Search, MapPin, Wrench, FileText, PenLine, Palette, Code2, LineChart, Link2, ShoppingBag, ClipboardCheck, TrendingUp, FileSearch, Globe, Briefcase, Compass, Target, Server, Building2,
   type LucideIcon,
 } from 'lucide-react';
 import { Link } from './router';
@@ -534,6 +534,35 @@ export const services: Service[] = [
     faqs: [
       { q: 'What is website maintenance?', a: 'Website maintenance is the ongoing process of keeping your website secure, fast, and up-to-date. It includes security monitoring, backups, plugin and theme updates, broken link fixes, speed optimization, and technical SEO.' },
       { q: 'Why do I need monthly website maintenance?', a: 'Websites require constant upkeep. Plugins and themes release updates, security threats emerge, links break, and performance degrades over time. Monthly maintenance keeps your site secure, fast, and ranking well in search results.' },
+    ],
+  },
+  {
+    slug: 'enterprise-seo',
+    title: 'Enterprise SEO Services',
+    short: 'Scalable SEO for large companies and high-traffic websites with dedicated teams and advanced reporting.',
+    icon: Building2,
+    tagline: 'SEO built for scale.',
+    description: 'Complete enterprise SEO services including technical SEO for large websites, content strategy, enterprise link building, international SEO, multi-location SEO, SEO automation, advanced reporting, and a dedicated SEO team.',
+    deliverables: [
+      'Enterprise technical SEO',
+      'Enterprise content strategy',
+      'Enterprise link building',
+      'International enterprise SEO',
+      'Large website optimization',
+      'Multi-location SEO',
+      'SEO automation',
+      'Advanced reporting',
+      'Dedicated SEO team',
+    ],
+    process: [
+      { title: 'Audit', desc: 'We conduct a comprehensive enterprise SEO audit across your entire website and digital presence.' },
+      { title: 'Strategy', desc: 'We develop a scalable enterprise SEO strategy aligned with your corporate goals and resources.' },
+      { title: 'Execute', desc: 'We implement technical SEO, content, link building, and automation across your organization.' },
+      { title: 'Report', desc: 'You receive advanced reporting with executive dashboards and dedicated team support.' },
+    ],
+    faqs: [
+      { q: 'What is enterprise SEO?', a: 'Enterprise SEO is SEO for large companies with high-traffic websites, complex architectures, and multiple stakeholders. It involves technical SEO at scale, content strategy, link building, international SEO, and SEO automation.' },
+      { q: 'How is enterprise SEO different from regular SEO?', a: 'Enterprise SEO deals with websites that have thousands or millions of pages, require coordination across teams, and need scalable processes. It involves more technical complexity, automation, and dedicated resources.' },
     ],
   },
 ];
