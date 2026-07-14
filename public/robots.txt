@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://rankflowagency.online/sitemap.xml
+
+IndexNow: https://rankflowagency.online/c23db36687f03815dd1872fca085583a.txt
