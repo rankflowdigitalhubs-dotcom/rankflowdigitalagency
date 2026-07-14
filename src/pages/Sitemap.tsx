@@ -26,6 +26,15 @@ export default function Sitemap() {
       />
 
       <section className="container-x py-12">
+        <p className="mx-auto max-w-3xl text-center text-lg leading-relaxed text-slate-400">
+          Welcome to the Rank Flow Digital sitemap. This page provides a complete directory of every page on our website,
+          including all SEO and digital marketing services, blog posts with actionable growth strategies, client case studies,
+          portfolio samples, pricing plans, and legal pages. Use the sections below to navigate to any page on our site.
+          If you can't find what you're looking for, feel free to <Link to="/contact" className="text-brand-300 hover:text-brand-200 underline">contact our team</Link> and we'll be happy to help.
+        </p>
+      </section>
+
+      <section className="container-x pb-16">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {/* Main pages */}
           <div>

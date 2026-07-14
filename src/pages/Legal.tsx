@@ -110,8 +110,16 @@ export function NotFound() {
           <p className="mt-4 text-2xl font-semibold text-white">This page took a wrong turn.</p>
           <p className="mx-auto mt-3 max-w-md text-slate-400">The page you're looking for may have moved or never existed. Let's get you back on track.</p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <a href="/" className="btn-glow">Back to Home <ArrowRight className="h-4 w-4" /></a>
-            <a href="/contact" className="btn-ghost">Contact Us</a>
+            <Link to="/" className="btn-glow">Back to Home <ArrowRight className="h-4 w-4" /></Link>
+            <Link to="/contact" className="btn-ghost">Contact Us</Link>
+          </div>
+          <div className="mt-12 flex flex-wrap items-center justify-center gap-3">
+            <Link to="/services" className="btn-ghost text-sm">Our Services</Link>
+            <Link to="/blog" className="btn-ghost text-sm">Blog</Link>
+            <Link to="/pricing" className="btn-ghost text-sm">Pricing</Link>
+            <Link to="/case-studies" className="btn-ghost text-sm">Case Studies</Link>
+            <Link to="/portfolio" className="btn-ghost text-sm">Portfolio</Link>
+            <Link to="/sitemap" className="btn-ghost text-sm">Sitemap</Link>
           </div>
         </div>
       </section>
