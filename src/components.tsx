@@ -159,7 +159,7 @@ export function Navbar() {
               <div key={l.path} className="relative group">
                 <button
                   className={`flex items-center gap-1 rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
-                    isActive('/services') || path.match(/^\/(seo|local-seo|technical-seo|guest-posting|content-writing|logo-design|web-design|monthly-seo-management|link-building|shopify-seo|seo-audit|google-business-profile|ecommerce-seo|on-page-seo|off-page-seo|white-label-seo|international-seo|cro-services|website-maintenance-seo|enterprise-seo)/)
+                    isActive('/services') || path.match(/^\/(seo|local-seo|technical-seo|guest-posting|content-writing|logo-design|website-design|monthly-seo-management|link-building|shopify-seo|seo-audit|google-business-profile|ecommerce-seo|on-page-seo|off-page-seo|white-label-seo|international-seo|cro-services|website-maintenance-seo|enterprise-seo)/)
                       ? 'text-white'
                       : 'text-slate-300 hover:text-white'
                   }`}
