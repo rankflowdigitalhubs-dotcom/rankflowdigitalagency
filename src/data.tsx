@@ -180,7 +180,7 @@ export const services: Service[] = [
     ],
   },
   {
-    slug: 'web-design',
+    slug: 'website-design',
     title: 'Website Design & Development',
     short: 'Fast, beautiful sites engineered to convert.',
     icon: Code2,
