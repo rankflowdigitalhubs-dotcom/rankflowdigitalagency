@@ -4,25 +4,28 @@
     <meta charset="UTF-8" />
     <title>Rank Flow Digital</title>
     <!--
-      GitHub Pages SPA fallback. GitHub Pages serves this 404.html for any
-      unknown path. We redirect to the app root and carry the requested path
-      into the hash so the client-side router can resolve it.
+      SPA fallback for static hosting (GitHub Pages, Netlify, etc.).
+      When a user navigates directly to a clean URL like /about or /blog/post,
+      the server may return a 404. This page replicates index.html so the
+      React app boots and the History API router resolves the path.
     -->
     <script>
       (function () {
-        var pathSegmentsToKeep = 0; // project site: set to 1 for <user>.github.io/<repo>
-        var l = window.location;
-        var path = l.pathname
-          .split('/')
-          .slice(0, 0 - pathSegmentsToKeep - 1)
-          .join('/') + '/';
-        var redirect = l.protocol + '//' + l.host + path + '#' + l.pathname + l.search;
-        l.replace(redirect);
+        // If we're already at the root, don't redirect — just load the app.
+        if (window.location.pathname === '/' || window.location.pathname === '') return;
+        // Otherwise, fetch the real index.html and write it to the document.
+        // This preserves the current URL so the client-side router can resolve it.
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', '/', false);
+        xhr.send();
+        document.open();
+        document.write(xhr.responseText);
+        document.close();
       })();
     </script>
-    <meta http-equiv="refresh" content="0; url=./" />
+    <meta http-equiv="refresh" content="0; url=/" />
   </head>
   <body>
-    <p>Redirecting to <a href="./">Rank Flow Digital</a>…</p>
+    <p>Redirecting to <a href="/">Rank Flow Digital</a>…</p>
   </body>
 </html>

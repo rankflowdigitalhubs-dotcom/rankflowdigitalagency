@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 
-// Hash-based router — works on GitHub Pages without server config.
+// History API router — clean URLs for SEO crawlers.
 export function useRoute() {
   const get = () => {
-    const h = window.location.hash.replace(/^#/, '');
-    return h === '' ? '/' : h;
+    const p = window.location.pathname;
+    return p === '' ? '/' : p;
   };
   const [path, setPath] = useState(get);
 
@@ -13,8 +13,8 @@ export function useRoute() {
       setPath(get());
       window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior });
     };
-    window.addEventListener('hashchange', onChange);
-    return () => window.removeEventListener('hashchange', onChange);
+    window.addEventListener('popstate', onChange);
+    return () => window.removeEventListener('popstate', onChange);
   }, []);
 
   return path;
@@ -25,10 +25,11 @@ export function navigate(path: string) {
     window.open(path, '_blank', 'noopener');
     return;
   }
-  window.location.hash = path;
+  window.history.pushState({}, '', path);
+  window.dispatchEvent(new PopStateEvent('popstate'));
 }
 
-// Link component that uses hash routing.
+// Link component that uses clean URL history routing.
 export function Link({
   to,
   children,
@@ -47,7 +48,7 @@ export function Link({
     navigate(to);
   };
   return (
-    <a href={`#${to}`} className={className} onClick={handle} {...rest}>
+    <a href={to} className={className} onClick={handle} {...rest}>
       {children}
     </a>
   );

@@ -2,12 +2,11 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
-// Relative base so the build works on GitHub Pages project sites
-// (https://<user>.github.io/<repo>/) regardless of the repo name,
-// as well as on a custom domain or user/organization root site.
+// Absolute base for clean URLs on a custom domain.
+// The 404.html SPA fallback handles direct visits to nested routes.
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },

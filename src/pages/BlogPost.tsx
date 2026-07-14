@@ -46,7 +46,7 @@ export default function BlogPost({ slug }: { slug: string }) {
   const next = idx < blogPosts.length - 1 ? blogPosts[idx + 1] : blogPosts[0];
   const related = blogPosts.filter((p) => p.slug !== slug).slice(0, 3);
 
-  const shareUrl = `https://rankflowagency.online/#/blog/${slug}`;
+  const shareUrl = `https://rankflowagency.online/blog/${slug}`;
   const shareText = encodeURIComponent(post.title);
 
   const shareLinks = [
