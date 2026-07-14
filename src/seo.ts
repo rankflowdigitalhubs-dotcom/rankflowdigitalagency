@@ -62,7 +62,7 @@ export function SEO({ title, description, path = '/', schema, ogImage }: SEOProp
     const full = `${title} | Rank Flow Digital`;
     document.title = full;
     setMeta('description', description);
-    const canonical = `${BASE}${path === '/' ? '/' : '/#' + path}`;
+    const canonical = `${BASE}${path === '/' ? '/' : path}`;
     setLink('canonical', canonical);
     setMeta('og:title', full, 'property');
     setMeta('og:description', description, 'property');

@@ -28,7 +28,6 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Contact from './pages/Contact';
 import { PrivacyPolicy, Terms, NotFound } from './pages/Legal';
-import Sitemap from './pages/Sitemap';
 import { services } from './data';
 
 const serviceSlugs = new Set(services.map((s) => s.slug));
@@ -91,7 +90,6 @@ function App() {
     if (serviceMatch && serviceSlugs.has(serviceMatch[1])) {
       return <ServiceDetail slug={serviceMatch[1]} />;
     }
-    if (path === '/sitemap') return <Sitemap />;
     return <NotFound />;
   };
 
