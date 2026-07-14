@@ -100,10 +100,10 @@ export default function ShopifySEO() {
                 Your Shopify store has great products. But if customers cannot find you on Google, you are leaving sales on the table. Our <strong>Shopify SEO services</strong> optimize your store to rank higher, attract more qualified shoppers, and turn organic traffic into revenue.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free Shopify SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Contact Us
                 </button>
               </div>
@@ -446,7 +446,7 @@ export default function ShopifySEO() {
                 </li>
               ))}
             </ul>
-            <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+            <button onClick={() => navigate('/contact/')} className="btn-glow mt-8">
               Get Free Shopify SEO Audit <ArrowRight className="h-4 w-4" />
             </button>
           </div>
@@ -485,10 +485,10 @@ export default function ShopifySEO() {
                 Get a free Shopify SEO audit today. We will analyze your store, identify ranking opportunities, and show you exactly what to fix to increase traffic and sales. No obligation, just clarity.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free Shopify SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Talk to a Shopify Expert
                 </button>
               </div>

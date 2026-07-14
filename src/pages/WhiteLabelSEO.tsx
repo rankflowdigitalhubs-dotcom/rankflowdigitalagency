@@ -95,10 +95,10 @@ export default function WhiteLabelSEO() {
                 You run the client relationships. We run the <strong>SEO outsourcing</strong>. Our <strong>white label SEO services</strong> give your agency a full SEO team without the hiring costs. We do the work, you put your brand on the reports, and your clients never know we exist. Scale faster, deliver better results, and increase your agency revenue.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Book Free Strategy Call <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Become a White Label Partner
                 </button>
               </div>
@@ -409,7 +409,7 @@ export default function WhiteLabelSEO() {
                   </li>
                 ))}
               </ul>
-              <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+              <button onClick={() => navigate('/contact/')} className="btn-glow mt-8">
                 Become a White Label Partner <ArrowRight className="h-4 w-4" />
               </button>
             </div>
@@ -449,10 +449,10 @@ export default function WhiteLabelSEO() {
                 Book a free strategy call today. We will learn about your agency, your clients, and your goals, then show you exactly how our <strong>SEO reseller services</strong> can help you scale faster, deliver better results, and increase your revenue. No obligation, no pressure.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Book Free Strategy Call <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Become a White Label Partner
                 </button>
               </div>

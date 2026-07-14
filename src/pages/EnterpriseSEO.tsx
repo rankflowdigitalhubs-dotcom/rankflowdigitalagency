@@ -89,10 +89,10 @@ export default function EnterpriseSEO() {
                 When your website has millions of pages, hundreds of locations, and multiple stakeholders, standard SEO does not work. You need <strong>enterprise SEO services</strong> designed for complexity and scale. Our <strong>enterprise SEO agency</strong> provides technical SEO, content strategy, link building, international SEO, and dedicated teams to drive organic growth for <strong>large businesses</strong>.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free Enterprise SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Contact Us
                 </button>
               </div>
@@ -489,7 +489,7 @@ export default function EnterpriseSEO() {
           ))}
         </div>
         <div className="mt-10 text-center reveal reveal-delay-2">
-          <button onClick={() => navigate('/contact')} className="btn-glow">
+          <button onClick={() => navigate('/contact/')} className="btn-glow">
             Get Free Enterprise SEO Audit <ArrowRight className="h-4 w-4" />
           </button>
         </div>
@@ -530,10 +530,10 @@ export default function EnterpriseSEO() {
                 Get a free enterprise SEO audit today. We will analyze your website architecture, technical SEO health, content strategy, and competitive landscape. Then we will show you exactly how to scale organic growth across your entire organization. No obligation, just a clear enterprise SEO roadmap.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free Enterprise SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Contact Us
                 </button>
               </div>

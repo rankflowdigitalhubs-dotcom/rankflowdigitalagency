@@ -36,7 +36,7 @@ export default function BlogPost({ slug }: { slug: string }) {
       <div className="container-x flex min-h-screen flex-col items-center justify-center pt-32 text-center">
         <h1 className="text-3xl font-bold text-white">Article not found</h1>
         <p className="mt-3 text-slate-400">This post may have moved or been removed.</p>
-        <Link to="/blog" className="btn-glow mt-6">Back to Blog</Link>
+        <Link to="/blog/" className="btn-glow mt-6">Back to Blog</Link>
       </div>
     );
   }
@@ -185,7 +185,7 @@ export default function BlogPost({ slug }: { slug: string }) {
 
             {/* Prev / Next */}
             <div className="mt-10 grid gap-4 sm:grid-cols-2">
-              <Link to={`/blog/${prev.slug}`} className="group grad-border lift">
+              <Link to={`/blog/${prev.slug}/}`} className="group grad-border lift">
                 <div className="flex h-full flex-col rounded-3xl bg-white/[0.03] p-6">
                   <span className="flex items-center gap-1.5 text-xs text-slate-400">
                     <ArrowLeft className="h-3.5 w-3.5" /> Previous
@@ -193,7 +193,7 @@ export default function BlogPost({ slug }: { slug: string }) {
                   <span className="mt-2 font-semibold text-white group-hover:text-brand-300">{prev.title}</span>
                 </div>
               </Link>
-              <Link to={`/blog/${next.slug}`} className="group grad-border lift">
+              <Link to={`/blog/${next.slug}/}`} className="group grad-border lift">
                 <div className="flex h-full flex-col rounded-3xl bg-white/[0.03] p-6 text-right">
                   <span className="ml-auto flex items-center gap-1.5 text-xs text-slate-400">
                     Next <ArrowRight className="h-3.5 w-3.5" />
@@ -266,7 +266,7 @@ export default function BlogPost({ slug }: { slug: string }) {
                 <div className="rounded-2xl bg-gradient-to-br from-brand-500/15 to-accent-500/5 p-5 text-center">
                   <h3 className="text-sm font-semibold text-white">Free SEO Audit</h3>
                   <p className="mt-2 text-xs text-slate-400">See where you rank and how to grow — no obligation.</p>
-                  <button onClick={() => navigate('/contact')} className="btn-glow mt-4 w-full text-xs">
+                  <button onClick={() => navigate('/contact/')} className="btn-glow mt-4 w-full text-xs">
                     Get My Audit <ArrowRight className="h-3.5 w-3.5" />
                   </button>
                 </div>
@@ -302,7 +302,7 @@ export default function BlogPost({ slug }: { slug: string }) {
         <h2 className="text-2xl font-bold text-white">Related articles</h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {related.map((r, i) => (
-            <Link key={r.slug} to={`/blog/${r.slug}`} className={`group grad-border lift reveal reveal-delay-${i + 1}`}>
+            <Link key={r.slug} to={`/blog/${r.slug}/}`} className={`group grad-border lift reveal reveal-delay-${i + 1}`}>
               <div className="overflow-hidden rounded-3xl">
                 <div className="relative h-44 overflow-hidden rounded-t-3xl">
                   <img src={r.img} alt={r.title} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />

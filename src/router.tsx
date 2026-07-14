@@ -3,8 +3,10 @@ import { useEffect, useState } from 'react';
 // History API router — clean URLs for SEO crawlers.
 export function useRoute() {
   const get = () => {
-    const p = window.location.pathname;
-    return p === '' ? '/' : p;
+    let p = window.location.pathname;
+    if (p === '' ) return '/';
+    if (p !== '/' && p.endsWith('/')) p = p.slice(0, -1);
+    return p;
   };
   const [path, setPath] = useState(get);
 

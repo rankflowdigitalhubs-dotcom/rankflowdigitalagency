@@ -78,7 +78,7 @@ export default function CaseStudies() {
                         <span className="text-sm font-semibold">{c.result}</span>
                       </div>
                       <button
-                        onClick={() => navigate('/contact')}
+                        onClick={() => navigate('/contact/')}
                         className="btn-ghost w-full justify-center text-sm"
                       >
                         Get results like this <ArrowRight className="h-4 w-4" />
@@ -100,13 +100,13 @@ export default function CaseStudies() {
           <p className="mt-3 text-slate-400">See how our services can help you achieve similar results.</p>
         </div>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-          <Link to="/seo" className="btn-ghost text-sm">SEO Services</Link>
-          <Link to="/local-seo" className="btn-ghost text-sm">Local SEO</Link>
-          <Link to="/technical-seo" className="btn-ghost text-sm">Technical SEO</Link>
-          <Link to="/seo-audit" className="btn-ghost text-sm">SEO Audit</Link>
-          <Link to="/link-building" className="btn-ghost text-sm">Link Building</Link>
-          <Link to="/content-writing" className="btn-ghost text-sm">Content Writing</Link>
-          <Link to="/website-design" className="btn-ghost text-sm">Web Design</Link>
+          <Link to="/seo/" className="btn-ghost text-sm">SEO Services</Link>
+          <Link to="/local-seo/" className="btn-ghost text-sm">Local SEO</Link>
+          <Link to="/technical-seo/" className="btn-ghost text-sm">Technical SEO</Link>
+          <Link to="/seo-audit/" className="btn-ghost text-sm">SEO Audit</Link>
+          <Link to="/link-building/" className="btn-ghost text-sm">Link Building</Link>
+          <Link to="/content-writing/" className="btn-ghost text-sm">Content Writing</Link>
+          <Link to="/website-design/" className="btn-ghost text-sm">Web Design</Link>
         </div>
       </section>
 

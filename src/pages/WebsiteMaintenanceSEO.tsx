@@ -81,10 +81,10 @@ export default function WebsiteMaintenanceSEO() {
                 Your website is your hardest-working employee. It runs 24/7, but without maintenance, it gets slow, vulnerable, and invisible in search results. Our <strong>monthly website maintenance</strong> service handles security, backups, updates, <strong>website speed optimization</strong>, and <strong>technical SEO</strong> so your site stays fast, secure, and ranking. One plan, complete <strong>website management</strong>.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free Maintenance Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Contact Us
                 </button>
               </div>
@@ -343,7 +343,7 @@ export default function WebsiteMaintenanceSEO() {
                 </li>
               ))}
             </ul>
-            <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+            <button onClick={() => navigate('/contact/')} className="btn-glow mt-8">
               Get Free Maintenance Audit <ArrowRight className="h-4 w-4" />
             </button>
           </div>
@@ -385,10 +385,10 @@ export default function WebsiteMaintenanceSEO() {
                 Get a free website maintenance audit today. We will scan your site for security issues, performance problems, broken links, and SEO gaps. Then we will show you exactly what needs fixing. No obligation, just a clear picture of your website health.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free Maintenance Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Contact Us
                 </button>
               </div>

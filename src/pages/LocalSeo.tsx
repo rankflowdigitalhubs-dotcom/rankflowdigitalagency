@@ -96,10 +96,10 @@ export default function LocalSeo() {
                 When someone in your city searches for your services, do they find you or your competitors? Our Local SEO services put your business at the top of Google Maps and local search — driving more phone calls, website visits, and walk-in customers.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Contact Us
                 </button>
               </div>
@@ -435,7 +435,7 @@ export default function LocalSeo() {
                 </li>
               ))}
             </ul>
-            <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+            <button onClick={() => navigate('/contact/')} className="btn-glow mt-8">
               Get Your Free Audit <ArrowRight className="h-4 w-4" />
             </button>
           </div>
@@ -474,10 +474,10 @@ export default function LocalSeo() {
                 Get a free Local SEO audit today. We will show you exactly what is holding your business back from ranking in the Google Maps pack — and how to fix it. No obligation, just clarity.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Talk to a Strategist
                 </button>
               </div>

@@ -99,10 +99,10 @@ export default function OffPageSEO() {
                 On-page SEO gets your house in order. <strong>Off-page SEO services</strong> get the rest of the internet to vouch for you. We build <strong>high authority backlinks</strong>, earn brand mentions, and run <strong>digital PR</strong> campaigns that tell Google your website is trusted, authoritative, and worthy of top <strong>organic rankings</strong>.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free SEO Consultation <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Request SEO Strategy
                 </button>
               </div>
@@ -413,7 +413,7 @@ export default function OffPageSEO() {
                   </li>
                 ))}
               </ul>
-              <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+              <button onClick={() => navigate('/contact/')} className="btn-glow mt-8">
                 Get Free SEO Consultation <ArrowRight className="h-4 w-4" />
               </button>
             </div>
@@ -453,10 +453,10 @@ export default function OffPageSEO() {
                 Request a free off-page SEO consultation today. We will analyze your backlink profile, assess your domain authority, and show you exactly how to build the authority that drives higher rankings and more organic traffic. No obligation, just results.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free SEO Consultation <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Request SEO Strategy
                 </button>
               </div>

@@ -569,13 +569,13 @@ export const services: Service[] = [
 
 export const navLinks = [
   { label: 'Home', path: '/' },
-  { label: 'About', path: '/about' },
-  { label: 'Services', path: '/services' },
-  { label: 'Portfolio', path: '/portfolio' },
-  { label: 'Case Studies', path: '/case-studies' },
-  { label: 'Pricing', path: '/pricing' },
-  { label: 'Blog', path: '/blog' },
-  { label: 'Contact', path: '/contact' },
+  { label: 'About', path: '/about/' },
+  { label: 'Services', path: '/services/' },
+  { label: 'Portfolio', path: '/portfolio/' },
+  { label: 'Case Studies', path: '/case-studies/' },
+  { label: 'Pricing', path: '/pricing/' },
+  { label: 'Blog', path: '/blog/' },
+  { label: 'Contact', path: '/contact/' },
 ];
 
 export const stats = [
@@ -1515,7 +1515,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Start with the quick wins: install a review app, enable guest checkout, compress your images, and add trust badges. Then move to the medium-term fixes: rewrite your product descriptions, optimise your SEO, and improve your product photography. Finally, invest in the long-term plays: publish helpful blog content, build internal links, and track everything with Google Search Console and Analytics.
             </p>
             <p>
-              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help Shopify store owners increase sales with proven <strong>Shopify SEO</strong> and <strong>eCommerce marketing</strong> strategies. <a href="/contact">Get a free Shopify SEO audit today</a> and find out exactly what is holding your store back from converting visitors into customers.
+              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help Shopify store owners increase sales with proven <strong>Shopify SEO</strong> and <strong>eCommerce marketing</strong> strategies. <a href="/contact/">Get a free Shopify SEO audit today</a> and find out exactly what is holding your store back from converting visitors into customers.
             </p>
             <p>
               Every day you wait, your competitors are winning the sales that should be yours. Start today.
@@ -2058,7 +2058,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Start with the quick wins: optimize your Google Business Profile, ask for reviews, and fix your meta titles. Then move to the medium-term strategies: create service and location pages, improve your site speed, and add schema markup. Finally, invest in the long-term plays: blog content, local backlinks, and ongoing tracking.
             </p>
             <p>
-              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help roofing contractors and companies dominate local search with proven <strong>local SEO for roofers</strong> strategies. <a href="/contact">Get a free SEO audit today</a> and find out exactly what is holding your website back from generating more roofing leads.
+              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help roofing contractors and companies dominate local search with proven <strong>local SEO for roofers</strong> strategies. <a href="/contact/">Get a free SEO audit today</a> and find out exactly what is holding your website back from generating more roofing leads.
             </p>
             <p>
               Your competitors are already working on their SEO. The longer you wait, the harder it becomes to catch up. Start today.
@@ -2529,7 +2529,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Start with the quick wins: complete your Google Business Profile, ask for client reviews, and make sure your site is indexed. Then move to the medium-term fixes: create dedicated practice area pages, target local keywords, and build citations. Finally, invest in the long-term plays: publish helpful legal content, build quality backlinks, and track your results.
             </p>
             <p>
-              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help law firms and attorneys dominate local search with proven <strong>law firm SEO</strong> and <strong>law firm marketing</strong> strategies. <a href="/contact">Get a free SEO audit today</a> and find out exactly what is stopping your firm from appearing on Google.
+              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help law firms and attorneys dominate local search with proven <strong>law firm SEO</strong> and <strong>law firm marketing</strong> strategies. <a href="/contact/">Get a free SEO audit today</a> and find out exactly what is stopping your firm from appearing on Google.
             </p>
             <p>
               Every day you wait, your competitors are getting the clients that should be yours. Start today.
@@ -2990,7 +2990,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Start with the quick wins: complete your Google Business Profile, ask for reviews, and add a Call Now button to your website. Then move to the medium-term fixes: create service pages, target local keywords, and build citations. Finally, invest in the long-term plays: publish helpful content, build local backlinks, and track your results.
             </p>
             <p>
-              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help plumbers and tradespeople dominate local search with proven <strong>plumbing SEO</strong> and <strong>local SEO for plumbers</strong> strategies. <a href="/contact">Get a free local SEO audit today</a> and find out exactly what is stopping your phone from ringing.
+              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help plumbers and tradespeople dominate local search with proven <strong>plumbing SEO</strong> and <strong>local SEO for plumbers</strong> strategies. <a href="/contact/">Get a free local SEO audit today</a> and find out exactly what is stopping your phone from ringing.
             </p>
             <p>
               Every day you wait, your competitors are getting the calls that should be yours. Start today.
@@ -3449,7 +3449,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Start with the quick wins: optimize your Google Business Profile, ask for reviews, and fix your meta titles. Then move to the medium-term strategies: create service and location pages, write area guides, and optimize your property listings. Finally, invest in the long-term plays: blog content, local backlinks, and schema markup.
             </p>
             <p>
-              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help estate agents and realtors dominate <strong>local property search</strong> with proven <strong>real estate SEO</strong> strategies. <a href="/contact">Get a free SEO audit today</a> and find out exactly what is holding your website back from generating more property leads.
+              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help estate agents and realtors dominate <strong>local property search</strong> with proven <strong>real estate SEO</strong> strategies. <a href="/contact/">Get a free SEO audit today</a> and find out exactly what is holding your website back from generating more property leads.
             </p>
             <p>
               Your competitors are already working on their SEO. The longer you wait, the harder it becomes to catch up. Start today.
@@ -3907,7 +3907,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Start with the quick wins: optimize your Google Business Profile, ask for reviews, and set up conversion tracking. Then move to the medium-term strategies: local keywords, service pages, and blog content. Finally, invest in the long-term plays: SEO, backlinks, and email marketing.
             </p>
             <p>
-              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help businesses <strong>increase website traffic</strong> and generate more leads with proven <strong>SEO and digital marketing</strong> strategies - no paid ads required. <a href="/contact">Get a free SEO audit today</a> and let us show you exactly how to grow your customer base organically.
+              If you want help implementing these strategies, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help businesses <strong>increase website traffic</strong> and generate more leads with proven <strong>SEO and digital marketing</strong> strategies - no paid ads required. <a href="/contact/">Get a free SEO audit today</a> and let us show you exactly how to grow your customer base organically.
             </p>
             <p>
               The best time to start was 6 months ago. The second best time is today. Pick 3 strategies from this guide and start implementing them this week.
@@ -4517,7 +4517,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Start with the basics: claim your Google Business Profile, get reviews, and build citations. Then create location-specific pages for each area you serve. Write content that answers local questions. Build links from local websites. Do this consistently for 3-6 months, and you will see your business climb in both Google Search and Google Maps.
             </p>
             <p>
-              If you do not have the time to do all of this yourself - and most business owners do not - that is exactly what we do at <strong>Rank Flow Agency</strong>. We help London businesses dominate local search with proven <strong>Local SEO services London</strong> strategies. <a href="/contact">Get a free local SEO audit today</a> and find out exactly what is holding your business back from ranking in your area.
+              If you do not have the time to do all of this yourself - and most business owners do not - that is exactly what we do at <strong>Rank Flow Agency</strong>. We help London businesses dominate local search with proven <strong>Local SEO services London</strong> strategies. <a href="/contact/">Get a free local SEO audit today</a> and find out exactly what is holding your business back from ranking in your area.
             </p>
             <p>
               Your competitors are already working on their local SEO. The longer you wait, the harder it gets to catch up. Start today.
@@ -4965,7 +4965,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Remember, <strong>website SEO</strong> is not a one-time task. It is an ongoing process of improving your site, creating valuable content, and building authority over time. The sites that win on Google are the ones that consistently put in the work.
             </p>
             <p>
-              If you do not have the time or expertise to fix these issues yourself, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help businesses get found on Google with proven <strong>search engine optimization</strong> strategies. <a href="/contact">Get a free SEO audit today</a> and let us show you exactly what is holding your website back.
+              If you do not have the time or expertise to fix these issues yourself, that is exactly what we do at <strong>Rank Flow Agency</strong>. We help businesses get found on Google with proven <strong>search engine optimization</strong> strategies. <a href="/contact/">Get a free SEO audit today</a> and let us show you exactly what is holding your website back.
             </p>
           </>
         ),
@@ -5674,10 +5674,10 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               That is where Rank Flow Agency comes in. We specialize in dental SEO and dental clinic marketing. We handle everything - your Google Business Profile, website optimization, content creation, review generation, local citations, and technical SEO. Our goal is simple: help you get more dental patients from Google so you can focus on providing great care.
             </p>
             <p>
-              <strong>Want to know exactly why your dental practice is not ranking on Google?</strong> <a href="/contact">Get a free dental SEO audit from Rank Flow Agency today.</a> We will identify every issue and give you a clear, step-by-step plan to grow your practice.
+              <strong>Want to know exactly why your dental practice is not ranking on Google?</strong> <a href="/contact/">Get a free dental SEO audit from Rank Flow Agency today.</a> We will identify every issue and give you a clear, step-by-step plan to grow your practice.
             </p>
             <p>
-              For more insights, check out our guides on <a href="/blog/why-is-my-website-not-ranking-on-google">why your website is not ranking on Google</a> and <a href="/blog/why-competitors-ranking-higher-on-google">why competitors are ranking higher on Google</a>.
+              For more insights, check out our guides on <a href="/blog/why-is-my-website-not-ranking-on-google/">why your website is not ranking on Google</a> and <a href="/blog/why-competitors-ranking-higher-on-google/">why competitors are ranking higher on Google</a>.
             </p>
           </>
         ),
@@ -5982,7 +5982,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <em>Example:</em> A ramen shop in San Francisco started writing monthly blog posts about Japanese food culture and neighborhood dining guides. After five months, their blog posts were driving 1,200 monthly visitors - many of whom discovered the restaurant through the blog and became regular customers.
             </p>
             <p>
-              For more content marketing strategies, check out our guide on <a href="/blog/seo-strategy-that-actually-works">SEO strategy that actually works</a>.
+              For more content marketing strategies, check out our guide on <a href="/blog/seo-strategy-that-actually-works/">SEO strategy that actually works</a>.
             </p>
           </>
         ),
@@ -6115,7 +6115,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <em>Example:</em> A family restaurant in Phoenix had a beautiful website but was not ranking anywhere. An SEO audit revealed their robots.txt file was accidentally blocking Google from indexing all pages. After removing the block, their site was indexed within one week and started appearing in local searches.
             </p>
             <p>
-              For a deeper dive, read our guide on <a href="/blog/why-is-my-website-not-ranking-on-google">why your website is not ranking on Google</a> and our analysis of <a href="/blog/why-competitors-ranking-higher-on-google">why competitors are ranking higher on Google</a>.
+              For a deeper dive, read our guide on <a href="/blog/why-is-my-website-not-ranking-on-google/">why your website is not ranking on Google</a> and our analysis of <a href="/blog/why-competitors-ranking-higher-on-google/">why competitors are ranking higher on Google</a>.
             </p>
           </>
         ),
@@ -6138,7 +6138,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               But if you do not have time to do all of this yourself - and most restaurant owners do not - that is where Rank Flow Agency comes in. We specialize in local SEO for restaurants. We handle your Google Business Profile, website optimization, review generation, content marketing, and technical SEO - so you can focus on what you do best: making great food.
             </p>
             <p>
-              <strong>Want to know exactly why your restaurant is not showing up on Google?</strong> <a href="/contact">Get a free local SEO audit from Rank Flow Agency today.</a> We will identify every issue and give you a clear, prioritized plan to get your restaurant found by more customers.
+              <strong>Want to know exactly why your restaurant is not showing up on Google?</strong> <a href="/contact/">Get a free local SEO audit from Rank Flow Agency today.</a> We will identify every issue and give you a clear, prioritized plan to get your restaurant found by more customers.
             </p>
           </>
         ),
@@ -6247,7 +6247,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <em>Example:</em> A Shopify store selling handmade jewelry had 80 products but only 12 were indexed by Google. After a technical SEO audit, they discovered a robots.txt rule blocking their product directory. Once fixed, 76 products were indexed within three weeks and organic traffic grew by 45%.
             </p>
             <p>
-              Want to dig deeper into why your store might not be ranking? Check out our guide on <a href="/blog/why-competitors-ranking-higher-on-google">why your competitors are ranking higher on Google</a> and our deep dive on <a href="/blog/ecommerce-store-not-performing">eCommerce store performance issues</a>.
+              Want to dig deeper into why your store might not be ranking? Check out our guide on <a href="/blog/why-competitors-ranking-higher-on-google/">why your competitors are ranking higher on Google</a> and our deep dive on <a href="/blog/ecommerce-store-not-performing/">eCommerce store performance issues</a>.
             </p>
           </>
         ),
@@ -6356,7 +6356,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <em>Example:</em> A Shopify store selling dog accessories started a blog. They wrote articles like "How to Choose the Right Dog Harness for Your Breed" and linked to their harness product pages. After six months, their blog was driving 3,500 monthly visitors, and 12% of those visitors clicked through to product pages. That is 420 potential buyers every month - all from free content.
             </p>
             <p>
-              For more on this approach, read our article on <a href="/blog/why-is-my-website-not-ranking-on-google">why your website is not ranking on Google</a> and our <a href="/blog/seo-strategy-that-actually-works">SEO strategy that actually works</a>.
+              For more on this approach, read our article on <a href="/blog/why-is-my-website-not-ranking-on-google/">why your website is not ranking on Google</a> and our <a href="/blog/seo-strategy-that-actually-works/">SEO strategy that actually works</a>.
             </p>
           </>
         ),
@@ -6475,7 +6475,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               You do not have to figure this out alone. At Rank Flow Agency, we help Shopify store owners increase sales through organic traffic, better SEO, and conversion optimization. We handle the technical work, the content, and the strategy - so you can focus on running your business.
             </p>
             <p>
-              <strong>Want to know exactly what is holding your Shopify store back?</strong> <a href="/contact">Get a free SEO audit from Rank Flow Agency today.</a> We will identify every issue and give you a clear, prioritized plan to fix it - no ads required.
+              <strong>Want to know exactly what is holding your Shopify store back?</strong> <a href="/contact/">Get a free SEO audit from Rank Flow Agency today.</a> We will identify every issue and give you a clear, prioritized plan to fix it - no ads required.
             </p>
           </>
         ),
@@ -6778,7 +6778,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <strong>Want to know exactly what is holding your store back?</strong> Get a free SEO audit from Rank Flow Agency. We will identify every issue and give you a clear, prioritized plan to fix it.
             </p>
             <p>
-              <a href="/contact">Contact Rank Flow Agency today and let us turn your store into a revenue machine.</a>
+              <a href="/contact/">Contact Rank Flow Agency today and let us turn your store into a revenue machine.</a>
             </p>
           </>
         ),
@@ -6858,7 +6858,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <h3>A practical example</h3>
             <p>Say you and your competitor both wrote about "how to choose a roof material." Your page lists five materials with a short sentence about each. Your competitor wrote a page that lists the same five materials but also includes the cost, lifespan, pros and cons, and which climate each material works best in.</p>
             <p>Which page would you rather read? Which page would you share with a friend? That is the same decision Google is making. The more helpful page wins.</p>
-            <p>If you want to learn how to write content that ranks and converts, check out our guide on <a href="/blog/content-that-converts">writing content that ranks AND converts</a>.</p>
+            <p>If you want to learn how to write content that ranks and converts, check out our guide on <a href="/blog/content-that-converts/">writing content that ranks AND converts</a>.</p>
             <p><em>[Image placeholder: Two article pages shown side by side, one thin and sparse, the other rich with headings, bullet points, and examples]</em></p>
           </>
         ),
@@ -6880,7 +6880,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Create original data or research that others will reference</li>
               <li>Partner with complementary businesses for cross-promotion</li>
             </ul>
-            <p>Building backlinks takes time, but it is one of the strongest signals Google uses. For a deeper dive, read our guide on <a href="/blog/link-building-white-hat">white-hat link building that actually works</a>.</p>
+            <p>Building backlinks takes time, but it is one of the strongest signals Google uses. For a deeper dive, read our guide on <a href="/blog/link-building-white-hat/">white-hat link building that actually works</a>.</p>
             <p><em>[Image placeholder: A diagram showing arrows from various websites pointing to one central website, representing backlinks]</em></p>
           </>
         ),
@@ -6901,7 +6901,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Enable caching so returning visitors load faster</li>
               <li>Make sure your site works well on mobile phones</li>
             </ul>
-            <p>Technical issues can quietly hold your site back without you knowing. Our <a href="/blog/core-web-vitals">Core Web Vitals checklist</a> walks through the exact fixes that move the needle.</p>
+            <p>Technical issues can quietly hold your site back without you knowing. Our <a href="/blog/core-web-vitals/">Core Web Vitals checklist</a> walks through the exact fixes that move the needle.</p>
             <p><em>[Image placeholder: A speedometer graphic showing a fast-loading website on the left and a slow-loading one on the right]</em></p>
           </>
         ),
@@ -6942,7 +6942,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Make your site faster and more user-friendly than theirs</li>
               <li>Target local searches where big national sites are not competing</li>
             </ul>
-            <p>If you are a local business, our <a href="/blog/local-seo-for-small-businesses">local SEO guide for small businesses</a> shows you how to win in your area even as a newer site.</p>
+            <p>If you are a local business, our <a href="/blog/local-seo-for-small-businesses/">local SEO guide for small businesses</a> shows you how to win in your area even as a newer site.</p>
           </>
         ),
       },
@@ -6988,7 +6988,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </ul>
             <h3>What to update</h3>
             <p>When you update a page, do not just change a word or two. Add new information, update old examples, fix broken links, and improve the structure. Google can tell the difference between a real update and a tiny tweak.</p>
-            <p>If you want a complete framework for planning and executing your SEO, our <a href="/blog/seo-strategy-that-actually-works">SEO strategy blueprint</a> covers how to build a system that compounds over time.</p>
+            <p>If you want a complete framework for planning and executing your SEO, our <a href="/blog/seo-strategy-that-actually-works/">SEO strategy blueprint</a> covers how to build a system that compounds over time.</p>
           </>
         ),
       },
@@ -7029,7 +7029,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
           <>
             <p>Your competitors are not ranking higher because they are lucky. They are ranking higher because they are doing the right things consistently. They have better content, more backlinks, a faster website, and a stronger overall SEO foundation.</p>
             <p>The good news is that none of these things are secrets. They are all things you can do too. It takes time, effort, and a clear plan, but the results are worth it. Every improvement you make brings you one step closer to that top spot.</p>
-            <p>If you are tired of watching competitors take your customers from Google, let Rank Flow Agency help. We specialize in helping businesses outrank their competition with proven SEO strategies. <a href="/contact">Contact us today for a free SEO audit</a> and a custom plan to get you to the top of Google.</p>
+            <p>If you are tired of watching competitors take your customers from Google, let Rank Flow Agency help. We specialize in helping businesses outrank their competition with proven SEO strategies. <a href="/contact/">Contact us today for a free SEO audit</a> and a custom plan to get you to the top of Google.</p>
           </>
         ),
       },
@@ -7082,7 +7082,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li><strong>Backlink analysis:</strong> referring domains, anchor text distribution, toxic links, and competitor link gaps.</li>
               <li><strong>Keyword landscape:</strong> what your audience actually searches, grouped by intent and difficulty.</li>
             </ul>
-            <p>If your <Link to="/technical-seo">technical SEO</Link> foundation is cracked, everything you build on top of it will underperform. Fix the foundation first.</p>
+            <p>If your <Link to="/technical-seo/">technical SEO</Link> foundation is cracked, everything you build on top of it will underperform. Fix the foundation first.</p>
           </>
         ),
       },
@@ -7116,7 +7116,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li><strong>Internal links:</strong> link to and from your most important pages using descriptive anchor text.</li>
               <li><strong>Schema markup:</strong> Article, FAQ, Breadcrumb, and Organization schema where relevant.</li>
             </ul>
-            <p>Our <Link to="/seo">Search Engine Optimization</Link> service handles all of this with documented templates, so nothing is left to guesswork.</p>
+            <p>Our <Link to="/seo/">Search Engine Optimization</Link> service handles all of this with documented templates, so nothing is left to guesswork.</p>
           </>
         ),
       },
@@ -7132,7 +7132,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Clear, scannable formatting with proper heading hierarchy.</li>
               <li>Internal links that guide readers to related topics and conversion pages.</li>
             </ul>
-            <p>If writing is not your team’s strength, our <Link to="/content-writing">Content Writing</Link> service produces SEO-driven content that ranks and persuades - without sounding like it was written for a robot.</p>
+            <p>If writing is not your team’s strength, our <Link to="/content-writing/">Content Writing</Link> service produces SEO-driven content that ranks and persuades - without sounding like it was written for a robot.</p>
           </>
         ),
       },
@@ -7141,7 +7141,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Step 5: Local SEO - If You Serve a Geographic Area',
         body: (
           <>
-            <p>If you serve customers in a specific city or region, <Link to="/local-seo">Local SEO</Link> is not optional - it is the highest-ROI work you can do. The map pack (the top three local results on Google) captures the majority of clicks for local-intent searches.</p>
+            <p>If you serve customers in a specific city or region, <Link to="/local-seo/">Local SEO</Link> is not optional - it is the highest-ROI work you can do. The map pack (the top three local results on Google) captures the majority of clicks for local-intent searches.</p>
             <h3>The local SEO essentials</h3>
             <ul>
               <li><strong>Google Business Profile:</strong> complete every field, add photos weekly, and post updates.</li>
@@ -7180,7 +7180,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li><strong>Conversions:</strong> how many organic visitors become leads or customers?</li>
               <li><strong>Revenue:</strong> what is the dollar value of those conversions?</li>
             </ul>
-            <p>If your agency reports rankings but not revenue, you are working with the wrong agency. <Link to="/contact">Book a free consultation</Link> with us and we will show you what transparent reporting actually looks like.</p>
+            <p>If your agency reports rankings but not revenue, you are working with the wrong agency. <Link to="/contact/">Book a free consultation</Link> with us and we will show you what transparent reporting actually looks like.</p>
           </>
         ),
       },
@@ -7190,7 +7190,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         body: (
           <>
             <p>A winning SEO strategy is not a secret. It is a disciplined process: audit, research, optimize, create, build authority, and measure - then repeat. The compounding effect is real. Every month you execute this framework, your moat grows wider and your competitors fall further behind.</p>
-            <p>If you want a team that has executed this blueprint across hundreds of campaigns, <Link to="/contact">get a free SEO audit</Link>. We will show you exactly where you stand and the most efficient path to growth - no obligation.</p>
+            <p>If you want a team that has executed this blueprint across hundreds of campaigns, <Link to="/contact/">get a free SEO audit</Link>. We will show you exactly where you stand and the most efficient path to growth - no obligation.</p>
           </>
         ),
       },
@@ -7299,7 +7299,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Would someone learn something useful after reading it?</li>
               <li>Does my content provide examples, tips, or solutions?</li>
             </ul>
-            <p>If the answer is "not really," it’s time to improve your content. Our <Link to="/content-writing">Content Writing</Link> service creates in-depth, helpful content that ranks.</p>
+            <p>If the answer is "not really," it’s time to improve your content. Our <Link to="/content-writing/">Content Writing</Link> service creates in-depth, helpful content that ranks.</p>
           </>
         ),
       },
@@ -7379,7 +7379,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Internal links to related pages</li>
               <li>Optimized images with alt text</li>
             </ul>
-            <p>Avoid stuffing the same keyword into every paragraph. Write naturally and focus on helping your readers first. Our <Link to="/seo">SEO Services</Link> handle every on-page element with documented precision.</p>
+            <p>Avoid stuffing the same keyword into every paragraph. Write naturally and focus on helping your readers first. Our <Link to="/seo/">SEO Services</Link> handle every on-page element with documented precision.</p>
           </>
         ),
       },
@@ -7399,7 +7399,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Poor URL structure</li>
               <li>Missing HTTPS security</li>
             </ul>
-            <p>Run regular SEO audits to identify and fix these issues before they affect your visibility. Our <Link to="/technical-seo">Technical SEO</Link> service covers every item on this list.</p>
+            <p>Run regular SEO audits to identify and fix these issues before they affect your visibility. Our <Link to="/technical-seo/">Technical SEO</Link> service covers every item on this list.</p>
           </>
         ),
       },
@@ -7490,12 +7490,12 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <ul>
               <li>Technical SEO</li>
               <li>On-Page SEO</li>
-              <li><Link to="/local-seo">Local SEO</Link></li>
+              <li><Link to="/local-seo/">Local SEO</Link></li>
               <li>Content Optimization</li>
               <li>SEO Audits</li>
               <li>High-Quality Link Building</li>
             </ul>
-            <p>Request your Free SEO Audit today and discover the opportunities to grow your organic traffic. <Link to="/contact">Contact us</Link> to get started.</p>
+            <p>Request your Free SEO Audit today and discover the opportunities to grow your organic traffic. <Link to="/contact/">Contact us</Link> to get started.</p>
           </>
         ),
       },
@@ -7556,7 +7556,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>Coffee shop near me</li>
             </ul>
             <p>These searches have strong buying intent because people are usually ready to contact or visit a business.</p>
-            <p>That’s why Local SEO is one of the most valuable marketing strategies for service-based businesses. Learn more about how it fits into a broader strategy in our <Link to="/seo">SEO Services</Link> overview.</p>
+            <p>That’s why Local SEO is one of the most valuable marketing strategies for service-based businesses. Learn more about how it fits into a broader strategy in our <Link to="/seo/">SEO Services</Link> overview.</p>
           </>
         ),
       },
@@ -7660,7 +7660,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li>How Local Businesses Can Rank Higher on Google</li>
               <li>Common SEO Mistakes Local Companies Make</li>
             </ul>
-            <p>Useful content not only attracts visitors but also builds trust and authority. Our <Link to="/content-writing">Content Writing</Link> service produces exactly this kind of location-aware content.</p>
+            <p>Useful content not only attracts visitors but also builds trust and authority. Our <Link to="/content-writing/">Content Writing</Link> service produces exactly this kind of location-aware content.</p>
             <h3>7. Make Your Website Fast and Mobile-Friendly</h3>
             <p>Most local searches happen on mobile devices.</p>
             <p>If your website loads slowly or is difficult to use on a phone, visitors may leave before contacting you.</p>
@@ -7801,15 +7801,15 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <p>If your business isn’t attracting enough local customers, now is the perfect time to improve your online visibility.</p>
             <p>At Rank Flow Digital, we help businesses increase local rankings through:</p>
             <ul>
-              <li><Link to="/local-seo">Local SEO Optimization</Link></li>
+              <li><Link to="/local-seo/">Local SEO Optimization</Link></li>
               <li>Google Business Profile Optimization</li>
-              <li><Link to="/technical-seo">Technical SEO</Link></li>
+              <li><Link to="/technical-seo/">Technical SEO</Link></li>
               <li>On-Page SEO</li>
-              <li><Link to="/content-writing">Content Writing</Link></li>
+              <li><Link to="/content-writing/">Content Writing</Link></li>
               <li>SEO Audits</li>
               <li>Link Building</li>
             </ul>
-            <p>Request your FREE SEO Audit today and discover how your website can attract more local customers and generate more leads. <Link to="/contact">Contact us</Link> to get started.</p>
+            <p>Request your FREE SEO Audit today and discover how your website can attract more local customers and generate more leads. <Link to="/contact/">Contact us</Link> to get started.</p>
           </>
         ),
       },
@@ -7850,7 +7850,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               The good news is that this is fixable. In this guide, I will walk you through exactly why your HVAC business is not showing on Google and what you can do about it. We will cover <strong>HVAC SEO</strong>, <strong>Google Business Profile for HVAC</strong>, <strong>HVAC Google Maps ranking</strong>, and practical steps to get more calls from local customers. Whether you are just starting out or have been in business for years, these strategies will help you climb the rankings and grow your customer base.
             </p>
             <p>
-              If you want professional help implementing these strategies, <a href="/local-seo">Rank Flow Agency offers dedicated Local SEO services</a> designed specifically for home service businesses like yours. You can also <a href="/contact">request a free SEO audit</a> to see exactly what is holding your HVAC business back.
+              If you want professional help implementing these strategies, <a href="/local-seo/">Rank Flow Agency offers dedicated Local SEO services</a> designed specifically for home service businesses like yours. You can also <a href="/contact/">request a free SEO audit</a> to see exactly what is holding your HVAC business back.
             </p>
           </div>
         ),
@@ -7871,7 +7871,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Your <strong>Google Business Profile</strong> (formerly Google My Business) is the single most important factor for local search visibility. If you have not claimed or optimized your profile, Google has very little information about your business. No photos, no services listed, no business hours, no description. That makes it nearly impossible to rank in the Local Pack (the top three results on Google Maps).
             </p>
             <p>
-              Many HVAC owners create a profile, fill in the basics, and never touch it again. That is a mistake. Google rewards active, complete, and accurate profiles. If you want to learn how to optimize yours, check out our <a href="/google-business-profile">Google Business Profile optimization services</a>.
+              Many HVAC owners create a profile, fill in the basics, and never touch it again. That is a mistake. Google rewards active, complete, and accurate profiles. If you want to learn how to optimize yours, check out our <a href="/google-business-profile/">Google Business Profile optimization services</a>.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">2. Wrong Business Categories</h3>
             <p>
@@ -7883,19 +7883,19 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">4. Poor Local SEO</h3>
             <p>
-              <strong>Local SEO for HVAC</strong> is about more than just your Google Business Profile. It includes your website content, local keywords, location pages, citations, and reviews. If you are not actively working on local SEO, your competitors who are will keep outranking you. A strong <a href="/local-seo">Local SEO strategy</a> ensures Google understands exactly where you operate and what services you offer.
+              <strong>Local SEO for HVAC</strong> is about more than just your Google Business Profile. It includes your website content, local keywords, location pages, citations, and reviews. If you are not actively working on local SEO, your competitors who are will keep outranking you. A strong <a href="/local-seo/">Local SEO strategy</a> ensures Google understands exactly where you operate and what services you offer.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">5. Weak Website Optimization</h3>
             <p>
-              Your website is the foundation of your online presence. If it is slow, hard to navigate, or missing key information like services, service areas, and contact details, Google will struggle to rank it. Your website needs clear service pages, location-specific content, and a mobile-friendly design. If your site needs work, our <a href="/website-design">website design services</a> can help you build a site that ranks and converts.
+              Your website is the foundation of your online presence. If it is slow, hard to navigate, or missing key information like services, service areas, and contact details, Google will struggle to rank it. Your website needs clear service pages, location-specific content, and a mobile-friendly design. If your site needs work, our <a href="/website-design/">website design services</a> can help you build a site that ranks and converts.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">6. Technical SEO Issues</h3>
             <p>
-              Technical SEO is the behind-the-scenes stuff that helps Google crawl and index your website. Common issues include missing meta tags, broken links, slow page speed, no XML sitemap, and poor mobile responsiveness. These issues prevent Google from understanding your site. Our <a href="/technical-seo">technical SEO services</a> can identify and fix these problems so your site performs at its best.
+              Technical SEO is the behind-the-scenes stuff that helps Google crawl and index your website. Common issues include missing meta tags, broken links, slow page speed, no XML sitemap, and poor mobile responsiveness. These issues prevent Google from understanding your site. Our <a href="/technical-seo/">technical SEO services</a> can identify and fix these problems so your site performs at its best.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">7. Low-Quality Backlinks</h3>
             <p>
-              Backlinks (links from other websites to yours) are a major ranking factor. But not all backlinks are good. Low-quality, spammy, or irrelevant backlinks can actually hurt your rankings. If your link profile is weak or toxic, Google will not trust your site. Building high-quality, relevant backlinks through <a href="/link-building">link building services</a> and <a href="/off-page-seo">off-page SEO</a> is essential for long-term success.
+              Backlinks (links from other websites to yours) are a major ranking factor. But not all backlinks are good. Low-quality, spammy, or irrelevant backlinks can actually hurt your rankings. If your link profile is weak or toxic, Google will not trust your site. Building high-quality, relevant backlinks through <a href="/link-building/">link building services</a> and <a href="/off-page-seo/">off-page SEO</a> is essential for long-term success.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">8. Few Customer Reviews</h3>
             <p>
@@ -7937,7 +7937,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Fix 4: Invest in Local SEO</h3>
             <p>
-              Create location-specific pages on your website for every city or neighborhood you serve. Use local keywords naturally in your content ("AC repair in [City]," "heating installation [City]"). Build local citations on relevant directories. Get listed on HVAC-specific and home service directories. A well-rounded <a href="/local-seo">Local SEO campaign</a> covers all of these.
+              Create location-specific pages on your website for every city or neighborhood you serve. Use local keywords naturally in your content ("AC repair in [City]," "heating installation [City]"). Build local citations on relevant directories. Get listed on HVAC-specific and home service directories. A well-rounded <a href="/local-seo/">Local SEO campaign</a> covers all of these.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Fix 5: Optimize Your Website</h3>
             <p>
@@ -7945,7 +7945,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Fix 6: Fix Technical SEO Issues</h3>
             <p>
-              Run a <a href="/seo-audit">comprehensive SEO audit</a> to find technical issues. Fix broken links, optimize meta titles and descriptions, submit an XML sitemap to Google Search Console, and improve page speed. If your site has technical problems, they will hold back all your other SEO efforts.
+              Run a <a href="/seo-audit/">comprehensive SEO audit</a> to find technical issues. Fix broken links, optimize meta titles and descriptions, submit an XML sitemap to Google Search Console, and improve page speed. If your site has technical problems, they will hold back all your other SEO efforts.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Fix 7: Build High-Quality Backlinks</h3>
             <p>
@@ -7995,7 +7995,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Backlinks from at least 10 local or industry-relevant websites</span></li>
             </ul>
             <p>
-              If you can check every box on this list, you are well on your way to dominating local search. If you need help, <a href="/contact">reach out to Rank Flow Agency</a> and we will handle it for you.
+              If you can check every box on this list, you are well on your way to dominating local search. If you need help, <a href="/contact/">reach out to Rank Flow Agency</a> and we will handle it for you.
             </p>
           </div>
         ),
@@ -8024,7 +8024,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Prominence is how well-known and trusted your business is. Google measures this through reviews, backlinks, website authority, and overall online presence. A business with 100 five-star reviews and a strong website will outrank a business with 5 reviews and no website. Prominence is where you can really separate yourself from the competition.
             </p>
             <p>
-              To improve your Google Maps ranking, focus on all three factors. Optimize your profile for relevance, ensure your address is correct for distance, and build reviews and backlinks for prominence. If you want a deeper dive, our <a href="/seo-audit">SEO audit services</a> will show you exactly where you stand on all three.
+              To improve your Google Maps ranking, focus on all three factors. Optimize your profile for relevance, ensure your address is correct for distance, and build reviews and backlinks for prominence. If you want a deeper dive, our <a href="/seo-audit/">SEO audit services</a> will show you exactly where you stand on all three.
             </p>
           </div>
         ),
@@ -8046,8 +8046,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Not responding to reviews:</strong> Responding to reviews shows Google and customers that you are active and engaged. Ignoring reviews, especially negative ones, hurts trust.</span></li>
               <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Thin content pages:</strong> Service pages with only 100 words of content do not rank. Each service page should have at least 500 words of helpful, original content.</span></li>
               <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Buying reviews:</strong> Google can detect fake reviews and will penalize your business. Focus on earning genuine reviews from real customers.</span></li>
-              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>No blog or content strategy:</strong> Publishing helpful content about HVAC tips, maintenance, and common problems builds authority and attracts organic traffic. Our <a href="/content-writing">SEO content writing services</a> can help.</span></li>
-              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Ignoring technical SEO:</strong> Broken links, slow load times, and missing meta tags silently hurt your rankings. <a href="/technical-seo">Technical SEO</a> fixes are essential.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>No blog or content strategy:</strong> Publishing helpful content about HVAC tips, maintenance, and common problems builds authority and attracts organic traffic. Our <a href="/content-writing/">SEO content writing services</a> can help.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Ignoring technical SEO:</strong> Broken links, slow load times, and missing meta tags silently hurt your rankings. <a href="/technical-seo/">Technical SEO</a> fixes are essential.</span></li>
             </ul>
           </div>
         ),
@@ -8086,7 +8086,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
                 Stop losing customers to competitors who rank higher than you. <strong>Rank Flow Agency</strong> specializes in <strong>HVAC SEO</strong> and <strong>local SEO for HVAC</strong> businesses. We will optimize your Google Business Profile, fix your website, build your local presence, and get you ranking on Google Search and Google Maps.
               </p>
               <p className="mt-3 text-slate-300">
-                <a href="/contact" className="btn-glow inline-flex items-center gap-2">Get a FREE HVAC SEO Audit</a>
+                <a href="/contact/" className="btn-glow inline-flex items-center gap-2">Get a FREE HVAC SEO Audit</a>
               </p>
               <p className="mt-4 text-sm text-slate-400">
                 No obligation. No pressure. Just a clear plan to get your HVAC business showing on Google and generating more calls.
@@ -8126,7 +8126,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               The good news is that this is completely fixable. In this guide, I will explain exactly why your electrical business is not showing on Google and what you can do to change it. We will cover <strong>electrician SEO</strong>, <strong>local SEO for electricians</strong>, <strong>Google Business Profile for electricians</strong>, <strong>electrician Google Maps ranking</strong>, and practical steps you can take today to start getting more calls from local customers.
             </p>
             <p>
-              If you want professional help implementing these strategies, <a href="/local-seo">Rank Flow Agency offers dedicated Local SEO services</a> for trades and home service businesses. You can also <a href="/contact">request a free SEO audit</a> to find out exactly what is holding your electrical business back.
+              If you want professional help implementing these strategies, <a href="/local-seo/">Rank Flow Agency offers dedicated Local SEO services</a> for trades and home service businesses. You can also <a href="/contact/">request a free SEO audit</a> to find out exactly what is holding your electrical business back.
             </p>
           </div>
         ),
@@ -8147,7 +8147,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Your <strong>Google Business Profile</strong> is the most important tool for local search visibility. If you have not claimed it, or if you claimed it but left it half-finished, Google has very little information to work with. No photos, no services listed, no business hours, no description. Without these details, Google cannot match your business to relevant searches, and you will not appear in the Local Pack (the top three results on Google Maps).
             </p>
             <p>
-              Many electricians create a profile, fill in the basics, and never touch it again. That is a missed opportunity. Google rewards profiles that are complete, accurate, and active. If you want to maximize your visibility, check out our <a href="/google-business-profile">Google Business Profile optimization services</a>.
+              Many electricians create a profile, fill in the basics, and never touch it again. That is a missed opportunity. Google rewards profiles that are complete, accurate, and active. If you want to maximize your visibility, check out our <a href="/google-business-profile/">Google Business Profile optimization services</a>.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">2. Wrong Business Category</h3>
             <p>
@@ -8155,7 +8155,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">3. Poor Local SEO</h3>
             <p>
-              <strong>Local SEO for electricians</strong> goes beyond your Google Business Profile. It includes your website content, local keywords, location pages, directory citations, and customer reviews. If you are not actively working on local SEO, your competitors who are will keep outranking you. A solid <a href="/local-seo">Local SEO strategy</a> tells Google exactly where you operate and what services you offer.
+              <strong>Local SEO for electricians</strong> goes beyond your Google Business Profile. It includes your website content, local keywords, location pages, directory citations, and customer reviews. If you are not actively working on local SEO, your competitors who are will keep outranking you. A solid <a href="/local-seo/">Local SEO strategy</a> tells Google exactly where you operate and what services you offer.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">4. Inconsistent NAP Information</h3>
             <p>
@@ -8163,11 +8163,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">5. Weak Website SEO</h3>
             <p>
-              Your website is the foundation of your online presence. If it is slow, hard to navigate, or missing key information like services, service areas, and contact details, Google will struggle to rank it. Your site needs clear service pages for each type of work you do (residential, commercial, emergency repairs, lighting installation, panel upgrades, etc.), location-specific content, and a mobile-friendly design. If your site needs a rebuild, our <a href="/website-design">website design services</a> can help.
+              Your website is the foundation of your online presence. If it is slow, hard to navigate, or missing key information like services, service areas, and contact details, Google will struggle to rank it. Your site needs clear service pages for each type of work you do (residential, commercial, emergency repairs, lighting installation, panel upgrades, etc.), location-specific content, and a mobile-friendly design. If your site needs a rebuild, our <a href="/website-design/">website design services</a> can help.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">6. Technical SEO Problems</h3>
             <p>
-              <strong>Technical SEO</strong> is the behind-the-scenes work that helps Google crawl and index your website. Common issues include missing meta tags, broken links, slow page speed, no XML sitemap, and poor mobile responsiveness. These problems silently hold back your rankings. Our <a href="/technical-seo">technical SEO services</a> can identify and fix these issues so your site performs at its best.
+              <strong>Technical SEO</strong> is the behind-the-scenes work that helps Google crawl and index your website. Common issues include missing meta tags, broken links, slow page speed, no XML sitemap, and poor mobile responsiveness. These problems silently hold back your rankings. Our <a href="/technical-seo/">technical SEO services</a> can identify and fix these issues so your site performs at its best.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">7. Lack of Customer Reviews</h3>
             <p>
@@ -8179,7 +8179,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">9. Low Website Authority</h3>
             <p>
-              Website authority is a measure of how trustworthy and authoritative your site is in the eyes of Google. It is largely determined by the quality and quantity of backlinks (links from other websites to yours). If your website has few or low-quality backlinks, Google will not consider it authoritative enough to rank at the top. Building high-quality backlinks through professional <a href="/link-building">link building services</a> is essential for long-term SEO success.
+              Website authority is a measure of how trustworthy and authoritative your site is in the eyes of Google. It is largely determined by the quality and quantity of backlinks (links from other websites to yours). If your website has few or low-quality backlinks, Google will not consider it authoritative enough to rank at the top. Building high-quality backlinks through professional <a href="/link-building/">link building services</a> is essential for long-term SEO success.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">10. Google Business Profile Suspension</h3>
             <p>
@@ -8209,7 +8209,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Step 3: Invest in Local SEO</h3>
             <p>
-              Create dedicated location pages on your website for every city or neighborhood you serve. Use local keywords naturally in your content ("electrician in [City]," "electrical contractor [City]"). Build citations on relevant directories. Get listed on electrician-specific and trades directories. A comprehensive <a href="/local-seo">Local SEO campaign</a> covers all of these bases.
+              Create dedicated location pages on your website for every city or neighborhood you serve. Use local keywords naturally in your content ("electrician in [City]," "electrical contractor [City]"). Build citations on relevant directories. Get listed on electrician-specific and trades directories. A comprehensive <a href="/local-seo/">Local SEO campaign</a> covers all of these bases.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Step 4: Make Your NAP Consistent Everywhere</h3>
             <p>
@@ -8221,7 +8221,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Step 6: Fix Technical SEO Issues</h3>
             <p>
-              Run a <a href="/seo-audit">comprehensive SEO audit</a> to find technical problems. Fix broken links, optimize meta titles and descriptions, submit an XML sitemap to Google Search Console, and improve page speed. Technical issues will hold back every other SEO effort if left unaddressed.
+              Run a <a href="/seo-audit/">comprehensive SEO audit</a> to find technical problems. Fix broken links, optimize meta titles and descriptions, submit an XML sitemap to Google Search Console, and improve page speed. Technical issues will hold back every other SEO effort if left unaddressed.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Step 7: Get More Customer Reviews</h3>
             <p>
@@ -8271,7 +8271,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Backlinks from at least 10 local or industry-relevant websites</span></li>
             </ul>
             <p>
-              If you can check every box on this list, you are in a strong position to dominate local search. If you need help, <a href="/contact">reach out to Rank Flow Agency</a> and we will handle it for you.
+              If you can check every box on this list, you are in a strong position to dominate local search. If you need help, <a href="/contact/">reach out to Rank Flow Agency</a> and we will handle it for you.
             </p>
           </div>
         ),
@@ -8300,7 +8300,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Prominence is how well-known and trusted your business is online. Google measures this through reviews, backlinks, website authority, and overall online presence. A business with 100 five-star reviews and a strong, well-optimized website will outrank a business with 5 reviews and no website. Prominence is where you can truly set yourself apart from the competition.
             </p>
             <p>
-              To improve your Google Maps ranking, work on all three factors. Optimize your profile for relevance, ensure your address is correct for distance, and build reviews and backlinks for prominence. If you want a detailed breakdown of where you stand, our <a href="/seo-audit">SEO audit services</a> will show you exactly that.
+              To improve your Google Maps ranking, work on all three factors. Optimize your profile for relevance, ensure your address is correct for distance, and build reviews and backlinks for prominence. If you want a detailed breakdown of where you stand, our <a href="/seo-audit/">SEO audit services</a> will show you exactly that.
             </p>
           </div>
         ),
@@ -8323,7 +8323,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Thin service pages:</strong> Service pages with only a few sentences do not rank. Each service page should have at least 500 words of helpful, original content.</span></li>
               <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Buying reviews:</strong> Google can detect fake reviews and will penalize your business. Focus on earning genuine reviews from real customers.</span></li>
               <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>No blog or content strategy:</strong> Publishing helpful content about electrical safety, common problems, and tips builds authority and attracts organic traffic.</span></li>
-              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Ignoring technical SEO:</strong> Broken links, slow load times, and missing meta tags silently damage your rankings. <a href="/technical-seo">Technical SEO</a> fixes are non-negotiable.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Ignoring technical SEO:</strong> Broken links, slow load times, and missing meta tags silently damage your rankings. <a href="/technical-seo/">Technical SEO</a> fixes are non-negotiable.</span></li>
               <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>No internal linking:</strong> If your pages do not link to each other, Google struggles to understand your site structure and your most important pages get buried.</span></li>
             </ul>
           </div>
@@ -8363,7 +8363,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
                 Stop losing customers to competitors who rank above you. <strong>Rank Flow Agency</strong> specializes in <strong>electrician SEO</strong> and <strong>local SEO for electricians</strong>. We will optimize your Google Business Profile, fix your website, build your local presence, and get you ranking on Google Search and Google Maps.
               </p>
               <p className="mt-3 text-slate-300">
-                <a href="/contact" className="btn-glow inline-flex items-center gap-2">Get a FREE Electrician SEO Audit</a>
+                <a href="/contact/" className="btn-glow inline-flex items-center gap-2">Get a FREE Electrician SEO Audit</a>
               </p>
               <p className="mt-4 text-sm text-slate-400">
                 No obligation. No pressure. Just a clear plan to get your electrical business showing on Google and generating more calls.
@@ -8403,7 +8403,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               In this guide, I will show you 12 proven ways to get more local customers for your electrical business without relying on paid ads. Whether you are a solo electrician or run a multi-truck operation, these strategies will help you build a sustainable source of <strong>local lead generation</strong> that keeps working long after you implement them.
             </p>
             <p>
-              If you want professional help putting these strategies into action, <a href="/local-seo">Rank Flow Agency offers dedicated Local SEO services</a> designed for trades and home service businesses. You can also <a href="/contact">request a free SEO audit</a> to see exactly where your electrical business stands.
+              If you want professional help putting these strategies into action, <a href="/local-seo/">Rank Flow Agency offers dedicated Local SEO services</a> designed for trades and home service businesses. You can also <a href="/contact/">request a free SEO audit</a> to see exactly where your electrical business stands.
             </p>
           </div>
         ),
@@ -8444,11 +8444,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </div>
             <h3 className="text-xl font-semibold text-white mt-6">1. Optimize Your Google Business Profile</h3>
             <p>
-              Your Google Business Profile is the single most important tool for local visibility. Claim it, fill out every field, upload at least 10 photos, list all your services, and post updates weekly. Choose the right primary category ("Electrician") and add relevant secondary categories. A fully optimized profile dramatically increases your chances of showing up in the Local Pack on Google Maps. If you need help, our <a href="/google-business-profile">Google Business Profile optimization services</a> can handle it for you.
+              Your Google Business Profile is the single most important tool for local visibility. Claim it, fill out every field, upload at least 10 photos, list all your services, and post updates weekly. Choose the right primary category ("Electrician") and add relevant secondary categories. A fully optimized profile dramatically increases your chances of showing up in the Local Pack on Google Maps. If you need help, our <a href="/google-business-profile/">Google Business Profile optimization services</a> can handle it for you.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">2. Improve Local SEO</h3>
             <p>
-              <strong>Local SEO for electricians</strong> is about making sure Google understands exactly where you operate and what services you offer. This includes local keywords in your website content, consistent NAP (Name, Address, Phone) across all directories, and local citations. A strong <a href="/local-seo">Local SEO strategy</a> ensures you show up when someone in your area searches for an electrician.
+              <strong>Local SEO for electricians</strong> is about making sure Google understands exactly where you operate and what services you offer. This includes local keywords in your website content, consistent NAP (Name, Address, Phone) across all directories, and local citations. A strong <a href="/local-seo/">Local SEO strategy</a> ensures you show up when someone in your area searches for an electrician.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">3. Target High-Intent Keywords</h3>
             <p>
@@ -8460,7 +8460,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">5. Publish Helpful Blog Content</h3>
             <p>
-              A blog is one of the most effective ways to attract organic traffic. Write about common electrical problems, safety tips, and questions your customers ask you every day. Each blog post is another page that can rank on Google and bring visitors to your website. Over time, this content builds authority and trust. Our <a href="/content-writing">SEO content writing services</a> can help you create content that ranks and converts.
+              A blog is one of the most effective ways to attract organic traffic. Write about common electrical problems, safety tips, and questions your customers ask you every day. Each blog post is another page that can rank on Google and bring visitors to your website. Over time, this content builds authority and trust. Our <a href="/content-writing/">SEO content writing services</a> can help you create content that ranks and converts.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">6. Get More Google Reviews</h3>
             <p>
@@ -8468,11 +8468,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">7. Build High-Quality Local Backlinks</h3>
             <p>
-              Backlinks from other websites tell Google your business is trustworthy and authoritative. Focus on earning links from local business associations, Chambers of Commerce, trade organizations, and local news sites. Avoid buying links or using spammy directories. Quality matters far more than quantity. Professional <a href="/link-building">link building services</a> can help you earn the right kind of links.
+              Backlinks from other websites tell Google your business is trustworthy and authoritative. Focus on earning links from local business associations, Chambers of Commerce, trade organizations, and local news sites. Avoid buying links or using spammy directories. Quality matters far more than quantity. Professional <a href="/link-building/">link building services</a> can help you earn the right kind of links.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">8. Improve Website Speed</h3>
             <p>
-              Google uses page speed as a ranking factor. If your website takes more than 3 seconds to load, visitors will leave and Google will rank you lower. Compress your images, minify your CSS and JavaScript, use a content delivery network, and upgrade your hosting if needed. Fast sites rank better and convert more visitors into calls. Our <a href="/technical-seo">technical SEO services</a> can identify and fix speed issues.
+              Google uses page speed as a ranking factor. If your website takes more than 3 seconds to load, visitors will leave and Google will rank you lower. Compress your images, minify your CSS and JavaScript, use a content delivery network, and upgrade your hosting if needed. Fast sites rank better and convert more visitors into calls. Our <a href="/technical-seo/">technical SEO services</a> can identify and fix speed issues.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">9. Use Internal Linking</h3>
             <p>
@@ -8484,7 +8484,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">11. Track SEO Performance</h3>
             <p>
-              You cannot improve what you do not measure. Set up Google Analytics and Google Search Console to track your website traffic, keyword rankings, and click-through rates. Monitor which pages bring in the most traffic and which ones need improvement. Review your performance monthly and adjust your strategy based on the data. A <a href="/seo-audit">professional SEO audit</a> can give you a detailed baseline to work from.
+              You cannot improve what you do not measure. Set up Google Analytics and Google Search Console to track your website traffic, keyword rankings, and click-through rates. Monitor which pages bring in the most traffic and which ones need improvement. Review your performance monthly and adjust your strategy based on the data. A <a href="/seo-audit/">professional SEO audit</a> can give you a detailed baseline to work from.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">12. Stay Consistent</h3>
             <p>
@@ -8511,7 +8511,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               By month four, their Google Business Profile was appearing in the Local Pack for their top keywords. By month six, they had cut their ad spend by 70 percent and were getting more total leads than before, because organic traffic had taken over. Their cost per lead dropped from $45 to under $8. The best part was that the leads kept coming even when they stopped spending on ads entirely.
             </p>
             <p>
-              This is the power of organic SEO. It takes time and effort, but it builds a permanent asset that keeps generating leads without ongoing ad spend. If you want similar results for your electrical business, <a href="/contact">contact Rank Flow Agency</a> for a free audit.
+              This is the power of organic SEO. It takes time and effort, but it builds a permanent asset that keeps generating leads without ongoing ad spend. If you want similar results for your electrical business, <a href="/contact/">contact Rank Flow Agency</a> for a free audit.
             </p>
           </div>
         ),
@@ -8534,7 +8534,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Not asking for reviews:</strong> Happy customers rarely leave reviews on their own. You have to ask, and most electricians never do.</span></li>
               <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Thin service pages:</strong> A service page with 2 sentences will not rank. Each page needs at least 500 words of helpful, original content.</span></li>
               <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>No website at all:</strong> Some electricians rely only on their Google Business Profile. Without a website, you miss out on organic search traffic and lose credibility.</span></li>
-              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Ignoring website design:</strong> An outdated, slow website drives visitors away. A professional <a href="/website-design">website design</a> builds trust and converts visitors into calls.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Ignoring website design:</strong> An outdated, slow website drives visitors away. A professional <a href="/website-design/">website design</a> builds trust and converts visitors into calls.</span></li>
             </ul>
           </div>
         ),
@@ -8573,7 +8573,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
                 Stop wasting money on ads that disappear the moment you stop paying. <strong>Rank Flow Agency</strong> will build a custom SEO strategy for your electrical business that generates local calls, qualified leads, and real growth, month after month.
               </p>
               <p className="mt-3 text-slate-300">
-                <a href="/contact" className="btn-glow inline-flex items-center gap-2">Get a FREE Electrician SEO Audit</a>
+                <a href="/contact/" className="btn-glow inline-flex items-center gap-2">Get a FREE Electrician SEO Audit</a>
               </p>
               <p className="mt-4 text-sm text-slate-400">
                 No obligation. No pressure. Just a clear plan to get your electrical business generating more local customers without spending a dime on ads.
@@ -8613,7 +8613,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               This guide covers everything you need to know. From <strong>Google Business Profile for electricians</strong> to <strong>Google Maps SEO</strong>, local citations, reviews, technical SEO, content marketing, and more. Whether you are a solo electrician or manage a team of electrical contractors, this guide will walk you through every step of building a local SEO strategy that actually works.
             </p>
             <p>
-              If you want professional help implementing these strategies, <a href="/local-seo">Rank Flow Agency offers dedicated Local SEO services</a> for trades and home service businesses. You can also <a href="/contact">request a free SEO audit</a> to see exactly where your electrical business stands.
+              If you want professional help implementing these strategies, <a href="/local-seo/">Rank Flow Agency offers dedicated Local SEO services</a> for trades and home service businesses. You can also <a href="/contact/">request a free SEO audit</a> to see exactly where your electrical business stands.
             </p>
           </div>
         ),
@@ -8700,7 +8700,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </div>
             <h3 className="text-xl font-semibold text-white mt-6">Google Business Profile Optimization</h3>
             <p>
-              Your Google Business Profile is the single most important local SEO asset you have. Claim it at google.com/business, fill out every field completely, choose "Electrician" as your primary category, add secondary categories, upload at least 10 photos, list all your services, write a 750-character description with your keywords, and post updates weekly. A complete and active profile signals to Google that your business is legitimate and active. Our <a href="/google-business-profile">Google Business Profile optimization services</a> can handle this for you.
+              Your Google Business Profile is the single most important local SEO asset you have. Claim it at google.com/business, fill out every field completely, choose "Electrician" as your primary category, add secondary categories, upload at least 10 photos, list all your services, write a 750-character description with your keywords, and post updates weekly. A complete and active profile signals to Google that your business is legitimate and active. Our <a href="/google-business-profile/">Google Business Profile optimization services</a> can handle this for you.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Local Keyword Research</h3>
             <p>
@@ -8712,11 +8712,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">On-Page SEO</h3>
             <p>
-              Every page on your website should be optimized for a specific keyword. Include the keyword in your page title, meta description, H1 heading, URL, and naturally throughout the content. Use <a href="/on-page-seo">on-page SEO</a> best practices: write descriptive alt text for images, use header tags properly, and keep your content focused on one topic per page.
+              Every page on your website should be optimized for a specific keyword. Include the keyword in your page title, meta description, H1 heading, URL, and naturally throughout the content. Use <a href="/on-page-seo/">on-page SEO</a> best practices: write descriptive alt text for images, use header tags properly, and keep your content focused on one topic per page.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Technical SEO</h3>
             <p>
-              Technical SEO is the foundation that helps Google crawl and index your site. Fix broken links, create an XML sitemap, optimize your robots.txt, ensure HTTPS is working, and fix any crawl errors. Without a solid technical foundation, all your other SEO efforts will underperform. Our <a href="/technical-seo">technical SEO services</a> can identify and resolve these issues.
+              Technical SEO is the foundation that helps Google crawl and index your site. Fix broken links, create an XML sitemap, optimize your robots.txt, ensure HTTPS is working, and fix any crawl errors. Without a solid technical foundation, all your other SEO efforts will underperform. Our <a href="/technical-seo/">technical SEO services</a> can identify and resolve these issues.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Website Speed Optimization</h3>
             <p>
@@ -8724,7 +8724,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Mobile-Friendly Website</h3>
             <p>
-              Over 60% of local searches happen on mobile phones. If your website is not mobile-friendly, you are losing more than half your potential customers. Use responsive design, make sure buttons are large enough to tap, keep forms short, and test your site on multiple devices. A professional <a href="/website-design">website design</a> ensures your site works perfectly on every screen.
+              Over 60% of local searches happen on mobile phones. If your website is not mobile-friendly, you are losing more than half your potential customers. Use responsive design, make sure buttons are large enough to tap, keep forms short, and test your site on multiple devices. A professional <a href="/website-design/">website design</a> ensures your site works perfectly on every screen.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Internal Linking</h3>
             <p>
@@ -8744,11 +8744,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Local Link Building</h3>
             <p>
-              Backlinks from local websites tell Google your business is trusted in your community. Earn links from your Chamber of Commerce, trade associations, local news sites, and supplier websites. Avoid buying links or using spammy directories. Quality matters far more than quantity. Professional <a href="/link-building">link building services</a> can help you earn the right links.
+              Backlinks from local websites tell Google your business is trusted in your community. Earn links from your Chamber of Commerce, trade associations, local news sites, and supplier websites. Avoid buying links or using spammy directories. Quality matters far more than quantity. Professional <a href="/link-building/">link building services</a> can help you earn the right links.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Content Marketing</h3>
             <p>
-              Publishing helpful content about electrical safety, common problems, and maintenance tips attracts organic traffic and builds authority. Each blog post is another page that can rank on Google. Write about questions your customers actually ask. Over time, a content library becomes one of your most valuable SEO assets. Our <a href="/content-writing">SEO content writing services</a> can help.
+              Publishing helpful content about electrical safety, common problems, and maintenance tips attracts organic traffic and builds authority. Each blog post is another page that can rank on Google. Write about questions your customers actually ask. Over time, a content library becomes one of your most valuable SEO assets. Our <a href="/content-writing/">SEO content writing services</a> can help.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Schema Markup</h3>
             <p>
@@ -8764,7 +8764,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">Monthly SEO Monitoring</h3>
             <p>
-              SEO is not a set-it-and-forget-it task. Monitor your rankings, traffic, and leads monthly. Track which keywords are moving up or down. Review your Google Business Profile insights. Adjust your strategy based on the data. The electricians who win are the ones who stay consistent and adapt over time. A regular <a href="/seo-audit">SEO audit</a> helps you stay on track.
+              SEO is not a set-it-and-forget-it task. Monitor your rankings, traffic, and leads monthly. Track which keywords are moving up or down. Review your Google Business Profile insights. Adjust your strategy based on the data. The electricians who win are the ones who stay consistent and adapt over time. A regular <a href="/seo-audit/">SEO audit</a> helps you stay on track.
             </p>
           </div>
         ),
@@ -8831,7 +8831,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>Monthly SEO performance review</span></li>
             </ul>
             <p>
-              If you can check every box on this list, you are well on your way to dominating local search. If you need help, <a href="/contact">reach out to Rank Flow Agency</a> and we will handle it for you.
+              If you can check every box on this list, you are well on your way to dominating local search. If you need help, <a href="/contact/">reach out to Rank Flow Agency</a> and we will handle it for you.
             </p>
           </div>
         ),
@@ -8870,7 +8870,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
                 <strong>Rank Flow Agency</strong> specializes in <strong>local SEO for electricians</strong> and <strong>electrical contractor SEO</strong>. We will optimize your Google Business Profile, fix your website, build your local presence, and get you ranking on Google Search and Google Maps.
               </p>
               <p className="mt-3 text-slate-300">
-                <a href="/contact" className="btn-glow inline-flex items-center gap-2">Get a FREE Electrician SEO Audit</a>
+                <a href="/contact/" className="btn-glow inline-flex items-center gap-2">Get a FREE Electrician SEO Audit</a>
               </p>
               <p className="mt-4 text-sm text-slate-400">
                 No obligation. No pressure. Just a clear plan to get your electrical business ranking higher and generating more local calls.
@@ -8910,7 +8910,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               In this guide, I will walk you through exactly <strong>how to rank your electrical business on Google Maps</strong>. We will cover how Google Maps ranking works, the 12 most effective strategies to climb to the top, common mistakes to avoid, and a complete checklist to make sure you do not miss anything. Whether you are a solo electrician or run a multi-truck operation, these strategies will help you dominate your local market.
             </p>
             <p>
-              If you want professional help, <a href="/local-seo">Rank Flow Agency offers dedicated Local SEO services</a> for trades and home service businesses. You can also <a href="/contact">request a free Google Maps SEO audit</a> to see exactly where your business stands.
+              If you want professional help, <a href="/local-seo/">Rank Flow Agency offers dedicated Local SEO services</a> for trades and home service businesses. You can also <a href="/contact/">request a free Google Maps SEO audit</a> to see exactly where your business stands.
             </p>
           </div>
         ),
@@ -8980,7 +8980,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </div>
             <h3 className="text-xl font-semibold text-white mt-6">1. Optimize Your Google Business Profile</h3>
             <p>
-              Your Google Business Profile is the foundation of your Google Maps presence. Claim it at google.com/business, verify it, and fill out every single field. Add your business name, address, phone number, website, hours, services, and a 750-character description that includes your target keywords. Post updates at least once a week. A complete, active profile signals to Google that your business is legitimate and worth ranking. Our <a href="/google-business-profile">Google Business Profile optimization services</a> can handle this for you.
+              Your Google Business Profile is the foundation of your Google Maps presence. Claim it at google.com/business, verify it, and fill out every single field. Add your business name, address, phone number, website, hours, services, and a 750-character description that includes your target keywords. Post updates at least once a week. A complete, active profile signals to Google that your business is legitimate and worth ranking. Our <a href="/google-business-profile/">Google Business Profile optimization services</a> can handle this for you.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">2. Choose the Correct Business Categories</h3>
             <p>
@@ -9012,7 +9012,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">9. Optimize Your Website for Local SEO</h3>
             <p>
-              Your website and your Google Business Profile work together. Include your city and service keywords in your page titles, meta descriptions, headers, and content. Create dedicated service pages for each type of electrical work. Add your NAP to your footer. A strong <a href="/on-page-seo">on-page SEO</a> strategy ensures Google understands exactly what you do and where you do it.
+              Your website and your Google Business Profile work together. Include your city and service keywords in your page titles, meta descriptions, headers, and content. Create dedicated service pages for each type of electrical work. Add your NAP to your footer. A strong <a href="/on-page-seo/">on-page SEO</a> strategy ensures Google understands exactly what you do and where you do it.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">10. Create Location-Based Content</h3>
             <p>
@@ -9020,11 +9020,11 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">11. Build High-Quality Backlinks</h3>
             <p>
-              Backlinks from other websites tell Google your business is trusted and authoritative. Earn links from your Chamber of Commerce, trade associations, local news sites, and supplier websites. Avoid buying links or using spammy directories. Quality matters far more than quantity. Professional <a href="/link-building">link building services</a> can help you earn the right kind of links, and our <a href="/off-page-seo">off-page SEO services</a> cover the full strategy.
+              Backlinks from other websites tell Google your business is trusted and authoritative. Earn links from your Chamber of Commerce, trade associations, local news sites, and supplier websites. Avoid buying links or using spammy directories. Quality matters far more than quantity. Professional <a href="/link-building/">link building services</a> can help you earn the right kind of links, and our <a href="/off-page-seo/">off-page SEO services</a> cover the full strategy.
             </p>
             <h3 className="text-xl font-semibold text-white mt-6">12. Monitor Rankings with Google Search Console</h3>
             <p>
-              You cannot improve what you do not measure. Set up Google Search Console to track your keyword rankings, click-through rates, and impressions. Monitor which queries bring people to your site and which pages perform best. Review your data monthly and adjust your strategy based on what the numbers tell you. A regular <a href="/seo-audit">SEO audit</a> keeps you on track.
+              You cannot improve what you do not measure. Set up Google Search Console to track your keyword rankings, click-through rates, and impressions. Monitor which queries bring people to your site and which pages perform best. Review your data monthly and adjust your strategy based on what the numbers tell you. A regular <a href="/seo-audit/">SEO audit</a> keeps you on track.
             </p>
           </div>
         ),
@@ -9049,8 +9049,8 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Ignoring negative reviews:</strong> Not responding to negative reviews makes it look like you do not care. Always respond professionally.</span></li>
               <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Keyword stuffing in business name:</strong> Adding keywords like "Electrician [City] 24/7 Emergency" to your business name violates Google guidelines and can get your profile suspended.</span></li>
               <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Duplicate listings:</strong> Multiple Google Business Profiles for the same business split your reviews and confuse Google.</span></li>
-              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>No website or poor website:</strong> A slow, outdated, or non-existent website hurts your prominence score. A professional <a href="/website-design">website design</a> is essential.</span></li>
-              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Ignoring technical SEO:</strong> Broken links, slow page speed, and crawl errors all hurt your rankings. Our <a href="/technical-seo">technical SEO services</a> can fix these issues.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>No website or poor website:</strong> A slow, outdated, or non-existent website hurts your prominence score. A professional <a href="/website-design/">website design</a> is essential.</span></li>
+              <li className="flex items-start gap-2"><span className="text-red-400 font-bold">✗</span> <span><strong>Ignoring technical SEO:</strong> Broken links, slow page speed, and crawl errors all hurt your rankings. Our <a href="/technical-seo/">technical SEO services</a> can fix these issues.</span></li>
             </ul>
           </div>
         ),
@@ -9085,7 +9085,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               <li className="flex items-start gap-2"><span className="text-brand-400 font-bold">✓</span> <span>No duplicate listings or keyword stuffing in business name</span></li>
             </ul>
             <p>
-              If you can check every box on this list, you are well on your way to dominating Google Maps in your area. If you need help, <a href="/contact">reach out to Rank Flow Agency</a> and we will handle it for you.
+              If you can check every box on this list, you are well on your way to dominating Google Maps in your area. If you need help, <a href="/contact/">reach out to Rank Flow Agency</a> and we will handle it for you.
             </p>
           </div>
         ),
@@ -9124,7 +9124,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
                 Stop losing local customers to competitors who rank above you. <strong>Rank Flow Agency</strong> specializes in <strong>Google Maps SEO for electricians</strong> and <strong>local lead generation</strong>. We will optimize your Google Business Profile, build your local presence, and get you ranking in the Local Pack.
               </p>
               <p className="mt-3 text-slate-300">
-                <a href="/contact" className="btn-glow inline-flex items-center gap-2">Get a FREE Google Maps SEO Audit</a>
+                <a href="/contact/" className="btn-glow inline-flex items-center gap-2">Get a FREE Google Maps SEO Audit</a>
               </p>
               <p className="mt-4 text-sm text-slate-400">
                 No obligation. No pressure. Just a clear plan to get your electrical business ranking higher on Google Maps and generating more local phone calls.

@@ -101,10 +101,10 @@ export default function OnPageSEO() {
                 Every element on your page affects your rankings. Our <strong>on-page SEO services</strong> optimize your titles, meta tags, headings, content, images, and schema markup so every page ranks higher, attracts more <strong>organic rankings</strong>, and converts more visitors into customers.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Contact Us
                 </button>
               </div>
@@ -447,7 +447,7 @@ export default function OnPageSEO() {
                 </li>
               ))}
             </ul>
-            <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+            <button onClick={() => navigate('/contact/')} className="btn-glow mt-8">
               Get Free SEO Audit <ArrowRight className="h-4 w-4" />
             </button>
           </div>
@@ -486,10 +486,10 @@ export default function OnPageSEO() {
                 Request a free on-page SEO audit today. We will analyze your pages, identify the issues keeping you from ranking, and show you exactly what to fix to improve your rankings, traffic, and conversions. No obligation, just results.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Talk to an SEO Expert
                 </button>
               </div>

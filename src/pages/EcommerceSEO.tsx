@@ -101,10 +101,10 @@ export default function EcommerceSEO() {
                 Your products deserve to be found. Our <strong>e-commerce SEO services</strong> optimize every product page, category page, and technical element so your store ranks higher on Google, attracts more qualified shoppers, and converts more visitors into paying customers.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Request Proposal
                 </button>
               </div>
@@ -415,7 +415,7 @@ export default function EcommerceSEO() {
                   </li>
                 ))}
               </ul>
-              <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+              <button onClick={() => navigate('/contact/')} className="btn-glow mt-8">
                 Get Free SEO Audit <ArrowRight className="h-4 w-4" />
               </button>
             </div>
@@ -455,10 +455,10 @@ export default function EcommerceSEO() {
                 Request a free e-commerce SEO audit today. We will analyze your store, identify the issues keeping you from ranking, and show you exactly how to increase organic traffic and online sales. No obligation, just results.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Request Proposal
                 </button>
               </div>

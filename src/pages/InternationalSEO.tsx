@@ -98,10 +98,10 @@ export default function InternationalSEO() {
                 Your customers are not limited to one country. Why should your SEO be? Our <strong>international SEO services</strong> help you rank in multiple countries, target multiple languages, and capture <strong>international organic traffic</strong> that drives global growth. From <strong>hreflang SEO</strong> to <strong>multi-country SEO</strong> strategy, we handle everything.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free International SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Contact Us
                 </button>
               </div>
@@ -347,7 +347,7 @@ export default function InternationalSEO() {
                   </li>
                 ))}
               </ul>
-              <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+              <button onClick={() => navigate('/contact/')} className="btn-glow mt-8">
                 Get Free International SEO Audit <ArrowRight className="h-4 w-4" />
               </button>
             </div>
@@ -387,10 +387,10 @@ export default function InternationalSEO() {
                 Request a free international SEO consultation today. We will analyze your website, identify global growth opportunities, and show you exactly how to rank in your target countries. No obligation, just a clear path to worldwide growth.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free International SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Contact Us
                 </button>
               </div>

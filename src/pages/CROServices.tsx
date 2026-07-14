@@ -91,10 +91,10 @@ export default function CROServices() {
                 You are paying for traffic. But most of it leaves without converting. Our <strong>conversion rate optimization</strong> services fix that. We use <strong>A/B testing</strong>, <strong>heatmap analysis</strong>, and data-driven <strong>website conversion optimization</strong> to increase leads, sales, and revenue without increasing your advertising budget. More conversions from the same traffic.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free CRO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Contact Us
                 </button>
               </div>
@@ -407,7 +407,7 @@ export default function CROServices() {
                   </li>
                 ))}
               </ul>
-              <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+              <button onClick={() => navigate('/contact/')} className="btn-glow mt-8">
                 Get Free CRO Audit <ArrowRight className="h-4 w-4" />
               </button>
             </div>
@@ -447,10 +447,10 @@ export default function CROServices() {
                 Get a free CRO audit today. We will analyze your website, identify conversion bottlenecks, and show you exactly what changes will increase your leads, sales, and revenue. No obligation, just actionable insights.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free CRO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Contact Us
                 </button>
               </div>

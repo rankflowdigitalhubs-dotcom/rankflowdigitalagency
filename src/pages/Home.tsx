@@ -40,10 +40,10 @@ export default function Home() {
               White-hat strategies, transparent reporting, and results that compound month over month.
             </p>
             <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-3">
-              <button onClick={() => navigate('/contact')} className="btn-glow text-base">
+              <button onClick={() => navigate('/contact/')} className="btn-glow text-base">
                 Get Free SEO Audit <ArrowRight className="h-5 w-5" />
               </button>
-              <button onClick={() => navigate('/contact')} className="btn-ghost text-base">
+              <button onClick={() => navigate('/contact/')} className="btn-ghost text-base">
                 Book a Consultation
               </button>
             </div>
@@ -131,7 +131,7 @@ export default function Home() {
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s, i) => (
             <div key={s.slug} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <Link to={`/${s.slug}`} className="group flex h-full flex-col rounded-3xl bg-white/[0.03] p-7 hover:bg-white/[0.06]">
+              <Link to={`/${s.slug}/}`} className="group flex h-full flex-col rounded-3xl bg-white/[0.03] p-7 hover:bg-white/[0.06]">
                 <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
                   <s.icon className="h-7 w-7" />
                 </div>
@@ -201,11 +201,11 @@ export default function Home() {
             title={<>Real results for <span className="text-gradient">real brands</span></>}
             subtitle="A look at the growth we’ve driven across industries."
           />
-          <Link to="/case-studies" className="btn-ghost shrink-0">View All <ArrowRight className="h-4 w-4" /></Link>
+          <Link to="/case-studies/" className="btn-ghost shrink-0">View All <ArrowRight className="h-4 w-4" /></Link>
         </div>
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {caseStudies.slice(0, 3).map((c, i) => (
-            <Link key={c.slug} to="/case-studies" className={`group grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
+            <Link key={c.slug} to="/case-studies/" className={`group grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
               <div className="overflow-hidden rounded-3xl">
                 <div className="relative h-52 overflow-hidden rounded-t-3xl">
                   <img src={c.img} alt={`${c.client} SEO results`} className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-110" />

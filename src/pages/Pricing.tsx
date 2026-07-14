@@ -51,7 +51,7 @@ export default function Pricing() {
                     ))}
                   </ul>
                   <button
-                    onClick={() => navigate('/contact')}
+                    onClick={() => navigate('/contact/')}
                     className={`mt-8 w-full ${plan.featured ? 'btn-glow' : 'btn-ghost'}`}
                   >
                     {plan.cta} <ArrowRight className="h-4 w-4" />
@@ -75,7 +75,7 @@ export default function Pricing() {
                 <p className="mx-auto mt-4 max-w-lg text-base text-slate-300">
                   Every business is different. Contact us for a free consultation and we'll create a custom SEO strategy tailored to your goals and budget.
                 </p>
-                <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+                <button onClick={() => navigate('/contact/')} className="btn-glow mt-8">
                   Request Custom Quote <ArrowRight className="h-4 w-4" />
                 </button>
               </div>
@@ -92,13 +92,13 @@ export default function Pricing() {
           <p className="mt-3 text-slate-400">Not sure which plan is right? Learn more about what each service includes.</p>
         </div>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-          <Link to="/seo" className="btn-ghost text-sm">SEO Services</Link>
-          <Link to="/local-seo" className="btn-ghost text-sm">Local SEO</Link>
-          <Link to="/technical-seo" className="btn-ghost text-sm">Technical SEO</Link>
-          <Link to="/seo-audit" className="btn-ghost text-sm">SEO Audit</Link>
-          <Link to="/link-building" className="btn-ghost text-sm">Link Building</Link>
-          <Link to="/content-writing" className="btn-ghost text-sm">Content Writing</Link>
-          <Link to="/website-design" className="btn-ghost text-sm">Web Design</Link>
+          <Link to="/seo/" className="btn-ghost text-sm">SEO Services</Link>
+          <Link to="/local-seo/" className="btn-ghost text-sm">Local SEO</Link>
+          <Link to="/technical-seo/" className="btn-ghost text-sm">Technical SEO</Link>
+          <Link to="/seo-audit/" className="btn-ghost text-sm">SEO Audit</Link>
+          <Link to="/link-building/" className="btn-ghost text-sm">Link Building</Link>
+          <Link to="/content-writing/" className="btn-ghost text-sm">Content Writing</Link>
+          <Link to="/website-design/" className="btn-ghost text-sm">Web Design</Link>
         </div>
       </section>
     </>

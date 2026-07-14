@@ -100,10 +100,10 @@ export default function TechnicalSeo() {
                 Is your website technically sound? If Google cannot crawl it, index it, or load it fast, your content will not rank — no matter how good it is. Our Technical SEO services fix the infrastructure issues holding your site back so you can rank higher and grow faster.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Contact Us
                 </button>
               </div>
@@ -449,7 +449,7 @@ export default function TechnicalSeo() {
                 </li>
               ))}
             </ul>
-            <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+            <button onClick={() => navigate('/contact/')} className="btn-glow mt-8">
               Get Your Free Audit <ArrowRight className="h-4 w-4" />
             </button>
           </div>
@@ -488,10 +488,10 @@ export default function TechnicalSeo() {
                 Get a free Technical SEO audit today. We will crawl your entire site, identify every issue affecting your rankings, and show you exactly how to fix it. No obligation, just clarity.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free SEO Audit <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Talk to a Specialist
                 </button>
               </div>

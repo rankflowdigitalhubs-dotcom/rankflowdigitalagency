@@ -112,10 +112,10 @@ export default function WebsiteDesign() {
                 Your website is your digital storefront. It is the first thing potential customers see — and the place they decide whether to trust you or your competitor. We design modern, fast, <strong>SEO-friendly websites</strong> that build trust, generate leads, and turn visitors into paying customers.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get a Free Quote <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Start Your Project
                 </button>
               </div>
@@ -445,7 +445,7 @@ export default function WebsiteDesign() {
                 </li>
               ))}
             </ul>
-            <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+            <button onClick={() => navigate('/contact/')} className="btn-glow mt-8">
               Get a Free Quote <ArrowRight className="h-4 w-4" />
             </button>
           </div>
@@ -484,10 +484,10 @@ export default function WebsiteDesign() {
                 Get a free consultation and quote for your website project today. We will discuss your goals, show you design options, and explain exactly how we will build a website that drives results. No obligation, just clarity.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get a Free Quote <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Start Your Project
                 </button>
               </div>

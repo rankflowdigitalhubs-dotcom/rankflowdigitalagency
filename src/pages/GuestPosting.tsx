@@ -97,10 +97,10 @@ export default function GuestPosting() {
                 Backlinks remain one of Google's top ranking factors. But not all links are created equal. Our guest posting service earns you high-quality, niche-relevant backlinks from real authority websites — the kind that move rankings and keep them there.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free Consultation <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Request Guest Post
                 </button>
               </div>
@@ -443,7 +443,7 @@ export default function GuestPosting() {
                 </li>
               ))}
             </ul>
-            <button onClick={() => navigate('/contact')} className="btn-glow mt-8">
+            <button onClick={() => navigate('/contact/')} className="btn-glow mt-8">
               Request Guest Post <ArrowRight className="h-4 w-4" />
             </button>
           </div>
@@ -482,10 +482,10 @@ export default function GuestPosting() {
                 Get a free guest posting consultation today. We will analyze your backlink profile, research your competitors\' links, and build a custom link building campaign to improve your rankings. No obligation, just clarity.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
-                <button onClick={() => navigate('/contact')} className="btn-glow">
+                <button onClick={() => navigate('/contact/')} className="btn-glow">
                   Get Free Consultation <ArrowRight className="h-4 w-4" />
                 </button>
-                <button onClick={() => navigate('/contact')} className="btn-ghost">
+                <button onClick={() => navigate('/contact/')} className="btn-ghost">
                   Request Guest Post
                 </button>
               </div>

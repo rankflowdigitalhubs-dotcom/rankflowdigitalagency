@@ -4,20 +4,23 @@
     <meta charset="UTF-8" />
     <title>Rank Flow Digital</title>
     <!--
-      SPA fallback for static hosting (GitHub Pages, Netlify, etc.).
+      SPA fallback for static hosting (GitHub Pages).
       When a user navigates directly to a clean URL like /about or /blog/post,
-      the server may return a 404. This page fetches index.html via XHR and
-      writes it to the document, preserving the current URL so the React
-      client-side router can resolve the path. No meta-refresh redirect.
+      the server may return 404 with this page. We fetch index.html and write
+      it to the document so the React client-side router can resolve the path.
     -->
     <script>
       (function () {
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', '/', false);
-        xhr.send();
-        document.open();
-        document.write(xhr.responseText);
-        document.close();
+        fetch('/')
+          .then(function (res) { return res.text(); })
+          .then(function (html) {
+            document.open();
+            document.write(html);
+            document.close();
+          })
+          .catch(function () {
+            window.location.href = '/';
+          });
       })();
     </script>
   </head>
