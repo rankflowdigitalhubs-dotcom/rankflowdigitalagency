@@ -15,7 +15,7 @@ export default function CaseStudies() {
       />
       <PageHero
         eyebrow="Case Studies"
-        title={<>Proof, not <span className="text-gradient">promises</span></>}
+        title={<>Proofs</>}
         subtitle="Real results from real campaigns. Every number you see comes directly from client dashboards and analytics — no estimates, no guesswork."
         breadcrumbs={[{ name: 'Home', path: '/' }, { name: 'Case Studies', path: '/case-studies' }]}
       />
