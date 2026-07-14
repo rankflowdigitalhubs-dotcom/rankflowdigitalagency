@@ -341,6 +341,7 @@ export function Footer() {
               <li><Link to="/privacy-policy" className="text-slate-400 hover:text-brand-300">Privacy Policy</Link></li>
               <li><Link to="/terms" className="text-slate-400 hover:text-brand-300">Terms & Conditions</Link></li>
               <li><Link to="/contact" className="text-slate-400 hover:text-brand-300">Contact</Link></li>
+              <li><Link to="/sitemap" className="text-slate-400 hover:text-brand-300">Sitemap</Link></li>
             </ul>
           </div>
         </div>
