@@ -23,7 +23,7 @@ export default function Blog() {
 
       <section className="container-x py-12">
         {/* Featured */}
-        <Link to={`/blog/${featured.slug}/}`} className="group grad-border lift block reveal">
+        <Link to={`/blog/${featured.slug}/`} className="group grad-border lift block reveal">
           <div className="grid items-stretch gap-0 rounded-3xl lg:grid-cols-2">
             <div className="relative h-64 overflow-hidden rounded-t-3xl lg:rounded-l-3xl lg:rounded-tr-none">
               <img src={featured.img} alt={featured.title} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
@@ -48,7 +48,7 @@ export default function Blog() {
         {/* Grid */}
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {rest.map((post, i) => (
-            <Link key={post.slug} to={`/blog/${post.slug}/}`} className={`group grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
+            <Link key={post.slug} to={`/blog/${post.slug}/`} className={`group grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
               <div className="overflow-hidden rounded-3xl">
                 <div className="relative h-48 overflow-hidden rounded-t-3xl">
                   <img src={post.img} alt={post.title} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />

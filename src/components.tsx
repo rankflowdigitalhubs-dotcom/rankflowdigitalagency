@@ -172,7 +172,7 @@ export function Navbar() {
                       {services.map((s) => (
                         <Link
                           key={s.slug}
-                          to={`/${s.slug}/}`}
+                          to={`/${s.slug}/`}
                           className="flex items-start gap-3 rounded-xl p-3 transition-colors hover:bg-white/5"
                         >
                           <s.icon className="mt-0.5 h-5 w-5 shrink-0 text-brand-300" />
@@ -238,7 +238,7 @@ export function Navbar() {
                       <div className="ml-3 border-l border-white/10 pl-3">
                         <Link to="/services/" className="block rounded-lg px-3 py-2 text-sm text-slate-300">All Services</Link>
                         {services.map((s) => (
-                          <Link key={s.slug} to={`/${s.slug}/}`} className="block rounded-lg px-3 py-2 text-sm text-slate-300">
+                          <Link key={s.slug} to={`/${s.slug}/`} className="block rounded-lg px-3 py-2 text-sm text-slate-300">
                             {s.title}
                           </Link>
                         ))}
@@ -330,7 +330,7 @@ export function Footer() {
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white">Services</h4>
             <ul className="mt-4 space-y-2.5 text-sm">
               {services.slice(0, 20).map((s) => (
-                <li key={s.slug}><Link to={`/${s.slug}/}`} className="text-slate-400 hover:text-brand-300">{s.title}</Link></li>
+                <li key={s.slug}><Link to={`/${s.slug}/`} className="text-slate-400 hover:text-brand-300">{s.title}</Link></li>
               ))}
             </ul>
           </div>
@@ -566,7 +566,7 @@ export function RelatedServices({ currentSlug, title = 'Explore more services' }
       <h2 className="text-2xl font-bold text-white">{title}</h2>
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {related.map((s) => (
-          <Link key={s.slug} to={`/${s.slug}/}`} className="glass lift p-5">
+          <Link key={s.slug} to={`/${s.slug}/`} className="glass lift p-5">
             <s.icon className="h-6 w-6 text-brand-300" />
             <h3 className="mt-3 text-sm font-semibold text-white">{s.title}</h3>
           </Link>

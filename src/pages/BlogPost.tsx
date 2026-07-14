@@ -63,8 +63,8 @@ export default function BlogPost({ slug }: { slug: string }) {
 
   const crumbs = [
     { name: 'Home', path: '/' },
-    { name: 'Blog', path: '/blog' },
-    { name: post.title, path: `/blog/${slug}` },
+    { name: 'Blog', path: '/blog/' },
+    { name: post.title, path: `/blog/${slug}/` },
   ];
 
   return (
@@ -185,7 +185,7 @@ export default function BlogPost({ slug }: { slug: string }) {
 
             {/* Prev / Next */}
             <div className="mt-10 grid gap-4 sm:grid-cols-2">
-              <Link to={`/blog/${prev.slug}/}`} className="group grad-border lift">
+              <Link to={`/blog/${prev.slug}/`} className="group grad-border lift">
                 <div className="flex h-full flex-col rounded-3xl bg-white/[0.03] p-6">
                   <span className="flex items-center gap-1.5 text-xs text-slate-400">
                     <ArrowLeft className="h-3.5 w-3.5" /> Previous
@@ -193,7 +193,7 @@ export default function BlogPost({ slug }: { slug: string }) {
                   <span className="mt-2 font-semibold text-white group-hover:text-brand-300">{prev.title}</span>
                 </div>
               </Link>
-              <Link to={`/blog/${next.slug}/}`} className="group grad-border lift">
+              <Link to={`/blog/${next.slug}/`} className="group grad-border lift">
                 <div className="flex h-full flex-col rounded-3xl bg-white/[0.03] p-6 text-right">
                   <span className="ml-auto flex items-center gap-1.5 text-xs text-slate-400">
                     Next <ArrowRight className="h-3.5 w-3.5" />
@@ -302,7 +302,7 @@ export default function BlogPost({ slug }: { slug: string }) {
         <h2 className="text-2xl font-bold text-white">Related articles</h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {related.map((r, i) => (
-            <Link key={r.slug} to={`/blog/${r.slug}/}`} className={`group grad-border lift reveal reveal-delay-${i + 1}`}>
+            <Link key={r.slug} to={`/blog/${r.slug}/`} className={`group grad-border lift reveal reveal-delay-${i + 1}`}>
               <div className="overflow-hidden rounded-3xl">
                 <div className="relative h-44 overflow-hidden rounded-t-3xl">
                   <img src={r.img} alt={r.title} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />

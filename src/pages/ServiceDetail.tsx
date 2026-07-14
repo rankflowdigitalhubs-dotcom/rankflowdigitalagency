@@ -99,7 +99,7 @@ export default function ServiceDetail({ slug }: { slug: string }) {
         <h2 className="text-2xl font-bold text-white">Explore more services</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {services.filter((s) => s.slug !== slug).slice(0, 4).map((s) => (
-            <Link key={s.slug} to={`/${s.slug}/}`} className="glass lift p-5">
+            <Link key={s.slug} to={`/${s.slug}/`} className="glass lift p-5">
               <s.icon className="h-6 w-6 text-brand-300" />
               <h3 className="mt-3 text-sm font-semibold text-white">{s.title}</h3>
             </Link>

@@ -24,7 +24,7 @@ export default function Services() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s, i) => (
             <div key={s.slug} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <Link to={`/${s.slug}/}`} className="group flex h-full flex-col rounded-3xl bg-white/[0.03] p-7 hover:bg-white/[0.06]">
+              <Link to={`/${s.slug}/`} className="group flex h-full flex-col rounded-3xl bg-white/[0.03] p-7 hover:bg-white/[0.06]">
                 <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
                   <s.icon className="h-7 w-7" />
                 </div>
