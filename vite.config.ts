@@ -438,12 +438,6 @@ const pageMeta: Record<string, PageMeta> = {
     h1: "Why Isn't My Cleaning Business Getting Customers?",
     path: '/blog/why-isnt-my-cleaning-business-getting-customers/',
   },
-  '/blog/local-seo-for-cleaning-companies/': {
-    title: 'Local SEO for Cleaning Companies: 10 Proven Strategies to Rank Higher',
-    description: 'A complete guide to local SEO for cleaning companies. Learn 10 proven strategies to rank higher in Google Search and Google Maps, get more phone calls, and attract consistent local customers.',
-    h1: 'Local SEO for Cleaning Companies',
-    path: '/blog/local-seo-for-cleaning-companies/',
-  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
