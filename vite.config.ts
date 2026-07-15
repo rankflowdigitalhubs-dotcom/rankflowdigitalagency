@@ -456,6 +456,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: "Why Isn't My Cleaning Business Getting Customers?",
     path: '/blog/why-isnt-my-cleaning-business-getting-customers/',
   },
+  '/blog/how-cleaning-businesses-can-get-more-leads-from-google/': {
+    title: 'How Cleaning Businesses Can Get More Leads From Google',
+    description: 'Learn 10 proven SEO strategies to generate more qualified cleaning leads from Google Search and Google Maps without relying on paid ads. Includes a checklist and common mistakes to avoid.',
+    h1: 'How Cleaning Businesses Can Get More Leads From Google',
+    path: '/blog/how-cleaning-businesses-can-get-more-leads-from-google/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
