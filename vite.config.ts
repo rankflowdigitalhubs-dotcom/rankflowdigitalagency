@@ -414,6 +414,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'HVAC SEO: How to Get More Customers From Google',
     path: '/blog/hvac-seo-how-to-get-more-customers-from-google/',
   },
+  '/blog/local-seo-for-hvac-contractors/': {
+    title: 'Local SEO for HVAC Contractors: 10 Strategies to Rank Higher on Google Maps',
+    description: 'A complete local SEO guide for HVAC contractors. Learn 10 proven strategies to rank higher on Google Maps, optimize your Google Business Profile, and generate more local service calls.',
+    h1: 'Local SEO for HVAC Contractors',
+    path: '/blog/local-seo-for-hvac-contractors/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
