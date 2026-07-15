@@ -384,6 +384,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Local SEO for Real Estate Agents: 10 Proven Strategies to Get More Buyer & Seller Leads',
     path: '/blog/local-seo-for-real-estate-agents/',
   },
+  '/blog/how-to-get-more-property-leads-without-paid-ads/': {
+    title: 'How to Get More Property Leads Without Paid Ads (10 Proven SEO Strategies)',
+    description: 'Learn how to get more property leads without paid ads. Discover 10 proven SEO strategies to attract buyer and seller leads organically through Google, Google Maps, and local search.',
+    h1: 'How to Get More Property Leads Without Paid Ads (10 Proven SEO Strategies)',
+    path: '/blog/how-to-get-more-property-leads-without-paid-ads/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
