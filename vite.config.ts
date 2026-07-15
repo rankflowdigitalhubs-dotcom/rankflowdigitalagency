@@ -462,6 +462,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'How Cleaning Businesses Can Get More Leads From Google',
     path: '/blog/how-cleaning-businesses-can-get-more-leads-from-google/',
   },
+  '/blog/google-business-profile-guide-for-cleaning-services/': {
+    title: 'Google Business Profile Guide for Cleaning Services',
+    description: 'A complete guide to optimizing your Google Business Profile for cleaning services. Learn 10 actionable steps to improve Google Maps rankings, get more phone calls, and attract consistent local customers.',
+    h1: 'Google Business Profile Guide for Cleaning Services',
+    path: '/blog/google-business-profile-guide-for-cleaning-services/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
