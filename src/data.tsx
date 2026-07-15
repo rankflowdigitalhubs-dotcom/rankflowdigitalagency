@@ -975,12 +975,12 @@ export const blogPosts = [
   { slug: 'local-seo-for-real-estate-agents', title: 'Local SEO for Real Estate Agents: 10 Proven Strategies to Get More Buyer & Seller Leads', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '11 min', author: 'Ella', excerpt: 'A complete guide to local SEO for real estate agents. Learn 10 proven strategies to improve your Google visibility, rank higher on Google Maps, and generate more buyer and seller leads organically.', img: 'https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'how-to-get-more-property-leads-without-paid-ads', title: 'How to Get More Property Leads Without Paid Ads (10 Proven SEO Strategies)', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '11 min', author: 'Jack', excerpt: 'Learn how to get more property leads without paid ads. Discover 10 proven SEO strategies to attract buyer and seller leads organically through Google, Google Maps, and local search.', img: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'google-business-profile-for-real-estate-agents', title: 'Google Business Profile for Real Estate Agents: 10 Ways to Optimize & Get More Leads', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '11 min', author: 'Emily', excerpt: 'A complete guide to Google Business Profile for real estate agents. Learn 10 ways to optimize your profile, rank higher on Google Maps, and generate more buyer and seller leads.', img: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'best-seo-strategy-for-realtors', title: 'Best SEO Strategy for Realtors: 10 Steps to Rank Higher on Google & Get More Leads', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Johan', excerpt: 'A complete SEO strategy for realtors. Learn 10 proven steps to rank higher on Google, optimize your Google Business Profile, and generate consistent organic buyer and seller leads.', img: 'https://images.pexels.com/photos/2586058/pexels-photo-2586058.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'why-isnt-my-hvac-business-getting-calls', title: "Why Isn't My HVAC Business Getting Calls? (10 Reasons & 10 Fixes)", category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Leo', excerpt: "Discover why your HVAC business isn't getting calls. Learn the 10 most common SEO and local marketing issues and 10 proven fixes to increase phone calls and bookings.", img: 'https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'hvac-seo-how-to-get-more-customers-from-google', title: 'HVAC SEO: How to Get More Customers From Google (10 Proven Strategies)', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Jack', excerpt: 'A complete HVAC SEO guide. Learn 10 proven strategies to rank higher on Google and Google Maps, optimize your Google Business Profile, and generate more qualified HVAC customers.', img: 'https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'local-seo-for-hvac-contractors', title: 'Local SEO for HVAC Contractors: 10 Strategies to Rank Higher on Google Maps', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Emily', excerpt: 'A complete local SEO guide for HVAC contractors. Learn 10 proven strategies to rank higher on Google Maps, optimize your Google Business Profile, and generate more local service calls.', img: 'https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'google-business-profile-tips-for-hvac-companies', title: 'Google Business Profile Tips for HVAC Companies: 10 Ways to Get More Calls', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Leo', excerpt: 'A complete guide to Google Business Profile for HVAC companies. Learn 10 proven tips to optimize your profile, improve Google Maps rankings, and generate more phone calls.', img: 'https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200' },
-  { slug: 'why-your-hvac-website-isnt-ranking', title: "Why Your HVAC Website Isn't Ranking: 10 Fixes That Work", category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Jack', excerpt: 'Is your HVAC website stuck on page 2? Learn the 10 most common reasons HVAC websites do not rank on Google and the exact fixes to improve your rankings, Google Maps visibility, and customer calls.', img: 'https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'best-seo-strategy-for-realtors', title: 'Best SEO Strategy for Realtors: 10 Steps to Rank Higher on Google & Get More Leads', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Johan', excerpt: 'A complete SEO strategy for realtors. Learn 10 proven steps to rank higher on Google, optimize your Google Business Profile, and generate consistent organic buyer and seller leads.', img: 'https://images.pexels.com/photos/2586059/pexels-photo-2586059.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'why-isnt-my-hvac-business-getting-calls', title: "Why Isn't My HVAC Business Getting Calls? (10 Reasons & 10 Fixes)", category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Leo', excerpt: "Discover why your HVAC business isn't getting calls. Learn the 10 most common SEO and local marketing issues and 10 proven fixes to increase phone calls and bookings.", img: 'https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'hvac-seo-how-to-get-more-customers-from-google', title: 'HVAC SEO: How to Get More Customers From Google (10 Proven Strategies)', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Jack', excerpt: 'A complete HVAC SEO guide. Learn 10 proven strategies to rank higher on Google and Google Maps, optimize your Google Business Profile, and generate more qualified HVAC customers.', img: 'https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'local-seo-for-hvac-contractors', title: 'Local SEO for HVAC Contractors: 10 Strategies to Rank Higher on Google Maps', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Emily', excerpt: 'A complete local SEO guide for HVAC contractors. Learn 10 proven strategies to rank higher on Google Maps, optimize your Google Business Profile, and generate more local service calls.', img: 'https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'google-business-profile-tips-for-hvac-companies', title: 'Google Business Profile Tips for HVAC Companies: 10 Ways to Get More Calls', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Leo', excerpt: 'A complete guide to Google Business Profile for HVAC companies. Learn 10 proven tips to optimize your profile, improve Google Maps rankings, and generate more phone calls.', img: 'https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'why-your-hvac-website-isnt-ranking', title: "Why Your HVAC Website Isn't Ranking: 10 Fixes That Work", category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Jack', excerpt: 'Is your HVAC website stuck on page 2? Learn the 10 most common reasons HVAC websites do not rank on Google and the exact fixes to improve your rankings, Google Maps visibility, and customer calls.', img: 'https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-isnt-my-cleaning-business-getting-customers', title: "Why Isn't My Cleaning Business Getting Customers? 10 Proven Fixes", category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Ella', excerpt: 'Not getting enough cleaning customers? Learn the 10 most common SEO and local marketing problems holding back your cleaning business and the exact fixes to increase local visibility and bookings.', img: 'https://images.pexels.com/photos/4239037/pexels-photo-4239037.jpeg?auto=compress&cs=tinysrgb&w=1200' },
 ];
 
@@ -10333,7 +10333,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Best SEO Strategy for Realtors',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/2586058/pexels-photo-2586058.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Realtor showing a luxury home to clients, representing the best SEO strategy for realtors" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/2586059/pexels-photo-2586059.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Realtor showing a luxury home to clients, representing the best SEO strategy for realtors" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               You know the feeling. You pull up Google, type in <em>"real estate agent in [your city],"</em> and your name is nowhere to be found. Instead, three competitors stare back at you from the top of the page \u2014 the ones with the five-star reviews, the polished websites, and the steady stream of leads that should be yours. Meanwhile, you are paying Zillow $200 per lead and wondering why your phone is not ringing.
             </p>
@@ -10562,7 +10562,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: "Why Isn't My HVAC Business Getting Calls?",
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician working on an air conditioning unit, representing why an HVAC business isn't getting calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician working on an air conditioning unit, representing why an HVAC business isn't getting calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Your phone used to ring. Maybe not every hour, but enough to keep the crew busy and the payroll met. Lately, though, it has gone quiet. You check your inbox, your website analytics, your Google Business Profile \u2014 everything looks fine on the surface. So why are the calls drying up while the competitor across town seems to have a full schedule?
             </p>
@@ -10622,7 +10622,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>8. Lack of Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing few reviews for an HVAC business not getting calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing few reviews for an HVAC business not getting calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Reviews are one of the strongest local ranking factors and one of the strongest conversion factors. When a homeowner compares three HVAC companies on Google Maps, they call the one with the most and best reviews. If you have 5 reviews and your competitor has 80, you lose the call \u2014 even if your service is better.
             </p>
@@ -10644,7 +10644,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '10 Practical Ways to Get More HVAC Calls',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing an air conditioning system, representing practical ways to get more HVAC calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing an air conditioning system, representing practical ways to get more HVAC calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Now that you know what is holding your business back, here are ten practical fixes to start getting more phone calls from Google.
             </p>
@@ -10786,7 +10786,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'HVAC SEO: How to Get More Customers From Google',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician repairing an air conditioning unit, representing HVAC SEO strategies to get more customers from Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician repairing an air conditioning unit, representing HVAC SEO strategies to get more customers from Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               When a homeowner's air conditioner dies on the hottest day of the year, they do not pull out the phone book. They grab their phone, type <em>"AC repair near me"</em> into Google, and call one of the first three businesses that show up. That is the moment everything is decided. If your HVAC company is not in those top three results, you are not even in the conversation \u2014 and your competitor gets the call.
             </p>
@@ -10844,7 +10844,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Improve Local SEO</h3>
-            <img src="https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local SEO for HVAC companies showing Google Maps rankings and local search visibility" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local SEO for HVAC companies showing Google Maps rankings and local search visibility" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Local SEO is what tells Google which geographic areas to show your business for. Add local business schema markup to your website, ensure your NAP (name, address, phone number) is consistent across Google, Yelp, Facebook, and every directory, and create dedicated service area pages. Without consistent local SEO signals, Google does not know where to rank you, so it ranks you nowhere.
             </p>
@@ -10869,7 +10869,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>6. Get More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner giving a Google review to an HVAC technician after a successful service call" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner giving a Google review to an HVAC technician after a successful service call" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Reviews are one of the strongest local ranking factors and one of the strongest conversion factors. When a homeowner compares three HVAC companies on Google Maps, they call the one with the most and best reviews. Google's algorithm does the same \u2014 more recent, more positive reviews mean higher rankings.
             </p>
@@ -10986,7 +10986,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician with a happy homeowner after a successful AC repair, representing the results of a strong HVAC SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician with a happy homeowner after a successful AC repair, representing the results of a strong HVAC SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               HVAC SEO is not a single tactic \u2014 it is a system. Google Business Profile optimization, high-intent keyword targeting, local SEO, service area pages, helpful content, reviews, website speed, local backlinks, internal linking, and performance tracking. Each piece reinforces the others, and together they create a compounding lead pipeline that costs less and converts better than paid ads.
             </p>
@@ -11019,7 +11019,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Local SEO for HVAC Contractors',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician repairing an air conditioning system, representing local SEO for HVAC contractors" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician repairing an air conditioning system, representing local SEO for HVAC contractors" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               When a furnace stops working in January or an air conditioner dies in the middle of a July heat wave, the homeowner does not ask a friend for a recommendation. They grab their phone, type <em>"AC repair near me"</em> or <em>"HVAC contractor in [their city]"</em> into Google, and they call one of the first three businesses that appear. That decision takes less than ninety seconds. If your HVAC company is not in those top three results, you are invisible at the exact moment someone needs you most.
             </p>
@@ -11092,7 +11092,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Create City & Service Area Pages</h3>
-            <img src="https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing a heating system in a home, representing city and service area pages for local HVAC SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing a heating system in a home, representing city and service area pages for local HVAC SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               If you serve multiple cities or neighborhoods, you need a dedicated landing page for each one. A page titled <em>"AC Repair in [City]"</em> with local content, common HVAC issues in that area, and a clear call-to-action will rank far better than a generic page trying to cover every area at once. Include the area name in the title tag, H1, and body content.
             </p>
@@ -11109,7 +11109,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>5. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner giving a Google review to an HVAC technician after a successful service call" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner giving a Google review to an HVAC technician after a successful service call" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Reviews are one of the strongest local ranking factors and one of the strongest conversion factors. When a homeowner compares three HVAC companies on Google Maps, they call the one with the most and best reviews. Google's algorithm does the same \u2014 more recent, more positive reviews mean higher rankings.
             </p>
@@ -11166,7 +11166,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Local SEO Mistakes HVAC Companies Make',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common local SEO mistakes that HVAC companies make, shown as a warning checklist on a clipboard" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common local SEO mistakes that HVAC companies make, shown as a warning checklist on a clipboard" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Even HVAC companies that invest in local SEO make mistakes that quietly hold back their rankings. Here are the most common ones to avoid:
             </p>
@@ -11234,7 +11234,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician with a happy homeowner after a successful service call, representing the results of a strong local SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician with a happy homeowner after a successful service call, representing the results of a strong local SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Local SEO for HVAC contractors is not a single tactic \u2014 it is a system. Google Business Profile optimization, local keyword targeting, service area pages, NAP consistency, review collection, website speed, mobile optimization, local backlinks, helpful content, and performance tracking. Each piece reinforces the others, and together they create a compounding lead pipeline that costs less and converts better than paid ads.
             </p>
@@ -11267,7 +11267,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Google Business Profile Tips for HVAC Companies',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician working with a customer on an air conditioning installation, representing Google Business Profile tips for HVAC companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician working with a customer on an air conditioning installation, representing Google Business Profile tips for HVAC companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               When a homeowner's air conditioner quits on the hottest day of the year, they do not flip through the Yellow Pages. They grab their phone, type <em>"AC repair near me"</em> into Google, and call one of the first three businesses that show up in the Maps pack. Those three spots are decided almost entirely by one thing: your Google Business Profile. If your profile is incomplete, inactive, or unoptimized, you are invisible at the exact moment a customer needs you.
             </p>
@@ -11325,7 +11325,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Add Professional HVAC Photos</h3>
-            <img src="https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing an air conditioning unit, representing professional photos for a Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing an air conditioning unit, representing professional photos for a Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Businesses with more photos get more calls. Upload real photos of your trucks, your technicians in uniform, job sites, before-and-after shots of installations, and your office. Do not use stock photos \u2014 Google can tell, and homeowners can too. Real photos build trust and signal to Google that you are an active, working business.
             </p>
@@ -11350,7 +11350,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>6. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner leaving a Google review for an HVAC company after a successful service call" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner leaving a Google review for an HVAC company after a successful service call" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Reviews are one of the strongest local ranking factors and one of the strongest conversion factors. When a homeowner compares three HVAC companies on Google Maps, they call the one with the most and best reviews. Google's algorithm does the same \u2014 more recent, more positive reviews mean higher rankings.
             </p>
@@ -11399,7 +11399,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Google Business Profile Mistakes HVAC Companies Make',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common Google Business Profile mistakes that HVAC companies make, shown as a warning checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common Google Business Profile mistakes that HVAC companies make, shown as a warning checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Even HVAC companies that have claimed their Google Business Profile make mistakes that quietly hold back their Maps rankings. Here are the most common ones to avoid:
             </p>
@@ -11466,7 +11466,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowners with an HVAC technician after a successful AC repair, representing the results of a well-optimized Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowners with an HVAC technician after a successful AC repair, representing the results of a well-optimized Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Your Google Business Profile is the single most important local SEO asset for your HVAC company. It powers the Google Maps pack, builds trust with homeowners, and drives phone calls \u2014 all at no cost. Choosing the correct category, completing every field, adding real photos, writing an SEO-friendly description, listing all services, collecting reviews, responding to every review, posting weekly updates, keeping hours accurate, and monitoring Insights \u2014 these ten tips form a complete optimization strategy.
             </p>
@@ -11499,7 +11499,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: "Why Your HVAC Website Isn't Ranking",
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC company website displayed on a laptop screen, representing why an HVAC website might not be ranking on Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC company website displayed on a laptop screen, representing why an HVAC website might not be ranking on Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               You built a website for your HVAC business. It looks decent. It lists your services. It has your phone number. But when you search <em>"AC repair in [your city]"</em> on Google, your website is nowhere to be found. Your competitors \u2014 some with worse websites than yours \u2014 are sitting in the top spots, getting the calls that should be yours. Sound familiar?
             </p>
@@ -11585,7 +11585,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Create Service Area Pages</h3>
-            <img src="https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC service vehicle parked in a residential neighborhood, representing service area pages for local HVAC SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC service vehicle parked in a residential neighborhood, representing service area pages for local HVAC SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Build a dedicated landing page for each city or neighborhood you serve. A page titled <em>"AC Repair in [City]"</em> with local content and a clear call-to-action ranks far better than a generic page trying to cover every area. Write at least 500 words of unique content per page \u2014 do not copy and paste with a different city name. Google penalizes duplicate content and rewards genuine local expertise.
             </p>
@@ -11703,7 +11703,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customers with an HVAC technician after a successful service call, representing the results of a well-ranking HVAC website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customers with an HVAC technician after a successful service call, representing the results of a well-ranking HVAC website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Your HVAC website is not ranking because of fixable problems: poor keyword targeting, weak local SEO, an unoptimized Google Business Profile, slow speed, mobile issues, technical errors, thin content, missing internal links, lack of backlinks, or strong competition. Each one has a clear solution. Optimize your profile, research local keywords, build service area pages, publish helpful content, fix technical SEO, speed up your site, add internal links, earn local backlinks, optimize images, and track your results.
             </p>
@@ -11854,7 +11854,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>9. Optimize Images</h3>
-            <img src="https://images.pexels.com/photos/4239025/pexels-photo-4239025.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaning equipment and supplies, representing image optimization for a cleaning business website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239035/pexels-photo-4239035.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaning equipment and supplies, representing image optimization for a cleaning business website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Large, uncompressed images are the number one cause of slow websites. Compress every image before uploading. Add descriptive alt text that includes your target keywords \u2014 this helps Google understand what the image shows and improves your image search rankings. Use SEO-friendly filenames like <em>house-cleaning-service-[city].jpg</em> instead of <em>IMG_1234.jpg</em>.
             </p>
