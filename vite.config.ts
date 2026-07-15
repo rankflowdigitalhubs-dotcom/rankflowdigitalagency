@@ -390,6 +390,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'How to Get More Property Leads Without Paid Ads (10 Proven SEO Strategies)',
     path: '/blog/how-to-get-more-property-leads-without-paid-ads/',
   },
+  '/blog/google-business-profile-for-real-estate-agents/': {
+    title: 'Google Business Profile for Real Estate Agents: 10 Ways to Optimize & Get More Leads',
+    description: 'A complete guide to Google Business Profile for real estate agents. Learn 10 ways to optimize your profile, rank higher on Google Maps, and generate more buyer and seller leads.',
+    h1: 'Google Business Profile for Real Estate Agents: 10 Ways to Optimize & Get More Leads',
+    path: '/blog/google-business-profile-for-real-estate-agents/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {

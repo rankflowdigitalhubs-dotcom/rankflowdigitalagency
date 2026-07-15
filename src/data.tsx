@@ -974,6 +974,7 @@ export const blogPosts = [
   { slug: 'how-to-get-emergency-electrical-leads-online', title: 'How to Get Emergency Electrical Leads Online (8 Proven Strategies That Work)', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '10 min', author: 'Emily', excerpt: 'Learn how to get emergency electrical leads online with 8 proven strategies. Optimize your Google Business Profile, target urgent keywords, and turn local searches into service calls.', img: 'https://images.pexels.com/photos/3756523/pexels-photo-3756523.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-for-real-estate-agents', title: 'Local SEO for Real Estate Agents: 10 Proven Strategies to Get More Buyer & Seller Leads', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '11 min', author: 'Ella', excerpt: 'A complete guide to local SEO for real estate agents. Learn 10 proven strategies to improve your Google visibility, rank higher on Google Maps, and generate more buyer and seller leads organically.', img: 'https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'how-to-get-more-property-leads-without-paid-ads', title: 'How to Get More Property Leads Without Paid Ads (10 Proven SEO Strategies)', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '11 min', author: 'Jack', excerpt: 'Learn how to get more property leads without paid ads. Discover 10 proven SEO strategies to attract buyer and seller leads organically through Google, Google Maps, and local search.', img: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'google-business-profile-for-real-estate-agents', title: 'Google Business Profile for Real Estate Agents: 10 Ways to Optimize & Get More Leads', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '11 min', author: 'Emily', excerpt: 'A complete guide to Google Business Profile for real estate agents. Learn 10 ways to optimize your profile, rank higher on Google Maps, and generate more buyer and seller leads.', img: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200' },
 ];
 
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
@@ -10071,6 +10072,250 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       { q: 'Should I use Google Ads or SEO for real estate leads?', a: 'Both work well together. Google Ads give you immediate visibility while your SEO builds. The advantage of SEO is that leads keep coming even after you stop spending, while ads stop the moment you pause your budget. For long-term lead generation and lower cost per lead, SEO is more cost-effective.' },
       { q: 'How much does real estate SEO cost?', a: 'Professional real estate SEO services typically range from $500 to $2,500 per month depending on your market size and competition. At Rank Flow Agency, our plans start at $99/month, making professional SEO accessible for individual agents and small brokerages.' },
       { q: 'How do I know if my SEO is working for property leads?', a: 'Set up Google Search Console and Google Analytics. Track your keyword rankings, monitor your Google Maps position weekly, count how many leads per month mention they found you on Google, and watch your website traffic grow. If leads and traffic are increasing month over month, your SEO is working.' },
+    ],
+  },
+
+  'google-business-profile-for-real-estate-agents': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Google Business Profile for Real Estate Agents',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate office with agent meeting clients, representing Google Business Profile for real estate" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              A family is relocating to your city. They pull out their phone and search <em>"real estate agent near me."</em> Google shows them three names in the Maps pack at the top of the page. They click the one with the most reviews, the best photos, and a profile that looks like it belongs to someone who actually answers their phone. That agent gets the call. The other two never even know the opportunity existed.
+            </p>
+            <p>
+              That is the power of a well-optimized <strong>Google Business Profile for real estate agents</strong>. It is the single most important tool for getting found by local buyers and sellers on Google. Yet most agents either have not claimed their profile, have left it half-completed, or set it up once and never touched it again. Meanwhile, the agents who actively manage their profiles are capturing the majority of local search leads.
+            </p>
+            <p>
+              This guide walks you through ten proven ways to optimize your Google Business Profile so you rank higher on Google Maps, get more phone calls, and attract more buyers and sellers in your area. If you want professional help with any of this, <a href="/">Rank Flow Agency</a> specializes in <strong>Google Business Profile optimization</strong> for real estate professionals.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'what-is-gbp',
+        heading: 'What Is Google Business Profile?',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing business listing details, reviews, and performance metrics" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Google Business Profile is a free tool from Google that lets you manage how your real estate business appears in Google Search and Google Maps. When someone searches for a real estate agent in your area, Google uses the information in your profile to decide whether to show you, where to rank you, and what details to display.
+            </p>
+            <p>
+              Your profile includes your business name, address, phone number, hours, website link, photos, services, reviews, and posts. It is what powers the Google Maps pack \u2014 the three businesses that appear at the top of local search results. For real estate agents, this is prime real estate (pun intended). Ranking in those top three spots means you capture the vast majority of local search leads.
+            </p>
+            <p>
+              Google Business Profile replaced Google My Business in 2021, but the principle is the same: it is your business's digital storefront on Google. The more complete, active, and well-reviewed your profile is, the higher you rank and the more leads you generate. <a href="/local-seo/">Our Local SEO services</a> include full Google Business Profile optimization as a core component.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'why-every-agent-needs-gbp',
+        heading: 'Why Every Real Estate Agent Needs a Google Business Profile',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Realtor meeting happy clients at a property showing, representing local lead generation through Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Here is the reality. Over 90% of home buyers start their search online, and 76% of people who search for a local business on a smartphone visit or call a related business within a day. When someone searches <em>"real estate agent in [your city]"</em>, they are not browsing \u2014 they are ready to act. If your business is not in the Google Maps pack, you do not exist to them.
+            </p>
+            <p>
+              A well-optimized Google Business Profile does three things for you. First, it puts you in front of high-intent buyers and sellers at the exact moment they are searching. Second, it builds trust \u2014 reviews, photos, and a complete profile signal that you are a legitimate, active agent. Third, it drives direct actions: phone calls, website visits, and direction requests. All of this is free, organic, and compounding over time.
+            </p>
+            <p>
+              The agents who invest in <strong>real estate SEO</strong> and Google Business Profile optimization consistently report more calls, more listing inquiries, and more closed deals \u2014 all without spending on ads. If you want a professional audit of your current profile, <a href="/contact/">contact Rank Flow Agency for a free Google Business Profile audit</a>.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: '10-ways-to-optimize',
+        heading: '10 Ways to Optimize Your Google Business Profile',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Here are ten proven strategies to optimize your Google Business Profile for maximum visibility and lead generation. Work through them in order \u2014 each one builds on the last.
+            </p>
+
+            <h3>1. Choose the Right Business Category</h3>
+            <p>
+              Your primary business category is one of the strongest ranking factors in Google Maps. Choose <em>Real Estate Agent</em> as your primary category. If you specialize, add secondary categories like <em>Real Estate Agency</em>, <em>Property Management Company</em>, or <em>Real Estate Consultant</em>. Do not pick a category that does not accurately describe what you do \u2014 Google will penalize you for it.
+            </p>
+            <p>
+              The right category tells Google exactly what searches to show your profile for. If you pick <em>Real Estate Developer</em> when you are actually a residential agent, Google will show your profile to the wrong audience and you will miss the leads that matter.
+            </p>
+
+            <h3>2. Complete Every Profile Section</h3>
+            <img src="https://images.pexels.com/photos/4226259/pexels-photo-4226259.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Complete Google Business Profile listing for a real estate agent showing all sections filled out" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Google rewards completeness. Every section you leave empty is a signal to Google that your business is less active or less legitimate than a competitor who filled everything out. Complete your business name, address, phone number, website, hours, service areas, and attributes. Add your specialties \u2014 buyer representation, seller representation, luxury homes, first-time buyers, relocation.
+            </p>
+            <p>
+              The more information you provide, the more confident Google is in showing your profile for relevant searches. Profiles that are 100% complete consistently outrank those that are 60% complete, even when the incomplete profile has more reviews.
+            </p>
+
+            <h3>3. Add Professional Office and Property Photos</h3>
+            <p>
+              Photos are one of the first things potential clients notice in the Google Maps pack. Upload high-quality photos of your office exterior, office interior, team headshots, and current property listings. Aim for at least 20 photos \u2014 the agents with the most photos get more clicks, more calls, and more direction requests.
+            </p>
+            <p>
+              Avoid stock photos. Google can detect them and they do not build trust. Use real photos of your real office, your real team, and your real listings. Add new photos monthly to keep your profile active and show Google that your business is operating.
+            </p>
+
+            <h3>4. Write an SEO-Optimized Business Description</h3>
+            <p>
+              Your business description is 750 characters of prime SEO real estate. Include your primary keyword (<em>"real estate agent in [your city]"</em>), the neighborhoods you serve, the services you offer, and what makes you different. Do not stuff keywords \u2014 write naturally for humans first, and Google will understand.
+            </p>
+            <p>
+              Start with a strong opening sentence that includes your city and your specialty. Mention your years of experience, your track record, and the types of clients you help. End with a call to action encouraging people to call or visit your website.
+            </p>
+
+            <h3>5. Add Your Services</h3>
+            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate services list showing property listings, buyer representation, and seller representation options" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Google lets you list specific services on your profile. Add every service you offer: buyer representation, seller representation, property valuation, market analysis, relocation assistance, luxury home sales, investment property consulting. Each service you add is another signal to Google about what searches your profile should appear for.
+            </p>
+            <p>
+              Write a short description for each service using relevant keywords. This gives Google more context about your business and helps you rank for a wider variety of local searches.
+            </p>
+
+            <h3>6. Collect More Google Reviews</h3>
+            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google reviews section showing five-star customer reviews for a real estate agent" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Reviews are one of the strongest ranking factors for Google Maps and one of the strongest conversion factors for potential clients. When buyers and sellers compare three agents, they choose the one with the most and best reviews. Google's algorithm does the same \u2014 more recent, more positive reviews mean higher rankings.
+            </p>
+            <p>
+              Ask every client at closing for a review. Send a text message with a direct link to your Google review page while the experience is fresh. Aim for at least two new reviews per week. Respond to every review within 24 hours \u2014 this shows Google and potential clients that you are active and engaged.
+            </p>
+
+            <h3>7. Post Weekly Updates</h3>
+            <p>
+              Google Business Profile lets you publish posts \u2014 short updates that appear on your profile. Post weekly about new listings, open houses, market trends, or client success stories. Each post signals to Google that your business is active and gives potential clients a reason to engage with your profile.
+            </p>
+            <p>
+              Use the <em>Update</em> post type for market insights, the <em>Offer</em> type for free home valuations or consultations, and the <em>Event</em> type for open houses. Include a photo and a call to action with each post. Agents who post weekly consistently outrank those who post monthly or never.
+            </p>
+
+            <h3>8. Answer Customer Questions</h3>
+            <p>
+              Google allows people to ask questions directly on your profile. Answer every question promptly and thoroughly. This helps the person asking, shows other potential clients that you are responsive, and gives Google more content to understand your business.
+            </p>
+            <p>
+              You can also seed questions by asking common buyer and seller questions yourself and answering them. Questions like <em>"What areas do you serve?"</em> or <em>"Do you work with first-time buyers?"</em> give Google more context and help potential clients learn about you before they call.
+            </p>
+
+            <h3>9. Keep Business Information Updated</h3>
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing Google Business Profile performance metrics and local search ranking improvements" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Google wants to show accurate, current information. If your hours change for the season, update them. If you move offices, update your address immediately. If you add a new phone number, update it the same day. Inaccurate information confuses Google and drops your rankings.
+            </p>
+            <p>
+              Check your profile monthly to make sure everything is still accurate. Make sure your holiday hours are set in advance. Google will temporarily suspend profiles with outdated information, and recovering from a suspension can take weeks \u2014 weeks of lost leads.
+            </p>
+
+            <h3>10. Monitor Insights and Performance</h3>
+            <p>
+              Google Business Profile provides free analytics called Insights. These show you how many people viewed your profile, how they found you (search vs Maps), what actions they took (calls, website visits, direction requests), and which keywords triggered your profile.
+            </p>
+            <p>
+              Check your Insights monthly. Look for trends \u2014 are your calls increasing? Are people searching for specific keywords? Which photos get the most views? Use this data to refine your profile. If you see a keyword driving lots of views but few calls, your description or photos may need work. A full <a href="/seo-audit/">SEO Audit</a> can identify exactly which optimizations will have the biggest impact.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'common-mistakes',
+        heading: 'Common Google Business Profile Mistakes Realtors Make',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Warning dashboard showing common Google Business Profile mistakes that cost real estate agents leads" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Even agents who have claimed their profile make mistakes that quietly cost them rankings and leads. Here are the most common ones:
+            </p>
+            <ul>
+              <li><strong>Choosing the wrong category:</strong> Picking <em>Real Estate Developer</em> or <em>Property Management</em> when you are a residential agent tells Google to show your profile to the wrong audience.</li>
+              <li><strong>Leaving sections incomplete:</strong> Every empty section is a signal that your business is less active than a competitor who filled everything out.</li>
+              <li><strong>Using stock photos:</strong> Google can detect them and they do not build trust. Use real photos of your office, team, and listings.</li>
+              <li><strong>Not posting updates:</strong> An inactive profile signals to Google that your business may be closed or less relevant. Post weekly.</li>
+              <li><strong>Not responding to reviews:</strong> Responding to every review within 24 hours shows Google and clients that you are active and engaged.</li>
+              <li><strong>Keyword stuffing the description:</strong> Writing for Google instead of humans. Write naturally and Google will understand.</li>
+              <li><strong>Ignoring Insights:</strong> Not checking your analytics means you cannot identify what is working and what needs improvement.</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'checklist',
+        heading: 'Google Business Profile Optimization Checklist',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Use this checklist to make sure your Google Business Profile is fully optimized for maximum visibility and lead generation:
+            </p>
+            <ul>
+              <li>Profile claimed and verified</li>
+              <li>Primary category set to Real Estate Agent</li>
+              <li>Secondary categories added for specializations</li>
+              <li>Business name, address, and phone number correct and consistent</li>
+              <li>Website URL linked</li>
+              <li>Business hours set accurately, including holidays</li>
+              <li>Service areas listed for all neighborhoods and cities you cover</li>
+              <li>Business description written with primary keyword and city name</li>
+              <li>At least 20 real photos uploaded (office, team, listings)</li>
+              <li>All services listed with descriptions</li>
+              <li>Specialties and attributes selected</li>
+              <li>Weekly updates posted (listings, market insights, open houses)</li>
+              <li>Review request system sending texts to every client at closing</li>
+              <li>At least 2 new Google reviews per week</li>
+              <li>All reviews responded to within 24 hours</li>
+              <li>Customer questions answered promptly</li>
+              <li>Insights checked monthly and strategy adjusted</li>
+              <li>NAP consistent across Google, Zillow, Yelp, and all directories</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'faq',
+        heading: 'Frequently Asked Questions',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Here are answers to the most common questions real estate agents ask about Google Business Profile.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'final-summary',
+        heading: 'Final Summary',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Your Google Business Profile is the most powerful free tool you have for generating local real estate leads. It puts you in front of buyers and sellers at the exact moment they are searching for an agent in your area. The ten strategies in this guide \u2014 from choosing the right category to monitoring your Insights \u2014 give you a complete roadmap to rank higher on Google Maps and capture more calls.
+            </p>
+            <p>
+              Claim your profile. Choose the right category. Complete every section. Upload real photos. Write a keyword-rich description. List your services. Collect reviews from every client. Post weekly updates. Answer questions. Keep your information current. Monitor your performance. Do these things consistently and your profile will outrank competitors who set it and forget it.
+            </p>
+            <p>
+              If you want this done right without spending your evenings learning Google's algorithm \u2014 <a href="/contact/">contact Rank Flow Agency for a free Google Business Profile audit</a>. We will analyze your current profile, find every optimization opportunity, and build a plan to rank you higher on Google Maps. Plans start at $99/month.
+            </p>
+          </div>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'How long does it take for Google Business Profile optimization to show results?', a: 'Most agents see improvements in their Google Maps ranking within 2 to 4 weeks of completing their profile and posting regularly. Review collection and weekly posting compound over time, so the agents who are consistent see the biggest gains over 3 to 6 months.' },
+      { q: 'Is Google Business Profile really free for real estate agents?', a: 'Yes. Google Business Profile is completely free. You can claim, verify, and optimize your profile at no cost. The only investment is your time, or the cost of hiring a professional to manage it for you.' },
+      { q: 'Can I have a Google Business Profile if I work from home?', a: 'Yes. You can set your address as private and use a service area instead of showing your home address publicly. Google will still use your address for ranking purposes but will not display it to searchers.' },
+      { q: 'How many reviews do I need to rank in the top 3 on Google Maps?', a: 'Agents in the top 3 typically have 50 or more reviews. But recency matters more than total count \u2014 twenty reviews in the last three months is better than a hundred from two years ago. Aim for at least two new reviews per week.' },
+      { q: 'Should I use my brokerage address or my home address for my profile?', a: 'Use your brokerage address if you have a dedicated office there. If you work remotely, use your home address with the address set to private and define your service area. Google ranks based on proximity to the searcher, so your address location affects which searches you appear in.' },
+      { q: 'How often should I post on my Google Business Profile?', a: 'Post at least once per week. Agents who post weekly consistently outrank those who post monthly or never. Use posts to share new listings, market updates, open houses, and client success stories.' },
+      { q: 'Can I manage multiple Google Business Profiles for different cities?', a: 'You should have one profile per physical location. If you serve multiple cities from one office, list all of them as service areas on a single profile. Creating multiple profiles for the same business at the same address violates Google guidelines and can result in suspension.' },
+      { q: 'What should I do if my Google Business Profile gets suspended?', a: 'Submit a reinstatement request through Google Business Profile support. The most common causes are duplicate profiles, keyword-stuffed business names, or address issues. Fix the violation before requesting reinstatement. A professional <a href="/technical-seo/">Technical SEO</a> audit can identify and resolve profile issues before they lead to suspension.' },
     ],
   },
 };
