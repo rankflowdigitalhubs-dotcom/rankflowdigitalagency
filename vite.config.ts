@@ -372,6 +372,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Best SEO Tips for Electricians: 15 Proven Strategies to Get More Local Customers',
     path: '/blog/best-seo-tips-for-electricians/',
   },
+  '/blog/how-to-get-emergency-electrical-leads-online/': {
+    title: 'How to Get Emergency Electrical Leads Online (8 Proven Strategies That Work)',
+    description: 'Learn how to get emergency electrical leads online with 8 proven strategies. Optimize your Google Business Profile, target urgent keywords, and turn local searches into service calls.',
+    h1: 'How to Get Emergency Electrical Leads Online (8 Proven Strategies That Work)',
+    path: '/blog/how-to-get-emergency-electrical-leads-online/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
