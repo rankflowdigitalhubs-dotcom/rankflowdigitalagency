@@ -378,6 +378,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'How to Get Emergency Electrical Leads Online (8 Proven Strategies That Work)',
     path: '/blog/how-to-get-emergency-electrical-leads-online/',
   },
+  '/blog/local-seo-for-real-estate-agents/': {
+    title: 'Local SEO for Real Estate Agents: 10 Proven Strategies to Get More Buyer & Seller Leads',
+    description: 'A complete guide to local SEO for real estate agents. Learn 10 proven strategies to improve Google visibility, rank higher on Google Maps, and generate more buyer and seller leads.',
+    h1: 'Local SEO for Real Estate Agents: 10 Proven Strategies to Get More Buyer & Seller Leads',
+    path: '/blog/local-seo-for-real-estate-agents/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
