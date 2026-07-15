@@ -396,6 +396,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Google Business Profile for Real Estate Agents: 10 Ways to Optimize & Get More Leads',
     path: '/blog/google-business-profile-for-real-estate-agents/',
   },
+  '/blog/best-seo-strategy-for-realtors/': {
+    title: 'Best SEO Strategy for Realtors: 10 Steps to Rank Higher on Google & Get More Leads',
+    description: 'A complete SEO strategy for realtors. Learn 10 proven steps to rank higher on Google, optimize your Google Business Profile, and generate consistent organic buyer and seller leads.',
+    h1: 'Best SEO Strategy for Realtors: 10 Steps to Rank Higher on Google & Get More Leads',
+    path: '/blog/best-seo-strategy-for-realtors/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
