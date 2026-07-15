@@ -981,6 +981,7 @@ export const blogPosts = [
   { slug: 'local-seo-for-hvac-contractors', title: 'Local SEO for HVAC Contractors: 10 Strategies to Rank Higher on Google Maps', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Emily', excerpt: 'A complete local SEO guide for HVAC contractors. Learn 10 proven strategies to rank higher on Google Maps, optimize your Google Business Profile, and generate more local service calls.', img: 'https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'google-business-profile-tips-for-hvac-companies', title: 'Google Business Profile Tips for HVAC Companies: 10 Ways to Get More Calls', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Leo', excerpt: 'A complete guide to Google Business Profile for HVAC companies. Learn 10 proven tips to optimize your profile, improve Google Maps rankings, and generate more phone calls.', img: 'https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-your-hvac-website-isnt-ranking', title: "Why Your HVAC Website Isn't Ranking: 10 Fixes That Work", category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Jack', excerpt: 'Is your HVAC website stuck on page 2? Learn the 10 most common reasons HVAC websites do not rank on Google and the exact fixes to improve your rankings, Google Maps visibility, and customer calls.', img: 'https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'why-isnt-my-cleaning-business-getting-customers', title: "Why Isn't My Cleaning Business Getting Customers? 10 Proven Fixes", category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Ella', excerpt: 'Not getting enough cleaning customers? Learn the 10 most common SEO and local marketing problems holding back your cleaning business and the exact fixes to increase local visibility and bookings.', img: 'https://images.pexels.com/photos/4239037/pexels-photo-4239037.jpeg?auto=compress&cs=tinysrgb&w=1200' },
 ];
 
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
@@ -11725,6 +11726,222 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       { q: 'What is the fastest way to improve my HVAC website rankings?', a: 'The fastest wins come from optimizing your Google Business Profile (claiming, completing all fields, adding photos, and posting updates), fixing technical SEO errors (broken links, missing schema, sitemap submission), and compressing images to improve page speed. These changes can produce ranking improvements within 2 to 4 weeks.' },
       { q: 'Can I fix my HVAC website SEO myself?', a: 'You can handle the basics \u2014 claiming your Google Business Profile, asking for reviews, and publishing blog content. However, keyword research, technical SEO, schema markup, backlink building, and competitive analysis require specialized knowledge. Most HVAC owners benefit from professional help so they can focus on service calls instead of learning Google\u2019s algorithm.' },
       { q: 'How much does HVAC website SEO cost?', a: 'Professional HVAC SEO services typically range from $500 to $2,500 per month depending on your market size and competition. At Rank Flow Agency, our plans start at $99/month, making professional SEO accessible for small HVAC companies and solo contractors. The return on investment is typically far higher than paid advertising because SEO produces leads month after month at no additional cost.' },
+    ],
+  },
+
+  'why-isnt-my-cleaning-business-getting-customers': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: "Why Isn't My Cleaning Business Getting Customers?",
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/4239037/pexels-photo-4239037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaners at work in a home, representing why a cleaning business might not be getting customers" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              You started a cleaning business. You built a website. You set up a Google Business Profile. You even printed some flyers. But the phone is not ringing. You check your inbox and it is empty. You search <em>"cleaning service in [your city]"</em> on Google and your business is nowhere to be found \u2014 while competitors with less experience than you are showing up at the top of Google Maps and getting all the calls.
+            </p>
+            <p>
+              This is one of the most common frustrations cleaning business owners share with us. The problem is almost never your service. Your cleaning is probably excellent. The problem is that potential customers cannot find you online. When someone needs a house cleaner or a commercial cleaning service, they search Google, they look at the Maps pack, they read the reviews, and they call one of the first three businesses they see. If you are not in those top three results, you are invisible at the exact moment someone is ready to book.
+            </p>
+            <p>
+              The good news is that this is fixable. The cleaning companies that dominate Google Maps are not there by luck \u2014 they invest in <strong>local SEO for cleaning companies</strong> strategically and consistently. This guide breaks down the ten most common reasons your cleaning business is not getting customers and gives you the exact fixes for each one. Whether you implement these yourself or bring in <a href="/">Rank Flow Agency</a> to handle the work, these are the tactics that will get your phone ringing.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'why-cleaning-business-not-getting-customers',
+        heading: "Why Your Cleaning Business Isn't Getting Customers",
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing cleaning businesses ranked by local SEO, demonstrating why a cleaning business might not be getting customers" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Before you can fix the problem, you need to know what is causing it. Here are the ten most common reasons cleaning businesses are not getting customers:
+            </p>
+            <h3>Poor Google Business Profile</h3>
+            <p>
+              Your Google Business Profile is the single biggest driver of local customer inquiries for a cleaning business. If it is unclaimed, incomplete, missing photos, or has no reviews, your business will not appear in the Google Maps pack \u2014 those three results at the top of local searches that get the majority of clicks and calls. A neglected profile is the number one reason cleaning businesses are invisible in their own service area.
+            </p>
+            <h3>Weak Local SEO</h3>
+            <p>
+              Local SEO tells Google which geographic areas to show your business for. If you have not added local business schema, listed your service areas, or built citations on local directories, Google does not know where to rank you \u2014 so it ranks you nowhere. Weak local SEO means your cleaning business is invisible to the customers right in your neighborhood.
+            </p>
+            <h3>Low Google Maps Visibility</h3>
+            <p>
+              The Google Maps pack captures over 60% of local search clicks. If your cleaning business is not in the top three results on Google Maps, you are missing the majority of potential customer inquiries. Maps visibility is driven by your Google Business Profile, review quantity and recency, and local relevance \u2014 all things you can improve.
+            </p>
+            <h3>Wrong Keyword Targeting</h3>
+            <p>
+              If your website pages do not include the keywords your customers are searching for, Google does not know to show your site. Many cleaning websites use generic titles like <em>"Our Services"</em> instead of <em>"House Cleaning in [City]"</em> or <em>"Commercial Cleaning [Neighborhood]"</em>. Without the right keywords in your title tags, headings, and body content, Google cannot match your pages to search queries.
+            </p>
+            <h3>Slow Website</h3>
+            <p>
+              Google uses page speed as a ranking factor, especially for mobile. If your website takes more than three seconds to load, visitors leave and Google drops your ranking. When someone needs a cleaning service, they search on their phone and they are impatient. A slow website costs you customers every single day.
+            </p>
+            <h3>Poor Mobile Experience</h3>
+            <p>
+              Over 60% of local service searches happen on mobile phones. If your website is not fully responsive \u2014 if text is too small, buttons are hard to tap, or the phone number is not clickable \u2014 visitors leave immediately. Google uses mobile-first indexing, meaning a poor mobile experience means poor rankings and fewer calls.
+            </p>
+            <h3>Lack of Customer Reviews</h3>
+            <p>
+              Reviews are one of the strongest local ranking factors and one of the strongest conversion factors. When a homeowner compares three cleaning companies on Google Maps, they call the one with the most and best reviews. If you are not actively collecting reviews, competitors who are will outrank you and win the booking.
+            </p>
+            <h3>Weak Calls-to-Action</h3>
+            <p>
+              If a customer lands on your website and cannot figure out how to book or call, they leave. Many cleaning websites bury their contact form, have no visible phone number, or use vague buttons like <em>"Learn More"</em> instead of <em>"Book Your Cleaning Now."</em> A weak call-to-action means visitors leave without contacting you.
+            </p>
+            <h3>Technical SEO Issues</h3>
+            <p>
+              Missing XML sitemaps, broken links, duplicate meta tags, no schema markup, blocked pages in robots.txt \u2014 these technical errors prevent Google from understanding and ranking your site. You can have great content, but if Google cannot crawl it, it will not rank. <a href="/technical-seo/">Our Technical SEO services</a> fix these issues.
+            </p>
+            <h3>Strong Local Competition</h3>
+            <p>
+              Sometimes your cleaning business is not getting customers because your competitors are simply doing more SEO work than you. They have more reviews, more content, more backlinks, and more optimized profiles. SEO is a competition \u2014 the companies that invest more consistently win the top spots. The fix is to outwork them with a systematic approach.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: '10-ways-to-get-more-customers',
+        heading: '10 Ways to Get More Cleaning Customers',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Now that you know what is holding your cleaning business back, here are the ten fixes that will get you more customers from Google and Google Maps.
+            </p>
+
+            <h3>1. Optimize Your Google Business Profile</h3>
+            <img src="https://images.pexels.com/photos/4239034/pexels-photo-4239034.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a cleaning company showing business details, reviews, and photos" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Claim your profile, set your primary category to <em>"House Cleaning Service"</em> or <em>"Commercial Cleaning Service"</em>, fill out every field, list all service areas, upload real photos of your team and equipment, and post weekly updates. A complete, active profile with fresh photos and regular posts signals to Google that you are a legitimate, working business. This is the fastest way to improve your Google Maps ranking and start getting calls.
+            </p>
+
+            <h3>2. Target Local Keywords</h3>
+            <p>
+              List the services you offer and the cities you serve. Then find the exact terms people search: <em>"house cleaning in [city]"</em>, <em>"office cleaning [neighborhood]"</em>, <em>"move-out cleaning [city]"</em>, <em>"deep cleaning service [area]"</em>. Use Google Keyword Planner, Google Autosuggest, or tools like Ahrefs and Semrush. Build a list of 20 to 30 high-intent local keywords and map each one to a specific page on your website.
+            </p>
+
+            <h3>3. Create Service Area Pages</h3>
+            <img src="https://images.pexels.com/photos/4239037/pexels-photo-4239037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaner working in a residential kitchen, representing service area pages for local cleaning SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Build a dedicated landing page for each city or neighborhood you serve. A page titled <em>"House Cleaning in [City]"</em> with local content and a clear call-to-action ranks far better than a generic page trying to cover every area. Write at least 500 words of unique content per page \u2014 do not copy and paste with a different city name. Google penalizes duplicate content and rewards genuine local expertise.
+            </p>
+
+            <h3>4. Improve Website Speed</h3>
+            <p>
+              Test your site with Google PageSpeed Insights. Compress all images, use fast hosting, enable caching, and minify your CSS and JavaScript. Aim for a mobile score above 80. A fast website improves your rankings, your user experience, and your conversion rate. When someone needs a cleaner, they search on their phone and they are impatient \u2014 a fast site wins the booking.
+            </p>
+
+            <h3>5. Collect More Google Reviews</h3>
+            <img src="https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer leaving a Google review for a cleaning service after a successful appointment" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Ask every customer for a review after the cleaning is done. Send a text message with a direct link to your Google review page while the experience is fresh. Aim for at least two new reviews per week. The cleaning companies in the top 3 Google Maps results typically have 50 or more reviews \u2014 but recency matters more than total count. Respond to every review within 24 hours to show Google and potential customers that you are active and engaged.
+            </p>
+
+            <h3>6. Publish Helpful Cleaning Blogs</h3>
+            <p>
+              Start a blog that answers the questions homeowners are already asking Google. Write about how often you should deep clean your kitchen, what to expect from a move-out cleaning, eco-friendly cleaning tips, and how to prepare your home for a cleaning service. Each post is a new page that can rank for a different keyword and attract customers before they need to book. Aim for one or two posts per month with genuinely useful content. <a href="/content-writing/">Our SEO Content Writing services</a> can produce this for you.
+            </p>
+
+            <h3>7. Build Local Backlinks</h3>
+            <p>
+              Focus on earning backlinks from local businesses, community organizations, trade associations, and local news outlets. Sponsor a community event, join the chamber of commerce, and partner with complementary businesses like real estate agents and property managers. Each local backlink tells Google your cleaning business is a trusted, established part of the community \u2014 one of the most effective ways to boost your rankings.
+            </p>
+
+            <h3>8. Improve Internal Linking</h3>
+            <p>
+              Link from your blog posts to your service area pages. Link from your service area pages to your specific service pages. Link from your homepage to your most important pages. Use descriptive anchor text like <em>"house cleaning in [city]"</em> instead of <em>"click here."</em> A well-structured internal linking system ensures every page is reachable within three clicks from the homepage, which helps Google crawl and rank your pages faster.
+            </p>
+
+            <h3>9. Optimize Images</h3>
+            <img src="https://images.pexels.com/photos/4239025/pexels-photo-4239025.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaning equipment and supplies, representing image optimization for a cleaning business website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Large, uncompressed images are the number one cause of slow websites. Compress every image before uploading. Add descriptive alt text that includes your target keywords \u2014 this helps Google understand what the image shows and improves your image search rankings. Use SEO-friendly filenames like <em>house-cleaning-service-[city].jpg</em> instead of <em>IMG_1234.jpg</em>.
+            </p>
+
+            <h3>10. Track SEO Performance</h3>
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website analytics dashboard showing search performance, keyword rankings, and visitor data for a cleaning business" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows you which keywords bring traffic to your site, what pages are ranking, and where there are technical issues. Check your data monthly, track your keyword rankings, and adjust your strategy based on what the data tells you. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities and fix issues before they hurt your rankings.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'checklist',
+        heading: 'Cleaning Business SEO Checklist',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Use this checklist to make sure you have covered every essential SEO tactic for your cleaning business:
+            </p>
+            <ul>
+              <li>Google Business Profile claimed, verified, and fully completed</li>
+              <li>Primary category set to House Cleaning Service or Commercial Cleaning Service</li>
+              <li>All service areas listed (cities and neighborhoods you serve)</li>
+              <li>At least 10 real photos uploaded to your Google Business Profile</li>
+              <li>Weekly updates posted to your Google Business Profile</li>
+              <li>Local keyword research completed with 20 to 30 high-intent target keywords</li>
+              <li>Dedicated service area page for each city or neighborhood you serve</li>
+              <li>Unique title tags and meta descriptions on every page</li>
+              <li>Blog content published at least once per month</li>
+              <li>Technical SEO audit completed (schema, sitemap, crawlability)</li>
+              <li>Website loads in under 3 seconds on mobile</li>
+              <li>Website is fully mobile-responsive with click-to-call buttons</li>
+              <li>Phone number visible at the top of every page</li>
+              <li>Strong call-to-action on every page (Book Now or Get a Quote)</li>
+              <li>All images compressed and optimized with descriptive alt text</li>
+              <li>Internal linking strategy implemented across all pages</li>
+              <li>Local backlinks earned from chamber of commerce, associations, and community sites</li>
+              <li>Review request system sending texts to every customer after service</li>
+              <li>At least 2 new Google reviews per week</li>
+              <li>All reviews responded to within 24 hours</li>
+              <li>NAP consistent across Google, Yelp, Facebook, and all directories</li>
+              <li>Google Search Console and Analytics set up and monitored monthly</li>
+              <li>Quarterly SEO audit to find new opportunities and fix issues</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'faq',
+        heading: 'Frequently Asked Questions',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Here are answers to the most common questions cleaning business owners ask about getting more customers from Google.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'final-summary',
+        heading: 'Final Summary',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/4239037/pexels-photo-4239037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer with a professional cleaner after a successful house cleaning, representing the results of a strong local SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Your cleaning business is not getting customers because of fixable problems: a poor Google Business Profile, weak local SEO, low Google Maps visibility, wrong keyword targeting, a slow website, poor mobile experience, lack of reviews, weak calls-to-action, technical SEO issues, or strong local competition. Each one has a clear solution. Optimize your profile, target local keywords, build service area pages, improve website speed, collect reviews, publish helpful content, earn local backlinks, improve internal linking, optimize images, and track your results.
+            </p>
+            <p>
+              The cleaning companies that dominate Google Maps do not have a secret. They have a system. They keep their Google Business Profile complete and active, they ask every customer for a review, they publish helpful content, and they invest in SEO consistently. Do these things and your cleaning business will climb the Google Maps rankings, attract more qualified customers, and grow without relying on paid advertising.
+            </p>
+            <p>
+              If you want this done right without spending your evenings learning Google's algorithm \u2014 <a href="/contact/">contact Rank Flow Agency for a free SEO audit</a>. We will analyze your current website and Google Business Profile, identify the exact issues holding back your rankings, and build a custom local SEO strategy to get your cleaning business to the top of Google and Google Maps. Plans start at $99/month.
+            </p>
+          </div>
+        ),
+      },
+    ],
+    faqs: [
+      { q: "Why isn't my cleaning business getting customers from Google?", a: 'The most common reasons are an unoptimized Google Business Profile, weak local SEO, wrong keyword targeting, lack of reviews, a slow or non-mobile website, and technical SEO errors. When potential customers search for cleaning services in your area, Google only shows the businesses with the strongest local SEO signals. If your business is missing those signals, it will not appear in the results.' },
+      { q: 'How long does it take for cleaning business SEO to produce results?', a: 'Optimizing your Google Business Profile can produce more customer inquiries within 2 to 4 weeks. Building service area pages, publishing content, and earning backlinks typically take 3 to 6 months for significant ranking improvements. SEO compounds over time \u2014 the sooner you start, the faster your cleaning business will climb the rankings and start getting consistent calls.' },
+      { q: 'Do I need a new website to get more cleaning customers?', a: 'Not necessarily. Many cleaning websites can perform well with SEO improvements to the existing site \u2014 fixing technical issues, adding content, optimizing speed, and improving local SEO. However, if your website is very old, not mobile-friendly, or built on a platform that cannot support SEO best practices, a new professionally designed website may be the better investment.' },
+      { q: 'How many Google reviews do I need to rank well on Google Maps?', a: 'Cleaning businesses in the top 3 Google Maps results typically have 50 or more reviews. But recency matters more than total count \u2014 twenty reviews in the last three months is better than a hundred from two years ago. Aim for at least two new reviews per week and respond to every one within 24 hours to show Google and customers that you are active.' },
+      { q: 'What is the most important thing I can do to get more cleaning customers?', a: 'Optimize your Google Business Profile. It is the single biggest driver of local customer inquiries for a cleaning business. Claim it, complete every field, set the right primary category, upload real photos, list all service areas, post weekly updates, and actively collect reviews. A well-optimized profile can start generating calls within weeks.' },
+      { q: 'Should I use Google Ads or SEO for my cleaning business?', a: 'Both work well together. Google Ads give you immediate visibility while your SEO builds. The advantage of SEO is that customers keep coming even after you stop spending, while ads stop the moment you pause your budget. For long-term lead generation and lower cost per customer, SEO is more cost-effective. Most cleaning businesses benefit from starting with SEO and adding ads for immediate leads.' },
+      { q: 'How many service area pages should my cleaning website have?', a: 'You should have one dedicated service area page for each city or neighborhood you serve. If you serve 5 cities, you need 5 pages. Each page should have at least 500 words of unique content. Do not copy and paste the same page with a different city name \u2014 Google penalizes duplicate content and rewards genuine local expertise.' },
+      { q: 'How much does cleaning business SEO cost?', a: 'Professional SEO services for cleaning businesses typically range from $500 to $2,500 per month depending on your market size and competition. At Rank Flow Agency, our plans start at $99/month, making professional SEO accessible for small cleaning companies and solo cleaners. The return on investment is typically far higher than paid advertising because SEO produces leads month after month at no additional cost.' },
     ],
   },
 };

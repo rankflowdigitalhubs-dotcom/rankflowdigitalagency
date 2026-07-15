@@ -432,6 +432,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: "Why Your HVAC Website Isn't Ranking",
     path: '/blog/why-your-hvac-website-isnt-ranking/',
   },
+  '/blog/why-isnt-my-cleaning-business-getting-customers/': {
+    title: "Why Isn't My Cleaning Business Getting Customers? 10 Proven Fixes",
+    description: 'Not getting enough cleaning customers? Learn the 10 most common SEO and local marketing problems holding back your cleaning business and the exact fixes to increase local visibility and bookings.',
+    h1: "Why Isn't My Cleaning Business Getting Customers?",
+    path: '/blog/why-isnt-my-cleaning-business-getting-customers/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
