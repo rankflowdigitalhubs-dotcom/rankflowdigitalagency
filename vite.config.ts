@@ -408,6 +408,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: "Why Isn't My HVAC Business Getting Calls?",
     path: '/blog/why-isnt-my-hvac-business-getting-calls/',
   },
+  '/blog/hvac-seo-how-to-get-more-customers-from-google/': {
+    title: 'HVAC SEO: How to Get More Customers From Google (10 Proven Strategies)',
+    description: 'A complete HVAC SEO guide. Learn 10 proven strategies to rank higher on Google and Google Maps, optimize your Google Business Profile, and generate more qualified HVAC customers.',
+    h1: 'HVAC SEO: How to Get More Customers From Google',
+    path: '/blog/hvac-seo-how-to-get-more-customers-from-google/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
