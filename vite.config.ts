@@ -386,6 +386,16 @@ function injectMeta(html: string, meta: PageMeta): string {
     `<link rel="canonical" href="${BASE}${meta.path}"`
   );
 
+  // Replace hreflang alternate links for worldwide targeting
+  result = result.replace(
+    /<link rel="alternate" hreflang="en" href="[^"]*"/,
+    `<link rel="alternate" hreflang="en" href="${BASE}${meta.path}"`
+  );
+  result = result.replace(
+    /<link rel="alternate" hreflang="x-default" href="[^"]*"/,
+    `<link rel="alternate" hreflang="x-default" href="${BASE}${meta.path}"`
+  );
+
   // Replace OG tags
   result = result.replace(
     /<meta property="og:title" content="[^"]*"/,
