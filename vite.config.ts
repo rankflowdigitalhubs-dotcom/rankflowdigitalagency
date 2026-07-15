@@ -426,6 +426,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Google Business Profile Tips for HVAC Companies',
     path: '/blog/google-business-profile-tips-for-hvac-companies/',
   },
+  '/blog/why-your-hvac-website-isnt-ranking/': {
+    title: "Why Your HVAC Website Isn't Ranking: 10 Fixes That Work",
+    description: 'Is your HVAC website stuck on page 2? Learn the 10 most common reasons HVAC websites do not rank on Google and the exact fixes to improve your rankings, Google Maps visibility, and customer calls.',
+    h1: "Why Your HVAC Website Isn't Ranking",
+    path: '/blog/why-your-hvac-website-isnt-ranking/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {

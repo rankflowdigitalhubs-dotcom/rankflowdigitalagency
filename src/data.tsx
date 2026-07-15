@@ -980,6 +980,7 @@ export const blogPosts = [
   { slug: 'hvac-seo-how-to-get-more-customers-from-google', title: 'HVAC SEO: How to Get More Customers From Google (10 Proven Strategies)', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Jack', excerpt: 'A complete HVAC SEO guide. Learn 10 proven strategies to rank higher on Google and Google Maps, optimize your Google Business Profile, and generate more qualified HVAC customers.', img: 'https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-for-hvac-contractors', title: 'Local SEO for HVAC Contractors: 10 Strategies to Rank Higher on Google Maps', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Emily', excerpt: 'A complete local SEO guide for HVAC contractors. Learn 10 proven strategies to rank higher on Google Maps, optimize your Google Business Profile, and generate more local service calls.', img: 'https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'google-business-profile-tips-for-hvac-companies', title: 'Google Business Profile Tips for HVAC Companies: 10 Ways to Get More Calls', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Leo', excerpt: 'A complete guide to Google Business Profile for HVAC companies. Learn 10 proven tips to optimize your profile, improve Google Maps rankings, and generate more phone calls.', img: 'https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'why-your-hvac-website-isnt-ranking', title: "Why Your HVAC Website Isn't Ranking: 10 Fixes That Work", category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Jack', excerpt: 'Is your HVAC website stuck on page 2? Learn the 10 most common reasons HVAC websites do not rank on Google and the exact fixes to improve your rankings, Google Maps visibility, and customer calls.', img: 'https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200' },
 ];
 
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
@@ -11487,6 +11488,243 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       { q: 'What happens if my phone number is different on Google than on my website?', a: 'Inconsistent phone numbers confuse Google and can drop your Google Maps ranking. Google uses your NAP (name, address, phone number) across the web to verify your business. If the phone number on your Google Business Profile does not match your website, Yelp, Facebook, and other directories, Google loses confidence in your business data and may suppress your profile.' },
       { q: 'Should I use stock photos on my Google Business Profile?', a: 'No. Google can detect stock photos, and homeowners can tell they are not real. Businesses with real photos of their trucks, technicians, and job sites get more calls and rank higher. Upload genuine photos of your team in uniform, your service vehicles, before-and-after shots of installations, and completed job sites. Aim for at least 10 to 15 real photos.' },
       { q: 'How do I know if my Google Business Profile is working?', a: 'Check your Google Business Insights dashboard monthly. It shows how many people viewed your profile, how many called, how many asked for directions, and what search terms they used to find you. If your profile views and call volume are increasing month over month, your optimization is working. A quarterly profile audit can help find new opportunities.' },
+    ],
+  },
+
+  'why-your-hvac-website-isnt-ranking': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: "Why Your HVAC Website Isn't Ranking",
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC company website displayed on a laptop screen, representing why an HVAC website might not be ranking on Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              You built a website for your HVAC business. It looks decent. It lists your services. It has your phone number. But when you search <em>"AC repair in [your city]"</em> on Google, your website is nowhere to be found. Your competitors \u2014 some with worse websites than yours \u2014 are sitting in the top spots, getting the calls that should be yours. Sound familiar?
+            </p>
+            <p>
+              You are not alone. Most HVAC contractors have a website that does not rank because it was built to look good, not to perform on Google. A pretty website without SEO is like a billboard in the desert \u2014 nobody sees it. The good news is that ranking problems are almost always fixable. Google uses a predictable set of signals to decide which HVAC companies show up first, and once you understand those signals, you can fix them.
+            </p>
+            <p>
+              This guide breaks down the ten most common reasons your HVAC website is not ranking and gives you the exact fixes for each one. Whether you tackle these yourself or bring in <a href="/">Rank Flow Agency</a> to handle the work, these are the issues that are holding back your rankings, your Google Maps visibility, and your customer calls.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'why-hvac-website-not-ranking',
+        heading: "Why Your HVAC Website Isn't Ranking",
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google search results page showing HVAC company rankings, illustrating why an HVAC website might not be ranking" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Before you can fix the problem, you need to know what is causing it. Here are the ten most common reasons HVAC websites do not rank on Google:
+            </p>
+            <h3>Poor Keyword Targeting</h3>
+            <p>
+              If your website pages do not include the keywords your customers are searching for, Google does not know to show your site. Many HVAC websites use generic titles like <em>"Our Services"</em> instead of <em>"AC Repair in [City]"</em> or <em>"Furnace Installation [Neighborhood]"</em>. Without the right keywords in your title tags, headings, and body content, Google cannot match your pages to search queries.
+            </p>
+            <h3>Weak Local SEO</h3>
+            <p>
+              Local SEO tells Google which geographic areas to show your business for. If you have not added local business schema, listed your service areas, or built citations on local directories, Google does not know where to rank you \u2014 so it ranks you nowhere. Weak local SEO is one of the biggest reasons HVAC websites are invisible in their own service area.
+            </p>
+            <h3>Unoptimized Google Business Profile</h3>
+            <p>
+              Your Google Business Profile powers the Google Maps pack. If it is unclaimed, incomplete, missing photos, or has no reviews, your business will not appear in the top three Maps results \u2014 even if your website ranks well organically. An unoptimized profile is a missed opportunity for the majority of local service calls.
+            </p>
+            <h3>Slow Website Speed</h3>
+            <p>
+              Google uses page speed as a ranking factor, especially for mobile. If your website takes more than three seconds to load, visitors leave and Google drops your ranking. When someone's AC breaks, they search on their phone and they are impatient. A slow website costs you customers every single day.
+            </p>
+            <h3>Mobile Usability Issues</h3>
+            <p>
+              Over 60% of local service searches happen on mobile phones. If your website is not fully responsive \u2014 if text is too small, buttons are hard to tap, or the phone number is not clickable \u2014 visitors leave immediately. Google uses mobile-first indexing, meaning a poor mobile experience means poor rankings.
+            </p>
+            <h3>Technical SEO Errors</h3>
+            <p>
+              Technical SEO is the foundation that lets Google crawl and index your website. Missing XML sitemaps, broken links, duplicate meta tags, no schema markup, blocked pages in robots.txt \u2014 these errors prevent Google from understanding and ranking your site. You can have great content, but if Google cannot crawl it, it will not rank. <a href="/technical-seo/">Our Technical SEO services</a> fix these issues.
+            </p>
+            <h3>Thin or Duplicate Content</h3>
+            <p>
+              Google does not rank pages with 100 words of generic content. It also penalizes duplicate content \u2014 pages that copy text from other sites or reuse the same content with a different city name. Each page on your website needs at least 500 words of unique, helpful content that demonstrates real expertise. Thin content is one of the most common reasons HVAC service pages do not rank.
+            </p>
+            <h3>Missing Internal Links</h3>
+            <p>
+              Internal links help Google understand your site structure and spread ranking power across your pages. If your blog posts do not link to your service pages, or your service area pages do not link to your homepage, Google cannot efficiently crawl and rank your content. Missing internal links isolate pages and limit their ranking potential.
+            </p>
+            <h3>Lack of Backlinks</h3>
+            <p>
+              Backlinks \u2014 links from other websites to yours \u2014 are one of Google's strongest ranking signals. If no other website links to yours, Google assumes your business is not established or trusted. HVAC companies with backlinks from local chambers of commerce, trade associations, and community organizations consistently outrank those without them.
+            </p>
+            <h3>Strong Local Competition</h3>
+            <p>
+              Sometimes your website is not ranking because your competitors are simply doing more SEO work than you. They have more reviews, more content, more backlinks, and more optimized profiles. SEO is a competition \u2014 the companies that invest more consistently win the top spots. The fix is to outwork them with a systematic approach.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: '10-ways-to-improve',
+        heading: '10 Ways to Improve HVAC Website Rankings',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Now that you know what is holding your website back, here are the ten fixes that will get your HVAC website ranking higher on Google and Google Maps.
+            </p>
+
+            <h3>1. Optimize Your Google Business Profile</h3>
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an HVAC company showing business details, reviews, and photos" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Claim your profile, set your primary category to HVAC Contractor, fill out every field, list all service areas, upload real photos of your trucks and technicians, and post weekly updates. A complete, active profile with fresh photos and regular posts signals to Google that you are a legitimate, working business. This is the fastest way to improve your Google Maps ranking.
+            </p>
+
+            <h3>2. Perform Local Keyword Research</h3>
+            <p>
+              List the services you offer and the cities you serve. Then find the exact terms people search: <em>"AC repair in [city]"</em>, <em>"furnace installation [neighborhood]"</em>, <em>"emergency HVAC [city]"</em>. Use Google Keyword Planner, Google Autosuggest, or tools like Ahrefs and Semrush. Build a list of 20 to 30 high-intent local keywords and map each one to a specific page on your website.
+            </p>
+
+            <h3>3. Create Service Area Pages</h3>
+            <img src="https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC service vehicle parked in a residential neighborhood, representing service area pages for local HVAC SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Build a dedicated landing page for each city or neighborhood you serve. A page titled <em>"AC Repair in [City]"</em> with local content and a clear call-to-action ranks far better than a generic page trying to cover every area. Write at least 500 words of unique content per page \u2014 do not copy and paste with a different city name. Google penalizes duplicate content and rewards genuine local expertise.
+            </p>
+
+            <h3>4. Publish Helpful HVAC Content</h3>
+            <p>
+              Start a blog that answers the questions homeowners are already asking Google. Write about maintenance tips, when to repair vs. replace a system, how to lower energy bills, and seasonal preparation guides. Each post is a new page that can rank for a different keyword and attract customers before they need emergency service. Aim for one or two posts per month with genuinely useful content \u2014 not sales pitches. <a href="/content-writing/">Our SEO Content Writing services</a> can produce this for you.
+            </p>
+
+            <h3>5. Improve Technical SEO</h3>
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technical SEO audit dashboard showing website errors, crawl issues, and schema markup for an HVAC website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Fix the technical foundation of your website. Submit an XML sitemap to Google Search Console, fix broken links, add local business schema markup, ensure every page has a unique title tag and meta description, and check your robots.txt for blocked pages. Technical SEO is the foundation that lets Google crawl, understand, and rank your content. Without it, nothing else matters.
+            </p>
+
+            <h3>6. Increase Website Speed</h3>
+            <p>
+              Test your site with Google PageSpeed Insights. Compress all images, use fast hosting, enable caching, and minify your CSS and JavaScript. Aim for a mobile score above 80. A fast website improves your rankings, your user experience, and your conversion rate. When someone's AC breaks, they search on their phone and they are impatient \u2014 a fast site wins the call.
+            </p>
+
+            <h3>7. Add Internal Links</h3>
+            <p>
+              Link from your blog posts to your service area pages. Link from your service area pages to your specific service pages. Link from your homepage to your most important pages. Use descriptive anchor text like <em>"AC repair in [city]"</em> instead of <em>"click here."</em> A well-structured internal linking system ensures every page is reachable within three clicks from the homepage, which helps Google crawl and rank your pages faster.
+            </p>
+
+            <h3>8. Earn Local Backlinks</h3>
+            <p>
+              Focus on earning backlinks from local businesses, community organizations, trade associations, and local news outlets. Sponsor a Little League team, join the chamber of commerce, and partner with complementary businesses like plumbers and electricians. Each local backlink tells Google your business is a trusted, established part of the community \u2014 one of the most effective ways to boost your rankings.
+            </p>
+
+            <h3>9. Optimize Images</h3>
+            <img src="https://images.pexels.com/photos/6476758/pexels-photo-6476758.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician working on a heating system, representing image optimization for HVAC website SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Large, uncompressed images are the number one cause of slow websites. Compress every image on your site before uploading. Use WebP format where possible. Add descriptive alt text to every image that includes your target keywords \u2014 this helps Google understand what the image shows and improves your image search rankings. Use SEO-friendly filenames like <em>hvac-technician-ac-repair-[city].jpg</em> instead of <em>IMG_1234.jpg</em>.
+            </p>
+
+            <h3>10. Track SEO with Google Search Console</h3>
+            <p>
+              Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows you which keywords bring traffic to your site, what pages are ranking, and where there are technical issues. Check your data monthly, track your keyword rankings, and adjust your strategy based on what the data tells you. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities and fix issues before they hurt your rankings.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'common-seo-mistakes',
+        heading: 'Common SEO Mistakes HVAC Companies Make',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common SEO mistakes that HVAC companies make, shown as a warning checklist on a clipboard" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Even HVAC companies that invest in SEO make mistakes that quietly hold back their rankings. Here are the most common ones to avoid:
+            </p>
+            <ul>
+              <li><strong>Targeting broad keywords only:</strong> Trying to rank for <em>"HVAC company"</em> instead of <em>"HVAC company in [your city]"</em> wastes effort. Local keywords convert better.</li>
+              <li><strong>Ignoring Google Business Profile:</strong> Leaving it unclaimed or incomplete is the number one mistake. It is the biggest local ranking factor.</li>
+              <li><strong>Duplicate service area pages:</strong> Copying the same page with a different city name gets penalized by Google. Each page needs unique content.</li>
+              <li><strong>Thin content:</strong> Pages with 100 words of generic text do not rank. Each page needs at least 500 words of unique, helpful content.</li>
+              <li><strong>No internal linking:</strong> Without internal links, Google cannot efficiently crawl and rank your pages. Every page should be reachable within three clicks.</li>
+              <li><strong>Slow website:</strong> A site that takes more than three seconds to load loses visitors and rankings. Compress images and enable caching.</li>
+              <li><strong>Not mobile-friendly:</strong> Over 60% of local searches are on mobile. A poor mobile experience means poor rankings and fewer calls.</li>
+              <li><strong>Ignoring technical SEO:</strong> Without proper schema, sitemap, and site structure, Google cannot fully crawl and rank your pages.</li>
+              <li><strong>No tracking:</strong> If you are not monitoring Search Console and Analytics, you cannot identify what is working and what needs fixing.</li>
+              <li><strong>Inconsistent NAP:</strong> Different phone numbers or addresses across Google, Yelp, and Facebook confuse the algorithm and drop your Maps ranking.</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'checklist',
+        heading: 'HVAC Website SEO Checklist',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Use this checklist to make sure you have covered every essential SEO tactic for your HVAC website:
+            </p>
+            <ul>
+              <li>Local keyword research completed with 20 to 30 high-intent target keywords</li>
+              <li>Each target keyword mapped to a specific page on your website</li>
+              <li>Unique title tags and meta descriptions on every page</li>
+              <li>Dedicated service area page for each city or neighborhood you serve</li>
+              <li>Each service area page has at least 500 words of unique content</li>
+              <li>Google Business Profile claimed, verified, and fully completed</li>
+              <li>Primary category set to HVAC Contractor with relevant secondary categories</li>
+              <li>At least 10 real photos uploaded to your Google Business Profile</li>
+              <li>Weekly updates posted to your Google Business Profile</li>
+              <li>Blog content published at least once per month</li>
+              <li>Technical SEO audit completed (schema, sitemap, crawlability)</li>
+              <li>XML sitemap submitted to Google Search Console</li>
+              <li>Local business schema markup added to your website</li>
+              <li>Website loads in under 3 seconds on mobile</li>
+              <li>Website is fully mobile-responsive with click-to-call buttons</li>
+              <li>All images compressed and optimized with descriptive alt text</li>
+              <li>Internal linking strategy implemented across all pages</li>
+              <li>Local backlinks earned from chamber of commerce, associations, and community sites</li>
+              <li>NAP consistent across Google, Yelp, Facebook, and all directories</li>
+              <li>Google Search Console and Analytics set up and monitored monthly</li>
+              <li>Quarterly SEO audit to find new opportunities and fix issues</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'faq',
+        heading: 'Frequently Asked Questions',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Here are answers to the most common questions HVAC contractors ask about why their website is not ranking and how to fix it.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'final-summary',
+        heading: 'Final Summary',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customers with an HVAC technician after a successful service call, representing the results of a well-ranking HVAC website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Your HVAC website is not ranking because of fixable problems: poor keyword targeting, weak local SEO, an unoptimized Google Business Profile, slow speed, mobile issues, technical errors, thin content, missing internal links, lack of backlinks, or strong competition. Each one has a clear solution. Optimize your profile, research local keywords, build service area pages, publish helpful content, fix technical SEO, speed up your site, add internal links, earn local backlinks, optimize images, and track your results.
+            </p>
+            <p>
+              The HVAC companies that dominate Google do not have a secret. They have a system. They invest in SEO consistently, the same way they invest in their trucks and tools. And it pays off \u2014 customers from Google cost less, trust you more, and keep coming without spending a dollar on ads. Start fixing these issues one by one and your HVAC website will climb the rankings, attract more qualified customers, and grow.
+            </p>
+            <p>
+              If you want this done right without spending your evenings learning Google's algorithm \u2014 <a href="/contact/">contact Rank Flow Agency for a free SEO audit</a>. We will analyze your current website, identify the exact issues holding back your rankings, and build a custom SEO strategy to get your HVAC business to the top of Google and Google Maps. Plans start at $99/month.
+            </p>
+          </div>
+        ),
+      },
+    ],
+    faqs: [
+      { q: "Why is my HVAC website not showing up on Google?", a: 'The most common reasons are poor keyword targeting, weak local SEO, an unoptimized Google Business Profile, technical SEO errors, thin content, and lack of backlinks. Google uses a specific set of signals to decide which websites to show. If your website is missing those signals, it will not rank. The fixes are straightforward once you identify which signals are missing.' },
+      { q: 'How long does it take for an HVAC website to start ranking?', a: 'Fixing technical SEO issues and optimizing your Google Business Profile can produce results within 2 to 4 weeks. Building service area pages, publishing content, and earning backlinks typically take 3 to 6 months for significant ranking improvements. SEO compounds over time \u2014 the sooner you start fixing issues, the faster your website will climb.' },
+      { q: 'Do I need a new website to rank on Google?', a: 'Not necessarily. Many HVAC websites can rank well with SEO improvements to the existing site \u2014 fixing technical issues, adding content, optimizing speed, and improving local SEO. However, if your website is very old, not mobile-friendly, or built on a platform that cannot support SEO best practices, a new professionally designed website may be the better investment.' },
+      { q: "Why does my competitor rank higher than me on Google Maps?", a: 'Your competitor likely has a more complete Google Business Profile, more reviews, more photos, more consistent posting, more local backlinks, and better-optimized service area pages. Google Maps rankings are driven primarily by your Google Business Profile, review quantity and recency, and local relevance. Audit their profile against yours and close the gaps.' },
+      { q: 'How many service area pages should my HVAC website have?', a: 'You should have one dedicated service area page for each city or neighborhood you serve. If you serve 5 cities, you need 5 pages. Each page should have at least 500 words of unique content. Do not copy and paste the same page with a different city name \u2014 Google penalizes duplicate content and rewards genuine local expertise.' },
+      { q: 'What is the fastest way to improve my HVAC website rankings?', a: 'The fastest wins come from optimizing your Google Business Profile (claiming, completing all fields, adding photos, and posting updates), fixing technical SEO errors (broken links, missing schema, sitemap submission), and compressing images to improve page speed. These changes can produce ranking improvements within 2 to 4 weeks.' },
+      { q: 'Can I fix my HVAC website SEO myself?', a: 'You can handle the basics \u2014 claiming your Google Business Profile, asking for reviews, and publishing blog content. However, keyword research, technical SEO, schema markup, backlink building, and competitive analysis require specialized knowledge. Most HVAC owners benefit from professional help so they can focus on service calls instead of learning Google\u2019s algorithm.' },
+      { q: 'How much does HVAC website SEO cost?', a: 'Professional HVAC SEO services typically range from $500 to $2,500 per month depending on your market size and competition. At Rank Flow Agency, our plans start at $99/month, making professional SEO accessible for small HVAC companies and solo contractors. The return on investment is typically far higher than paid advertising because SEO produces leads month after month at no additional cost.' },
     ],
   },
 };
