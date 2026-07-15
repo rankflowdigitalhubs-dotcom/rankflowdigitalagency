@@ -366,6 +366,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'How to Rank Your Electrical Business on Google Maps',
     path: '/blog/rank-electrical-business-on-google-maps/',
   },
+  '/blog/best-seo-tips-for-electricians/': {
+    title: 'Best SEO Tips for Electricians: 15 Proven Strategies to Get More Local Customers',
+    description: 'The complete guide to SEO for electricians. Learn 15 proven strategies to improve Google rankings, attract local customers, and grow your electrical business.',
+    h1: 'Best SEO Tips for Electricians: 15 Proven Strategies to Get More Local Customers',
+    path: '/blog/best-seo-tips-for-electricians/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
