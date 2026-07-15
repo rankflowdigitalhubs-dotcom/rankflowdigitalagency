@@ -976,6 +976,7 @@ export const blogPosts = [
   { slug: 'how-to-get-more-property-leads-without-paid-ads', title: 'How to Get More Property Leads Without Paid Ads (10 Proven SEO Strategies)', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '11 min', author: 'Jack', excerpt: 'Learn how to get more property leads without paid ads. Discover 10 proven SEO strategies to attract buyer and seller leads organically through Google, Google Maps, and local search.', img: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'google-business-profile-for-real-estate-agents', title: 'Google Business Profile for Real Estate Agents: 10 Ways to Optimize & Get More Leads', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '11 min', author: 'Emily', excerpt: 'A complete guide to Google Business Profile for real estate agents. Learn 10 ways to optimize your profile, rank higher on Google Maps, and generate more buyer and seller leads.', img: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'best-seo-strategy-for-realtors', title: 'Best SEO Strategy for Realtors: 10 Steps to Rank Higher on Google & Get More Leads', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Johan', excerpt: 'A complete SEO strategy for realtors. Learn 10 proven steps to rank higher on Google, optimize your Google Business Profile, and generate consistent organic buyer and seller leads.', img: 'https://images.pexels.com/photos/2586058/pexels-photo-2586058.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'why-isnt-my-hvac-business-getting-calls', title: "Why Isn't My HVAC Business Getting Calls? (10 Reasons & 10 Fixes)", category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Leo', excerpt: "Discover why your HVAC business isn't getting calls. Learn the 10 most common SEO and local marketing issues and 10 proven fixes to increase phone calls and bookings.", img: 'https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200' },
 ];
 
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
@@ -10546,6 +10547,230 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       { q: 'How many Google reviews do I need to rank well?', a: 'Agents in the top 3 Google Maps results typically have 50 or more reviews. But recency matters more than total count \u2014 twenty reviews in the last three months is better than a hundred from two years ago. Aim for at least two new reviews per week.' },
       { q: 'Should I use paid ads or SEO for my real estate business?', a: 'Both work well together. Paid ads give you immediate visibility while your SEO builds. The advantage of SEO is that leads keep coming even after you stop spending, while ads stop the moment you pause your budget. For long-term lead generation and lower cost per lead, SEO is more cost-effective.' },
       { q: 'How do I know if my real estate SEO strategy is working?', a: 'Set up Google Search Console and Google Analytics. Track your keyword rankings, monitor your Google Maps position weekly, count how many leads per month mention they found you on Google, and watch your website traffic grow. If leads and traffic are increasing month over month, your SEO strategy is working.' },
+    ],
+  },
+
+  'why-isnt-my-hvac-business-getting-calls': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: "Why Isn't My HVAC Business Getting Calls?",
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician working on an air conditioning unit, representing why an HVAC business isn't getting calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Your phone used to ring. Maybe not every hour, but enough to keep the crew busy and the payroll met. Lately, though, it has gone quiet. You check your inbox, your website analytics, your Google Business Profile \u2014 everything looks fine on the surface. So why are the calls drying up while the competitor across town seems to have a full schedule?
+            </p>
+            <p>
+              You are not imagining it. When a homeowner's AC dies in the middle of a heat wave or the furnace quits on the coldest night of the year, they do not flip through the Yellow Pages anymore. They pull out their phone, type <em>"AC repair near me"</em> or <em>"HVAC contractor in [their city]"</em> into Google, and they call one of the first three businesses that show up. If your business is not in those top three results, you are invisible at the exact moment someone needs you most.
+            </p>
+            <p>
+              This guide breaks down the ten most common reasons <strong>your HVAC business isn't getting calls</strong> \u2014 and gives you ten practical fixes for each one. Whether you handle these yourself or bring in <a href="/">Rank Flow Agency</a> to do the heavy lifting, understanding the root causes is the first step to getting your phone ringing again.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'why-no-calls',
+        heading: "Why Your HVAC Business Isn't Getting Calls",
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC service van parked outside a home, representing an HVAC business struggling to get phone calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Before you can fix the problem, you need to know what is causing it. Here are the ten most common reasons HVAC businesses lose out on phone calls and qualified leads.
+            </p>
+
+            <h3>1. Poor Google Business Profile</h3>
+            <p>
+              Your Google Business Profile is the single biggest factor in whether your phone rings. If it is unclaimed, incomplete, has no photos, no reviews, or has not been updated in months, Google ranks competitors above you. An inactive profile signals to Google that your business may be less relevant \u2014 or worse, closed.
+            </p>
+
+            <h3>2. Weak Local SEO</h3>
+            <p>
+              HVAC is a local service business, but many HVAC websites have no local SEO at all. There are no service area pages, no local schema markup, and no consistent NAP (name, address, phone number) across directories. Without local SEO signals, Google does not know which areas to show your business for, so it shows it to no one.
+            </p>
+
+            <h3>3. Low Google Maps Visibility</h3>
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing HVAC businesses, with low visibility for a business not getting calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              When someone searches for an HVAC contractor, the Google Maps pack \u2014 those three businesses at the top of the results \u2014 gets the vast majority of the calls. If your business is not in the top three on Google Maps, you are missing out on the largest source of emergency and service calls in your area.
+            </p>
+
+            <h3>4. Wrong Keyword Targeting</h3>
+            <p>
+              Many HVAC companies optimize for broad terms like <em>"HVAC company"</em> instead of high-intent local terms like <em>"AC repair in [your city]"</em> or <em>"furnace installation [neighborhood]"</em>. Broad keywords have massive competition and almost no chance of ranking. Local, high-intent keywords have lower competition and much higher conversion rates because they capture people who need service right now.
+            </p>
+
+            <h3>5. Slow Website</h3>
+            <p>
+              Google uses page speed as a ranking factor, especially for mobile. When someone's AC breaks, they search on their phone and they are impatient. If your website takes more than three seconds to load, they hit the back button and call the next result. A slow website costs you calls every single day.
+            </p>
+
+            <h3>6. Poor Mobile Experience</h3>
+            <p>
+              Over 60% of local service searches happen on mobile phones. If your website is not fully responsive \u2014 if text is too small, buttons are hard to tap, or the phone number is not clickable \u2014 visitors leave immediately. Google uses mobile-first indexing, meaning it ranks your site based on its mobile version. A poor mobile experience means poor rankings and fewer calls.
+            </p>
+
+            <h3>7. Weak Calls-to-Action</h3>
+            <p>
+              Even if someone finds your website, do they know what to do next? If your phone number is buried at the bottom of the page, your <em>"Call Now"</em> button is missing, or your contact form is too long, visitors leave without calling. A clear, prominent call-to-action on every page is essential for converting visitors into calls.
+            </p>
+
+            <h3>8. Lack of Google Reviews</h3>
+            <img src="https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing few reviews for an HVAC business not getting calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Reviews are one of the strongest local ranking factors and one of the strongest conversion factors. When a homeowner compares three HVAC companies on Google Maps, they call the one with the most and best reviews. If you have 5 reviews and your competitor has 80, you lose the call \u2014 even if your service is better.
+            </p>
+
+            <h3>9. Technical SEO Problems</h3>
+            <p>
+              Broken links, missing schema markup, no XML sitemap, duplicate content, and crawl errors all prevent Google from properly indexing your website. If Google cannot crawl and understand your site, your pages will not rank. Our <a href="/technical-seo/">Technical SEO services</a> diagnose and fix these issues so your site can actually be found.
+            </p>
+
+            <h3>10. Strong Local Competition</h3>
+            <p>
+              If your competitors are actively investing in SEO \u2014 optimizing their Google Business Profiles, publishing content, earning reviews, and building backlinks \u2014 they are pulling ahead while you stand still. The HVAC companies that invest consistently in local SEO dominate the top of Google and capture the majority of service calls in their market.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: '10-ways-to-get-calls',
+        heading: '10 Practical Ways to Get More HVAC Calls',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing an air conditioning system, representing practical ways to get more HVAC calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Now that you know what is holding your business back, here are ten practical fixes to start getting more phone calls from Google.
+            </p>
+
+            <h3>1. Optimize Your Google Business Profile</h3>
+            <p>
+              Claim your profile, set your primary category to HVAC Contractor, fill out every section completely, list all your service areas, upload real photos of your trucks and technicians, and post weekly updates about seasonal maintenance or promotions. A complete, active profile signals to Google that you are a legitimate, working business. This is the single fastest way to improve your local visibility.
+            </p>
+
+            <h3>2. Improve Local SEO</h3>
+            <p>
+              Add local schema markup to your website, ensure your NAP is consistent across Google, Yelp, Facebook, and every directory, and create dedicated pages for each service area. Without consistent local SEO signals, Google does not know which areas to show your business for. <a href="/local-seo/">Our Local SEO services</a> handle all of this for you.
+            </p>
+
+            <h3>3. Create Service Area Pages</h3>
+            <p>
+              Build a dedicated page for each city or neighborhood you serve. Include the area name in the title tag, H1, and body content. Write about the services you offer in that area, common HVAC issues there, and why local homeowners should choose you. Each page should have at least 500 words of unique content. This is one of the most effective ways to rank for local searches across multiple areas.
+            </p>
+
+            <h3>4. Target High-Intent Keywords</h3>
+            <p>
+              Focus on keywords that capture people who need service right now: <em>"AC repair near me"</em>, <em>"emergency HVAC [city]"</em>, <em>"furnace replacement [neighborhood]"</em>, <em>"air conditioning installation [city]"</em>. These high-intent, local keywords have lower competition and much higher conversion rates than broad terms. Build a list of 20 to 30 and map each one to a specific page on your website.
+            </p>
+
+            <h3>5. Publish Helpful HVAC Blogs</h3>
+            <p>
+              Start a blog that answers the questions homeowners ask Google. Write about maintenance tips, when to repair vs. replace, how to lower energy bills, and signs your AC needs service. Each post is a new page that can rank for a different keyword and attract a potential customer before they need emergency service. Aim for one or two posts per month.
+            </p>
+
+            <h3>6. Collect More Reviews</h3>
+            <img src="https://images.pexels.com/photos/6476758/pexels-photo-6476758.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner giving a review to an HVAC technician after a successful service call" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Ask every customer for a review after the job is done. Send a text message with a direct link to your Google review page while the experience is fresh. Aim for at least two new reviews per week. Respond to every review within 24 hours. More recent, more positive reviews mean higher Google Maps rankings and more calls.
+            </p>
+
+            <h3>7. Improve Website Speed</h3>
+            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for an HVAC business website on mobile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Test your site with Google PageSpeed Insights. Compress all images, use fast hosting, enable caching, and minify CSS and JavaScript. Aim for a mobile score above 80 and a load time under three seconds. A <a href="/website-design/">professionally designed HVAC website</a> should be fast and mobile-friendly by default.
+            </p>
+
+            <h3>8. Build Local Backlinks</h3>
+            <p>
+              Earn backlinks from local businesses, community organizations, trade associations, and local news outlets. Sponsor a Little League team, join the chamber of commerce, and partner with complementary businesses like plumbers and electricians. Each local backlink tells Google that your business is a trusted, established part of the community.
+            </p>
+
+            <h3>9. Add Strong Calls-to-Action</h3>
+            <p>
+              Make your phone number visible at the top of every page. Use click-to-call buttons that work on mobile. Add a <em>"Call Now"</em> or <em>"Book Service"</em> button above the fold on every page. Keep your contact form short \u2014 name, phone, and a one-line description of the problem. The easier you make it to call, the more calls you will get.
+            </p>
+
+            <h3>10. Track SEO Performance</h3>
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing search performance and call tracking for an HVAC business" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows which keywords bring traffic and where there are technical issues. Check your data monthly, track your keyword rankings, and monitor your Google Maps position. A quarterly <a href="/seo-audit/">SEO Audit</a> keeps your strategy on track and finds new opportunities before competitors do.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'checklist',
+        heading: 'HVAC SEO Checklist',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Use this checklist to make sure you have covered every essential SEO tactic for your HVAC business:
+            </p>
+            <ul>
+              <li>Google Business Profile claimed, verified, and fully completed</li>
+              <li>Primary category set to HVAC Contractor with relevant secondary categories</li>
+              <li>Service areas and hours listed correctly on your profile</li>
+              <li>At least 10 real photos uploaded to your Google Business Profile</li>
+              <li>Weekly updates posted to your Google Business Profile</li>
+              <li>Local keyword research completed with 20 to 30 high-intent target keywords</li>
+              <li>Dedicated service area page for each city or neighborhood you serve</li>
+              <li>Unique title tags and meta descriptions on every page</li>
+              <li>Blog content published at least once per month</li>
+              <li>Technical SEO audit completed (schema, sitemap, crawlability)</li>
+              <li>Website loads in under 3 seconds on mobile</li>
+              <li>Website is fully mobile-responsive with click-to-call buttons</li>
+              <li>Phone number visible at the top of every page</li>
+              <li>Strong call-to-action on every page (Call Now or Book Service)</li>
+              <li>NAP consistent across Google, Yelp, Facebook, and all directories</li>
+              <li>Local backlinks earned from chamber of commerce, associations, and community sites</li>
+              <li>Review request system sending texts to every customer after service</li>
+              <li>At least 2 new Google reviews per week</li>
+              <li>All reviews responded to within 24 hours</li>
+              <li>Google Search Console and Analytics set up and monitored monthly</li>
+              <li>Quarterly SEO audit to find new opportunities and fix issues</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'faq',
+        heading: 'Frequently Asked Questions',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Here are answers to the most common questions HVAC business owners ask about getting more calls and leads from Google.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'final-summary',
+        heading: 'Final Summary',
+        body: (
+          <div className="space-y-4">
+            <p>
+              If your HVAC business isn't getting calls, the cause is almost always one or more of ten issues: a poor Google Business Profile, weak local SEO, low Google Maps visibility, wrong keyword targeting, a slow website, poor mobile experience, weak calls-to-action, lack of reviews, technical SEO problems, or strong local competition. The good news is that every one of these is fixable.
+            </p>
+            <p>
+              Start with your Google Business Profile. Improve your local SEO. Create service area pages. Target high-intent keywords. Publish helpful content. Collect more reviews. Speed up your website. Build local backlinks. Add strong calls-to-action. Track your performance. Do these things consistently and your phone will start ringing with qualified service calls from homeowners who found you on Google.
+            </p>
+            <p>
+              If you want this done right without spending your evenings learning Google's algorithm \u2014 <a href="/contact/">contact Rank Flow Agency for a free SEO audit</a>. We will analyze your current rankings, identify the biggest opportunities in your market, and build a custom SEO strategy to get your phone ringing. Plans start at $99/month.
+            </p>
+          </div>
+        ),
+      },
+    ],
+    faqs: [
+      { q: "Why isn't my HVAC business getting phone calls anymore?", a: 'The most common causes are an unoptimized Google Business Profile, weak local SEO, low Google Maps visibility, slow website, poor mobile experience, and lack of reviews. When homeowners search for HVAC service, they call one of the first three businesses on Google. If you are not in the top three, you are not getting the call.' },
+      { q: 'How long does it take to start getting more HVAC calls after fixing SEO?', a: 'Optimizing your Google Business Profile can improve your Maps ranking within 2 to 4 weeks, which often produces a noticeable increase in calls quickly. Technical SEO fixes and content publishing typically take 3 to 6 months for significant organic traffic growth. The sooner you start, the faster the calls come.' },
+      { q: 'Can I do HVAC SEO myself?', a: 'You can handle the basics \u2014 claiming your Google Business Profile, asking for reviews, and publishing blog content. However, keyword research, technical SEO, schema markup, and backlink building require specialized knowledge. Most HVAC owners benefit from hiring a professional so they can focus on service calls instead of learning Google\u2019s algorithm.' },
+      { q: 'How many Google reviews do I need to get more calls?', a: 'HVAC businesses in the top 3 Google Maps results typically have 50 or more reviews. But recency matters more than total count \u2014 twenty reviews in the last three months is better than a hundred from two years ago. Aim for at least two new reviews per week and respond to every one within 24 hours.' },
+      { q: "What's the fastest way to get more HVAC calls?", a: 'The fastest wins come from optimizing your Google Business Profile, adding click-to-call buttons to your website, and fixing technical SEO errors. These can produce noticeable improvements within 2 to 4 weeks. For sustained, long-term call growth, creating service area pages and publishing helpful content is the most effective strategy.' },
+      { q: 'Does my website speed affect how many calls I get?', a: 'Yes. When someone\u2019s AC breaks, they search on their phone and they are impatient. If your website takes more than three seconds to load, they hit the back button and call the next result. Google also uses page speed as a ranking factor, so a slow website means lower rankings and fewer calls.' },
+      { q: 'Should I use Google Ads or SEO for my HVAC business?', a: 'Both work well together. Google Ads give you immediate visibility while your SEO builds. The advantage of SEO is that calls keep coming even after you stop spending, while ads stop the moment you pause your budget. For long-term lead generation and lower cost per call, SEO is more cost-effective.' },
+      { q: 'How do I know if my HVAC SEO is working?', a: 'Set up Google Search Console and Google Analytics. Track your keyword rankings, monitor your Google Maps position weekly, count how many calls per week mention they found you on Google, and watch your website traffic grow. If calls and traffic are increasing month over month, your SEO strategy is working.' },
     ],
   },
 };

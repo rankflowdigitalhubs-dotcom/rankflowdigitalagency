@@ -402,6 +402,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Best SEO Strategy for Realtors: 10 Steps to Rank Higher on Google & Get More Leads',
     path: '/blog/best-seo-strategy-for-realtors/',
   },
+  '/blog/why-isnt-my-hvac-business-getting-calls/': {
+    title: "Why Isn't My HVAC Business Getting Calls? (10 Reasons & 10 Fixes)",
+    description: "Discover why your HVAC business isn't getting calls. Learn the 10 most common SEO and local marketing issues and 10 proven fixes to increase phone calls and bookings.",
+    h1: "Why Isn't My HVAC Business Getting Calls?",
+    path: '/blog/why-isnt-my-hvac-business-getting-calls/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
