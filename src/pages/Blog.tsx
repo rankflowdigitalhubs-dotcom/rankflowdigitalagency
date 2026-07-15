@@ -1,53 +1,94 @@
-import { Clock, ArrowRight, Calendar } from 'lucide-react';
+import { Clock, ArrowRight, Calendar, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useState, useEffect } from 'react';
 import { Link } from '../router';
 import { SEO, breadcrumbSchema } from '../seo';
 import { PageHero, CTASection } from '../components';
 import { blogPosts } from '../data';
 
-export default function Blog() {
+const POSTS_PER_PAGE = 10;
+
+export default function Blog({ page = 1 }: { page?: number }) {
+  const totalPages = Math.ceil(blogPosts.length / POSTS_PER_PAGE);
+  const currentPage = Math.min(Math.max(1, page), totalPages);
+
   const [featured, ...rest] = blogPosts;
+  const isPageOne = currentPage === 1;
+
+  // Page 1: featured post + first 9 from rest (10 total)
+  // Page 2+: 10 posts from the appropriate slice
+  let postsToShow: typeof blogPosts;
+  if (isPageOne) {
+    postsToShow = rest.slice(0, POSTS_PER_PAGE - 1);
+  } else {
+    const offset = (currentPage - 1) * POSTS_PER_PAGE - 1;
+    postsToShow = blogPosts.slice(offset + 1, offset + 1 + POSTS_PER_PAGE);
+  }
+
+  const basePath = '/blog';
+  const pagePath = isPageOne ? `${basePath}/` : `${basePath}/page/${currentPage}/`;
+  const pageTitle = isPageOne
+    ? 'SEO Blog — Guides, Tips & Strategies | Rank Flow Digital'
+    : `SEO Blog Page ${currentPage} — Guides, Tips & Strategies | Rank Flow Digital`;
+  const pageDesc = isPageOne
+    ? 'Actionable SEO guides, tips, and strategies from our team of experts. Learn how to rank higher, get more traffic, and grow your business.'
+    : `Browse page ${currentPage} of our SEO blog — actionable guides, tips, and strategies to help you rank higher, get more traffic, and grow your business.`;
+
+  // Scroll to top on page change
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' as ScrollBehavior });
+  }, [currentPage]);
+
   return (
     <>
       <SEO
-        title="Blog"
-        description="SEO insights, guides, and playbooks from Rank Flow Digital. Learn local SEO, technical SEO, link building, content marketing, web design, and more."
-        path="/blog"
-        schema={breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Blog', path: '/blog' }])}
+        title={pageTitle}
+        description={pageDesc}
+        path={isPageOne ? '/blog' : `/blog/page/${currentPage}/`}
+        schema={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Blog', path: '/blog' },
+          ...(isPageOne ? [] : [{ name: `Page ${currentPage}`, path: `/blog/page/${currentPage}/` }]),
+        ])}
       />
       <PageHero
         eyebrow="Blog & Insights"
         title={<>Learn from the <span className="text-gradient">experts</span></>}
         subtitle="Actionable SEO and digital marketing insights you can use today."
-        breadcrumbs={[{ name: 'Home', path: '/' }, { name: 'Blog', path: '/blog' }]}
+        breadcrumbs={[
+          { name: 'Home', path: '/' },
+          { name: 'Blog', path: '/blog' },
+          ...(isPageOne ? [] : [{ name: `Page ${currentPage}`, path: `/blog/page/${currentPage}/` }]),
+        ]}
       />
 
       <section className="container-x py-12">
-        {/* Featured */}
-        <Link to={`/blog/${featured.slug}/`} className="group grad-border lift block reveal">
-          <div className="grid items-stretch gap-0 rounded-3xl lg:grid-cols-2">
-            <div className="relative h-64 overflow-hidden rounded-t-3xl lg:rounded-l-3xl lg:rounded-tr-none">
-              <img src={featured.img} alt={featured.title} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
-              <div className="absolute inset-0 bg-gradient-to-t from-ink-950/70 to-transparent" />
-              <span className="absolute left-5 top-5 rounded-full bg-brand-500/90 px-3 py-1 text-xs font-semibold text-white">Featured</span>
-            </div>
-            <div className="rounded-b-3xl bg-white/[0.03] p-8 lg:rounded-r-3xl lg:rounded-bl-none">
-              <div className="flex items-center gap-3 text-xs text-slate-400">
-                <span className="rounded-full bg-brand-500/15 px-3 py-1 font-semibold text-brand-300">{featured.category}</span>
-                <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5" /> {featured.date}</span>
-                <span className="flex items-center gap-1"><Clock className="h-3.5 w-3.5" /> {featured.readTime}</span>
+        {isPageOne && (
+          <Link to={`/blog/${featured.slug}/`} className="group grad-border lift block reveal">
+            <div className="grid items-stretch gap-0 rounded-3xl lg:grid-cols-2">
+              <div className="relative h-64 overflow-hidden rounded-t-3xl lg:rounded-l-3xl lg:rounded-tr-none">
+                <img src={featured.img} alt={featured.title} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink-950/70 to-transparent" />
+                <span className="absolute left-5 top-5 rounded-full bg-brand-500/90 px-3 py-1 text-xs font-semibold text-white">Featured</span>
               </div>
-              <h2 className="mt-4 text-2xl font-bold text-white sm:text-3xl">{featured.title}</h2>
-              <p className="mt-3 text-slate-400">{featured.excerpt}</p>
-              <span className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-300">
-                Read Article <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </span>
+              <div className="rounded-b-3xl bg-white/[0.03] p-8 lg:rounded-r-3xl lg:rounded-bl-none">
+                <div className="flex items-center gap-3 text-xs text-slate-400">
+                  <span className="rounded-full bg-brand-500/15 px-3 py-1 font-semibold text-brand-300">{featured.category}</span>
+                  <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5" /> {featured.date}</span>
+                  <span className="flex items-center gap-1"><Clock className="h-3.5 w-3.5" /> {featured.readTime}</span>
+                </div>
+                <h2 className="mt-4 text-2xl font-bold text-white sm:text-3xl">{featured.title}</h2>
+                <p className="mt-3 text-slate-400">{featured.excerpt}</p>
+                <span className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-300">
+                  Read Article <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </span>
+              </div>
             </div>
-          </div>
-        </Link>
+          </Link>
+        )}
 
         {/* Grid */}
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {rest.map((post, i) => (
+          {postsToShow.map((post, i) => (
             <Link key={post.slug} to={`/blog/${post.slug}/`} className={`group grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
               <div className="overflow-hidden rounded-3xl">
                 <div className="relative h-48 overflow-hidden rounded-t-3xl">
@@ -70,6 +111,53 @@ export default function Blog() {
             </Link>
           ))}
         </div>
+
+        {/* Pagination */}
+        {totalPages > 1 && (
+          <nav className="mt-12 flex items-center justify-center gap-2" aria-label="Blog pagination">
+            <Link
+              to={currentPage <= 2 ? '/blog/' : `/blog/page/${currentPage - 1}/`}
+              className={`flex items-center gap-1.5 rounded-xl border px-4 py-2.5 text-sm font-medium transition-all ${
+                currentPage === 1
+                  ? 'pointer-events-none border-white/5 bg-white/[0.02] text-slate-600 opacity-40'
+                  : 'border-white/10 bg-white/[0.03] text-slate-300 hover:border-brand-500/50 hover:bg-brand-500/10 hover:text-brand-300'
+              }`}
+              aria-disabled={currentPage === 1}
+            >
+              <ChevronLeft className="h-4 w-4" /> Previous
+            </Link>
+
+            <div className="flex items-center gap-1.5">
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => (
+                <Link
+                  key={pageNum}
+                  to={pageNum === 1 ? '/blog/' : `/blog/page/${pageNum}/`}
+                  className={`flex h-10 min-w-10 items-center justify-center rounded-xl border px-3 text-sm font-semibold transition-all ${
+                    pageNum === currentPage
+                      ? 'border-brand-500 bg-brand-500 text-white shadow-lg shadow-brand-500/25'
+                      : 'border-white/10 bg-white/[0.03] text-slate-300 hover:border-brand-500/50 hover:bg-brand-500/10 hover:text-brand-300'
+                  }`}
+                  aria-label={`Go to page ${pageNum}`}
+                  aria-current={pageNum === currentPage ? 'page' : undefined}
+                >
+                  {pageNum}
+                </Link>
+              ))}
+            </div>
+
+            <Link
+              to={currentPage >= totalPages - 1 ? '/blog/' : `/blog/page/${currentPage + 1}/`}
+              className={`flex items-center gap-1.5 rounded-xl border px-4 py-2.5 text-sm font-medium transition-all ${
+                currentPage === totalPages
+                  ? 'pointer-events-none border-white/5 bg-white/[0.02] text-slate-600 opacity-40'
+                  : 'border-white/10 bg-white/[0.03] text-slate-300 hover:border-brand-500/50 hover:bg-brand-500/10 hover:text-brand-300'
+              }`}
+              aria-disabled={currentPage === totalPages}
+            >
+              Next <ChevronRight className="h-4 w-4" />
+            </Link>
+          </nav>
+        )}
       </section>
 
       {/* Quick links */}

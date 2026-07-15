@@ -58,6 +58,24 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Rank Flow Digital Blog',
     path: '/blog/',
   },
+  '/blog/page/2/': {
+    title: 'SEO Blog Page 2 — Guides, Tips & Strategies | Rank Flow Digital',
+    description: 'Browse page 2 of our SEO blog — actionable guides, tips, and strategies to help you rank higher, get more traffic, and grow your business.',
+    h1: 'Rank Flow Digital Blog — Page 2',
+    path: '/blog/page/2/',
+  },
+  '/blog/page/3/': {
+    title: 'SEO Blog Page 3 — Guides, Tips & Strategies | Rank Flow Digital',
+    description: 'Browse page 3 of our SEO blog — actionable guides, tips, and strategies to help you rank higher, get more traffic, and grow your business.',
+    h1: 'Rank Flow Digital Blog — Page 3',
+    path: '/blog/page/3/',
+  },
+  '/blog/page/4/': {
+    title: 'SEO Blog Page 4 — Guides, Tips & Strategies | Rank Flow Digital',
+    description: 'Browse page 4 of our SEO blog — actionable guides, tips, and strategies to help you rank higher, get more traffic, and grow your business.',
+    h1: 'Rank Flow Digital Blog — Page 4',
+    path: '/blog/page/4/',
+  },
   '/contact/': {
     title: 'Contact Us — Get Your Free SEO Audit | Rank Flow Digital',
     description: 'Ready to grow your organic traffic? Contact Rank Flow Digital for a free SEO audit and consultation. Let us show you the path to higher rankings.',

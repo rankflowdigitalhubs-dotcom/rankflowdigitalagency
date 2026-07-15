@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useRoute } from './router';
+import { useRoute, navigate } from './router';
 import { Loader, Cursor, Navbar, Footer, BackToTop } from './components';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -63,7 +63,16 @@ function App() {
     if (path === '/portfolio') return <Portfolio />;
     if (path === '/case-studies') return <CaseStudies />;
     if (path === '/pricing') return <Pricing />;
-    if (path === '/blog') return <Blog />;
+    if (path === '/blog' || path === '/blog/') return <Blog page={1} />;
+    const blogPageMatch = path.match(/^\/blog\/page\/(\d+)$/);
+    if (blogPageMatch) {
+      const pageNum = parseInt(blogPageMatch[1], 10);
+      if (pageNum === 1) {
+        navigate('/blog/');
+        return null;
+      }
+      return <Blog page={pageNum} />;
+    }
     if (path.startsWith('/blog/')) {
       const slug = path.replace('/blog/', '');
       return <BlogPost slug={slug} />;
