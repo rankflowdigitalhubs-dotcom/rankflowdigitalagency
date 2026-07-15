@@ -420,6 +420,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Local SEO for HVAC Contractors',
     path: '/blog/local-seo-for-hvac-contractors/',
   },
+  '/blog/google-business-profile-tips-for-hvac-companies/': {
+    title: 'Google Business Profile Tips for HVAC Companies: 10 Ways to Get More Calls',
+    description: 'A complete guide to Google Business Profile for HVAC companies. Learn 10 proven tips to optimize your profile, improve Google Maps rankings, and generate more phone calls.',
+    h1: 'Google Business Profile Tips for HVAC Companies',
+    path: '/blog/google-business-profile-tips-for-hvac-companies/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {

@@ -979,6 +979,7 @@ export const blogPosts = [
   { slug: 'why-isnt-my-hvac-business-getting-calls', title: "Why Isn't My HVAC Business Getting Calls? (10 Reasons & 10 Fixes)", category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Leo', excerpt: "Discover why your HVAC business isn't getting calls. Learn the 10 most common SEO and local marketing issues and 10 proven fixes to increase phone calls and bookings.", img: 'https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'hvac-seo-how-to-get-more-customers-from-google', title: 'HVAC SEO: How to Get More Customers From Google (10 Proven Strategies)', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Jack', excerpt: 'A complete HVAC SEO guide. Learn 10 proven strategies to rank higher on Google and Google Maps, optimize your Google Business Profile, and generate more qualified HVAC customers.', img: 'https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-for-hvac-contractors', title: 'Local SEO for HVAC Contractors: 10 Strategies to Rank Higher on Google Maps', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Emily', excerpt: 'A complete local SEO guide for HVAC contractors. Learn 10 proven strategies to rank higher on Google Maps, optimize your Google Business Profile, and generate more local service calls.', img: 'https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'google-business-profile-tips-for-hvac-companies', title: 'Google Business Profile Tips for HVAC Companies: 10 Ways to Get More Calls', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Leo', excerpt: 'A complete guide to Google Business Profile for HVAC companies. Learn 10 proven tips to optimize your profile, improve Google Maps rankings, and generate more phone calls.', img: 'https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200' },
 ];
 
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
@@ -11254,6 +11255,238 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       { q: 'How much does local SEO cost for an HVAC business?', a: 'Professional local SEO services typically range from $500 to $2,500 per month depending on your market size and competition. At Rank Flow Agency, our plans start at $99/month, making professional local SEO accessible for small HVAC companies and solo contractors.' },
       { q: 'Should I use Google Ads or local SEO for my HVAC business?', a: 'Both work well together. Google Ads give you immediate visibility while your local SEO builds. The advantage of local SEO is that customers keep coming even after you stop spending, while ads stop the moment you pause your budget. For long-term lead generation and lower cost per customer, local SEO is more cost-effective.' },
       { q: 'How do I know if my HVAC local SEO is working?', a: 'Set up Google Search Console and Google Analytics. Track your keyword rankings, monitor your Google Maps position weekly, count how many calls per week mention they found you on Google, and watch your website traffic grow. If calls and traffic are increasing month over month, your local SEO strategy is working.' },
+    ],
+  },
+
+  'google-business-profile-tips-for-hvac-companies': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Google Business Profile Tips for HVAC Companies',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician working with a customer on an air conditioning installation, representing Google Business Profile tips for HVAC companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              When a homeowner's air conditioner quits on the hottest day of the year, they do not flip through the Yellow Pages. They grab their phone, type <em>"AC repair near me"</em> into Google, and call one of the first three businesses that show up in the Maps pack. Those three spots are decided almost entirely by one thing: your Google Business Profile. If your profile is incomplete, inactive, or unoptimized, you are invisible at the exact moment a customer needs you.
+            </p>
+            <p>
+              The HVAC companies that consistently dominate the Google Maps pack are not there by luck. They have claimed their profile, filled out every field, uploaded real photos, collected reviews, and posted regular updates. They treat their Google Business Profile like the marketing asset it is \u2014 because it is the single biggest driver of phone calls for a local HVAC business.
+            </p>
+            <p>
+              This guide walks you through ten proven <strong>Google Business Profile tips for HVAC companies</strong> that will help you rank higher on Google Maps, build trust with homeowners, and generate more qualified service calls. Whether you implement these yourself or bring in <a href="/">Rank Flow Agency</a> to handle the work, these are the exact tactics that move the needle.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'why-gbp-essential-hvac',
+        heading: 'Why Google Business Profile Is Essential for HVAC Companies',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing HVAC businesses, demonstrating why Google Business Profile is essential for HVAC companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Your Google Business Profile is the foundation of your entire local search presence. It is what powers the Google Maps pack \u2014 those three businesses that appear at the top of local search results and capture the majority of clicks and calls. Without a properly optimized profile, your HVAC company will not appear in the Maps pack, no matter how good your website is.
+            </p>
+            <p>
+              HVAC is an emergency business. When the furnace dies in January or the AC fails in July, customers need help immediately. They search Google, they call the first reputable-looking company they find, and they book. There is no time for comparison shopping. The companies with the most complete, most active, and best-reviewed Google Business Profiles win those calls.
+            </p>
+            <p>
+              Unlike paid ads that stop the moment you stop paying, a well-optimized Google Business Profile keeps producing calls month after month at no cost. It is the highest-ROI marketing asset for a local HVAC business. <a href="/local-seo/">Our Local SEO services</a> include full Google Business Profile optimization as a core component.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: '10-gbp-tips',
+        heading: '10 Google Business Profile Tips for HVAC Companies',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Here are ten tips that form a complete Google Business Profile optimization plan for your HVAC company. Work through them in order \u2014 each one builds on the last.
+            </p>
+
+            <h3>1. Choose the Correct Business Category</h3>
+            <img src="https://images.pexels.com/photos/6476758/pexels-photo-6476758.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing business category selection for an HVAC company" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Your primary business category is the single most important ranking factor on your Google Business Profile. For HVAC companies, set your primary category to <em>"HVAC Contractor"</em> \u2014 not <em>"Air Conditioning Contractor"</em> or <em>"Plumber"</em>. The primary category tells Google exactly what your business does and determines which searches you appear for.
+            </p>
+            <p>
+              Add relevant secondary categories like <em>"Air Conditioning Repair Service"</em>, <em>"Heating Contractor"</em>, or <em>"Furnace Repair Service"</em>. Do not add categories for services you do not offer \u2014 Google penalizes irrelevant categories. Choose the most specific primary category and a handful of accurate secondary categories.
+            </p>
+
+            <h3>2. Complete Every Business Information Field</h3>
+            <p>
+              Google ranks businesses with complete profiles higher than those with sparse ones. Fill out every single field: business name, address, phone number, website, service areas, hours, attributes (women-led, veteran-led, etc.), and the services section. Every field you leave blank is a missed opportunity to tell Google more about your business and improve your ranking.
+            </p>
+            <p>
+              Make sure your phone number matches exactly what is on your website and every directory. Inconsistent phone numbers confuse Google and drop your Maps ranking. List every city and neighborhood you serve in the service areas section \u2014 this tells Google which geographic areas to show your business for.
+            </p>
+
+            <h3>3. Add Professional HVAC Photos</h3>
+            <img src="https://images.pexels.com/photos/6476760/pexels-photo-6476760.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing an air conditioning unit, representing professional photos for a Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Businesses with more photos get more calls. Upload real photos of your trucks, your technicians in uniform, job sites, before-and-after shots of installations, and your office. Do not use stock photos \u2014 Google can tell, and homeowners can too. Real photos build trust and signal to Google that you are an active, working business.
+            </p>
+            <p>
+              Aim for at least 10 to 15 photos minimum. Add new photos monthly \u2014 Google rewards profiles that are regularly updated. Include photos of your team, your service area, and recent completed jobs. Each photo is another signal to Google that your business is active and legitimate.
+            </p>
+
+            <h3>4. Write an SEO-Friendly Business Description</h3>
+            <p>
+              Your business description is a 750-character opportunity to include your target keywords and tell homeowners why they should call you. Write naturally \u2014 do not keyword stuff. Include your city, the areas you serve, your specialties (AC repair, furnace installation, emergency service), and what sets you apart.
+            </p>
+            <p>
+              For example: <em>"Smith Heating & Cooling is a family-owned HVAC contractor serving [City] and the surrounding areas. We specialize in AC repair, furnace installation, and emergency HVAC service for homeowners across [County]. With 20 years of experience and a 5-star rating, we are the trusted choice for heating and cooling in [City]."</em> This includes your keywords naturally while demonstrating real expertise.
+            </p>
+
+            <h3>5. Add All HVAC Services</h3>
+            <p>
+              The services section lets you list every service you offer with a description and price range. Add all of them \u2014 AC repair, AC installation, furnace repair, furnace installation, heat pump service, duct cleaning, maintenance plans, emergency service, and more. Each service is another keyword signal to Google and another way for homeowners to find you.
+            </p>
+            <p>
+              Write a unique description for each service. Include the service name, what it includes, and the areas where you offer it. This helps Google match your profile to more specific searches like <em>"furnace installation in [city]"</em> or <em>"emergency AC repair [neighborhood]"</em>.
+            </p>
+
+            <h3>6. Collect More Google Reviews</h3>
+            <img src="https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner leaving a Google review for an HVAC company after a successful service call" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Reviews are one of the strongest local ranking factors and one of the strongest conversion factors. When a homeowner compares three HVAC companies on Google Maps, they call the one with the most and best reviews. Google's algorithm does the same \u2014 more recent, more positive reviews mean higher rankings.
+            </p>
+            <p>
+              Ask every customer for a review after the job is done. Send a text message with a direct link to your Google review page while the experience is fresh. Aim for at least two new reviews per week. The HVAC companies in the top 3 Google Maps results typically have 50 or more reviews \u2014 but recency matters more than total count.
+            </p>
+
+            <h3>7. Respond to Every Review</h3>
+            <p>
+              Responding to reviews shows Google and potential customers that you are active and engaged. Respond to every review \u2014 positive and negative \u2014 within 24 hours. Thank customers for positive reviews by name and mention the specific service you provided. For negative reviews, acknowledge the issue, apologize professionally, and offer to make it right.
+            </p>
+            <p>
+              Never argue with a customer in a review response. Potential customers are reading your responses to judge how you handle problems. A calm, professional response to a negative review can actually win you more calls than a perfect 5-star rating with no responses at all.
+            </p>
+
+            <h3>8. Publish Weekly Google Posts</h3>
+            <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC company office with a technician creating a Google Business Profile post about seasonal maintenance" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Google Posts are short updates that appear on your Google Business Profile and in local search results. Use them to announce seasonal promotions (tune-up specials before summer, furnace inspections before winter), share maintenance tips, or highlight a recent completed job. Posts keep your profile active and signal to Google that your business is operating.
+            </p>
+            <p>
+              Publish at least one post per week. Each post can include a photo, a short description, and a call-to-action button like <em>"Call Now"</em> or <em>"Book Online"</em>. Posts expire after seven days, so consistency is key \u2014 a profile with fresh posts every week outranks one that has not been updated in months.
+            </p>
+
+            <h3>9. Keep Business Hours Updated</h3>
+            <p>
+              Accurate business hours are critical. If a homeowner sees you are open and calls only to reach voicemail, they call the next business. Update your hours for holidays, seasonal changes, and emergency service availability. If you offer 24/7 emergency service, make sure that is clearly stated \u2014 it is a major competitive advantage for HVAC companies.
+            </p>
+            <p>
+              Google uses your listed hours to decide whether to show your business in local search results. If your hours are wrong or outdated, Google may suppress your profile. Check your hours monthly and update them whenever your schedule changes.
+            </p>
+
+            <h3>10. Monitor Google Business Insights</h3>
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing Google Business Profile insights, search queries, and call data for an HVAC company" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Google Business Profile includes a free analytics dashboard called Insights. It shows you how many people viewed your profile, how many called, how many asked for directions, and what search terms they used to find you. This data tells you exactly what is working and what needs improvement.
+            </p>
+            <p>
+              Check your Insights monthly. Track your profile views, search queries, and call volume. If you see a drop in calls, check whether your hours are correct, your reviews have slowed, or your posts have stopped. A quarterly <a href="/seo-audit/">SEO Audit</a> that includes your Google Business Profile ensures you are not missing opportunities.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'common-gbp-mistakes',
+        heading: 'Common Google Business Profile Mistakes HVAC Companies Make',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6476757/pexels-photo-6476757.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common Google Business Profile mistakes that HVAC companies make, shown as a warning checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Even HVAC companies that have claimed their Google Business Profile make mistakes that quietly hold back their Maps rankings. Here are the most common ones to avoid:
+            </p>
+            <ul>
+              <li><strong>Wrong primary category:</strong> Choosing <em>"Air Conditioning Contractor"</em> instead of <em>"HVAC Contractor"</em> limits which searches you appear in.</li>
+              <li><strong>Incomplete profile:</strong> Leaving fields blank, no description, no services listed, no photos. Every blank field is a missed ranking opportunity.</li>
+              <li><strong>No photos or stock photos:</strong> Businesses with real photos get more calls. Stock photos look fake and do not build trust.</li>
+              <li><strong>Not asking for reviews:</strong> If you are not actively collecting reviews, competitors who are will outrank you and win the call.</li>
+              <li><strong>Not responding to reviews:</strong> Ignoring reviews \u2014 especially negative ones \u2014 signals to Google and customers that you are not engaged.</li>
+              <li><strong>No Google Posts:</strong> A profile with no recent posts looks inactive. Google rewards profiles that are regularly updated.</li>
+              <li><strong>Wrong or outdated hours:</strong> If customers call when you say you are open and get no answer, they call the next business. Google may also suppress your profile.</li>
+              <li><strong>Inconsistent phone number:</strong> A different phone number on Google than on your website or Yelp confuses the algorithm and drops your ranking.</li>
+              <li><strong>Keyword stuffing the description:</strong> Writing a description that is just a list of keywords looks spammy and can get your profile suspended.</li>
+              <li><strong>Ignoring Insights:</strong> If you are not checking your analytics, you cannot identify what is working and what needs fixing.</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'checklist',
+        heading: 'Google Business Profile Optimization Checklist',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Use this checklist to make sure you have covered every essential Google Business Profile optimization tactic for your HVAC company:
+            </p>
+            <ul>
+              <li>Google Business Profile claimed and verified</li>
+              <li>Primary category set to HVAC Contractor</li>
+              <li>Relevant secondary categories added (AC repair, heating, furnace, etc.)</li>
+              <li>Business name, address, and phone number accurate and consistent</li>
+              <li>Website link added and working</li>
+              <li>All service areas listed (cities and neighborhoods you serve)</li>
+              <li>Business hours accurate and updated for holidays</li>
+              <li>24/7 emergency service hours clearly stated if offered</li>
+              <li>SEO-friendly business description with target keywords (750 characters)</li>
+              <li>All HVAC services listed with unique descriptions</li>
+              <li>At least 10 to 15 real photos uploaded (trucks, technicians, job sites)</li>
+              <li>New photos added monthly</li>
+              <li>At least 2 new Google reviews per week</li>
+              <li>All reviews responded to within 24 hours</li>
+              <li>At least 1 Google Post published per week</li>
+              <li>Q&A section monitored and answered</li>
+              <li>Google Business Insights checked monthly</li>
+              <li>Phone number matches exactly across Google, website, and all directories</li>
+              <li>Quarterly profile audit to update information and find new opportunities</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'faq',
+        heading: 'Frequently Asked Questions',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Here are answers to the most common questions HVAC contractors ask about optimizing their Google Business Profile.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'final-summary',
+        heading: 'Final Summary',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6476753/pexels-photo-6476753.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowners with an HVAC technician after a successful AC repair, representing the results of a well-optimized Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Your Google Business Profile is the single most important local SEO asset for your HVAC company. It powers the Google Maps pack, builds trust with homeowners, and drives phone calls \u2014 all at no cost. Choosing the correct category, completing every field, adding real photos, writing an SEO-friendly description, listing all services, collecting reviews, responding to every review, posting weekly updates, keeping hours accurate, and monitoring Insights \u2014 these ten tips form a complete optimization strategy.
+            </p>
+            <p>
+              The HVAC companies that dominate Google Maps do not have a secret. They have a system. They keep their profile complete, active, and well-reviewed. They post weekly, they ask every customer for a review, and they respond within 24 hours. Do these things consistently and your HVAC company will climb the Google Maps rankings, build trust with homeowners, and generate more qualified service calls \u2014 without spending a dollar on ads.
+            </p>
+            <p>
+              If you want this done right without spending your evenings managing your Google Business Profile \u2014 <a href="/contact/">contact Rank Flow Agency for a free Google Business Profile audit</a>. We will analyze your current profile, identify the biggest opportunities for improvement, and build a custom optimization plan to get your phone ringing with qualified service calls. Plans start at $99/month.
+            </p>
+          </div>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'How long does it take for Google Business Profile optimization to improve my Maps ranking?', a: 'Optimizing your Google Business Profile can improve your Maps ranking within 2 to 4 weeks, often producing a noticeable increase in calls quickly. The fastest wins come from correcting your primary category, completing all fields, and adding fresh photos and posts. Review collection and regular posting compound over 3 to 6 months for sustained ranking growth.' },
+      { q: 'What is the most important field on my Google Business Profile?', a: 'Your primary business category is the most important field. For HVAC companies, set it to "HVAC Contractor" \u2014 not "Air Conditioning Contractor" or "Plumber." The primary category tells Google exactly what your business does and determines which searches you appear in. After that, your business description, services, and reviews are the next most important fields.' },
+      { q: 'How many Google reviews do I need to rank well on Google Maps?', a: 'HVAC companies in the top 3 Google Maps results typically have 50 or more reviews. But recency matters more than total count \u2014 twenty reviews in the last three months is better than a hundred from two years ago. Aim for at least two new reviews per week and respond to every one within 24 hours.' },
+      { q: 'Can I manage my Google Business Profile myself?', a: 'Yes, you can handle the basics \u2014 claiming your profile, filling out fields, uploading photos, and asking for reviews. However, keyword research, writing an SEO-friendly description, competitive analysis, and consistent weekly posting require time and expertise. Many HVAC owners benefit from professional help so they can focus on service calls instead of managing their profile.' },
+      { q: 'Do Google Posts really help my HVAC business rank higher?', a: 'Yes. Google Posts keep your profile active and signal to Google that your business is operating. Posts expire after seven days, so publishing at least one post per week keeps your profile fresh. Profiles with regular posts consistently outrank those that have not been updated in months. Posts also give you a free way to promote seasonal offers and maintenance specials.' },
+      { q: 'What happens if my phone number is different on Google than on my website?', a: 'Inconsistent phone numbers confuse Google and can drop your Google Maps ranking. Google uses your NAP (name, address, phone number) across the web to verify your business. If the phone number on your Google Business Profile does not match your website, Yelp, Facebook, and other directories, Google loses confidence in your business data and may suppress your profile.' },
+      { q: 'Should I use stock photos on my Google Business Profile?', a: 'No. Google can detect stock photos, and homeowners can tell they are not real. Businesses with real photos of their trucks, technicians, and job sites get more calls and rank higher. Upload genuine photos of your team in uniform, your service vehicles, before-and-after shots of installations, and completed job sites. Aim for at least 10 to 15 real photos.' },
+      { q: 'How do I know if my Google Business Profile is working?', a: 'Check your Google Business Insights dashboard monthly. It shows how many people viewed your profile, how many called, how many asked for directions, and what search terms they used to find you. If your profile views and call volume are increasing month over month, your optimization is working. A quarterly profile audit can help find new opportunities.' },
     ],
   },
 };
