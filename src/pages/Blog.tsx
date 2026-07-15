@@ -1,5 +1,5 @@
 import { Clock, ArrowRight, Calendar, ChevronLeft, ChevronRight } from 'lucide-react';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { Link } from '../router';
 import { SEO, breadcrumbSchema } from '../seo';
 import { PageHero, CTASection } from '../components';
@@ -24,8 +24,6 @@ export default function Blog({ page = 1 }: { page?: number }) {
     postsToShow = blogPosts.slice(offset + 1, offset + 1 + POSTS_PER_PAGE);
   }
 
-  const basePath = '/blog';
-  const pagePath = isPageOne ? `${basePath}/` : `${basePath}/page/${currentPage}/`;
   const pageTitle = isPageOne
     ? 'SEO Blog — Guides, Tips & Strategies | Rank Flow Digital'
     : `SEO Blog Page ${currentPage} — Guides, Tips & Strategies | Rank Flow Digital`;
