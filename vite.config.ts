@@ -486,6 +486,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Google Business Profile for Dental Clinics',
     path: '/blog/google-business-profile-for-dental-clinics/',
   },
+  '/blog/why-isnt-my-auto-repair-shop-showing-on-google/': {
+    title: "Why Isn't My Auto Repair Shop Showing on Google?",
+    description: 'Is your auto repair shop missing from Google Search and Google Maps? Learn the 10 most common SEO problems and 10 proven strategies to rank higher, attract more local customers, and increase phone calls.',
+    h1: "Why Isn't My Auto Repair Shop Showing on Google?",
+    path: '/blog/why-isnt-my-auto-repair-shop-showing-on-google/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {

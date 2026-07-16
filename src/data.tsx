@@ -987,6 +987,7 @@ export const blogPosts = [
   { slug: 'best-seo-strategy-for-cleaning-companies', title: 'Best SEO Strategy for Cleaning Companies', category: 'Local SEO', date: 'Jul 16, 2026', readTime: '14 min', author: 'Rank Flow Agency Team', excerpt: 'A complete SEO strategy for cleaning companies. Learn 10 proven steps to rank higher on Google, generate more phone calls, increase website traffic, and attract new customers without paid advertising.', img: 'https://images.pexels.com/photos/4239040/pexels-photo-4239040.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-for-dentists', title: 'Local SEO for Dentists', category: 'Local SEO', date: 'Jul 16, 2026', readTime: '13 min', author: 'Leo', excerpt: 'A complete local SEO guide for dentists and dental clinics. Learn 10 proven strategies to improve your visibility in Google Search and Google Maps, attract more local patients, and increase appointment bookings.', img: 'https://images.pexels.com/photos/5215028/pexels-photo-5215028.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'google-business-profile-for-dental-clinics', title: 'Google Business Profile for Dental Clinics', category: 'Local SEO', date: 'Jul 16, 2026', readTime: '12 min', author: 'Ella', excerpt: 'A complete guide to optimizing your Google Business Profile for dental clinics. Learn 10 proven ways to rank higher in Google Maps, receive more patient calls, and increase appointment bookings.', img: 'https://images.pexels.com/photos/5215044/pexels-photo-5215044.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'why-isnt-my-auto-repair-shop-showing-on-google', title: "Why Isn't My Auto Repair Shop Showing on Google?", category: 'Local SEO', date: 'Jul 16, 2026', readTime: '13 min', author: 'Jack', excerpt: 'Is your auto repair shop missing from Google Search and Google Maps? Learn the 10 most common SEO problems and 10 proven strategies to rank higher, attract more local customers, and increase phone calls.', img: 'https://images.pexels.com/photos/3806288/pexels-photo-3806288.jpeg?auto=compress&cs=tinysrgb&w=1200' },
 ];
 
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
@@ -13087,6 +13088,276 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       { q: 'How often should I post on my Google Business Profile?', a: 'Publish at least one Google Post per week. Posts expire after seven days, so a profile with no recent posts looks inactive to Google. Weekly posts about new treatments, patient success stories, seasonal offers, or dental health tips signal that your clinic is active and engaged, which helps maintain and improve your local search rankings.' },
       { q: 'Is Google Business Profile free for dental clinics?', a: 'Yes, Google Business Profile is completely free. You can claim, verify, and optimize your profile at no cost. There are no fees for adding photos, services, posts, or responding to reviews. The only investment is your time, or the cost of hiring a professional local SEO agency like Rank Flow Agency to manage and optimize your profile for you.' },
       { q: 'Can Rank Flow Agency optimize my Google Business Profile for my dental clinic?', a: 'Yes. Rank Flow Agency specializes in Google Business Profile optimization for dental clinics. We will audit your current profile, optimize every field, write an SEO-optimized description, set up a review collection system, publish weekly posts, and monitor your Insights. Contact us for a free Google Business Profile audit. Plans start at $99/month.' },
+    ],
+  },
+
+  'why-isnt-my-auto-repair-shop-showing-on-google': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: "Why Isn't My Auto Repair Shop Showing on Google?",
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/3806288/pexels-photo-3806288.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern auto repair shop with a mechanic working on a car, representing why auto repair shops struggle to show on Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              You built a website for your auto repair shop. You listed your services. You even set up a Google Business Profile. But when you search for <em>"auto repair near me"</em> or <em>"mechanic in [city],"</em> your shop is nowhere to be found. Instead, you see the same three or four competitors dominating the top of Google Search and Google Maps. Meanwhile, your phone stays quiet and your bays sit half-empty.
+            </p>
+            <p>
+              This is one of the most common frustrations auto repair shop owners face. You know you are good at what you do \u2014 your loyal customers will tell you that. But Google does not know. And if Google does not know, the hundreds of people searching for auto repair in your area every month will never find you. They will call the shop that shows up first, even if their work is not as good as yours.
+            </p>
+            <p>
+              The good news is that this is fixable. Your auto repair shop is not showing on Google for specific, identifiable reasons \u2014 and each one has a solution. This guide explains the ten most common reasons auto repair shops do not rank on Google, and then walks you through ten proven strategies to fix them. If you want professional help implementing these changes, <a href="/">Rank Flow Agency</a> specializes in local SEO for auto repair shops.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'why-your-shop-isnt-showing',
+        heading: 'Why Your Auto Repair Shop Isn\u2019t Showing on Google',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/3806289/pexels-photo-3806289.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Mechanic inspecting a car engine with diagnostic tools, representing common SEO problems for auto repair shops" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Before you can fix the problem, you need to understand what is causing it. Here are the ten most common reasons your auto repair shop is not showing up on Google Search or Google Maps:
+            </p>
+
+            <h3>1. Poor Google Business Profile</h3>
+            <img src="https://images.pexels.com/photos/3806294/pexels-photo-3806294.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Incomplete Google Business Profile for an auto repair shop with missing information and no photos" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              If your Google Business Profile is unclaimed, incomplete, or has the wrong category, Google will not show your shop in local searches. This is the number one reason auto repair shops do not appear on Google. A profile with no photos, no services listed, and no reviews signals to Google that your business is inactive or irrelevant.
+            </p>
+
+            <h3>2. Weak Local SEO</h3>
+            <img src="https://images.pexels.com/photos/3806297/pexels-photo-3806297.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Weak local SEO strategy for an auto repair shop showing low search rankings and few customer calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Local SEO is what gets your auto repair shop into the Google Maps pack. If you have not optimized your website for local searches \u2014 with location-specific keywords, local citations, and consistent NAP (name, address, phone) across the web \u2014 Google will not connect your shop to local searchers. <a href="/local-seo/">Our Local SEO services</a> can fix this.
+            </p>
+
+            <h3>3. Wrong Keyword Targeting</h3>
+            <img src="https://images.pexels.com/photos/3806298/pexels-photo-3806298.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wrong keyword targeting for an auto repair website showing generic terms instead of local auto repair keywords" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              If your website targets generic terms like <em>"auto repair"</em> instead of <em>"auto repair in [city]"</em> or <em>"brake repair near me,"</em> you are competing against every shop in the country instead of just the ones in your area. Local keywords are easier to rank for and bring in customers who are actually close enough to visit your shop.
+            </p>
+
+            <h3>4. Low Google Maps Visibility</h3>
+            <img src="https://images.pexels.com/photos/3806300/pexels-photo-3806300.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing auto repair shops, with one shop missing from the local map pack" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              The Google Maps pack \u2014 the three businesses shown at the top of local search results \u2014 gets over 60% of clicks. If your shop is not in that pack, most searchers will never see you. Low Maps visibility is usually caused by a weak Google Business Profile, few reviews, and poor local SEO signals.
+            </p>
+
+            <h3>5. Slow Website</h3>
+            <img src="https://images.pexels.com/photos/3806301/pexels-photo-3806301.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Slow auto repair website loading on a desktop computer, showing poor page speed performance" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Google uses page speed as a ranking factor. If your auto repair website takes more than three seconds to load, visitors leave and your rankings drop. Many auto repair shop websites are built on outdated templates with large unoptimized images, slow hosting, and no caching. A slow website is a silent ranking killer.
+            </p>
+
+            <h3>6. Mobile Usability Issues</h3>
+            <img src="https://images.pexels.com/photos/3806302/pexels-photo-3806302.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair website with poor mobile usability on a smartphone, showing broken layout and tiny text" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Over 60% of local searches for auto repair happen on mobile phones. If your website is not mobile-friendly \u2014 text too small, buttons too close together, layout broken on small screens \u2014 Google penalizes your rankings and visitors leave without calling. A poor mobile experience is one of the fastest ways to lose both rankings and customers.
+            </p>
+
+            <h3>7. Technical SEO Errors</h3>
+            <img src="https://images.pexels.com/photos/3806303/pexels-photo-3806303.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technical SEO errors on an auto repair website showing broken links, missing meta tags, and crawl issues" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Missing meta tags, broken links, no XML sitemap, duplicate content, no schema markup \u2014 these technical SEO errors prevent Google from properly crawling and indexing your website. Even great content will not rank if Google cannot read your site. <a href="/technical-seo/">Our Technical SEO services</a> can audit and fix these issues.
+            </p>
+
+            <h3>8. Thin Website Content</h3>
+            <img src="https://images.pexels.com/photos/3806304/pexels-photo-3806304.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Thin website content on an auto repair site showing minimal text and no service descriptions" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              If your website has one services page listing everything from oil changes to transmission rebuilds in a single paragraph, Google has very little content to rank. Each service needs its own page with 500+ words of unique, helpful content explaining what the service is, common symptoms, and why customers should choose your shop.
+            </p>
+
+            <h3>9. Lack of Customer Reviews</h3>
+            <img src="https://images.pexels.com/photos/3806305/pexels-photo-3806305.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop with very few Google reviews, showing a lack of customer feedback and low trust signals" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Reviews are the second biggest local ranking factor and the biggest conversion factor. If your auto repair shop has five reviews and your competitor has eighty, Google will rank them higher and customers will trust them more. If you are not actively asking every customer for a review, you are falling behind.
+            </p>
+
+            <h3>10. Strong Local Competition</h3>
+            <img src="https://images.pexels.com/photos/3806306/pexels-photo-3806306.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Multiple auto repair shops competing for local search rankings on Google, showing strong local competition" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Sometimes the issue is not what you are doing wrong, but what your competitors are doing right. If competing shops in your area have optimized Google Business Profiles, hundreds of reviews, fast mobile-friendly websites, and strong local backlinks, they will outrank you until you match or exceed their SEO efforts. The solution is not to outspend them \u2014 it is to out-optimize them.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: '10-proven-ways-to-rank-higher',
+        heading: '10 Proven Ways to Rank Higher',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Now that you know why your auto repair shop is not showing on Google, here are ten proven strategies to fix those problems and start ranking higher:
+            </p>
+
+            <h3>1. Optimize Your Google Business Profile</h3>
+            <img src="https://images.pexels.com/photos/3806310/pexels-photo-3806310.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an auto repair shop showing complete business information, photos, and services" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Claim your Google Business Profile, set your primary category to <em>"Auto Repair Shop"</em> or <em>"Mechanic,"</em> fill out every field including hours and service areas, upload at least 20 real photos of your shop and team, list every service you offer, and publish weekly Google Posts. A complete, active profile is the fastest way to appear in the Google Maps pack.
+            </p>
+
+            <h3>2. Target High-Intent Auto Repair Keywords</h3>
+            <img src="https://images.pexels.com/photos/3806311/pexels-photo-3806311.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Keyword research for auto repair showing high-intent local search terms like brake repair and oil change" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Find the exact phrases customers use when they need auto repair: <em>"auto repair in [city]"</em>, <em>"brake repair near me"</em>, <em>"transmission repair [city]"</em>, <em>"oil change [neighborhood]"</em>, <em>"check engine light [city]"</em>, <em>"car mechanic near me"</em>. Use Google Keyword Planner or Semrush to build a list of 20 to 30 high-intent local keywords and map each to a specific page.
+            </p>
+
+            <h3>3. Create Individual Service Pages</h3>
+            <img src="https://images.pexels.com/photos/4480714/pexels-photo-4480714.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair website showing individual service pages for brake repair, oil change, and transmission service" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Do not list all services on one page. Create a dedicated page for each service: brake repair, oil change, transmission service, engine diagnostics, tire rotation, AC repair, alignment, and more. Each page should have 500+ words of unique content explaining the service, common warning signs, and a clear call-to-action to book an appointment. <a href="/content-writing/">Our SEO Content Writing services</a> can produce these pages.
+            </p>
+
+            <h3>4. Build Location Pages</h3>
+            <img src="https://images.pexels.com/photos/4480719/pexels-photo-4480719.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Location pages for an auto repair shop showing different cities and neighborhoods served" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              If you serve multiple cities or neighborhoods, build a dedicated page for each one. A page titled <em>"Auto Repair in [City]"</em> with unique local content ranks far better than one generic page. Mention local landmarks, nearby neighborhoods, and what makes your shop convenient for customers in that area. Never copy and paste with a different city name.
+            </p>
+
+            <h3>5. Improve Technical SEO</h3>
+            <img src="https://images.pexels.com/photos/4480720/pexels-photo-4480720.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technical SEO audit for an auto repair website showing schema markup, sitemap, and crawl error fixes" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Fix meta tags, add local business schema markup, create an XML sitemap, fix broken links, and ensure Google can crawl every page. Technical SEO is the foundation that everything else builds on \u2014 without it, your content and keywords will not reach their full ranking potential. Auto repair websites often have technical issues from outdated templates.
+            </p>
+
+            <h3>6. Increase Website Speed</h3>
+            <img src="https://images.pexels.com/photos/4480721/pexels-photo-4480721.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Fast-loading auto repair website on desktop and mobile showing optimized page speed scores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Test your site with Google PageSpeed Insights, compress all images, enable caching, minify CSS and JavaScript, and use fast hosting. Aim for a mobile score above 80. A fast website ranks higher, keeps visitors on the page longer, and converts more of them into phone calls and appointments.
+            </p>
+
+            <h3>7. Collect More Google Reviews</h3>
+            <img src="https://images.pexels.com/photos/4480723/pexels-photo-4480723.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy auto repair customer leaving a five-star Google review for their mechanic" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Ask every customer for a review after their service is complete \u2014 send a text with a direct link to your review page while the experience is fresh. Aim for at least two new reviews per week. The auto repair shops in the top 3 Google Maps results typically have 80 or more reviews. Respond to every review within 24 hours.
+            </p>
+
+            <h3>8. Publish Helpful Auto Repair Blog Content</h3>
+            <img src="https://images.pexels.com/photos/4480724/pexels-photo-4480724.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair blog content being written about car maintenance tips and common repair questions" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Start a blog answering the questions customers are already asking Google: how to know when your brakes need replacing, what a check engine light means, how often to change your oil, signs of transmission problems. Each post is a new page that can rank for a different keyword and attract customers before they are ready to book.
+            </p>
+
+            <h3>9. Build Local Backlinks</h3>
+            <img src="https://images.pexels.com/photos/4480726/pexels-photo-4480726.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local backlink building strategy for an auto repair shop showing connections to local business directories" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Get listed on local business directories, partner with auto parts stores and towing companies, sponsor local car shows or community events, and get featured in local publications. Each quality local backlink boosts your domain authority and local search rankings. Avoid low-quality or paid links. <a href="/link-building/">Our Link Building services</a> can help.
+            </p>
+
+            <h3>10. Track SEO Performance with Google Search Console</h3>
+            <img src="https://images.pexels.com/photos/4480730/pexels-photo-4480730.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing keyword rankings, clicks, and impressions for an auto repair shop SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows which keywords bring traffic, what pages are ranking, and where there are technical issues. Check your data monthly and adjust your strategy. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities and fix issues before they hurt your rankings.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'common-auto-repair-seo-mistakes',
+        heading: 'Common Auto Repair SEO Mistakes',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/4480733/pexels-photo-4480733.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common auto repair SEO mistakes shown as a warning checklist for auto repair shop owners" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Even auto repair shops that invest in SEO make mistakes that quietly kill their rankings. Here are the most common ones to avoid:
+            </p>
+            <ul>
+              <li><strong>Ignoring Google Business Profile:</strong> Leaving it unclaimed or incomplete. It is the biggest local ranking factor for auto repair shops.</li>
+              <li><strong>Targeting generic keywords:</strong> Trying to rank for <em>"auto repair"</em> instead of <em>"auto repair in [city]."</em> Local keywords convert better and are easier to rank for.</li>
+              <li><strong>One services page for everything:</strong> Listing all repairs on a single page instead of creating individual service pages for brakes, oil changes, transmission, etc.</li>
+              <li><strong>No location pages:</strong> Using one generic page for every city you serve instead of dedicated local pages.</li>
+              <li><strong>Inconsistent NAP:</strong> Different phone numbers or addresses across Google, Yelp, and your website confuse the algorithm and drop your Maps ranking.</li>
+              <li><strong>Thin content:</strong> Pages with 100 words of generic text. Each page needs at least 500 words of unique, helpful content.</li>
+              <li><strong>Slow website:</strong> A site that takes more than three seconds to load loses visitors and rankings.</li>
+              <li><strong>No mobile optimization:</strong> Over 60% of local searches are on mobile. A poor mobile experience means fewer calls and lower rankings.</li>
+              <li><strong>Not asking for reviews:</strong> If you are not actively requesting reviews, competitors who are will outrank you and win the customer.</li>
+              <li><strong>Not tracking performance:</strong> Without Search Console and Analytics, you cannot identify what is working and what needs fixing.</li>
+              <li><strong>Expecting overnight results:</strong> SEO takes 3 to 6 months. Giving up too early is the most expensive mistake of all.</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'checklist',
+        heading: 'Auto Repair SEO Checklist',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6214473/pexels-photo-6214473.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair SEO checklist with mechanic tools and shop equipment, representing the auto repair SEO checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Use this checklist to make sure your auto repair shop has covered every essential SEO tactic:
+            </p>
+            <ul>
+              <li>Google Business Profile claimed, verified, and fully completed</li>
+              <li>Primary category set to Auto Repair Shop or Mechanic</li>
+              <li>All service areas listed (cities and neighborhoods you serve)</li>
+              <li>At least 20 real photos uploaded to your Google Business Profile</li>
+              <li>Weekly updates posted to your Google Business Profile</li>
+              <li>Local keyword research completed with 20 to 30 high-intent auto repair keywords</li>
+              <li>Individual service page for each repair (brakes, oil change, transmission, etc.)</li>
+              <li>Each service page has at least 500 words of unique content</li>
+              <li>Dedicated location page for each city or neighborhood you serve</li>
+              <li>Unique title tags and meta descriptions on every page</li>
+              <li>One H1 tag per page with primary keyword</li>
+              <li>Clear call-to-action and phone number visible at the top of every page</li>
+              <li>NAP consistent across Google, Yelp, and all directories</li>
+              <li>Local citations built on Yelp, Bing Places, Apple Maps, and auto directories</li>
+              <li>Review request system sending texts to every customer after their service</li>
+              <li>At least 2 new Google reviews per week</li>
+              <li>All reviews responded to within 24 hours</li>
+              <li>Auto repair blog content published at least once per month</li>
+              <li>Technical SEO audit completed (schema, sitemap, crawlability)</li>
+              <li>Website loads in under 3 seconds on mobile</li>
+              <li>Website is fully mobile-responsive with click-to-call buttons</li>
+              <li>All images compressed and optimized with descriptive alt text</li>
+              <li>Internal linking strategy implemented across all pages</li>
+              <li>At least 10 high-quality local backlinks built</li>
+              <li>Google Search Console and Analytics set up and monitored monthly</li>
+              <li>Quarterly SEO audit to find new opportunities and fix issues</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'faq',
+        heading: 'Frequently Asked Questions',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Here are answers to the most common questions auto repair shop owners ask about SEO and Google rankings.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'final-summary',
+        heading: 'Final Summary',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6214474/pexels-photo-6214474.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy auto repair customer picking up their car after a successful repair, representing the results of auto repair SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              If your auto repair shop is not showing on Google, it is not because Google has something against you. It is because specific, fixable issues are holding back your rankings. A poor Google Business Profile, weak local SEO, wrong keyword targeting, low Maps visibility, a slow website, mobile usability problems, technical SEO errors, thin content, lack of reviews, and strong local competition \u2014 each of these has a solution, and together they form a roadmap to higher rankings.
+            </p>
+            <p>
+              The ten proven strategies in this guide \u2014 optimizing your Google Business Profile, targeting high-intent auto repair keywords, creating individual service pages, building location pages, improving technical SEO, increasing website speed, collecting more Google reviews, publishing helpful blog content, building local backlinks, and tracking performance with Google Search Console \u2014 are the exact tactics the top-ranking auto repair shops use to keep their bays full. SEO compounds over time, so the sooner you start, the harder it becomes for competitors to catch up.
+            </p>
+            <p>
+              If you want this done right without spending your evenings learning Google's algorithm \u2014 <a href="/contact/">contact Rank Flow Agency for a free SEO audit</a>. We will analyze your current website and Google Business Profile, identify the exact issues holding back your rankings, and build a custom auto repair SEO strategy to get your shop to the top of Google Search and Google Maps. Plans start at $99/month.
+            </p>
+          </div>
+        ),
+      },
+    ],
+    faqs: [
+      { q: "Why isn't my auto repair shop showing on Google?", a: 'Your auto repair shop is likely not showing on Google because of one or more common SEO issues: an unclaimed or incomplete Google Business Profile, weak local SEO, targeting generic instead of local keywords, a slow or non-mobile-friendly website, technical SEO errors, thin website content, lack of Google reviews, or strong local competition. Each of these is fixable with the right strategy.' },
+      { q: 'How long does it take for my auto repair shop to show up on Google?', a: 'Optimizing your Google Business Profile can produce more visibility within 2 to 4 weeks. Building service pages, publishing content, and earning local backlinks typically take 3 to 6 months for significant ranking improvements. SEO compounds over time \u2014 the sooner you start, the faster your auto repair shop will climb the rankings and start generating consistent phone calls.' },
+      { q: 'How do I get my auto repair shop to rank higher on Google Maps?', a: 'To rank higher on Google Maps, claim and fully optimize your Google Business Profile with the correct primary category (Auto Repair Shop or Mechanic), upload at least 20 real photos, list all services, collect at least two new Google reviews per week, respond to every review within 24 hours, publish weekly Google Posts, ensure your NAP is consistent across all directories, and build local citations and backlinks.' },
+      { q: 'What keywords should my auto repair shop target for SEO?', a: 'Auto repair shops should target high-intent local keywords like "auto repair in [city]," "brake repair near me," "transmission repair [city]," "oil change [neighborhood]," "check engine light [city]," and "car mechanic near me." Build a list of 20 to 30 high-intent local keywords using Google Keyword Planner or Semrush, and map each keyword to a specific page on your website.' },
+      { q: 'Do I need a website for my auto repair shop to show on Google?', a: 'While your Google Business Profile can appear in Google Maps without a website, a website is essential for ranking in organic search results, building trust with potential customers, and converting visitors into phone calls. Your website is where you publish individual service pages, location pages, blog content, and your contact information. Without a website, you are limited to the Maps pack and missing organic traffic.' },
+      { q: 'How many Google reviews does my auto repair shop need?', a: 'Auto repair shops in the top 3 Google Maps results typically have 80 or more reviews. But recency matters more than total count \u2014 twenty reviews in the last three months is better than a hundred from two years ago. Aim for at least two new reviews per week by sending every customer a text with a direct review link after their service. Respond to every review within 24 hours.' },
+      { q: 'Is SEO better than Google Ads for auto repair shops?', a: 'SEO and Google Ads serve different purposes. Google Ads produce immediate phone calls but stop the moment you stop paying. SEO takes 3 to 6 months to produce results but generates free, recurring phone calls month after month. The most successful auto repair shops use both \u2014 ads for immediate leads while SEO builds, then reduce ad spend as organic rankings grow. Long-term, SEO produces a higher return on investment.' },
+      { q: 'Can I do SEO myself for my auto repair shop?', a: 'You can handle the basics \u2014 claiming your Google Business Profile, asking for reviews, and publishing blog content. However, keyword research, technical SEO, schema markup, backlink building, and competitive analysis require specialized knowledge. Most auto repair shop owners benefit from professional help so they can focus on fixing cars instead of learning Google\u2019s algorithm. At Rank Flow Agency, plans start at $99/month.' },
     ],
   },
 };
