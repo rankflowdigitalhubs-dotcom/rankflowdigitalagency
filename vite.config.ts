@@ -498,12 +498,6 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Auto Repair SEO: How to Get More Customers From Google',
     path: '/blog/auto-repair-seo-how-to-get-more-customers-from-google/',
   },
-  '/blog/local-seo-for-auto-repair-shops/': {
-    title: 'Local SEO for Auto Repair Shops',
-    description: 'A complete local SEO guide for auto repair shops, mechanics, and car service centers. Learn 10 proven strategies to rank higher in Google Search and Google Maps, generate more phone calls, and attract local customers.',
-    h1: 'Local SEO for Auto Repair Shops',
-    path: '/blog/local-seo-for-auto-repair-shops/',
-  },
   '/blog/google-business-profile-for-auto-repair-shops/': {
     title: 'Google Business Profile for Auto Repair Shops',
     description: 'A complete Google Business Profile optimization guide for auto repair shops and mechanics. Learn 10 proven ways to optimize your profile, rank higher in Google Maps, get more phone calls, and attract local customers.',
