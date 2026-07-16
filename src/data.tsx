@@ -986,6 +986,7 @@ export const blogPosts = [
   { slug: 'google-business-profile-guide-for-cleaning-services', title: 'Google Business Profile Guide for Cleaning Services', category: 'Local SEO', date: 'Jul 15, 2026', readTime: '12 min', author: 'Jack', excerpt: 'A complete guide to optimizing your Google Business Profile for cleaning services. Learn 10 actionable steps to improve Google Maps rankings, get more phone calls, and attract consistent local customers.', img: 'https://images.pexels.com/photos/4109719/pexels-photo-4109719.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'best-seo-strategy-for-cleaning-companies', title: 'Best SEO Strategy for Cleaning Companies', category: 'Local SEO', date: 'Jul 16, 2026', readTime: '14 min', author: 'Rank Flow Agency Team', excerpt: 'A complete SEO strategy for cleaning companies. Learn 10 proven steps to rank higher on Google, generate more phone calls, increase website traffic, and attract new customers without paid advertising.', img: 'https://images.pexels.com/photos/4239040/pexels-photo-4239040.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-for-dentists', title: 'Local SEO for Dentists', category: 'Local SEO', date: 'Jul 16, 2026', readTime: '13 min', author: 'Leo', excerpt: 'A complete local SEO guide for dentists and dental clinics. Learn 10 proven strategies to improve your visibility in Google Search and Google Maps, attract more local patients, and increase appointment bookings.', img: 'https://images.pexels.com/photos/5215028/pexels-photo-5215028.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'google-business-profile-for-dental-clinics', title: 'Google Business Profile for Dental Clinics', category: 'Local SEO', date: 'Jul 16, 2026', readTime: '12 min', author: 'Ella', excerpt: 'A complete guide to optimizing your Google Business Profile for dental clinics. Learn 10 proven ways to rank higher in Google Maps, receive more patient calls, and increase appointment bookings.', img: 'https://images.pexels.com/photos/5215044/pexels-photo-5215044.jpeg?auto=compress&cs=tinysrgb&w=1200' },
 ];
 
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
@@ -12856,6 +12857,236 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       { q: 'How many Google reviews does my dental practice need?', a: 'Dental practices in the top 3 Google Maps results typically have 80 or more reviews. But recency matters more than total count \u2014 twenty reviews in the last three months is better than a hundred from two years ago. Aim for at least two new reviews per week and respond to every review within 24 hours to show Google and potential patients that you are active and engaged.' },
       { q: 'Is local SEO better than Google Ads for dental practices?', a: 'Local SEO and Google Ads serve different purposes. Google Ads produce immediate patient leads but stop the moment you stop paying. Local SEO takes 3 to 6 months to produce results but generates free, recurring patient appointments month after month. The most successful dental practices use both \u2014 ads for immediate leads while local SEO builds, then reduce ad spend as organic rankings grow. Long-term, local SEO produces a higher return on investment.' },
       { q: 'Can I do local SEO myself for my dental practice?', a: 'You can handle the basics \u2014 claiming your Google Business Profile, asking for reviews, and publishing blog content. However, keyword research, technical SEO, schema markup, backlink building, and competitive analysis require specialized knowledge. Most dental practice owners benefit from professional help so they can focus on patient care instead of learning Google\u2019s algorithm. At Rank Flow Agency, plans start at $99/month.' },
+    ],
+  },
+
+  'google-business-profile-for-dental-clinics': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Google Business Profile for Dental Clinics',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/5215044/pexels-photo-5215044.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern dental clinic with a welcoming reception area, representing Google Business Profile for dental clinics" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              When a patient in your area searches for a dentist on Google, the first thing they see is not your website. It is your Google Business Profile. That small box on the right side of the search results \u2014 with your clinic name, address, phone number, photos, reviews, and hours \u2014 is often the single thing that determines whether a patient calls your practice or scrolls down to a competitor. If that profile is incomplete, outdated, or poorly optimized, you are losing patients before they ever visit your website.
+            </p>
+            <p>
+              For dental clinics, the Google Business Profile is not just a directory listing. It is the gateway to Google Maps, the local search pack, and the majority of new patient phone calls. The practices that show up in the top three Google Maps results get over 60% of the clicks. Those three spots are determined largely by how well your Google Business Profile is optimized. An unoptimized profile is like having a dental office with no sign on the door \u2014 patients cannot find you, and Google does not know to show you.
+            </p>
+            <p>
+              This guide walks you through ten proven ways to optimize your Google Business Profile for your dental clinic. Whether you run a general practice, an orthodontic clinic, or a cosmetic dentistry office, these steps will help you rank higher in Google Maps, receive more patient calls, and increase appointment bookings. If you want professional help, <a href="/">Rank Flow Agency</a> specializes in local SEO for dental practices.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'what-is-google-business-profile',
+        heading: 'What Is Google Business Profile?',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/5215045/pexels-photo-5215045.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dentist consulting a patient and explaining treatment options, representing Google Business Profile for dental clinics" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Google Business Profile is a free tool from Google that lets you manage how your dental clinic appears in Google Search and Google Maps. When someone searches <em>"dentist near me"</em> or <em>"dental clinic in [city],"</em> Google uses the information from your profile to decide whether to show your practice and where to rank it. Your profile includes your clinic name, address, phone number, website link, hours, photos, services, reviews, and posts.
+            </p>
+            <p>
+              For dental clinics, Google Business Profile is the most important local SEO tool you have. It is what gets you into the Google Maps pack \u2014 the three practices shown at the top of local search results. It is what patients see when they click on your practice name. And it is what Google uses to verify that your clinic is real, active, and serving patients in your area. Without a properly optimized profile, your dental clinic is invisible in the local searches that matter most.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'why-every-dental-clinic-needs-it',
+        heading: 'Why Every Dental Clinic Needs It',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/5215046/pexels-photo-5215046.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing dental clinics ranked by proximity and profile optimization" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              You can have the best dental website in your city, but if your Google Business Profile is weak, you will not show up in the Google Maps pack. And the Maps pack is where the majority of new patient calls come from. Here is why every dental clinic needs an optimized Google Business Profile:
+            </p>
+            <ul>
+              <li><strong>Google Maps pack visibility:</strong> The three practices at the top of local searches get over 60% of clicks. Your profile quality directly determines whether you appear there.</li>
+              <li><strong>More patient phone calls:</strong> Patients call directly from your Google Business Profile using the phone button. An optimized profile means more calls.</li>
+              <li><strong>Trust and credibility:</strong> Photos, reviews, and complete information signal to patients that your clinic is established, professional, and worth visiting.</li>
+              <li><strong>Free, recurring visibility:</strong> Unlike paid ads, your Google Business Profile shows up in searches for free, every single day, at no cost.</li>
+              <li><strong>Competitive advantage:</strong> Most dental clinics have a profile but few optimize it properly. A well-optimized profile puts you ahead of competitors in your area.</li>
+              <li><strong>Direct booking path:</strong> Patients can find your hours, call your office, get directions, and visit your website \u2014 all from your profile, without any friction.</li>
+            </ul>
+            <p>
+              The dental clinics that show up first in Google Maps are not there by accident. They have complete, active, well-optimized Google Business Profiles. If yours is not one of them, you are handing patients to competitors every day. <a href="/local-seo/">Our Local SEO services</a> include full Google Business Profile optimization.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: '10-ways-to-optimize',
+        heading: '10 Ways to Optimize Your Google Business Profile',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Here are ten proven ways to optimize your Google Business Profile for your dental clinic:
+            </p>
+
+            <h3>1. Choose the Correct Business Category</h3>
+            <img src="https://images.pexels.com/photos/5215047/pexels-photo-5215047.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile category selection showing dental clinic categories like Dentist, Orthodontist, and Cosmetic Dentist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Your primary category is the single most important field in your Google Business Profile. It tells Google exactly what type of dental practice you are. Choose the most specific category available: <em>"Dentist"</em>, <em>"Orthodontist"</em>, <em>"Cosmetic Dentist"</em>, <em>"Pediatric Dentist"</em>, or <em>"Emergency Dental Service"</em>. Do not pick a vague category like <em>"Health"</em> or <em>"Medical Clinic."</em> The right primary category dramatically improves your chances of ranking for the searches that matter most to your practice.
+            </p>
+
+            <h3>2. Complete Every Business Information Field</h3>
+            <img src="https://images.pexels.com/photos/5215048/pexels-photo-5215048.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing all completed business information fields for a dental clinic" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Fill out every single field Google offers: business name, address, phone number, website, hours, service areas, attributes (wheelchair accessible, accepts new patients, etc.), and opening date. Google uses completeness as a ranking signal. Profiles that are 100% complete rank higher than profiles that are 70% complete. It takes ten minutes, and it is one of the easiest ranking wins available. Do not leave any field empty.
+            </p>
+
+            <h3>3. Write an SEO-Optimized Business Description</h3>
+            <img src="https://images.pexels.com/photos/5215049/pexels-photo-5215049.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO-optimized business description being written for a dental clinic Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Your business description is 750 characters of prime SEO real estate. Write a clear, compelling description that includes your primary keyword (e.g., <em>"dentist in [city]"</em>), your main services, and what makes your clinic unique. Mention the treatments you specialize in, your experience, and what patients can expect. Avoid keyword stuffing \u2014 write for patients first, Google second. A well-written description helps Google understand your practice and helps patients decide to call you. <a href="/content-writing/">Our SEO Content Writing services</a> can craft this for you.
+            </p>
+
+            <h3>4. Add Professional Clinic & Team Photos</h3>
+            <img src="https://images.pexels.com/photos/5215050/pexels-photo-5215050.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional dental clinic photos showing the treatment room, reception, and team members for Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Upload at least 20 real photos of your clinic: the exterior, the reception area, treatment rooms, your team in uniform, and before-and-after treatment photos when appropriate. Profiles with more photos get significantly more clicks, calls, and direction requests than profiles with few or no photos. Use real photos \u2014 not stock images. Patients want to see the actual office they will be visiting and the people who will be treating them. Add new photos monthly to keep your profile active.
+            </p>
+
+            <h3>5. List All Dental Services</h3>
+            <img src="https://images.pexels.com/photos/5215051/pexels-photo-5215051.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile services section listing all dental treatments offered by the clinic" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Use the services section to list every treatment you offer: general dentistry, teeth cleaning, dental implants, Invisalign, teeth whitening, root canals, emergency dental care, pediatric dentistry, cosmetic dentistry, and more. Each service you list is another keyword Google can match your profile to. Patients often search for specific treatments, not just <em>"dentist."</em> If you do not list a service, Google may not show your profile when someone searches for it. Be thorough \u2014 list everything you offer.
+            </p>
+
+            <h3>6. Collect More Google Reviews</h3>
+            <img src="https://images.pexels.com/photos/5215052/pexels-photo-5215052.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy dental patient leaving a five-star Google review for their dental clinic" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Reviews are the second biggest local ranking factor and the biggest conversion factor. Ask every patient for a review after their appointment \u2014 send a text with a direct link to your review page while the experience is fresh. Aim for at least two new reviews per week. The dental clinics in the top 3 Google Maps results typically have 80 or more reviews. More reviews means higher rankings, more trust, and more calls from patients who are ready to book.
+            </p>
+
+            <h3>7. Respond to Every Patient Review</h3>
+            <img src="https://images.pexels.com/photos/5215054/pexels-photo-5215054.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental clinic manager responding to patient reviews on Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Respond to every review \u2014 positive and negative \u2014 within 24 hours. Thank patients for positive reviews by name and mention the treatment they received. For negative reviews, respond professionally, acknowledge the concern, and invite the patient to contact your office directly to resolve it. Responding shows Google that your clinic is active and engaged, and it shows potential patients that you care about their experience. Clinics that respond to reviews consistently rank higher than those that do not.
+            </p>
+
+            <h3>8. Publish Weekly Google Posts</h3>
+            <img src="https://images.pexels.com/photos/5215056/pexels-photo-5215056.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile posts showing weekly dental clinic updates, promotions, and educational content" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Google Posts are short updates that appear on your Google Business Profile and in local search results. Publish one post per week: announce a new treatment, share a patient success story, promote a seasonal offer (like a whitening special), or share a dental health tip. Each post signals to Google that your clinic is active and gives patients a fresh reason to engage with your profile. Posts expire after seven days, so consistency matters \u2014 a profile with recent posts ranks higher than one that has been silent for months.
+            </p>
+
+            <h3>9. Keep Business Hours Updated</h3>
+            <img src="https://images.pexels.com/photos/5215057/pexels-photo-5215057.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental clinic reception showing business hours and appointment scheduling for patients" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Accurate hours are critical. If a patient sees that you are open, drives to your clinic, and finds the door locked, they will not come back \u2014 and they may leave a negative review. Update your hours for holidays, vacations, and any schedule changes immediately. Google uses hours accuracy as a trust signal. If your hours are wrong, Google may lower your local ranking because it cannot trust the information on your profile. Set special hours for holidays in advance.
+            </p>
+
+            <h3>10. Monitor Google Business Insights</h3>
+            <img src="https://images.pexels.com/photos/5215058/pexels-photo-5215058.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile insights dashboard showing search queries, calls, direction requests, and profile views for a dental clinic" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Google Business Profile includes a free analytics dashboard called Insights. It shows how many people viewed your profile, what searches brought them there, how many called, how many requested directions, and how many visited your website. Check Insights monthly to see which keywords are driving traffic, which photos get the most views, and where patients are coming from. Use this data to adjust your strategy. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities. What gets measured gets improved.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'common-gbp-mistakes',
+        heading: 'Common Google Business Profile Mistakes Dental Clinics Make',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/5215059/pexels-photo-5215059.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common Google Business Profile mistakes dental clinics make, shown as a warning checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Even dental clinics that have claimed their Google Business Profile make mistakes that quietly kill their local rankings. Here are the most common ones to avoid:
+            </p>
+            <ul>
+              <li><strong>Choosing the wrong category:</strong> Picking <em>"Medical Clinic"</em> instead of <em>"Dentist"</em> or <em>"Orthodontist."</em> The wrong category means Google will not show you for dental searches.</li>
+              <li><strong>Incomplete profile:</strong> Leaving fields empty. Google ranks complete profiles higher than incomplete ones.</li>
+              <li><strong>Few or no photos:</strong> Profiles with no photos get fewer clicks and calls. Patients want to see your clinic before they visit.</li>
+              <li><strong>Not listing all services:</strong> If you offer Invisalign but do not list it, Google may not show your profile when someone searches for Invisalign.</li>
+              <li><strong>Not asking for reviews:</strong> If you are not actively requesting reviews, competitors who are will outrank you and win the patient.</li>
+              <li><strong>Ignoring reviews:</strong> Not responding to reviews signals to Google that your clinic is inactive.</li>
+              <li><strong>No Google Posts:</strong> A profile with no recent posts looks abandoned. Posts signal that your clinic is active and engaged.</li>
+              <li><strong>Wrong hours:</strong> If your hours are inaccurate, patients show up to a closed clinic and Google loses trust in your profile.</li>
+              <li><strong>Inconsistent NAP:</strong> Different phone numbers or addresses across Google, Yelp, and your website confuse the algorithm and drop your Maps ranking.</li>
+              <li><strong>Keyword stuffing in the description:</strong> Writing a description packed with keywords instead of writing for patients. Google penalizes keyword stuffing.</li>
+              <li><strong>Not monitoring Insights:</strong> Without checking your analytics, you cannot identify what is working and what needs fixing.</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'checklist',
+        heading: 'Google Business Profile Optimization Checklist',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/5215060/pexels-photo-5215060.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile optimization checklist for dental clinics with dental office equipment" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Use this checklist to make sure your dental clinic has covered every essential Google Business Profile optimization tactic:
+            </p>
+            <ul>
+              <li>Google Business Profile claimed and verified</li>
+              <li>Primary category set to Dentist, Orthodontist, Cosmetic Dentist, or Pediatric Dentist</li>
+              <li>Secondary categories added for all applicable specialties</li>
+              <li>Business name, address, and phone number correct and consistent</li>
+              <li>Website URL added and working</li>
+              <li>Business hours set accurately, including special holiday hours</li>
+              <li>Service areas listed (cities and neighborhoods you serve)</li>
+              <li>Business description written with primary keyword and services</li>
+              <li>At least 20 real photos uploaded (clinic exterior, reception, treatment rooms, team)</li>
+              <li>All dental services listed individually</li>
+              <li>Attributes set (accepts new patients, wheelchair accessible, etc.)</li>
+              <li>Review request system sending texts to every patient after appointments</li>
+              <li>At least 2 new Google reviews per week</li>
+              <li>All reviews responded to within 24 hours</li>
+              <li>Weekly Google Posts published (offers, tips, announcements)</li>
+              <li>Q&A section monitored and answered</li>
+              <li>Messaging feature enabled for patient inquiries</li>
+              <li>Google Business Insights checked monthly</li>
+              <li>NAP consistent across Google, Yelp, Healthgrades, and all directories</li>
+              <li>Quarterly audit of profile for accuracy and completeness</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'faq',
+        heading: 'Frequently Asked Questions',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Here are answers to the most common questions dentists and clinic owners ask about Google Business Profile optimization.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'final-summary',
+        heading: 'Final Summary',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/5215061/pexels-photo-5215061.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy dental patient smiling after a successful appointment at an optimized dental clinic" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Your Google Business Profile is the most powerful local SEO tool your dental clinic has. It is what gets you into the Google Maps pack, what patients see when they search for a dentist in your area, and what drives the majority of new patient phone calls. Choosing the correct business category, completing every field, writing an SEO-optimized description, adding professional photos, listing all services, collecting reviews, responding to reviews, publishing weekly posts, keeping hours updated, and monitoring Insights \u2014 these ten steps are the exact tactics the top-ranking dental clinics use to dominate local search.
+            </p>
+            <p>
+              The dental clinics that show up first in Google Maps do not have a secret advantage. They have a complete, active, well-optimized Google Business Profile and they maintain it consistently. They ask every patient for a review, they respond within 24 hours, they post weekly updates, and they keep their information accurate. Google rewards active, complete profiles with higher rankings and more visibility. The sooner you optimize your profile, the faster your clinic will climb the local rankings and start receiving more patient calls.
+            </p>
+            <p>
+              If you want this done right without spending your evenings managing Google listings \u2014 <a href="/contact/">contact Rank Flow Agency for a free Google Business Profile audit</a>. We will analyze your current profile, identify the exact issues holding back your Google Maps rankings, and optimize every field to get your dental clinic to the top of local search. Plans start at $99/month.
+            </p>
+          </div>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'What is Google Business Profile for dental clinics?', a: 'Google Business Profile is a free tool from Google that lets dental clinics manage how they appear in Google Search and Google Maps. It includes your clinic name, address, phone number, hours, photos, services, reviews, and posts. For dental clinics, it is the most important local SEO tool because it determines whether you appear in the Google Maps pack \u2014 the three practices shown at the top of local search results that get over 60% of clicks.' },
+      { q: 'How do I optimize my Google Business Profile for my dental clinic?', a: 'To optimize your Google Business Profile for your dental clinic, choose the correct primary category (Dentist, Orthodontist, etc.), complete every business information field, write an SEO-optimized description with your primary keyword, upload at least 20 real clinic photos, list all dental services, collect at least two new reviews per week, respond to every review within 24 hours, publish weekly Google Posts, keep your hours updated, and monitor your Insights dashboard monthly.' },
+      { q: 'How many Google reviews does my dental clinic need?', a: 'Dental clinics in the top 3 Google Maps results typically have 80 or more reviews. But recency matters more than total count \u2014 twenty reviews in the last three months is better than a hundred from two years ago. Aim for at least two new reviews per week by sending every patient a text with a direct review link after their appointment. Respond to every review within 24 hours to show Google and patients that your clinic is active.' },
+      { q: 'What category should I choose for my dental clinic on Google Business Profile?', a: 'Choose the most specific primary category available: "Dentist" for general practices, "Orthodontist" for orthodontic clinics, "Cosmetic Dentist" for cosmetic practices, "Pediatric Dentist" for children\u2019s dental offices, or "Emergency Dental Service" for emergency-focused clinics. Do not pick a vague category like "Health" or "Medical Clinic." The correct primary category is the single most important field for local search rankings.' },
+      { q: 'Does Google Business Profile help my dental clinic rank higher on Google Maps?', a: 'Yes. Your Google Business Profile is the primary factor Google uses to determine your Google Maps ranking. A complete, active, well-optimized profile with the correct category, accurate information, regular photos, consistent reviews, weekly posts, and accurate hours signals to Google that your clinic is legitimate and active, which directly improves your Maps pack ranking.' },
+      { q: 'How often should I post on my Google Business Profile?', a: 'Publish at least one Google Post per week. Posts expire after seven days, so a profile with no recent posts looks inactive to Google. Weekly posts about new treatments, patient success stories, seasonal offers, or dental health tips signal that your clinic is active and engaged, which helps maintain and improve your local search rankings.' },
+      { q: 'Is Google Business Profile free for dental clinics?', a: 'Yes, Google Business Profile is completely free. You can claim, verify, and optimize your profile at no cost. There are no fees for adding photos, services, posts, or responding to reviews. The only investment is your time, or the cost of hiring a professional local SEO agency like Rank Flow Agency to manage and optimize your profile for you.' },
+      { q: 'Can Rank Flow Agency optimize my Google Business Profile for my dental clinic?', a: 'Yes. Rank Flow Agency specializes in Google Business Profile optimization for dental clinics. We will audit your current profile, optimize every field, write an SEO-optimized description, set up a review collection system, publish weekly posts, and monitor your Insights. Contact us for a free Google Business Profile audit. Plans start at $99/month.' },
     ],
   },
 };

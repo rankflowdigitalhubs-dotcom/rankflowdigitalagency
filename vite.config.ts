@@ -480,6 +480,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Local SEO for Dentists',
     path: '/blog/local-seo-for-dentists/',
   },
+  '/blog/google-business-profile-for-dental-clinics/': {
+    title: 'Google Business Profile for Dental Clinics',
+    description: 'A complete guide to optimizing your Google Business Profile for dental clinics. Learn 10 proven ways to rank higher in Google Maps, receive more patient calls, and increase appointment bookings.',
+    h1: 'Google Business Profile for Dental Clinics',
+    path: '/blog/google-business-profile-for-dental-clinics/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
