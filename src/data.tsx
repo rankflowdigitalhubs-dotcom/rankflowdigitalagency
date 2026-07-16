@@ -990,6 +990,7 @@ export const blogPosts = [
   { slug: 'why-isnt-my-auto-repair-shop-showing-on-google', title: "Why Isn't My Auto Repair Shop Showing on Google?", category: 'Local SEO', date: 'Jul 16, 2026', readTime: '13 min', author: 'Jack', excerpt: 'Is your auto repair shop missing from Google Search and Google Maps? Learn the 10 most common SEO problems and 10 proven strategies to rank higher, attract more local customers, and increase phone calls.', img: 'https://images.pexels.com/photos/3806288/pexels-photo-3806288.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'auto-repair-seo-how-to-get-more-customers-from-google', title: 'Auto Repair SEO: How to Get More Customers From Google', category: 'Local SEO', date: 'Jul 16, 2026', readTime: '14 min', author: 'Emily', excerpt: 'A complete auto repair SEO guide. Learn 10 proven strategies to get more customers from Google Search and Google Maps, increase phone calls, and grow your auto repair shop without paid advertising.', img: 'https://images.pexels.com/photos/6214475/pexels-photo-6214475.jpeg?auto=compress&cs=tinysrgb&w=1200' },{ slug: 'google-business-profile-for-auto-repair-shops', title: 'Google Business Profile for Auto Repair Shops', category: 'Local SEO', date: 'Jul 16, 2026', readTime: '12 min', author: 'John Smith', excerpt: 'A complete Google Business Profile optimization guide for auto repair shops and mechanics. Learn 10 proven ways to optimize your profile, rank higher in Google Maps, get more phone calls, and attract local customers.', img: 'https://images.pexels.com/photos/6214584/pexels-photo-6214584.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'why-isnt-my-pest-control-business-showing-on-google', title: "Why Isn't My Pest Control Business Showing on Google?", category: 'Local SEO', date: 'Jul 16, 2026', readTime: '13 min', author: 'Emily', excerpt: 'A complete SEO guide for pest control companies that are not showing up on Google. Learn the most common SEO issues and 10 proven strategies to rank higher, get more phone calls, and attract local customers.', img: 'https://images.pexels.com/photos/11514357/pexels-photo-11514357.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'best-seo-services-for-small-businesses', title: 'Best SEO Services for Small Businesses: A Complete Guide to Growing Online', category: 'SEO Services', date: 'Jul 16, 2026', readTime: '15 min', author: 'Rank Flow Agency Team', excerpt: 'Discover the 10 best SEO services for small businesses. Learn how each service drives traffic, leads, and sales, and how to choose the right SEO agency for long-term growth.', img: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200' },
 ];
 
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
@@ -14059,6 +14060,400 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       { q: 'Do I need a website for pest control SEO?', a: 'Yes. While your Google Business Profile can appear in Google Maps without a website, a website is essential for ranking in organic local search results, building trust with potential customers, and converting visitors into phone calls. Your website is where you publish individual service pages, location pages, blog content, and your contact information. Without a website, you are limited to the Maps pack and missing organic local traffic.' },
       { q: 'How many Google reviews does my pest control business need?', a: 'Pest control businesses in the top 3 Google Maps results typically have 80 or more reviews. But recency matters more than total count \u2014 twenty reviews in the last three months is better than a hundred from two years ago. Aim for at least two new reviews per week by sending every customer a text with a direct review link after their service. Respond to every review within 24 hours.' },
       { q: 'Can I do pest control SEO myself?', a: 'You can handle the basics \u2014 claiming your Google Business Profile, asking for reviews, and publishing blog content. However, keyword research, technical SEO, schema markup, backlink building, and competitive analysis require specialized knowledge. Most pest control company owners benefit from professional help so they can focus on treating pests instead of learning Google\u2019s algorithm. At Rank Flow Agency, plans start at $99/month.' },
+    ],
+  },
+
+  'best-seo-services-for-small-businesses': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Best SEO Services for Small Businesses',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Running a small business means wearing a dozen hats at once. You handle sales, customer service, inventory, and payroll. So when someone mentions <strong>SEO</strong>, it is tempting to push it aside for something more urgent. But here is the reality: every day your competitors rank above you on Google, you are losing customers who are actively searching for what you offer.
+            </p>
+            <p>
+              The good news is that SEO does not have to be complicated or expensive. The right <a href="/seo/">SEO services</a> can help your small business rank higher on Google, attract more qualified leads, and grow revenue without relying solely on paid advertising. In this guide, we break down the <strong>10 best SEO services for small businesses</strong>, explain what each one does, and help you figure out which ones you need right now.
+            </p>
+            <p>
+              Whether you run a plumbing company, a dental office, a law firm, or an online store, the fundamentals are the same. Let us walk through them.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'why-seo-matters',
+        heading: 'Why SEO Matters for Small Businesses',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Consider this: <strong>68% of online experiences begin with a search engine</strong>, and 75% of users never scroll past the first page of Google. If your business is not showing up in those top results, you are invisible to the majority of your potential customers.
+            </p>
+            <p>
+              Paid ads can get you to the top instantly, but the moment you stop paying, your traffic disappears. SEO is different. It builds a foundation that keeps delivering traffic month after month, year after year. Think of it as buying land instead of renting it.
+            </p>
+            <p>
+              For small businesses specifically, SEO levels the playing field. You do not need a massive marketing budget to rank. You need a well-optimized website, relevant content, and a <a href="/google-business-profile/">Google Business Profile</a> that signals trust to Google. That is exactly what the services below help you build.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'seo-audit-competitor-analysis',
+        heading: '1. SEO Audit & Competitor Analysis',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Before you can improve your rankings, you need to know where you stand. An <a href="/seo-audit/">SEO audit</a> is a full health check of your website. It identifies broken links, missing meta tags, slow pages, indexing errors, and content gaps that are holding you back.
+            </p>
+            <p>
+              A thorough audit also looks at your competitors. It reveals which keywords they rank for, how many backlinks they have, and what content is driving their traffic. This gives you a roadmap instead of guesswork.
+            </p>
+            <h3>What you get</h3>
+            <ul>
+              <li><strong>Technical issues</strong> identified and prioritized by impact</li>
+              <li><strong>Keyword gap analysis</strong> showing terms competitors rank for that you do not</li>
+              <li><strong>Backlink profile comparison</strong> to understand link-building opportunities</li>
+              <li><strong>Content recommendations</strong> based on what is already working in your industry</li>
+            </ul>
+            <p>
+              Most audits take 7 to 14 days. The result is a prioritized action plan so you know exactly what to fix first.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'keyword-research-strategy',
+        heading: '2. Keyword Research & Strategy',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Keywords are the foundation of every SEO campaign. If you target the wrong ones, you will either get no traffic or attract visitors who never convert. Keyword research identifies the exact phrases your customers type into Google when they are looking for your services.
+            </p>
+            <p>
+              A good keyword strategy goes beyond search volume. It looks at <strong>search intent</strong> \u2014 whether someone is researching, comparing, or ready to buy. For a small business, targeting "best plumber near me" is far more valuable than targeting "how do pipes work."
+            </p>
+            <h3>What a keyword strategy includes</h3>
+            <ul>
+              <li><strong>Primary keywords</strong> with high commercial intent</li>
+              <li><strong>Long-tail keywords</strong> that are easier to rank for and convert better</li>
+              <li><strong>Local keywords</strong> that include your city or neighborhood</li>
+              <li><strong>Content topics</strong> mapped to each stage of the buyer journey</li>
+            </ul>
+            <p>
+              Once the keyword list is finalized, every other SEO service builds on top of it.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'on-page-seo',
+        heading: '3. On-Page SEO Optimization',
+        body: (
+          <div className="space-y-4">
+            <p>
+              <a href="/on-page-seo/">On-page SEO</a> is the process of optimizing every page on your website so Google understands what it is about. This includes title tags, meta descriptions, header tags, internal links, image alt text, and URL structure.
+            </p>
+            <p>
+              Each page should target one primary keyword and include it naturally in the title, first paragraph, and at least one subheading. But optimization is not about stuffing keywords. It is about making the page useful and readable for humans first, and search engines second.
+            </p>
+            <h3>Key on-page elements</h3>
+            <ul>
+              <li><strong>Title tags</strong> under 60 characters with the primary keyword near the front</li>
+              <li><strong>Meta descriptions</strong> under 155 characters that drive clicks</li>
+              <li><strong>Header structure</strong> using one H1, followed by H2s and H3s</li>
+              <li><strong>Internal linking</strong> to related pages and service areas</li>
+              <li><strong>Image optimization</strong> with descriptive filenames and alt text</li>
+            </ul>
+            <p>
+              On-page SEO is usually the fastest service to show results. Many small businesses see ranking improvements within 4 to 8 weeks after on-page fixes.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'technical-seo',
+        heading: '4. Technical SEO',
+        body: (
+          <div className="space-y-4">
+            <p>
+              <a href="/technical-seo/">Technical SEO</a> is the behind-the-scenes work that helps Google crawl, index, and understand your website. You can have the best content in the world, but if Google cannot crawl your site properly, it will not rank.
+            </p>
+            <p>
+              Technical SEO covers site architecture, XML sitemaps, robots.txt, canonical tags, schema markup, mobile-friendliness, and HTTPS. It also addresses crawl errors, duplicate content, and orphan pages that Google finds hard to reach.
+            </p>
+            <h3>What technical SEO fixes</h3>
+            <ul>
+              <li><strong>Crawlability</strong> \u2014 ensuring Google can access all important pages</li>
+              <li><strong>Indexation</strong> \u2014 fixing pages that are blocked or duplicated</li>
+              <li><strong>Schema markup</strong> \u2014 adding structured data for rich snippets</li>
+              <li><strong>Mobile optimization</strong> \u2014 ensuring the site works perfectly on phones</li>
+              <li><strong>Site architecture</strong> \u2014 flattening the structure so pages are fewer clicks from the homepage</li>
+            </ul>
+            <p>
+              For most small business websites, a technical SEO sprint takes 2 to 4 weeks and delivers a noticeable lift in rankings across the board.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'local-seo',
+        heading: '5. Local SEO',
+        body: (
+          <div className="space-y-4">
+            <p>
+              If you serve customers in a specific geographic area, <a href="/local-seo/">local SEO</a> is the single most important service on this list. Local SEO is what puts your business in the Google Maps pack \u2014 the top three results that appear for searches like "plumber near me" or "dentist in [city]."
+            </p>
+            <p>
+              Local SEO involves optimizing your Google Business Profile, building local citations (listings on directories like Yelp and Bing Places), earning reviews, and creating location-specific pages on your website.
+            </p>
+            <h3>What local SEO delivers</h3>
+            <ul>
+              <li><strong>Google Maps visibility</strong> for high-intent local searches</li>
+              <li><strong>Local citations</strong> across 50+ directories with consistent NAP data</li>
+              <li><strong>Review generation strategy</strong> to build trust and rankings</li>
+              <li><strong>Location pages</strong> for each city or neighborhood you serve</li>
+            </ul>
+            <p>
+              Local SEO typically shows results within 2 to 3 months. Businesses in the top 3 of Google Maps receive 4 to 5 times more calls than those ranking 4 through 10.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'google-business-profile',
+        heading: '6. Google Business Profile Optimization',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Your <a href="/google-business-profile/">Google Business Profile</a> is the most visible piece of real estate you own in local search. It shows up in Maps, in the local pack, and in the knowledge panel when someone searches your business name.
+            </p>
+            <p>
+              Optimization means more than filling out your profile. It means selecting the right primary category, adding all services and products, uploading fresh photos monthly, posting weekly updates, answering questions, and responding to every review within 24 hours.
+            </p>
+            <h3>Key optimization steps</h3>
+            <ul>
+              <li><strong>Primary category</strong> \u2014 the single biggest ranking factor for local search</li>
+              <li><strong>Service list</strong> \u2014 every service you offer, with descriptions</li>
+              <li><strong>Photos</strong> \u2014 at least 20 photos, with new ones added monthly</li>
+              <li><strong>Posts</strong> \u2014 weekly updates about offers, events, or tips</li>
+              <li><strong>Q&A</strong> \u2014 preemptively answer common customer questions</li>
+            </ul>
+            <p>
+              A fully optimized Google Business Profile can generate 2 to 3 times more calls and direction requests than an unoptimized one.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'seo-content-writing',
+        heading: '7. SEO Content Writing',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Content is how you rank for the hundreds of questions your customers ask Google every day. <a href="/content-writing/">SEO content writing</a> combines keyword research with clear, engaging writing to produce blog posts, service pages, and landing pages that both Google and humans love.
+            </p>
+            <p>
+              The best content does not just rank. It answers a question better than every other page on the first page of Google. That means going deeper, using real examples, and writing in a voice that sounds like a human expert, not a machine.
+            </p>
+            <h3>What content writing includes</h3>
+            <ul>
+              <li><strong>Service pages</strong> optimized for commercial keywords</li>
+              <li><strong>Blog posts</strong> targeting informational and long-tail queries</li>
+              <li><strong>Location pages</strong> for local SEO</li>
+              <li><strong>FAQ sections</strong> that capture featured snippets</li>
+            </ul>
+            <p>
+              Content compounds over time. A blog post written today can still drive traffic three years from now. That is what makes SEO content one of the highest-ROI services for small businesses.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'link-building-guest-posting',
+        heading: '8. Link Building & Guest Posting',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Links from other websites are one of Google's top three ranking factors. <a href="/link-building/">Link building</a> is the process of earning those links. The more high-quality, relevant websites that link to yours, the more authority Google assigns to your domain.
+            </p>
+            <p>
+              <a href="/guest-posting/">Guest posting</a> is one of the most effective link-building methods. It involves writing an article for another website in your industry and including a link back to your site. This builds both authority and referral traffic.
+            </p>
+            <h3>What link building delivers</h3>
+            <ul>
+              <li><strong>Domain authority growth</strong> over time</li>
+              <li><strong>Referral traffic</strong> from relevant industry websites</li>
+              <li><strong>Faster indexing</strong> of new pages on your site</li>
+              <li><strong>Improved rankings</strong> for competitive keywords</li>
+            </ul>
+            <p>
+              Link building is a long-term play. Most small businesses see ranking improvements from links within 3 to 6 months.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'website-speed-core-web-vitals',
+        heading: '9. Website Speed & Core Web Vitals Optimization',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Google uses page speed as a ranking signal. If your site takes more than 3 seconds to load, you are losing visitors and rankings. <strong>Core Web Vitals</strong> measure loading speed, interactivity, and visual stability \u2014 and Google uses these metrics to decide where your pages rank.
+            </p>
+            <p>
+              Speed optimization includes compressing images, minifying CSS and JavaScript, leveraging browser caching, using a content delivery network, and reducing server response time. If your <a href="/">website</a> is built on a slow platform, this is also the right time to consider a faster <a href="/website-design/">website design</a>.
+            </p>
+            <h3>What speed optimization achieves</h3>
+            <ul>
+              <li><strong>Faster load times</strong> \u2014 under 2 seconds for most pages</li>
+              <li><strong>Lower bounce rates</strong> \u2014 visitors stay longer and view more pages</li>
+              <li><strong>Higher conversion rates</strong> \u2014 faster sites convert better</li>
+              <li><strong>Better Core Web Vitals scores</strong> \u2014 passing all three metrics</li>
+            </ul>
+            <p>
+              Speed fixes can show ranking and conversion improvements within 2 to 4 weeks.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'monthly-seo-reporting',
+        heading: '10. Monthly SEO Reporting & Continuous Optimization',
+        body: (
+          <div className="space-y-4">
+            <p>
+              SEO is not a one-and-done service. Google updates its algorithm thousands of times per year, competitors publish new content, and search trends shift. That is why <a href="/monthly-seo-management/">monthly SEO management</a> is essential for small businesses that want long-term results.
+            </p>
+            <p>
+              Monthly reporting tracks keyword rankings, organic traffic, leads, conversions, and backlink growth. It tells you exactly what is working and what needs adjustment. A good SEO agency does not just send a report \u2014 they act on it.
+            </p>
+            <h3>What monthly reporting includes</h3>
+            <ul>
+              <li><strong>Keyword ranking reports</strong> showing week-over-week movement</li>
+              <li><strong>Organic traffic analysis</strong> from Google Search Console</li>
+              <li><strong>Conversion tracking</strong> for calls, forms, and sales</li>
+              <li><strong>Backlink growth report</strong> with new links earned</li>
+              <li><strong>Action items</strong> for the upcoming month</li>
+            </ul>
+            <p>
+              Continuous optimization is what separates businesses that rank for a season from those that dominate for years.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'how-to-choose-seo-agency',
+        heading: 'How to Choose the Right SEO Agency',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Not all SEO agencies are created equal. Some promise instant results and deliver nothing. Others use outdated tactics that can get your site penalized. Here is what to look for when choosing an SEO partner for your small business.
+            </p>
+            <h3>Transparency</h3>
+            <p>
+              A reputable agency explains what they are doing and why. You should receive clear reports, access to Google Analytics and Search Console, and a point of contact who answers your questions without jargon.
+            </p>
+            <h3>Realistic expectations</h3>
+            <p>
+              SEO takes 3 to 6 months to show meaningful results. If an agency guarantees page-one rankings in 30 days, walk away. Look for an agency that sets realistic timelines and explains the work involved.
+            </p>
+            <h3>Experience in your industry</h3>
+            <p>
+              SEO tactics vary by industry. A dentist needs different SEO than an e-commerce store. Ask for case studies or examples of work with businesses similar to yours.
+            </p>
+            <h3>Communication</h3>
+            <p>
+              You should hear from your agency at least once a month with a report and a plan. If you are chasing them for updates, that is a red flag.
+            </p>
+            <h3>Long-term strategy</h3>
+            <p>
+              The best agencies do not just fix today's problems. They build a strategy that grows with your business. That means planning content, building links, and adapting to algorithm changes over time.
+            </p>
+            <p>
+              At Rank Flow Agency, we offer <a href="/pricing/">transparent pricing</a> starting at $99/month, monthly reports, and a dedicated strategy for every client. <a href="/contact/">Reach out for a free SEO audit</a> and see exactly where you stand.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'common-seo-mistakes',
+        heading: 'Common SEO Mistakes Small Businesses Make',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Many small businesses try SEO for a few months, see no results, and give up. Often the problem is not SEO itself but the approach. Here are the most common mistakes we see.
+            </p>
+            <ul>
+              <li><strong>Targeting broad keywords</strong> \u2014 "lawyer" is too competitive. "Personal injury lawyer in Austin" is achievable and converts better.</li>
+              <li><strong>Ignoring local SEO</strong> \u2014 if you serve a local market, Google Business Profile optimization should be your first priority, not your last.</li>
+              <li><strong>Writing thin content</strong> \u2014 200-word blog posts do not rank. Google rewards depth and expertise.</li>
+              <li><strong>Building links too fast</strong> \u2014 buying 500 links in a week looks unnatural and can trigger a penalty.</li>
+              <li><strong>Not tracking results</strong> \u2014 if you do not measure rankings, traffic, and conversions, you cannot tell what is working.</li>
+              <li><strong>Expecting overnight results</strong> \u2014 SEO is a 3 to 6 month investment. Quitting at month 2 wastes all the work done so far.</li>
+            </ul>
+            <p>
+              Avoiding these mistakes puts you ahead of most small businesses in your industry.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'small-business-seo-checklist',
+        heading: 'Small Business SEO Checklist',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Use this checklist to make sure you have covered the essentials. If you can check every box, you are already ahead of most competitors.
+            </p>
+            <ul>
+              <li>Google Business Profile claimed and fully optimized</li>
+              <li>Website loads in under 3 seconds on mobile</li>
+              <li>Each service has its own dedicated page</li>
+              <li>Title tags and meta descriptions written for every page</li>
+              <li>Google Search Console and Analytics installed</li>
+              <li>XML sitemap submitted to Google</li>
+              <li>At least 10 Google reviews with responses</li>
+              <li>Location pages created for each city you serve</li>
+              <li>Blog published at least twice per month</li>
+              <li>Schema markup added for services and FAQs</li>
+              <li>Backlink audit completed and toxic links disavowed</li>
+              <li>Monthly ranking and traffic report reviewed</li>
+            </ul>
+            <p>
+              If you are missing several of these, <a href="/contact/">request a free SEO audit</a> and we will help you fill the gaps.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'final-summary',
+        heading: 'Final Summary',
+        body: (
+          <div className="space-y-4">
+            <p>
+              SEO is the most cost-effective marketing channel for small businesses. Unlike paid ads, it compounds over time. Every page you optimize, every blog post you publish, and every link you earn becomes an asset that keeps producing traffic and leads.
+            </p>
+            <p>
+              The 10 services we covered \u2014 from <a href="/seo-audit/">SEO audits</a> to <a href="/monthly-seo-management/">monthly reporting</a> \u2014 work together as a system. Skip one and the system weakens. Implement all of them and you build a search presence that competitors struggle to match.
+            </p>
+            <p>
+              You do not need to do everything at once. Start with an audit, fix the basics, and build from there. The important thing is to start now, because every month you wait is another month your competitors pull ahead.
+            </p>
+          </div>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'What are the best SEO services for small businesses?', a: 'The best SEO services for small businesses include SEO audits, keyword research, on-page optimization, technical SEO, local SEO, Google Business Profile optimization, content writing, link building, speed optimization, and monthly reporting. Most small businesses benefit from starting with an audit and local SEO, then expanding as results come in.' },
+      { q: 'How much do small business SEO services cost?', a: 'Affordable SEO services for small businesses typically range from $99 to $1,000 per month depending on the scope. Local SEO and on-page optimization are the most cost-effective starting points. At Rank Flow Agency, plans start at $99 per month with no long-term contracts.' },
+      { q: 'How long does SEO take for a small business?', a: 'Most small businesses see noticeable improvements in rankings and traffic within 3 to 6 months. Local SEO and on-page fixes can show results in 4 to 8 weeks. Competitive industries may take longer, but the traffic you earn is long-lasting and does not require ongoing ad spend.' },
+      { q: 'Can I do SEO myself for my small business?', a: 'You can handle the basics like claiming your Google Business Profile, writing blog content, and asking for reviews. However, keyword research, technical SEO, schema markup, and link building require specialized tools and experience. Most small business owners benefit from professional help so they can focus on running their business.' },
+      { q: 'Is local SEO or national SEO better for my small business?', a: 'If you serve customers in a specific city or region, local SEO is more effective and affordable. It targets customers who are actively searching for services nearby. National SEO is better for online stores or businesses that serve customers nationwide. Many small businesses benefit from a combination of both.' },
+      { q: 'What is the difference between on-page and technical SEO?', a: 'On-page SEO focuses on content elements like title tags, headings, and keywords on individual pages. Technical SEO focuses on the backend of your website, including crawlability, indexing, site speed, schema markup, and mobile-friendliness. Both are essential for ranking well on Google.' },
+      { q: 'Do I need to hire an SEO agency or can I use an SEO tool?', a: 'SEO tools like Google Search Console and SEMrush are helpful for monitoring, but they do not implement changes or build strategy. An SEO agency combines tools with human expertise to execute, track, and adjust your campaign. For most small businesses, the ROI of professional SEO far exceeds the cost.' },
+      { q: 'How do I know if my SEO is working?', a: 'You should track keyword rankings, organic traffic, leads, and conversions monthly. A good SEO agency provides a monthly report showing these metrics along with action items. If your organic traffic and leads are growing month over month, your SEO is working.' },
     ],
   },
 };

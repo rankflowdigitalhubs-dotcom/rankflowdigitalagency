@@ -510,6 +510,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: "Why Isn't My Pest Control Business Showing on Google?",
     path: '/blog/why-isnt-my-pest-control-business-showing-on-google/',
   },
+  '/blog/best-seo-services-for-small-businesses/': {
+    title: 'Best SEO Services for Small Businesses: A Complete Guide to Growing Online',
+    description: 'Discover the 10 best SEO services for small businesses. Learn how each service drives traffic, leads, and sales, and how to choose the right SEO agency for long-term growth.',
+    h1: 'Best SEO Services for Small Businesses',
+    path: '/blog/best-seo-services-for-small-businesses/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
