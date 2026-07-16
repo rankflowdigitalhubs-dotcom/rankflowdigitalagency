@@ -468,6 +468,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Google Business Profile Guide for Cleaning Services',
     path: '/blog/google-business-profile-guide-for-cleaning-services/',
   },
+  '/blog/best-seo-strategy-for-cleaning-companies/': {
+    title: 'Best SEO Strategy for Cleaning Companies',
+    description: 'A complete SEO strategy for cleaning companies. Learn 10 proven steps to rank higher on Google, generate more phone calls, increase website traffic, and attract new customers without paid advertising.',
+    h1: 'Best SEO Strategy for Cleaning Companies',
+    path: '/blog/best-seo-strategy-for-cleaning-companies/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
