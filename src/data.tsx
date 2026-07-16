@@ -14070,7 +14070,6 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: "Why Isn't My Pest Control Business Showing on Google?",
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/11514357/pexels-photo-11514357.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional pest control technician with equipment, representing why a pest control business may not be showing on Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               You built a website for your pest control business. You offer great service, your customers are happy, and you know there is demand in your area. But when you search <em>"pest control near me"</em> or <em>"exterminator in [city]"</em> on Google, your business is nowhere to be found. Instead, you see your competitors at the top of the page and on the map \u2014 getting the phone calls that should be coming to you.
             </p>
@@ -14088,67 +14087,56 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Your Pest Control Business Isn\u2019t Showing on Google',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/11883903/pexels-photo-11883903.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Pest control company owner searching for their business on Google and not finding it in local search results" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Before you can fix the problem, you need to understand what is causing it. Here are the ten most common reasons your pest control business is not appearing in Google Search or Google Maps:
             </p>
 
             <h3>Poor Google Business Profile Optimization</h3>
-            <img src="https://images.pexels.com/photos/12895278/pexels-photo-12895278.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Incomplete Google Business Profile for a pest control company missing key information" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               If you have not claimed your Google Business Profile, left it half-complete, or have not updated it in months, Google will not trust your business enough to show it in local search. Your profile is the single biggest local ranking factor. Missing categories, no photos, no services listed, and no recent activity all signal to Google that your pest control business is inactive or irrelevant.
             </p>
 
             <h3>Weak Local SEO</h3>
-            <img src="https://images.pexels.com/photos/12895294/pexels-photo-12895294.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Weak local SEO signals for a pest control business showing poor local search visibility" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Local SEO is what tells Google where your pest control business operates and which local searches it should appear in. If your website lacks local keywords, location pages, and consistent name-address-phone (NAP) information across directories, Google cannot connect your business to local searches. Weak local SEO means you are invisible to customers searching in your service area.
             </p>
 
             <h3>Wrong Keyword Targeting</h3>
-            <img src="https://images.pexels.com/photos/13060854/pexels-photo-13060854.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Keyword research showing wrong keyword targeting for a pest control business" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               If your website targets generic terms like <em>"pest control"</em> instead of high-intent local terms like <em>"pest control in [city]"</em> or <em>"termite treatment near me,"</em> you are competing nationally instead of locally. National competition is nearly impossible for a local pest control business to win. You need to target the specific keywords your local customers are actually searching for.
             </p>
 
             <h3>Low Google Maps Visibility</h3>
-            <img src="https://images.pexels.com/photos/14274384/pexels-photo-14274384.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps showing low visibility for a pest control business in local search results" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               The Google Maps pack \u2014 the three businesses shown at the top of local search results \u2014 receives over 60% of clicks. If your pest control business is not in that pack, you are missing most of the customer phone calls. Low Maps visibility is usually caused by a combination of poor Google Business Profile optimization, few reviews, and weak local SEO signals.
             </p>
 
             <h3>Slow Website</h3>
-            <img src="https://images.pexels.com/photos/16851694/pexels-photo-16851694.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Slow-loading pest control website showing poor page speed performance" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Google uses page speed as a ranking factor. If your pest control website takes more than three seconds to load, visitors leave and Google drops your rankings. Slow websites are often caused by large uncompressed images, bloated code, cheap hosting, or no caching. A slow site hurts both your rankings and your conversion rate.
             </p>
 
             <h3>Mobile Usability Issues</h3>
-            <img src="https://images.pexels.com/photos/18021337/pexels-photo-18021337.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Pest control website with mobile usability issues on a smartphone" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Over 60% of local searches for pest control happen on mobile phones. If your website is not mobile-friendly \u2014 text too small, buttons too close together, layout broken on small screens \u2014 Google penalizes your rankings and visitors leave without calling. A poor mobile experience is one of the fastest ways to lose both rankings and customers.
             </p>
 
             <h3>Technical SEO Problems</h3>
-            <img src="https://images.pexels.com/photos/18087296/pexels-photo-18087296.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technical SEO problems for a pest control website including broken links and missing schema markup" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Technical SEO issues prevent Google from properly crawling and indexing your website. Common problems include missing XML sitemaps, broken links, duplicate content, missing meta tags, no structured data, and indexation errors. If Google cannot crawl your site, it cannot rank your pages. <a href="/technical-seo/">Our Technical SEO services</a> can identify and fix these issues.
             </p>
 
             <h3>Thin Website Content</h3>
-            <img src="https://images.pexels.com/photos/19238671/pexels-photo-19238671.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Pest control website with thin content and minimal text on service pages" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               If your pest control website has only a few short pages with generic text, Google has nothing to rank. Each page needs at least 500 words of unique, helpful content that demonstrates your expertise. Thin content tells Google your website is not a useful resource for pest control customers, so it ranks competitors with more detailed content instead.
             </p>
 
             <h3>Lack of Customer Reviews</h3>
-            <img src="https://images.pexels.com/photos/19294665/pexels-photo-19294665.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Pest control business with a lack of customer reviews on Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Reviews are the second biggest local ranking factor and the biggest conversion factor. If your pest control business has few reviews or no recent reviews, Google ranks competitors with more review activity higher. Potential customers also read reviews before calling \u2014 businesses with more positive reviews get more phone calls.
             </p>
 
             <h3>Strong Local Competition</h3>
-            <img src="https://images.pexels.com/photos/19789837/pexels-photo-19789837.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Strong local competition in pest control search results showing multiple competing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               If your competitors have been investing in SEO for years and you just started, they have a head start. They have more reviews, more content, more backlinks, and stronger local signals. The good news is that many pest control competitors have weak SEO too. A focused, consistent SEO strategy can close the gap and overtake them within 3 to 6 months.
             </p>
@@ -14165,61 +14153,51 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/20611624/pexels-photo-20611624.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Fully optimized Google Business Profile for a pest control company with complete information and photos" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Claim your Google Business Profile, set your primary category to <em>"Pest Control Service"</em> or <em>"Exterminator,"</em> fill out every field, upload at least 20 real photos of your team and equipment, list every service you offer, and publish weekly Google Posts. A complete, active profile is the fastest way to appear in the Google Maps pack. Respond to every customer message within 24 hours.
             </p>
 
             <h3>2. Target High-Intent Pest Control Keywords</h3>
-            <img src="https://images.pexels.com/photos/20826378/pexels-photo-20826378.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Keyword research for pest control SEO showing high-intent local search terms like termite treatment and bed bug exterminator" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Find the exact phrases customers use when they need pest control: <em>"pest control in [city]"</em>, <em>"termite treatment near me"</em>, <em>"bed bug exterminator [city]"</em>, <em>"ant control [neighborhood]"</em>, <em>"rodent control [city]"</em>, <em>"wasp removal near me"</em>. Build a list of 20 to 30 high-intent local keywords and map each one to a specific page on your website.
             </p>
 
             <h3>3. Create Individual Service Pages</h3>
-            <img src="https://images.pexels.com/photos/23121630/pexels-photo-23121630.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Individual pest control service pages for termite treatment, bed bug removal, and rodent control" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Do not list all your services on one page. Create a dedicated page for each pest control service: termite treatment, bed bug removal, rodent control, ant extermination, wasp removal, mosquito control, and more. Each page should have 500+ words of unique content explaining the service, signs of infestation, and a clear call-to-action to book an inspection. <a href="/content-writing/">Our SEO Content Writing services</a> can produce these pages for you.
             </p>
 
             <h3>4. Build City & Service Area Pages</h3>
-            <img src="https://images.pexels.com/photos/26998902/pexels-photo-26998902.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Location pages for a pest control company showing different cities and neighborhoods served" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               If you serve multiple cities or neighborhoods, build a dedicated page for each one. A page titled <em>"Pest Control in [City]"</em> with unique local content ranks far better than one generic page trying to cover every area. Write genuinely helpful content for each location \u2014 mention local landmarks, common pest problems in that area, and what makes your service convenient for customers there.
             </p>
 
             <h3>5. Improve Technical SEO</h3>
-            <img src="https://images.pexels.com/photos/27033323/pexels-photo-27033323.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technical SEO audit for a pest control website showing fixes for sitemaps, schema markup, and crawlability" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Fix technical issues that prevent Google from crawling and ranking your website. Submit an XML sitemap, fix broken links, add schema markup for local business and services, ensure proper indexation, and fix any crawl errors in Google Search Console. Technical SEO is the foundation that allows all your other SEO efforts to work. <a href="/technical-seo/">Our Technical SEO services</a> handle this for you.
             </p>
 
             <h3>6. Increase Website Speed</h3>
-            <img src="https://images.pexels.com/photos/27205639/pexels-photo-27205639.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Fast-loading pest control website showing optimized page speed scores on desktop and mobile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Test your site with Google PageSpeed Insights, compress all images, enable caching, minify CSS and JavaScript, and upgrade to faster hosting. Aim for a mobile speed score above 80. A fast website ranks higher, keeps visitors on the page longer, and converts more of them into phone calls and bookings.
             </p>
 
             <h3>7. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/27501104/pexels-photo-27501104.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner leaving a five-star Google review for a pest control company after a successful treatment" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Ask every customer for a review after their service is complete \u2014 send a text with a direct link to your review page. Aim for at least two new reviews per week. The pest control businesses in the top 3 Google Maps results typically have 80 or more reviews. Respond to every review within 24 hours to show Google and potential customers that you are active and engaged.
             </p>
 
             <h3>8. Publish Helpful Pest Control Blog Content</h3>
-            <img src="https://images.pexels.com/photos/28168759/pexels-photo-28168759.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Pest control blog content being written about termite prevention, bed bug signs, and seasonal pest tips" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Start a blog answering the questions customers are already asking Google: how to tell if you have termites, signs of a bed bug infestation, how to prevent ants in the kitchen, when to call a professional for rodent control. Each post is a new page that can rank for a different keyword and attract customers before they are ready to book. Aim for one or two posts per month.
             </p>
 
             <h3>9. Build High-Quality Local Backlinks</h3>
-            <img src="https://images.pexels.com/photos/29183884/pexels-photo-29183884.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local backlink building strategy for a pest control company showing connections to local business directories" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Backlinks from other local websites tell Google your pest control business is trusted and established. Get listed on your local chamber of commerce website, partner with real estate agencies and property managers, sponsor local events, and get featured in local publications. Avoid low-quality or paid links. <a href="/link-building/">Our Link Building services</a> can help you earn legitimate local links.
             </p>
 
             <h3>10. Track SEO Performance with Google Search Console</h3>
-            <img src="https://images.pexels.com/photos/29564065/pexels-photo-29564065.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing keyword rankings, clicks, and impressions for a pest control company SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows which keywords bring traffic, what pages are ranking, and where there are technical issues. Check your data monthly, track keyword rankings, and adjust your strategy based on what works. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities and fix issues before they hurt your rankings.
             </p>
@@ -14231,7 +14209,6 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Pest Control SEO Mistakes',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/30134962/pexels-photo-30134962.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common pest control SEO mistakes shown as a warning checklist with pest control equipment" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Even pest control companies that invest in SEO make mistakes that quietly kill their rankings. Here are the most common ones to avoid:
             </p>
@@ -14256,7 +14233,6 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Pest Control SEO Checklist',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/30335443/pexels-photo-30335443.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Pest control SEO checklist with professional pest control equipment and tools" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               Use this checklist to make sure your pest control business has covered every essential SEO tactic:
             </p>
@@ -14307,7 +14283,6 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/32055757/pexels-photo-32055757.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner after a successful pest control treatment, representing the results of effective pest control SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
             <p>
               If your pest control business is not showing on Google, it is not because Google does not like you. It is because your website is missing the local SEO signals Google needs to rank it. A poorly optimized Google Business Profile, weak local SEO, wrong keyword targeting, slow website speed, mobile usability issues, technical SEO problems, thin content, lack of reviews, and strong local competition are all fixable. The ten strategies in this guide \u2014 optimizing your Google Business Profile, targeting high-intent local keywords, creating individual service pages, building city and service area pages, improving technical SEO, increasing website speed, collecting reviews, publishing blog content, building local backlinks, and tracking performance with Google Search Console \u2014 are the exact tactics the top-ranking pest control companies use to keep their phones ringing.
             </p>
