@@ -7,21 +7,28 @@ import { blogPosts } from '../data';
 
 const POSTS_PER_PAGE = 10;
 
+function parseDate(s: string): number {
+  const d = new Date(s);
+  return isNaN(d.getTime()) ? 0 : d.getTime();
+}
+
+const sortedPosts = [...blogPosts].sort((a, b) => parseDate(b.date) - parseDate(a.date));
+
 export default function Blog({ page = 1 }: { page?: number }) {
-  const totalPages = Math.ceil(blogPosts.length / POSTS_PER_PAGE);
+  const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
   const currentPage = Math.min(Math.max(1, page), totalPages);
 
-  const [featured, ...rest] = blogPosts;
+  const [featured, ...rest] = sortedPosts;
   const isPageOne = currentPage === 1;
 
   // Page 1: featured post + first 9 from rest (10 total)
   // Page 2+: 10 posts from the appropriate slice
-  let postsToShow: typeof blogPosts;
+  let postsToShow: typeof sortedPosts;
   if (isPageOne) {
     postsToShow = rest.slice(0, POSTS_PER_PAGE - 1);
   } else {
     const offset = (currentPage - 1) * POSTS_PER_PAGE - 1;
-    postsToShow = blogPosts.slice(offset + 1, offset + 1 + POSTS_PER_PAGE);
+    postsToShow = sortedPosts.slice(offset + 1, offset + 1 + POSTS_PER_PAGE);
   }
 
   const pageTitle = isPageOne

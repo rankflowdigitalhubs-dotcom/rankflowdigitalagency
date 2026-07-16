@@ -5,8 +5,15 @@ import { SEO, breadcrumbSchema, articleSchema, faqSchema } from '../seo';
 import { Breadcrumbs, CTASection, SocialIcons } from '../components';
 import { blogPosts, articleContent } from '../data';
 
+function parseDate(s: string): number {
+  const d = new Date(s);
+  return isNaN(d.getTime()) ? 0 : d.getTime();
+}
+
+const sortedPosts = [...blogPosts].sort((a, b) => parseDate(b.date) - parseDate(a.date));
+
 export default function BlogPost({ slug }: { slug: string }) {
-  const post = blogPosts.find((p) => p.slug === slug);
+  const post = sortedPosts.find((p) => p.slug === slug);
   const content = articleContent[slug];
   const [activeId, setActiveId] = useState<string>('');
   const [copied, setCopied] = useState(false);
@@ -41,10 +48,10 @@ export default function BlogPost({ slug }: { slug: string }) {
     );
   }
 
-  const idx = blogPosts.findIndex((p) => p.slug === slug);
-  const prev = idx > 0 ? blogPosts[idx - 1] : blogPosts[blogPosts.length - 1];
-  const next = idx < blogPosts.length - 1 ? blogPosts[idx + 1] : blogPosts[0];
-  const related = blogPosts.filter((p) => p.slug !== slug).slice(0, 3);
+  const idx = sortedPosts.findIndex((p) => p.slug === slug);
+  const prev = idx > 0 ? sortedPosts[idx - 1] : sortedPosts[sortedPosts.length - 1];
+  const next = idx < sortedPosts.length - 1 ? sortedPosts[idx + 1] : sortedPosts[0];
+  const related = sortedPosts.filter((p) => p.slug !== slug).slice(0, 3);
 
   const shareUrl = `https://rankflowagency.online/blog/${slug}`;
   const shareText = encodeURIComponent(post.title);
