@@ -60,7 +60,7 @@ export default function Contact() {
                 </div>
               </div>
               <div className="mt-6 border-t border-white/10 pt-5">
-                <div className="text-xs uppercase tracking-wider text-slate-400">Follow us</div>
+                <div className="text-xs uppercase tracking-wider text-slate-400">Message us</div>
                 <div className="mt-3"><SocialIcons /></div>
               </div>
             </div>
