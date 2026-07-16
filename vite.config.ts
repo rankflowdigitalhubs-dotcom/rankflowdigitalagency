@@ -504,6 +504,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Local SEO for Auto Repair Shops',
     path: '/blog/local-seo-for-auto-repair-shops/',
   },
+  '/blog/google-business-profile-for-auto-repair-shops/': {
+    title: 'Google Business Profile for Auto Repair Shops',
+    description: 'A complete Google Business Profile optimization guide for auto repair shops and mechanics. Learn 10 proven ways to optimize your profile, rank higher in Google Maps, get more phone calls, and attract local customers.',
+    h1: 'Google Business Profile for Auto Repair Shops',
+    path: '/blog/google-business-profile-for-auto-repair-shops/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {

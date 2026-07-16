@@ -990,6 +990,7 @@ export const blogPosts = [
   { slug: 'why-isnt-my-auto-repair-shop-showing-on-google', title: "Why Isn't My Auto Repair Shop Showing on Google?", category: 'Local SEO', date: 'Jul 16, 2026', readTime: '13 min', author: 'Jack', excerpt: 'Is your auto repair shop missing from Google Search and Google Maps? Learn the 10 most common SEO problems and 10 proven strategies to rank higher, attract more local customers, and increase phone calls.', img: 'https://images.pexels.com/photos/3806288/pexels-photo-3806288.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'auto-repair-seo-how-to-get-more-customers-from-google', title: 'Auto Repair SEO: How to Get More Customers From Google', category: 'Local SEO', date: 'Jul 16, 2026', readTime: '14 min', author: 'Emily', excerpt: 'A complete auto repair SEO guide. Learn 10 proven strategies to get more customers from Google Search and Google Maps, increase phone calls, and grow your auto repair shop without paid advertising.', img: 'https://images.pexels.com/photos/6214475/pexels-photo-6214475.jpeg?auto=compress&cs=tinysrgb&w=1200' },
   { slug: 'local-seo-for-auto-repair-shops', title: 'Local SEO for Auto Repair Shops', category: 'Local SEO', date: 'Jul 16, 2026', readTime: '13 min', author: 'Leo', excerpt: 'A complete local SEO guide for auto repair shops, mechanics, and car service centers. Learn 10 proven strategies to rank higher in Google Search and Google Maps, generate more phone calls, and attract local customers.', img: 'https://images.pexels.com/photos/6214522/pexels-photo-6214522.jpeg?auto=compress&cs=tinysrgb&w=1200' },
+  { slug: 'google-business-profile-for-auto-repair-shops', title: 'Google Business Profile for Auto Repair Shops', category: 'Local SEO', date: 'Jul 16, 2026', readTime: '12 min', author: 'John Smith', excerpt: 'A complete Google Business Profile optimization guide for auto repair shops and mechanics. Learn 10 proven ways to optimize your profile, rank higher in Google Maps, get more phone calls, and attract local customers.', img: 'https://images.pexels.com/photos/6214584/pexels-photo-6214584.jpeg?auto=compress&cs=tinysrgb&w=1200' },
 ];
 
 export type ArticleSection = { id: string; heading: string; body: React.ReactNode };
@@ -13828,6 +13829,236 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
       { q: 'Do I need a website for local SEO?', a: 'Yes. While your Google Business Profile can appear in Google Maps without a website, a website is essential for ranking in organic local search results, building trust with potential customers, and converting visitors into phone calls. Your website is where you publish individual service pages, location pages, blog content, and your contact information. Without a website, you are limited to the Maps pack and missing organic local traffic.' },
       { q: 'How many Google reviews does my auto repair shop need?', a: 'Auto repair shops in the top 3 Google Maps results typically have 80 or more reviews. But recency matters more than total count \u2014 twenty reviews in the last three months is better than a hundred from two years ago. Aim for at least two new reviews per week by sending every customer a text with a direct review link after their service. Respond to every review within 24 hours to show Google and potential customers that you are active and engaged.' },
       { q: 'Can I do local SEO myself for my auto repair shop?', a: 'You can handle the basics \u2014 claiming your Google Business Profile, asking for reviews, and publishing blog content. However, keyword research, technical SEO, schema markup, backlink building, and competitive analysis require specialized knowledge. Most auto repair shop owners benefit from professional help so they can focus on fixing cars instead of learning Google\u2019s algorithm. At Rank Flow Agency, plans start at $99/month.' },
+    ],
+  },
+
+  'google-business-profile-for-auto-repair-shops': {
+    sections: [
+      {
+        id: 'introduction',
+        heading: 'Google Business Profile for Auto Repair Shops',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6214584/pexels-photo-6214584.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern auto repair garage with a mechanic working on a vehicle, representing Google Business Profile for auto repair shops" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              When someone's car starts making a strange noise or the check engine light comes on, they grab their phone and search <em>"auto repair near me."</em> Google shows them a map with three shops at the top \u2014 the Google Maps pack. Those three shops get over 60% of the clicks and the phone calls. If your auto repair shop is not one of them, you are losing customers to competitors every single day.
+            </p>
+            <p>
+              The single biggest factor that determines whether your auto repair shop appears in that map pack is your Google Business Profile. It is a free tool from Google that lets you manage how your shop appears in Google Search and Google Maps. Yet most auto repair shops either have not claimed their profile, have left it half-complete, or have not updated it in months. Each of those mistakes is quietly costing you phone calls and bookings.
+            </p>
+            <p>
+              This guide walks you through ten practical ways to optimize your Google Business Profile so your auto repair shop ranks higher in Google Maps, gets more phone calls, and attracts more local customers. Whether you run a general auto repair shop, a tire shop, a brake specialist, or a full-service car center, these strategies will work for you. If you want professional help, <a href="/">Rank Flow Agency</a> specializes in Google Business Profile optimization for auto repair shops.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'what-is-google-business-profile',
+        heading: 'What Is Google Business Profile?',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6214585/pexels-photo-6214585.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an auto repair shop showing business information, photos, and customer reviews" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Google Business Profile is a free tool that lets you manage how your auto repair shop appears in Google Search and Google Maps. When someone searches for <em>"auto repair near me"</em> or <em>"mechanic in [city],"</em> Google uses the information in your profile to decide whether to show your shop and where to rank it. Your profile includes your shop name, address, phone number, hours, services, photos, reviews, and posts.
+            </p>
+            <p>
+              For auto repair shops, your Google Business Profile is the foundation of your local SEO. It is the first thing potential customers see when they search for auto repair in your area. A complete, active profile with recent photos, services listed, and regular reviews signals to Google that your shop is legitimate, active, and worth ranking at the top. An incomplete or abandoned profile tells Google the opposite \u2014 and pushes you down in the rankings.
+            </p>
+            <p>
+              Google Business Profile replaced Google My Business in 2021. The tool is free, but it requires ongoing attention. Claiming your profile is just the first step. Optimizing it is what gets you into the map pack. <a href="/local-seo/">Our Local SEO services</a> include full Google Business Profile optimization.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'why-every-auto-repair-shop-needs-it',
+        heading: 'Why Every Auto Repair Shop Needs It',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6214587/pexels-photo-6214587.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Mechanic speaking with a customer at an auto repair shop, representing why every auto repair shop needs a Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Auto repair is a local business. Nobody drives 45 minutes for an oil change when there is a shop five minutes away. That means every search for auto repair is a local search, and Google Business Profile is what determines which shops show up. Here is why every auto repair shop needs an optimized Google Business Profile:
+            </p>
+            <ul>
+              <li><strong>Appear in the Google Maps pack:</strong> The three shops at the top of local search results get over 60% of clicks. Your Google Business Profile is the biggest factor in getting into that pack.</li>
+              <li><strong>Get more phone calls:</strong> A complete profile with a click-to-call button and accurate hours makes it easy for customers to call you the moment they find you.</li>
+              <li><strong>Build trust with reviews:</strong> Potential customers read your reviews before they call. Shops with more recent, positive reviews win more business.</li>
+              <li><strong>Free customer leads:</strong> Unlike paid ads where you pay per click, a well-optimized Google Business Profile produces customer phone calls month after month at no cost.</li>
+              <li><strong>Stand out from competitors:</strong> Most auto repair shops have incomplete profiles. A fully optimized profile immediately sets you apart and pushes you above competitors in local rankings.</li>
+              <li><strong>Google prioritizes active profiles:</strong> Google rewards shops that regularly update their profile with new photos, posts, and responses to reviews. Inactive profiles drop in rankings.</li>
+            </ul>
+            <p>
+              The auto repair shops that dominate Google Maps in their area do not have a secret advantage. They have an optimized Google Business Profile and they keep it active. If you want this handled for you, <a href="/contact/">contact Rank Flow Agency</a> for a free Google Business Profile audit.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: '10-ways-to-optimize',
+        heading: '10 Ways to Optimize Your Google Business Profile',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Here are ten practical ways to optimize your Google Business Profile for higher Google Maps rankings and more customer phone calls:
+            </p>
+
+            <h3>1. Choose the Correct Business Category</h3>
+            <img src="https://images.pexels.com/photos/6214604/pexels-photo-6214604.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop owner selecting the correct business category in Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Your primary business category is the single most important field in your Google Business Profile. Set it to <em>"Auto Repair Shop"</em> or <em>"Mechanic."</em> If you specialize, choose the most specific category that fits \u2014 <em>"Tire Shop,"</em> <em>"Oil Change Service,"</em> or <em>"Brake Shop."</em> The right category tells Google exactly what services you offer and determines which local searches you appear in. The wrong category means you show up in irrelevant searches or do not show up at all.
+            </p>
+
+            <h3>2. Complete Every Business Information Field</h3>
+            <img src="https://images.pexels.com/photos/6214606/pexels-photo-6214606.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Complete Google Business Profile for an auto repair shop with all business information fields filled out" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Fill out every single field in your profile: business name, address, phone number, website, hours, service areas, attributes (women-led, veteran-owned, etc.), and parking information. Google rewards complete profiles and penalizes incomplete ones. Make sure your name, address, and phone number (NAP) exactly match what is on your website and other directories. Even a small inconsistency \u2014 a missing suite number or a different phone format \u2014 can confuse Google and drop your Maps ranking.
+            </p>
+
+            <h3>3. Write an SEO-Friendly Business Description</h3>
+            <img src="https://images.pexels.com/photos/6214608/pexels-photo-6214608.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO-friendly business description for an auto repair shop Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Write a 750-character business description that naturally includes your primary services and city name. Mention the auto repair services you offer (brake repair, oil changes, transmission service, diagnostics), the cities and neighborhoods you serve, and what makes your shop different. Do not keyword-stuff \u2014 write for customers first, Google second. A well-written description helps Google understand what your shop does and improves your ranking for relevant local searches. <a href="/content-writing/">Our SEO Content Writing services</a> can craft this for you.
+            </p>
+
+            <h3>4. Add High-Quality Shop & Team Photos</h3>
+            <img src="https://images.pexels.com/photos/6214612/pexels-photo-6214612.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="High-quality photos of an auto repair shop interior, team, and equipment for Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Upload at least 20 real photos of your shop: the exterior, the repair bays, your team working on cars, your equipment, the waiting area, and before-and-after shots of repairs. Avoid stock photos \u2014 Google can detect them and customers can tell. Add new photos at least once a month. Profiles with more photos get more clicks, more calls, and higher rankings. Photos signal to Google that your shop is active and legitimate.
+            </p>
+
+            <h3>5. List All Auto Repair Services</h3>
+            <img src="https://images.pexels.com/photos/6214614/pexels-photo-6214614.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop Google Business Profile listing all services including brake repair, oil change, and tire replacement" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              List every service you offer as a separate item in your profile: brake repair, oil changes, transmission service, engine diagnostics, tire rotation, AC repair, wheel alignment, battery replacement, state inspections, and more. Each service you list is another keyword Google can match your profile to. When someone searches <em>"brake repair near me,"</em> shops that have brake repair listed in their services rank higher than shops that do not. Be thorough \u2014 every service matters.
+            </p>
+
+            <h3>6. Collect More Google Reviews</h3>
+            <img src="https://images.pexels.com/photos/6214618/pexels-photo-6214618.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy auto repair customer leaving a five-star Google review for their mechanic shop" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Reviews are the second biggest local ranking factor and the biggest conversion factor for auto repair shops. Ask every customer for a review after their service is complete \u2014 send a text with a direct link to your review page while the experience is fresh. Aim for at least two new reviews per week. The auto repair shops in the top 3 Google Maps results typically have 80 or more reviews. More reviews mean higher rankings and more calls.
+            </p>
+
+            <h3>7. Respond to Every Customer Review</h3>
+            <img src="https://images.pexels.com/photos/6214619/pexels-photo-6214619.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop owner responding to customer reviews on their Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Respond to every review \u2014 positive and negative \u2014 within 24 hours. Thank customers for positive reviews by name and mention their specific service. For negative reviews, apologize professionally and offer to make it right. Responding shows Google and potential customers that you are active, engaged, and care about customer satisfaction. Shops that respond to reviews rank higher than shops that do not, and potential customers who see your responses are more likely to trust you and call.
+            </p>
+
+            <h3>8. Publish Weekly Google Posts</h3>
+            <img src="https://images.pexels.com/photos/6214620/pexels-photo-6214620.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop publishing weekly Google Posts about services, promotions, and car maintenance tips" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Google Posts are short updates that appear on your Google Business Profile. Publish at least one post per week: a seasonal service reminder (winter tire checks, summer AC service), a special offer, a new service announcement, or a helpful car maintenance tip. Posts signal to Google that your profile is active and regularly updated, which boosts your local ranking. They also give potential customers another reason to click and call.
+            </p>
+
+            <h3>9. Keep Business Hours Updated</h3>
+            <img src="https://images.pexels.com/photos/6214621/pexels-photo-6214621.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop business hours sign showing updated opening and closing times for Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Keep your hours accurate and update them for holidays and special schedules. When a customer sees your shop is open on Google but you are actually closed, they show up to a locked door and never come back. Google also uses hours accuracy as a trust signal. Shops with outdated or incorrect hours lose rankings and customer trust. Set your regular hours, add special hours for holidays, and double-check that they match what is on your website and your shop door.
+            </p>
+
+            <h3>10. Monitor Google Business Insights</h3>
+            <img src="https://images.pexels.com/photos/6214622/pexels-photo-6214622.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile Insights dashboard showing search queries, calls, and direction requests for an auto repair shop" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Google Business Profile includes a free Insights dashboard that shows how customers find your shop: search queries, calls, direction requests, website clicks, and photo views. Check it monthly to see which keywords bring people to your profile, how many calls you are getting, and where there is room to improve. Use this data to adjust your strategy \u2014 if you are getting views but few calls, improve your photos and description. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'common-gbp-mistakes',
+        heading: 'Common Google Business Profile Mistakes Auto Repair Shops Make',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6214623/pexels-photo-6214623.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common Google Business Profile mistakes for auto repair shops shown as a warning checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Even auto repair shops that have claimed their Google Business Profile make mistakes that quietly hurt their rankings. Here are the most common ones to avoid:
+            </p>
+            <ul>
+              <li><strong>Wrong primary category:</strong> Choosing a generic category instead of <em>"Auto Repair Shop"</em> or <em>"Mechanic."</em> This is the most important field and the most common mistake.</li>
+              <li><strong>Incomplete profile:</strong> Leaving fields blank. Google rewards complete profiles and penalizes incomplete ones.</li>
+              <li><strong>No photos or outdated photos:</strong> Profiles with no photos or photos from years ago look abandoned. Upload at least 20 real photos and add new ones monthly.</li>
+              <li><strong>Not listing all services:</strong> Every service you do not list is a local search you will not appear in.</li>
+              <li><strong>Inconsistent NAP:</strong> Different phone numbers or addresses across Google, Yelp, and your website confuse the algorithm and drop your Maps ranking.</li>
+              <li><strong>Not asking for reviews:</strong> If you are not actively requesting reviews, competitors who are will outrank you and win the customer.</li>
+              <li><strong>Not responding to reviews:</strong> Ignoring reviews signals to Google that your profile is inactive. Respond to every review within 24 hours.</li>
+              <li><strong>No Google Posts:</strong> Not publishing regular updates. Posts signal activity and boost local rankings.</li>
+              <li><strong>Outdated business hours:</strong> Incorrect hours lead to frustrated customers and lost trust. Update hours for holidays and schedule changes.</li>
+              <li><strong>Keyword-stuffed description:</strong> Writing a description packed with keywords instead of writing naturally for customers. Google penalizes keyword stuffing.</li>
+              <li><strong>Not checking Insights:</strong> Without monitoring your performance data, you cannot identify what is working and what needs fixing.</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'checklist',
+        heading: 'Google Business Profile Optimization Checklist',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6214624/pexels-photo-6214624.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile optimization checklist for auto repair shops with mechanic tools and shop equipment" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Use this checklist to make sure your auto repair shop's Google Business Profile is fully optimized:
+            </p>
+            <ul>
+              <li>Google Business Profile claimed and verified</li>
+              <li>Primary category set to Auto Repair Shop, Mechanic, or a specific service category</li>
+              <li>Every business information field completed</li>
+              <li>NAP consistent across Google, website, Yelp, and all directories</li>
+              <li>SEO-friendly business description with services and city name (750 characters)</li>
+              <li>At least 20 real photos of shop, team, and equipment uploaded</li>
+              <li>New photos added at least once per month</li>
+              <li>All auto repair services listed individually</li>
+              <li>Review request system sending texts to every customer after service</li>
+              <li>At least 2 new Google reviews per week</li>
+              <li>Every review responded to within 24 hours</li>
+              <li>At least 1 Google Post published per week</li>
+              <li>Business hours accurate and updated for holidays</li>
+              <li>Service areas listed (cities and neighborhoods you serve)</li>
+              <li>Business attributes filled out (women-led, veteran-owned, parking, etc.)</li>
+              <li>Google Business Insights checked monthly</li>
+              <li>Quarterly review of profile for accuracy and completeness</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        id: 'faq',
+        heading: 'Frequently Asked Questions',
+        body: (
+          <div className="space-y-4">
+            <p>
+              Here are answers to the most common questions auto repair shop owners ask about Google Business Profile.
+            </p>
+          </div>
+        ),
+      },
+      {
+        id: 'final-summary',
+        heading: 'Final Summary',
+        body: (
+          <div className="space-y-4">
+            <img src="https://images.pexels.com/photos/6214627/pexels-photo-6214627.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Busy auto repair workshop with mechanics working on multiple vehicles, representing the results of Google Business Profile optimization" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <p>
+              Your Google Business Profile is the single most powerful local SEO tool for your auto repair shop. It determines whether you appear in the Google Maps pack \u2014 the three shops at the top of local search results that get over 60% of the clicks and phone calls. Choosing the right business category, completing every field, writing an SEO-friendly description, adding high-quality photos, listing all services, collecting reviews, responding to reviews, publishing weekly posts, keeping hours updated, and monitoring Insights \u2014 these ten strategies work together to push your auto repair shop to the top of Google Maps.
+            </p>
+            <p>
+              The auto repair shops that dominate Google Maps in their area do not have a secret advantage. They have an optimized Google Business Profile and they keep it active. They add photos, publish posts, ask for reviews, respond to every customer, and keep their information accurate. Google rewards active profiles and penalizes abandoned ones. The sooner you optimize your profile, the faster your auto repair shop will climb the local rankings and start generating more phone calls and bookings \u2014 all for free.
+            </p>
+            <p>
+              If you want this done right without spending your evenings managing your Google Business Profile \u2014 <a href="/contact/">contact Rank Flow Agency for a free Google Business Profile audit</a>. We will analyze your current profile, identify the exact issues holding back your Google Maps ranking, and build a custom optimization plan to get your auto repair shop to the top of local search. Plans start at $99/month.
+            </p>
+          </div>
+        ),
+      },
+    ],
+    faqs: [
+      { q: 'What is Google Business Profile for auto repair shops?', a: 'Google Business Profile is a free tool from Google that lets you manage how your auto repair shop appears in Google Search and Google Maps. For auto repair shops, it includes your business name, address, phone number, hours, services, photos, reviews, and posts. An optimized Google Business Profile is the single biggest factor in appearing in the Google Maps pack \u2014 the three shops at the top of local search results that receive over 60% of clicks and phone calls.' },
+      { q: 'How do I get my auto repair shop on Google Maps?', a: 'To get your auto repair shop on Google Maps, claim your Google Business Profile at no cost, verify your business by mail or phone, set your primary category to Auto Repair Shop or Mechanic, complete every field including hours and services, upload at least 20 real photos, and collect customer reviews. Once verified and optimized, your shop will appear in Google Maps searches for auto repair in your area.' },
+      { q: 'How long does Google Business Profile optimization take to work?', a: 'Optimizing your Google Business Profile can produce more customer phone calls within 2 to 4 weeks. Completing your profile, adding photos, and publishing posts can improve your visibility quickly. Building reviews and climbing into the Google Maps pack typically takes 1 to 3 months of consistent effort. The sooner you start, the faster your auto repair shop will rank higher in local search.' },
+      { q: 'What category should I choose for my auto repair shop?', a: 'Set your primary category to Auto Repair Shop or Mechanic for a general repair shop. If you specialize, choose the most specific category that fits your business: Tire Shop, Oil Change Service, Brake Shop, or Car Inspection Station. The right category tells Google exactly what services you offer and determines which local searches you appear in. The wrong category means you show up in irrelevant searches or do not show up at all.' },
+      { q: 'How many Google reviews does my auto repair shop need?', a: 'Auto repair shops in the top 3 Google Maps results typically have 80 or more reviews. But recency matters more than total count \u2014 twenty reviews in the last three months is better than a hundred from two years ago. Aim for at least two new reviews per week by sending every customer a text with a direct review link after their service. Respond to every review within 24 hours to show Google and potential customers that you are active and engaged.' },
+      { q: 'Is Google Business Profile free for auto repair shops?', a: 'Yes, Google Business Profile is completely free. You can claim, verify, and optimize your profile at no cost. This includes adding photos, listing services, publishing posts, responding to reviews, and monitoring Insights. The only cost is your time. If you prefer professional help, Rank Flow Agency offers Google Business Profile optimization services starting at $99/month.' },
+      { q: 'How often should I update my Google Business Profile?', a: 'You should update your Google Business Profile regularly: add new photos at least once per month, publish at least one Google Post per week, respond to every review within 24 hours, update your hours for holidays and schedule changes, and check your Insights dashboard monthly. Google rewards active profiles with higher local rankings and penalizes abandoned ones. Consistency is what keeps your auto repair shop at the top of Google Maps.' },
+      { q: 'Can I do Google Business Profile optimization myself?', a: 'Yes, you can handle the basics yourself: claiming your profile, completing your information, adding photos, and asking for reviews. However, writing an SEO-friendly description, choosing the right categories, building a review system, and tracking performance require more expertise. Most auto repair shop owners benefit from professional help so they can focus on fixing cars instead of managing their Google profile. At Rank Flow Agency, plans start at $99/month.' },
     ],
   },
 };
