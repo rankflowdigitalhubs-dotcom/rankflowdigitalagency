@@ -474,6 +474,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Best SEO Strategy for Cleaning Companies',
     path: '/blog/best-seo-strategy-for-cleaning-companies/',
   },
+  '/blog/local-seo-for-dentists/': {
+    title: 'Local SEO for Dentists',
+    description: 'A complete local SEO guide for dentists and dental clinics. Learn 10 proven strategies to improve your visibility in Google Search and Google Maps, attract more local patients, and increase appointment bookings.',
+    h1: 'Local SEO for Dentists',
+    path: '/blog/local-seo-for-dentists/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
