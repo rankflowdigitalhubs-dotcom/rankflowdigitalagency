@@ -492,6 +492,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: "Why Isn't My Auto Repair Shop Showing on Google?",
     path: '/blog/why-isnt-my-auto-repair-shop-showing-on-google/',
   },
+  '/blog/auto-repair-seo-how-to-get-more-customers-from-google/': {
+    title: 'Auto Repair SEO: How to Get More Customers From Google',
+    description: 'A complete auto repair SEO guide. Learn 10 proven strategies to get more customers from Google Search and Google Maps, increase phone calls, and grow your auto repair shop without paid advertising.',
+    h1: 'Auto Repair SEO: How to Get More Customers From Google',
+    path: '/blog/auto-repair-seo-how-to-get-more-customers-from-google/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
