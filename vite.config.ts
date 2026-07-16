@@ -498,6 +498,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Auto Repair SEO: How to Get More Customers From Google',
     path: '/blog/auto-repair-seo-how-to-get-more-customers-from-google/',
   },
+  '/blog/local-seo-for-auto-repair-shops/': {
+    title: 'Local SEO for Auto Repair Shops',
+    description: 'A complete local SEO guide for auto repair shops, mechanics, and car service centers. Learn 10 proven strategies to rank higher in Google Search and Google Maps, generate more phone calls, and attract local customers.',
+    h1: 'Local SEO for Auto Repair Shops',
+    path: '/blog/local-seo-for-auto-repair-shops/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
