@@ -516,6 +516,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Best SEO Services for Small Businesses',
     path: '/blog/best-seo-services-for-small-businesses/',
   },
+  '/blog/local-seo-services-explained/': {
+    title: 'Local SEO Services Explained: Everything Your Business Needs to Rank Locally',
+    description: 'A complete guide to local SEO services. Learn what local SEO includes, why it matters, and how 10 essential services help your business rank higher on Google Search and Google Maps.',
+    h1: 'Local SEO Services Explained',
+    path: '/blog/local-seo-services-explained/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
