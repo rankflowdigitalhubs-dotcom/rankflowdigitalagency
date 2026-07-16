@@ -474,12 +474,6 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Best SEO Strategy for Cleaning Companies',
     path: '/blog/best-seo-strategy-for-cleaning-companies/',
   },
-  '/blog/dental-seo-how-to-get-more-patients-from-google/': {
-    title: 'Dental SEO: How to Get More Patients From Google',
-    description: 'A complete dental SEO guide for dentists and clinic owners. Learn 10 proven strategies to rank higher on Google, attract more patient appointments, and grow your practice without relying on paid ads.',
-    h1: 'Dental SEO: How to Get More Patients From Google',
-    path: '/blog/dental-seo-how-to-get-more-patients-from-google/',
-  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
