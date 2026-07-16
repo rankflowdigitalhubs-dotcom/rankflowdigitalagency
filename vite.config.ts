@@ -510,6 +510,12 @@ const pageMeta: Record<string, PageMeta> = {
     h1: 'Google Business Profile for Auto Repair Shops',
     path: '/blog/google-business-profile-for-auto-repair-shops/',
   },
+  '/blog/why-isnt-my-pest-control-business-showing-on-google/': {
+    title: "Why Isn't My Pest Control Business Showing on Google?",
+    description: 'A complete SEO guide for pest control companies that are not showing up on Google. Learn the most common SEO issues and 10 proven strategies to rank higher, get more phone calls, and attract local customers.',
+    h1: "Why Isn't My Pest Control Business Showing on Google?",
+    path: '/blog/why-isnt-my-pest-control-business-showing-on-google/',
+  },
 };
 
 function injectMeta(html: string, meta: PageMeta): string {
