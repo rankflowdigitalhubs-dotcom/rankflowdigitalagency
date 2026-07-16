@@ -65,18 +65,18 @@ export default function Blog({ page = 1 }: { page?: number }) {
             <div className="grid items-stretch gap-0 rounded-3xl lg:grid-cols-2">
               <div className="relative h-64 overflow-hidden rounded-t-3xl lg:rounded-l-3xl lg:rounded-tr-none">
                 <img src={featured.img} alt={featured.title} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
-                <div className="absolute inset-0 bg-gradient-to-t from-ink-950/70 to-transparent" />
-                <span className="absolute left-5 top-5 rounded-full bg-brand-500/90 px-3 py-1 text-xs font-semibold text-white">Featured</span>
+                <div className="absolute inset-0 bg-gradient-to-t from-white/70 to-transparent" />
+                <span className="absolute left-5 top-5 rounded-full bg-brand-500/90 px-3 py-1 text-xs font-semibold text-ink-950">Featured</span>
               </div>
-              <div className="rounded-b-3xl bg-white/[0.03] p-8 lg:rounded-r-3xl lg:rounded-bl-none">
-                <div className="flex items-center gap-3 text-xs text-slate-400">
-                  <span className="rounded-full bg-brand-500/15 px-3 py-1 font-semibold text-brand-300">{featured.category}</span>
+              <div className="rounded-b-3xl bg-white p-8 lg:rounded-r-3xl lg:rounded-bl-none">
+                <div className="flex items-center gap-3 text-xs text-ink-600">
+                  <span className="rounded-full bg-brand-500/15 px-3 py-1 font-semibold text-brand-600">{featured.category}</span>
                   <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5" /> {featured.date}</span>
                   <span className="flex items-center gap-1"><Clock className="h-3.5 w-3.5" /> {featured.readTime}</span>
                 </div>
-                <h2 className="mt-4 text-2xl font-bold text-white sm:text-3xl">{featured.title}</h2>
-                <p className="mt-3 text-slate-400">{featured.excerpt}</p>
-                <span className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-300">
+                <h2 className="mt-4 text-2xl font-bold text-ink-950 sm:text-3xl">{featured.title}</h2>
+                <p className="mt-3 text-ink-600">{featured.excerpt}</p>
+                <span className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-600">
                   Read Article <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </span>
               </div>
@@ -91,17 +91,17 @@ export default function Blog({ page = 1 }: { page?: number }) {
               <div className="overflow-hidden rounded-3xl">
                 <div className="relative h-48 overflow-hidden rounded-t-3xl">
                   <img src={post.img} alt={post.title} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-ink-950/60 to-transparent" />
-                  <span className="absolute left-4 top-4 rounded-full bg-brand-500/90 px-3 py-1 text-xs font-semibold text-white">{post.category}</span>
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 to-transparent" />
+                  <span className="absolute left-4 top-4 rounded-full bg-brand-500/90 px-3 py-1 text-xs font-semibold text-ink-950">{post.category}</span>
                 </div>
-                <div className="rounded-b-3xl bg-white/[0.03] p-6">
-                  <div className="flex items-center gap-3 text-xs text-slate-400">
+                <div className="rounded-b-3xl bg-white p-6">
+                  <div className="flex items-center gap-3 text-xs text-ink-600">
                     <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5" /> {post.date}</span>
                     <span className="flex items-center gap-1"><Clock className="h-3.5 w-3.5" /> {post.readTime}</span>
                   </div>
-                  <h3 className="mt-3 text-lg font-semibold leading-snug text-white">{post.title}</h3>
-                  <p className="mt-2 text-sm text-slate-400">{post.excerpt}</p>
-                  <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-300">
+                  <h3 className="mt-3 text-lg font-semibold leading-snug text-ink-950">{post.title}</h3>
+                  <p className="mt-2 text-sm text-ink-600">{post.excerpt}</p>
+                  <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-600">
                     Read More <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </span>
                 </div>
@@ -117,8 +117,8 @@ export default function Blog({ page = 1 }: { page?: number }) {
               to={currentPage <= 2 ? '/blog/' : `/blog/page/${currentPage - 1}/`}
               className={`flex items-center gap-1.5 rounded-xl border px-4 py-2.5 text-sm font-medium transition-all ${
                 currentPage === 1
-                  ? 'pointer-events-none border-white/5 bg-white/[0.02] text-slate-600 opacity-40'
-                  : 'border-white/10 bg-white/[0.03] text-slate-300 hover:border-brand-500/50 hover:bg-brand-500/10 hover:text-brand-300'
+                  ? 'pointer-events-none border-slate-100 bg-slate-50 text-ink-600 opacity-40'
+                  : 'border-slate-200 bg-white text-ink-600 hover:border-brand-500/50 hover:bg-brand-500/10 hover:text-brand-600'
               }`}
               aria-disabled={currentPage === 1}
             >
@@ -132,8 +132,8 @@ export default function Blog({ page = 1 }: { page?: number }) {
                   to={pageNum === 1 ? '/blog/' : `/blog/page/${pageNum}/`}
                   className={`flex h-10 min-w-10 items-center justify-center rounded-xl border px-3 text-sm font-semibold transition-all ${
                     pageNum === currentPage
-                      ? 'border-brand-500 bg-brand-500 text-white shadow-lg shadow-brand-500/25'
-                      : 'border-white/10 bg-white/[0.03] text-slate-300 hover:border-brand-500/50 hover:bg-brand-500/10 hover:text-brand-300'
+                      ? 'border-brand-500 bg-brand-500 text-ink-950 shadow-lg shadow-brand-500/25'
+                      : 'border-slate-200 bg-white text-ink-600 hover:border-brand-500/50 hover:bg-brand-500/10 hover:text-brand-600'
                   }`}
                   aria-label={`Go to page ${pageNum}`}
                   aria-current={pageNum === currentPage ? 'page' : undefined}
@@ -147,8 +147,8 @@ export default function Blog({ page = 1 }: { page?: number }) {
               to={currentPage >= totalPages - 1 ? '/blog/' : `/blog/page/${currentPage + 1}/`}
               className={`flex items-center gap-1.5 rounded-xl border px-4 py-2.5 text-sm font-medium transition-all ${
                 currentPage === totalPages
-                  ? 'pointer-events-none border-white/5 bg-white/[0.02] text-slate-600 opacity-40'
-                  : 'border-white/10 bg-white/[0.03] text-slate-300 hover:border-brand-500/50 hover:bg-brand-500/10 hover:text-brand-300'
+                  ? 'pointer-events-none border-slate-100 bg-slate-50 text-ink-600 opacity-40'
+                  : 'border-slate-200 bg-white text-ink-600 hover:border-brand-500/50 hover:bg-brand-500/10 hover:text-brand-600'
               }`}
               aria-disabled={currentPage === totalPages}
             >
@@ -162,8 +162,8 @@ export default function Blog({ page = 1 }: { page?: number }) {
       <section className="container-x py-12">
         <div className="text-center">
           <span className="eyebrow reveal">Our Services</span>
-          <h2 className="mt-4 text-2xl font-bold text-white reveal reveal-delay-1">Explore our services</h2>
-          <p className="mt-3 text-slate-400">Learn more about the SEO services we offer.</p>
+          <h2 className="mt-4 text-2xl font-bold text-ink-950 reveal reveal-delay-1">Explore our services</h2>
+          <p className="mt-3 text-ink-600">Learn more about the SEO services we offer.</p>
         </div>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <Link to="/seo/" className="btn-ghost text-sm">SEO Services</Link>

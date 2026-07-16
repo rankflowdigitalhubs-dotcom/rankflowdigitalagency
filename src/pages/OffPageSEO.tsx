@@ -92,10 +92,10 @@ export default function OffPageSEO() {
             <div>
               <Breadcrumbs />
               <span className="eyebrow mt-6 reveal">Off-Page SEO Services</span>
-              <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl reveal reveal-delay-1">
+              <h1 className="mt-5 text-4xl font-bold leading-tight text-ink-950 sm:text-5xl md:text-6xl reveal reveal-delay-1">
                 Off-Page SEO Services That Build Authority &amp; Increase <span className="text-gradient">Google Rankings</span>
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">
                 On-page SEO gets your house in order. <strong>Off-page SEO services</strong> get the rest of the internet to vouch for you. We build <strong>high authority backlinks</strong>, earn brand mentions, and run <strong>digital PR</strong> campaigns that tell Google your website is trusted, authoritative, and worthy of top <strong>organic rankings</strong>.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
@@ -126,8 +126,8 @@ export default function OffPageSEO() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">The Basics</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">What Is Off-Page SEO?</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">What Is Off-Page SEO?</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 <strong>Off-page SEO</strong> is everything you do outside your own website to improve its search engine rankings. While on-page SEO focuses on optimizing your content and code, off-page SEO focuses on building authority through external signals, primarily <strong>backlink building</strong>.
               </p>
@@ -172,34 +172,34 @@ export default function OffPageSEO() {
             </div>
             <div className="order-1 lg:order-2 reveal">
               <span className="eyebrow">The Impact</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Off-Page SEO Matters</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Off-Page SEO Matters</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 You can have the best content on the web, but without off-page signals, Google has no way to know it is trustworthy. Off-page SEO builds the authority that turns good content into top-ranking content. Here is what it delivers:
               </p>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><TrendingUp className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Higher Google rankings</strong> — quality backlinks are one of the top three ranking factors Google uses</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><TrendingUp className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Higher Google rankings</strong> — quality backlinks are one of the top three ranking factors Google uses</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><BarChart3 className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Better domain authority</strong> — each quality backlink increases your site overall authority score</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><BarChart3 className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Better domain authority</strong> — each quality backlink increases your site overall authority score</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Search className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>More organic traffic</strong> — higher rankings mean more clicks, more visitors, and more customers</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Search className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>More organic traffic</strong> — higher rankings mean more clicks, more visitors, and more customers</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Award className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Strong brand reputation</strong> — being featured on authoritative sites builds trust with your audience</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Award className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Strong brand reputation</strong> — being featured on authoritative sites builds trust with your audience</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><ShieldCheck className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Better trust signals</strong> — Google sees your brand mentioned across the web and treats you as an authority</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><ShieldCheck className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Better trust signals</strong> — Google sees your brand mentioned across the web and treats you as an authority</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><TrendingUp className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Long-term SEO growth</strong> — quality backlinks compound, delivering increasing returns over time</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><TrendingUp className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Long-term SEO growth</strong> — quality backlinks compound, delivering increasing returns over time</span>
                 </li>
               </ul>
             </div>
@@ -211,10 +211,10 @@ export default function OffPageSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">What We Do</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our Off-Page SEO <span className="text-gradient">Services</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A complete off-page optimization service covering every aspect of authority building. From guest posting to digital PR, we build the signals that Google trusts.
           </p>
         </div>
@@ -231,12 +231,12 @@ export default function OffPageSEO() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {services.map((s, i) => (
             <div key={s.title} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-6 hover:bg-white/[0.06] transition-colors">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <div className="group h-full rounded-3xl bg-white p-6 hover:bg-slate-50 transition-colors">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <s.icon className="h-6 w-6" />
                 </div>
-                <h3 className="mt-4 text-base font-semibold text-white">{s.title}</h3>
-                <p className="mt-1.5 text-sm leading-relaxed text-slate-400">{s.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{s.title}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-ink-600">{s.desc}</p>
               </div>
             </div>
           ))}
@@ -250,8 +250,8 @@ export default function OffPageSEO() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Guest Posting</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Guest Posting</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   <strong>Guest posting services</strong> are one of the most effective off-page SEO strategies. We write high-quality, relevant articles and publish them on authoritative websites in your niche, with a contextual backlink pointing to your site.
                 </p>
@@ -292,8 +292,8 @@ export default function OffPageSEO() {
           </div>
           <div className="order-1 lg:order-2 reveal">
             <span className="eyebrow">Core Service</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Digital PR</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Digital PR</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 <strong>Digital PR</strong> is the modern evolution of public relations, focused on getting your brand featured on news sites, industry blogs, and authoritative publications. It combines traditional PR outreach with SEO-focused link building to maximize both visibility and authority.
               </p>
@@ -314,10 +314,10 @@ export default function OffPageSEO() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">Who We Serve</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
               Industries We <span className="text-gradient">Serve</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               We have built off-page SEO campaigns for businesses across dozens of industries. Each industry has unique link building opportunities, authority sources, and competitive landscapes.
             </p>
           </div>
@@ -334,10 +334,10 @@ export default function OffPageSEO() {
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {industries.map((ind, i) => (
               <div key={ind.name} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="group h-full rounded-3xl bg-white/[0.03] p-6 text-center hover:bg-white/[0.06] transition-colors">
+                <div className="group h-full rounded-3xl bg-white p-6 text-center hover:bg-slate-50 transition-colors">
                   <div className="text-4xl">{ind.icon}</div>
-                  <h3 className="mt-4 text-base font-semibold text-white">{ind.name}</h3>
-                  <p className="mt-2 text-xs leading-relaxed text-slate-400">{ind.desc}</p>
+                  <h3 className="mt-4 text-base font-semibold text-ink-950">{ind.name}</h3>
+                  <p className="mt-2 text-xs leading-relaxed text-ink-600">{ind.desc}</p>
                 </div>
               </div>
             ))}
@@ -349,10 +349,10 @@ export default function OffPageSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">How It Works</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our SEO <span className="text-gradient">Process</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A proven 8-step process that takes your website from audit to sustained authority growth.
           </p>
         </div>
@@ -369,10 +369,10 @@ export default function OffPageSEO() {
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {process.map((p, i) => (
             <div key={p.step} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="rounded-3xl bg-white/[0.03] p-7">
-                <div className="font-display text-4xl font-bold text-white/10">{p.step}</div>
-                <h3 className="mt-2 text-lg font-semibold text-white">{p.title}</h3>
-                <p className="mt-2 text-sm text-slate-400 leading-relaxed">{p.desc}</p>
+              <div className="rounded-3xl bg-white p-7">
+                <div className="font-display text-4xl font-bold text-ink-950/10">{p.step}</div>
+                <h3 className="mt-2 text-lg font-semibold text-ink-950">{p.title}</h3>
+                <p className="mt-2 text-sm text-ink-600 leading-relaxed">{p.desc}</p>
               </div>
             </div>
           ))}
@@ -396,8 +396,8 @@ export default function OffPageSEO() {
             </div>
             <div className="reveal reveal-delay-2">
               <span className="eyebrow">Why Us</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Choose Rank Flow Agency</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Choose Rank Flow Agency</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 We are an <strong>off-page SEO agency</strong> that builds authority the right way. No shortcuts, no spam, no risky tactics. Just genuine, manual outreach that earns real backlinks from real websites. Here is why businesses choose us:
               </p>
               <ul className="mt-6 space-y-4">
@@ -407,8 +407,8 @@ export default function OffPageSEO() {
                       <Check className="h-4 w-4" />
                     </span>
                     <div>
-                      <span className="font-semibold text-white">{w.title}</span>
-                      <p className="mt-0.5 text-sm text-slate-400">{w.desc}</p>
+                      <span className="font-semibold text-ink-950">{w.title}</span>
+                      <p className="mt-0.5 text-sm text-ink-600">{w.desc}</p>
                     </div>
                   </li>
                 ))}
@@ -425,10 +425,10 @@ export default function OffPageSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">FAQ</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl reveal reveal-delay-1">
             Off-Page SEO <span className="text-gradient">Questions</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             Answers to the most common questions about off-page SEO and how it builds your website authority.
           </p>
         </div>
@@ -442,14 +442,14 @@ export default function OffPageSEO() {
       {/* STRONG CTA */}
       <section className="container-x py-24">
         <div className="grad-border relative overflow-hidden rounded-3xl">
-          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-16 text-center sm:px-16">
+          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-slate-50 px-6 py-16 text-center sm:px-16">
             <div className="blob -left-10 top-0 h-64 w-64 bg-brand-500/30" />
             <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-500/20" />
             <div className="relative">
-              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal">
+              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal">
                 Ready to Build Authority That Google Trusts?
               </h2>
-              <p className="mx-auto mt-4 max-w-xl text-lg text-slate-300 reveal reveal-delay-1">
+              <p className="mx-auto mt-4 max-w-xl text-lg text-ink-600 reveal reveal-delay-1">
                 Request a free off-page SEO consultation today. We will analyze your backlink profile, assess your domain authority, and show you exactly how to build the authority that drives higher rankings and more organic traffic. No obligation, just results.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
@@ -470,13 +470,13 @@ export default function OffPageSEO() {
 
 function Breadcrumbs() {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+    <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-600" aria-label="Breadcrumb">
       {crumbs.map((item, i) => (
         <span key={item.path} className="flex items-center gap-2">
-          {i > 0 && <span className="text-slate-600">/</span>}
+          {i > 0 && <span className="text-ink-600">/</span>}
           <button
             onClick={() => navigate(item.path)}
-            className={i === crumbs.length - 1 ? 'text-white' : 'hover:text-brand-300'}
+            className={i === crumbs.length - 1 ? 'text-ink-950' : 'hover:text-brand-600'}
           >
             {item.name}
           </button>

@@ -1024,7 +1024,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '1. Your Store Is Not Getting the Right Traffic',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/6214370/pexels-photo-6214370.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop displaying online shopping with boxes and cart representing the right traffic for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214370/pexels-photo-6214370.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop displaying online shopping with boxes and cart representing the right traffic for Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Not all traffic is equal. 10,000 visitors from a viral TikTok video might produce zero sales if those people are not your target audience. But 500 visitors from a Google search for "buy organic skincare online" could produce 50 sales. The right traffic converts. The wrong traffic bounces.
             </p>
@@ -1052,7 +1052,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '2. Your Product Pages Do Not Build Trust',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/7191162/pexels-photo-7191162.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up of a laptop screen displaying an online checkout form representing trust-building product pages for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7191162/pexels-photo-7191162.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up of a laptop screen displaying an online checkout form representing trust-building product pages for Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Your product page is where the sale happens. If a visitor does not trust your product, your brand, or your checkout process, they will not hand over their money. Trust is built through reviews, clear policies, professional images, and transparent information.
             </p>
@@ -1081,7 +1081,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '3. Your Website Loads Too Slowly',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/7667442/pexels-photo-7667442.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person browsing t-shirt options in an online store on a laptop representing website speed for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7667442/pexels-photo-7667442.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person browsing t-shirt options in an online store on a laptop representing website speed for Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> A 1-second delay in page load time can reduce conversions by 7%. Online shoppers are impatient. If your store takes more than 3 seconds to load, visitors hit the back button and buy from a competitor. Google also uses speed as a ranking factor - slow sites rank lower.
             </p>
@@ -1111,7 +1111,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '4. Your Store Is Not Mobile Friendly',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/6238100/pexels-photo-6238100.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Woman online shopping with a credit card on a laptop representing mobile-friendly Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6238100/pexels-photo-6238100.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Woman online shopping with a credit card on a laptop representing mobile-friendly Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Over 70% of eCommerce traffic comes from mobile phones. If your Shopify store is hard to navigate, read, or buy from on a phone, you are losing the majority of your potential customers. Google uses mobile-first indexing, so a bad mobile experience also hurts your <strong>Google rankings</strong>.
             </p>
@@ -1142,7 +1142,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '5. Weak Product Descriptions',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/6214152/pexels-photo-6214152.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Digital tablet beside credit cards representing product descriptions for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214152/pexels-photo-6214152.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Digital tablet beside credit cards representing product descriptions for Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Your product description is your sales pitch. If it just says "Blue cotton t-shirt, size M" you are not giving anyone a reason to buy. Good descriptions sell the benefit, answer questions, and help with <strong>product page SEO</strong> at the same time.
             </p>
@@ -1172,7 +1172,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '6. Poor Product Images',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/6955179/pexels-photo-6955179.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person holding a dropper with skincare product bottles representing product photography for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6955179/pexels-photo-6955179.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person holding a dropper with skincare product bottles representing product photography for Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Online shoppers cannot touch or try your products. Images are all they have. If your photos are dark, blurry, or show only one angle, customers will not feel confident enough to buy. Great product photography is the single biggest conversion driver in eCommerce.
             </p>
@@ -1202,7 +1202,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '7. No Customer Reviews',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/9821386/pexels-photo-9821386.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Five yellow stars on a blue and pink background representing customer reviews for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/9821386/pexels-photo-9821386.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Five yellow stars on a blue and pink background representing customer reviews for Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> 88% of online shoppers read reviews before buying. If your products have zero reviews, shoppers assume the product is new, untested, or low quality. Reviews build trust and provide the social proof that turns a browser into a buyer.
             </p>
@@ -1231,7 +1231,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '8. Weak SEO Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/9822732/pexels-photo-9822732.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wooden blocks spelling SEO on a laptop keyboard representing SEO strategy for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/9822732/pexels-photo-9822732.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wooden blocks spelling SEO on a laptop keyboard representing SEO strategy for Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> If your Shopify store is not optimised for search engines, you are missing out on free, high-intent traffic. People searching "buy [your product] online" are ready to purchase. <strong>Shopify SEO</strong> helps your product and collection pages rank for those searches - bringing in customers without ad spend.
             </p>
@@ -1261,7 +1261,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '9. Poor Category Page Optimization',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/13532889/pexels-photo-13532889.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hanged clothes in a clothing store window representing category page optimization for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/13532889/pexels-photo-13532889.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hanged clothes in a clothing store window representing category page optimization for Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Category pages (called "collections" in Shopify) are some of your most valuable SEO assets. They often rank for broad keywords like "men’s t-shirts" or "organic skincare." But most stores leave them with default titles, no description, and no SEO optimisation - missing a huge opportunity.
             </p>
@@ -1291,7 +1291,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '10. Complicated Checkout Process',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/7190944/pexels-photo-7190944.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Minimalist laptop showing an online checkout screen representing checkout optimization for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7190944/pexels-photo-7190944.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Minimalist laptop showing an online checkout screen representing checkout optimization for Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Cart abandonment averages 70% across eCommerce. One of the biggest causes is a complicated checkout process. Every extra step, every required field, every forced account creation - all of it pushes customers away. The simpler your checkout, the more people complete their purchase.
             </p>
@@ -1322,7 +1322,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '11. Missing Trust Signals',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/6995252/pexels-photo-6995252.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person holding a credit card doing online shopping representing trust signals for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6995252/pexels-photo-6995252.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person holding a credit card doing online shopping representing trust signals for Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> First-time visitors do not know your brand. They have no reason to trust you with their money and personal information. Trust signals - badges, policies, reviews, and social proof - reassure them that buying from your store is safe.
             </p>
@@ -1352,7 +1352,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '12. Weak Internal Linking',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/5632391/pexels-photo-5632391.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hand clicking on a mouse by a miniature shopping cart on a laptop representing internal linking for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5632391/pexels-photo-5632391.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hand clicking on a mouse by a miniature shopping cart on a laptop representing internal linking for Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Internal links connect your pages to each other. They help Google understand your site structure and help shoppers discover more products. Good internal linking spreads authority from your strongest pages to your weaker ones - and keeps shoppers on your store longer.
             </p>
@@ -1382,7 +1382,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '13. No Content Marketing Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/7129710/pexels-photo-7129710.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Male blogger working on a laptop creating content representing content marketing for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7129710/pexels-photo-7129710.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Male blogger working on a laptop creating content representing content marketing for Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Every blog post is a new page that can rank on Google. When you write about problems your customers search for - "how to choose the right skincare routine," "best gifts for runners," "how to style a denim jacket" - you bring <strong>organic traffic</strong> to your store. Some of those readers become customers.
             </p>
@@ -1413,7 +1413,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '14. Not Tracking Performance with Google Search Console and Google Analytics',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="MacBook Pro with shopping bags and boxes representing sales analytics and performance tracking for Shopify stores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="MacBook Pro with shopping bags and boxes representing sales analytics and performance tracking for Shopify stores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> You cannot fix what you do not measure. Google Search Console shows you which keywords bring people to your store. Google Analytics shows you what they do once they arrive - where they drop off, which products they view, and where the checkout process leaks. Without these tools, you are guessing.
             </p>
@@ -1443,7 +1443,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '15. Action Plan to Increase Shopify Sales',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/5849583/pexels-photo-5849583.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Upward trend graph made from coins representing an action plan to increase Shopify sales" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5849583/pexels-photo-5849583.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Upward trend graph made from coins representing an action plan to increase Shopify sales" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               You do not need to do everything at once. Here are the highest-impact actions you can take this week to start <strong>increasing Shopify sales</strong>:
             </p>
@@ -1471,28 +1471,28 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="overflow-x-auto my-6">
               <table className="w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="py-3 px-4 text-left font-semibold text-white">Fix</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Effort</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Impact</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Time to Results</th>
+                  <tr className="border-b border-slate-200">
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Fix</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Effort</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Impact</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Time to Results</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Install reviews app</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Enable guest checkout</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">Immediate</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Add trust badges</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Compress images</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">Immediate</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimise meta titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Add internal links</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Rewrite descriptions</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve product images</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimise collection pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Make site mobile friendly</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve product page trust</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target the right traffic</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish blog content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr><td className="py-2.5 px-4 text-slate-300">Set up tracking tools</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Install reviews app</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Enable guest checkout</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-ink-600">Immediate</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Add trust badges</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Compress images</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">Immediate</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Optimise meta titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Add internal links</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Rewrite descriptions</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Improve product images</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Optimise collection pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Make site mobile friendly</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Improve product page trust</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Target the right traffic</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Publish blog content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr><td className="py-2.5 px-4 text-ink-600">Set up tracking tools</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">Ongoing</td></tr>
                 </tbody>
               </table>
             </div>
@@ -1581,7 +1581,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '1. Why Google Is the Best Source of Roofing Leads',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/38293535/pexels-photo-38293535.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Roofer working on a residential home construction site representing Google as the best source of roofing leads" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/38293535/pexels-photo-38293535.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Roofer working on a residential home construction site representing Google as the best source of roofing leads" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> When someone searches "emergency roof repair near me" or "roofing contractor [your area]," they are not casually browsing. They have a problem right now - a leak, storm damage, or a roof that needs replacing. Google search traffic is the highest-intent traffic you can get. These are people ready to hire.
             </p>
@@ -1608,7 +1608,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '2. Optimize Your Google Business Profile',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/9957875/pexels-photo-9957875.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service van and workers on a residential street representing Google Business Profile optimization for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/9957875/pexels-photo-9957875.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service van and workers on a residential street representing Google Business Profile optimization for roofing companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is what appears in the local pack - the top 3 results with a map that show up for local searches. For roofers, the local pack is gold. It is the first thing homeowners see when they search for a roofing contractor in their area.
             </p>
@@ -1639,7 +1639,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '3. Target High-Intent Roofing Keywords',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/33404248/pexels-photo-33404248.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional roofer installing shingles with a nail gun representing targeting high-intent roofing keywords" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/33404248/pexels-photo-33404248.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional roofer installing shingles with a nail gun representing targeting high-intent roofing keywords" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> If your website only targets "roofer" or "roofing services," you are competing with every roofing company in the country. You will never rank. But "roof repair in [your area]" or "flat roof replacement [your city]" - those are achievable and bring in ready-to-hire homeowners.
             </p>
@@ -1667,7 +1667,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '4. Create Dedicated Service Pages',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/31763541/pexels-photo-31763541.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Partial installation of a terracotta tile roof representing dedicated service pages for roofing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/31763541/pexels-photo-31763541.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Partial installation of a terracotta tile roof representing dedicated service pages for roofing SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Google ranks pages, not websites. If you have one "Services" page listing everything from roof repair to gutter installation in two sentences each, Google cannot rank it for any of them. You need a dedicated page for each <strong>roofing service</strong> you offer.
             </p>
@@ -1697,7 +1697,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '5. Build Location Pages for Every Service Area',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/7937291/pexels-photo-7937291.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Aerial view of houses with roof tiles in a suburban neighborhood representing location pages for roofing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7937291/pexels-photo-7937291.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Aerial view of houses with roof tiles in a suburban neighborhood representing location pages for roofing SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> If you serve multiple towns or neighbourhoods, you need a dedicated page for each one. Google will not rank a single "Areas We Cover" page for 20 postcodes. But a unique page for "Roofing Contractor in [Town Name]" can rank for that specific area.
             </p>
@@ -1725,7 +1725,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '6. Improve Website Speed',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/6124242/pexels-photo-6124242.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up of worker in gloves hammering nails representing website speed optimization for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6124242/pexels-photo-6124242.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up of worker in gloves hammering nails representing website speed optimization for roofing companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> When someone has a roof leak, they are stressed. They search on their phone, click the first result, and if it takes more than 3 seconds to load, they hit the back button and call the next roofer. Google also uses speed as a ranking factor - slow sites rank lower.
             </p>
@@ -1755,7 +1755,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '7. Make Your Website Mobile Friendly',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/18504013/pexels-photo-18504013.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Worker in helmet and reflective vest holding a device at a work site representing mobile-friendly roofing websites" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/18504013/pexels-photo-18504013.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Worker in helmet and reflective vest holding a device at a work site representing mobile-friendly roofing websites" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Over 70% of local service searches happen on mobile phones. When someone spots a roof leak or storm damage, they reach for their phone, not a laptop. If your <strong>roofing website</strong> is hard to read or tap on a phone, they leave and call someone else.
             </p>
@@ -1786,7 +1786,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '8. Collect More Google Reviews',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/7578896/pexels-photo-7578896.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Construction contractor interacting with a client on site representing Google reviews for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7578896/pexels-photo-7578896.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Construction contractor interacting with a client on site representing Google reviews for roofing companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Reviews are the second biggest local ranking factor. They also directly influence whether a homeowner calls you or your competitor. 88% of people trust online reviews as much as personal recommendations. If your competitor has 80 reviews and you have 6, homeowners will call them - even if your work is better.
             </p>
@@ -1815,7 +1815,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '9. Build High-Quality Local Backlinks',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/30514132/pexels-photo-30514132.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Construction team working together on a building roof representing local backlink building for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/30514132/pexels-photo-30514132.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Construction team working together on a building roof representing local backlink building for roofing companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Backlinks are links from other websites to yours. Google treats them as votes of confidence. The more quality local backlinks you have, the higher your <strong>Google rankings</strong> - and the more <strong>organic traffic</strong> you get. One link from a trusted local source can boost your rankings more than 50 generic directory links.
             </p>
@@ -1844,7 +1844,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '10. Publish Helpful Roofing Blog Content',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8960941/pexels-photo-8960941.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Engineer in safety gear reviewing documents at a construction site representing helpful roofing blog content creation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8960941/pexels-photo-8960941.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Engineer in safety gear reviewing documents at a construction site representing helpful roofing blog content creation" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Every blog post is a new page that can rank on Google. When you write about problems homeowners search for - "how to spot roof damage," "what to do if your roof leaks," "signs you need a roof replacement" - you bring people to your website who need help right now. Some of them will call you.
             </p>
@@ -1874,7 +1874,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '11. Optimize Meta Titles and Descriptions',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8470057/pexels-photo-8470057.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Top view of construction documents and floor plan with a hard hat representing meta titles and descriptions optimization for roofing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8470057/pexels-photo-8470057.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Top view of construction documents and floor plan with a hard hat representing meta titles and descriptions optimization for roofing SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Meta titles and descriptions are what appear in Google search results. They are your first impression - your free advert on Google. A compelling title and description get more clicks, even if you are not ranked number 1.
             </p>
@@ -1902,7 +1902,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '12. Use Roofing Schema Markup',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/31763537/pexels-photo-31763537.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wooden roof framing under construction representing roofing schema markup and structured data" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/31763537/pexels-photo-31763537.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wooden roof framing under construction representing roofing schema markup and structured data" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Schema markup is code that helps Google understand your content better. For roofing companies, it can show your services, reviews, and service areas directly in search results - making your listing stand out and get more clicks.
             </p>
@@ -1931,7 +1931,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '13. Improve Internal Linking',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8470864/pexels-photo-8470864.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hard hat, keys, and blueprints laid out together representing internal linking and website structure for roofing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8470864/pexels-photo-8470864.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hard hat, keys, and blueprints laid out together representing internal linking and website structure for roofing SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Internal links connect your pages to each other. They help Google understand your site structure and help visitors discover more of your content. Good internal linking spreads authority from your strongest pages to your weaker ones.
             </p>
@@ -1959,7 +1959,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '14. Track SEO with Google Search Console',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/4744769/pexels-photo-4744769.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service van parked on a sunny street representing tracking SEO performance with Google Search Console for roofing companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4744769/pexels-photo-4744769.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service van parked on a sunny street representing tracking SEO performance with Google Search Console for roofing companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> You cannot fix what you do not measure. Google Search Console shows you exactly which keywords bring people to your site, which pages are indexed, and what issues are holding you back. Without it, you are doing <strong>roofing SEO</strong> blindfolded.
             </p>
@@ -1989,7 +1989,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '15. Common Roofing SEO Mistakes to Avoid',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/14615663/pexels-photo-14615663.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up of a broken dilapidated roof with missing shingles representing common roofing SEO mistakes to avoid" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/14615663/pexels-photo-14615663.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up of a broken dilapidated roof with missing shingles representing common roofing SEO mistakes to avoid" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even roofers who try <strong>roofing company SEO</strong> often make these mistakes. Avoid them and you will already be ahead of most competitors:
             </p>
@@ -2015,27 +2015,27 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="overflow-x-auto my-6">
               <table className="w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="py-3 px-4 text-left font-semibold text-white">Strategy</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Effort</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Lead Impact</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Time to Results</th>
+                  <tr className="border-b border-slate-200">
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Strategy</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Effort</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Lead Impact</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Time to Results</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Collect Google Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize Meta Titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Schema Markup</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Service Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Location Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve Website Speed</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Make Site Mobile Friendly</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish Blog Content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Local Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr><td className="py-2.5 px-4 text-slate-300">Track with Search Console</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Collect Google Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Optimize Meta Titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Improve Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Use Schema Markup</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Create Service Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Build Location Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Improve Website Speed</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Make Site Mobile Friendly</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Publish Blog Content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Build Local Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr><td className="py-2.5 px-4 text-ink-600">Track with Search Console</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">Ongoing</td></tr>
                 </tbody>
               </table>
             </div>
@@ -2124,7 +2124,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '1. Your Google Business Profile Is Not Optimized',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/9367109/pexels-photo-9367109.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern law office exterior with elegant facade representing Google Business Profile optimization for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/9367109/pexels-photo-9367109.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern law office exterior with elegant facade representing Google Business Profile optimization for law firms" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is what appears in the local pack - the top 3 results with a map that show up when someone searches for a lawyer in their area. For law firms, the local pack is where most potential clients click. If your profile is incomplete or inactive, you will not be in that pack.
             </p>
@@ -2154,7 +2154,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '2. Your Law Firm Website Is Not Indexed',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8731036/pexels-photo-8731036.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Law book with scales of justice icon on a wooden desk representing website indexing for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8731036/pexels-photo-8731036.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Law book with scales of justice icon on a wooden desk representing website indexing for law firms" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> If Google has not indexed your website, it does not exist in Google’s eyes. No indexing means no rankings, no impressions, no clicks, no clients. Many law firms have beautiful websites that Google has never crawled or added to its index.
             </p>
@@ -2184,7 +2184,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '3. You Are Targeting the Wrong Legal Keywords',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8730366/pexels-photo-8730366.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Female lawyer reviewing papers at her desk representing targeting the right legal keywords for law firm SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8730366/pexels-photo-8730366.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Female lawyer reviewing papers at her desk representing targeting the right legal keywords for law firm SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> If your website only targets "solicitor" or "law firm," you are competing with every legal website in the country. You will never rank. But "personal injury lawyer in [your area]" or "family solicitor [your city]" - those are achievable and bring in people who are ready to hire.
             </p>
@@ -2213,7 +2213,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '4. Your Practice Area Pages Need Improvement',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/7876151/pexels-photo-7876151.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Legal professionals discussing documents with scales of justice representing practice area pages for law firm SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7876151/pexels-photo-7876151.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Legal professionals discussing documents with scales of justice representing practice area pages for law firm SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Google ranks pages, not websites. If you have one "Practice Areas" page listing everything from family law to criminal defense in two sentences each, Google cannot rank it for any of them. You need a dedicated, in-depth page for each practice area.
             </p>
@@ -2243,7 +2243,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '5. Your Website Is Too Slow',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/6077665/pexels-photo-6077665.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Scales of justice with technology on an office desk representing website speed optimization for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6077665/pexels-photo-6077665.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Scales of justice with technology on an office desk representing website speed optimization for law firms" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> When someone needs a lawyer urgently - after an accident, an arrest, or a family crisis - they search on their phone. If your site takes more than 3 seconds to load, they hit the back button and call the next firm. Google also uses speed as a ranking factor.
             </p>
@@ -2274,7 +2274,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '6. Your Website Is Not Mobile Friendly',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/5668790/pexels-photo-5668790.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Lawyer talking on a mobile phone while working in a law office representing mobile-friendly websites for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5668790/pexels-photo-5668790.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Lawyer talking on a mobile phone while working in a law office representing mobile-friendly websites for law firms" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Over 70% of people searching for a lawyer do it on their phone - often in stressful situations. If your website is hard to read, navigate, or tap on a mobile screen, they leave and call someone else. Google uses mobile-first indexing, so a bad mobile site also hurts your <strong>Google rankings</strong>.
             </p>
@@ -2305,7 +2305,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '7. You Do Not Have Enough Client Reviews',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/5673493/pexels-photo-5673493.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional colleagues shaking hands representing client reviews and trust building for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5673493/pexels-photo-5673493.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional colleagues shaking hands representing client reviews and trust building for law firms" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Choosing a lawyer is one of the most important decisions someone makes. They need to trust you. Reviews are how you build that trust online. 87% of people look at reviews before hiring a lawyer. If your competitor has 80 reviews and you have 6, clients will call them - even if your experience is better.
             </p>
@@ -2335,7 +2335,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '8. Weak Local SEO Signals',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/22882654/pexels-photo-22882654.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Courthouse building exterior representing local SEO signals for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/22882654/pexels-photo-22882654.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Courthouse building exterior representing local SEO signals for law firms" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> <strong>Local SEO for lawyers</strong> is about showing up when people search for legal services in your area. Google looks at signals like your Google Business Profile, reviews, citations, and location to decide who ranks in the local pack. Weak signals mean you do not show up.
             </p>
@@ -2365,7 +2365,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '9. Missing Local Citations',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/7841456/pexels-photo-7841456.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Lawyer meeting with clients in his office representing local citations and legal directory listings" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7841456/pexels-photo-7841456.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Lawyer meeting with clients in his office representing local citations and legal directory listings" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Local citations are mentions of your firm’s name, address, and phone number on other websites - directories, review sites, and legal listings. Google uses these to verify your firm is legitimate and located where you say it is. Missing or inconsistent citations weaken your local search ranking.
             </p>
@@ -2394,7 +2394,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '10. Lack of High-Quality Legal Backlinks',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/5673490/pexels-photo-5673490.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Legal colleagues discussing contract details in a conference hall representing high-quality legal backlinks" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5673490/pexels-photo-5673490.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Legal colleagues discussing contract details in a conference hall representing high-quality legal backlinks" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Backlinks are links from other websites to yours. Google treats them as votes of confidence. For law firms, links from respected legal sources carry enormous weight. One link from a trusted legal website can boost your <strong>Google rankings</strong> more than 50 generic directory links.
             </p>
@@ -2423,7 +2423,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '11. Poor Internal Linking and Content Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8731037/pexels-photo-8731037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Law book and scales of justice on a desk representing internal linking and content strategy for law firms" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8731037/pexels-photo-8731037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Law book and scales of justice on a desk representing internal linking and content strategy for law firms" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Internal links connect your pages to each other. They help Google understand your site structure and help visitors discover more of your content. A good content strategy with helpful blog posts brings <strong>organic traffic</strong> from people researching legal issues - many of whom become clients.
             </p>
@@ -2453,7 +2453,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '12. How to Track SEO Performance with Google Search Console',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/6077961/pexels-photo-6077961.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Lawyer working at his desk with scales of justice representing tracking SEO performance with Google Search Console" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6077961/pexels-photo-6077961.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Lawyer working at his desk with scales of justice representing tracking SEO performance with Google Search Console" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> You cannot improve what you do not measure. Google Search Console shows you exactly which keywords bring people to your site, which pages are indexed, and what issues are holding you back. Without it, you are doing <strong>legal SEO</strong> blindfolded.
             </p>
@@ -2487,26 +2487,26 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="overflow-x-auto my-6">
               <table className="w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="py-3 px-4 text-left font-semibold text-white">Issue</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Impact on Clients</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Effort to Fix</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Time to Results</th>
+                  <tr className="border-b border-slate-200">
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Issue</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Impact on Clients</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Effort to Fix</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Time to Results</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile not optimized</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website not indexed</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not enough client reviews</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Targeting wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Practice area pages need work</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website too slow</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website not mobile friendly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Weak local SEO signals</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Missing local citations</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Few quality legal backlinks</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Poor internal linking &amp; content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr><td className="py-2.5 px-4 text-slate-300">Not tracking SEO performance</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Google Business Profile not optimized</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Website not indexed</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Not enough client reviews</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Targeting wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Practice area pages need work</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Website too slow</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Website not mobile friendly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Weak local SEO signals</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Missing local citations</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Few quality legal backlinks</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Poor internal linking &amp; content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr><td className="py-2.5 px-4 text-ink-600">Not tracking SEO performance</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-ink-600">Ongoing</td></tr>
                 </tbody>
               </table>
             </div>
@@ -2595,7 +2595,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '1. Your Google Business Profile Is Not Fully Optimized',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Plumber installing pipe fittings with tools representing Google Business Profile optimization for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Plumber installing pipe fittings with tools representing Google Business Profile optimization for plumbing businesses" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is the single most important factor in local search for plumbers. When someone searches "plumber near me," Google shows the local pack - the top 3 businesses with a map. If your profile is incomplete or inactive, you will not be in that pack.
             </p>
@@ -2626,7 +2626,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '2. You Are Not Ranking in Google Maps',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/13297280/pexels-photo-13297280.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="White service van parked on a tree-lined urban street representing Google Maps ranking for local plumbers" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/13297280/pexels-photo-13297280.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="White service van parked on a tree-lined urban street representing Google Maps ranking for local plumbers" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> When someone’s boiler breaks at 11 PM, they grab their phone and search "emergency plumber near me." Google shows them a map with 3 businesses. If you are not one of those 3, you do not get the call. <strong>Google Maps ranking</strong> is driven by three things: proximity, profile quality, and reviews.
             </p>
@@ -2655,7 +2655,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '3. You Are Targeting the Wrong Keywords',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/32588548/pexels-photo-32588548.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Plumber repairing a pipe with a wrench indoors representing targeting the right local keywords for plumbing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/32588548/pexels-photo-32588548.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Plumber repairing a pipe with a wrench indoors representing targeting the right local keywords for plumbing SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> If your website only targets "plumber" or "plumbing services," you are competing with every plumbing company in the country. You will never rank. But "emergency plumber in [your town]" or "boiler repair [your area]" - those are achievable and bring in ready-to-call customers.
             </p>
@@ -2683,7 +2683,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '4. Your Website Loads Too Slowly',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/10961064/pexels-photo-10961064.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Spanner on a stainless steel sink with water droplets representing website speed optimization for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/10961064/pexels-photo-10961064.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Spanner on a stainless steel sink with water droplets representing website speed optimization for plumbing businesses" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> When someone has a burst pipe, they are stressed. They search on their phone, click the first result, and if it takes more than 3 seconds to load, they hit the back button and call the next plumber. Google also penalizes slow websites with lower <strong>Google rankings</strong>.
             </p>
@@ -2713,7 +2713,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '5. Your Website Is Not Mobile Friendly',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/33477104/pexels-photo-33477104.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Smiling service worker using a smartphone outdoors representing mobile-friendly websites for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/33477104/pexels-photo-33477104.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Smiling service worker using a smartphone outdoors representing mobile-friendly websites for plumbing businesses" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Over 70% of local service searches happen on mobile phones. When someone has a plumbing emergency, they reach for their phone, not a laptop. If your website is hard to read, zoom, or tap on a phone, they leave and call someone else.
             </p>
@@ -2744,7 +2744,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '6. You Have Too Few Google Reviews',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/6994156/pexels-photo-6994156.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service worker giving a thumbs up outside a home representing Google reviews for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6994156/pexels-photo-6994156.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service worker giving a thumbs up outside a home representing Google reviews for plumbing businesses" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Reviews are the second biggest local ranking factor. They also directly influence whether someone calls you or your competitor. 88% of people trust online reviews as much as personal recommendations. If your competitor has 80 reviews and you have 6, customers will call them - even if your work is better.
             </p>
@@ -2773,7 +2773,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '7. Your Service Pages Need Improvement',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/4239131/pexels-photo-4239131.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person working on a sink in a bathroom representing improved service pages for plumbing SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239131/pexels-photo-4239131.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person working on a sink in a bathroom representing improved service pages for plumbing SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Google ranks pages, not websites. If you have one "Services" page listing everything from boiler repair to bathroom installations in two sentences each, Google cannot rank it for any of them. You need a dedicated page for each <strong>plumbing service</strong> you offer.
             </p>
@@ -2803,7 +2803,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '8. You Are Missing Local Citations',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/18031901/pexels-photo-18031901.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service van with equipment organized in a parking lot representing local citations for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/18031901/pexels-photo-18031901.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Service van with equipment organized in a parking lot representing local citations for plumbing businesses" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Local citations are mentions of your business name, address, and phone number on other websites - directories, review sites, and local listings. Google uses these to verify your business is real and located where you say it is. Missing or inconsistent citations weaken your local search ranking.
             </p>
@@ -2832,7 +2832,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '9. You Have Very Few Quality Backlinks',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/30223853/pexels-photo-30223853.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Group of construction workers in orange uniforms representing local backlink building and plumbing partnerships" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/30223853/pexels-photo-30223853.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Group of construction workers in orange uniforms representing local backlink building and plumbing partnerships" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Backlinks are links from other websites to yours. Google treats them as votes of confidence. The more quality local backlinks you have, the higher your <strong>Google rankings</strong> - and the more <strong>organic traffic</strong> you get. One link from a trusted local source can boost your rankings more than 50 generic directory links.
             </p>
@@ -2861,7 +2861,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '10. You Are Not Publishing Helpful Plumbing Content',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8488034/pexels-photo-8488034.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Engineer writing on a clipboard with safety helmet representing helpful plumbing content creation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8488034/pexels-photo-8488034.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Engineer writing on a clipboard with safety helmet representing helpful plumbing content creation" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Every blog post is a new page that can rank on Google. When you write about problems your customers search for - "how to fix a leaking tap," "what to do if your boiler loses pressure," "how to unfreeze a frozen pipe" - you bring people to your website who need help right now. Some of them will call you.
             </p>
@@ -2891,7 +2891,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '11. You Are Not Tracking SEO Performance',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/3823415/pexels-photo-3823415.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Worker using a laptop at a workbench in a workshop representing tracking SEO performance for plumbing businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3823415/pexels-photo-3823415.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Worker using a laptop at a workbench in a workshop representing tracking SEO performance for plumbing businesses" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> You cannot fix what you do not measure. Google Search Console shows you which keywords bring people to your site. Google Analytics shows you what they do once they arrive. Without these tools, you are guessing - and guessing costs you calls.
             </p>
@@ -2921,7 +2921,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '12. Simple Steps You Can Take Today',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/5691663/pexels-photo-5691663.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Man holding a cordless drill ready for work representing simple actionable steps to get more plumbing calls today" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5691663/pexels-photo-5691663.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Man holding a cordless drill ready for work representing simple actionable steps to get more plumbing calls today" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               You do not need to do everything at once. Here are the highest-impact actions you can take today to start <strong>getting more plumbing calls</strong>:
             </p>
@@ -2948,26 +2948,26 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="overflow-x-auto my-6">
               <table className="w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="py-3 px-4 text-left font-semibold text-white">Issue</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Impact on Calls</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Effort to Fix</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Time to See Results</th>
+                  <tr className="border-b border-slate-200">
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Issue</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Impact on Calls</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Effort to Fix</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Time to See Results</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile not optimized</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not ranking in Google Maps</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-8 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Too few Google reviews</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website not mobile friendly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Website loads too slowly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Targeting wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Service pages need improvement</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Missing local citations</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Few quality backlinks</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not publishing content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not tracking SEO performance</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
-                  <tr><td className="py-2.5 px-4 text-slate-300">Not taking action today</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-slate-400">Immediate</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Google Business Profile not optimized</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Not ranking in Google Maps</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-8 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Too few Google reviews</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Website not mobile friendly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Website loads too slowly</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Targeting wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Service pages need improvement</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Missing local citations</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Few quality backlinks</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Not publishing content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Not tracking SEO performance</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-ink-600">Ongoing</td></tr>
+                  <tr><td className="py-2.5 px-4 text-ink-600">Not taking action today</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-ink-600">Immediate</td></tr>
                 </tbody>
               </table>
             </div>
@@ -3056,7 +3056,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '1. Why Google Is the Best Source of Property Leads',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/13628541/pexels-photo-13628541.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google search homepage on a screen representing Google as the top source of property leads for real estate agents" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/13628541/pexels-photo-13628541.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google search homepage on a screen representing Google as the top source of property leads for real estate agents" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> When someone searches "estate agent near me" or "property for sale in [your area]," they are not casually browsing. They are ready to act. Google search traffic is the highest-intent traffic you can get. These are people who are actively looking for what you offer - right now.
             </p>
@@ -3078,7 +3078,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '2. Optimize Your Google Business Profile',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/7937748/pexels-photo-7937748.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent placing a for sale sign in front of a modern house representing Google Business Profile optimization" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7937748/pexels-photo-7937748.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent placing a for sale sign in front of a modern house representing Google Business Profile optimization" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Your <strong>Google Business Profile</strong> (GBP) is what appears in the local pack - the top 3 results with a map that show up for local searches. For estate agents, the local pack is gold. It is the first thing people see when they search for an agent in their area.
             </p>
@@ -3102,7 +3102,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '3. Create Individual Pages for Every Service and Location',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8482519/pexels-photo-8482519.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent placing a home for sale sign representing individual service and location pages for real estate websites" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8482519/pexels-photo-8482519.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent placing a home for sale sign representing individual service and location pages for real estate websites" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Google ranks pages, not websites. If you have one "Services" page listing everything you do, Google cannot rank it for "property valuation," "property management," and "residential sales" all at once. You need a dedicated page for each service and each area.
             </p>
@@ -3126,7 +3126,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '4. Target High-Intent Local Keywords',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8148362/pexels-photo-8148362.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Aerial view of a suburban neighborhood with residential houses representing local property search and high-intent local keywords" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8148362/pexels-photo-8148362.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Aerial view of a suburban neighborhood with residential houses representing local property search and high-intent local keywords" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> <strong>Local SEO</strong> for real estate is all about targeting keywords that include a location. "Houses for sale in Islington" is far more valuable than "houses for sale" because it shows clear local intent - and it is much easier to rank for.
             </p>
@@ -3148,7 +3148,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '5. Create Area Guides That Buyers Search For',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/35361412/pexels-photo-35361412.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Contemporary luxury house exterior representing area guides that property buyers search for on Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/35361412/pexels-photo-35361412.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Contemporary luxury house exterior representing area guides that property buyers search for on Google" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Before people buy a house, they research the area. They search "best areas to live in [city]," "schools in [neighbourhood]," "transport links in [area]." If your agency publishes the guide they find, you become the expert they trust - and the agent they call.
             </p>
@@ -3171,7 +3171,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '6. Optimize Property Listings for SEO',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8293674/pexels-photo-8293674.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent showing a modern home interior to a buyer representing optimized property listings for SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8293674/pexels-photo-8293674.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent showing a modern home interior to a buyer representing optimized property listings for SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Each property listing is a potential SEO page. If optimized properly, your listings can rank on Google for searches like "3-bedroom house for sale in [area]" - bringing buyers directly to your website instead of Rightmove.
             </p>
@@ -3194,7 +3194,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '7. Improve Website Speed and Mobile Experience',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/12969403/pexels-photo-12969403.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop displaying an analytics dashboard representing website speed optimization and mobile experience for real estate websites" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/12969403/pexels-photo-12969403.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop displaying an analytics dashboard representing website speed optimization and mobile experience for real estate websites" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Over 70% of property searches happen on mobile phones. If your <strong>real estate website</strong> takes more than 3 seconds to load, visitors leave. Google also uses speed as a ranking factor - slow sites rank lower.
             </p>
@@ -3218,7 +3218,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '8. Build Trust Through Reviews',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8293700/pexels-photo-8293700.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy couple holding a house key representing positive reviews and trust building for real estate agents" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8293700/pexels-photo-8293700.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy couple holding a house key representing positive reviews and trust building for real estate agents" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Selling or buying a property is the biggest financial decision most people make. They need to trust you. Reviews are how you build that trust online - and they also directly impact your <strong>Google Maps</strong> ranking.
             </p>
@@ -3241,7 +3241,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '9. Publish Helpful Real Estate Blog Content',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/3747137/pexels-photo-3747137.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Woman writing in a notebook at a desk with a laptop representing real estate blog content creation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3747137/pexels-photo-3747137.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Woman writing in a notebook at a desk with a laptop representing real estate blog content creation" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> A blog answers the questions your potential clients are already searching for. Every post is a new page that can rank on Google and bring <strong>organic traffic</strong> to your website. Over time, this compounds into a steady stream of free leads.
             </p>
@@ -3264,7 +3264,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '10. Build High-Quality Local Backlinks',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/36714212/pexels-photo-36714212.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Two businesswomen shaking hands in a modern office representing local backlink building and real estate partnerships" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/36714212/pexels-photo-36714212.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Two businesswomen shaking hands in a modern office representing local backlink building and real estate partnerships" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Backlinks from other local websites tell Google your agency is trusted in your area. One link from a respected local source can boost your <strong>Google rankings</strong> more than 50 generic directory links.
             </p>
@@ -3287,7 +3287,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '11. Use Internal Linking',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/5223887/pexels-photo-5223887.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Computer screen displaying color-coded code representing internal linking and website structure for real estate SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5223887/pexels-photo-5223887.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Computer screen displaying color-coded code representing internal linking and website structure for real estate SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Internal links connect your pages to each other. They help Google understand your site structure and help visitors discover more of your content. Good internal linking spreads authority from your strongest pages to your weaker ones.
             </p>
@@ -3310,7 +3310,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '12. Optimize Meta Titles and Descriptions',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/16592498/pexels-photo-16592498.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Computer screen displaying HTML code representing meta titles and descriptions optimization for real estate SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/16592498/pexels-photo-16592498.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Computer screen displaying HTML code representing meta titles and descriptions optimization for real estate SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Meta titles and descriptions are what appear in Google search results. They are your first impression - your free advert on Google. A compelling title and description get more clicks, even if you are not ranked number 1.
             </p>
@@ -3333,7 +3333,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '13. Use Schema Markup for Real Estate',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8730055/pexels-photo-8730055.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent giving house keys to a happy family representing schema markup and structured data for real estate websites" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8730055/pexels-photo-8730055.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent giving house keys to a happy family representing schema markup and structured data for real estate websites" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Schema markup (structured data) is code that helps Google understand your content better. For real estate, it can show your listings directly in search results with prices, photos, and locations - making your result stand out and get more clicks.
             </p>
@@ -3356,7 +3356,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '14. Track SEO with Google Search Console',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/13364320/pexels-photo-13364320.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Red caution tape at a construction site representing tracking SEO results and avoiding issues with Google Search Console" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/13364320/pexels-photo-13364320.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Red caution tape at a construction site representing tracking SEO results and avoiding issues with Google Search Console" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it matters:</strong> Google Search Console is a free tool that shows you exactly which keywords bring people to your site, which pages are indexed, and what issues are holding you back. Without it, you are doing SEO blindfolded.
             </p>
@@ -3380,7 +3380,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '15. Common SEO Mistakes Real Estate Agents Should Avoid',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/3018978/pexels-photo-3018978.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Red warning tape representing common SEO mistakes real estate agents should avoid" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3018978/pexels-photo-3018978.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Red warning tape representing common SEO mistakes real estate agents should avoid" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even agents who try <strong>estate agency SEO</strong> often make these mistakes. Avoid them and you will already be ahead of most competitors:
             </p>
@@ -3406,27 +3406,27 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="overflow-x-auto my-6">
               <table className="w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="py-3 px-4 text-left font-semibold text-white">Strategy</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Effort</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Lead Impact</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Time to Results</th>
+                  <tr className="border-b border-slate-200">
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Strategy</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Effort</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Lead Impact</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Time to Results</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Trust Through Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize Meta Titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Schema Markup</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Service &amp; Location Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize Property Listings</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-3 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Improve Website Speed</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Area Guides</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish Blog Content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Local Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr><td className="py-2.5 px-4 text-slate-300">Track with Search Console</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Build Trust Through Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Optimize Meta Titles</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Use Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Use Schema Markup</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Create Service &amp; Location Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Optimize Property Listings</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">2-3 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Improve Website Speed</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Create Area Guides</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Publish Blog Content</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Build Local Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr><td className="py-2.5 px-4 text-ink-600">Track with Search Console</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">Ongoing</td></tr>
                 </tbody>
               </table>
             </div>
@@ -3515,7 +3515,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '1. Improve Your Google Business Profile',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/3182800/pexels-photo-3182800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop displaying a search engine page representing Google Business Profile optimization for local businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3182800/pexels-photo-3182800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop displaying a search engine page representing Google Business Profile optimization for local businesses" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> Your <strong>Google Business Profile</strong> is what shows up when people search for your business or service near them. A complete, active profile gets more clicks, more calls, and more direction requests than an empty one.
             </p>
@@ -3538,7 +3538,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '2. Rank Your Website with SEO',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/267401/pexels-photo-267401.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Scrabble tiles spelling SEO on a wooden table representing search engine optimization strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/267401/pexels-photo-267401.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Scrabble tiles spelling SEO on a wooden table representing search engine optimization strategy" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> <strong>SEO for small businesses</strong> is about making your website show up when people search for what you offer. Unlike ads, SEO traffic is free and compounds over time. Once you rank, you keep getting visitors without paying per click.
             </p>
@@ -3561,7 +3561,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '3. Publish Helpful Blog Content',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/5239880/pexels-photo-5239880.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hands typing on a laptop displaying a content plan document representing blog content creation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5239880/pexels-photo-5239880.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hands typing on a laptop displaying a content plan document representing blog content creation" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> <strong>Content marketing</strong> brings people to your website who are asking questions related to your business. Every blog post is a new entry point - a new way for someone to find you on Google without you paying for their click.
             </p>
@@ -3584,7 +3584,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '4. Target Local Keywords',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/4905089/pexels-photo-4905089.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Map with location pins representing local keyword targeting for nearby customer searches" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4905089/pexels-photo-4905089.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Map with location pins representing local keyword targeting for nearby customer searches" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> <strong>Local SEO</strong> helps you show up when people search for services near them. "Dentist near me" or "best pizza in [your area]" are local searches - and they have high purchase intent. People searching these terms are ready to buy.
             </p>
@@ -3606,7 +3606,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '5. Collect More Google Reviews',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/10029838/pexels-photo-10029838.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Customer review and feedback concept representing Google reviews and star ratings" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/10029838/pexels-photo-10029838.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Customer review and feedback concept representing Google reviews and star ratings" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> Reviews are social proof. 88% of people trust online reviews as much as personal recommendations. More reviews means higher click-through rates, more calls, and better local search rankings.
             </p>
@@ -3629,7 +3629,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '6. Optimize Your Website for Conversions',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/3584967/pexels-photo-3584967.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website design and landing page concept representing conversion optimization" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3584967/pexels-photo-3584967.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website design and landing page concept representing conversion optimization" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> Getting traffic is only half the battle. If visitors land on your site and leave without calling, booking, or buying, that traffic is wasted. <strong>Conversion optimization</strong> turns more of your existing visitors into paying customers.
             </p>
@@ -3652,7 +3652,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '7. Use Internal Linking',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Web design work on a computer screen representing internal linking and website navigation structure" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Web design work on a computer screen representing internal linking and website navigation structure" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> Internal links connect your pages to each other. They help Google understand your site structure and help visitors discover more of your content. Good internal linking spreads authority across your site and keeps visitors longer.
             </p>
@@ -3674,7 +3674,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '8. Create High-Quality Service Pages',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website design on a screen representing high-quality service pages for businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/14553704/pexels-photo-14553704.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website design on a screen representing high-quality service pages for businesses" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> A dedicated page for each service you offer gives Google a specific page to rank for that service. One generic "Services" page will not rank for "teeth whitening" and "dental implants" - but separate pages for each will.
             </p>
@@ -3697,7 +3697,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '9. Build Authority with Backlinks',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/4427925/pexels-photo-4427925.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Business networking and handshake representing building authority with backlinks and partnerships" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4427925/pexels-photo-4427925.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Business networking and handshake representing building authority with backlinks and partnerships" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> Backlinks are links from other websites to yours. Google treats them as votes of confidence. The more quality backlinks you have, the higher your <strong>Google rankings</strong> - and the more <strong>organic traffic</strong> you get.
             </p>
@@ -3720,7 +3720,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '10. Optimize for Google Maps',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/2678301/pexels-photo-2678301.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Map and navigation concept representing Google Maps ranking optimization for local businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/2678301/pexels-photo-2678301.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Map and navigation concept representing Google Maps ranking optimization for local businesses" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> When people search for a local service on their phone, Google shows a map with the top 3 businesses. Being in that "local pack" means you get the majority of clicks. <strong>Google Maps ranking</strong> is driven by your Google Business Profile, reviews, and proximity.
             </p>
@@ -3743,7 +3743,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '11. Use Email Marketing',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/1591062/pexels-photo-1591062.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Email marketing concept representing newsletters and email campaigns for customer retention" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/1591062/pexels-photo-1591062.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Email marketing concept representing newsletters and email campaigns for customer retention" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> Email is the only marketing channel you own. Social media platforms can change their rules, but your email list is yours. A well-nurtured list brings repeat customers and referrals at zero cost per send.
             </p>
@@ -3766,7 +3766,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '12. Create Valuable Lead Magnets',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/1475290/pexels-photo-1475290.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Ebook and downloadable content representing lead magnets and free guides for lead generation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/1475290/pexels-photo-1475290.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Ebook and downloadable content representing lead magnets and free guides for lead generation" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> A lead magnet is a free resource you give away in exchange for an email address. It turns anonymous website visitors into leads you can nurture over time. Good lead magnets solve one specific problem for your target customer.
             </p>
@@ -3789,7 +3789,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '13. Use Social Media Organically',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/15097793/pexels-photo-15097793.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Social media marketing concept representing organic social media reach and engagement" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/15097793/pexels-photo-15097793.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Social media marketing concept representing organic social media reach and engagement" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> Organic social media builds brand awareness and trust. While organic reach has declined on most platforms, consistent posting still keeps you top-of-mind for when people need your service. It is free <strong>online marketing</strong> that works long-term.
             </p>
@@ -3812,7 +3812,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '14. Ask Happy Customers for Referrals',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/12903031/pexels-photo-12903031.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Handshake representing customer referrals and word-of-mouth marketing for business growth" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/12903031/pexels-photo-12903031.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Handshake representing customer referrals and word-of-mouth marketing for business growth" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> Referrals are the highest-converting <strong>customer acquisition</strong> channel. People trust recommendations from friends and family more than any ad or review. A referred customer is also more loyal and spends more on average.
             </p>
@@ -3835,7 +3835,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '15. Track Results with Google Search Console & Google Analytics',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/5905800/pexels-photo-5905800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Analytics dashboard and data tracking representing Google Search Console and Google Analytics for measuring results" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5905800/pexels-photo-5905800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Analytics dashboard and data tracking representing Google Search Console and Google Analytics for measuring results" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it works:</strong> You cannot improve what you do not measure. Google Search Console shows you which keywords bring people to your site. Google Analytics shows you what they do once they arrive. Together, they tell you exactly what is working and what is not.
             </p>
@@ -3862,29 +3862,29 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="overflow-x-auto my-6">
               <table className="w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="py-3 px-4 text-left font-semibold text-white">Strategy</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Effort</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Impact</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Time to Results</th>
+                  <tr className="border-b border-slate-200">
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Strategy</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Effort</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Impact</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Time to Results</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Collect Google Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Ask for Referrals</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">Immediate</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize for Google Maps</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-8 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Optimize for Conversions</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Create Service Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Use Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Publish Blog Content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Rank with SEO</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Build Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Email Marketing</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-slate-400">1-2 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Lead Magnets</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1-3 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Social Media (Organic)</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr><td className="py-2.5 px-4 text-slate-300">Track Results</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Ongoing</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Google Business Profile</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Collect Google Reviews</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Ask for Referrals</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">Immediate</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Optimize for Google Maps</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">2-8 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Optimize for Conversions</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Target Local Keywords</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Create Service Pages</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Use Internal Linking</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Publish Blog Content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Rank with SEO</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Build Backlinks</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Email Marketing</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-ink-600">1-2 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Lead Magnets</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">1-3 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Social Media (Organic)</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr><td className="py-2.5 px-4 text-ink-600">Track Results</td><td className="py-2.5 px-4 text-emerald-400">Low</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">Ongoing</td></tr>
                 </tbody>
               </table>
             </div>
@@ -3976,7 +3976,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'What Is Local SEO?',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/19963850/pexels-photo-19963850.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Red location pin on a map of the UK representing local SEO and nearby search visibility" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/19963850/pexels-photo-19963850.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Red location pin on a map of the UK representing local SEO and nearby search visibility" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Local SEO</strong> is the process of optimizing your online presence so your business appears in <strong>local search</strong> results - the results Google shows when someone searches for a product or service near them. Think "plumber near me" or "best Italian restaurant in Soho."
             </p>
@@ -3994,7 +3994,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Local SEO Matters for London Businesses',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/13342192/pexels-photo-13342192.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Bustling London street with shops and foot traffic showing the competitive local business landscape" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/13342192/pexels-photo-13342192.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Bustling London street with shops and foot traffic showing the competitive local business landscape" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               London has over 1 million registered businesses. It is one of the most competitive local search markets in the world. Ranking for "dentist in London" is nearly impossible for a small practice - but ranking for "dentist in Islington" or "emergency dentist near Angel station" is absolutely achievable.
             </p>
@@ -4015,7 +4015,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Optimize Your Google Business Profile',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/16629436/pexels-photo-16629436.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Smartphone displaying Google search results showing Google Business Profile listings" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/16629436/pexels-photo-16629436.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Smartphone displaying Google search results showing Google Business Profile listings" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your <strong>Google Business Profile</strong> (GBP) is the single most important factor in local search rankings. It is free, it is powerful, and most businesses leave it half-finished. Here is how to do it right:
             </p>
@@ -4036,7 +4036,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Get More Google Reviews',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/38472818/pexels-photo-38472818.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Five wooden stars on a blue background representing Google reviews and customer star ratings" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/38472818/pexels-photo-38472818.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Five wooden stars on a blue background representing Google reviews and customer star ratings" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Google reviews</strong> are the second biggest local ranking factor after proximity. They also directly influence whether someone clicks your listing or your competitor’s.
             </p>
@@ -4057,7 +4057,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Local Keyword Research',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/2764993/pexels-photo-2764993.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Computer monitor showing code and data representing local keyword research and SEO analytics" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/2764993/pexels-photo-2764993.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Computer monitor showing code and data representing local keyword research and SEO analytics" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Local keywords</strong> are search terms that include a location - like "roofers in Wimbledon" or "solicitor near Canary Wharf." Targeting these is how you rank for <strong>nearby searches</strong> instead of competing with all of London.
             </p>
@@ -4077,7 +4077,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Create Location-Specific Landing Pages',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/28683076/pexels-photo-28683076.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern glass-fronted office building in London representing location-specific landing pages" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/28683076/pexels-photo-28683076.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern glass-fronted office building in London representing location-specific landing pages" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               If you serve multiple London areas, you need a dedicated landing page for each one. A single "services" page mentioning 12 areas will not rank for any of them. Google wants to see a page that is specifically about that location.
             </p>
@@ -4099,7 +4099,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Build Local Citations',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/7634233/pexels-photo-7634233.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="World map with pins and markers representing local business citations and directory listings" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7634233/pexels-photo-7634233.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="World map with pins and markers representing local business citations and directory listings" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Local citations</strong> are mentions of your business name, address, and phone number (NAP) on other websites - directories, review sites, and local business listings. Google uses these to verify your business is real and located where you say it is.
             </p>
@@ -4122,7 +4122,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Mobile SEO for Local Businesses',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/16094263/pexels-photo-16094263.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hand holding smartphone browsing a webpage outdoors representing mobile SEO for local businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/16094263/pexels-photo-16094263.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Hand holding smartphone browsing a webpage outdoors representing mobile SEO for local businesses" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Over 70% of local searches happen on mobile phones. If your website is not easy to use on a phone, you are losing the majority of your potential customers. Google uses <strong>mobile-first indexing</strong>, which means it looks at your mobile site first when deciding rankings.
             </p>
@@ -4144,7 +4144,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Website Speed Optimization',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/10350221/pexels-photo-10350221.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Car speedometer gauge displaying high speed representing website speed optimization and performance" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/10350221/pexels-photo-10350221.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Car speedometer gauge displaying high speed representing website speed optimization and performance" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Website optimization</strong> for speed is a direct ranking factor. Google’s Core Web Vitals measure how fast your page loads (LCP), how quickly it becomes interactive (INP), and how stable it is visually (CLS). If your site loads slowly, Google ranks you lower - and visitors leave.
             </p>
@@ -4166,7 +4166,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Local Link Building',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/7691728/pexels-photo-7691728.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Business professionals shaking hands in a modern office representing local link building and partnerships" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7691728/pexels-photo-7691728.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Business professionals shaking hands in a modern office representing local link building and partnerships" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Backlinks from other London websites tell Google your business is trusted and relevant locally. One link from a respected local source can boost your <strong>Google Maps ranking</strong> more than 50 generic directory links.
             </p>
@@ -4188,7 +4188,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Content Marketing for Local Businesses',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/1833306/pexels-photo-1833306.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cafe setting with laptop, coffee, and notebook representing content marketing for local businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/1833306/pexels-photo-1833306.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cafe setting with laptop, coffee, and notebook representing content marketing for local businesses" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Content marketing is how you rank for questions your customers are already asking. Instead of only having service pages, write articles that answer local questions. This brings in <strong>organic traffic</strong> and positions you as the local expert.
             </p>
@@ -4209,7 +4209,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Local SEO Mistakes to Avoid',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8537615/pexels-photo-8537615.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Red and white warning signage representing common local SEO mistakes to avoid" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8537615/pexels-photo-8537615.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Red and white warning signage representing common local SEO mistakes to avoid" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even businesses that try Local SEO often make these mistakes. Avoid them and you will already be ahead of most competitors:
             </p>
@@ -4230,7 +4230,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Central London Local SEO Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/17340069/pexels-photo-17340069.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="View of Oxford Street in Central London showing the busy commercial district" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/17340069/pexels-photo-17340069.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="View of Oxford Street in Central London showing the busy commercial district" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Competition level:</strong> Very High. Central London (Soho, Covent Garden, Holborn) is the most competitive local search area in the UK. Every major brand and agency competes here.
             </p>
@@ -4251,7 +4251,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Westminster Local SEO Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/33334264/pexels-photo-33334264.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Westminster Abbey showcasing Gothic architecture representing the Westminster area of London" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/33334264/pexels-photo-33334264.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Westminster Abbey showcasing Gothic architecture representing the Westminster area of London" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Competition level:</strong> High. Westminster covers a mix of government, tourism, and residential areas. Hotels, restaurants, and professional services all compete fiercely.
             </p>
@@ -4271,7 +4271,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Camden Local SEO Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/30683418/pexels-photo-30683418.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Shopfront in Camden London representing the Camden area and its unique local business character" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/30683418/pexels-photo-30683418.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Shopfront in Camden London representing the Camden area and its unique local business character" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Competition level:</strong> Medium-High. Camden has a strong independent business culture. Competition is fierce in food, retail, and entertainment, but less saturated for professional services.
             </p>
@@ -4291,7 +4291,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Kensington Local SEO Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/5209901/pexels-photo-5209901.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Kensington Palace with Queen Victoria statue representing the Kensington area of London" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5209901/pexels-photo-5209901.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Kensington Palace with Queen Victoria statue representing the Kensington area of London" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Competition level:</strong> High. Kensington is an affluent area with premium businesses. High-end restaurants, clinics, and boutiques all compete for visibility.
             </p>
@@ -4311,7 +4311,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Chelsea Local SEO Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/9828170/pexels-photo-9828170.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Clothing store exterior on a rainy London street representing the Chelsea area and its boutique businesses" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/9828170/pexels-photo-9828170.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Clothing store exterior on a rainy London street representing the Chelsea area and its boutique businesses" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Competition level:</strong> High. Chelsea is one of London’s most prestigious areas. Businesses here compete on brand reputation and quality, not just price.
             </p>
@@ -4331,7 +4331,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Islington Local SEO Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/20407176/pexels-photo-20407176.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Tranquil canal scene in London with boats and greenery representing the Islington area" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/20407176/pexels-photo-20407176.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Tranquil canal scene in London with boats and greenery representing the Islington area" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Competition level:</strong> Medium. Islington has a strong local community with many independent businesses. Less saturated than Central London but still competitive for popular services.
             </p>
@@ -4351,7 +4351,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Croydon Local SEO Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/31671970/pexels-photo-31671970.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Charming suburban house in London with tree-lined street representing the Croydon area" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/31671970/pexels-photo-31671970.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Charming suburban house in London with tree-lined street representing the Croydon area" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Competition level:</strong> Medium-Low. Croydon is a growing area with less SEO competition than Central London. This is good news - a well-optimized business can rank quickly here.
             </p>
@@ -4371,7 +4371,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Greenwich Local SEO Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/11296038/pexels-photo-11296038.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cutty Sark sailing ship museum in Greenwich representing the Greenwich area of London" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/11296038/pexels-photo-11296038.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cutty Sark sailing ship museum in Greenwich representing the Greenwich area of London" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Competition level:</strong> Medium. Greenwich has a mix of tourism and local residential businesses. The tourist areas are competitive, but residential service businesses have less competition.
             </p>
@@ -4391,7 +4391,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Hammersmith Local SEO Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/28250029/pexels-photo-28250029.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="City of London skyline with buildings and trees representing the Hammersmith area" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/28250029/pexels-photo-28250029.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="City of London skyline with buildings and trees representing the Hammersmith area" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Competition level:</strong> Medium. Hammersmith is a commercial and residential hub. Office workers create daytime demand for food and services, while residents need evening and weekend options.
             </p>
@@ -4411,7 +4411,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Wimbledon Local SEO Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/37385490/pexels-photo-37385490.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Tennis racket and balls on grass court representing the Wimbledon area of London" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/37385490/pexels-photo-37385490.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Tennis racket and balls on grass court representing the Wimbledon area of London" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Competition level:</strong> Medium. Wimbledon has a village feel with strong local businesses. Competition spikes during the tennis tournament but is manageable year-round.
             </p>
@@ -4431,7 +4431,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Stratford Local SEO Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/16062006/pexels-photo-16062006.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Westfield mall at night in London representing the Stratford area and its shopping district" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/16062006/pexels-photo-16062006.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Westfield mall at night in London representing the Stratford area and its shopping district" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Competition level:</strong> Medium. Stratford has grown rapidly since the 2012 Olympics. It has a mix of shopping centre businesses and local services, with moderate competition.
             </p>
@@ -4451,7 +4451,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Canary Wharf Local SEO Strategy',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/10391373/pexels-photo-10391373.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Building in Canary Wharf business complex representing the Canary Wharf area and its corporate business district" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/10391373/pexels-photo-10391373.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Building in Canary Wharf business complex representing the Canary Wharf area and its corporate business district" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Competition level:</strong> High. Canary Wharf is a major business district with corporate-grade competition. Restaurants, gyms, and professional services all compete for the office worker market.
             </p>
@@ -4475,26 +4475,26 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="overflow-x-auto my-6">
               <table className="w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="py-3 px-4 text-left font-semibold text-white">Area</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Competition</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Best For</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Time to Rank</th>
+                  <tr className="border-b border-slate-200">
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Area</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Competition</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Best For</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Time to Rank</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Central London</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-slate-400">Tourism, food, retail</td><td className="py-2.5 px-4 text-slate-400">6-12 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Westminster</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">Professional services, tourism</td><td className="py-2.5 px-4 text-slate-400">4-8 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Camden</td><td className="py-2.5 px-4 text-orange-400">Med-High</td><td className="py-2.5 px-4 text-slate-400">Creative, food, entertainment</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Kensington</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">Premium services, dining</td><td className="py-2.5 px-4 text-slate-400">4-8 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Chelsea</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">Boutiques, luxury services</td><td className="py-2.5 px-4 text-slate-400">4-8 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Islington</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Family services, dining</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Croydon</td><td className="py-2.5 px-4 text-emerald-400">Med-Low</td><td className="py-2.5 px-4 text-slate-400">Tradespeople, local services</td><td className="py-2.5 px-4 text-slate-400">1-3 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Greenwich</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Tourism, pubs, local services</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Hammersmith</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Commuter services, dining</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Wimbledon</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Local services, seasonal tourism</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Stratford</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">Retail, dining, local services</td><td className="py-2.5 px-4 text-slate-400">2-4 months</td></tr>
-                  <tr><td className="py-2.5 px-4 text-slate-300">Canary Wharf</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-slate-400">Corporate services, food</td><td className="py-2.5 px-4 text-slate-400">4-8 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Central London</td><td className="py-2.5 px-4 text-red-400">Very High</td><td className="py-2.5 px-4 text-ink-600">Tourism, food, retail</td><td className="py-2.5 px-4 text-ink-600">6-12 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Westminster</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-ink-600">Professional services, tourism</td><td className="py-2.5 px-4 text-ink-600">4-8 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Camden</td><td className="py-2.5 px-4 text-orange-400">Med-High</td><td className="py-2.5 px-4 text-ink-600">Creative, food, entertainment</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Kensington</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-ink-600">Premium services, dining</td><td className="py-2.5 px-4 text-ink-600">4-8 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Chelsea</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-ink-600">Boutiques, luxury services</td><td className="py-2.5 px-4 text-ink-600">4-8 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Islington</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">Family services, dining</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Croydon</td><td className="py-2.5 px-4 text-emerald-400">Med-Low</td><td className="py-2.5 px-4 text-ink-600">Tradespeople, local services</td><td className="py-2.5 px-4 text-ink-600">1-3 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Greenwich</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">Tourism, pubs, local services</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Hammersmith</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">Commuter services, dining</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Wimbledon</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">Local services, seasonal tourism</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Stratford</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">Retail, dining, local services</td><td className="py-2.5 px-4 text-ink-600">2-4 months</td></tr>
+                  <tr><td className="py-2.5 px-4 text-ink-600">Canary Wharf</td><td className="py-2.5 px-4 text-red-400">High</td><td className="py-2.5 px-4 text-ink-600">Corporate services, food</td><td className="py-2.5 px-4 text-ink-600">4-8 months</td></tr>
                 </tbody>
               </table>
             </div>
@@ -4583,7 +4583,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '1. Your Website Is Not Indexed',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/6986455/pexels-photo-6986455.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing website indexing status and URL inspection tool" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6986455/pexels-photo-6986455.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing website indexing status and URL inspection tool" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it happens:</strong> Google has not added your pages to its index. Until a page is indexed, it cannot appear in search results - no matter how good your content is.
             </p>
@@ -4610,7 +4610,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '2. Google Cannot Crawl Your Website',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/8294660/pexels-photo-8294660.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Robot representing Google crawler bots discovering and scanning web pages for indexing" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8294660/pexels-photo-8294660.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Robot representing Google crawler bots discovering and scanning web pages for indexing" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it happens:</strong> Googlebot visits websites to discover content, but if your site has crawl errors, broken links, or server issues, the crawler gives up and moves on.
             </p>
@@ -4637,7 +4637,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '3. Robots.txt Is Blocking Search Engines',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/270632/pexels-photo-270632.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Computer code on screen representing robots.txt file blocking search engine crawlers" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/270632/pexels-photo-270632.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Computer code on screen representing robots.txt file blocking search engine crawlers" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it happens:</strong> The <strong>robots.txt</strong> file tells search engines which pages they can or cannot crawl. A single wrong line in this file can block Google from your entire website.
             </p>
@@ -4665,7 +4665,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '4. No Sitemap Submitted',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/3837487/pexels-photo-3837487.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person pointing on a map representing XML sitemap submission to Google Search Console" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3837487/pexels-photo-3837487.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person pointing on a map representing XML sitemap submission to Google Search Console" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it happens:</strong> A <strong>sitemap</strong> is a file that lists all your website’s pages for search engines. Without one, Google has to discover every page by following links - which is slow and unreliable.
             </p>
@@ -4692,7 +4692,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '5. Poor Technical SEO',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop showing HTML code representing technical SEO and website structure optimization" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop showing HTML code representing technical SEO and website structure optimization" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it happens:</strong> <strong>Technical SEO</strong> covers the behind-the-scenes elements that help Google understand and rank your site. Missing structured data, broken canonical tags, or poor site architecture all hurt your visibility.
             </p>
@@ -4721,7 +4721,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '6. Wrong Keyword Targeting',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/267415/pexels-photo-267415.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO audit blocks on wooden surface representing keyword research and targeting strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/267415/pexels-photo-267415.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO audit blocks on wooden surface representing keyword research and targeting strategy" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it happens:</strong> You are targeting keywords that are too competitive, too broad, or that nobody is actually searching for. Your content might be great, but if it does not match what people type into Google, it will not show up.
             </p>
@@ -4748,7 +4748,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '7. Weak or Thin Content',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/7679733/pexels-photo-7679733.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person working on a content plan on a laptop representing content writing and strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7679733/pexels-photo-7679733.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person working on a content plan on a laptop representing content writing and strategy" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it happens:</strong> Google’s algorithm prioritizes content that provides real value to users. Pages with very little text, generic descriptions, or no useful information are considered "thin content" and get ignored.
             </p>
@@ -4777,7 +4777,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '8. Duplicate Content Issues',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/7968071/pexels-photo-7968071.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Vintage typewriter representing duplicate content and copy issues in SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7968071/pexels-photo-7968071.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Vintage typewriter representing duplicate content and copy issues in SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it happens:</strong> When multiple pages on your site (or across the web) have the same or very similar content, Google does not know which version to rank. Often, it ranks none of them.
             </p>
@@ -4804,7 +4804,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '9. Slow Website Speed',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/3570733/pexels-photo-3570733.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Glass hourglass representing slow website speed and loading performance issues" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3570733/pexels-photo-3570733.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Glass hourglass representing slow website speed and loading performance issues" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it happens:</strong> Google uses page speed as a ranking factor. If your site takes more than 3 seconds to load, Google lowers its ranking - and visitors leave before the page even finishes loading.
             </p>
@@ -4834,7 +4834,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '10. No High-Quality Backlinks',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Network cables connected to ethernet ports representing backlinks and website linking structure" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Network cables connected to ethernet ports representing backlinks and website linking structure" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it happens:</strong> Backlinks are links from other websites pointing to yours. Google treats them as votes of confidence. Without quality backlinks, your site lacks the authority to compete for competitive keywords.
             </p>
@@ -4862,7 +4862,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '11. Weak Local SEO',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/6033812/pexels-photo-6033812.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Magnifying glass on a map representing local SEO and local business search visibility" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6033812/pexels-photo-6033812.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Magnifying glass on a map representing local SEO and local business search visibility" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it happens:</strong> If you serve a local area, <strong>local SEO</strong> is critical. Without an optimized Google Business Profile and local citations, you will not appear in the local pack - the map results that show up for local searches.
             </p>
@@ -4891,7 +4891,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '12. Your Website Is Still New',
         body: (
           <>
-            <img src="https://images.pexels.com/photos/15351346/pexels-photo-15351346.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wooden letters spelling IDEA representing a new website launch and building online presence" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/15351346/pexels-photo-15351346.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wooden letters spelling IDEA representing a new website launch and building online presence" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               <strong>Why it happens:</strong> New domains have no history, no backlinks, and no trust signal. Google takes time to discover, crawl, index, and rank new websites. This is often called the "Google sandbox" period.
             </p>
@@ -4923,26 +4923,26 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="overflow-x-auto my-6">
               <table className="w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="py-3 px-4 text-left font-semibold text-white">Issue</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Impact Level</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Fix Difficulty</th>
-                    <th className="py-3 px-4 text-left font-semibold text-white">Time to See Results</th>
+                  <tr className="border-b border-slate-200">
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Issue</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Impact Level</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Fix Difficulty</th>
+                    <th className="py-3 px-4 text-left font-semibold text-ink-950">Time to See Results</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Not indexed</td><td className="py-2.5 px-4 text-red-400">Critical</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">1-3 days</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Robots.txt blocking</td><td className="py-2.5 px-4 text-red-400">Critical</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">1-3 days</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">No sitemap</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">3-7 days</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Crawl errors</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">1-2 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Slow speed</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">4-8 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Thin content</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">4-8 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Technical SEO</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-red-400">Hard</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Duplicate content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">No backlinks</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-red-400">Hard</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
-                  <tr className="border-b border-white/5"><td className="py-2.5 px-4 text-slate-300">Weak local SEO</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-slate-400">2-4 weeks</td></tr>
-                  <tr><td className="py-2.5 px-4 text-slate-300">New website</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-slate-400">3-6 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Not indexed</td><td className="py-2.5 px-4 text-red-400">Critical</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-ink-600">1-3 days</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Robots.txt blocking</td><td className="py-2.5 px-4 text-red-400">Critical</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-ink-600">1-3 days</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">No sitemap</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-ink-600">3-7 days</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Crawl errors</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">1-2 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Slow speed</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Wrong keywords</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">4-8 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Thin content</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">4-8 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Technical SEO</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-red-400">Hard</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Duplicate content</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">No backlinks</td><td className="py-2.5 px-4 text-orange-400">High</td><td className="py-2.5 px-4 text-red-400">Hard</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
+                  <tr className="border-b border-slate-100"><td className="py-2.5 px-4 text-ink-600">Weak local SEO</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-ink-600">2-4 weeks</td></tr>
+                  <tr><td className="py-2.5 px-4 text-ink-600">New website</td><td className="py-2.5 px-4 text-amber-400">Medium</td><td className="py-2.5 px-4 text-emerald-400">Easy</td><td className="py-2.5 px-4 text-ink-600">3-6 months</td></tr>
                 </tbody>
               </table>
             </div>
@@ -5011,7 +5011,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/6627574/pexels-photo-6627574.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dentist in a modern dental clinic performing a procedure on a patient, representing dental SEO and online visibility"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5045,7 +5045,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/6812461/pexels-photo-6812461.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dental clinic reception area with modern equipment, representing a Google Business Profile for a dental practice"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5090,7 +5090,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/6627413/pexels-photo-6627413.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dentist examining a patient in a modern dental office, representing local dental keyword targeting"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5134,7 +5134,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/5355826/pexels-photo-5355826.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dental implant model and tools on a clinic table, representing dental service pages for implants and treatments"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5178,7 +5178,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/3881292/pexels-photo-3881292.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Modern dental clinic interior with dental chair and equipment, representing a fast-loading dental website"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5223,7 +5223,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/6502623/pexels-photo-6502623.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dental chair in a modern clinic, representing a mobile-friendly dental website with easy navigation"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5268,7 +5268,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/5355920/pexels-photo-5355920.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dental patient receiving treatment in a clinic, representing Google reviews and patient testimonials for a dental practice"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5312,7 +5312,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/6812483/pexels-photo-6812483.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dental clinic exterior with signage, representing local citations and directory listings for a dental practice"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5356,7 +5356,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/4269682/pexels-photo-4269682.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dental tools and instruments arranged in a clinic, representing dental blog content about oral health and treatments"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5400,7 +5400,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/4687906/pexels-photo-4687906.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dentist consulting with a patient in a clinic, representing internal linking between dental service pages and blog posts"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5444,7 +5444,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/6627447/pexels-photo-6627447.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dental professional examining tools in a modern clinic, representing optimized title tags and meta descriptions for dental SEO"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5488,7 +5488,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/6812569/pexels-photo-6812569.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Modern dental office with advanced equipment, representing local backlinks for dental SEO through community partnerships"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5532,7 +5532,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/8260438/pexels-photo-8260438.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dental clinic with modern technology and equipment, representing Google Search Console tracking for dental SEO performance"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5577,7 +5577,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/7800666/pexels-photo-7800666.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dental team in a modern clinic, comparing dental SEO versus paid ads for long-term practice growth"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5588,41 +5588,41 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="my-6 overflow-x-auto">
               <table className="w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="py-3 pr-4 text-left font-semibold text-white">Factor</th>
-                    <th className="py-3 pr-4 text-left font-semibold text-white">Dental SEO</th>
-                    <th className="py-3 text-left font-semibold text-white">Dental Paid Ads</th>
+                  <tr className="border-b border-slate-200">
+                    <th className="py-3 pr-4 text-left font-semibold text-ink-950">Factor</th>
+                    <th className="py-3 pr-4 text-left font-semibold text-ink-950">Dental SEO</th>
+                    <th className="py-3 text-left font-semibold text-ink-950">Dental Paid Ads</th>
                   </tr>
                 </thead>
-                <tbody className="text-slate-400">
-                  <tr className="border-b border-white/5">
+                <tbody className="text-ink-600">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Cost over time</td>
-                    <td className="py-3 pr-4 text-brand-300">Decreases (traffic is free once ranking)</td>
+                    <td className="py-3 pr-4 text-brand-600">Decreases (traffic is free once ranking)</td>
                     <td className="py-3">Increases (pay per click forever)</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Time to results</td>
                     <td className="py-3 pr-4">3-6 months</td>
-                    <td className="py-3 text-brand-300">Immediate</td>
+                    <td className="py-3 text-brand-600">Immediate</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Traffic after stopping</td>
-                    <td className="py-3 pr-4 text-brand-300">Continues for months or years</td>
+                    <td className="py-3 pr-4 text-brand-600">Continues for months or years</td>
                     <td className="py-3">Stops immediately</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Click-through rate</td>
-                    <td className="py-3 pr-4 text-brand-300">Higher (organic results trusted more)</td>
+                    <td className="py-3 pr-4 text-brand-600">Higher (organic results trusted more)</td>
                     <td className="py-3">Lower (many users skip ads)</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Trust and credibility</td>
-                    <td className="py-3 pr-4 text-brand-300">Builds long-term authority</td>
+                    <td className="py-3 pr-4 text-brand-600">Builds long-term authority</td>
                     <td className="py-3">No lasting authority</td>
                   </tr>
                   <tr>
                     <td className="py-3 pr-4">Best for</td>
-                    <td className="py-3 pr-4 text-brand-300">Long-term practice growth</td>
+                    <td className="py-3 pr-4 text-brand-600">Long-term practice growth</td>
                     <td className="py-3">Short-term patient boosts</td>
                   </tr>
                 </tbody>
@@ -5642,7 +5642,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/4687254/pexels-photo-4687254.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Dental professional working in a clinic, representing a dental SEO action checklist for practice growth"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5738,7 +5738,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Restaurant owner looking at phone wondering why their restaurant is not showing up on Google Search"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5769,7 +5769,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/4252130/pexels-photo-4252130.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Google Business Profile dashboard being optimized for restaurant local SEO with complete business information"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5802,7 +5802,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/3214788/pexels-photo-3214788.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Local business directory listings showing consistent NAP information for restaurant local SEO"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5831,7 +5831,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Restaurant website being optimized for SEO with menu pages and local keywords"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5861,7 +5861,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/29147202/pexels-photo-29147202.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Charming New York City street corner cafe, representing a restaurant’s local presence and Google review visibility"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5890,7 +5890,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Local keyword research for restaurant SEO showing searches like best restaurant near me and food nearby"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5920,7 +5920,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Mobile-friendly restaurant website loading fast on a smartphone showing menu and reservation options"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5950,7 +5950,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Schema markup code being added to a restaurant website for rich snippets in Google Search results"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -5984,7 +5984,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Restaurant blog content marketing strategy showing local food guides and neighborhood articles"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6017,7 +6017,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Restaurant social media marketing on Instagram showing food photos and customer engagement"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6047,7 +6047,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Competitor analysis dashboard comparing restaurant online visibility and Google rankings"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6059,42 +6059,42 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="my-6 overflow-x-auto">
               <table className="w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="py-3 pr-4 text-left font-semibold text-white">Factor</th>
-                    <th className="py-3 pr-4 text-left font-semibold text-white">Your Restaurant</th>
-                    <th className="py-3 text-left font-semibold text-white">Top Competitor</th>
+                  <tr className="border-b border-slate-200">
+                    <th className="py-3 pr-4 text-left font-semibold text-ink-950">Factor</th>
+                    <th className="py-3 pr-4 text-left font-semibold text-ink-950">Your Restaurant</th>
+                    <th className="py-3 text-left font-semibold text-ink-950">Top Competitor</th>
                   </tr>
                 </thead>
-                <tbody className="text-slate-400">
-                  <tr className="border-b border-white/5">
+                <tbody className="text-ink-600">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Google reviews</td>
                     <td className="py-3 pr-4">12</td>
-                    <td className="py-3 text-brand-300">347</td>
+                    <td className="py-3 text-brand-600">347</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Average rating</td>
                     <td className="py-3 pr-4">4.2</td>
-                    <td className="py-3 text-brand-300">4.7</td>
+                    <td className="py-3 text-brand-600">4.7</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Profile photos</td>
                     <td className="py-3 pr-4">8</td>
-                    <td className="py-3 text-brand-300">120+</td>
+                    <td className="py-3 text-brand-600">120+</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Website</td>
                     <td className="py-3 pr-4">No website</td>
-                    <td className="py-3 text-brand-300">Mobile-optimized</td>
+                    <td className="py-3 text-brand-600">Mobile-optimized</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Menu format</td>
                     <td className="py-3 pr-4">PDF only</td>
-                    <td className="py-3 text-brand-300">HTML text</td>
+                    <td className="py-3 text-brand-600">HTML text</td>
                   </tr>
                   <tr>
                     <td className="py-3 pr-4">Posts per week</td>
                     <td className="py-3 pr-4">0</td>
-                    <td className="py-3 text-brand-300">3-4</td>
+                    <td className="py-3 text-brand-600">3-4</td>
                   </tr>
                 </tbody>
               </table>
@@ -6116,7 +6116,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Technical SEO audit for restaurant website showing crawl errors and indexing issues in Google Search Console"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6199,7 +6199,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/4219989/pexels-photo-4219989.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Shopify store owner looking at laptop with low sales dashboard and feeling frustrated"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6227,7 +6227,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Shopify SEO optimization showing product pages ranking on Google search results"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6282,7 +6282,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/5386485/pexels-photo-5386485.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Email marketing campaign on laptop showing newsletter signup form for Shopify store"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6323,7 +6323,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Social media marketing on phone showing Instagram and TikTok for Shopify store promotion"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6356,7 +6356,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Content marketing strategy on laptop showing blog posts that drive organic traffic to Shopify store"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6391,7 +6391,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Shopify conversion optimization showing checkout page improvements and A/B testing"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6406,32 +6406,32 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="my-6 overflow-x-auto">
               <table className="w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="py-3 pr-4 text-left font-semibold text-white">Metric</th>
-                    <th className="py-3 pr-4 text-left font-semibold text-white">Average Store</th>
-                    <th className="py-3 text-left font-semibold text-white">Optimized Store</th>
+                  <tr className="border-b border-slate-200">
+                    <th className="py-3 pr-4 text-left font-semibold text-ink-950">Metric</th>
+                    <th className="py-3 pr-4 text-left font-semibold text-ink-950">Average Store</th>
+                    <th className="py-3 text-left font-semibold text-ink-950">Optimized Store</th>
                   </tr>
                 </thead>
-                <tbody className="text-slate-400">
-                  <tr className="border-b border-white/5">
+                <tbody className="text-ink-600">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Conversion rate</td>
                     <td className="py-3 pr-4">1.4%</td>
-                    <td className="py-3 text-brand-300">3.2%</td>
+                    <td className="py-3 text-brand-600">3.2%</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Cart abandonment</td>
                     <td className="py-3 pr-4">70%</td>
-                    <td className="py-3 text-brand-300">45%</td>
+                    <td className="py-3 text-brand-600">45%</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Checkout steps</td>
                     <td className="py-3 pr-4">5 steps</td>
-                    <td className="py-3 text-brand-300">2 steps</td>
+                    <td className="py-3 text-brand-600">2 steps</td>
                   </tr>
                   <tr>
                     <td className="py-3 pr-4">Mobile conversion</td>
                     <td className="py-3 pr-4">0.9%</td>
-                    <td className="py-3 text-brand-300">2.8%</td>
+                    <td className="py-3 text-brand-600">2.8%</td>
                   </tr>
                 </tbody>
               </table>
@@ -6459,7 +6459,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/7651975/pexels-photo-7651975.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Week by week action plan checklist for increasing Shopify sales without ads"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6536,7 +6536,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/5077047/pexels-photo-5077047.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="eCommerce store dashboard showing low sales and traffic metrics"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6561,7 +6561,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Product page with SEO elements like title tags and meta descriptions being optimized"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6601,7 +6601,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/4218627/pexels-photo-4218627.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Website speed test showing slow page load times on a mobile device"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6624,32 +6624,32 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="my-6 overflow-x-auto">
               <table className="w-full border-collapse text-sm">
                 <thead>
-                  <tr className="border-b border-white/10">
-                    <th className="py-3 pr-4 text-left font-semibold text-white">Metric</th>
-                    <th className="py-3 pr-4 text-left font-semibold text-white">Before</th>
-                    <th className="py-3 text-left font-semibold text-white">After</th>
+                  <tr className="border-b border-slate-200">
+                    <th className="py-3 pr-4 text-left font-semibold text-ink-950">Metric</th>
+                    <th className="py-3 pr-4 text-left font-semibold text-ink-950">Before</th>
+                    <th className="py-3 text-left font-semibold text-ink-950">After</th>
                   </tr>
                 </thead>
-                <tbody className="text-slate-400">
-                  <tr className="border-b border-white/5">
+                <tbody className="text-ink-600">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Page load time</td>
                     <td className="py-3 pr-4">5.8 seconds</td>
-                    <td className="py-3 text-brand-300">1.9 seconds</td>
+                    <td className="py-3 text-brand-600">1.9 seconds</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Page size</td>
                     <td className="py-3 pr-4">4.2 MB</td>
-                    <td className="py-3 text-brand-300">1.1 MB</td>
+                    <td className="py-3 text-brand-600">1.1 MB</td>
                   </tr>
-                  <tr className="border-b border-white/5">
+                  <tr className="border-b border-slate-100">
                     <td className="py-3 pr-4">Google PageSpeed score</td>
                     <td className="py-3 pr-4">34 / 100</td>
-                    <td className="py-3 text-brand-300">89 / 100</td>
+                    <td className="py-3 text-brand-600">89 / 100</td>
                   </tr>
                   <tr>
                     <td className="py-3 pr-4">Conversion rate</td>
                     <td className="py-3 pr-4">1.2%</td>
-                    <td className="py-3 text-brand-300">2.8%</td>
+                    <td className="py-3 text-brand-600">2.8%</td>
                   </tr>
                 </tbody>
               </table>
@@ -6676,7 +6676,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="Technical SEO audit showing crawl errors and indexing issues in Google Search Console"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6718,7 +6718,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="eCommerce checkout page being optimized to improve conversion rate and reduce cart abandonment"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -6761,7 +6761,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <img
               src="https://images.pexels.com/photos/7651975/pexels-photo-7651975.jpeg?auto=compress&cs=tinysrgb&w=1200"
               alt="eCommerce optimization action plan checklist with step-by-step tasks"
-              className="my-6 w-full rounded-2xl border border-white/10"
+              className="my-6 w-full rounded-2xl border border-slate-200"
               loading="lazy"
               width={1200}
               height={630}
@@ -7888,46 +7888,46 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="grad-border rounded-2xl overflow-hidden my-6">
               <img src="https://images.pexels.com/photos/7927357/pexels-photo-7927357.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Frustrated HVAC business owner looking at laptop wondering why business is not showing on Google" className="w-full h-64 object-cover" loading="lazy" />
             </div>
-            <h3 className="text-xl font-semibold text-white mt-6">1. Your Google Business Profile Is Not Optimized</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">1. Your Google Business Profile Is Not Optimized</h3>
             <p>
               Your <strong>Google Business Profile</strong> (formerly Google My Business) is the single most important factor for local search visibility. If you have not claimed or optimized your profile, Google has very little information about your business. No photos, no services listed, no business hours, no description. That makes it nearly impossible to rank in the Local Pack (the top three results on Google Maps).
             </p>
             <p>
               Many HVAC owners create a profile, fill in the basics, and never touch it again. That is a mistake. Google rewards active, complete, and accurate profiles. If you want to learn how to optimize yours, check out our <a href="/google-business-profile/">Google Business Profile optimization services</a>.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">2. Wrong Business Categories</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">2. Wrong Business Categories</h3>
             <p>
               When you set up your Google Business Profile, you choose a primary category. Many HVAC businesses pick a generic category like "Contractor" or "Home Service" instead of specific ones like "HVAC contractor," "Air conditioning contractor," or "Heating contractor." This is a big problem. Google uses your primary category as one of its strongest ranking signals. If you pick the wrong one, you will not rank for the searches that matter.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">3. Inconsistent NAP Information</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">3. Inconsistent NAP Information</h3>
             <p>
               NAP stands for Name, Address, and Phone number. Google uses NAP information across the web to verify your business. If your NAP is inconsistent (different phone numbers on different directories, slightly different business names, or an old address), Google loses trust. This inconsistency confuses the algorithm and can push your business down in the rankings.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">4. Poor Local SEO</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">4. Poor Local SEO</h3>
             <p>
               <strong>Local SEO for HVAC</strong> is about more than just your Google Business Profile. It includes your website content, local keywords, location pages, citations, and reviews. If you are not actively working on local SEO, your competitors who are will keep outranking you. A strong <a href="/local-seo/">Local SEO strategy</a> ensures Google understands exactly where you operate and what services you offer.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">5. Weak Website Optimization</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">5. Weak Website Optimization</h3>
             <p>
               Your website is the foundation of your online presence. If it is slow, hard to navigate, or missing key information like services, service areas, and contact details, Google will struggle to rank it. Your website needs clear service pages, location-specific content, and a mobile-friendly design. If your site needs work, our <a href="/website-design/">website design services</a> can help you build a site that ranks and converts.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">6. Technical SEO Issues</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">6. Technical SEO Issues</h3>
             <p>
               Technical SEO is the behind-the-scenes stuff that helps Google crawl and index your website. Common issues include missing meta tags, broken links, slow page speed, no XML sitemap, and poor mobile responsiveness. These issues prevent Google from understanding your site. Our <a href="/technical-seo/">technical SEO services</a> can identify and fix these problems so your site performs at its best.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">7. Low-Quality Backlinks</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">7. Low-Quality Backlinks</h3>
             <p>
               Backlinks (links from other websites to yours) are a major ranking factor. But not all backlinks are good. Low-quality, spammy, or irrelevant backlinks can actually hurt your rankings. If your link profile is weak or toxic, Google will not trust your site. Building high-quality, relevant backlinks through <a href="/link-building/">link building services</a> and <a href="/off-page-seo/">off-page SEO</a> is essential for long-term success.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">8. Few Customer Reviews</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">8. Few Customer Reviews</h3>
             <p>
               Reviews are one of the top local ranking factors. They also play a huge role in whether someone clicks on your business or your competitor's. If you have fewer than 10 reviews or your rating is below 4 stars, you are at a disadvantage. Businesses with dozens of positive reviews consistently rank higher and get more calls.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">9. Duplicate Business Listings</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">9. Duplicate Business Listings</h3>
             <p>
               If you have multiple Google Business Profiles for the same business (maybe someone on your team created a second one by mistake), Google gets confused. Duplicate listings split your reviews, dilute your ranking power, and can lead to suspension. You should have exactly one profile per physical location.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">10. Google Business Profile Suspension</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">10. Google Business Profile Suspension</h3>
             <p>
               If your profile was suspended, your business will not show on Google at all. Suspensions happen for various reasons: using a virtual office address, keyword stuffing in your business name, listing a service area that is too broad, or violating Google's guidelines. If you have been suspended, you need to fix the issue and request reinstatement.
             </p>
@@ -7945,43 +7945,43 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="grad-border rounded-2xl overflow-hidden my-6">
               <img src="https://images.pexels.com/photos/6471913/pexels-photo-6471913.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician repairing air conditioning unit representing step-by-step SEO fixes for HVAC businesses" className="w-full h-64 object-cover" loading="lazy" />
             </div>
-            <h3 className="text-xl font-semibold text-white mt-6">Fix 1: Optimize Your Google Business Profile</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Fix 1: Optimize Your Google Business Profile</h3>
             <p>
               Claim your profile at google.com/business if you have not already. Fill out every single field: business name, address, phone, website, hours, services, service areas, and a 750-character description. Upload at least 10 photos of your team, trucks, and work. Post updates weekly. The more complete and active your profile, the better you will rank.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Fix 2: Choose the Right Categories</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Fix 2: Choose the Right Categories</h3>
             <p>
               Set your primary category to "HVAC contractor." Add secondary categories like "Air conditioning contractor," "Heating contractor," and "Air conditioning repair service." Do not pick categories that do not apply. Google penalizes businesses that stuff irrelevant categories.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Fix 3: Make Your NAP Consistent Everywhere</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Fix 3: Make Your NAP Consistent Everywhere</h3>
             <p>
               Pick one exact business name, one address, and one phone number. Use that exact combination on your website, Google Business Profile, Yelp, Facebook, Yellow Pages, and every other directory. Even small differences (like "LLC" vs "L.L.C.") can cause problems. Audit your listings and fix any inconsistencies.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Fix 4: Invest in Local SEO</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Fix 4: Invest in Local SEO</h3>
             <p>
               Create location-specific pages on your website for every city or neighborhood you serve. Use local keywords naturally in your content ("AC repair in [City]," "heating installation [City]"). Build local citations on relevant directories. Get listed on HVAC-specific and home service directories. A well-rounded <a href="/local-seo/">Local SEO campaign</a> covers all of these.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Fix 5: Optimize Your Website</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Fix 5: Optimize Your Website</h3>
             <p>
               Make sure your website has dedicated service pages for AC repair, heating repair, installation, maintenance, and emergency service. Include your service areas, a clear phone number in the header, and a contact form. Ensure your site loads in under 3 seconds and works perfectly on mobile phones, since most HVAC searches happen on mobile.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Fix 6: Fix Technical SEO Issues</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Fix 6: Fix Technical SEO Issues</h3>
             <p>
               Run a <a href="/seo-audit/">comprehensive SEO audit</a> to find technical issues. Fix broken links, optimize meta titles and descriptions, submit an XML sitemap to Google Search Console, and improve page speed. If your site has technical problems, they will hold back all your other SEO efforts.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Fix 7: Build High-Quality Backlinks</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Fix 7: Build High-Quality Backlinks</h3>
             <p>
               Focus on earning links from relevant, authoritative websites. Reach out to local business associations, Chambers of Commerce, and industry blogs. Create valuable content that other sites want to link to. Avoid buying links or using spammy directories. Quality matters far more than quantity.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Fix 8: Get More Customer Reviews</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Fix 8: Get More Customer Reviews</h3>
             <p>
               Ask every happy customer for a review. Send a follow-up text or email with a direct link to your Google review page. Respond to every review, positive and negative. Aim for at least one new review per week. Reviews build trust with both Google and potential customers.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Fix 9: Remove Duplicate Listings</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Fix 9: Remove Duplicate Listings</h3>
             <p>
               Search for your business on Google Maps. If you see multiple listings, contact Google Business Profile support to merge or remove the duplicates. Keep only the one with the most reviews and accurate information.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Fix 10: Appeal a Suspension</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Fix 10: Appeal a Suspension</h3>
             <p>
               If your profile is suspended, review Google's guidelines, fix any violations, and submit a reinstatement request through Google Business Profile support. Be patient. The process can take several weeks, but it is worth it to get your business back on Google.
             </p>
@@ -8033,15 +8033,15 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="grad-border rounded-2xl overflow-hidden my-6">
               <img src="https://images.pexels.com/photos/10161200/pexels-photo-10161200.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Person using Google Maps navigation on phone representing how Google Maps rankings work for HVAC businesses" className="w-full h-64 object-cover" loading="lazy" />
             </div>
-            <h3 className="text-xl font-semibold text-white mt-6">Relevance</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Relevance</h3>
             <p>
               Relevance is how well your business matches the searcher's query. If someone searches "AC repair," Google looks for businesses that offer AC repair. Your Google Business Profile categories, services, and description all signal relevance. The more specific and accurate your profile, the better Google can match you to relevant searches.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Distance</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Distance</h3>
             <p>
               Distance is how far your business is from the searcher's location. Google tries to show the closest relevant businesses. If you are in Dallas and someone in Dallas searches for HVAC services, you have an advantage. This is why having your correct address and service areas listed is critical. If you serve a wide area but do not have a physical location in every city, location-specific landing pages on your website can help.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Prominence</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Prominence</h3>
             <p>
               Prominence is how well-known and trusted your business is. Google measures this through reviews, backlinks, website authority, and overall online presence. A business with 100 five-star reviews and a strong website will outrank a business with 5 reviews and no website. Prominence is where you can really separate yourself from the competition.
             </p>
@@ -8103,14 +8103,14 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               SEO is not a one-time task. It is an ongoing process that requires consistent effort. But the payoff is worth it. Every call you get from Google is a customer who was actively looking for your services. That is the highest quality lead you can get.
             </p>
             <div className="grad-border rounded-3xl p-8 mt-8 text-center">
-              <h3 className="text-2xl font-bold text-white">Ready to Get More HVAC Calls from Google?</h3>
-              <p className="mt-3 text-slate-300">
+              <h3 className="text-2xl font-bold text-ink-950">Ready to Get More HVAC Calls from Google?</h3>
+              <p className="mt-3 text-ink-600">
                 Stop losing customers to competitors who rank higher than you. <strong>Rank Flow Agency</strong> specializes in <strong>HVAC SEO</strong> and <strong>local SEO for HVAC</strong> businesses. We will optimize your Google Business Profile, fix your website, build your local presence, and get you ranking on Google Search and Google Maps.
               </p>
-              <p className="mt-3 text-slate-300">
+              <p className="mt-3 text-ink-600">
                 <a href="/contact/" className="btn-glow inline-flex items-center gap-2">Get a FREE HVAC SEO Audit</a>
               </p>
-              <p className="mt-4 text-sm text-slate-400">
+              <p className="mt-4 text-sm text-ink-600">
                 No obligation. No pressure. Just a clear plan to get your HVAC business showing on Google and generating more calls.
               </p>
             </div>
@@ -8164,46 +8164,46 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="grad-border rounded-2xl overflow-hidden my-6">
               <img src="https://images.pexels.com/photos/7793650/pexels-photo-7793650.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Frustrated electrical business owner looking at laptop wondering why business is not showing on Google" className="w-full h-64 object-cover" loading="lazy" />
             </div>
-            <h3 className="text-xl font-semibold text-white mt-6">1. Unoptimized Google Business Profile</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">1. Unoptimized Google Business Profile</h3>
             <p>
               Your <strong>Google Business Profile</strong> is the most important tool for local search visibility. If you have not claimed it, or if you claimed it but left it half-finished, Google has very little information to work with. No photos, no services listed, no business hours, no description. Without these details, Google cannot match your business to relevant searches, and you will not appear in the Local Pack (the top three results on Google Maps).
             </p>
             <p>
               Many electricians create a profile, fill in the basics, and never touch it again. That is a missed opportunity. Google rewards profiles that are complete, accurate, and active. If you want to maximize your visibility, check out our <a href="/google-business-profile/">Google Business Profile optimization services</a>.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">2. Wrong Business Category</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">2. Wrong Business Category</h3>
             <p>
               When setting up your Google Business Profile, you choose a primary category. Many electrical businesses pick something generic like "Contractor" or "Home Service" instead of specific categories like "Electrician," "Electrical contractor," or "Lighting contractor." This is a serious problem. Your primary category is one of Google's strongest ranking signals. If you choose the wrong one, you will not show up for the searches that actually matter to your business.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">3. Poor Local SEO</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">3. Poor Local SEO</h3>
             <p>
               <strong>Local SEO for electricians</strong> goes beyond your Google Business Profile. It includes your website content, local keywords, location pages, directory citations, and customer reviews. If you are not actively working on local SEO, your competitors who are will keep outranking you. A solid <a href="/local-seo/">Local SEO strategy</a> tells Google exactly where you operate and what services you offer.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">4. Inconsistent NAP Information</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">4. Inconsistent NAP Information</h3>
             <p>
               NAP stands for Name, Address, and Phone number. Google checks your NAP across the web to verify your business. If your NAP is inconsistent (different phone numbers on different directories, a slightly different business name, or an old address), Google loses confidence in your business information. This confusion can push you down in the rankings or prevent you from showing up at all.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">5. Weak Website SEO</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">5. Weak Website SEO</h3>
             <p>
               Your website is the foundation of your online presence. If it is slow, hard to navigate, or missing key information like services, service areas, and contact details, Google will struggle to rank it. Your site needs clear service pages for each type of work you do (residential, commercial, emergency repairs, lighting installation, panel upgrades, etc.), location-specific content, and a mobile-friendly design. If your site needs a rebuild, our <a href="/website-design/">website design services</a> can help.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">6. Technical SEO Problems</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">6. Technical SEO Problems</h3>
             <p>
               <strong>Technical SEO</strong> is the behind-the-scenes work that helps Google crawl and index your website. Common issues include missing meta tags, broken links, slow page speed, no XML sitemap, and poor mobile responsiveness. These problems silently hold back your rankings. Our <a href="/technical-seo/">technical SEO services</a> can identify and fix these issues so your site performs at its best.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">7. Lack of Customer Reviews</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">7. Lack of Customer Reviews</h3>
             <p>
               Reviews are one of the top local ranking factors. They also heavily influence whether a potential customer clicks on your business or your competitor's. If you have fewer than 10 reviews or your average rating is below 4 stars, you are at a serious disadvantage. Businesses with dozens of positive reviews consistently rank higher and get more calls.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">8. Poor Internal Linking</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">8. Poor Internal Linking</h3>
             <p>
               Internal linking is how pages on your website link to each other. If your service pages do not link to your contact page, your blog posts do not link to your service pages, and your homepage does not link to your location pages, Google has a hard time understanding the structure of your site. Poor internal linking means your most important pages do not get the attention they deserve from both Google and visitors.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">9. Low Website Authority</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">9. Low Website Authority</h3>
             <p>
               Website authority is a measure of how trustworthy and authoritative your site is in the eyes of Google. It is largely determined by the quality and quantity of backlinks (links from other websites to yours). If your website has few or low-quality backlinks, Google will not consider it authoritative enough to rank at the top. Building high-quality backlinks through professional <a href="/link-building/">link building services</a> is essential for long-term SEO success.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">10. Google Business Profile Suspension</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">10. Google Business Profile Suspension</h3>
             <p>
               If your profile has been suspended, your business will not show on Google at all. Suspensions happen for several reasons: using a virtual office address, keyword stuffing in your business name, listing an overly broad service area, or violating Google's guidelines in some other way. If you have been suspended, you need to identify the issue, fix it, and submit a reinstatement request.
             </p>
@@ -8221,43 +8221,43 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="grad-border rounded-2xl overflow-hidden my-6">
               <img src="https://images.pexels.com/photos/27928762/pexels-photo-27928762.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Electrician working on electrical panel representing step-by-step SEO solutions for electrical businesses" className="w-full h-64 object-cover" loading="lazy" />
             </div>
-            <h3 className="text-xl font-semibold text-white mt-6">Step 1: Fully Optimize Your Google Business Profile</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Step 1: Fully Optimize Your Google Business Profile</h3>
             <p>
               Go to google.com/business and claim your profile if you have not already. Fill out every single field: business name, address, phone number, website, operating hours, services, service areas, and a 750-character description that includes your primary keywords naturally. Upload at least 10 photos of your team, your van, your equipment, and completed jobs. Post updates at least once a week. The more complete and active your profile, the better you will rank.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Step 2: Choose the Right Categories</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Step 2: Choose the Right Categories</h3>
             <p>
               Set your primary category to "Electrician." Add secondary categories like "Electrical contractor," "Lighting contractor," and "Electrical repair service" if they apply to your business. Do not add categories that do not reflect what you actually do. Google penalizes businesses that stuff irrelevant categories.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Step 3: Invest in Local SEO</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Step 3: Invest in Local SEO</h3>
             <p>
               Create dedicated location pages on your website for every city or neighborhood you serve. Use local keywords naturally in your content ("electrician in [City]," "electrical contractor [City]"). Build citations on relevant directories. Get listed on electrician-specific and trades directories. A comprehensive <a href="/local-seo/">Local SEO campaign</a> covers all of these bases.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Step 4: Make Your NAP Consistent Everywhere</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Step 4: Make Your NAP Consistent Everywhere</h3>
             <p>
               Choose one exact business name, one address, and one phone number. Use that exact combination on your website, Google Business Profile, Yelp, Facebook, Yellow Pages, Angi, and every other directory. Even small variations can cause problems. Audit your existing listings and correct any inconsistencies.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Step 5: Optimize Your Website</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Step 5: Optimize Your Website</h3>
             <p>
               Create separate service pages for residential electrical work, commercial electrical work, emergency repairs, lighting installation, panel upgrades, and any other services you offer. Include your service areas, a clear phone number in the header, and a contact form. Make sure your site loads in under 3 seconds and works perfectly on mobile phones, since most electrician searches happen on mobile.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Step 6: Fix Technical SEO Issues</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Step 6: Fix Technical SEO Issues</h3>
             <p>
               Run a <a href="/seo-audit/">comprehensive SEO audit</a> to find technical problems. Fix broken links, optimize meta titles and descriptions, submit an XML sitemap to Google Search Console, and improve page speed. Technical issues will hold back every other SEO effort if left unaddressed.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Step 7: Get More Customer Reviews</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Step 7: Get More Customer Reviews</h3>
             <p>
               Ask every satisfied customer for a review. Send a follow-up text or email with a direct link to your Google review page. Respond to every review, whether it is positive or negative. Aim for at least one new review per week. Reviews build trust with both Google and potential customers.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Step 8: Improve Your Internal Linking</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Step 8: Improve Your Internal Linking</h3>
             <p>
               Make sure your homepage links to all your service pages. Your service pages should link to your contact page and relevant location pages. Your blog posts should link to your service pages. A well-structured internal linking system helps Google understand your site and rank your most important pages higher.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Step 9: Build Website Authority</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Step 9: Build Website Authority</h3>
             <p>
               Focus on earning links from relevant, authoritative websites. Reach out to local Chambers of Commerce, trade associations, and industry blogs. Create valuable content that other sites want to link to. Avoid buying links or using spammy directories. Quality matters far more than quantity when it comes to backlinks.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Step 10: Appeal a Suspension</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Step 10: Appeal a Suspension</h3>
             <p>
               If your profile is suspended, review Google's guidelines carefully, fix any violations, and submit a reinstatement request through Google Business Profile support. Be patient, as the process can take several weeks, but it is worth it to get your business back on Google.
             </p>
@@ -8309,15 +8309,15 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="grad-border rounded-2xl overflow-hidden my-6">
               <img src="https://images.pexels.com/photos/5921677/pexels-photo-5921677.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Close-up of Google Maps on smartphone representing how Google Maps rankings work for electricians" className="w-full h-64 object-cover" loading="lazy" />
             </div>
-            <h3 className="text-xl font-semibold text-white mt-6">Relevance</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Relevance</h3>
             <p>
               Relevance is how well your business matches the searcher's query. If someone searches "emergency electrician," Google looks for businesses that offer emergency electrical services. Your Google Business Profile categories, services, and description all signal relevance. The more specific and accurate your profile, the better Google can match you to the right searches.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Distance</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Distance</h3>
             <p>
               Distance is how far your business is from the searcher's location. Google tries to show the closest relevant businesses first. If you are in Chicago and someone in Chicago searches for an electrician, you have an advantage. This is why having your correct address and service areas listed accurately is critical. If you serve multiple cities but do not have a physical location in each one, location-specific landing pages on your website can help bridge the gap.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Prominence</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Prominence</h3>
             <p>
               Prominence is how well-known and trusted your business is online. Google measures this through reviews, backlinks, website authority, and overall online presence. A business with 100 five-star reviews and a strong, well-optimized website will outrank a business with 5 reviews and no website. Prominence is where you can truly set yourself apart from the competition.
             </p>
@@ -8380,14 +8380,14 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               SEO is not a one-time task. It is an ongoing process that requires consistent effort. But the payoff is worth it. Every call you get from Google is a customer who was actively looking for an electrician. That is the highest quality lead you can ask for.
             </p>
             <div className="grad-border rounded-3xl p-8 mt-8 text-center">
-              <h3 className="text-2xl font-bold text-white">Ready to Get More Electrical Calls from Google?</h3>
-              <p className="mt-3 text-slate-300">
+              <h3 className="text-2xl font-bold text-ink-950">Ready to Get More Electrical Calls from Google?</h3>
+              <p className="mt-3 text-ink-600">
                 Stop losing customers to competitors who rank above you. <strong>Rank Flow Agency</strong> specializes in <strong>electrician SEO</strong> and <strong>local SEO for electricians</strong>. We will optimize your Google Business Profile, fix your website, build your local presence, and get you ranking on Google Search and Google Maps.
               </p>
-              <p className="mt-3 text-slate-300">
+              <p className="mt-3 text-ink-600">
                 <a href="/contact/" className="btn-glow inline-flex items-center gap-2">Get a FREE Electrician SEO Audit</a>
               </p>
-              <p className="mt-4 text-sm text-slate-400">
+              <p className="mt-4 text-sm text-ink-600">
                 No obligation. No pressure. Just a clear plan to get your electrical business showing on Google and generating more calls.
               </p>
             </div>
@@ -8464,51 +8464,51 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="grad-border rounded-2xl overflow-hidden my-6">
               <img src="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Electrician fixing electrical switchboard representing proven ways to get more local customers" className="w-full h-64 object-cover" loading="lazy" />
             </div>
-            <h3 className="text-xl font-semibold text-white mt-6">1. Optimize Your Google Business Profile</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">1. Optimize Your Google Business Profile</h3>
             <p>
               Your Google Business Profile is the single most important tool for local visibility. Claim it, fill out every field, upload at least 10 photos, list all your services, and post updates weekly. Choose the right primary category ("Electrician") and add relevant secondary categories. A fully optimized profile dramatically increases your chances of showing up in the Local Pack on Google Maps. If you need help, our <a href="/google-business-profile/">Google Business Profile optimization services</a> can handle it for you.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">2. Improve Local SEO</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">2. Improve Local SEO</h3>
             <p>
               <strong>Local SEO for electricians</strong> is about making sure Google understands exactly where you operate and what services you offer. This includes local keywords in your website content, consistent NAP (Name, Address, Phone) across all directories, and local citations. A strong <a href="/local-seo/">Local SEO strategy</a> ensures you show up when someone in your area searches for an electrician.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">3. Target High-Intent Keywords</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">3. Target High-Intent Keywords</h3>
             <p>
               Not all keywords are equal. "Electrician near me" and "emergency electrician [city]" are high-intent keywords, meaning the person searching is ready to call someone right now. Focus your content on these types of keywords. Create service pages for each specific service you offer (panel upgrades, lighting installation, rewiring, emergency repairs) and optimize them for the keywords your customers actually use.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">4. Create Service Area Pages</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">4. Create Service Area Pages</h3>
             <p>
               If you serve multiple cities or neighborhoods, create a dedicated page for each one. These location pages should include the city name, the services you offer there, and helpful local information. This helps Google understand your service area and rank you for searches in each location. Do not just copy and paste the same page with a different city name. Write unique content for each page.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">5. Publish Helpful Blog Content</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">5. Publish Helpful Blog Content</h3>
             <p>
               A blog is one of the most effective ways to attract organic traffic. Write about common electrical problems, safety tips, and questions your customers ask you every day. Each blog post is another page that can rank on Google and bring visitors to your website. Over time, this content builds authority and trust. Our <a href="/content-writing/">SEO content writing services</a> can help you create content that ranks and converts.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">6. Get More Google Reviews</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">6. Get More Google Reviews</h3>
             <p>
               Reviews are a top local ranking factor and a major trust signal for potential customers. Ask every happy customer for a review. Send a follow-up text with a direct link to your Google review page. Respond to every review, positive and negative. Aim for at least one new review per week and a 4.5-star average or higher.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">7. Build High-Quality Local Backlinks</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">7. Build High-Quality Local Backlinks</h3>
             <p>
               Backlinks from other websites tell Google your business is trustworthy and authoritative. Focus on earning links from local business associations, Chambers of Commerce, trade organizations, and local news sites. Avoid buying links or using spammy directories. Quality matters far more than quantity. Professional <a href="/link-building/">link building services</a> can help you earn the right kind of links.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">8. Improve Website Speed</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">8. Improve Website Speed</h3>
             <p>
               Google uses page speed as a ranking factor. If your website takes more than 3 seconds to load, visitors will leave and Google will rank you lower. Compress your images, minify your CSS and JavaScript, use a content delivery network, and upgrade your hosting if needed. Fast sites rank better and convert more visitors into calls. Our <a href="/technical-seo/">technical SEO services</a> can identify and fix speed issues.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">9. Use Internal Linking</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">9. Use Internal Linking</h3>
             <p>
               Internal linking means connecting pages on your own website. Your homepage should link to your service pages. Your service pages should link to your contact page. Your blog posts should link to relevant service pages. This helps Google understand your site structure and distributes ranking power across your most important pages. It also helps visitors find what they need quickly.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">10. Add Strong Calls-to-Action</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">10. Add Strong Calls-to-Action</h3>
             <p>
               Every page on your website should have a clear call-to-action. "Call now for a free quote." "Book your electrical inspection today." "Get emergency repairs 24/7." Make it easy for visitors to contact you. Put your phone number in the header, use click-to-call buttons on mobile, and include a contact form on every service page. A well-designed site with strong CTAs converts more visitors into customers.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">11. Track SEO Performance</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">11. Track SEO Performance</h3>
             <p>
               You cannot improve what you do not measure. Set up Google Analytics and Google Search Console to track your website traffic, keyword rankings, and click-through rates. Monitor which pages bring in the most traffic and which ones need improvement. Review your performance monthly and adjust your strategy based on the data. A <a href="/seo-audit/">professional SEO audit</a> can give you a detailed baseline to work from.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">12. Stay Consistent</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">12. Stay Consistent</h3>
             <p>
               SEO is not a one-time project. It is an ongoing process. Keep publishing content, building reviews, earning backlinks, and optimizing your website. The electricians who see the best results are the ones who stay consistent month after month. Results compound over time, and the businesses that keep at it eventually dominate their local market.
             </p>
@@ -8590,14 +8590,14 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               If you are ready to stop renting your customers and start owning your lead generation, Rank Flow Agency can help. We specialize in <strong>electrician marketing</strong> and <strong>local SEO for electricians</strong>, and we know exactly what it takes to get your business ranking on Google.
             </p>
             <div className="grad-border rounded-3xl p-8 mt-8 text-center">
-              <h3 className="text-2xl font-bold text-white">Ready to Get More Local Customers Without Ads?</h3>
-              <p className="mt-3 text-slate-300">
+              <h3 className="text-2xl font-bold text-ink-950">Ready to Get More Local Customers Without Ads?</h3>
+              <p className="mt-3 text-ink-600">
                 Stop wasting money on ads that disappear the moment you stop paying. <strong>Rank Flow Agency</strong> will build a custom SEO strategy for your electrical business that generates local calls, qualified leads, and real growth, month after month.
               </p>
-              <p className="mt-3 text-slate-300">
+              <p className="mt-3 text-ink-600">
                 <a href="/contact/" className="btn-glow inline-flex items-center gap-2">Get a FREE Electrician SEO Audit</a>
               </p>
-              <p className="mt-4 text-sm text-slate-400">
+              <p className="mt-4 text-sm text-ink-600">
                 No obligation. No pressure. Just a clear plan to get your electrical business generating more local customers without spending a dime on ads.
               </p>
             </div>
@@ -8691,15 +8691,15 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="grad-border rounded-2xl overflow-hidden my-6">
               <img src="https://images.pexels.com/photos/6946139/pexels-photo-6946139.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Couple looking at Google Maps on smartphone representing how Google ranks local electricians" className="w-full h-64 object-cover" loading="lazy" />
             </div>
-            <h3 className="text-xl font-semibold text-white mt-6">Relevance</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Relevance</h3>
             <p>
               Relevance is how well your business matches the searcher's query. If someone searches "panel upgrade electrician," Google looks for businesses that offer panel upgrades. Your Google Business Profile categories, services, website content, and keywords all signal relevance. The more specific and accurate your information, the better Google can match you to the right searches.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Distance</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Distance</h3>
             <p>
               Distance is how far your business is from the searcher's location. Google tries to show the closest relevant businesses first. This is why having your correct address and service areas listed is critical. If you serve multiple cities, location-specific landing pages help you rank in each area even without a physical office there.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Prominence</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Prominence</h3>
             <p>
               Prominence is how well-known and trusted your business is online. Google measures this through customer reviews, backlinks, website authority, and overall online presence. A business with 100 five-star reviews and a strong, well-optimized website will outrank a business with 5 reviews and no website. Prominence is where you can truly separate yourself from the competition.
             </p>
@@ -8720,71 +8720,71 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="grad-border rounded-2xl overflow-hidden my-6">
               <img src="https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Laptop displaying data analytics and graphs representing complete local SEO strategy for electricians" className="w-full h-64 object-cover" loading="lazy" />
             </div>
-            <h3 className="text-xl font-semibold text-white mt-6">Google Business Profile Optimization</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Google Business Profile Optimization</h3>
             <p>
               Your Google Business Profile is the single most important local SEO asset you have. Claim it at google.com/business, fill out every field completely, choose "Electrician" as your primary category, add secondary categories, upload at least 10 photos, list all your services, write a 750-character description with your keywords, and post updates weekly. A complete and active profile signals to Google that your business is legitimate and active. Our <a href="/google-business-profile/">Google Business Profile optimization services</a> can handle this for you.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Local Keyword Research</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Local Keyword Research</h3>
             <p>
               Before you create content, you need to know what your customers are searching for. Use tools like Google Keyword Planner, Google Search Console, and even Google autocomplete to find local keywords. Focus on high-intent keywords like "emergency electrician [city]," "panel upgrade [city]," "commercial electrician [city]," and "electrical inspection [city]." These are the keywords that bring in ready-to-call customers.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Service Area Pages</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Service Area Pages</h3>
             <p>
               If you serve multiple cities, create a dedicated page for each one. These pages should include the city name, the services you offer there, local landmarks or neighborhoods, and a clear call-to-action. Write unique content for each page. Do not just duplicate the same text with a different city name. Google penalizes duplicate content.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">On-Page SEO</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">On-Page SEO</h3>
             <p>
               Every page on your website should be optimized for a specific keyword. Include the keyword in your page title, meta description, H1 heading, URL, and naturally throughout the content. Use <a href="/on-page-seo/">on-page SEO</a> best practices: write descriptive alt text for images, use header tags properly, and keep your content focused on one topic per page.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Technical SEO</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Technical SEO</h3>
             <p>
               Technical SEO is the foundation that helps Google crawl and index your site. Fix broken links, create an XML sitemap, optimize your robots.txt, ensure HTTPS is working, and fix any crawl errors. Without a solid technical foundation, all your other SEO efforts will underperform. Our <a href="/technical-seo/">technical SEO services</a> can identify and resolve these issues.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Website Speed Optimization</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Website Speed Optimization</h3>
             <p>
               Google uses page speed as a ranking factor. If your site takes more than 3 seconds to load, visitors leave and Google ranks you lower. Compress images, minify CSS and JavaScript, enable browser caching, use a content delivery network, and upgrade your hosting if needed. Fast websites rank higher and convert more visitors into calls.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Mobile-Friendly Website</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Mobile-Friendly Website</h3>
             <p>
               Over 60% of local searches happen on mobile phones. If your website is not mobile-friendly, you are losing more than half your potential customers. Use responsive design, make sure buttons are large enough to tap, keep forms short, and test your site on multiple devices. A professional <a href="/website-design/">website design</a> ensures your site works perfectly on every screen.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Internal Linking</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Internal Linking</h3>
             <p>
               Internal linking connects pages on your website. Your homepage should link to all service pages. Service pages should link to your contact page and relevant location pages. Blog posts should link to service pages. This helps Google understand your site structure and distributes ranking power across your most important pages.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Local Citations</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Local Citations</h3>
             <p>
               Local citations are mentions of your business on other websites, like Yelp, Yellow Pages, Angi, HomeAdvisor, and industry directories. Each citation includes your NAP (Name, Address, Phone) information. Citations help Google verify your business exists and is located where you say it is. Aim for at least 30 to 50 quality citations.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">NAP Consistency</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">NAP Consistency</h3>
             <p>
               Your NAP must be identical everywhere. Same business name, same address, same phone number across your website, Google Business Profile, and every directory. Even small differences like "LLC" vs "L.L.C." or a missing suite number can confuse Google and hurt your rankings. Audit your listings and fix any inconsistencies.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Customer Reviews</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Customer Reviews</h3>
             <p>
               Reviews are one of the top local ranking factors. Ask every happy customer for a review. Send a follow-up text with a direct link to your Google review page. Respond to every review, positive and negative. Aim for at least one new review per week and maintain a 4.5-star average or higher. Reviews build trust with both Google and potential customers.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Local Link Building</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Local Link Building</h3>
             <p>
               Backlinks from local websites tell Google your business is trusted in your community. Earn links from your Chamber of Commerce, trade associations, local news sites, and supplier websites. Avoid buying links or using spammy directories. Quality matters far more than quantity. Professional <a href="/link-building/">link building services</a> can help you earn the right links.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Content Marketing</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Content Marketing</h3>
             <p>
               Publishing helpful content about electrical safety, common problems, and maintenance tips attracts organic traffic and builds authority. Each blog post is another page that can rank on Google. Write about questions your customers actually ask. Over time, a content library becomes one of your most valuable SEO assets. Our <a href="/content-writing/">SEO content writing services</a> can help.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Schema Markup</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Schema Markup</h3>
             <p>
               Schema markup is code you add to your website that helps Google understand your business. Local business schema includes your name, address, phone, hours, services, and reviews. It helps Google display rich snippets in search results, which can increase your click-through rate. Add schema to your homepage and service pages.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Google Search Console</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Google Search Console</h3>
             <p>
               Google Search Console is a free tool that shows you how Google sees your website. It tells you which keywords you rank for, how many clicks you get, and if there are any technical issues. Submit your XML sitemap here, monitor your search performance, and fix any errors Google reports.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Google Analytics</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Google Analytics</h3>
             <p>
               Google Analytics tracks your website traffic. It shows you how many visitors you get, where they come from, which pages they visit, and how long they stay. Use this data to understand which pages are performing well and which ones need improvement. Set up goals to track phone calls and form submissions.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Monthly SEO Monitoring</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Monthly SEO Monitoring</h3>
             <p>
               SEO is not a set-it-and-forget-it task. Monitor your rankings, traffic, and leads monthly. Track which keywords are moving up or down. Review your Google Business Profile insights. Adjust your strategy based on the data. The electricians who win are the ones who stay consistent and adapt over time. A regular <a href="/seo-audit/">SEO audit</a> helps you stay on track.
             </p>
@@ -8887,14 +8887,14 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Start with the basics. Claim and optimize your Google Business Profile. Make sure your NAP is consistent. Create dedicated service and location pages. Start asking for reviews. Then build from there. Every step you take strengthens your online presence and brings you closer to the top of local search results.
             </p>
             <div className="grad-border rounded-3xl p-8 mt-8 text-center">
-              <h3 className="text-2xl font-bold text-white">Ready to Dominate Local Search for Your Electrical Business?</h3>
-              <p className="mt-3 text-slate-300">
+              <h3 className="text-2xl font-bold text-ink-950">Ready to Dominate Local Search for Your Electrical Business?</h3>
+              <p className="mt-3 text-ink-600">
                 <strong>Rank Flow Agency</strong> specializes in <strong>local SEO for electricians</strong> and <strong>electrical contractor SEO</strong>. We will optimize your Google Business Profile, fix your website, build your local presence, and get you ranking on Google Search and Google Maps.
               </p>
-              <p className="mt-3 text-slate-300">
+              <p className="mt-3 text-ink-600">
                 <a href="/contact/" className="btn-glow inline-flex items-center gap-2">Get a FREE Electrician SEO Audit</a>
               </p>
-              <p className="mt-4 text-sm text-slate-400">
+              <p className="mt-4 text-sm text-ink-600">
                 No obligation. No pressure. Just a clear plan to get your electrical business ranking higher and generating more local calls.
               </p>
             </div>
@@ -8971,15 +8971,15 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="grad-border rounded-2xl overflow-hidden my-6">
               <img src="https://images.pexels.com/photos/1078850/pexels-photo-1078850.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Colorful push pins on a map representing business location pins and Google Maps ranking factors" className="w-full h-64 object-cover" loading="lazy" />
             </div>
-            <h3 className="text-xl font-semibold text-white mt-6">Relevance</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Relevance</h3>
             <p>
               Relevance is how well your business matches what the searcher is looking for. If someone searches "emergency electrician," Google looks for businesses that offer emergency electrical services. Your Google Business Profile categories, services list, website content, and keywords all signal relevance. The more specific and accurate your profile, the better Google can match you to the right searches.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Distance</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Distance</h3>
             <p>
               Distance is how far your business is from the searcher's location. Google tries to show the closest relevant businesses first. This is why your correct address and service areas are critical. If you serve multiple cities, creating location-specific landing pages helps you rank in each area even without a physical office there.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">Prominence</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">Prominence</h3>
             <p>
               Prominence is how well-known and trusted your business is online. Google measures this through <strong>Google reviews</strong>, backlinks, website authority, and overall online presence. A business with 100 five-star reviews and a strong website will outrank a business with 5 reviews and no website. Prominence is where you can truly separate yourself from the competition.
             </p>
@@ -9000,51 +9000,51 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             <div className="grad-border rounded-2xl overflow-hidden my-6">
               <img src="https://images.pexels.com/photos/7710091/pexels-photo-7710091.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Woman working on laptop representing Google Business Profile dashboard and listing management" className="w-full h-64 object-cover" loading="lazy" />
             </div>
-            <h3 className="text-xl font-semibold text-white mt-6">1. Optimize Your Google Business Profile</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">1. Optimize Your Google Business Profile</h3>
             <p>
               Your Google Business Profile is the foundation of your Google Maps presence. Claim it at google.com/business, verify it, and fill out every single field. Add your business name, address, phone number, website, hours, services, and a 750-character description that includes your target keywords. Post updates at least once a week. A complete, active profile signals to Google that your business is legitimate and worth ranking. Our <a href="/google-business-profile/">Google Business Profile optimization services</a> can handle this for you.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">2. Choose the Correct Business Categories</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">2. Choose the Correct Business Categories</h3>
             <p>
               Your primary category should be "Electrician." This is the most important category selection you will make. Add secondary categories like "Electrical contractor," "Lighting contractor," and "Electrical repair service" to cover all your services. Avoid generic categories like "Contractor" that do not specifically describe electrical work. The right categories tell Google exactly what you do and when to show your business.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">3. Complete Every Business Information Field</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">3. Complete Every Business Information Field</h3>
             <p>
               Google uses every piece of information on your profile to match you with searches. Leave no field empty. Add your service areas, attributes (like "Women-led," "Online appointments," "Language support"), hours for every day, and a detailed service list. The more complete your profile, the more searches you can appear in. Incomplete profiles are one of the top reasons electricians fail to rank.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">4. Add High-Quality Business Photos</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">4. Add High-Quality Business Photos</h3>
             <p>
               Businesses with more photos get more clicks and calls. Upload at least 10 to 15 photos: photos of your team, your van or truck, jobsite work, before-and-after shots, and your office or storefront. Add new photos monthly. Google sees regular photo uploads as a sign of an active business, and customers are more likely to call a business with real photos of their work.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">5. Get More Positive Google Reviews</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">5. Get More Positive Google Reviews</h3>
             <p>
               Reviews are one of the strongest ranking factors for Google Maps. Businesses in the top three typically have at least 25 to 50 reviews with a 4.5-star average or higher. Ask every happy customer for a review. Send a follow-up text with a direct link to your Google review page. Make it as easy as possible for them to leave a review. Aim for at least one new review per week.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">6. Respond to Every Review</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">6. Respond to Every Review</h3>
             <p>
               Responding to reviews shows Google and potential customers that you are engaged and care about your reputation. Thank every customer who leaves a positive review. For negative reviews, respond professionally and offer to resolve the issue. Never ignore a review. Businesses that respond to reviews consistently tend to rank higher than those that do not.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">7. Keep NAP Information Consistent</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">7. Keep NAP Information Consistent</h3>
             <p>
               NAP stands for Name, Address, and Phone number. Your NAP must be identical everywhere it appears online: your website, Google Business Profile, Yelp, Facebook, and every other directory. Even small differences like "LLC" vs "L.L.C." or a missing suite number can confuse Google and hurt your rankings. Audit all your listings and fix any inconsistencies immediately.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">8. Build Local Citations</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">8. Build Local Citations</h3>
             <p>
               Local citations are mentions of your business on other websites. Each citation includes your NAP information. List your business on Yelp, Yellow Pages, Angi, HomeAdvisor, Facebook, and industry-specific directories. Aim for at least 30 to 50 quality citations. Citations help Google verify your business exists and is located where you say it is.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">9. Optimize Your Website for Local SEO</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">9. Optimize Your Website for Local SEO</h3>
             <p>
               Your website and your Google Business Profile work together. Include your city and service keywords in your page titles, meta descriptions, headers, and content. Create dedicated service pages for each type of electrical work. Add your NAP to your footer. A strong <a href="/on-page-seo/">on-page SEO</a> strategy ensures Google understands exactly what you do and where you do it.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">10. Create Location-Based Content</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">10. Create Location-Based Content</h3>
             <p>
               If you serve multiple cities, create a dedicated page for each one. Include the city name, the services you offer there, local landmarks, and a clear call-to-action. Write unique content for each page. This helps you rank for searches in each location and signals to Google that you serve those areas. Blog posts about local electrical issues also help.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">11. Build High-Quality Backlinks</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">11. Build High-Quality Backlinks</h3>
             <p>
               Backlinks from other websites tell Google your business is trusted and authoritative. Earn links from your Chamber of Commerce, trade associations, local news sites, and supplier websites. Avoid buying links or using spammy directories. Quality matters far more than quantity. Professional <a href="/link-building/">link building services</a> can help you earn the right kind of links, and our <a href="/off-page-seo/">off-page SEO services</a> cover the full strategy.
             </p>
-            <h3 className="text-xl font-semibold text-white mt-6">12. Monitor Rankings with Google Search Console</h3>
+            <h3 className="text-xl font-semibold text-ink-950 mt-6">12. Monitor Rankings with Google Search Console</h3>
             <p>
               You cannot improve what you do not measure. Set up Google Search Console to track your keyword rankings, click-through rates, and impressions. Monitor which queries bring people to your site and which pages perform best. Review your data monthly and adjust your strategy based on what the numbers tell you. A regular <a href="/seo-audit/">SEO audit</a> keeps you on track.
             </p>
@@ -9141,14 +9141,14 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
               Remember, the businesses that show up first on Google Maps are not necessarily the biggest or the oldest. They are the ones that have the most complete, accurate, and active online presence. With the right strategy, that can be you.
             </p>
             <div className="grad-border rounded-3xl p-8 mt-8 text-center">
-              <h3 className="text-2xl font-bold text-white">Ready to Rank at the Top of Google Maps?</h3>
-              <p className="mt-3 text-slate-300">
+              <h3 className="text-2xl font-bold text-ink-950">Ready to Rank at the Top of Google Maps?</h3>
+              <p className="mt-3 text-ink-600">
                 Stop losing local customers to competitors who rank above you. <strong>Rank Flow Agency</strong> specializes in <strong>Google Maps SEO for electricians</strong> and <strong>local lead generation</strong>. We will optimize your Google Business Profile, build your local presence, and get you ranking in the Local Pack.
               </p>
-              <p className="mt-3 text-slate-300">
+              <p className="mt-3 text-ink-600">
                 <a href="/contact/" className="btn-glow inline-flex items-center gap-2">Get a FREE Google Maps SEO Audit</a>
               </p>
-              <p className="mt-4 text-sm text-slate-400">
+              <p className="mt-4 text-sm text-ink-600">
                 No obligation. No pressure. Just a clear plan to get your electrical business ranking higher on Google Maps and generating more local phone calls.
               </p>
             </div>
@@ -9176,7 +9176,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Your Electrical Business Needs SEO',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/8961065/pexels-photo-8961065.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional electrician working on electrical panel with tools, representing SEO for electricians" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8961065/pexels-photo-8961065.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional electrician working on electrical panel with tools, representing SEO for electricians" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               When someone needs an electrician, they do not flip through a phone book anymore. They pull out their phone, type <em>"electrician near me"</em> into Google, and call one of the first three businesses they see. If your electrical company is not in those top results, you are losing jobs to competitors every single day.
             </p>
@@ -9216,7 +9216,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing business listing optimization for electricians" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing business listing optimization for electricians" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the single most important ranking factor for local SEO. Claim your profile, fill out every field completely, choose the right primary category (Electrician), add all your services, upload real photos of your work, and post weekly updates. A complete profile signals to Google that you are an active, legitimate business.
             </p>
@@ -9235,7 +9235,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>4. Optimize Title Tags and Meta Descriptions</h3>
-            <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Code editor showing SEO title tags and meta descriptions for electrician website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Code editor showing SEO title tags and meta descriptions for electrician website" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Every page on your website needs a unique title tag under 60 characters and a meta description under 155 characters. For your homepage, something like <em>"Electrician in [City] | Licensed Electrical Services | [Business Name]"</em> works well. Include your primary keyword and your city. This is what shows up in Google search results, so make it compelling enough to click.
             </p>
@@ -9259,7 +9259,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>8. Build High-Quality Local Backlinks</h3>
-            <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Network diagram representing link building and local backlinks for electrician SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Network diagram representing link building and local backlinks for electrician SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Backlinks are votes of confidence from other websites. The more quality local websites linking to yours, the higher Google ranks you. Get listed in local business directories, join your chamber of commerce, sponsor local events, and partner with complementary trades like plumbers and HVAC companies. Avoid cheap directory submissions — focus on relevant, local, high-quality links. Our <a href="/link-building/">Link Building services</a> can handle this for you.
             </p>
@@ -9285,7 +9285,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>13. Fix Technical SEO Issues</h3>
-            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing technical SEO audit results for electrician website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing technical SEO audit results for electrician website" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Crawl errors, broken links, duplicate content, missing canonical tags, and XML sitemap issues all hold back your rankings. Run a full <a href="/seo-audit/">SEO Audit</a> to find and fix these problems. Technical SEO is the foundation that everything else builds on.
             </p>
@@ -9307,7 +9307,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Real-Life Example: How an Electrician Grew with SEO',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Business growth chart showing increasing local inquiries for an electrical contractor through SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Business growth chart showing increasing local inquiries for an electrical contractor through SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Consider a small electrical company in a mid-sized city. They had a basic website, no Google Business Profile, and relied entirely on word of mouth. They were getting two or three calls a week — not enough to grow.
             </p>
@@ -9420,7 +9420,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'How to Get Emergency Electrical Leads Online',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/3756523/pexels-photo-3756523.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Emergency electrician responding to a service call with electrical tools and safety gear" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3756523/pexels-photo-3756523.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Emergency electrician responding to a service call with electrical tools and safety gear" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               A power outage at midnight. A sparking breaker panel. A family standing in the dark, scrolling through Google looking for someone — anyone — who can come right now. That is your customer at 11 PM. The question is whether they find you or your competitor.
             </p>
@@ -9438,7 +9438,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Emergency Leads Are Valuable',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/8005397/pexels-photo-8005397.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Emergency service vehicle parked outside a residential home for electrical repair" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/8005397/pexels-photo-8005397.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Emergency service vehicle parked outside a residential home for electrical repair" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Not all leads are created equal. A homeowner researching <em>"how to wire a ceiling fan"</em> might call you in three weeks. A homeowner searching <em>"emergency electrician near me"</em> needs you in the next hour. That urgency changes everything about how valuable that lead is.
             </p>
@@ -9464,7 +9464,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/4226259/pexels-photo-4226259.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile listing for an emergency electrician showing reviews and contact details" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4226259/pexels-photo-4226259.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile listing for an emergency electrician showing reviews and contact details" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the first thing customers see when they search for an emergency electrician. It shows up at the very top of Google in the Maps pack — above all organic results. If it is incomplete, outdated, or missing photos, customers skip it and call the next one.
             </p>
@@ -9481,7 +9481,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Improve Local SEO</h3>
-            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing local search rankings and traffic growth for an electrician" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing local search rankings and traffic growth for an electrician" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Local SEO is what determines whether you show up when someone searches from your service area. It includes your Google Business Profile, local citations, reviews, on-page optimization, and local backlinks. For emergency electricians, the most important local SEO factors are proximity (how close you are to the searcher), prominence (how well-known and reviewed your business is), and relevance (how well your profile matches the search).
             </p>
@@ -9498,7 +9498,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>5. Create Emergency Service Landing Pages</h3>
-            <img src="https://images.pexels.com/photos/1966453/pexels-photo-1966453.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website landing page design for emergency electrical services with clear call-to-action" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/1966453/pexels-photo-1966453.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website landing page design for emergency electrical services with clear call-to-action" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your homepage is not enough. You need dedicated landing pages for each emergency service you offer — one for <em>"emergency electrical repair"</em>, one for <em>"power outage electrician"</em>, one for <em>"breaker panel emergency"</em>, and so on. Each page should be fast, mobile-friendly, and built to convert.
             </p>
@@ -9515,7 +9515,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>7. Speed Up Your Website</h3>
-            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times on mobile for emergency electrician site" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times on mobile for emergency electrician site" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               When someone has an electrical emergency, they are stressed and in a hurry. If your website takes five seconds to load, they hit the back button and call the next result. Google knows this — they use page speed as a ranking factor, especially for mobile searches.
             </p>
@@ -9538,7 +9538,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Mistakes That Cost Emergency Leads',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common SEO mistakes costing emergency electrical leads shown on a warning dashboard" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common SEO mistakes costing emergency electrical leads shown on a warning dashboard" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even electricians who invest in SEO make mistakes that quietly cost them emergency leads. Here are the most common ones:
             </p>
@@ -9626,7 +9626,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Local SEO for Real Estate Agents',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent shaking hands with happy clients in front of modern home, representing local SEO for real estate" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate agent shaking hands with happy clients in front of modern home, representing local SEO for real estate" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Picture this: a family relocating to your city searches <em>"real estate agent in [your city]"</em> on Google. They see three names in the Google Maps pack, click on the one with the best reviews, and call. That call could have been yours. But if your name is not in those top three results, you just handed a client to your competitor.
             </p>
@@ -9644,7 +9644,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'What Is Local SEO for Real Estate Agents?',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a real estate agent showing listing details and contact information" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a real estate agent showing listing details and contact information" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Local SEO is the process of optimizing your online presence so your real estate business shows up when people search for agents, brokers, or properties in your area. It has three core components: your Google Business Profile, your website's local search optimization, and your presence across local directories and review platforms.
             </p>
@@ -9662,7 +9662,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Local SEO Matters for Realtors',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern residential homes in a neighborhood, representing local real estate market visibility" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern residential homes in a neighborhood, representing local real estate market visibility" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Here is a reality check. Over 90% of home buyers start their search online, and 76% of people who search for a local business on a smartphone visit a related business within a day. When someone searches <em>"homes for sale in [your city]"</em> or <em>"real estate agent near me,"</em> they are not browsing \u2014 they are ready to act. If you are not visible, you do not exist to them.
             </p>
@@ -9685,7 +9685,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/4226259/pexels-photo-4226259.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile listing for a real estate agent showing reviews, photos, and contact details" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4226259/pexels-photo-4226259.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile listing for a real estate agent showing reviews, photos, and contact details" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the foundation of local SEO. It is what shows up in the Google Maps pack \u2014 the three businesses at the top of local search results. Claim your profile, choose the right primary category (Real Estate Agent), fill out every field completely, add your service areas, upload real photos of your listings and team, and post weekly updates about new properties or market insights.
             </p>
@@ -9702,7 +9702,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Create Location Pages</h3>
-            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate website showing location page for a specific neighborhood with property listings" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate website showing location page for a specific neighborhood with property listings" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               If you serve multiple cities or neighborhoods, create a dedicated page for each one. A page titled <em>"Real Estate Agent in [Neighborhood]"</em> with local market stats, school information, community highlights, and current listings will rank far better than a generic services page. Include the neighborhood name in the title tag, H1, and body content.
             </p>
@@ -9719,7 +9719,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>5. Improve Website Speed</h3>
-            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for a real estate agent website on mobile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for a real estate agent website on mobile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google uses page speed as a ranking factor, especially for mobile searches. If your website takes more than three seconds to load, visitors leave and Google drops your rankings. Home buyers browsing properties on their phone will not wait for a slow site to load.
             </p>
@@ -9752,7 +9752,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>9. Publish Helpful Content</h3>
-            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing content performance and traffic growth for a real estate blog" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing content performance and traffic growth for a real estate blog" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               A blog answers the questions your clients are already asking Google. Write about neighborhood guides, market trends, first-time buyer tips, staging advice, and mortgage updates. Each blog post is a new opportunity to rank for a local keyword and attract a potential client.
             </p>
@@ -9775,7 +9775,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Local SEO Mistakes Realtors Make',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Warning dashboard showing common local SEO mistakes that cost real estate agents leads" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Warning dashboard showing common local SEO mistakes that cost real estate agents leads" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even agents who invest in SEO make mistakes that quietly hold back their rankings. Here are the most common ones:
             </p>
@@ -9870,7 +9870,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'How to Get More Property Leads Without Paid Ads',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Realtor showing a modern property to potential buyers, representing organic real estate lead generation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Realtor showing a modern property to potential buyers, representing organic real estate lead generation" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Every month, you write checks to Zillow, Facebook, and Google Ads. Every month, the cost per lead goes up. And every time you pause your ad spend, the leads stop. You are renting your pipeline from platforms that can change their prices or rules overnight. Sound familiar?
             </p>
@@ -9888,7 +9888,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Organic Property Leads Are More Valuable',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy home buyers receiving keys from a real estate agent, representing high-quality organic leads" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy home buyers receiving keys from a real estate agent, representing high-quality organic leads" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Not all leads are created equal. A lead from a Facebook ad is someone who was scrolling through their feed and clicked a sponsored post. A lead from Google search is someone who actively typed <em>"homes for sale in [your city]"</em> or <em>"real estate agent near me"</em> and chose your business from the results. That intent gap is enormous.
             </p>
@@ -9911,7 +9911,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a realtor showing reviews, photos, and business details" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a realtor showing reviews, photos, and business details" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the single most important tool for generating local property leads without ads. It is what appears in the Google Maps pack \u2014 the three businesses shown at the top of local search results. If your profile is incomplete, outdated, or missing reviews, you are invisible to clients searching for agents in your area.
             </p>
@@ -9928,7 +9928,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Create Location-Specific Landing Pages</h3>
-            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate website showing a location-specific landing page with neighborhood property listings" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate website showing a location-specific landing page with neighborhood property listings" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               If you serve multiple neighborhoods or cities, you need a dedicated landing page for each one. A page titled <em>"Homes for Sale in [Neighborhood]"</em> with local market data, school information, community highlights, and current listings will rank far better than a generic page trying to cover every area at once.
             </p>
@@ -9945,7 +9945,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>5. Improve Local SEO</h3>
-            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing local search rankings and organic traffic growth for a real estate agent" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing local search rankings and organic traffic growth for a real estate agent" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Local SEO is what determines whether you show up when someone searches from your area. It includes your Google Business Profile, local citations, reviews, on-page optimization, and local backlinks. The three key factors are proximity (how close you are to the searcher), prominence (how well-known and reviewed you are), and relevance (how well your profile matches the search).
             </p>
@@ -9962,7 +9962,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>7. Build Trust With Case Studies and Testimonials</h3>
-            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate case study showing client testimonials and successful property sales results" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate case study showing client testimonials and successful property sales results" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               SEO gets people to your website. Trust gets them to call. Case studies and testimonials are the bridge. Create a dedicated page on your site showcasing your recent sales, client testimonials, before-and-after stories, and results you have achieved for clients. Include real numbers \u2014 days on market, sale-to-list-price ratio, and number of offers received.
             </p>
@@ -9971,7 +9971,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>8. Improve Website Speed and Mobile Experience</h3>
-            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization on mobile showing fast loading real estate property search" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization on mobile showing fast loading real estate property search" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google uses page speed as a ranking factor, especially for mobile. Over 60% of local searches happen on phones. If your website takes more than three seconds to load, visitors leave and Google drops your rankings. Property photos are large \u2014 if you do not compress them, your site slows down and you lose leads.
             </p>
@@ -10002,7 +10002,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Mistakes Realtors Make',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Warning dashboard showing common SEO mistakes that cost real estate agents organic leads" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Warning dashboard showing common SEO mistakes that cost real estate agents organic leads" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even agents who invest in SEO make mistakes that quietly cost them leads. Here are the most common ones:
             </p>
@@ -10099,7 +10099,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Google Business Profile for Real Estate Agents',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate office with agent meeting clients, representing Google Business Profile for real estate" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate office with agent meeting clients, representing Google Business Profile for real estate" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               A family is relocating to your city. They pull out their phone and search <em>"real estate agent near me."</em> Google shows them three names in the Maps pack at the top of the page. They click the one with the most reviews, the best photos, and a profile that looks like it belongs to someone who actually answers their phone. That agent gets the call. The other two never even know the opportunity existed.
             </p>
@@ -10117,7 +10117,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'What Is Google Business Profile?',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing business listing details, reviews, and performance metrics" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing business listing details, reviews, and performance metrics" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google Business Profile is a free tool from Google that lets you manage how your real estate business appears in Google Search and Google Maps. When someone searches for a real estate agent in your area, Google uses the information in your profile to decide whether to show you, where to rank you, and what details to display.
             </p>
@@ -10135,7 +10135,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Every Real Estate Agent Needs a Google Business Profile',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Realtor meeting happy clients at a property showing, representing local lead generation through Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Realtor meeting happy clients at a property showing, representing local lead generation through Google" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Here is the reality. Over 90% of home buyers start their search online, and 76% of people who search for a local business on a smartphone visit or call a related business within a day. When someone searches <em>"real estate agent in [your city]"</em>, they are not browsing \u2014 they are ready to act. If your business is not in the Google Maps pack, you do not exist to them.
             </p>
@@ -10166,7 +10166,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>2. Complete Every Profile Section</h3>
-            <img src="https://images.pexels.com/photos/4226259/pexels-photo-4226259.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Complete Google Business Profile listing for a real estate agent showing all sections filled out" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4226259/pexels-photo-4226259.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Complete Google Business Profile listing for a real estate agent showing all sections filled out" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google rewards completeness. Every section you leave empty is a signal to Google that your business is less active or less legitimate than a competitor who filled everything out. Complete your business name, address, phone number, website, hours, service areas, and attributes. Add your specialties \u2014 buyer representation, seller representation, luxury homes, first-time buyers, relocation.
             </p>
@@ -10191,7 +10191,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>5. Add Your Services</h3>
-            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate services list showing property listings, buyer representation, and seller representation options" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate services list showing property listings, buyer representation, and seller representation options" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google lets you list specific services on your profile. Add every service you offer: buyer representation, seller representation, property valuation, market analysis, relocation assistance, luxury home sales, investment property consulting. Each service you add is another signal to Google about what searches your profile should appear for.
             </p>
@@ -10200,7 +10200,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>6. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google reviews section showing five-star customer reviews for a real estate agent" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google reviews section showing five-star customer reviews for a real estate agent" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Reviews are one of the strongest ranking factors for Google Maps and one of the strongest conversion factors for potential clients. When buyers and sellers compare three agents, they choose the one with the most and best reviews. Google's algorithm does the same \u2014 more recent, more positive reviews mean higher rankings.
             </p>
@@ -10225,7 +10225,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>9. Keep Business Information Updated</h3>
-            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing Google Business Profile performance metrics and local search ranking improvements" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing Google Business Profile performance metrics and local search ranking improvements" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google wants to show accurate, current information. If your hours change for the season, update them. If you move offices, update your address immediately. If you add a new phone number, update it the same day. Inaccurate information confuses Google and drops your rankings.
             </p>
@@ -10248,7 +10248,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Google Business Profile Mistakes Realtors Make',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Warning dashboard showing common Google Business Profile mistakes that cost real estate agents leads" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Warning dashboard showing common Google Business Profile mistakes that cost real estate agents leads" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even agents who have claimed their profile make mistakes that quietly cost them rankings and leads. Here are the most common ones:
             </p>
@@ -10343,7 +10343,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Best SEO Strategy for Realtors',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/2586059/pexels-photo-2586059.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Realtor showing a luxury home to clients, representing the best SEO strategy for realtors" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/2586059/pexels-photo-2586059.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Realtor showing a luxury home to clients, representing the best SEO strategy for realtors" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               You know the feeling. You pull up Google, type in <em>"real estate agent in [your city],"</em> and your name is nowhere to be found. Instead, three competitors stare back at you from the top of the page \u2014 the ones with the five-star reviews, the polished websites, and the steady stream of leads that should be yours. Meanwhile, you are paying Zillow $200 per lead and wondering why your phone is not ringing.
             </p>
@@ -10361,7 +10361,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why SEO Is Essential for Realtors',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy home buyers meeting with a real estate agent, representing organic lead generation for realtors" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/7578856/pexels-photo-7578856.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy home buyers meeting with a real estate agent, representing organic lead generation for realtors" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Real estate is a local game. Your clients are not searching nationally \u2014 they are searching by neighborhood, school district, and zip code. When a family types <em>"homes for sale in [your neighborhood]"</em> into Google, they are not browsing. They are ready to act. If you are not in the top results, you do not exist to them.
             </p>
@@ -10384,7 +10384,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Google Business Profile Optimization</h3>
-            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a realtor showing reviews, photos, and business details" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a realtor showing reviews, photos, and business details" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the foundation of your entire SEO strategy. It is what powers the Google Maps pack \u2014 the three businesses at the top of local search results. Claim your profile, set your primary category to Real Estate Agent, fill out every field completely, add your service areas, upload real photos of your office and listings, and post weekly updates about new properties or market trends.
             </p>
@@ -10401,7 +10401,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Create Area-Specific Landing Pages</h3>
-            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate website showing area-specific landing page with neighborhood property listings and market data" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real estate website showing area-specific landing page with neighborhood property listings and market data" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               If you serve multiple neighborhoods, you need a dedicated landing page for each one. A page titled <em>"Homes for Sale in [Neighborhood]"</em> with local market stats, school ratings, community highlights, and current listings will rank far better than a generic page trying to cover every area at once. Include the neighborhood name in the title tag, H1, and body content.
             </p>
@@ -10418,7 +10418,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>5. Improve Technical SEO</h3>
-            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing technical SEO performance and organic traffic growth for a real estate website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing technical SEO performance and organic traffic growth for a real estate website" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Technical SEO is the foundation that makes everything else work. It includes your site structure, schema markup, XML sitemap, robots.txt, canonical tags, and crawlability. If Google cannot crawl and understand your website, none of your other SEO efforts will matter.
             </p>
@@ -10427,7 +10427,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>6. Optimize Website Speed</h3>
-            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for a real estate website on mobile devices" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for a real estate website on mobile devices" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google uses page speed as a ranking factor, especially for mobile. Over 60% of local searches happen on phones. If your website takes more than three seconds to load, visitors leave and Google drops your rankings. Property photos are large \u2014 if you do not compress them, your site slows down and you lose leads.
             </p>
@@ -10474,7 +10474,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Top SEO Mistakes Realtors Should Avoid',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Warning dashboard showing common SEO mistakes that cost realtors rankings and leads" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Warning dashboard showing common SEO mistakes that cost realtors rankings and leads" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even agents who invest in SEO make mistakes that quietly hold back their rankings. Here are the most common ones to avoid:
             </p>
@@ -10572,7 +10572,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: "Why Isn't My HVAC Business Getting Calls?",
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician working on an air conditioning unit, representing why an HVAC business isn't getting calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician working on an air conditioning unit, representing why an HVAC business isn't getting calls" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your phone used to ring. Maybe not every hour, but enough to keep the crew busy and the payroll met. Lately, though, it has gone quiet. You check your inbox, your website analytics, your Google Business Profile \u2014 everything looks fine on the surface. So why are the calls drying up while the competitor across town seems to have a full schedule?
             </p>
@@ -10590,7 +10590,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: "Why Your HVAC Business Isn't Getting Calls",
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC service van parked outside a home, representing an HVAC business struggling to get phone calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC service van parked outside a home, representing an HVAC business struggling to get phone calls" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Before you can fix the problem, you need to know what is causing it. Here are the ten most common reasons HVAC businesses lose out on phone calls and qualified leads.
             </p>
@@ -10606,7 +10606,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Low Google Maps Visibility</h3>
-            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing HVAC businesses, with low visibility for a business not getting calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing HVAC businesses, with low visibility for a business not getting calls" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               When someone searches for an HVAC contractor, the Google Maps pack \u2014 those three businesses at the top of the results \u2014 gets the vast majority of the calls. If your business is not in the top three on Google Maps, you are missing out on the largest source of emergency and service calls in your area.
             </p>
@@ -10632,7 +10632,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>8. Lack of Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing few reviews for an HVAC business not getting calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing few reviews for an HVAC business not getting calls" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Reviews are one of the strongest local ranking factors and one of the strongest conversion factors. When a homeowner compares three HVAC companies on Google Maps, they call the one with the most and best reviews. If you have 5 reviews and your competitor has 80, you lose the call \u2014 even if your service is better.
             </p>
@@ -10654,7 +10654,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: '10 Practical Ways to Get More HVAC Calls',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing an air conditioning system, representing practical ways to get more HVAC calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing an air conditioning system, representing practical ways to get more HVAC calls" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Now that you know what is holding your business back, here are ten practical fixes to start getting more phone calls from Google.
             </p>
@@ -10685,13 +10685,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>6. Collect More Reviews</h3>
-            <img src="https://images.pexels.com/photos/6476758/pexels-photo-6476758.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner giving a review to an HVAC technician after a successful service call" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476758/pexels-photo-6476758.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner giving a review to an HVAC technician after a successful service call" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Ask every customer for a review after the job is done. Send a text message with a direct link to your Google review page while the experience is fresh. Aim for at least two new reviews per week. Respond to every review within 24 hours. More recent, more positive reviews mean higher Google Maps rankings and more calls.
             </p>
 
             <h3>7. Improve Website Speed</h3>
-            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for an HVAC business website on mobile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for an HVAC business website on mobile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Test your site with Google PageSpeed Insights. Compress all images, use fast hosting, enable caching, and minify CSS and JavaScript. Aim for a mobile score above 80 and a load time under three seconds. A <a href="/website-design/">professionally designed HVAC website</a> should be fast and mobile-friendly by default.
             </p>
@@ -10707,7 +10707,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>10. Track SEO Performance</h3>
-            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing search performance and call tracking for an HVAC business" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing search performance and call tracking for an HVAC business" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows which keywords bring traffic and where there are technical issues. Check your data monthly, track your keyword rankings, and monitor your Google Maps position. A quarterly <a href="/seo-audit/">SEO Audit</a> keeps your strategy on track and finds new opportunities before competitors do.
             </p>
@@ -10796,7 +10796,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'HVAC SEO: How to Get More Customers From Google',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician repairing an air conditioning unit, representing HVAC SEO strategies to get more customers from Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician repairing an air conditioning unit, representing HVAC SEO strategies to get more customers from Google" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               When a homeowner's air conditioner dies on the hottest day of the year, they do not pull out the phone book. They grab their phone, type <em>"AC repair near me"</em> into Google, and call one of the first three businesses that show up. That is the moment everything is decided. If your HVAC company is not in those top three results, you are not even in the conversation \u2014 and your competitor gets the call.
             </p>
@@ -10814,7 +10814,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why SEO Matters for HVAC Companies',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476758/pexels-photo-6476758.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC service vehicle parked in a neighborhood, showing why local SEO matters for HVAC companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476758/pexels-photo-6476758.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC service vehicle parked in a neighborhood, showing why local SEO matters for HVAC companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               HVAC is an emergency business. When the furnace quits in January or the AC fails in July, customers need help immediately. They search Google, they call the first reputable-looking company they find, and they book. There is no time for comparison shopping or asking friends for recommendations. The companies that rank at the top of Google capture the majority of these emergency calls.
             </p>
@@ -10837,7 +10837,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an HVAC company showing reviews, photos, and business details" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an HVAC company showing reviews, photos, and business details" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the foundation of your entire HVAC SEO strategy. It powers the Google Maps pack \u2014 those three businesses at the top of local search results. Claim your profile, set your primary category to HVAC Contractor, fill out every field completely, list all your service areas, upload real photos of your trucks and technicians, and post weekly updates about seasonal maintenance or promotions.
             </p>
@@ -10854,7 +10854,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Improve Local SEO</h3>
-            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local SEO for HVAC companies showing Google Maps rankings and local search visibility" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local SEO for HVAC companies showing Google Maps rankings and local search visibility" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Local SEO is what tells Google which geographic areas to show your business for. Add local business schema markup to your website, ensure your NAP (name, address, phone number) is consistent across Google, Yelp, Facebook, and every directory, and create dedicated service area pages. Without consistent local SEO signals, Google does not know where to rank you, so it ranks you nowhere.
             </p>
@@ -10879,7 +10879,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>6. Get More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner giving a Google review to an HVAC technician after a successful service call" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner giving a Google review to an HVAC technician after a successful service call" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Reviews are one of the strongest local ranking factors and one of the strongest conversion factors. When a homeowner compares three HVAC companies on Google Maps, they call the one with the most and best reviews. Google's algorithm does the same \u2014 more recent, more positive reviews mean higher rankings.
             </p>
@@ -10888,7 +10888,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>7. Improve Website Speed</h3>
-            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for an HVAC company website on mobile devices" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for an HVAC company website on mobile devices" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google uses page speed as a ranking factor, especially for mobile. When someone's AC breaks, they search on their phone and they are impatient. If your website takes more than three seconds to load, they hit the back button and call the next result. A slow website costs you customers every single day.
             </p>
@@ -10913,7 +10913,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>10. Track SEO Results with Google Search Console</h3>
-            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing search queries, impressions, and click-through rates for an HVAC company website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing search queries, impressions, and click-through rates for an HVAC company website" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               You cannot improve what you do not measure. Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows you which keywords bring traffic to your site, what pages are ranking, and where there are technical issues. Analytics shows you how visitors behave once they land on your site.
             </p>
@@ -10928,7 +10928,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common HVAC SEO Mistakes',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common HVAC SEO mistakes shown as a warning checklist, including poor Google Business Profile and slow website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common HVAC SEO mistakes shown as a warning checklist, including poor Google Business Profile and slow website" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even HVAC companies that invest in SEO make mistakes that quietly hold back their rankings. Here are the most common ones to avoid:
             </p>
@@ -10996,7 +10996,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician with a happy homeowner after a successful AC repair, representing the results of a strong HVAC SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician with a happy homeowner after a successful AC repair, representing the results of a strong HVAC SEO strategy" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               HVAC SEO is not a single tactic \u2014 it is a system. Google Business Profile optimization, high-intent keyword targeting, local SEO, service area pages, helpful content, reviews, website speed, local backlinks, internal linking, and performance tracking. Each piece reinforces the others, and together they create a compounding lead pipeline that costs less and converts better than paid ads.
             </p>
@@ -11029,7 +11029,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Local SEO for HVAC Contractors',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician repairing an air conditioning system, representing local SEO for HVAC contractors" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician repairing an air conditioning system, representing local SEO for HVAC contractors" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               When a furnace stops working in January or an air conditioner dies in the middle of a July heat wave, the homeowner does not ask a friend for a recommendation. They grab their phone, type <em>"AC repair near me"</em> or <em>"HVAC contractor in [their city]"</em> into Google, and they call one of the first three businesses that appear. That decision takes less than ninety seconds. If your HVAC company is not in those top three results, you are invisible at the exact moment someone needs you most.
             </p>
@@ -11047,7 +11047,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'What Is Local SEO for HVAC Contractors?',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC service van parked in a residential neighborhood, representing local SEO for HVAC contractors" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC service van parked in a residential neighborhood, representing local SEO for HVAC contractors" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Local SEO is the process of optimizing your online presence so your HVAC business appears in local search results when homeowners in your service area search for heating or cooling services. Unlike traditional SEO, which competes nationally or globally, local SEO targets customers in the specific cities and neighborhoods you serve. It is what puts your business in the Google Maps pack \u2014 those three results at the top of local searches that get the majority of clicks and calls.
             </p>
@@ -11062,7 +11062,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Local SEO Matters for HVAC Businesses',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing HVAC businesses ranked by local SEO, demonstrating why local SEO matters for HVAC companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing HVAC businesses ranked by local SEO, demonstrating why local SEO matters for HVAC companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               HVAC is an emergency business. When the heat goes out or the AC fails, customers need help immediately. They search Google, they call the first reputable-looking company they find, and they book. There is no time for comparison shopping. The companies that rank at the top of Google Maps capture the majority of these emergency calls.
             </p>
@@ -11085,7 +11085,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/6476758/pexels-photo-6476758.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an HVAC contractor showing reviews, photos, services, and business details" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476758/pexels-photo-6476758.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an HVAC contractor showing reviews, photos, services, and business details" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the single most important element of your local SEO strategy. It powers the Google Maps pack \u2014 those three businesses at the top of local search results. Claim your profile, set your primary category to HVAC Contractor, fill out every field completely, list all your service areas, upload real photos of your trucks and technicians, and post weekly updates about seasonal maintenance or promotions.
             </p>
@@ -11102,7 +11102,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Create City & Service Area Pages</h3>
-            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing a heating system in a home, representing city and service area pages for local HVAC SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing a heating system in a home, representing city and service area pages for local HVAC SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               If you serve multiple cities or neighborhoods, you need a dedicated landing page for each one. A page titled <em>"AC Repair in [City]"</em> with local content, common HVAC issues in that area, and a clear call-to-action will rank far better than a generic page trying to cover every area at once. Include the area name in the title tag, H1, and body content.
             </p>
@@ -11119,7 +11119,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>5. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner giving a Google review to an HVAC technician after a successful service call" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner giving a Google review to an HVAC technician after a successful service call" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Reviews are one of the strongest local ranking factors and one of the strongest conversion factors. When a homeowner compares three HVAC companies on Google Maps, they call the one with the most and best reviews. Google's algorithm does the same \u2014 more recent, more positive reviews mean higher rankings.
             </p>
@@ -11128,7 +11128,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>6. Improve Website Speed</h3>
-            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for an HVAC company website on a mobile phone" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for an HVAC company website on a mobile phone" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google uses page speed as a ranking factor, especially for mobile. When someone's AC breaks, they search on their phone and they are impatient. If your website takes more than three seconds to load, they hit the back button and call the next result. A slow website costs you customers every single day.
             </p>
@@ -11161,7 +11161,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>10. Monitor SEO Performance</h3>
-            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local SEO analytics dashboard showing search performance, keyword rankings, and Google Maps visibility for an HVAC business" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local SEO analytics dashboard showing search performance, keyword rankings, and Google Maps visibility for an HVAC business" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               You cannot improve what you do not measure. Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows you which keywords bring traffic to your site, what pages are ranking, and where there are technical issues. Analytics shows you how visitors behave once they land on your site.
             </p>
@@ -11176,7 +11176,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Local SEO Mistakes HVAC Companies Make',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common local SEO mistakes that HVAC companies make, shown as a warning checklist on a clipboard" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common local SEO mistakes that HVAC companies make, shown as a warning checklist on a clipboard" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even HVAC companies that invest in local SEO make mistakes that quietly hold back their rankings. Here are the most common ones to avoid:
             </p>
@@ -11244,7 +11244,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician with a happy homeowner after a successful service call, representing the results of a strong local SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician with a happy homeowner after a successful service call, representing the results of a strong local SEO strategy" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Local SEO for HVAC contractors is not a single tactic \u2014 it is a system. Google Business Profile optimization, local keyword targeting, service area pages, NAP consistency, review collection, website speed, mobile optimization, local backlinks, helpful content, and performance tracking. Each piece reinforces the others, and together they create a compounding lead pipeline that costs less and converts better than paid ads.
             </p>
@@ -11277,7 +11277,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Google Business Profile Tips for HVAC Companies',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician working with a customer on an air conditioning installation, representing Google Business Profile tips for HVAC companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician working with a customer on an air conditioning installation, representing Google Business Profile tips for HVAC companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               When a homeowner's air conditioner quits on the hottest day of the year, they do not flip through the Yellow Pages. They grab their phone, type <em>"AC repair near me"</em> into Google, and call one of the first three businesses that show up in the Maps pack. Those three spots are decided almost entirely by one thing: your Google Business Profile. If your profile is incomplete, inactive, or unoptimized, you are invisible at the exact moment a customer needs you.
             </p>
@@ -11295,7 +11295,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Google Business Profile Is Essential for HVAC Companies',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing HVAC businesses, demonstrating why Google Business Profile is essential for HVAC companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing HVAC businesses, demonstrating why Google Business Profile is essential for HVAC companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the foundation of your entire local search presence. It is what powers the Google Maps pack \u2014 those three businesses that appear at the top of local search results and capture the majority of clicks and calls. Without a properly optimized profile, your HVAC company will not appear in the Maps pack, no matter how good your website is.
             </p>
@@ -11318,7 +11318,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Choose the Correct Business Category</h3>
-            <img src="https://images.pexels.com/photos/6476758/pexels-photo-6476758.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing business category selection for an HVAC company" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476758/pexels-photo-6476758.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing business category selection for an HVAC company" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your primary business category is the single most important ranking factor on your Google Business Profile. For HVAC companies, set your primary category to <em>"HVAC Contractor"</em> \u2014 not <em>"Air Conditioning Contractor"</em> or <em>"Plumber"</em>. The primary category tells Google exactly what your business does and determines which searches you appear for.
             </p>
@@ -11335,7 +11335,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Add Professional HVAC Photos</h3>
-            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing an air conditioning unit, representing professional photos for a Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician installing an air conditioning unit, representing professional photos for a Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Businesses with more photos get more calls. Upload real photos of your trucks, your technicians in uniform, job sites, before-and-after shots of installations, and your office. Do not use stock photos \u2014 Google can tell, and homeowners can too. Real photos build trust and signal to Google that you are an active, working business.
             </p>
@@ -11360,7 +11360,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>6. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner leaving a Google review for an HVAC company after a successful service call" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowner leaving a Google review for an HVAC company after a successful service call" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Reviews are one of the strongest local ranking factors and one of the strongest conversion factors. When a homeowner compares three HVAC companies on Google Maps, they call the one with the most and best reviews. Google's algorithm does the same \u2014 more recent, more positive reviews mean higher rankings.
             </p>
@@ -11377,7 +11377,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>8. Publish Weekly Google Posts</h3>
-            <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC company office with a technician creating a Google Business Profile post about seasonal maintenance" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC company office with a technician creating a Google Business Profile post about seasonal maintenance" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google Posts are short updates that appear on your Google Business Profile and in local search results. Use them to announce seasonal promotions (tune-up specials before summer, furnace inspections before winter), share maintenance tips, or highlight a recent completed job. Posts keep your profile active and signal to Google that your business is operating.
             </p>
@@ -11394,7 +11394,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>10. Monitor Google Business Insights</h3>
-            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing Google Business Profile insights, search queries, and call data for an HVAC company" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO analytics dashboard showing Google Business Profile insights, search queries, and call data for an HVAC company" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google Business Profile includes a free analytics dashboard called Insights. It shows you how many people viewed your profile, how many called, how many asked for directions, and what search terms they used to find you. This data tells you exactly what is working and what needs improvement.
             </p>
@@ -11409,7 +11409,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Google Business Profile Mistakes HVAC Companies Make',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common Google Business Profile mistakes that HVAC companies make, shown as a warning checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common Google Business Profile mistakes that HVAC companies make, shown as a warning checklist" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even HVAC companies that have claimed their Google Business Profile make mistakes that quietly hold back their Maps rankings. Here are the most common ones to avoid:
             </p>
@@ -11476,7 +11476,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowners with an HVAC technician after a successful AC repair, representing the results of a well-optimized Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy homeowners with an HVAC technician after a successful AC repair, representing the results of a well-optimized Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the single most important local SEO asset for your HVAC company. It powers the Google Maps pack, builds trust with homeowners, and drives phone calls \u2014 all at no cost. Choosing the correct category, completing every field, adding real photos, writing an SEO-friendly description, listing all services, collecting reviews, responding to every review, posting weekly updates, keeping hours accurate, and monitoring Insights \u2014 these ten tips form a complete optimization strategy.
             </p>
@@ -11509,7 +11509,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: "Why Your HVAC Website Isn't Ranking",
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC company website displayed on a laptop screen, representing why an HVAC website might not be ranking on Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476820/pexels-photo-6476820.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC company website displayed on a laptop screen, representing why an HVAC website might not be ranking on Google" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               You built a website for your HVAC business. It looks decent. It lists your services. It has your phone number. But when you search <em>"AC repair in [your city]"</em> on Google, your website is nowhere to be found. Your competitors \u2014 some with worse websites than yours \u2014 are sitting in the top spots, getting the calls that should be yours. Sound familiar?
             </p>
@@ -11527,7 +11527,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: "Why Your HVAC Website Isn't Ranking",
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google search results page showing HVAC company rankings, illustrating why an HVAC website might not be ranking" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google search results page showing HVAC company rankings, illustrating why an HVAC website might not be ranking" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Before you can fix the problem, you need to know what is causing it. Here are the ten most common reasons HVAC websites do not rank on Google:
             </p>
@@ -11584,7 +11584,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an HVAC company showing business details, reviews, and photos" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an HVAC company showing business details, reviews, and photos" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Claim your profile, set your primary category to HVAC Contractor, fill out every field, list all service areas, upload real photos of your trucks and technicians, and post weekly updates. A complete, active profile with fresh photos and regular posts signals to Google that you are a legitimate, working business. This is the fastest way to improve your Google Maps ranking.
             </p>
@@ -11595,7 +11595,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Create Service Area Pages</h3>
-            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC service vehicle parked in a residential neighborhood, representing service area pages for local HVAC SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476800/pexels-photo-6476800.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC service vehicle parked in a residential neighborhood, representing service area pages for local HVAC SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Build a dedicated landing page for each city or neighborhood you serve. A page titled <em>"AC Repair in [City]"</em> with local content and a clear call-to-action ranks far better than a generic page trying to cover every area. Write at least 500 words of unique content per page \u2014 do not copy and paste with a different city name. Google penalizes duplicate content and rewards genuine local expertise.
             </p>
@@ -11606,7 +11606,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>5. Improve Technical SEO</h3>
-            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technical SEO audit dashboard showing website errors, crawl issues, and schema markup for an HVAC website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technical SEO audit dashboard showing website errors, crawl issues, and schema markup for an HVAC website" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Fix the technical foundation of your website. Submit an XML sitemap to Google Search Console, fix broken links, add local business schema markup, ensure every page has a unique title tag and meta description, and check your robots.txt for blocked pages. Technical SEO is the foundation that lets Google crawl, understand, and rank your content. Without it, nothing else matters.
             </p>
@@ -11627,7 +11627,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>9. Optimize Images</h3>
-            <img src="https://images.pexels.com/photos/6476758/pexels-photo-6476758.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician working on a heating system, representing image optimization for HVAC website SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476758/pexels-photo-6476758.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="HVAC technician working on a heating system, representing image optimization for HVAC website SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Large, uncompressed images are the number one cause of slow websites. Compress every image on your site before uploading. Use WebP format where possible. Add descriptive alt text to every image that includes your target keywords \u2014 this helps Google understand what the image shows and improves your image search rankings. Use SEO-friendly filenames like <em>hvac-technician-ac-repair-[city].jpg</em> instead of <em>IMG_1234.jpg</em>.
             </p>
@@ -11644,7 +11644,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common SEO Mistakes HVAC Companies Make',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common SEO mistakes that HVAC companies make, shown as a warning checklist on a clipboard" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476808/pexels-photo-6476808.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common SEO mistakes that HVAC companies make, shown as a warning checklist on a clipboard" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even HVAC companies that invest in SEO make mistakes that quietly hold back their rankings. Here are the most common ones to avoid:
             </p>
@@ -11713,7 +11713,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customers with an HVAC technician after a successful service call, representing the results of a well-ranking HVAC website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6476791/pexels-photo-6476791.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customers with an HVAC technician after a successful service call, representing the results of a well-ranking HVAC website" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your HVAC website is not ranking because of fixable problems: poor keyword targeting, weak local SEO, an unoptimized Google Business Profile, slow speed, mobile issues, technical errors, thin content, missing internal links, lack of backlinks, or strong competition. Each one has a clear solution. Optimize your profile, research local keywords, build service area pages, publish helpful content, fix technical SEO, speed up your site, add internal links, earn local backlinks, optimize images, and track your results.
             </p>
@@ -11746,7 +11746,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: "Why Isn't My Cleaning Business Getting Customers?",
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4239037/pexels-photo-4239037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaners at work in a home, representing why a cleaning business might not be getting customers" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239037/pexels-photo-4239037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaners at work in a home, representing why a cleaning business might not be getting customers" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               You started a cleaning business. You built a website. You set up a Google Business Profile. You even printed some flyers. But the phone is not ringing. You check your inbox and it is empty. You search <em>"cleaning service in [your city]"</em> on Google and your business is nowhere to be found \u2014 while competitors with less experience than you are showing up at the top of Google Maps and getting all the calls.
             </p>
@@ -11764,7 +11764,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: "Why Your Cleaning Business Isn't Getting Customers",
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing cleaning businesses ranked by local SEO, demonstrating why a cleaning business might not be getting customers" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing cleaning businesses ranked by local SEO, demonstrating why a cleaning business might not be getting customers" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Before you can fix the problem, you need to know what is causing it. Here are the ten most common reasons cleaning businesses are not getting customers:
             </p>
@@ -11821,7 +11821,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/4239034/pexels-photo-4239034.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a cleaning company showing business details, reviews, and photos" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239034/pexels-photo-4239034.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a cleaning company showing business details, reviews, and photos" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Claim your profile, set your primary category to <em>"House Cleaning Service"</em> or <em>"Commercial Cleaning Service"</em>, fill out every field, list all service areas, upload real photos of your team and equipment, and post weekly updates. A complete, active profile with fresh photos and regular posts signals to Google that you are a legitimate, working business. This is the fastest way to improve your Google Maps ranking and start getting calls.
             </p>
@@ -11832,7 +11832,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Create Service Area Pages</h3>
-            <img src="https://images.pexels.com/photos/4239037/pexels-photo-4239037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaner working in a residential kitchen, representing service area pages for local cleaning SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239037/pexels-photo-4239037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaner working in a residential kitchen, representing service area pages for local cleaning SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Build a dedicated landing page for each city or neighborhood you serve. A page titled <em>"House Cleaning in [City]"</em> with local content and a clear call-to-action ranks far better than a generic page trying to cover every area. Write at least 500 words of unique content per page \u2014 do not copy and paste with a different city name. Google penalizes duplicate content and rewards genuine local expertise.
             </p>
@@ -11843,7 +11843,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>5. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer leaving a Google review for a cleaning service after a successful appointment" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer leaving a Google review for a cleaning service after a successful appointment" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Ask every customer for a review after the cleaning is done. Send a text message with a direct link to your Google review page while the experience is fresh. Aim for at least two new reviews per week. The cleaning companies in the top 3 Google Maps results typically have 50 or more reviews \u2014 but recency matters more than total count. Respond to every review within 24 hours to show Google and potential customers that you are active and engaged.
             </p>
@@ -11864,13 +11864,13 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>9. Optimize Images</h3>
-            <img src="https://images.pexels.com/photos/4239035/pexels-photo-4239035.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaning equipment and supplies, representing image optimization for a cleaning business website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239035/pexels-photo-4239035.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaning equipment and supplies, representing image optimization for a cleaning business website" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Large, uncompressed images are the number one cause of slow websites. Compress every image before uploading. Add descriptive alt text that includes your target keywords \u2014 this helps Google understand what the image shows and improves your image search rankings. Use SEO-friendly filenames like <em>house-cleaning-service-[city].jpg</em> instead of <em>IMG_1234.jpg</em>.
             </p>
 
             <h3>10. Track SEO Performance</h3>
-            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website analytics dashboard showing search performance, keyword rankings, and visitor data for a cleaning business" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website analytics dashboard showing search performance, keyword rankings, and visitor data for a cleaning business" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows you which keywords bring traffic to your site, what pages are ranking, and where there are technical issues. Check your data monthly, track your keyword rankings, and adjust your strategy based on what the data tells you. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities and fix issues before they hurt your rankings.
             </p>
@@ -11929,7 +11929,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4239037/pexels-photo-4239037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer with a professional cleaner after a successful house cleaning, representing the results of a strong local SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239037/pexels-photo-4239037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer with a professional cleaner after a successful house cleaning, representing the results of a strong local SEO strategy" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your cleaning business is not getting customers because of fixable problems: a poor Google Business Profile, weak local SEO, low Google Maps visibility, wrong keyword targeting, a slow website, poor mobile experience, lack of reviews, weak calls-to-action, technical SEO issues, or strong local competition. Each one has a clear solution. Optimize your profile, target local keywords, build service area pages, improve website speed, collect reviews, publish helpful content, earn local backlinks, improve internal linking, optimize images, and track your results.
             </p>
@@ -11962,7 +11962,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'How Cleaning Businesses Can Get More Leads From Google',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4107123/pexels-photo-4107123.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaning team ready to work, representing how cleaning businesses can get more leads from Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4107123/pexels-photo-4107123.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaning team ready to work, representing how cleaning businesses can get more leads from Google" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               If you own a cleaning business, you already know the feeling: you provide great service, your customers love you, but the phone does not ring enough. Meanwhile, you see competitors \u2014 some with worse reviews and less experience \u2014 showing up at the top of Google while you are buried on page three. The difference is not the quality of their cleaning. It is their SEO.
             </p>
@@ -11980,7 +11980,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Google Is the Best Source of Cleaning Leads',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4107124/pexels-photo-4107124.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="House cleaning service professional cleaning a kitchen, showing why Google is the best source of cleaning leads" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4107124/pexels-photo-4107124.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="House cleaning service professional cleaning a kitchen, showing why Google is the best source of cleaning leads" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               You can run Facebook ads, post on Instagram, print flyers, and knock on doors. But none of those channels match Google for one simple reason: intent. When someone searches <em>"house cleaning near me"</em> or <em>"office cleaning in [city],"</em> they are actively looking to hire someone right now. They are not scrolling past ads \u2014 they are searching with a problem and a wallet.
             </p>
@@ -12010,7 +12010,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/4107125/pexels-photo-4107125.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a cleaning company showing business details, photos, and reviews" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4107125/pexels-photo-4107125.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a cleaning company showing business details, photos, and reviews" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the most powerful tool for generating local cleaning leads. Claim your profile, set your primary category to <em>"House Cleaning Service"</em> or <em>"Commercial Cleaning Service,"</em> fill out every single field including hours and service areas, upload real photos of your team and equipment, and post weekly updates. A complete, active profile signals to Google that you are a real, working business \u2014 and it is the fastest way to climb into the Google Maps pack.
             </p>
@@ -12021,19 +12021,19 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>3. Create Service Area Pages</h3>
-            <img src="https://images.pexels.com/photos/4107126/pexels-photo-4107126.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaning staff working in a residential home, representing service area pages for cleaning lead generation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4107126/pexels-photo-4107126.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaning staff working in a residential home, representing service area pages for cleaning lead generation" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Build a dedicated landing page for each city or neighborhood you serve. A page titled <em>"House Cleaning in [City]"</em> with unique local content and a clear call-to-action ranks far better than one generic page trying to cover every area. Write at least 500 words of unique content per page \u2014 do not copy and paste with a different city name. Google rewards genuine local expertise and penalizes duplicate content.
             </p>
 
             <h3>4. Improve Google Maps Rankings</h3>
-            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps showing local cleaning business rankings in the map pack" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps showing local cleaning business rankings in the map pack" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               The Google Maps pack \u2014 the three businesses shown at the top of local searches \u2014 gets over 60% of local search clicks. To rank there, optimize your Google Business Profile completely, keep your NAP (Name, Address, Phone) consistent across the web, collect reviews consistently, and post regular updates. Proximity to the searcher matters, so make sure your service areas are accurately listed.
             </p>
 
             <h3>5. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/4107127/pexels-photo-4107127.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer leaving a five-star Google review for a cleaning service" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4107127/pexels-photo-4107127.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer leaving a five-star Google review for a cleaning service" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Reviews are the second biggest local ranking factor and the biggest conversion factor. Ask every customer for a review right after the cleaning is done \u2014 send a text with a direct link while the experience is fresh. Aim for at least two new reviews per week. The cleaning companies in the top 3 Maps results typically have 50 or more reviews. Respond to every review within 24 hours to show Google and potential customers that you are active and engaged.
             </p>
@@ -12044,7 +12044,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>7. Speed Up Your Website</h3>
-            <img src="https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed test showing fast loading times for a cleaning company website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed test showing fast loading times for a cleaning company website" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google uses page speed as a ranking factor, especially on mobile. If your site takes more than three seconds to load, visitors leave and your rankings drop. Test your site with Google PageSpeed Insights, compress all images, enable caching, and use fast hosting. Aim for a mobile score above 80. <a href="/technical-seo/">Our Technical SEO services</a> can fix speed and performance issues.
             </p>
@@ -12060,7 +12060,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>10. Track SEO Performance</h3>
-            <img src="https://images.pexels.com/photos/4239034/pexels-photo-4239034.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO dashboard showing keyword rankings, website traffic, and lead generation metrics for a cleaning company" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239034/pexels-photo-4239034.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO dashboard showing keyword rankings, website traffic, and lead generation metrics for a cleaning company" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows which keywords bring traffic, what pages are ranking, and where there are technical issues. Check your data monthly, track keyword rankings, and adjust your strategy based on what works. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities and fix issues before they hurt your rankings.
             </p>
@@ -12072,7 +12072,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Lead Generation Mistakes Cleaning Businesses Make',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4107128/pexels-photo-4107128.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common lead generation mistakes cleaning businesses make, shown as a warning checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4107128/pexels-photo-4107128.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common lead generation mistakes cleaning businesses make, shown as a warning checklist" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even cleaning businesses that invest in SEO make mistakes that quietly kill their lead flow. Here are the most common ones to avoid:
             </p>
@@ -12096,7 +12096,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Cleaning Business SEO Checklist',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4107129/pexels-photo-4107129.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cleaning equipment and supplies organized neatly, representing a cleaning business SEO checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4107129/pexels-photo-4107129.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cleaning equipment and supplies organized neatly, representing a cleaning business SEO checklist" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Use this checklist to make sure you have covered every essential SEO tactic for generating cleaning leads:
             </p>
@@ -12145,7 +12145,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4107130/pexels-photo-4107130.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer shaking hands with a professional cleaner after a successful cleaning service, representing the results of SEO lead generation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4107130/pexels-photo-4107130.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer shaking hands with a professional cleaner after a successful cleaning service, representing the results of SEO lead generation" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google is the best source of cleaning leads because it connects you with people who are actively searching for your services right now. The ten strategies in this guide \u2014 optimizing your Google Business Profile, targeting high-intent local keywords, creating service area pages, improving Google Maps rankings, collecting reviews, publishing helpful blogs, speeding up your website, building local backlinks, improving internal linking, and tracking performance \u2014 are the exact tactics the top-ranking cleaning businesses use to keep their schedules full.
             </p>
@@ -12178,7 +12178,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Google Business Profile Guide for Cleaning Services',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4109719/pexels-photo-4109719.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaners working in a modern home, representing the Google Business Profile guide for cleaning services" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109719/pexels-photo-4109719.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaners working in a modern home, representing the Google Business Profile guide for cleaning services" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               When someone in your area needs a cleaning service, they do not pull out the Yellow Pages. They open Google, type <em>"cleaning service near me,"</em> and call one of the first three businesses they see in the Google Maps pack. If your cleaning company is not one of those three, you are losing customers to competitors every single day \u2014 even if your service is better.
             </p>
@@ -12196,7 +12196,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'What Is Google Business Profile?',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4109720/pexels-photo-4109720.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a cleaning company showing business details, photos, and performance metrics" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109720/pexels-photo-4109720.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a cleaning company showing business details, photos, and performance metrics" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google Business Profile (formerly Google My Business) is a free tool from Google that lets you manage how your cleaning business appears in Google Search and Google Maps. When someone searches for a cleaning service in your area, the information they see \u2014 your business name, address, phone number, hours, photos, reviews, and services \u2014 comes from your Google Business Profile.
             </p>
@@ -12214,7 +12214,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Every Cleaning Business Needs It',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4109721/pexels-photo-4109721.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Residential house cleaning professional cleaning a living room, showing why cleaning businesses need a Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109721/pexels-photo-4109721.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Residential house cleaning professional cleaning a living room, showing why cleaning businesses need a Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Here is why your Google Business Profile is the most important marketing asset for your cleaning company:
             </p>
@@ -12246,7 +12246,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>2. Complete Every Business Information Field</h3>
-            <img src="https://images.pexels.com/photos/4109722/pexels-photo-4109722.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Commercial office cleaning professional wiping down a workspace, representing complete business information on Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109722/pexels-photo-4109722.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Commercial office cleaning professional wiping down a workspace, representing complete business information on Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Fill out every single field in your profile: business name, address, phone number, website, hours, service areas, attributes (women-led, eco-friendly, etc.), and opening date. Google uses this information to match your business with local searches. Incomplete profiles rank lower. A profile that is 100% complete signals to Google that you are a serious, established business. Do not skip fields you think are unimportant \u2014 every detail counts.
             </p>
@@ -12257,7 +12257,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>4. Add High-Quality Photos</h3>
-            <img src="https://images.pexels.com/photos/4109723/pexels-photo-4109723.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaning team posing with cleaning equipment, representing high-quality photos on a Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109723/pexels-photo-4109723.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional cleaning team posing with cleaning equipment, representing high-quality photos on a Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Businesses with more photos get more clicks, more calls, and more direction requests. Upload at least 20 photos: photos of your team in uniform, before-and-after cleaning shots, your cleaning equipment and supplies, your company vehicle, and your logo. Avoid stock photos \u2014 Google can detect them and real photos build more trust. Add new photos monthly to keep your profile active and fresh.
             </p>
@@ -12268,7 +12268,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>6. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/4109724/pexels-photo-4109724.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Five-star Google reviews on a phone screen, representing customer reviews for a cleaning service" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109724/pexels-photo-4109724.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Five-star Google reviews on a phone screen, representing customer reviews for a cleaning service" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Reviews are the second biggest local ranking factor and the biggest conversion factor. Ask every customer for a review right after the cleaning is done \u2014 send a text with a direct link to your review page while the experience is fresh. Aim for at least two new reviews per week. The cleaning companies in the top 3 Google Maps results typically have 50 or more reviews. <a href="/local-seo/">Our Local SEO services</a> can help you build a review generation system.
             </p>
@@ -12279,7 +12279,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>8. Publish Weekly Google Posts</h3>
-            <img src="https://images.pexels.com/photos/4109725/pexels-photo-4109725.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile posts being published on a laptop, representing weekly Google Posts for a cleaning service" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109725/pexels-photo-4109725.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile posts being published on a laptop, representing weekly Google Posts for a cleaning service" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google Posts are mini-updates that appear in your profile \u2014 promotions, seasonal offers, new services, or cleaning tips. Publishing one post per week signals to Google that your business is active and relevant. Posts also give you space to include keywords, photos, and call-to-action buttons like <em>"Book Now"</em> or <em>"Call Now."</em> Most cleaning businesses never use this feature, so doing it gives you an immediate advantage over competitors.
             </p>
@@ -12290,7 +12290,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>10. Monitor Performance with Google Business Insights</h3>
-            <img src="https://images.pexels.com/photos/4109726/pexels-photo-4109726.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile analytics dashboard showing search queries, profile views, and customer actions for a cleaning company" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109726/pexels-photo-4109726.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile analytics dashboard showing search queries, profile views, and customer actions for a cleaning company" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google Business Insights is a free analytics tool built into your profile. It shows you how many people viewed your profile, what keywords they used to find you, how many called you, requested directions, or visited your website. Check these metrics monthly to see what is working and what needs improvement. If you see a keyword bringing in traffic, create content around it. If your profile views are low, improve your photos and posts. <a href="/seo-audit/">Our SEO Audit services</a> include a full Google Business Profile analysis.
             </p>
@@ -12302,7 +12302,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Google Business Profile Mistakes Cleaning Companies Make',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4109727/pexels-photo-4109727.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common Google Business Profile mistakes cleaning companies make, shown as a warning checklist on a clipboard" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109727/pexels-photo-4109727.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common Google Business Profile mistakes cleaning companies make, shown as a warning checklist on a clipboard" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even cleaning businesses that have claimed their Google Business Profile make mistakes that hold back their rankings. Here are the most common ones to avoid:
             </p>
@@ -12326,7 +12326,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Google Business Profile Optimization Checklist',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4109728/pexels-photo-4109728.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cleaning supplies and equipment organized neatly with a checklist, representing the Google Business Profile optimization checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109728/pexels-photo-4109728.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cleaning supplies and equipment organized neatly with a checklist, representing the Google Business Profile optimization checklist" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Use this checklist to make sure you have optimized every part of your Google Business Profile:
             </p>
@@ -12371,7 +12371,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4109729/pexels-photo-4109729.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer shaking hands with a professional cleaner, representing the results of an optimized Google Business Profile for cleaning services" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109729/pexels-photo-4109729.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer shaking hands with a professional cleaner, representing the results of an optimized Google Business Profile for cleaning services" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the most powerful free marketing tool available to your cleaning business. It controls where you rank on Google Maps, how many people call you, and whether customers choose you over competitors. The ten steps in this guide \u2014 choosing the right category, completing every field, writing an SEO-optimized description, adding high-quality photos, listing all services, collecting reviews, responding to reviews, publishing weekly posts, keeping hours updated, and monitoring Insights \u2014 are the exact tactics the top-ranking cleaning businesses use to dominate local search.
             </p>
@@ -12404,7 +12404,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Best SEO Strategy for Cleaning Companies',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4239040/pexels-photo-4239040.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional residential cleaning team working in a modern home, representing the best SEO strategy for cleaning companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239040/pexels-photo-4239040.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional residential cleaning team working in a modern home, representing the best SEO strategy for cleaning companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Running a cleaning business is hard enough without having to worry about where you rank on Google. But the truth is, if your cleaning company does not show up when people in your area search for cleaning services, you are handing customers to your competitors every single day. They get the calls. They get the bookings. They grow. You stay stuck wondering why your phone does not ring.
             </p>
@@ -12422,7 +12422,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why SEO Is Essential for Cleaning Companies',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4239045/pexels-photo-4239045.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Commercial office cleaning professional working in a workspace, showing why SEO is essential for cleaning companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239045/pexels-photo-4239045.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Commercial office cleaning professional working in a workspace, showing why SEO is essential for cleaning companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               You can run Facebook ads, post on Instagram, print flyers, and knock on doors. But none of those channels match Google for one simple reason: intent. When someone searches <em>"house cleaning near me"</em> or <em>"office cleaning in [city],"</em> they are actively looking to hire someone right now. They are not scrolling past ads \u2014 they are searching with a problem and a wallet. That is the kind of customer every cleaning business wants.
             </p>
@@ -12453,61 +12453,61 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/4239070/pexels-photo-4239070.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a cleaning company showing business details, photos, and reviews" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239070/pexels-photo-4239070.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a cleaning company showing business details, photos, and reviews" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the most powerful local SEO tool you have. Claim it, set your primary category to <em>"House Cleaning Service"</em> or <em>"Commercial Cleaning Service,"</em> fill out every field including hours and service areas, upload at least 20 real photos of your team and equipment, list every cleaning service you offer, and publish weekly Google Posts. A complete, active profile signals to Google that you are a real, working business and is the fastest way to climb into the Google Maps pack \u2014 the three businesses shown at the top of local searches that get over 60% of clicks.
             </p>
 
             <h3>2. Research High-Intent Local Keywords</h3>
-            <img src="https://images.pexels.com/photos/4239075/pexels-photo-4239075.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Keyword research dashboard showing high-intent local cleaning keywords for SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239075/pexels-photo-4239075.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Keyword research dashboard showing high-intent local cleaning keywords for SEO strategy" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Find the exact phrases people use when they need a cleaner: <em>"house cleaning in [city]"</em>, <em>"deep cleaning service [neighborhood]"</em>, <em>"move-out cleaning [city]"</em>, <em>"office cleaning near me"</em>, <em>"commercial cleaning [city]"</em>. Use Google Keyword Planner, Ahrefs, or Semrush to build a list of 20 to 30 high-intent local keywords. Map each keyword to a specific page on your website so Google can match your pages to those searches. <a href="/local-seo/">Our Local SEO services</a> can handle this research for you.
             </p>
 
             <h3>3. Create Service Area Landing Pages</h3>
-            <img src="https://images.pexels.com/photos/4239080/pexels-photo-4239080.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cleaning professionals working in a residential home, representing service area landing pages for cleaning companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239080/pexels-photo-4239080.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cleaning professionals working in a residential home, representing service area landing pages for cleaning companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Build a dedicated landing page for each city or neighborhood you serve. A page titled <em>"House Cleaning in [City]"</em> with 500+ words of unique local content and a clear call-to-action ranks far better than one generic page trying to cover every area. Write genuinely unique content for each page \u2014 do not copy and paste with a different city name. Google rewards genuine local expertise and penalizes duplicate content. The more service area pages you have, the more local searches you can capture.
             </p>
 
             <h3>4. Improve On-Page SEO</h3>
-            <img src="https://images.pexels.com/photos/4239085/pexels-photo-4239085.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="On-page SEO optimization showing title tags, meta descriptions, and heading structure for a cleaning website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239085/pexels-photo-4239085.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="On-page SEO optimization showing title tags, meta descriptions, and heading structure for a cleaning website" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Every page on your cleaning website needs a unique title tag that includes your primary keyword and city, a compelling meta description, one H1 tag, properly structured H2 and H3 headings, keywords naturally placed in the first 100 words, and a clear call-to-action above the fold. Make sure your phone number is visible at the top of every page. On-page SEO tells Google exactly what each page is about and which searches to rank it for.
             </p>
 
             <h3>5. Publish Helpful Cleaning Blog Content</h3>
-            <img src="https://images.pexels.com/photos/4239090/pexels-photo-4239090.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cleaning blog content being written for a cleaning company website, representing helpful cleaning blog content for SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239090/pexels-photo-4239090.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cleaning blog content being written for a cleaning company website, representing helpful cleaning blog content for SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Start a blog answering the questions homeowners and business owners are already asking Google: how often should you deep clean your kitchen, what to expect from a move-out cleaning, eco-friendly cleaning tips, how to prepare your office for a cleaning service. Each post is a new page that can rank for a different keyword and attract customers before they are ready to book. Aim for one or two posts per month with genuinely useful content. <a href="/content-writing/">Our SEO Content Writing services</a> can produce this for you.
             </p>
 
             <h3>6. Increase Website Speed</h3>
-            <img src="https://images.pexels.com/photos/4239095/pexels-photo-4239095.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for a cleaning company website" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239095/pexels-photo-4239095.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for a cleaning company website" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google uses page speed as a ranking factor, especially on mobile. If your site takes more than three seconds to load, visitors leave and your rankings drop. Test your site with Google PageSpeed Insights, compress all images, enable caching, minify CSS and JavaScript, and use fast hosting. Aim for a mobile score above 80. <a href="/technical-seo/">Our Technical SEO services</a> can fix speed and performance issues.
             </p>
 
             <h3>7. Build High-Quality Local Backlinks</h3>
-            <img src="https://images.pexels.com/photos/4239100/pexels-photo-4239100.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local backlink building strategy for a cleaning company, showing connections to local business websites" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239100/pexels-photo-4239100.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local backlink building strategy for a cleaning company, showing connections to local business websites" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Backlinks from other local websites tell Google your cleaning business is trusted and established. Get listed on your local chamber of commerce site, partner with complementary businesses like real estate agents and property managers, sponsor local events, and get featured in local publications. Each quality local backlink boosts your domain authority and your local search rankings. Avoid low-quality or paid links \u2014 Google penalizes them. <a href="/link-building/">Our Link Building services</a> can help you earn legitimate links.
             </p>
 
             <h3>8. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/4109730/pexels-photo-4109730.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer leaving a five-star Google review for a cleaning service, representing Google reviews for cleaning companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109730/pexels-photo-4109730.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer leaving a five-star Google review for a cleaning service, representing Google reviews for cleaning companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Reviews are the second biggest local ranking factor and the biggest conversion factor. Ask every customer for a review right after the cleaning is done \u2014 send a text with a direct link while the experience is fresh. Aim for at least two new reviews per week. The cleaning companies in the top 3 Google Maps results typically have 50 or more reviews. Respond to every review within 24 hours to show Google and potential customers that you are active and engaged.
             </p>
 
             <h3>9. Improve Internal Linking</h3>
-            <img src="https://images.pexels.com/photos/4109737/pexels-photo-4109737.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Internal linking structure for a cleaning company website, showing connections between service pages and blog posts" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109737/pexels-photo-4109737.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Internal linking structure for a cleaning company website, showing connections between service pages and blog posts" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Internal linking helps Google understand your site structure and helps visitors find related content. Link from your blog posts to your service pages, link from your service area pages to your contact page, and link between related blog posts. Use descriptive anchor text \u2014 not <em>"click here"</em> \u2014 so Google understands what each page is about. A strong internal linking strategy spreads authority across your site and improves rankings for all your pages.
             </p>
 
             <h3>10. Track SEO Performance Using Google Search Console</h3>
-            <img src="https://images.pexels.com/photos/4109738/pexels-photo-4109738.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing keyword rankings, clicks, and impressions for a cleaning company SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109738/pexels-photo-4109738.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing keyword rankings, clicks, and impressions for a cleaning company SEO strategy" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows which keywords bring traffic, what pages are ranking, and where there are technical issues. Check your data monthly, track keyword rankings, and adjust your strategy based on what works. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities and fix issues before they hurt your rankings. What gets measured gets improved \u2014 without tracking, you are guessing.
             </p>
@@ -12519,7 +12519,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common SEO Mistakes Cleaning Companies Should Avoid',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4109740/pexels-photo-4109740.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common SEO mistakes cleaning companies should avoid, shown as a warning checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109740/pexels-photo-4109740.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common SEO mistakes cleaning companies should avoid, shown as a warning checklist" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even cleaning businesses that invest in SEO make mistakes that quietly kill their rankings. Here are the most common ones to avoid:
             </p>
@@ -12544,7 +12544,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Cleaning Company SEO Checklist',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4109741/pexels-photo-4109741.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cleaning supplies and equipment with an SEO checklist, representing the cleaning company SEO checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4109741/pexels-photo-4109741.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cleaning supplies and equipment with an SEO checklist, representing the cleaning company SEO checklist" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Use this checklist to make sure your cleaning company has covered every essential SEO tactic:
             </p>
@@ -12596,7 +12596,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4239015/pexels-photo-4239015.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer shaking hands with a professional cleaner, representing the results of a complete SEO strategy for cleaning companies" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4239015/pexels-photo-4239015.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy customer shaking hands with a professional cleaner, representing the results of a complete SEO strategy for cleaning companies" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               The best SEO strategy for cleaning companies is not a single tactic \u2014 it is a system of ten interconnected steps that work together. Optimizing your Google Business Profile, researching high-intent local keywords, creating service area landing pages, improving on-page SEO, publishing helpful blog content, increasing website speed, building local backlinks, collecting reviews, improving internal linking, and tracking performance with Google Search Console \u2014 these are the exact tactics the top-ranking cleaning companies use to keep their schedules full and their phones ringing.
             </p>
@@ -12629,7 +12629,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Local SEO for Dentists',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/5215028/pexels-photo-5215028.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern dental clinic with a dentist consulting a patient, representing local SEO for dentists" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215028/pexels-photo-5215028.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern dental clinic with a dentist consulting a patient, representing local SEO for dentists" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               When someone in your area needs a dentist, where do they look first? Google. They pull out their phone, type <em>"dentist near me"</em> or <em>"best dentist in [city],"</em> and within seconds they are looking at a list of dental practices. The practices at the top of that list get the call. The ones buried on page two or three do not even get considered. That is the reality of how patients find dental care today.
             </p>
@@ -12647,7 +12647,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'What Is Local SEO for Dentists?',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/5215029/pexels-photo-5215029.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dentist examining a patient's teeth during a consultation, explaining what local SEO for dentists means" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215029/pexels-photo-5215029.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dentist examining a patient's teeth during a consultation, explaining what local SEO for dentists means" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Local SEO is the process of optimizing your online presence so your dental practice ranks higher in location-based Google searches. When a patient searches <em>"dentist near me"</em> or <em>"orthodontist in [city],"</em> Google uses location data, your Google Business Profile, and your website content to decide which practices to show. Local SEO makes sure Google picks yours.
             </p>
@@ -12665,7 +12665,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Local SEO Is Essential for Every Dental Practice',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/5215030/pexels-photo-5215030.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental reception desk with a happy patient checking in, showing why local SEO is essential for dental practices" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215030/pexels-photo-5215030.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental reception desk with a happy patient checking in, showing why local SEO is essential for dental practices" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               You can run Google Ads, send postcards, sponsor local events, and rely on patient referrals. All of those have value. But none of them match local Google search for one simple reason: intent. When someone searches <em>"dentist near me,"</em> they are not casually browsing. They have a dental need right now and they are looking for a practice to call. That is the exact moment you want to show up.
             </p>
@@ -12696,61 +12696,61 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/5215031/pexels-photo-5215031.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a dental clinic showing business details, photos, and patient reviews" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215031/pexels-photo-5215031.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for a dental clinic showing business details, photos, and patient reviews" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the single most powerful local SEO tool for dental practices. Claim it, set your primary category to <em>"Dentist"</em> or <em>"Orthodontist"</em> or <em>"Cosmetic Dentist,"</em> fill out every field including hours and service areas, upload at least 20 real photos of your office and team, list every dental service you offer, and publish weekly Google Posts. A complete, active profile is the fastest way to appear in the Google Maps pack \u2014 the three practices shown at the top of local searches that get over 60% of clicks.
             </p>
 
             <h3>2. Research High-Intent Local Keywords</h3>
-            <img src="https://images.pexels.com/photos/5215032/pexels-photo-5215032.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental keyword research showing high-intent local search terms like dentist near me and Invisalign for local SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215032/pexels-photo-5215032.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental keyword research showing high-intent local search terms like dentist near me and Invisalign for local SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Find the exact phrases patients use when they need dental care: <em>"dentist in [city]"</em>, <em>"teeth whitening [neighborhood]"</em>, <em>"emergency dentist near me"</em>, <em>"Invisalign [city]"</em>, <em>"dental implants [city]"</em>, <em>"pediatric dentist [area]"</em>. Use Google Keyword Planner, Ahrefs, or Semrush to build a list of 20 to 30 high-intent local keywords. Map each keyword to a specific page on your website so Google can match your pages to those searches.
             </p>
 
             <h3>3. Create Treatment-Specific Service Pages</h3>
-            <img src="https://images.pexels.com/photos/5215033/pexels-photo-5215033.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental website showing individual treatment pages for procedures like implants, whitening, and Invisalign" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215033/pexels-photo-5215033.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental website showing individual treatment pages for procedures like implants, whitening, and Invisalign" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Do not list all your services on one page. Create a dedicated page for each dental treatment: one for dental implants, one for Invisalign, one for teeth whitening, one for root canals, one for emergency dental care, one for pediatric dentistry. Each page should have 500+ words of unique content explaining the procedure, answering common patient questions, and including a clear call-to-action to book a consultation. Individual service pages rank for more keywords and convert better than a single generic services page. <a href="/content-writing/">Our SEO Content Writing services</a> can produce these pages for you.
             </p>
 
             <h3>4. Build Location Pages for Every City Served</h3>
-            <img src="https://images.pexels.com/photos/5215034/pexels-photo-5215034.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps showing dental clinic locations in different cities, representing location pages for dental local SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215034/pexels-photo-5215034.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps showing dental clinic locations in different cities, representing location pages for dental local SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               If you serve multiple cities or neighborhoods, build a dedicated page for each one. A page titled <em>"Dentist in [City]"</em> with unique local content ranks far better than one generic page trying to cover every area. Write genuinely helpful content for each location \u2014 mention local landmarks, nearby neighborhoods, and what makes your practice convenient for patients in that area. Do not copy and paste with a different city name. Google rewards genuine local relevance and penalizes duplicate content.
             </p>
 
             <h3>5. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/5215035/pexels-photo-5215035.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy dental patient leaving a five-star Google review for their dentist, representing Google reviews for dental local SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215035/pexels-photo-5215035.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy dental patient leaving a five-star Google review for their dentist, representing Google reviews for dental local SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Reviews are the second biggest local ranking factor and the biggest conversion factor for dental practices. Ask every patient for a review after their appointment \u2014 send a text with a direct link to your review page while the experience is fresh. Aim for at least two new reviews per week. The dental practices in the top 3 Google Maps results typically have 80 or more reviews. Respond to every review within 24 hours to show Google and potential patients that you are active and engaged.
             </p>
 
             <h3>6. Improve Website Speed</h3>
-            <img src="https://images.pexels.com/photos/5215036/pexels-photo-5215036.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for a dental clinic website on desktop and mobile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215036/pexels-photo-5215036.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Website speed optimization showing fast loading times for a dental clinic website on desktop and mobile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google uses page speed as a ranking factor, especially on mobile. If your dental website takes more than three seconds to load, visitors leave and your rankings drop. Test your site with Google PageSpeed Insights, compress all images, enable caching, minify CSS and JavaScript, and use fast hosting. Aim for a mobile score above 80. A fast website ranks higher, keeps visitors on the page longer, and converts more of them into appointments. <a href="/technical-seo/">Our Technical SEO services</a> can fix speed and performance issues.
             </p>
 
             <h3>7. Optimize for Mobile Devices</h3>
-            <img src="https://images.pexels.com/photos/5215037/pexels-photo-5215037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Mobile-optimized dental website on a smartphone showing click-to-call buttons and easy navigation" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215037/pexels-photo-5215037.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Mobile-optimized dental website on a smartphone showing click-to-call buttons and easy navigation" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Over 60% of local dental searches happen on mobile phones. If your website is not mobile-friendly \u2014 text too small, buttons too close together, layout broken on small screens \u2014 Google penalizes your rankings and visitors leave without calling. Make sure your site is fully responsive, has click-to-call buttons, and loads quickly on mobile devices. A poor mobile experience is a silent ranking killer for dental practices.
             </p>
 
             <h3>8. Build High-Quality Local Citations & Backlinks</h3>
-            <img src="https://images.pexels.com/photos/5215038/pexels-photo-5215038.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local citations and backlink building strategy for a dental clinic, showing connections to local healthcare directories" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215038/pexels-photo-5215038.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local citations and backlink building strategy for a dental clinic, showing connections to local healthcare directories" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Local citations are listings of your practice name, address, and phone number on directories like Yelp, Healthgrades, Bing Places, and Apple Maps. Make sure your NAP is consistent across every directory. Backlinks from other local websites tell Google your dental practice is trusted and established. Get listed on your local dental association website, partner with complementary healthcare providers, sponsor local health events, and get featured in local publications. <a href="/link-building/">Our Link Building services</a> can help you earn legitimate local links.
             </p>
 
             <h3>9. Publish Helpful Dental Blog Content</h3>
-            <img src="https://images.pexels.com/photos/5215039/pexels-photo-5215039.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental blog content being written about oral health topics, representing helpful dental blog content for local SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215039/pexels-photo-5215039.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental blog content being written about oral health topics, representing helpful dental blog content for local SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Start a blog answering the questions patients are already asking Google: how to know if you need a root canal, what to expect during Invisalign treatment, how to whiten teeth safely, foods to avoid after a dental implant, when to take your child to their first dental visit. Each post is a new page that can rank for a different keyword and attract patients before they are ready to book. Aim for one or two posts per month with genuinely useful content.
             </p>
 
             <h3>10. Track SEO Performance with Google Search Console</h3>
-            <img src="https://images.pexels.com/photos/5215040/pexels-photo-5215040.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing keyword rankings, clicks, and impressions for a dental clinic local SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215040/pexels-photo-5215040.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing keyword rankings, clicks, and impressions for a dental clinic local SEO strategy" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows which keywords bring traffic, what pages are ranking, and where there are technical issues. Check your data monthly, track keyword rankings, and adjust your strategy based on what works. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities and fix issues before they hurt your rankings. What gets measured gets improved \u2014 without tracking, you are guessing.
             </p>
@@ -12762,7 +12762,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Local SEO Mistakes Dentists Make',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/5215041/pexels-photo-5215041.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common local SEO mistakes dentists make, shown as a warning checklist for dental practices" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215041/pexels-photo-5215041.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common local SEO mistakes dentists make, shown as a warning checklist for dental practices" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even dental practices that invest in local SEO make mistakes that quietly kill their rankings. Here are the most common ones to avoid:
             </p>
@@ -12787,7 +12787,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Dental Local SEO Checklist',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/5215042/pexels-photo-5215042.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental local SEO checklist with dental office equipment, representing the dental local SEO checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215042/pexels-photo-5215042.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental local SEO checklist with dental office equipment, representing the dental local SEO checklist" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Use this checklist to make sure your dental practice has covered every essential local SEO tactic:
             </p>
@@ -12839,7 +12839,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/5215043/pexels-photo-5215043.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy dental patient smiling after a successful appointment, representing the results of local SEO for dentists" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215043/pexels-photo-5215043.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy dental patient smiling after a successful appointment, representing the results of local SEO for dentists" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Local SEO for dentists is not a single tactic \u2014 it is a system of ten interconnected strategies that work together to put your practice in front of patients at the exact moment they are searching for dental care in your area. Optimizing your Google Business Profile, researching high-intent local keywords, creating treatment-specific service pages, building location pages, collecting Google reviews, improving website speed, optimizing for mobile, building local citations and backlinks, publishing helpful blog content, and tracking performance with Google Search Console \u2014 these are the exact tactics the top-ranking dental practices use to keep their schedules full.
             </p>
@@ -12872,7 +12872,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Google Business Profile for Dental Clinics',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/5215044/pexels-photo-5215044.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern dental clinic with a welcoming reception area, representing Google Business Profile for dental clinics" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215044/pexels-photo-5215044.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern dental clinic with a welcoming reception area, representing Google Business Profile for dental clinics" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               When a patient in your area searches for a dentist on Google, the first thing they see is not your website. It is your Google Business Profile. That small box on the right side of the search results \u2014 with your clinic name, address, phone number, photos, reviews, and hours \u2014 is often the single thing that determines whether a patient calls your practice or scrolls down to a competitor. If that profile is incomplete, outdated, or poorly optimized, you are losing patients before they ever visit your website.
             </p>
@@ -12890,7 +12890,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'What Is Google Business Profile?',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/5215045/pexels-photo-5215045.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dentist consulting a patient and explaining treatment options, representing Google Business Profile for dental clinics" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215045/pexels-photo-5215045.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dentist consulting a patient and explaining treatment options, representing Google Business Profile for dental clinics" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google Business Profile is a free tool from Google that lets you manage how your dental clinic appears in Google Search and Google Maps. When someone searches <em>"dentist near me"</em> or <em>"dental clinic in [city],"</em> Google uses the information from your profile to decide whether to show your practice and where to rank it. Your profile includes your clinic name, address, phone number, website link, hours, photos, services, reviews, and posts.
             </p>
@@ -12905,7 +12905,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Every Dental Clinic Needs It',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/5215046/pexels-photo-5215046.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing dental clinics ranked by proximity and profile optimization" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215046/pexels-photo-5215046.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing dental clinics ranked by proximity and profile optimization" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               You can have the best dental website in your city, but if your Google Business Profile is weak, you will not show up in the Google Maps pack. And the Maps pack is where the majority of new patient calls come from. Here is why every dental clinic needs an optimized Google Business Profile:
             </p>
@@ -12933,61 +12933,61 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Choose the Correct Business Category</h3>
-            <img src="https://images.pexels.com/photos/5215047/pexels-photo-5215047.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile category selection showing dental clinic categories like Dentist, Orthodontist, and Cosmetic Dentist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215047/pexels-photo-5215047.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile category selection showing dental clinic categories like Dentist, Orthodontist, and Cosmetic Dentist" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your primary category is the single most important field in your Google Business Profile. It tells Google exactly what type of dental practice you are. Choose the most specific category available: <em>"Dentist"</em>, <em>"Orthodontist"</em>, <em>"Cosmetic Dentist"</em>, <em>"Pediatric Dentist"</em>, or <em>"Emergency Dental Service"</em>. Do not pick a vague category like <em>"Health"</em> or <em>"Medical Clinic."</em> The right primary category dramatically improves your chances of ranking for the searches that matter most to your practice.
             </p>
 
             <h3>2. Complete Every Business Information Field</h3>
-            <img src="https://images.pexels.com/photos/5215048/pexels-photo-5215048.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing all completed business information fields for a dental clinic" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215048/pexels-photo-5215048.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard showing all completed business information fields for a dental clinic" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Fill out every single field Google offers: business name, address, phone number, website, hours, service areas, attributes (wheelchair accessible, accepts new patients, etc.), and opening date. Google uses completeness as a ranking signal. Profiles that are 100% complete rank higher than profiles that are 70% complete. It takes ten minutes, and it is one of the easiest ranking wins available. Do not leave any field empty.
             </p>
 
             <h3>3. Write an SEO-Optimized Business Description</h3>
-            <img src="https://images.pexels.com/photos/5215049/pexels-photo-5215049.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO-optimized business description being written for a dental clinic Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215049/pexels-photo-5215049.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO-optimized business description being written for a dental clinic Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your business description is 750 characters of prime SEO real estate. Write a clear, compelling description that includes your primary keyword (e.g., <em>"dentist in [city]"</em>), your main services, and what makes your clinic unique. Mention the treatments you specialize in, your experience, and what patients can expect. Avoid keyword stuffing \u2014 write for patients first, Google second. A well-written description helps Google understand your practice and helps patients decide to call you. <a href="/content-writing/">Our SEO Content Writing services</a> can craft this for you.
             </p>
 
             <h3>4. Add Professional Clinic & Team Photos</h3>
-            <img src="https://images.pexels.com/photos/5215050/pexels-photo-5215050.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional dental clinic photos showing the treatment room, reception, and team members for Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215050/pexels-photo-5215050.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional dental clinic photos showing the treatment room, reception, and team members for Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Upload at least 20 real photos of your clinic: the exterior, the reception area, treatment rooms, your team in uniform, and before-and-after treatment photos when appropriate. Profiles with more photos get significantly more clicks, calls, and direction requests than profiles with few or no photos. Use real photos \u2014 not stock images. Patients want to see the actual office they will be visiting and the people who will be treating them. Add new photos monthly to keep your profile active.
             </p>
 
             <h3>5. List All Dental Services</h3>
-            <img src="https://images.pexels.com/photos/5215051/pexels-photo-5215051.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile services section listing all dental treatments offered by the clinic" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215051/pexels-photo-5215051.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile services section listing all dental treatments offered by the clinic" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Use the services section to list every treatment you offer: general dentistry, teeth cleaning, dental implants, Invisalign, teeth whitening, root canals, emergency dental care, pediatric dentistry, cosmetic dentistry, and more. Each service you list is another keyword Google can match your profile to. Patients often search for specific treatments, not just <em>"dentist."</em> If you do not list a service, Google may not show your profile when someone searches for it. Be thorough \u2014 list everything you offer.
             </p>
 
             <h3>6. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/5215052/pexels-photo-5215052.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy dental patient leaving a five-star Google review for their dental clinic" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215052/pexels-photo-5215052.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy dental patient leaving a five-star Google review for their dental clinic" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Reviews are the second biggest local ranking factor and the biggest conversion factor. Ask every patient for a review after their appointment \u2014 send a text with a direct link to your review page while the experience is fresh. Aim for at least two new reviews per week. The dental clinics in the top 3 Google Maps results typically have 80 or more reviews. More reviews means higher rankings, more trust, and more calls from patients who are ready to book.
             </p>
 
             <h3>7. Respond to Every Patient Review</h3>
-            <img src="https://images.pexels.com/photos/5215054/pexels-photo-5215054.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental clinic manager responding to patient reviews on Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215054/pexels-photo-5215054.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental clinic manager responding to patient reviews on Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Respond to every review \u2014 positive and negative \u2014 within 24 hours. Thank patients for positive reviews by name and mention the treatment they received. For negative reviews, respond professionally, acknowledge the concern, and invite the patient to contact your office directly to resolve it. Responding shows Google that your clinic is active and engaged, and it shows potential patients that you care about their experience. Clinics that respond to reviews consistently rank higher than those that do not.
             </p>
 
             <h3>8. Publish Weekly Google Posts</h3>
-            <img src="https://images.pexels.com/photos/5215056/pexels-photo-5215056.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile posts showing weekly dental clinic updates, promotions, and educational content" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215056/pexels-photo-5215056.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile posts showing weekly dental clinic updates, promotions, and educational content" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google Posts are short updates that appear on your Google Business Profile and in local search results. Publish one post per week: announce a new treatment, share a patient success story, promote a seasonal offer (like a whitening special), or share a dental health tip. Each post signals to Google that your clinic is active and gives patients a fresh reason to engage with your profile. Posts expire after seven days, so consistency matters \u2014 a profile with recent posts ranks higher than one that has been silent for months.
             </p>
 
             <h3>9. Keep Business Hours Updated</h3>
-            <img src="https://images.pexels.com/photos/5215057/pexels-photo-5215057.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental clinic reception showing business hours and appointment scheduling for patients" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215057/pexels-photo-5215057.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dental clinic reception showing business hours and appointment scheduling for patients" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Accurate hours are critical. If a patient sees that you are open, drives to your clinic, and finds the door locked, they will not come back \u2014 and they may leave a negative review. Update your hours for holidays, vacations, and any schedule changes immediately. Google uses hours accuracy as a trust signal. If your hours are wrong, Google may lower your local ranking because it cannot trust the information on your profile. Set special hours for holidays in advance.
             </p>
 
             <h3>10. Monitor Google Business Insights</h3>
-            <img src="https://images.pexels.com/photos/5215058/pexels-photo-5215058.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile insights dashboard showing search queries, calls, direction requests, and profile views for a dental clinic" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215058/pexels-photo-5215058.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile insights dashboard showing search queries, calls, direction requests, and profile views for a dental clinic" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google Business Profile includes a free analytics dashboard called Insights. It shows how many people viewed your profile, what searches brought them there, how many called, how many requested directions, and how many visited your website. Check Insights monthly to see which keywords are driving traffic, which photos get the most views, and where patients are coming from. Use this data to adjust your strategy. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities. What gets measured gets improved.
             </p>
@@ -12999,7 +12999,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Google Business Profile Mistakes Dental Clinics Make',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/5215059/pexels-photo-5215059.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common Google Business Profile mistakes dental clinics make, shown as a warning checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215059/pexels-photo-5215059.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common Google Business Profile mistakes dental clinics make, shown as a warning checklist" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even dental clinics that have claimed their Google Business Profile make mistakes that quietly kill their local rankings. Here are the most common ones to avoid:
             </p>
@@ -13024,7 +13024,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Google Business Profile Optimization Checklist',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/5215060/pexels-photo-5215060.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile optimization checklist for dental clinics with dental office equipment" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215060/pexels-photo-5215060.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile optimization checklist for dental clinics with dental office equipment" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Use this checklist to make sure your dental clinic has covered every essential Google Business Profile optimization tactic:
             </p>
@@ -13069,7 +13069,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/5215061/pexels-photo-5215061.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy dental patient smiling after a successful appointment at an optimized dental clinic" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/5215061/pexels-photo-5215061.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy dental patient smiling after a successful appointment at an optimized dental clinic" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the most powerful local SEO tool your dental clinic has. It is what gets you into the Google Maps pack, what patients see when they search for a dentist in your area, and what drives the majority of new patient phone calls. Choosing the correct business category, completing every field, writing an SEO-optimized description, adding professional photos, listing all services, collecting reviews, responding to reviews, publishing weekly posts, keeping hours updated, and monitoring Insights \u2014 these ten steps are the exact tactics the top-ranking dental clinics use to dominate local search.
             </p>
@@ -13102,7 +13102,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: "Why Isn't My Auto Repair Shop Showing on Google?",
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/3806288/pexels-photo-3806288.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern auto repair shop with a mechanic working on a car, representing why auto repair shops struggle to show on Google" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806288/pexels-photo-3806288.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern auto repair shop with a mechanic working on a car, representing why auto repair shops struggle to show on Google" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               You built a website for your auto repair shop. You listed your services. You even set up a Google Business Profile. But when you search for <em>"auto repair near me"</em> or <em>"mechanic in [city],"</em> your shop is nowhere to be found. Instead, you see the same three or four competitors dominating the top of Google Search and Google Maps. Meanwhile, your phone stays quiet and your bays sit half-empty.
             </p>
@@ -13120,67 +13120,67 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Your Auto Repair Shop Isn\u2019t Showing on Google',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/3806289/pexels-photo-3806289.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Mechanic inspecting a car engine with diagnostic tools, representing common SEO problems for auto repair shops" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806289/pexels-photo-3806289.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Mechanic inspecting a car engine with diagnostic tools, representing common SEO problems for auto repair shops" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Before you can fix the problem, you need to understand what is causing it. Here are the ten most common reasons your auto repair shop is not showing up on Google Search or Google Maps:
             </p>
 
             <h3>1. Poor Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/3806294/pexels-photo-3806294.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Incomplete Google Business Profile for an auto repair shop with missing information and no photos" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806294/pexels-photo-3806294.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Incomplete Google Business Profile for an auto repair shop with missing information and no photos" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               If your Google Business Profile is unclaimed, incomplete, or has the wrong category, Google will not show your shop in local searches. This is the number one reason auto repair shops do not appear on Google. A profile with no photos, no services listed, and no reviews signals to Google that your business is inactive or irrelevant.
             </p>
 
             <h3>2. Weak Local SEO</h3>
-            <img src="https://images.pexels.com/photos/3806297/pexels-photo-3806297.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Weak local SEO strategy for an auto repair shop showing low search rankings and few customer calls" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806297/pexels-photo-3806297.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Weak local SEO strategy for an auto repair shop showing low search rankings and few customer calls" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Local SEO is what gets your auto repair shop into the Google Maps pack. If you have not optimized your website for local searches \u2014 with location-specific keywords, local citations, and consistent NAP (name, address, phone) across the web \u2014 Google will not connect your shop to local searchers. <a href="/local-seo/">Our Local SEO services</a> can fix this.
             </p>
 
             <h3>3. Wrong Keyword Targeting</h3>
-            <img src="https://images.pexels.com/photos/3806298/pexels-photo-3806298.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wrong keyword targeting for an auto repair website showing generic terms instead of local auto repair keywords" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806298/pexels-photo-3806298.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Wrong keyword targeting for an auto repair website showing generic terms instead of local auto repair keywords" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               If your website targets generic terms like <em>"auto repair"</em> instead of <em>"auto repair in [city]"</em> or <em>"brake repair near me,"</em> you are competing against every shop in the country instead of just the ones in your area. Local keywords are easier to rank for and bring in customers who are actually close enough to visit your shop.
             </p>
 
             <h3>4. Low Google Maps Visibility</h3>
-            <img src="https://images.pexels.com/photos/3806300/pexels-photo-3806300.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing auto repair shops, with one shop missing from the local map pack" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806300/pexels-photo-3806300.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing auto repair shops, with one shop missing from the local map pack" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               The Google Maps pack \u2014 the three businesses shown at the top of local search results \u2014 gets over 60% of clicks. If your shop is not in that pack, most searchers will never see you. Low Maps visibility is usually caused by a weak Google Business Profile, few reviews, and poor local SEO signals.
             </p>
 
             <h3>5. Slow Website</h3>
-            <img src="https://images.pexels.com/photos/3806301/pexels-photo-3806301.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Slow auto repair website loading on a desktop computer, showing poor page speed performance" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806301/pexels-photo-3806301.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Slow auto repair website loading on a desktop computer, showing poor page speed performance" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google uses page speed as a ranking factor. If your auto repair website takes more than three seconds to load, visitors leave and your rankings drop. Many auto repair shop websites are built on outdated templates with large unoptimized images, slow hosting, and no caching. A slow website is a silent ranking killer.
             </p>
 
             <h3>6. Mobile Usability Issues</h3>
-            <img src="https://images.pexels.com/photos/3806302/pexels-photo-3806302.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair website with poor mobile usability on a smartphone, showing broken layout and tiny text" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806302/pexels-photo-3806302.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair website with poor mobile usability on a smartphone, showing broken layout and tiny text" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Over 60% of local searches for auto repair happen on mobile phones. If your website is not mobile-friendly \u2014 text too small, buttons too close together, layout broken on small screens \u2014 Google penalizes your rankings and visitors leave without calling. A poor mobile experience is one of the fastest ways to lose both rankings and customers.
             </p>
 
             <h3>7. Technical SEO Errors</h3>
-            <img src="https://images.pexels.com/photos/3806303/pexels-photo-3806303.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technical SEO errors on an auto repair website showing broken links, missing meta tags, and crawl issues" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806303/pexels-photo-3806303.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technical SEO errors on an auto repair website showing broken links, missing meta tags, and crawl issues" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Missing meta tags, broken links, no XML sitemap, duplicate content, no schema markup \u2014 these technical SEO errors prevent Google from properly crawling and indexing your website. Even great content will not rank if Google cannot read your site. <a href="/technical-seo/">Our Technical SEO services</a> can audit and fix these issues.
             </p>
 
             <h3>8. Thin Website Content</h3>
-            <img src="https://images.pexels.com/photos/3806304/pexels-photo-3806304.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Thin website content on an auto repair site showing minimal text and no service descriptions" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806304/pexels-photo-3806304.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Thin website content on an auto repair site showing minimal text and no service descriptions" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               If your website has one services page listing everything from oil changes to transmission rebuilds in a single paragraph, Google has very little content to rank. Each service needs its own page with 500+ words of unique, helpful content explaining what the service is, common symptoms, and why customers should choose your shop.
             </p>
 
             <h3>9. Lack of Customer Reviews</h3>
-            <img src="https://images.pexels.com/photos/3806305/pexels-photo-3806305.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop with very few Google reviews, showing a lack of customer feedback and low trust signals" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806305/pexels-photo-3806305.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop with very few Google reviews, showing a lack of customer feedback and low trust signals" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Reviews are the second biggest local ranking factor and the biggest conversion factor. If your auto repair shop has five reviews and your competitor has eighty, Google will rank them higher and customers will trust them more. If you are not actively asking every customer for a review, you are falling behind.
             </p>
 
             <h3>10. Strong Local Competition</h3>
-            <img src="https://images.pexels.com/photos/3806306/pexels-photo-3806306.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Multiple auto repair shops competing for local search rankings on Google, showing strong local competition" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806306/pexels-photo-3806306.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Multiple auto repair shops competing for local search rankings on Google, showing strong local competition" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Sometimes the issue is not what you are doing wrong, but what your competitors are doing right. If competing shops in your area have optimized Google Business Profiles, hundreds of reviews, fast mobile-friendly websites, and strong local backlinks, they will outrank you until you match or exceed their SEO efforts. The solution is not to outspend them \u2014 it is to out-optimize them.
             </p>
@@ -13197,61 +13197,61 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/3806310/pexels-photo-3806310.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an auto repair shop showing complete business information, photos, and services" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806310/pexels-photo-3806310.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an auto repair shop showing complete business information, photos, and services" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Claim your Google Business Profile, set your primary category to <em>"Auto Repair Shop"</em> or <em>"Mechanic,"</em> fill out every field including hours and service areas, upload at least 20 real photos of your shop and team, list every service you offer, and publish weekly Google Posts. A complete, active profile is the fastest way to appear in the Google Maps pack.
             </p>
 
             <h3>2. Target High-Intent Auto Repair Keywords</h3>
-            <img src="https://images.pexels.com/photos/3806311/pexels-photo-3806311.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Keyword research for auto repair showing high-intent local search terms like brake repair and oil change" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/3806311/pexels-photo-3806311.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Keyword research for auto repair showing high-intent local search terms like brake repair and oil change" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Find the exact phrases customers use when they need auto repair: <em>"auto repair in [city]"</em>, <em>"brake repair near me"</em>, <em>"transmission repair [city]"</em>, <em>"oil change [neighborhood]"</em>, <em>"check engine light [city]"</em>, <em>"car mechanic near me"</em>. Use Google Keyword Planner or Semrush to build a list of 20 to 30 high-intent local keywords and map each to a specific page.
             </p>
 
             <h3>3. Create Individual Service Pages</h3>
-            <img src="https://images.pexels.com/photos/4480714/pexels-photo-4480714.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair website showing individual service pages for brake repair, oil change, and transmission service" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4480714/pexels-photo-4480714.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair website showing individual service pages for brake repair, oil change, and transmission service" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Do not list all services on one page. Create a dedicated page for each service: brake repair, oil change, transmission service, engine diagnostics, tire rotation, AC repair, alignment, and more. Each page should have 500+ words of unique content explaining the service, common warning signs, and a clear call-to-action to book an appointment. <a href="/content-writing/">Our SEO Content Writing services</a> can produce these pages.
             </p>
 
             <h3>4. Build Location Pages</h3>
-            <img src="https://images.pexels.com/photos/4480719/pexels-photo-4480719.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Location pages for an auto repair shop showing different cities and neighborhoods served" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4480719/pexels-photo-4480719.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Location pages for an auto repair shop showing different cities and neighborhoods served" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               If you serve multiple cities or neighborhoods, build a dedicated page for each one. A page titled <em>"Auto Repair in [City]"</em> with unique local content ranks far better than one generic page. Mention local landmarks, nearby neighborhoods, and what makes your shop convenient for customers in that area. Never copy and paste with a different city name.
             </p>
 
             <h3>5. Improve Technical SEO</h3>
-            <img src="https://images.pexels.com/photos/4480720/pexels-photo-4480720.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technical SEO audit for an auto repair website showing schema markup, sitemap, and crawl error fixes" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4480720/pexels-photo-4480720.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technical SEO audit for an auto repair website showing schema markup, sitemap, and crawl error fixes" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Fix meta tags, add local business schema markup, create an XML sitemap, fix broken links, and ensure Google can crawl every page. Technical SEO is the foundation that everything else builds on \u2014 without it, your content and keywords will not reach their full ranking potential. Auto repair websites often have technical issues from outdated templates.
             </p>
 
             <h3>6. Increase Website Speed</h3>
-            <img src="https://images.pexels.com/photos/4480721/pexels-photo-4480721.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Fast-loading auto repair website on desktop and mobile showing optimized page speed scores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4480721/pexels-photo-4480721.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Fast-loading auto repair website on desktop and mobile showing optimized page speed scores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Test your site with Google PageSpeed Insights, compress all images, enable caching, minify CSS and JavaScript, and use fast hosting. Aim for a mobile score above 80. A fast website ranks higher, keeps visitors on the page longer, and converts more of them into phone calls and appointments.
             </p>
 
             <h3>7. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/4480723/pexels-photo-4480723.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy auto repair customer leaving a five-star Google review for their mechanic" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4480723/pexels-photo-4480723.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy auto repair customer leaving a five-star Google review for their mechanic" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Ask every customer for a review after their service is complete \u2014 send a text with a direct link to your review page while the experience is fresh. Aim for at least two new reviews per week. The auto repair shops in the top 3 Google Maps results typically have 80 or more reviews. Respond to every review within 24 hours.
             </p>
 
             <h3>8. Publish Helpful Auto Repair Blog Content</h3>
-            <img src="https://images.pexels.com/photos/4480724/pexels-photo-4480724.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair blog content being written about car maintenance tips and common repair questions" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4480724/pexels-photo-4480724.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair blog content being written about car maintenance tips and common repair questions" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Start a blog answering the questions customers are already asking Google: how to know when your brakes need replacing, what a check engine light means, how often to change your oil, signs of transmission problems. Each post is a new page that can rank for a different keyword and attract customers before they are ready to book.
             </p>
 
             <h3>9. Build Local Backlinks</h3>
-            <img src="https://images.pexels.com/photos/4480726/pexels-photo-4480726.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local backlink building strategy for an auto repair shop showing connections to local business directories" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4480726/pexels-photo-4480726.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local backlink building strategy for an auto repair shop showing connections to local business directories" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Get listed on local business directories, partner with auto parts stores and towing companies, sponsor local car shows or community events, and get featured in local publications. Each quality local backlink boosts your domain authority and local search rankings. Avoid low-quality or paid links. <a href="/link-building/">Our Link Building services</a> can help.
             </p>
 
             <h3>10. Track SEO Performance with Google Search Console</h3>
-            <img src="https://images.pexels.com/photos/4480730/pexels-photo-4480730.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing keyword rankings, clicks, and impressions for an auto repair shop SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4480730/pexels-photo-4480730.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing keyword rankings, clicks, and impressions for an auto repair shop SEO strategy" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows which keywords bring traffic, what pages are ranking, and where there are technical issues. Check your data monthly and adjust your strategy. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities and fix issues before they hurt your rankings.
             </p>
@@ -13263,7 +13263,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Auto Repair SEO Mistakes',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/4480733/pexels-photo-4480733.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common auto repair SEO mistakes shown as a warning checklist for auto repair shop owners" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/4480733/pexels-photo-4480733.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common auto repair SEO mistakes shown as a warning checklist for auto repair shop owners" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even auto repair shops that invest in SEO make mistakes that quietly kill their rankings. Here are the most common ones to avoid:
             </p>
@@ -13288,7 +13288,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Auto Repair SEO Checklist',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6214473/pexels-photo-6214473.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair SEO checklist with mechanic tools and shop equipment, representing the auto repair SEO checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214473/pexels-photo-6214473.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair SEO checklist with mechanic tools and shop equipment, representing the auto repair SEO checklist" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Use this checklist to make sure your auto repair shop has covered every essential SEO tactic:
             </p>
@@ -13339,7 +13339,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6214474/pexels-photo-6214474.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy auto repair customer picking up their car after a successful repair, representing the results of auto repair SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214474/pexels-photo-6214474.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy auto repair customer picking up their car after a successful repair, representing the results of auto repair SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               If your auto repair shop is not showing on Google, it is not because Google has something against you. It is because specific, fixable issues are holding back your rankings. A poor Google Business Profile, weak local SEO, wrong keyword targeting, low Maps visibility, a slow website, mobile usability problems, technical SEO errors, thin content, lack of reviews, and strong local competition \u2014 each of these has a solution, and together they form a roadmap to higher rankings.
             </p>
@@ -13372,7 +13372,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Auto Repair SEO: How to Get More Customers From Google',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6214475/pexels-photo-6214475.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional mechanic repairing a vehicle in a modern auto repair workshop, representing auto repair SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214475/pexels-photo-6214475.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional mechanic repairing a vehicle in a modern auto repair workshop, representing auto repair SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Every month, thousands of people in your area search Google for auto repair services. They type <em>"auto repair near me,"</em> <em>"brake repair in [city],"</em> <em>"oil change near me,"</em> and <em>"mechanic near me."</em> The shops that show up at the top of those searches get the calls. The shops that do not show up lose those customers to competitors \u2014 every single time.
             </p>
@@ -13390,7 +13390,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Google Is the Best Source of New Auto Repair Customers',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing auto repair shops ranked by proximity and SEO optimization" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Maps search results showing auto repair shops ranked by proximity and SEO optimization" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               You can run Google Ads, send postcards, sponsor local events, and rely on customer referrals. All of those have value. But none of them match local Google search for one simple reason: intent. When someone searches <em>"auto repair near me,"</em> they are not casually browsing. They have a car problem right now and they are looking for a shop to call. That is the exact moment you want to show up.
             </p>
@@ -13421,61 +13421,61 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Optimize Your Google Business Profile</h3>
-            <img src="https://images.pexels.com/photos/6214477/pexels-photo-6214477.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an auto repair shop showing complete business information, photos, and customer reviews" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214477/pexels-photo-6214477.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an auto repair shop showing complete business information, photos, and customer reviews" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the single most powerful local SEO tool for auto repair shops. Claim it, set your primary category to <em>"Auto Repair Shop"</em> or <em>"Mechanic,"</em> fill out every field including hours and service areas, upload at least 20 real photos of your shop and team, list every service you offer, and publish weekly Google Posts. A complete, active profile is the fastest way to appear in the Google Maps pack \u2014 the three shops shown at the top of local searches that get over 60% of clicks.
             </p>
 
             <h3>2. Target High-Intent Auto Repair Keywords</h3>
-            <img src="https://images.pexels.com/photos/6214478/pexels-photo-6214478.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Keyword research for auto repair SEO showing high-intent local search terms like brake repair and oil change" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214478/pexels-photo-6214478.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Keyword research for auto repair SEO showing high-intent local search terms like brake repair and oil change" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Find the exact phrases customers use when they need auto repair: <em>"auto repair in [city]"</em>, <em>"brake repair near me"</em>, <em>"transmission repair [city]"</em>, <em>"oil change [neighborhood]"</em>, <em>"check engine light [city]"</em>, <em>"tire rotation near me"</em>, <em>"car mechanic in [city]"</em>. Use Google Keyword Planner, Ahrefs, or Semrush to build a list of 20 to 30 high-intent local keywords. Map each keyword to a specific page on your website so Google can match your pages to those searches.
             </p>
 
             <h3>3. Create Individual Service Pages</h3>
-            <img src="https://images.pexels.com/photos/6214479/pexels-photo-6214479.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair website showing individual service pages for brake repair, oil change, and transmission service" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214479/pexels-photo-6214479.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair website showing individual service pages for brake repair, oil change, and transmission service" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Do not list all your services on one page. Create a dedicated page for each repair: one for brake repair, one for oil changes, one for transmission service, one for engine diagnostics, one for tire rotation, one for AC repair, one for alignment. Each page should have 500+ words of unique content explaining the service, common warning signs, and a clear call-to-action to book an appointment. Individual service pages rank for more keywords and convert better than a single generic services page. <a href="/content-writing/">Our SEO Content Writing services</a> can produce these pages for you.
             </p>
 
             <h3>4. Build City & Service Area Pages</h3>
-            <img src="https://images.pexels.com/photos/6214480/pexels-photo-6214480.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Location pages for an auto repair shop showing different cities and neighborhoods served" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214480/pexels-photo-6214480.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Location pages for an auto repair shop showing different cities and neighborhoods served" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               If you serve multiple cities or neighborhoods, build a dedicated page for each one. A page titled <em>"Auto Repair in [City]"</em> with unique local content ranks far better than one generic page trying to cover every area. Write genuinely helpful content for each location \u2014 mention local landmarks, nearby neighborhoods, and what makes your shop convenient for customers in that area. Do not copy and paste with a different city name. Google rewards genuine local relevance and penalizes duplicate content.
             </p>
 
             <h3>5. Publish Helpful Auto Repair Blog Content</h3>
-            <img src="https://images.pexels.com/photos/6214481/pexels-photo-6214481.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair blog content being written about car maintenance tips and common repair questions" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214481/pexels-photo-6214481.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair blog content being written about car maintenance tips and common repair questions" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Start a blog answering the questions customers are already asking Google: how to know when your brakes need replacing, what a check engine light means, how often to change your oil, signs of transmission problems, how to tell if your alternator is failing. Each post is a new page that can rank for a different keyword and attract customers before they are ready to book. Aim for one or two posts per month with genuinely useful content.
             </p>
 
             <h3>6. Improve Technical SEO</h3>
-            <img src="https://images.pexels.com/photos/6214493/pexels-photo-6214493.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technical SEO audit for an auto repair website showing schema markup, sitemap, and crawl error fixes" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214493/pexels-photo-6214493.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technical SEO audit for an auto repair website showing schema markup, sitemap, and crawl error fixes" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Fix meta tags, add local business schema markup, create an XML sitemap, fix broken links, and ensure Google can crawl every page. Technical SEO is the foundation that everything else builds on \u2014 without it, your content and keywords will not reach their full ranking potential. Many auto repair websites have technical issues from outdated templates that quietly prevent them from ranking. <a href="/technical-seo/">Our Technical SEO services</a> can audit and fix these issues.
             </p>
 
             <h3>7. Increase Website Speed</h3>
-            <img src="https://images.pexels.com/photos/6214494/pexels-photo-6214494.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Fast-loading auto repair website on desktop and mobile showing optimized page speed scores" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214494/pexels-photo-6214494.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Fast-loading auto repair website on desktop and mobile showing optimized page speed scores" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google uses page speed as a ranking factor, especially on mobile. If your auto repair website takes more than three seconds to load, visitors leave and your rankings drop. Test your site with Google PageSpeed Insights, compress all images, enable caching, minify CSS and JavaScript, and use fast hosting. Aim for a mobile score above 80. A fast website ranks higher, keeps visitors on the page longer, and converts more of them into phone calls and bookings.
             </p>
 
             <h3>8. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/6214497/pexels-photo-6214497.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy auto repair customer leaving a five-star Google review for their mechanic shop" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214497/pexels-photo-6214497.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy auto repair customer leaving a five-star Google review for their mechanic shop" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Reviews are the second biggest local ranking factor and the biggest conversion factor for auto repair shops. Ask every customer for a review after their service is complete \u2014 send a text with a direct link to your review page while the experience is fresh. Aim for at least two new reviews per week. The auto repair shops in the top 3 Google Maps results typically have 80 or more reviews. Respond to every review within 24 hours to show Google and potential customers that you are active and engaged.
             </p>
 
             <h3>9. Build High-Quality Local Backlinks</h3>
-            <img src="https://images.pexels.com/photos/6214498/pexels-photo-6214498.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local backlink building strategy for an auto repair shop showing connections to local business directories" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214498/pexels-photo-6214498.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Local backlink building strategy for an auto repair shop showing connections to local business directories" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Local citations are listings of your shop name, address, and phone number on directories like Yelp, Bing Places, and Apple Maps. Make sure your NAP is consistent across every directory. Backlinks from other local websites tell Google your auto repair shop is trusted and established. Get listed on your local chamber of commerce website, partner with auto parts stores and towing companies, sponsor local car shows, and get featured in local publications. Avoid low-quality or paid links. <a href="/link-building/">Our Link Building services</a> can help you earn legitimate local links.
             </p>
 
             <h3>10. Track SEO Performance with Google Search Console</h3>
-            <img src="https://images.pexels.com/photos/6214499/pexels-photo-6214499.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing keyword rankings, clicks, and impressions for an auto repair shop SEO strategy" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214499/pexels-photo-6214499.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Search Console dashboard showing keyword rankings, clicks, and impressions for an auto repair shop SEO strategy" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Set up Google Search Console and Google Analytics \u2014 both are free. Search Console shows which keywords bring traffic, what pages are ranking, and where there are technical issues. Check your data monthly, track keyword rankings, and adjust your strategy based on what works. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities and fix issues before they hurt your rankings. What gets measured gets improved \u2014 without tracking, you are guessing.
             </p>
@@ -13487,7 +13487,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Auto Repair SEO Mistakes',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6214501/pexels-photo-6214501.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common auto repair SEO mistakes shown as a warning checklist for auto repair shop owners" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214501/pexels-photo-6214501.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common auto repair SEO mistakes shown as a warning checklist for auto repair shop owners" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even auto repair shops that invest in SEO make mistakes that quietly kill their rankings. Here are the most common ones to avoid:
             </p>
@@ -13512,7 +13512,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Auto Repair SEO Checklist',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6214502/pexels-photo-6214502.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair SEO checklist with mechanic tools and shop equipment, representing the auto repair SEO checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214502/pexels-photo-6214502.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair SEO checklist with mechanic tools and shop equipment, representing the auto repair SEO checklist" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Use this checklist to make sure your auto repair shop has covered every essential SEO tactic:
             </p>
@@ -13563,7 +13563,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6214503/pexels-photo-6214503.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy auto repair customer collecting their car after a successful repair, representing the results of auto repair SEO" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214503/pexels-photo-6214503.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy auto repair customer collecting their car after a successful repair, representing the results of auto repair SEO" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Auto repair SEO is not a single tactic \u2014 it is a system of ten interconnected strategies that work together to put your shop in front of customers at the exact moment they are searching for auto repair in your area. Optimizing your Google Business Profile, targeting high-intent auto repair keywords, creating individual service pages, building city and service area pages, publishing helpful blog content, improving technical SEO, increasing website speed, collecting Google reviews, building local backlinks, and tracking performance with Google Search Console \u2014 these are the exact tactics the top-ranking auto repair shops use to keep their bays full.
             </p>
@@ -13596,7 +13596,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Google Business Profile for Auto Repair Shops',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6214584/pexels-photo-6214584.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern auto repair garage with a mechanic working on a vehicle, representing Google Business Profile for auto repair shops" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214584/pexels-photo-6214584.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern auto repair garage with a mechanic working on a vehicle, representing Google Business Profile for auto repair shops" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               When someone's car starts making a strange noise or the check engine light comes on, they grab their phone and search <em>"auto repair near me."</em> Google shows them a map with three shops at the top \u2014 the Google Maps pack. Those three shops get over 60% of the clicks and the phone calls. If your auto repair shop is not one of them, you are losing customers to competitors every single day.
             </p>
@@ -13614,7 +13614,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'What Is Google Business Profile?',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6214585/pexels-photo-6214585.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an auto repair shop showing business information, photos, and customer reviews" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214585/pexels-photo-6214585.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile dashboard for an auto repair shop showing business information, photos, and customer reviews" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google Business Profile is a free tool that lets you manage how your auto repair shop appears in Google Search and Google Maps. When someone searches for <em>"auto repair near me"</em> or <em>"mechanic in [city],"</em> Google uses the information in your profile to decide whether to show your shop and where to rank it. Your profile includes your shop name, address, phone number, hours, services, photos, reviews, and posts.
             </p>
@@ -13632,7 +13632,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Why Every Auto Repair Shop Needs It',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6214587/pexels-photo-6214587.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Mechanic speaking with a customer at an auto repair shop, representing why every auto repair shop needs a Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214587/pexels-photo-6214587.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Mechanic speaking with a customer at an auto repair shop, representing why every auto repair shop needs a Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Auto repair is a local business. Nobody drives 45 minutes for an oil change when there is a shop five minutes away. That means every search for auto repair is a local search, and Google Business Profile is what determines which shops show up. Here is why every auto repair shop needs an optimized Google Business Profile:
             </p>
@@ -13660,61 +13660,61 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
             </p>
 
             <h3>1. Choose the Correct Business Category</h3>
-            <img src="https://images.pexels.com/photos/6214604/pexels-photo-6214604.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop owner selecting the correct business category in Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214604/pexels-photo-6214604.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop owner selecting the correct business category in Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your primary business category is the single most important field in your Google Business Profile. Set it to <em>"Auto Repair Shop"</em> or <em>"Mechanic."</em> If you specialize, choose the most specific category that fits \u2014 <em>"Tire Shop,"</em> <em>"Oil Change Service,"</em> or <em>"Brake Shop."</em> The right category tells Google exactly what services you offer and determines which local searches you appear in. The wrong category means you show up in irrelevant searches or do not show up at all.
             </p>
 
             <h3>2. Complete Every Business Information Field</h3>
-            <img src="https://images.pexels.com/photos/6214606/pexels-photo-6214606.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Complete Google Business Profile for an auto repair shop with all business information fields filled out" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214606/pexels-photo-6214606.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Complete Google Business Profile for an auto repair shop with all business information fields filled out" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Fill out every single field in your profile: business name, address, phone number, website, hours, service areas, attributes (women-led, veteran-owned, etc.), and parking information. Google rewards complete profiles and penalizes incomplete ones. Make sure your name, address, and phone number (NAP) exactly match what is on your website and other directories. Even a small inconsistency \u2014 a missing suite number or a different phone format \u2014 can confuse Google and drop your Maps ranking.
             </p>
 
             <h3>3. Write an SEO-Friendly Business Description</h3>
-            <img src="https://images.pexels.com/photos/6214608/pexels-photo-6214608.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO-friendly business description for an auto repair shop Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214608/pexels-photo-6214608.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="SEO-friendly business description for an auto repair shop Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Write a 750-character business description that naturally includes your primary services and city name. Mention the auto repair services you offer (brake repair, oil changes, transmission service, diagnostics), the cities and neighborhoods you serve, and what makes your shop different. Do not keyword-stuff \u2014 write for customers first, Google second. A well-written description helps Google understand what your shop does and improves your ranking for relevant local searches. <a href="/content-writing/">Our SEO Content Writing services</a> can craft this for you.
             </p>
 
             <h3>4. Add High-Quality Shop & Team Photos</h3>
-            <img src="https://images.pexels.com/photos/6214612/pexels-photo-6214612.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="High-quality photos of an auto repair shop interior, team, and equipment for Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214612/pexels-photo-6214612.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="High-quality photos of an auto repair shop interior, team, and equipment for Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Upload at least 20 real photos of your shop: the exterior, the repair bays, your team working on cars, your equipment, the waiting area, and before-and-after shots of repairs. Avoid stock photos \u2014 Google can detect them and customers can tell. Add new photos at least once a month. Profiles with more photos get more clicks, more calls, and higher rankings. Photos signal to Google that your shop is active and legitimate.
             </p>
 
             <h3>5. List All Auto Repair Services</h3>
-            <img src="https://images.pexels.com/photos/6214614/pexels-photo-6214614.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop Google Business Profile listing all services including brake repair, oil change, and tire replacement" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214614/pexels-photo-6214614.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop Google Business Profile listing all services including brake repair, oil change, and tire replacement" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               List every service you offer as a separate item in your profile: brake repair, oil changes, transmission service, engine diagnostics, tire rotation, AC repair, wheel alignment, battery replacement, state inspections, and more. Each service you list is another keyword Google can match your profile to. When someone searches <em>"brake repair near me,"</em> shops that have brake repair listed in their services rank higher than shops that do not. Be thorough \u2014 every service matters.
             </p>
 
             <h3>6. Collect More Google Reviews</h3>
-            <img src="https://images.pexels.com/photos/6214618/pexels-photo-6214618.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy auto repair customer leaving a five-star Google review for their mechanic shop" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214618/pexels-photo-6214618.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Happy auto repair customer leaving a five-star Google review for their mechanic shop" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Reviews are the second biggest local ranking factor and the biggest conversion factor for auto repair shops. Ask every customer for a review after their service is complete \u2014 send a text with a direct link to your review page while the experience is fresh. Aim for at least two new reviews per week. The auto repair shops in the top 3 Google Maps results typically have 80 or more reviews. More reviews mean higher rankings and more calls.
             </p>
 
             <h3>7. Respond to Every Customer Review</h3>
-            <img src="https://images.pexels.com/photos/6214619/pexels-photo-6214619.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop owner responding to customer reviews on their Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214619/pexels-photo-6214619.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop owner responding to customer reviews on their Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Respond to every review \u2014 positive and negative \u2014 within 24 hours. Thank customers for positive reviews by name and mention their specific service. For negative reviews, apologize professionally and offer to make it right. Responding shows Google and potential customers that you are active, engaged, and care about customer satisfaction. Shops that respond to reviews rank higher than shops that do not, and potential customers who see your responses are more likely to trust you and call.
             </p>
 
             <h3>8. Publish Weekly Google Posts</h3>
-            <img src="https://images.pexels.com/photos/6214620/pexels-photo-6214620.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop publishing weekly Google Posts about services, promotions, and car maintenance tips" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214620/pexels-photo-6214620.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop publishing weekly Google Posts about services, promotions, and car maintenance tips" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google Posts are short updates that appear on your Google Business Profile. Publish at least one post per week: a seasonal service reminder (winter tire checks, summer AC service), a special offer, a new service announcement, or a helpful car maintenance tip. Posts signal to Google that your profile is active and regularly updated, which boosts your local ranking. They also give potential customers another reason to click and call.
             </p>
 
             <h3>9. Keep Business Hours Updated</h3>
-            <img src="https://images.pexels.com/photos/6214621/pexels-photo-6214621.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop business hours sign showing updated opening and closing times for Google Business Profile" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214621/pexels-photo-6214621.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Auto repair shop business hours sign showing updated opening and closing times for Google Business Profile" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Keep your hours accurate and update them for holidays and special schedules. When a customer sees your shop is open on Google but you are actually closed, they show up to a locked door and never come back. Google also uses hours accuracy as a trust signal. Shops with outdated or incorrect hours lose rankings and customer trust. Set your regular hours, add special hours for holidays, and double-check that they match what is on your website and your shop door.
             </p>
 
             <h3>10. Monitor Google Business Insights</h3>
-            <img src="https://images.pexels.com/photos/6214622/pexels-photo-6214622.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile Insights dashboard showing search queries, calls, and direction requests for an auto repair shop" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214622/pexels-photo-6214622.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile Insights dashboard showing search queries, calls, and direction requests for an auto repair shop" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Google Business Profile includes a free Insights dashboard that shows how customers find your shop: search queries, calls, direction requests, website clicks, and photo views. Check it monthly to see which keywords bring people to your profile, how many calls you are getting, and where there is room to improve. Use this data to adjust your strategy \u2014 if you are getting views but few calls, improve your photos and description. Run a full <a href="/seo-audit/">SEO Audit</a> every quarter to find new opportunities.
             </p>
@@ -13726,7 +13726,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Common Google Business Profile Mistakes Auto Repair Shops Make',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6214623/pexels-photo-6214623.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common Google Business Profile mistakes for auto repair shops shown as a warning checklist" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214623/pexels-photo-6214623.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Common Google Business Profile mistakes for auto repair shops shown as a warning checklist" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Even auto repair shops that have claimed their Google Business Profile make mistakes that quietly hurt their rankings. Here are the most common ones to avoid:
             </p>
@@ -13751,7 +13751,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Google Business Profile Optimization Checklist',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6214624/pexels-photo-6214624.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile optimization checklist for auto repair shops with mechanic tools and shop equipment" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214624/pexels-photo-6214624.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Google Business Profile optimization checklist for auto repair shops with mechanic tools and shop equipment" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Use this checklist to make sure your auto repair shop's Google Business Profile is fully optimized:
             </p>
@@ -13793,7 +13793,7 @@ export const articleContent: Record<string, { sections: ArticleSection[]; faqs: 
         heading: 'Final Summary',
         body: (
           <div className="space-y-4">
-            <img src="https://images.pexels.com/photos/6214627/pexels-photo-6214627.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Busy auto repair workshop with mechanics working on multiple vehicles, representing the results of Google Business Profile optimization" loading="lazy" className="rounded-2xl border border-white/10 my-6 w-full" />
+            <img src="https://images.pexels.com/photos/6214627/pexels-photo-6214627.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Busy auto repair workshop with mechanics working on multiple vehicles, representing the results of Google Business Profile optimization" loading="lazy" className="rounded-2xl border border-slate-200 my-6 w-full" />
             <p>
               Your Google Business Profile is the single most powerful local SEO tool for your auto repair shop. It determines whether you appear in the Google Maps pack \u2014 the three shops at the top of local search results that get over 60% of the clicks and phone calls. Choosing the right business category, completing every field, writing an SEO-friendly description, adding high-quality photos, listing all services, collecting reviews, responding to reviews, publishing weekly posts, keeping hours updated, and monitoring Insights \u2014 these ten strategies work together to push your auto repair shop to the top of Google Maps.
             </p>

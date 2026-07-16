@@ -24,20 +24,20 @@ export default function Services() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s, i) => (
             <div key={s.slug} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <Link to={`/${s.slug}/`} className="group flex h-full flex-col rounded-3xl bg-white/[0.03] p-7 hover:bg-white/[0.06]">
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <Link to={`/${s.slug}/`} className="group flex h-full flex-col rounded-3xl bg-white p-7 hover:bg-slate-50">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <s.icon className="h-7 w-7" />
                 </div>
-                <h3 className="mt-5 text-xl font-semibold text-white">{s.title}</h3>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-slate-400">{s.description}</p>
+                <h3 className="mt-5 text-xl font-semibold text-ink-950">{s.title}</h3>
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-600">{s.description}</p>
                 <ul className="mt-4 space-y-1.5">
                   {s.deliverables.slice(0, 3).map((d) => (
-                    <li key={d} className="flex items-center gap-2 text-xs text-slate-400">
+                    <li key={d} className="flex items-center gap-2 text-xs text-ink-600">
                       <Check className="h-3.5 w-3.5 text-brand-400" /> {d}
                     </li>
                   ))}
                 </ul>
-                <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-300">
+                <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-600">
                   Learn More <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </span>
               </Link>
@@ -56,10 +56,10 @@ export default function Services() {
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {processSteps.map((p, i) => (
             <div key={p.title} className={`grad-border lift reveal reveal-delay-${(i % 4) + 1}`}>
-              <div className="rounded-3xl bg-white/[0.03] p-7">
-                <div className="font-display text-5xl font-bold text-white/10">0{i + 1}</div>
-                <h3 className="mt-2 text-lg font-semibold text-white">{p.title}</h3>
-                <p className="mt-2 text-sm text-slate-400">{p.desc}</p>
+              <div className="rounded-3xl bg-white p-7">
+                <div className="font-display text-5xl font-bold text-ink-950/10">0{i + 1}</div>
+                <h3 className="mt-2 text-lg font-semibold text-ink-950">{p.title}</h3>
+                <p className="mt-2 text-sm text-ink-600">{p.desc}</p>
               </div>
             </div>
           ))}

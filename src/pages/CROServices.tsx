@@ -84,10 +84,10 @@ export default function CROServices() {
             <div>
               <Breadcrumbs />
               <span className="eyebrow mt-6 reveal">CRO Services</span>
-              <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl reveal reveal-delay-1">
+              <h1 className="mt-5 text-4xl font-bold leading-tight text-ink-950 sm:text-5xl md:text-6xl reveal reveal-delay-1">
                 Conversion Rate Optimization Services That Turn More Visitors Into <span className="text-gradient">Customers</span>
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">
                 You are paying for traffic. But most of it leaves without converting. Our <strong>conversion rate optimization</strong> services fix that. We use <strong>A/B testing</strong>, <strong>heatmap analysis</strong>, and data-driven <strong>website conversion optimization</strong> to increase leads, sales, and revenue without increasing your advertising budget. More conversions from the same traffic.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
@@ -118,8 +118,8 @@ export default function CROServices() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">The Basics</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">What Is Conversion Rate Optimization?</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">What Is Conversion Rate Optimization?</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 <strong>Conversion rate optimization (CRO)</strong> is the process of improving your website so that a higher percentage of visitors take the action you want them to take. That action could be buying a product, filling out a lead form, booking a call, signing up for a newsletter, or downloading a guide.
               </p>
@@ -164,34 +164,34 @@ export default function CROServices() {
             </div>
             <div className="order-1 lg:order-2 reveal">
               <span className="eyebrow">The Impact</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why CRO Matters</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why CRO Matters</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 If your website converts at 2%, that means 98 out of 100 visitors leave without doing anything. Doubling your conversion rate to 4% doubles your revenue from the same traffic. No extra ad spend. No extra SEO work. Just better conversions. Here is why CRO is critical:
               </p>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><TrendingUp className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Lower acquisition costs</strong> — more conversions from the same traffic means each customer costs less to acquire</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><TrendingUp className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Lower acquisition costs</strong> — more conversions from the same traffic means each customer costs less to acquire</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Target className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Higher ROI on ad spend</strong> — your paid traffic converts better, so every ad dollar goes further</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Target className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Higher ROI on ad spend</strong> — your paid traffic converts better, so every ad dollar goes further</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><BarChart3 className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Better user experience</strong> — removing friction helps visitors find what they want faster</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><BarChart3 className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Better user experience</strong> — removing friction helps visitors find what they want faster</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><ShoppingCart className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>More revenue per visitor</strong> — increased average order value and conversion rate compound your growth</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><ShoppingCart className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>More revenue per visitor</strong> — increased average order value and conversion rate compound your growth</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Award className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Competitive advantage</strong> — competitors who do not optimize are leaving money on the table</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Award className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Competitive advantage</strong> — competitors who do not optimize are leaving money on the table</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Zap className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Compounding growth</strong> — every optimization builds on the last, creating sustained improvement over time</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Zap className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Compounding growth</strong> — every optimization builds on the last, creating sustained improvement over time</span>
                 </li>
               </ul>
             </div>
@@ -203,10 +203,10 @@ export default function CROServices() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">What We Do</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our CRO <span className="text-gradient">Services</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A complete conversion rate optimization service covering every aspect of your website and funnel. From landing pages to checkout flows, we optimize it all.
           </p>
         </div>
@@ -223,12 +223,12 @@ export default function CROServices() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {services.map((s, i) => (
             <div key={s.title} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-6 hover:bg-white/[0.06] transition-colors">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <div className="group h-full rounded-3xl bg-white p-6 hover:bg-slate-50 transition-colors">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <s.icon className="h-6 w-6" />
                 </div>
-                <h3 className="mt-4 text-base font-semibold text-white">{s.title}</h3>
-                <p className="mt-1.5 text-sm leading-relaxed text-slate-400">{s.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{s.title}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-ink-600">{s.desc}</p>
               </div>
             </div>
           ))}
@@ -242,8 +242,8 @@ export default function CROServices() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">A/B Testing</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">A/B Testing</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   <strong>A/B testing</strong> is the backbone of conversion rate optimization. Instead of guessing what might improve your conversions, we test it. We create two versions of a page, split your traffic between them, and let data tell us which one wins.
                 </p>
@@ -284,8 +284,8 @@ export default function CROServices() {
           </div>
           <div className="order-1 lg:order-2 reveal">
             <span className="eyebrow">Core Service</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Heatmap Analysis</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Heatmap Analysis</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 <strong>Heatmap analysis</strong> shows us exactly how visitors interact with your website. Heatmaps create a visual overlay of where people click, how far they scroll, and where their mouse moves. This reveals behavior that analytics alone cannot show.
               </p>
@@ -306,10 +306,10 @@ export default function CROServices() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">Who We Help</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
               Industries We <span className="text-gradient">Serve</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               We have optimized conversion rates for businesses across dozens of industries. Each industry has unique conversion challenges, and we know how to solve them.
             </p>
           </div>
@@ -326,12 +326,12 @@ export default function CROServices() {
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {industries.map((ind, i) => (
               <div key={ind.name} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="group h-full rounded-3xl bg-white/[0.03] p-6 text-center hover:bg-white/[0.06] transition-colors">
-                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+                <div className="group h-full rounded-3xl bg-white p-6 text-center hover:bg-slate-50 transition-colors">
+                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                     <ind.icon className="h-6 w-6" />
                   </div>
-                  <h3 className="mt-4 text-base font-semibold text-white">{ind.name}</h3>
-                  <p className="mt-2 text-xs leading-relaxed text-slate-400">{ind.desc}</p>
+                  <h3 className="mt-4 text-base font-semibold text-ink-950">{ind.name}</h3>
+                  <p className="mt-2 text-xs leading-relaxed text-ink-600">{ind.desc}</p>
                 </div>
               </div>
             ))}
@@ -343,10 +343,10 @@ export default function CROServices() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">How It Works</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our CRO <span className="text-gradient">Process</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A proven 6-step process that turns data into conversions. Every step is designed to find, test, and implement changes that grow your revenue.
           </p>
         </div>
@@ -363,10 +363,10 @@ export default function CROServices() {
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {process.map((p, i) => (
             <div key={p.step} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="rounded-3xl bg-white/[0.03] p-7">
-                <div className="font-display text-4xl font-bold text-white/10">{p.step}</div>
-                <h3 className="mt-2 text-lg font-semibold text-white">{p.title}</h3>
-                <p className="mt-2 text-sm text-slate-400 leading-relaxed">{p.desc}</p>
+              <div className="rounded-3xl bg-white p-7">
+                <div className="font-display text-4xl font-bold text-ink-950/10">{p.step}</div>
+                <h3 className="mt-2 text-lg font-semibold text-ink-950">{p.title}</h3>
+                <p className="mt-2 text-sm text-ink-600 leading-relaxed">{p.desc}</p>
               </div>
             </div>
           ))}
@@ -390,8 +390,8 @@ export default function CROServices() {
             </div>
             <div className="reveal reveal-delay-2">
               <span className="eyebrow">Why Us</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Choose Rank Flow Agency</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Choose Rank Flow Agency</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 We are a <strong>CRO agency</strong> that focuses on one thing: turning more of your visitors into customers. We do not chase vanity metrics. We chase revenue. Here is why businesses choose us:
               </p>
               <ul className="mt-6 space-y-4">
@@ -401,8 +401,8 @@ export default function CROServices() {
                       <Check className="h-4 w-4" />
                     </span>
                     <div>
-                      <span className="font-semibold text-white">{w.title}</span>
-                      <p className="mt-0.5 text-sm text-slate-400">{w.desc}</p>
+                      <span className="font-semibold text-ink-950">{w.title}</span>
+                      <p className="mt-0.5 text-sm text-ink-600">{w.desc}</p>
                     </div>
                   </li>
                 ))}
@@ -419,10 +419,10 @@ export default function CROServices() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">FAQ</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl reveal reveal-delay-1">
             CRO <span className="text-gradient">Questions</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             Answers to the most common questions about conversion rate optimization and how it helps your business.
           </p>
         </div>
@@ -436,14 +436,14 @@ export default function CROServices() {
       {/* STRONG CTA */}
       <section className="container-x py-24">
         <div className="grad-border relative overflow-hidden rounded-3xl">
-          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-16 text-center sm:px-16">
+          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-slate-50 px-6 py-16 text-center sm:px-16">
             <div className="blob -left-10 top-0 h-64 w-64 bg-brand-500/30" />
             <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-500/20" />
             <div className="relative">
-              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal">
+              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal">
                 Ready to Turn More Visitors Into Customers?
               </h2>
-              <p className="mx-auto mt-4 max-w-xl text-lg text-slate-300 reveal reveal-delay-1">
+              <p className="mx-auto mt-4 max-w-xl text-lg text-ink-600 reveal reveal-delay-1">
                 Get a free CRO audit today. We will analyze your website, identify conversion bottlenecks, and show you exactly what changes will increase your leads, sales, and revenue. No obligation, just actionable insights.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
@@ -464,13 +464,13 @@ export default function CROServices() {
 
 function Breadcrumbs() {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+    <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-600" aria-label="Breadcrumb">
       {crumbs.map((item, i) => (
         <span key={item.path} className="flex items-center gap-2">
-          {i > 0 && <span className="text-slate-600">/</span>}
+          {i > 0 && <span className="text-ink-600">/</span>}
           <button
             onClick={() => navigate(item.path)}
-            className={i === crumbs.length - 1 ? 'text-white' : 'hover:text-brand-300'}
+            className={i === crumbs.length - 1 ? 'text-ink-950' : 'hover:text-brand-600'}
           >
             {item.name}
           </button>

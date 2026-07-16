@@ -26,11 +26,11 @@ export default function Sitemap() {
       />
 
       <section className="container-x py-12">
-        <p className="mx-auto max-w-3xl text-center text-lg leading-relaxed text-slate-400">
+        <p className="mx-auto max-w-3xl text-center text-lg leading-relaxed text-ink-600">
           Welcome to the Rank Flow Digital sitemap. This page provides a complete directory of every page on our website,
           including all SEO and digital marketing services, blog posts with actionable growth strategies, client case studies,
           portfolio samples, pricing plans, and legal pages. Use the sections below to navigate to any page on our site.
-          If you can't find what you're looking for, feel free to <Link to="/contact/" className="text-brand-300 hover:text-brand-200 underline">contact our team</Link> and we'll be happy to help.
+          If you can't find what you're looking for, feel free to <Link to="/contact/" className="text-brand-600 hover:text-brand-600 underline">contact our team</Link> and we'll be happy to help.
         </p>
       </section>
 
@@ -38,66 +38,66 @@ export default function Sitemap() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {/* Main pages */}
           <div>
-            <h2 className="text-lg font-semibold text-white">Main Pages</h2>
+            <h2 className="text-lg font-semibold text-ink-950">Main Pages</h2>
             <ul className="mt-4 space-y-2.5 text-sm">
-              <li><Link to="/" className="text-slate-400 hover:text-brand-300">Home</Link></li>
+              <li><Link to="/" className="text-ink-600 hover:text-brand-600">Home</Link></li>
               {mainPages.map((p) => (
-                <li key={p.path}><Link to={p.path} className="text-slate-400 hover:text-brand-300">{p.label}</Link></li>
+                <li key={p.path}><Link to={p.path} className="text-ink-600 hover:text-brand-600">{p.label}</Link></li>
               ))}
-              <li><Link to="/sitemap/" className="text-slate-400 hover:text-brand-300">Sitemap</Link></li>
+              <li><Link to="/sitemap/" className="text-ink-600 hover:text-brand-600">Sitemap</Link></li>
             </ul>
           </div>
 
           {/* Services */}
           <div>
-            <h2 className="text-lg font-semibold text-white">Services</h2>
+            <h2 className="text-lg font-semibold text-ink-950">Services</h2>
             <ul className="mt-4 space-y-2.5 text-sm">
-              <li><Link to="/services/" className="text-slate-400 hover:text-brand-300">All Services</Link></li>
+              <li><Link to="/services/" className="text-ink-600 hover:text-brand-600">All Services</Link></li>
               {services.map((s) => (
-                <li key={s.slug}><Link to={`/${s.slug}/`} className="text-slate-400 hover:text-brand-300">{s.title}</Link></li>
+                <li key={s.slug}><Link to={`/${s.slug}/`} className="text-ink-600 hover:text-brand-600">{s.title}</Link></li>
               ))}
             </ul>
           </div>
 
           {/* Blog */}
           <div>
-            <h2 className="text-lg font-semibold text-white">Blog Posts</h2>
+            <h2 className="text-lg font-semibold text-ink-950">Blog Posts</h2>
             <ul className="mt-4 space-y-2.5 text-sm">
-              <li><Link to="/blog/" className="text-slate-400 hover:text-brand-300">All Blog Posts</Link></li>
+              <li><Link to="/blog/" className="text-ink-600 hover:text-brand-600">All Blog Posts</Link></li>
               {blogPosts.map((p) => (
-                <li key={p.slug}><Link to={`/blog/${p.slug}/`} className="text-slate-400 hover:text-brand-300">{p.title}</Link></li>
+                <li key={p.slug}><Link to={`/blog/${p.slug}/`} className="text-ink-600 hover:text-brand-600">{p.title}</Link></li>
               ))}
             </ul>
           </div>
 
           {/* Case Studies */}
           <div>
-            <h2 className="text-lg font-semibold text-white">Case Studies</h2>
+            <h2 className="text-lg font-semibold text-ink-950">Case Studies</h2>
             <ul className="mt-4 space-y-2.5 text-sm">
-              <li><Link to="/case-studies/" className="text-slate-400 hover:text-brand-300">All Case Studies</Link></li>
+              <li><Link to="/case-studies/" className="text-ink-600 hover:text-brand-600">All Case Studies</Link></li>
               {caseStudies.map((c) => (
-                <li key={c.slug}><Link to="/case-studies/" className="text-slate-400 hover:text-brand-300">{c.client}</Link></li>
+                <li key={c.slug}><Link to="/case-studies/" className="text-ink-600 hover:text-brand-600">{c.client}</Link></li>
               ))}
             </ul>
           </div>
 
           {/* Portfolio */}
           <div>
-            <h2 className="text-lg font-semibold text-white">Portfolio</h2>
+            <h2 className="text-lg font-semibold text-ink-950">Portfolio</h2>
             <ul className="mt-4 space-y-2.5 text-sm">
-              <li><Link to="/portfolio/" className="text-slate-400 hover:text-brand-300">All Portfolio Items</Link></li>
+              <li><Link to="/portfolio/" className="text-ink-600 hover:text-brand-600">All Portfolio Items</Link></li>
               {portfolioItems.map((p) => (
-                <li key={p.slug}><Link to="/portfolio/" className="text-slate-400 hover:text-brand-300">{p.title}</Link></li>
+                <li key={p.slug}><Link to="/portfolio/" className="text-ink-600 hover:text-brand-600">{p.title}</Link></li>
               ))}
             </ul>
           </div>
 
           {/* Legal */}
           <div>
-            <h2 className="text-lg font-semibold text-white">Legal</h2>
+            <h2 className="text-lg font-semibold text-ink-950">Legal</h2>
             <ul className="mt-4 space-y-2.5 text-sm">
               {legalPages.map((p) => (
-                <li key={p.path}><Link to={p.path} className="text-slate-400 hover:text-brand-300">{p.label}</Link></li>
+                <li key={p.path}><Link to={p.path} className="text-ink-600 hover:text-brand-600">{p.label}</Link></li>
               ))}
             </ul>
           </div>

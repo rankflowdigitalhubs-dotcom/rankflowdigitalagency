@@ -89,10 +89,10 @@ export default function LocalSeo() {
             <div>
               <Breadcrumbs />
               <span className="eyebrow mt-6 reveal">Local SEO Services</span>
-              <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl reveal reveal-delay-1">
+              <h1 className="mt-5 text-4xl font-bold leading-tight text-ink-950 sm:text-5xl md:text-6xl reveal reveal-delay-1">
                 Get Found by Local Customers <span className="text-gradient">Searching Right Now</span>
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">
                 When someone in your city searches for your services, do they find you or your competitors? Our Local SEO services put your business at the top of Google Maps and local search — driving more phone calls, website visits, and walk-in customers.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
@@ -123,8 +123,8 @@ export default function LocalSeo() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">The Basics</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">What Is Local SEO?</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">What Is Local SEO?</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 Local SEO is the process of optimizing your online presence so your business appears in local search results when nearby customers search for your products or services. It is how you show up in the Google Maps pack — those top 3 listings with the map pin that appear above regular search results.
               </p>
@@ -166,30 +166,30 @@ export default function LocalSeo() {
             </div>
             <div className="order-1 lg:order-2 reveal">
               <span className="eyebrow">The Impact</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Local SEO Matters for Your Business</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Local SEO Matters for Your Business</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 Local SEO is not optional anymore. It is the difference between being found and being invisible. Here is what happens when your business ranks at the top of local search:
               </p>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Phone className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>More phone calls</strong> — 64% of local customers call a business directly from Google search results</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Phone className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>More phone calls</strong> — 64% of local customers call a business directly from Google search results</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Users className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>More website visitors</strong> — top map pack listings get the majority of local search clicks</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Users className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>More website visitors</strong> — top map pack listings get the majority of local search clicks</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Navigation className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>More Google Maps visibility</strong> — customers find you faster and get directions with one tap</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Navigation className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>More Google Maps visibility</strong> — customers find you faster and get directions with one tap</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><MapPin className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>More local customers</strong> — reach people in your area who are ready to buy right now</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><MapPin className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>More local customers</strong> — reach people in your area who are ready to buy right now</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Star className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Higher trust</strong> — businesses in the map pack are perceived as more established and trustworthy</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Star className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Higher trust</strong> — businesses in the map pack are perceived as more established and trustworthy</span>
                 </li>
               </ul>
             </div>
@@ -201,10 +201,10 @@ export default function LocalSeo() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">What We Do</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our Local SEO <span className="text-gradient">Services</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A complete Local SEO programme covering every ranking factor Google uses to decide who appears in the map pack and local search results.
           </p>
         </div>
@@ -221,12 +221,12 @@ export default function LocalSeo() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s, i) => (
             <div key={s.title} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-7 hover:bg-white/[0.06] transition-colors">
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <div className="group h-full rounded-3xl bg-white p-7 hover:bg-slate-50 transition-colors">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <s.icon className="h-7 w-7" />
                 </div>
-                <h3 className="mt-5 text-lg font-semibold text-white">{s.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-slate-400">{s.desc}</p>
+                <h3 className="mt-5 text-lg font-semibold text-ink-950">{s.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-600">{s.desc}</p>
               </div>
             </div>
           ))}
@@ -240,8 +240,8 @@ export default function LocalSeo() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Google Business Profile Optimization</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Google Business Profile Optimization</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   Your Google Business Profile is the single most important factor in Local SEO. It is what Google uses to decide if you appear in the Maps pack — and it is often the first thing a potential customer sees about your business.
                 </p>
@@ -282,8 +282,8 @@ export default function LocalSeo() {
           </div>
           <div className="order-1 lg:order-2 reveal">
             <span className="eyebrow">Core Service</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Local Citations & NAP Consistency</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Local Citations & NAP Consistency</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 A local citation is any mention of your business name, address, and phone number (NAP) on the web — directories, review sites, social platforms, and local blogs. Google uses these citations to verify your business exists and is located where you say it is.
               </p>
@@ -305,8 +305,8 @@ export default function LocalSeo() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Google Maps Optimization</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Google Maps Optimization</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   Ranking in the Google Maps pack is the holy grail of Local SEO. The top 3 map results capture over 44% of all clicks from local search. If you are not in the top 3, you are losing customers to competitors who are.
                 </p>
@@ -336,10 +336,10 @@ export default function LocalSeo() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">Who We Help</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Industries We <span className="text-gradient">Serve</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             We have proven Local SEO strategies tailored to the unique ranking factors and customer behaviour of each industry.
           </p>
         </div>
@@ -356,10 +356,10 @@ export default function LocalSeo() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {industries.map((ind, i) => (
             <div key={ind.name} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-6 text-center hover:bg-white/[0.06] transition-colors">
+              <div className="group h-full rounded-3xl bg-white p-6 text-center hover:bg-slate-50 transition-colors">
                 <div className="text-4xl">{ind.icon}</div>
-                <h3 className="mt-4 text-base font-semibold text-white">{ind.name}</h3>
-                <p className="mt-2 text-xs leading-relaxed text-slate-400">{ind.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{ind.name}</h3>
+                <p className="mt-2 text-xs leading-relaxed text-ink-600">{ind.desc}</p>
               </div>
             </div>
           ))}
@@ -372,10 +372,10 @@ export default function LocalSeo() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">How It Works</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
               Our Local SEO <span className="text-gradient">Process</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               A proven 8-step framework that takes your business from invisible to dominant in local search.
             </p>
           </div>
@@ -392,10 +392,10 @@ export default function LocalSeo() {
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {process.map((p, i) => (
               <div key={p.step} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="rounded-3xl bg-white/[0.03] p-7">
-                  <div className="font-display text-4xl font-bold text-white/10">{p.step}</div>
-                  <h3 className="mt-2 text-lg font-semibold text-white">{p.title}</h3>
-                  <p className="mt-2 text-sm text-slate-400 leading-relaxed">{p.desc}</p>
+                <div className="rounded-3xl bg-white p-7">
+                  <div className="font-display text-4xl font-bold text-ink-950/10">{p.step}</div>
+                  <h3 className="mt-2 text-lg font-semibold text-ink-950">{p.title}</h3>
+                  <p className="mt-2 text-sm text-ink-600 leading-relaxed">{p.desc}</p>
                 </div>
               </div>
             ))}
@@ -418,8 +418,8 @@ export default function LocalSeo() {
           </div>
           <div className="reveal reveal-delay-2">
             <span className="eyebrow">Why Us</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Choose Rank Flow Agency</h2>
-            <p className="mt-4 text-slate-400 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Choose Rank Flow Agency</h2>
+            <p className="mt-4 text-ink-600 leading-relaxed">
               We are not just another SEO agency. We are your local growth partner — focused on real business outcomes, not vanity metrics.
             </p>
             <ul className="mt-6 space-y-4">
@@ -429,8 +429,8 @@ export default function LocalSeo() {
                     <Check className="h-4 w-4" />
                   </span>
                   <div>
-                    <span className="font-semibold text-white">{w.title}</span>
-                    <p className="mt-0.5 text-sm text-slate-400">{w.desc}</p>
+                    <span className="font-semibold text-ink-950">{w.title}</span>
+                    <p className="mt-0.5 text-sm text-ink-600">{w.desc}</p>
                   </div>
                 </li>
               ))}
@@ -446,10 +446,10 @@ export default function LocalSeo() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">FAQ</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl reveal reveal-delay-1">
             Local SEO <span className="text-gradient">Questions</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             Answers to the most common questions about Local SEO and how it helps your business grow.
           </p>
         </div>
@@ -463,14 +463,14 @@ export default function LocalSeo() {
       {/* STRONG CTA */}
       <section className="container-x py-24">
         <div className="grad-border relative overflow-hidden rounded-3xl">
-          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-16 text-center sm:px-16">
+          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-slate-50 px-6 py-16 text-center sm:px-16">
             <div className="blob -left-10 top-0 h-64 w-64 bg-brand-500/30" />
             <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-500/20" />
             <div className="relative">
-              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal">
+              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal">
                 Ready to Dominate Local Search?
               </h2>
-              <p className="mx-auto mt-4 max-w-xl text-lg text-slate-300 reveal reveal-delay-1">
+              <p className="mx-auto mt-4 max-w-xl text-lg text-ink-600 reveal reveal-delay-1">
                 Get a free Local SEO audit today. We will show you exactly what is holding your business back from ranking in the Google Maps pack — and how to fix it. No obligation, just clarity.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
@@ -491,13 +491,13 @@ export default function LocalSeo() {
 
 function Breadcrumbs() {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+    <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-600" aria-label="Breadcrumb">
       {crumbs.map((item, i) => (
         <span key={item.path} className="flex items-center gap-2">
-          {i > 0 && <span className="text-slate-600">/</span>}
+          {i > 0 && <span className="text-ink-600">/</span>}
           <button
             onClick={() => navigate(item.path)}
-            className={i === crumbs.length - 1 ? 'text-white' : 'hover:text-brand-300'}
+            className={i === crumbs.length - 1 ? 'text-ink-950' : 'hover:text-brand-600'}
           >
             {item.name}
           </button>

@@ -34,8 +34,8 @@ export default function BlogPost({ slug }: { slug: string }) {
   if (!post || !content) {
     return (
       <div className="container-x flex min-h-screen flex-col items-center justify-center pt-32 text-center">
-        <h1 className="text-3xl font-bold text-white">Article not found</h1>
-        <p className="mt-3 text-slate-400">This post may have moved or been removed.</p>
+        <h1 className="text-3xl font-bold text-ink-950">Article not found</h1>
+        <p className="mt-3 text-ink-600">This post may have moved or been removed.</p>
         <Link to="/blog/" className="btn-glow mt-6">Back to Blog</Link>
       </div>
     );
@@ -88,13 +88,13 @@ export default function BlogPost({ slug }: { slug: string }) {
         <div className="container-x relative">
           <Breadcrumbs items={crumbs} />
           <span className="eyebrow mt-6 reveal">{post.category}</span>
-          <h1 className="mt-5 max-w-4xl text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h1 className="mt-5 max-w-4xl text-3xl font-bold leading-tight text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             {post.title}
           </h1>
-          <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-slate-400 reveal reveal-delay-2">
+          <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-ink-600 reveal reveal-delay-2">
             <span className="flex items-center gap-2">
               <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=80" alt={(post as any).author || 'Rank Flow Digital Team'} className="h-9 w-9 rounded-full object-cover" />
-              <span className="font-medium text-slate-200">{(post as any).author || 'Rank Flow Digital Team'}</span>
+              <span className="font-medium text-ink-700">{(post as any).author || 'Rank Flow Digital Team'}</span>
             </span>
             <span className="flex items-center gap-1.5"><Calendar className="h-4 w-4 text-brand-400" /> {post.date}</span>
             <span className="flex items-center gap-1.5"><Clock className="h-4 w-4 text-brand-400" /> {post.readTime} read</span>
@@ -121,13 +121,13 @@ export default function BlogPost({ slug }: { slug: string }) {
         <div className="grid gap-10 lg:grid-cols-[1fr_18rem]">
           {/* Main content */}
           <article className="min-w-0 max-w-3xl">
-            <p className="text-lg leading-relaxed text-slate-300 reveal">{post.excerpt}</p>
+            <p className="text-lg leading-relaxed text-ink-600 reveal">{post.excerpt}</p>
 
             <div className="mt-10 space-y-12">
               {content.sections.map((section) => (
                 <div key={section.id} id={section.id} className="scroll-mt-28">
-                  <h2 className="text-2xl font-bold text-white sm:text-3xl">{section.heading}</h2>
-                  <div className="article-body mt-4 text-slate-300 [&_a]:text-brand-300 [&_a]:underline [&_a:hover]:text-brand-200 [&_h3]:mt-6 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:text-white [&_p]:leading-relaxed [&_p]:mb-4 [&_strong]:text-white [&_ul]:my-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2 [&_li]:text-slate-400">
+                  <h2 className="text-2xl font-bold text-ink-950 sm:text-3xl">{section.heading}</h2>
+                  <div className="article-body mt-4 text-ink-600 [&_a]:text-brand-600 [&_a]:underline [&_a:hover]:text-brand-600 [&_h3]:mt-6 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:text-ink-950 [&_p]:leading-relaxed [&_p]:mb-4 [&_strong]:text-ink-950 [&_ul]:my-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2 [&_li]:text-ink-600">
                     {section.body}
                   </div>
                 </div>
@@ -135,8 +135,8 @@ export default function BlogPost({ slug }: { slug: string }) {
             </div>
 
             {/* Share row */}
-            <div className="mt-12 flex flex-wrap items-center gap-3 border-t border-white/10 pt-6">
-              <span className="flex items-center gap-2 text-sm font-semibold text-white">
+            <div className="mt-12 flex flex-wrap items-center gap-3 border-t border-slate-200 pt-6">
+              <span className="flex items-center gap-2 text-sm font-semibold text-ink-950">
                 <Share2 className="h-4 w-4 text-brand-400" /> Share this article
               </span>
               <div className="flex items-center gap-2">
@@ -147,7 +147,7 @@ export default function BlogPost({ slug }: { slug: string }) {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`Share on ${s.name}`}
-                    className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 bg-white/5 text-slate-300 transition-all hover:-translate-y-0.5 hover:border-brand-400/50 hover:bg-brand-500/15 hover:text-white"
+                    className="flex h-9 w-9 items-center justify-center rounded-lg border border-slate-200 bg-slate-50 text-ink-600 transition-all hover:-translate-y-0.5 hover:border-brand-400/50 hover:bg-brand-500/15 hover:text-ink-950"
                   >
                     <ShareIcon name={s.name} />
                   </a>
@@ -155,25 +155,25 @@ export default function BlogPost({ slug }: { slug: string }) {
                 <button
                   onClick={copyLink}
                   aria-label="Copy link"
-                  className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 bg-white/5 text-slate-300 transition-all hover:-translate-y-0.5 hover:border-brand-400/50 hover:bg-brand-500/15 hover:text-white"
+                  className="flex h-9 w-9 items-center justify-center rounded-lg border border-slate-200 bg-slate-50 text-ink-600 transition-all hover:-translate-y-0.5 hover:border-brand-400/50 hover:bg-brand-500/15 hover:text-ink-950"
                 >
-                  {copied ? <Check className="h-4 w-4 text-brand-300" /> : <Link2 className="h-4 w-4" />}
+                  {copied ? <Check className="h-4 w-4 text-brand-600" /> : <Link2 className="h-4 w-4" />}
                 </button>
               </div>
             </div>
 
             {/* Author box */}
             <div className="mt-10 grad-border rounded-3xl">
-              <div className="flex flex-col items-start gap-5 rounded-3xl bg-white/[0.03] p-7 sm:flex-row">
+              <div className="flex flex-col items-start gap-5 rounded-3xl bg-white p-7 sm:flex-row">
                 <img
                   src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=200"
                   alt="Rank Flow Digital Team"
                   className="h-20 w-20 shrink-0 rounded-2xl object-cover"
                 />
                 <div>
-                  <div className="text-xs uppercase tracking-wider text-brand-300">Written by</div>
-                  <h3 className="mt-1 text-xl font-bold text-white">{(post as any).author || 'Rank Flow Digital Team'}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-slate-400">
+                  <div className="text-xs uppercase tracking-wider text-brand-600">Written by</div>
+                  <h3 className="mt-1 text-xl font-bold text-ink-950">{(post as any).author || 'Rank Flow Digital Team'}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-ink-600">
                     {(post as any).author
                       ? `${(post as any).author} is an SEO consultant and digital marketing strategist at Rank Flow Digital, helping businesses improve their Google visibility, organic traffic, and website ranking through proven search engine optimization practices.`
                       : 'The Rank Flow Digital team is a group of SEO strategists, content writers, and web designers with over a decade of experience ranking businesses across every industry. We share what we learn from real campaigns so you can grow faster.'}
@@ -186,19 +186,19 @@ export default function BlogPost({ slug }: { slug: string }) {
             {/* Prev / Next */}
             <div className="mt-10 grid gap-4 sm:grid-cols-2">
               <Link to={`/blog/${prev.slug}/`} className="group grad-border lift">
-                <div className="flex h-full flex-col rounded-3xl bg-white/[0.03] p-6">
-                  <span className="flex items-center gap-1.5 text-xs text-slate-400">
+                <div className="flex h-full flex-col rounded-3xl bg-white p-6">
+                  <span className="flex items-center gap-1.5 text-xs text-ink-600">
                     <ArrowLeft className="h-3.5 w-3.5" /> Previous
                   </span>
-                  <span className="mt-2 font-semibold text-white group-hover:text-brand-300">{prev.title}</span>
+                  <span className="mt-2 font-semibold text-ink-950 group-hover:text-brand-600">{prev.title}</span>
                 </div>
               </Link>
               <Link to={`/blog/${next.slug}/`} className="group grad-border lift">
-                <div className="flex h-full flex-col rounded-3xl bg-white/[0.03] p-6 text-right">
-                  <span className="ml-auto flex items-center gap-1.5 text-xs text-slate-400">
+                <div className="flex h-full flex-col rounded-3xl bg-white p-6 text-right">
+                  <span className="ml-auto flex items-center gap-1.5 text-xs text-ink-600">
                     Next <ArrowRight className="h-3.5 w-3.5" />
                   </span>
-                  <span className="mt-2 font-semibold text-white group-hover:text-brand-300">{next.title}</span>
+                  <span className="mt-2 font-semibold text-ink-950 group-hover:text-brand-600">{next.title}</span>
                 </div>
               </Link>
             </div>
@@ -209,8 +209,8 @@ export default function BlogPost({ slug }: { slug: string }) {
             <div className="sticky top-28 space-y-6">
               {/* TOC */}
               <div className="grad-border rounded-2xl">
-                <div className="rounded-2xl bg-white/[0.03] p-5">
-                  <h3 className="text-sm font-semibold uppercase tracking-wider text-white">Table of Contents</h3>
+                <div className="rounded-2xl bg-white p-5">
+                  <h3 className="text-sm font-semibold uppercase tracking-wider text-ink-950">Table of Contents</h3>
                   <nav className="mt-4 space-y-1">
                     {content.sections.map((s, i) => (
                       <a
@@ -222,11 +222,11 @@ export default function BlogPost({ slug }: { slug: string }) {
                         }}
                         className={`block border-l-2 py-1.5 pl-3 text-sm transition-colors ${
                           activeId === s.id
-                            ? 'border-brand-400 text-brand-300'
-                            : 'border-white/10 text-slate-400 hover:text-white'
+                            ? 'border-brand-400 text-brand-600'
+                            : 'border-slate-200 text-ink-600 hover:text-ink-950'
                         }`}
                       >
-                        <span className="mr-1.5 text-xs text-slate-600">{String(i + 1).padStart(2, '0')}</span>
+                        <span className="mr-1.5 text-xs text-ink-600">{String(i + 1).padStart(2, '0')}</span>
                         {s.heading}
                       </a>
                     ))}
@@ -236,8 +236,8 @@ export default function BlogPost({ slug }: { slug: string }) {
 
               {/* Share widget */}
               <div className="grad-border rounded-2xl">
-                <div className="rounded-2xl bg-white/[0.03] p-5">
-                  <h3 className="text-sm font-semibold uppercase tracking-wider text-white">Share</h3>
+                <div className="rounded-2xl bg-white p-5">
+                  <h3 className="text-sm font-semibold uppercase tracking-wider text-ink-950">Share</h3>
                   <div className="mt-4 flex flex-col gap-2">
                     {shareLinks.map((s) => (
                       <a
@@ -245,16 +245,16 @@ export default function BlogPost({ slug }: { slug: string }) {
                         href={s.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 transition-all hover:border-brand-400/40 hover:bg-brand-500/10 hover:text-white"
+                        className="flex items-center gap-2 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-ink-600 transition-all hover:border-brand-400/40 hover:bg-brand-500/10 hover:text-ink-950"
                       >
                         <ShareIcon name={s.name} /> {s.name}
                       </a>
                     ))}
                     <button
                       onClick={copyLink}
-                      className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-300 transition-all hover:border-brand-400/40 hover:bg-brand-500/10 hover:text-white"
+                      className="flex items-center gap-2 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-ink-600 transition-all hover:border-brand-400/40 hover:bg-brand-500/10 hover:text-ink-950"
                     >
-                      {copied ? <Check className="h-4 w-4 text-brand-300" /> : <Link2 className="h-4 w-4" />}
+                      {copied ? <Check className="h-4 w-4 text-brand-600" /> : <Link2 className="h-4 w-4" />}
                       {copied ? 'Copied!' : 'Copy link'}
                     </button>
                   </div>
@@ -264,8 +264,8 @@ export default function BlogPost({ slug }: { slug: string }) {
               {/* Mini CTA */}
               <div className="grad-border rounded-2xl">
                 <div className="rounded-2xl bg-gradient-to-br from-brand-500/15 to-accent-500/5 p-5 text-center">
-                  <h3 className="text-sm font-semibold text-white">Free SEO Audit</h3>
-                  <p className="mt-2 text-xs text-slate-400">See where you rank and how to grow — no obligation.</p>
+                  <h3 className="text-sm font-semibold text-ink-950">Free SEO Audit</h3>
+                  <p className="mt-2 text-xs text-ink-600">See where you rank and how to grow — no obligation.</p>
                   <button onClick={() => navigate('/contact/')} className="btn-glow mt-4 w-full text-xs">
                     Get My Audit <ArrowRight className="h-3.5 w-3.5" />
                   </button>
@@ -280,18 +280,18 @@ export default function BlogPost({ slug }: { slug: string }) {
       <section className="container-x py-16">
         <div className="text-center">
           <span className="eyebrow reveal">FAQ</span>
-          <h2 className="mt-4 text-3xl font-bold text-white reveal reveal-delay-1">Frequently asked questions</h2>
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 reveal reveal-delay-1">Frequently asked questions</h2>
         </div>
         <div className="mx-auto mt-10 max-w-3xl space-y-3">
           {content.faqs.map((f, i) => (
             <details key={i} className="grad-border group rounded-2xl">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 rounded-2xl bg-white/[0.03] p-5">
-                <span className="font-semibold text-white">{f.q}</span>
-                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300 transition-transform group-open:rotate-45">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 rounded-2xl bg-white p-5">
+                <span className="font-semibold text-ink-950">{f.q}</span>
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600 transition-transform group-open:rotate-45">
                   <ArrowRight className="h-3.5 w-3.5 rotate-90" />
                 </span>
               </summary>
-              <p className="px-5 pb-5 text-slate-400">{f.a}</p>
+              <p className="px-5 pb-5 text-ink-600">{f.a}</p>
             </details>
           ))}
         </div>
@@ -299,23 +299,23 @@ export default function BlogPost({ slug }: { slug: string }) {
 
       {/* Related articles */}
       <section className="container-x py-16">
-        <h2 className="text-2xl font-bold text-white">Related articles</h2>
+        <h2 className="text-2xl font-bold text-ink-950">Related articles</h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {related.map((r, i) => (
             <Link key={r.slug} to={`/blog/${r.slug}/`} className={`group grad-border lift reveal reveal-delay-${i + 1}`}>
               <div className="overflow-hidden rounded-3xl">
                 <div className="relative h-44 overflow-hidden rounded-t-3xl">
                   <img src={r.img} alt={r.title} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-ink-950/60 to-transparent" />
-                  <span className="absolute left-4 top-4 rounded-full bg-brand-500/90 px-3 py-1 text-xs font-semibold text-white">{r.category}</span>
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 to-transparent" />
+                  <span className="absolute left-4 top-4 rounded-full bg-brand-500/90 px-3 py-1 text-xs font-semibold text-ink-950">{r.category}</span>
                 </div>
-                <div className="rounded-b-3xl bg-white/[0.03] p-5">
-                  <div className="flex items-center gap-3 text-xs text-slate-400">
+                <div className="rounded-b-3xl bg-white p-5">
+                  <div className="flex items-center gap-3 text-xs text-ink-600">
                     <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5" /> {r.date}</span>
                     <span className="flex items-center gap-1"><Clock className="h-3.5 w-3.5" /> {r.readTime}</span>
                   </div>
-                  <h3 className="mt-3 text-base font-semibold leading-snug text-white">{r.title}</h3>
-                  <span className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-300">
+                  <h3 className="mt-3 text-base font-semibold leading-snug text-ink-950">{r.title}</h3>
+                  <span className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-600">
                     Read More <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </span>
                 </div>
@@ -328,17 +328,17 @@ export default function BlogPost({ slug }: { slug: string }) {
       {/* Newsletter */}
       <section className="container-x py-12">
         <div className="grad-border rounded-3xl">
-          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-12 text-center sm:px-16">
+          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-ink-800 to-slate-50 px-6 py-12 text-center sm:px-16">
             <div className="blob -left-10 top-0 h-56 w-56 bg-brand-500/25" />
             <div className="blob -right-10 bottom-0 h-56 w-56 bg-accent-500/20" />
             <div className="relative">
-              <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-500/20 text-brand-300">
+              <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-500/20 text-brand-600">
                 <Mail className="h-7 w-7" />
               </span>
-              <h2 className="mt-5 text-2xl font-bold text-white sm:text-3xl">Get SEO insights in your inbox</h2>
-              <p className="mx-auto mt-3 max-w-md text-slate-400">Join 5,000+ marketers getting actionable SEO tips every week. No spam, ever.</p>
+              <h2 className="mt-5 text-2xl font-bold text-ink-950 sm:text-3xl">Get SEO insights in your inbox</h2>
+              <p className="mx-auto mt-3 max-w-md text-ink-600">Join 5,000+ marketers getting actionable SEO tips every week. No spam, ever.</p>
               {subscribed ? (
-                <div className="mx-auto mt-6 flex max-w-md items-center justify-center gap-2 rounded-xl bg-brand-500/15 px-5 py-4 text-brand-200">
+                <div className="mx-auto mt-6 flex max-w-md items-center justify-center gap-2 rounded-xl bg-brand-500/15 px-5 py-4 text-brand-600">
                   <Check className="h-5 w-5" /> You’re subscribed! Check your inbox to confirm.
                 </div>
               ) : (
@@ -350,7 +350,7 @@ export default function BlogPost({ slug }: { slug: string }) {
                     type="email"
                     required
                     placeholder="you@company.com"
-                    className="flex-1 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white placeholder-slate-500 outline-none focus:border-brand-400"
+                    className="flex-1 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-ink-950 placeholder-slate-500 outline-none focus:border-brand-400"
                   />
                   <button type="submit" className="btn-glow shrink-0">
                     Subscribe <ArrowRight className="h-4 w-4" />

@@ -5,23 +5,23 @@ export default {
     extend: {
       colors: {
         ink: {
-          950: '#05070f',
-          900: '#080b18',
-          800: '#0c1124',
-          700: '#121a36',
-          600: '#1a2548',
+          950: '#111827',
+          900: '#1F2937',
+          800: '#374151',
+          700: '#4B5563',
+          600: '#6B7280',
         },
         brand: {
-          50: '#eaf2ff',
-          100: '#d4e6ff',
-          200: '#a9ccff',
-          300: '#74a8ff',
-          400: '#3f82ff',
-          500: '#1a63ff',
-          600: '#0a48e6',
-          700: '#0838b4',
-          800: '#062a85',
-          900: '#041d5c',
+          50: '#eff6ff',
+          100: '#dbeafe',
+          200: '#bfdbfe',
+          300: '#93c5fd',
+          400: '#60a5fa',
+          500: '#2563eb',
+          600: '#1d4ed8',
+          700: '#1e40af',
+          800: '#1e3a8a',
+          900: '#172554',
         },
         accent: {
           400: '#22d3ee',
@@ -34,16 +34,16 @@ export default {
         display: ['"Space Grotesk"', 'Inter', 'sans-serif'],
       },
       boxShadow: {
-        glow: '0 0 40px -10px rgba(26, 99, 255, 0.55)',
-        'glow-sm': '0 0 20px -6px rgba(26, 99, 255, 0.45)',
-        card: '0 20px 50px -20px rgba(0, 0, 0, 0.6)',
-        'card-hover': '0 30px 70px -20px rgba(26, 99, 255, 0.35)',
+        glow: '0 0 40px -10px rgba(37, 99, 235, 0.35)',
+        'glow-sm': '0 0 20px -6px rgba(37, 99, 235, 0.25)',
+        card: '0 4px 24px -8px rgba(0, 0, 0, 0.08)',
+        'card-hover': '0 12px 40px -12px rgba(37, 99, 235, 0.2)',
       },
       backgroundImage: {
         'grid-faint':
-          'linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px)',
+          'linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.03) 1px, transparent 1px)',
         'radial-glow':
-          'radial-gradient(circle at 50% 0%, rgba(26,99,255,0.25), transparent 60%)',
+          'radial-gradient(circle at 50% 0%, rgba(37,99,235,0.06), transparent 60%)',
       },
       keyframes: {
         'fade-up': {

@@ -87,10 +87,10 @@ export default function SEOAudit() {
             <div>
               <Breadcrumbs />
               <span className="eyebrow mt-6 reveal">SEO Audit Services</span>
-              <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl reveal reveal-delay-1">
+              <h1 className="mt-5 text-4xl font-bold leading-tight text-ink-950 sm:text-5xl md:text-6xl reveal reveal-delay-1">
                 Professional SEO Audit Services That Discover What's Holding Your Website <span className="text-gradient">Back</span>
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">
                 Your website is not ranking the way it should — and you do not know why. Our <strong>SEO audit services</strong> uncover every technical issue, on-page gap, and missed opportunity that is keeping your site off the first page of Google. Clear answers, prioritized fixes, real results.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
@@ -121,8 +121,8 @@ export default function SEOAudit() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">The Basics</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">What Is an SEO Audit?</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">What Is an SEO Audit?</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 An <strong>SEO audit</strong> is a complete health check for your website. It is a systematic analysis of every factor that affects how your site ranks on Google — from technical performance and site speed to content quality, keyword usage, and backlink strength.
               </p>
@@ -167,34 +167,34 @@ export default function SEOAudit() {
             </div>
             <div className="order-1 lg:order-2 reveal">
               <span className="eyebrow">The Impact</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Every Website Needs an SEO Audit</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Every Website Needs an SEO Audit</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 You would not drive a car for years without a service. Your website is no different. Without a regular SEO audit, issues accumulate quietly — slowly eroding your rankings, traffic, and revenue. Here is what an audit delivers:
               </p>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><TrendingUp className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Better rankings</strong> — fix the issues that are keeping your site off the first page of Google</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><TrendingUp className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Better rankings</strong> — fix the issues that are keeping your site off the first page of Google</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Search className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>More traffic</strong> — optimized pages attract more visitors who are searching for what you offer</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Search className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>More traffic</strong> — optimized pages attract more visitors who are searching for what you offer</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Target className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Higher conversions</strong> — better content and user experience turn more visitors into customers</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Target className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Higher conversions</strong> — better content and user experience turn more visitors into customers</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Smartphone className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Improved user experience</strong> — a faster, cleaner site keeps visitors engaged and reduces bounce rates</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Smartphone className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Improved user experience</strong> — a faster, cleaner site keeps visitors engaged and reduces bounce rates</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Zap className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Faster website</strong> — speed optimization improves both rankings and user satisfaction</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Zap className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Faster website</strong> — speed optimization improves both rankings and user satisfaction</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Database className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Better indexing</strong> — ensure Google can find, crawl, and index all your important pages</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Database className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Better indexing</strong> — ensure Google can find, crawl, and index all your important pages</span>
                 </li>
               </ul>
             </div>
@@ -206,10 +206,10 @@ export default function SEOAudit() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">What We Check</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our SEO Audit <span className="text-gradient">Includes</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A comprehensive 12-point <strong>website audit</strong> that examines every factor affecting your search engine performance.
           </p>
         </div>
@@ -226,12 +226,12 @@ export default function SEOAudit() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {auditIncludes.map((item, i) => (
             <div key={item.title} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-7 hover:bg-white/[0.06] transition-colors">
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <div className="group h-full rounded-3xl bg-white p-7 hover:bg-slate-50 transition-colors">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <item.icon className="h-7 w-7" />
                 </div>
-                <h3 className="mt-5 text-lg font-semibold text-white">{item.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-slate-400">{item.desc}</p>
+                <h3 className="mt-5 text-lg font-semibold text-ink-950">{item.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-600">{item.desc}</p>
               </div>
             </div>
           ))}
@@ -245,8 +245,8 @@ export default function SEOAudit() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Technical SEO Audit</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Technical SEO Audit</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   A <strong>technical SEO audit</strong> is the foundation of every SEO campaign. It examines the backend of your website — the code, server configuration, and architecture that determine whether Google can effectively crawl, understand, and index your pages.
                 </p>
@@ -287,8 +287,8 @@ export default function SEOAudit() {
           </div>
           <div className="order-1 lg:order-2 reveal">
             <span className="eyebrow">Core Service</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">On-Page SEO Audit</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">On-Page SEO Audit</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 On-page SEO is everything on your website that you can control — title tags, meta descriptions, headings, content, images, and URL structure. Our on-page audit examines each element to ensure it is fully optimized for your target keywords.
               </p>
@@ -310,8 +310,8 @@ export default function SEOAudit() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Core Web Vitals Audit</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Core Web Vitals Audit</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   Core Web Vitals are Google's official page experience metrics — specific measurements of loading speed, interactivity, and visual stability. Google uses these metrics as ranking factors, so they directly impact your <strong>Google rankings</strong>.
                 </p>
@@ -341,10 +341,10 @@ export default function SEOAudit() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">Who We Help</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Industries We <span className="text-gradient">Help</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             We have audited websites across dozens of industries — each with unique SEO challenges, competitive landscapes, and ranking opportunities.
           </p>
         </div>
@@ -361,10 +361,10 @@ export default function SEOAudit() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {industries.map((ind, i) => (
             <div key={ind.name} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-6 text-center hover:bg-white/[0.06] transition-colors">
+              <div className="group h-full rounded-3xl bg-white p-6 text-center hover:bg-slate-50 transition-colors">
                 <div className="text-4xl">{ind.icon}</div>
-                <h3 className="mt-4 text-base font-semibold text-white">{ind.name}</h3>
-                <p className="mt-2 text-xs leading-relaxed text-slate-400">{ind.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{ind.name}</h3>
+                <p className="mt-2 text-xs leading-relaxed text-ink-600">{ind.desc}</p>
               </div>
             </div>
           ))}
@@ -377,10 +377,10 @@ export default function SEOAudit() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">How It Works</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
               Our SEO Audit <span className="text-gradient">Process</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               A proven 5-step framework that takes your website from analysis to actionable growth strategy.
             </p>
           </div>
@@ -397,10 +397,10 @@ export default function SEOAudit() {
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {process.map((p, i) => (
               <div key={p.step} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="rounded-3xl bg-white/[0.03] p-7">
-                  <div className="font-display text-4xl font-bold text-white/10">{p.step}</div>
-                  <h3 className="mt-2 text-lg font-semibold text-white">{p.title}</h3>
-                  <p className="mt-2 text-sm text-slate-400 leading-relaxed">{p.desc}</p>
+                <div className="rounded-3xl bg-white p-7">
+                  <div className="font-display text-4xl font-bold text-ink-950/10">{p.step}</div>
+                  <h3 className="mt-2 text-lg font-semibold text-ink-950">{p.title}</h3>
+                  <p className="mt-2 text-sm text-ink-600 leading-relaxed">{p.desc}</p>
                 </div>
               </div>
             ))}
@@ -423,8 +423,8 @@ export default function SEOAudit() {
           </div>
           <div className="reveal reveal-delay-2">
             <span className="eyebrow">Why Us</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Choose Rank Flow Agency</h2>
-            <p className="mt-4 text-slate-400 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Choose Rank Flow Agency</h2>
+            <p className="mt-4 text-ink-600 leading-relaxed">
               We are not just an <strong>SEO agency</strong> that runs automated tools and hands you a generic report. Our <strong>SEO experts</strong> manually analyze your website, interpret the data, and provide specific, prioritized recommendations that actually move the needle.
             </p>
             <ul className="mt-6 space-y-4">
@@ -434,8 +434,8 @@ export default function SEOAudit() {
                     <Check className="h-4 w-4" />
                   </span>
                   <div>
-                    <span className="font-semibold text-white">{w.title}</span>
-                    <p className="mt-0.5 text-sm text-slate-400">{w.desc}</p>
+                    <span className="font-semibold text-ink-950">{w.title}</span>
+                    <p className="mt-0.5 text-sm text-ink-600">{w.desc}</p>
                   </div>
                 </li>
               ))}
@@ -451,10 +451,10 @@ export default function SEOAudit() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">FAQ</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl reveal reveal-delay-1">
             SEO Audit <span className="text-gradient">Questions</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             Answers to the most common questions about SEO audits and how they improve your website\'s performance.
           </p>
         </div>
@@ -468,14 +468,14 @@ export default function SEOAudit() {
       {/* STRONG CTA */}
       <section className="container-x py-24">
         <div className="grad-border relative overflow-hidden rounded-3xl">
-          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-16 text-center sm:px-16">
+          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-slate-50 px-6 py-16 text-center sm:px-16">
             <div className="blob -left-10 top-0 h-64 w-64 bg-brand-500/30" />
             <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-500/20" />
             <div className="relative">
-              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal">
+              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal">
                 Find Out What's Holding Your Website Back
               </h2>
-              <p className="mx-auto mt-4 max-w-xl text-lg text-slate-300 reveal reveal-delay-1">
+              <p className="mx-auto mt-4 max-w-xl text-lg text-ink-600 reveal reveal-delay-1">
                 Request a free SEO audit today. We will analyze your website, identify the issues keeping you off the first page of Google, and show you exactly what to fix to improve your rankings and traffic. No obligation, just answers.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
@@ -496,13 +496,13 @@ export default function SEOAudit() {
 
 function Breadcrumbs() {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+    <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-600" aria-label="Breadcrumb">
       {crumbs.map((item, i) => (
         <span key={item.path} className="flex items-center gap-2">
-          {i > 0 && <span className="text-slate-600">/</span>}
+          {i > 0 && <span className="text-ink-600">/</span>}
           <button
             onClick={() => navigate(item.path)}
-            className={i === crumbs.length - 1 ? 'text-white' : 'hover:text-brand-300'}
+            className={i === crumbs.length - 1 ? 'text-ink-950' : 'hover:text-brand-600'}
           >
             {item.name}
           </button>

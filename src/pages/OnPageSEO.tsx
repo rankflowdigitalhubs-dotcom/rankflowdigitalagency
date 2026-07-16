@@ -94,10 +94,10 @@ export default function OnPageSEO() {
             <div>
               <Breadcrumbs />
               <span className="eyebrow mt-6 reveal">On-Page SEO Services</span>
-              <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl reveal reveal-delay-1">
+              <h1 className="mt-5 text-4xl font-bold leading-tight text-ink-950 sm:text-5xl md:text-6xl reveal reveal-delay-1">
                 On-Page SEO Services That Boost <span className="text-gradient">Rankings, Traffic & Conversions</span>
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">
                 Every element on your page affects your rankings. Our <strong>on-page SEO services</strong> optimize your titles, meta tags, headings, content, images, and schema markup so every page ranks higher, attracts more <strong>organic rankings</strong>, and converts more visitors into customers.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
@@ -128,8 +128,8 @@ export default function OnPageSEO() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">The Basics</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">What Is On-Page SEO?</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">What Is On-Page SEO?</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 <strong>On-page SEO</strong> is the practice of optimizing elements directly on your website pages to improve their search engine rankings. Unlike off-page SEO, which focuses on backlinks and external signals, on-page SEO is entirely within your control. Every title tag, heading, image, and paragraph can be optimized to send the right signals to Google.
               </p>
@@ -174,34 +174,34 @@ export default function OnPageSEO() {
             </div>
             <div className="order-1 lg:order-2 reveal">
               <span className="eyebrow">The Impact</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why On-Page SEO Matters</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why On-Page SEO Matters</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 You can build all the backlinks you want, but if your pages are not optimized, you will not rank. On-page SEO is the foundation of every successful SEO campaign. Here is what it delivers:
               </p>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><TrendingUp className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Higher rankings</strong> — optimized title tags, headings, and content signal relevance to Google</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><TrendingUp className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Higher rankings</strong> — optimized title tags, headings, and content signal relevance to Google</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Search className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>More organic traffic</strong> — better optimization means more keywords ranking and more clicks</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Search className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>More organic traffic</strong> — better optimization means more keywords ranking and more clicks</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Target className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Higher conversions</strong> — compelling meta descriptions and content turn visitors into customers</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Target className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Higher conversions</strong> — compelling meta descriptions and content turn visitors into customers</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Smartphone className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Better user experience</strong> — clear headings, fast loading, and structured content keep visitors engaged</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Smartphone className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Better user experience</strong> — clear headings, fast loading, and structured content keep visitors engaged</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><BarChart3 className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Featured snippets</strong> — properly structured content can win position zero on Google</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><BarChart3 className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Featured snippets</strong> — properly structured content can win position zero on Google</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Award className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Stronger E-E-A-T</strong> — expertise, authority, and trust signals improve your site credibility</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Award className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Stronger E-E-A-T</strong> — expertise, authority, and trust signals improve your site credibility</span>
                 </li>
               </ul>
             </div>
@@ -213,10 +213,10 @@ export default function OnPageSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">What We Do</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our On-Page SEO <span className="text-gradient">Services</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A complete on-page optimization service covering every element that affects your search rankings. From keyword research to schema markup, we optimize it all.
           </p>
         </div>
@@ -233,12 +233,12 @@ export default function OnPageSEO() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {services.map((s, i) => (
             <div key={s.title} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-6 hover:bg-white/[0.06] transition-colors">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <div className="group h-full rounded-3xl bg-white p-6 hover:bg-slate-50 transition-colors">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <s.icon className="h-6 w-6" />
                 </div>
-                <h3 className="mt-4 text-base font-semibold text-white">{s.title}</h3>
-                <p className="mt-1.5 text-sm leading-relaxed text-slate-400">{s.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{s.title}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-ink-600">{s.desc}</p>
               </div>
             </div>
           ))}
@@ -252,8 +252,8 @@ export default function OnPageSEO() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Keyword Research</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Keyword Research</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   Every great on-page SEO campaign starts with <strong>keyword research</strong>. Before we optimize a single title tag, we need to know exactly what your customers are searching for and which keywords will drive the most qualified traffic to your site.
                 </p>
@@ -294,8 +294,8 @@ export default function OnPageSEO() {
           </div>
           <div className="order-1 lg:order-2 reveal">
             <span className="eyebrow">Core Service</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Content Optimization</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Content Optimization</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 Content is the heart of on-page SEO. Google ranks pages, not websites, and the quality of your page content determines whether it deserves to rank. Our <strong>SEO optimization</strong> service ensures every page has content that is both search-engine-friendly and genuinely useful to your visitors.
               </p>
@@ -317,8 +317,8 @@ export default function OnPageSEO() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Schema Markup &amp; Technical SEO</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Schema Markup &amp; Technical SEO</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   <strong>Schema markup</strong> is structured data code that helps search engines understand exactly what your page is about. It tells Google whether your page is an article, a product, a recipe, a FAQ, or a local business. This enables rich snippets in search results like star ratings, prices, and FAQ accordions.
                 </p>
@@ -348,10 +348,10 @@ export default function OnPageSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">Who We Serve</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Industries We <span className="text-gradient">Serve</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             We have optimized on-page SEO for websites across dozens of industries. Each industry has unique search behavior, competition, and optimization requirements.
           </p>
         </div>
@@ -368,10 +368,10 @@ export default function OnPageSEO() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {industries.map((ind, i) => (
             <div key={ind.name} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-6 text-center hover:bg-white/[0.06] transition-colors">
+              <div className="group h-full rounded-3xl bg-white p-6 text-center hover:bg-slate-50 transition-colors">
                 <div className="text-4xl">{ind.icon}</div>
-                <h3 className="mt-4 text-base font-semibold text-white">{ind.name}</h3>
-                <p className="mt-2 text-xs leading-relaxed text-slate-400">{ind.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{ind.name}</h3>
+                <p className="mt-2 text-xs leading-relaxed text-ink-600">{ind.desc}</p>
               </div>
             </div>
           ))}
@@ -384,10 +384,10 @@ export default function OnPageSEO() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">How It Works</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
               Our SEO <span className="text-gradient">Process</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               A proven 8-step process that takes your website from audit to optimized pages ranking higher and converting better.
             </p>
           </div>
@@ -404,10 +404,10 @@ export default function OnPageSEO() {
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {process.map((p, i) => (
               <div key={p.step} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="rounded-3xl bg-white/[0.03] p-7">
-                  <div className="font-display text-4xl font-bold text-white/10">{p.step}</div>
-                  <h3 className="mt-2 text-lg font-semibold text-white">{p.title}</h3>
-                  <p className="mt-2 text-sm text-slate-400 leading-relaxed">{p.desc}</p>
+                <div className="rounded-3xl bg-white p-7">
+                  <div className="font-display text-4xl font-bold text-ink-950/10">{p.step}</div>
+                  <h3 className="mt-2 text-lg font-semibold text-ink-950">{p.title}</h3>
+                  <p className="mt-2 text-sm text-ink-600 leading-relaxed">{p.desc}</p>
                 </div>
               </div>
             ))}
@@ -430,8 +430,8 @@ export default function OnPageSEO() {
           </div>
           <div className="reveal reveal-delay-2">
             <span className="eyebrow">Why Us</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Choose Rank Flow Agency</h2>
-            <p className="mt-4 text-slate-400 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Choose Rank Flow Agency</h2>
+            <p className="mt-4 text-ink-600 leading-relaxed">
               We are an <strong>on-page SEO agency</strong> that focuses on what actually moves rankings. We do not chase algorithm loopholes or use risky tactics. We optimize every on-page element the right way, building a foundation for sustainable organic growth.
             </p>
             <ul className="mt-6 space-y-4">
@@ -441,8 +441,8 @@ export default function OnPageSEO() {
                     <Check className="h-4 w-4" />
                   </span>
                   <div>
-                    <span className="font-semibold text-white">{w.title}</span>
-                    <p className="mt-0.5 text-sm text-slate-400">{w.desc}</p>
+                    <span className="font-semibold text-ink-950">{w.title}</span>
+                    <p className="mt-0.5 text-sm text-ink-600">{w.desc}</p>
                   </div>
                 </li>
               ))}
@@ -458,10 +458,10 @@ export default function OnPageSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">FAQ</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl reveal reveal-delay-1">
             On-Page SEO <span className="text-gradient">Questions</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             Answers to the most common questions about on-page SEO and how it improves your website rankings.
           </p>
         </div>
@@ -475,14 +475,14 @@ export default function OnPageSEO() {
       {/* STRONG CTA */}
       <section className="container-x py-24">
         <div className="grad-border relative overflow-hidden rounded-3xl">
-          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-16 text-center sm:px-16">
+          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-slate-50 px-6 py-16 text-center sm:px-16">
             <div className="blob -left-10 top-0 h-64 w-64 bg-brand-500/30" />
             <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-500/20" />
             <div className="relative">
-              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal">
+              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal">
                 Ready to Optimize Every Page on Your Website?
               </h2>
-              <p className="mx-auto mt-4 max-w-xl text-lg text-slate-300 reveal reveal-delay-1">
+              <p className="mx-auto mt-4 max-w-xl text-lg text-ink-600 reveal reveal-delay-1">
                 Request a free on-page SEO audit today. We will analyze your pages, identify the issues keeping you from ranking, and show you exactly what to fix to improve your rankings, traffic, and conversions. No obligation, just results.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
@@ -503,13 +503,13 @@ export default function OnPageSEO() {
 
 function Breadcrumbs() {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+    <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-600" aria-label="Breadcrumb">
       {crumbs.map((item, i) => (
         <span key={item.path} className="flex items-center gap-2">
-          {i > 0 && <span className="text-slate-600">/</span>}
+          {i > 0 && <span className="text-ink-600">/</span>}
           <button
             onClick={() => navigate(item.path)}
-            className={i === crumbs.length - 1 ? 'text-white' : 'hover:text-brand-300'}
+            className={i === crumbs.length - 1 ? 'text-ink-950' : 'hover:text-brand-600'}
           >
             {item.name}
           </button>

@@ -82,10 +82,10 @@ export default function EnterpriseSEO() {
             <div>
               <Breadcrumbs />
               <span className="eyebrow mt-6 reveal">Enterprise SEO Services</span>
-              <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl reveal reveal-delay-1">
+              <h1 className="mt-5 text-4xl font-bold leading-tight text-ink-950 sm:text-5xl md:text-6xl reveal reveal-delay-1">
                 Enterprise SEO Services Built for <span className="text-gradient">Scale and Growth</span>
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">
                 When your website has millions of pages, hundreds of locations, and multiple stakeholders, standard SEO does not work. You need <strong>enterprise SEO services</strong> designed for complexity and scale. Our <strong>enterprise SEO agency</strong> provides technical SEO, content strategy, link building, international SEO, and dedicated teams to drive organic growth for <strong>large businesses</strong>.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
@@ -116,8 +116,8 @@ export default function EnterpriseSEO() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">The Basics</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">What Is Enterprise SEO?</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">What Is Enterprise SEO?</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 <strong>Enterprise SEO</strong> is search engine optimization designed for large organizations with complex websites, high traffic volumes, and multiple stakeholders. It addresses challenges that standard SEO cannot handle: managing millions of pages, coordinating SEO across departments, implementing technical fixes at scale, and maintaining performance across international markets.
               </p>
@@ -162,34 +162,34 @@ export default function EnterpriseSEO() {
             </div>
             <div className="order-1 lg:order-2 reveal">
               <span className="eyebrow">The Impact</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Enterprise SEO Matters</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Enterprise SEO Matters</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 For large companies, organic search is often the single largest driver of revenue and growth. A 10% increase in organic traffic for a company with millions of monthly visitors translates to significant revenue. Here is why <strong>technical enterprise SEO</strong> matters:
               </p>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><TrendingUp className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Massive revenue impact</strong> — even small percentage improvements in organic traffic drive significant revenue at enterprise scale</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><TrendingUp className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Massive revenue impact</strong> — even small percentage improvements in organic traffic drive significant revenue at enterprise scale</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Building2 className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Complexity at scale</strong> — managing SEO across millions of pages requires specialized tools, processes, and expertise</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Building2 className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Complexity at scale</strong> — managing SEO across millions of pages requires specialized tools, processes, and expertise</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Globe className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Global competition</strong> — enterprise companies compete against other well-resourced organizations in every market</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Globe className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Global competition</strong> — enterprise companies compete against other well-resourced organizations in every market</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Users className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Organizational alignment</strong> — SEO must be coordinated across IT, content, marketing, and product teams</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Users className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Organizational alignment</strong> — SEO must be coordinated across IT, content, marketing, and product teams</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Award className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Brand authority</strong> — ranking at the top for industry terms reinforces market leadership and brand trust</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Award className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Brand authority</strong> — ranking at the top for industry terms reinforces market leadership and brand trust</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><ShieldCheck className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Risk mitigation</strong> — without proper enterprise SEO, algorithm updates and technical issues can cause catastrophic traffic loss</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><ShieldCheck className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Risk mitigation</strong> — without proper enterprise SEO, algorithm updates and technical issues can cause catastrophic traffic loss</span>
                 </li>
               </ul>
             </div>
@@ -201,22 +201,22 @@ export default function EnterpriseSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">What We Do</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our Enterprise SEO <span className="text-gradient">Services</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A complete enterprise SEO service covering every aspect of organic search at scale. From technical SEO to content strategy, link building, and international expansion, we handle it all.
           </p>
         </div>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {services.map((s, i) => (
             <div key={s.title} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-6 hover:bg-white/[0.06] transition-colors">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <div className="group h-full rounded-3xl bg-white p-6 hover:bg-slate-50 transition-colors">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <s.icon className="h-6 w-6" />
                 </div>
-                <h3 className="mt-4 text-base font-semibold text-white">{s.title}</h3>
-                <p className="mt-1.5 text-sm leading-relaxed text-slate-400">{s.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{s.title}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-ink-600">{s.desc}</p>
               </div>
             </div>
           ))}
@@ -230,8 +230,8 @@ export default function EnterpriseSEO() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Enterprise Technical SEO</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Enterprise Technical SEO</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   <strong>Technical enterprise SEO</strong> is the foundation of organic search performance for large websites. When your site has millions of pages, a single technical issue can affect a huge portion of your search visibility. We use enterprise crawlers to analyze your entire site and identify systemic problems.
                 </p>
@@ -272,8 +272,8 @@ export default function EnterpriseSEO() {
           </div>
           <div className="order-1 lg:order-2 reveal">
             <span className="eyebrow">Core Service</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Enterprise Content Strategy</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Enterprise Content Strategy</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 Content at enterprise scale is not about writing more articles. It is about building systems that produce high-quality, SEO-optimized content consistently across thousands of pages. We develop <strong>enterprise content strategy</strong> that aligns with your business goals and scales with your organization.
               </p>
@@ -295,8 +295,8 @@ export default function EnterpriseSEO() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Enterprise Link Building</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Enterprise Link Building</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   <strong>Enterprise link building</strong> requires a fundamentally different approach than small-scale link building. When your website already has authority, you need high-quality links from top-tier publications, industry authorities, and relevant domains that move the needle at scale.
                 </p>
@@ -337,8 +337,8 @@ export default function EnterpriseSEO() {
           </div>
           <div className="order-1 lg:order-2 reveal">
             <span className="eyebrow">Core Service</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">International Enterprise SEO</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">International Enterprise SEO</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 <strong>International enterprise SEO</strong> is about ranking in multiple countries and languages at corporate scale. We implement hreflang tags across millions of pages, develop multi-language content strategies, and build country-specific link profiles that signal local authority to Google.
               </p>
@@ -370,30 +370,30 @@ export default function EnterpriseSEO() {
             </div>
             <div className="reveal reveal-delay-2">
               <span className="eyebrow">Your Team</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Dedicated SEO Team</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Dedicated SEO Team</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 Enterprise SEO is too complex for one person. That is why we assign a dedicated team to your account. Your team works exclusively on your campaign and is available for regular strategy calls, reporting, and ad-hoc requests.
               </p>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Users className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>SEO Strategist</strong> — leads your campaign, develops strategy, and coordinates the team</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Users className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>SEO Strategist</strong> — leads your campaign, develops strategy, and coordinates the team</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Code2 className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Technical SEO Specialist</strong> — handles crawl analysis, site architecture, and technical implementation</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Code2 className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Technical SEO Specialist</strong> — handles crawl analysis, site architecture, and technical implementation</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><PenLine className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Content Strategist</strong> — develops content strategy, editorial calendars, and content optimization</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><PenLine className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Content Strategist</strong> — develops content strategy, editorial calendars, and content optimization</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Link2 className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Link Building Specialist</strong> — manages digital PR, outreach, and authority link building</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Link2 className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Link Building Specialist</strong> — manages digital PR, outreach, and authority link building</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><BarChart3 className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Project Manager</strong> — coordinates timelines, reporting, and cross-team communication</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><BarChart3 className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Project Manager</strong> — coordinates timelines, reporting, and cross-team communication</span>
                 </li>
               </ul>
             </div>
@@ -405,10 +405,10 @@ export default function EnterpriseSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">Who We Help</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Industries We <span className="text-gradient">Serve</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             We have managed enterprise SEO for companies across every major industry. Each sector has unique search challenges, competitive landscapes, and compliance requirements.
           </p>
         </div>
@@ -425,12 +425,12 @@ export default function EnterpriseSEO() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {industries.map((ind, i) => (
             <div key={ind.name} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-6 text-center hover:bg-white/[0.06] transition-colors">
-                <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <div className="group h-full rounded-3xl bg-white p-6 text-center hover:bg-slate-50 transition-colors">
+                <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <ind.icon className="h-6 w-6" />
                 </div>
-                <h3 className="mt-4 text-base font-semibold text-white">{ind.name}</h3>
-                <p className="mt-2 text-xs leading-relaxed text-slate-400">{ind.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{ind.name}</h3>
+                <p className="mt-2 text-xs leading-relaxed text-ink-600">{ind.desc}</p>
               </div>
             </div>
           ))}
@@ -443,20 +443,20 @@ export default function EnterpriseSEO() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">How It Works</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
               Our Enterprise SEO <span className="text-gradient">Process</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               A proven 6-step process designed for enterprise scale. Every step is built to handle complexity, coordinate across teams, and drive compounding organic growth.
             </p>
           </div>
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {process.map((p, i) => (
               <div key={p.step} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="rounded-3xl bg-white/[0.03] p-7">
-                  <div className="font-display text-4xl font-bold text-white/10">{p.step}</div>
-                  <h3 className="mt-2 text-lg font-semibold text-white">{p.title}</h3>
-                  <p className="mt-2 text-sm text-slate-400 leading-relaxed">{p.desc}</p>
+                <div className="rounded-3xl bg-white p-7">
+                  <div className="font-display text-4xl font-bold text-ink-950/10">{p.step}</div>
+                  <h3 className="mt-2 text-lg font-semibold text-ink-950">{p.title}</h3>
+                  <p className="mt-2 text-sm text-ink-600 leading-relaxed">{p.desc}</p>
                 </div>
               </div>
             ))}
@@ -468,22 +468,22 @@ export default function EnterpriseSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">Why Us</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Why Choose Rank Flow <span className="text-gradient">Agency</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             We are an <strong>enterprise SEO agency</strong> that understands the unique challenges of large-scale organic search. We do not treat your website like a small business. We build systems, processes, and strategies designed for enterprise growth.
           </p>
         </div>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {whyChoose.map((w, i) => (
             <div key={w.title} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-7 hover:bg-white/[0.06] transition-colors">
+              <div className="group h-full rounded-3xl bg-white p-7 hover:bg-slate-50 transition-colors">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500/20 text-emerald-300">
                   <Check className="h-5 w-5" />
                 </div>
-                <h3 className="mt-4 text-base font-semibold text-white">{w.title}</h3>
-                <p className="mt-2 text-sm text-slate-400 leading-relaxed">{w.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{w.title}</h3>
+                <p className="mt-2 text-sm text-ink-600 leading-relaxed">{w.desc}</p>
               </div>
             </div>
           ))}
@@ -501,10 +501,10 @@ export default function EnterpriseSEO() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">FAQ</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl reveal reveal-delay-1">
               Enterprise SEO <span className="text-gradient">Questions</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               Answers to the most common questions about enterprise SEO and how it drives organic growth for large organizations.
             </p>
           </div>
@@ -519,14 +519,14 @@ export default function EnterpriseSEO() {
       {/* STRONG CTA */}
       <section className="container-x py-24">
         <div className="grad-border relative overflow-hidden rounded-3xl">
-          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-16 text-center sm:px-16">
+          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-slate-50 px-6 py-16 text-center sm:px-16">
             <div className="blob -left-10 top-0 h-64 w-64 bg-brand-500/30" />
             <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-500/20" />
             <div className="relative">
-              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal">
+              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal">
                 Ready to Scale Your Organic Search Performance?
               </h2>
-              <p className="mx-auto mt-4 max-w-xl text-lg text-slate-300 reveal reveal-delay-1">
+              <p className="mx-auto mt-4 max-w-xl text-lg text-ink-600 reveal reveal-delay-1">
                 Get a free enterprise SEO audit today. We will analyze your website architecture, technical SEO health, content strategy, and competitive landscape. Then we will show you exactly how to scale organic growth across your entire organization. No obligation, just a clear enterprise SEO roadmap.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
@@ -547,13 +547,13 @@ export default function EnterpriseSEO() {
 
 function Breadcrumbs() {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+    <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-600" aria-label="Breadcrumb">
       {crumbs.map((item, i) => (
         <span key={item.path} className="flex items-center gap-2">
-          {i > 0 && <span className="text-slate-600">/</span>}
+          {i > 0 && <span className="text-ink-600">/</span>}
           <button
             onClick={() => navigate(item.path)}
-            className={i === crumbs.length - 1 ? 'text-white' : 'hover:text-brand-300'}
+            className={i === crumbs.length - 1 ? 'text-ink-950' : 'hover:text-brand-600'}
           >
             {item.name}
           </button>

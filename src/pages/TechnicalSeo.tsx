@@ -93,10 +93,10 @@ export default function TechnicalSeo() {
             <div>
               <Breadcrumbs />
               <span className="eyebrow mt-6 reveal">Technical SEO Services</span>
-              <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl reveal reveal-delay-1">
+              <h1 className="mt-5 text-4xl font-bold leading-tight text-ink-950 sm:text-5xl md:text-6xl reveal reveal-delay-1">
                 Technical SEO Services That Help Your Website <span className="text-gradient">Rank Higher</span>
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">
                 Is your website technically sound? If Google cannot crawl it, index it, or load it fast, your content will not rank — no matter how good it is. Our Technical SEO services fix the infrastructure issues holding your site back so you can rank higher and grow faster.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
@@ -127,8 +127,8 @@ export default function TechnicalSeo() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">The Basics</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">What Is Technical SEO?</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">What Is Technical SEO?</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 Technical SEO is the foundation of your website's search performance. It is the process of optimizing your site's infrastructure — server, code, speed, structure, and security — so that search engines like Google can crawl, index, and rank your pages efficiently.
               </p>
@@ -170,34 +170,34 @@ export default function TechnicalSeo() {
             </div>
             <div className="order-1 lg:order-2 reveal">
               <span className="eyebrow">The Impact</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Technical SEO Is Important</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Technical SEO Is Important</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 You can write the best content in your industry, build the most beautiful pages, and earn the strongest backlinks — but if your site is technically broken, none of it will rank. Here is what technical SEO delivers:
               </p>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Search className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Better Google crawling</strong> — Googlebot can access and understand every page on your site without hitting roadblocks</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Search className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Better Google crawling</strong> — Googlebot can access and understand every page on your site without hitting roadblocks</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><RefreshCw className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Faster indexing</strong> — new and updated pages get discovered and indexed by Google in days, not weeks</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><RefreshCw className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Faster indexing</strong> — new and updated pages get discovered and indexed by Google in days, not weeks</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><TrendingUpIcon /></span>
-                  <span className="text-slate-200"><strong>Higher rankings</strong> — a technically sound site ranks higher because Google trusts it more</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><TrendingUpIcon /></span>
+                  <span className="text-ink-700"><strong>Higher rankings</strong> — a technically sound site ranks higher because Google trusts it more</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Gauge className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Improved website speed</strong> — fast-loading pages rank higher and keep visitors engaged longer</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Gauge className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Improved website speed</strong> — fast-loading pages rank higher and keep visitors engaged longer</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Check className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Better Core Web Vitals</strong> — passing Google's page experience signals gives you a ranking edge over competitors</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Check className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Better Core Web Vitals</strong> — passing Google's page experience signals gives you a ranking edge over competitors</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Smartphone className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Better user experience</strong> — a fast, secure, mobile-friendly site keeps visitors happy and converts more of them</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Smartphone className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Better user experience</strong> — a fast, secure, mobile-friendly site keeps visitors happy and converts more of them</span>
                 </li>
               </ul>
             </div>
@@ -209,10 +209,10 @@ export default function TechnicalSeo() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">What We Do</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our Technical SEO <span className="text-gradient">Services</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A complete technical optimization programme covering every ranking factor Google uses to evaluate your website's infrastructure.
           </p>
         </div>
@@ -229,12 +229,12 @@ export default function TechnicalSeo() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s, i) => (
             <div key={s.title} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-7 hover:bg-white/[0.06] transition-colors">
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <div className="group h-full rounded-3xl bg-white p-7 hover:bg-slate-50 transition-colors">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <s.icon className="h-7 w-7" />
                 </div>
-                <h3 className="mt-5 text-lg font-semibold text-white">{s.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-slate-400">{s.desc}</p>
+                <h3 className="mt-5 text-lg font-semibold text-ink-950">{s.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-600">{s.desc}</p>
               </div>
             </div>
           ))}
@@ -248,8 +248,8 @@ export default function TechnicalSeo() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Core Web Vitals & Page Speed</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Core Web Vitals & Page Speed</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   Google uses Core Web Vitals as a ranking signal. If your site loads slowly, shifts layout while loading, or feels unresponsive, Google demotes it. We optimize all three Core Web Vitals metrics:
                 </p>
@@ -296,8 +296,8 @@ export default function TechnicalSeo() {
           </div>
           <div className="order-1 lg:order-2 reveal">
             <span className="eyebrow">Core Service</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Structured Data & Schema Markup</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Structured Data & Schema Markup</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 Structured data is a special code format that helps Google understand exactly what your content is about — products, reviews, FAQs, events, local business info, recipes, articles, and more.
               </p>
@@ -319,8 +319,8 @@ export default function TechnicalSeo() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Mobile SEO</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Mobile SEO</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   Google uses mobile-first indexing — meaning it ranks your site based on its mobile version, not the desktop version. If your site is not fully mobile-friendly, your rankings suffer across the board.
                 </p>
@@ -350,10 +350,10 @@ export default function TechnicalSeo() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">Who We Help</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Industries We <span className="text-gradient">Serve</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             We have specialized Technical SEO strategies for the unique infrastructure challenges each industry faces.
           </p>
         </div>
@@ -370,10 +370,10 @@ export default function TechnicalSeo() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {industries.map((ind, i) => (
             <div key={ind.name} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-6 text-center hover:bg-white/[0.06] transition-colors">
+              <div className="group h-full rounded-3xl bg-white p-6 text-center hover:bg-slate-50 transition-colors">
                 <div className="text-4xl">{ind.icon}</div>
-                <h3 className="mt-4 text-base font-semibold text-white">{ind.name}</h3>
-                <p className="mt-2 text-xs leading-relaxed text-slate-400">{ind.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{ind.name}</h3>
+                <p className="mt-2 text-xs leading-relaxed text-ink-600">{ind.desc}</p>
               </div>
             </div>
           ))}
@@ -386,10 +386,10 @@ export default function TechnicalSeo() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">How It Works</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
               Our Technical SEO <span className="text-gradient">Process</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               A proven 8-step framework that finds every technical issue, fixes it, and keeps your site healthy long-term.
             </p>
           </div>
@@ -406,10 +406,10 @@ export default function TechnicalSeo() {
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {process.map((p, i) => (
               <div key={p.step} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="rounded-3xl bg-white/[0.03] p-7">
-                  <div className="font-display text-4xl font-bold text-white/10">{p.step}</div>
-                  <h3 className="mt-2 text-lg font-semibold text-white">{p.title}</h3>
-                  <p className="mt-2 text-sm text-slate-400 leading-relaxed">{p.desc}</p>
+                <div className="rounded-3xl bg-white p-7">
+                  <div className="font-display text-4xl font-bold text-ink-950/10">{p.step}</div>
+                  <h3 className="mt-2 text-lg font-semibold text-ink-950">{p.title}</h3>
+                  <p className="mt-2 text-sm text-ink-600 leading-relaxed">{p.desc}</p>
                 </div>
               </div>
             ))}
@@ -432,8 +432,8 @@ export default function TechnicalSeo() {
           </div>
           <div className="reveal reveal-delay-2">
             <span className="eyebrow">Why Us</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Choose Rank Flow Agency</h2>
-            <p className="mt-4 text-slate-400 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Choose Rank Flow Agency</h2>
+            <p className="mt-4 text-ink-600 leading-relaxed">
               We are not just another SEO agency. We are technical SEO specialists who live and breathe website infrastructure, performance optimization, and search engine mechanics.
             </p>
             <ul className="mt-6 space-y-4">
@@ -443,8 +443,8 @@ export default function TechnicalSeo() {
                     <Check className="h-4 w-4" />
                   </span>
                   <div>
-                    <span className="font-semibold text-white">{w.title}</span>
-                    <p className="mt-0.5 text-sm text-slate-400">{w.desc}</p>
+                    <span className="font-semibold text-ink-950">{w.title}</span>
+                    <p className="mt-0.5 text-sm text-ink-600">{w.desc}</p>
                   </div>
                 </li>
               ))}
@@ -460,10 +460,10 @@ export default function TechnicalSeo() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">FAQ</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl reveal reveal-delay-1">
             Technical SEO <span className="text-gradient">Questions</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             Answers to the most common questions about Technical SEO and how it helps your website rank higher.
           </p>
         </div>
@@ -477,14 +477,14 @@ export default function TechnicalSeo() {
       {/* STRONG CTA */}
       <section className="container-x py-24">
         <div className="grad-border relative overflow-hidden rounded-3xl">
-          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-16 text-center sm:px-16">
+          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-slate-50 px-6 py-16 text-center sm:px-16">
             <div className="blob -left-10 top-0 h-64 w-64 bg-brand-500/30" />
             <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-500/20" />
             <div className="relative">
-              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal">
+              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal">
                 Is Your Website Technically Holding You Back?
               </h2>
-              <p className="mx-auto mt-4 max-w-xl text-lg text-slate-300 reveal reveal-delay-1">
+              <p className="mx-auto mt-4 max-w-xl text-lg text-ink-600 reveal reveal-delay-1">
                 Get a free Technical SEO audit today. We will crawl your entire site, identify every issue affecting your rankings, and show you exactly how to fix it. No obligation, just clarity.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
@@ -514,13 +514,13 @@ function TrendingUpIcon() {
 
 function Breadcrumbs() {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+    <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-600" aria-label="Breadcrumb">
       {crumbs.map((item, i) => (
         <span key={item.path} className="flex items-center gap-2">
-          {i > 0 && <span className="text-slate-600">/</span>}
+          {i > 0 && <span className="text-ink-600">/</span>}
           <button
             onClick={() => navigate(item.path)}
-            className={i === crumbs.length - 1 ? 'text-white' : 'hover:text-brand-300'}
+            className={i === crumbs.length - 1 ? 'text-ink-950' : 'hover:text-brand-600'}
           >
             {item.name}
           </button>

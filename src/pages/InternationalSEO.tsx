@@ -91,10 +91,10 @@ export default function InternationalSEO() {
             <div>
               <Breadcrumbs />
               <span className="eyebrow mt-6 reveal">International SEO Services</span>
-              <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl reveal reveal-delay-1">
+              <h1 className="mt-5 text-4xl font-bold leading-tight text-ink-950 sm:text-5xl md:text-6xl reveal reveal-delay-1">
                 International SEO Services That Help Your Business Reach Customers <span className="text-gradient">Worldwide</span>
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">
                 Your customers are not limited to one country. Why should your SEO be? Our <strong>international SEO services</strong> help you rank in multiple countries, target multiple languages, and capture <strong>international organic traffic</strong> that drives global growth. From <strong>hreflang SEO</strong> to <strong>multi-country SEO</strong> strategy, we handle everything.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
@@ -125,8 +125,8 @@ export default function InternationalSEO() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">The Basics</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">What Is International SEO?</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">What Is International SEO?</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 <strong>International SEO</strong> is the process of optimizing your website so Google understands which countries and languages you want to target. It tells the search engine which version of your site to show to a user in Germany, which to show to a user in France, and which to show to a user in the United States.
               </p>
@@ -171,34 +171,34 @@ export default function InternationalSEO() {
             </div>
             <div className="order-1 lg:order-2 reveal">
               <span className="eyebrow">The Impact</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why International SEO Matters</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why International SEO Matters</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 If you are only ranking in one country, you are leaving global revenue on the table. Customers in other countries are searching for what you offer right now. <strong>Worldwide SEO</strong> ensures they find you instead of your competitors. Here is what it delivers:
               </p>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Globe className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Reach global customers</strong> — expand your audience beyond your domestic market to every country you serve</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Globe className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Reach global customers</strong> — expand your audience beyond your domestic market to every country you serve</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><TrendingUp className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Increase international organic traffic</strong> — capture search traffic from users in multiple countries and languages</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><TrendingUp className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Increase international organic traffic</strong> — capture search traffic from users in multiple countries and languages</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Award className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Improve global brand visibility</strong> — make your brand visible and recognizable across international markets</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Award className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Improve global brand visibility</strong> — make your brand visible and recognizable across international markets</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><BarChart3 className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Rank in multiple countries</strong> — appear at the top of Google results in each of your target markets</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><BarChart3 className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Rank in multiple countries</strong> — appear at the top of Google results in each of your target markets</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><TrendingUp className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Higher international sales</strong> — more visibility means more traffic, more leads, and more revenue from global markets</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><TrendingUp className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Higher international sales</strong> — more visibility means more traffic, more leads, and more revenue from global markets</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><ShieldCheck className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Long-term business growth</strong> — international SEO compounds over time, delivering increasing returns as you expand</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><ShieldCheck className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Long-term business growth</strong> — international SEO compounds over time, delivering increasing returns as you expand</span>
                 </li>
               </ul>
             </div>
@@ -210,10 +210,10 @@ export default function InternationalSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">What We Do</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our International SEO <span className="text-gradient">Services</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A complete international SEO service covering every aspect of global search optimization. From hreflang implementation to multi-language content, we handle it all.
           </p>
         </div>
@@ -230,12 +230,12 @@ export default function InternationalSEO() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {services.map((s, i) => (
             <div key={s.title} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-6 hover:bg-white/[0.06] transition-colors">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <div className="group h-full rounded-3xl bg-white p-6 hover:bg-slate-50 transition-colors">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <s.icon className="h-6 w-6" />
                 </div>
-                <h3 className="mt-4 text-base font-semibold text-white">{s.title}</h3>
-                <p className="mt-1.5 text-sm leading-relaxed text-slate-400">{s.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{s.title}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-ink-600">{s.desc}</p>
               </div>
             </div>
           ))}
@@ -248,10 +248,10 @@ export default function InternationalSEO() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">Global Targeting</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
               Countries We Help <span className="text-gradient">Target</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               We have helped businesses rank in countries around the world. Each market has unique search behavior, competition, and opportunities. Here are some of the countries we target:
             </p>
           </div>
@@ -268,10 +268,10 @@ export default function InternationalSEO() {
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {countries.map((c, i) => (
               <div key={c.name} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="group h-full rounded-3xl bg-white/[0.03] p-6 text-center hover:bg-white/[0.06] transition-colors">
+                <div className="group h-full rounded-3xl bg-white p-6 text-center hover:bg-slate-50 transition-colors">
                   <div className="text-4xl">{c.flag}</div>
-                  <h3 className="mt-4 text-base font-semibold text-white">{c.name}</h3>
-                  <p className="mt-2 text-xs leading-relaxed text-slate-400">{c.desc}</p>
+                  <h3 className="mt-4 text-base font-semibold text-ink-950">{c.name}</h3>
+                  <p className="mt-2 text-xs leading-relaxed text-ink-600">{c.desc}</p>
                 </div>
               </div>
             ))}
@@ -283,10 +283,10 @@ export default function InternationalSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">How It Works</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our International SEO <span className="text-gradient">Process</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A proven 8-step process that takes your business from domestic to global, one country at a time.
           </p>
         </div>
@@ -303,10 +303,10 @@ export default function InternationalSEO() {
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {process.map((p, i) => (
             <div key={p.step} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="rounded-3xl bg-white/[0.03] p-7">
-                <div className="font-display text-4xl font-bold text-white/10">{p.step}</div>
-                <h3 className="mt-2 text-lg font-semibold text-white">{p.title}</h3>
-                <p className="mt-2 text-sm text-slate-400 leading-relaxed">{p.desc}</p>
+              <div className="rounded-3xl bg-white p-7">
+                <div className="font-display text-4xl font-bold text-ink-950/10">{p.step}</div>
+                <h3 className="mt-2 text-lg font-semibold text-ink-950">{p.title}</h3>
+                <p className="mt-2 text-sm text-ink-600 leading-relaxed">{p.desc}</p>
               </div>
             </div>
           ))}
@@ -330,8 +330,8 @@ export default function InternationalSEO() {
             </div>
             <div className="reveal reveal-delay-2">
               <span className="eyebrow">Why Us</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Choose Rank Flow Agency</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Choose Rank Flow Agency</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 We are an <strong>international SEO agency</strong> that understands global search. We have helped businesses rank in countries across the world, from the US to Singapore. Here is why companies choose us for <strong>worldwide SEO</strong>:
               </p>
               <ul className="mt-6 space-y-4">
@@ -341,8 +341,8 @@ export default function InternationalSEO() {
                       <Check className="h-4 w-4" />
                     </span>
                     <div>
-                      <span className="font-semibold text-white">{w.title}</span>
-                      <p className="mt-0.5 text-sm text-slate-400">{w.desc}</p>
+                      <span className="font-semibold text-ink-950">{w.title}</span>
+                      <p className="mt-0.5 text-sm text-ink-600">{w.desc}</p>
                     </div>
                   </li>
                 ))}
@@ -359,10 +359,10 @@ export default function InternationalSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">FAQ</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl reveal reveal-delay-1">
             International SEO <span className="text-gradient">Questions</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             Answers to the most common questions about international SEO and how it helps your business reach global customers.
           </p>
         </div>
@@ -376,14 +376,14 @@ export default function InternationalSEO() {
       {/* STRONG CTA */}
       <section className="container-x py-24">
         <div className="grad-border relative overflow-hidden rounded-3xl">
-          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-16 text-center sm:px-16">
+          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-slate-50 px-6 py-16 text-center sm:px-16">
             <div className="blob -left-10 top-0 h-64 w-64 bg-brand-500/30" />
             <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-500/20" />
             <div className="relative">
-              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal">
+              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal">
                 Ready to Reach Customers Around the World?
               </h2>
-              <p className="mx-auto mt-4 max-w-xl text-lg text-slate-300 reveal reveal-delay-1">
+              <p className="mx-auto mt-4 max-w-xl text-lg text-ink-600 reveal reveal-delay-1">
                 Request a free international SEO consultation today. We will analyze your website, identify global growth opportunities, and show you exactly how to rank in your target countries. No obligation, just a clear path to worldwide growth.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
@@ -404,13 +404,13 @@ export default function InternationalSEO() {
 
 function Breadcrumbs() {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+    <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-600" aria-label="Breadcrumb">
       {crumbs.map((item, i) => (
         <span key={item.path} className="flex items-center gap-2">
-          {i > 0 && <span className="text-slate-600">/</span>}
+          {i > 0 && <span className="text-ink-600">/</span>}
           <button
             onClick={() => navigate(item.path)}
-            className={i === crumbs.length - 1 ? 'text-white' : 'hover:text-brand-300'}
+            className={i === crumbs.length - 1 ? 'text-ink-950' : 'hover:text-brand-600'}
           >
             {item.name}
           </button>

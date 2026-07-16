@@ -90,10 +90,10 @@ export default function GuestPosting() {
             <div>
               <Breadcrumbs />
               <span className="eyebrow mt-6 reveal">Guest Posting Services</span>
-              <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl reveal reveal-delay-1">
+              <h1 className="mt-5 text-4xl font-bold leading-tight text-ink-950 sm:text-5xl md:text-6xl reveal reveal-delay-1">
                 High-Quality Guest Posting Services That Build Authority & <span className="text-gradient">Improve Rankings</span>
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">
                 Backlinks remain one of Google's top ranking factors. But not all links are created equal. Our guest posting service earns you high-quality, niche-relevant backlinks from real authority websites — the kind that move rankings and keep them there.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
@@ -124,8 +124,8 @@ export default function GuestPosting() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">The Basics</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">What Is Guest Posting?</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">What Is Guest Posting?</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 Guest posting is the practice of writing and publishing an article on another website in your industry, with a link back to your own site embedded within the content. It is one of the most effective and Google-approved ways to build high-quality backlinks.
               </p>
@@ -170,34 +170,34 @@ export default function GuestPosting() {
             </div>
             <div className="order-1 lg:order-2 reveal">
               <span className="eyebrow">The Impact</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Guest Posting Matters</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Guest Posting Matters</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 Backlinks are still one of the strongest ranking signals Google uses. But earning them the right way — through quality content on real websites — is what separates lasting SEO growth from risky shortcuts. Here is what guest posting delivers:
               </p>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Link2 className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>High-quality backlinks</strong> — each guest post earns a contextual, DoFollow link from a real, authoritative website</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Link2 className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>High-quality backlinks</strong> — each guest post earns a contextual, DoFollow link from a real, authoritative website</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><TrendingUp className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Better Google rankings</strong> — quality backlinks are a direct ranking factor that lifts your position in search results</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><TrendingUp className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Better Google rankings</strong> — quality backlinks are a direct ranking factor that lifts your position in search results</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Award className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Increased domain authority</strong> — links from high-DA sites pass authority to your domain, raising your overall SEO strength</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Award className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Increased domain authority</strong> — links from high-DA sites pass authority to your domain, raising your overall SEO strength</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Search className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>More organic traffic</strong> — higher rankings bring more visitors who are actively searching for what you offer</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Search className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>More organic traffic</strong> — higher rankings bring more visitors who are actively searching for what you offer</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Users className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Brand exposure</strong> — your content reaches new audiences on established websites, building awareness and credibility</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Users className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Brand exposure</strong> — your content reaches new audiences on established websites, building awareness and credibility</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Check className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Long-term SEO growth</strong> — unlike paid ads, quality backlinks compound over time and keep delivering value for years</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Check className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Long-term SEO growth</strong> — unlike paid ads, quality backlinks compound over time and keep delivering value for years</span>
                 </li>
               </ul>
             </div>
@@ -209,10 +209,10 @@ export default function GuestPosting() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">What We Do</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our Guest Posting <span className="text-gradient">Services</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A complete authority link building programme covering every element needed to build a powerful, natural backlink profile.
           </p>
         </div>
@@ -229,12 +229,12 @@ export default function GuestPosting() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s, i) => (
             <div key={s.title} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-7 hover:bg-white/[0.06] transition-colors">
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <div className="group h-full rounded-3xl bg-white p-7 hover:bg-slate-50 transition-colors">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <s.icon className="h-7 w-7" />
                 </div>
-                <h3 className="mt-5 text-lg font-semibold text-white">{s.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-slate-400">{s.desc}</p>
+                <h3 className="mt-5 text-lg font-semibold text-ink-950">{s.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-600">{s.desc}</p>
               </div>
             </div>
           ))}
@@ -248,8 +248,8 @@ export default function GuestPosting() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Manual Outreach</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Manual Outreach</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   The difference between a quality backlink and a worthless one comes down to how it was acquired. Automated link building tools and link networks produce links that Google can spot — and penalize. <strong>Manual outreach</strong> produces links that are genuine, safe, and powerful.
                 </p>
@@ -290,8 +290,8 @@ export default function GuestPosting() {
           </div>
           <div className="order-1 lg:order-2 reveal">
             <span className="eyebrow">Core Service</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">High Authority Websites</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">High Authority Websites</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 Not all backlinks are equal. A link from a high-DA website with real traffic passes far more authority than a link from a low-quality directory. That is why we focus on securing placements on <strong>high DA websites</strong> that actually move your rankings.
               </p>
@@ -313,8 +313,8 @@ export default function GuestPosting() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Content Writing Included</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Content Writing Included</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   Every guest post needs great content. Website owners and editors only publish articles that are valuable, well-written, and relevant to their audience. That is why content quality is at the heart of our guest posting service.
                 </p>
@@ -344,10 +344,10 @@ export default function GuestPosting() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">Who We Help</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Industries We <span className="text-gradient">Serve</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             We have relationships with authoritative websites across virtually every industry — so your guest posts are always placed on topically relevant sites.
           </p>
         </div>
@@ -364,10 +364,10 @@ export default function GuestPosting() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {industries.map((ind, i) => (
             <div key={ind.name} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-6 text-center hover:bg-white/[0.06] transition-colors">
+              <div className="group h-full rounded-3xl bg-white p-6 text-center hover:bg-slate-50 transition-colors">
                 <div className="text-4xl">{ind.icon}</div>
-                <h3 className="mt-4 text-base font-semibold text-white">{ind.name}</h3>
-                <p className="mt-2 text-xs leading-relaxed text-slate-400">{ind.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{ind.name}</h3>
+                <p className="mt-2 text-xs leading-relaxed text-ink-600">{ind.desc}</p>
               </div>
             </div>
           ))}
@@ -380,10 +380,10 @@ export default function GuestPosting() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">How It Works</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
               Our Guest Posting <span className="text-gradient">Process</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               A proven 8-step framework that takes your link building campaign from research to live publication with full transparency.
             </p>
           </div>
@@ -400,10 +400,10 @@ export default function GuestPosting() {
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {process.map((p, i) => (
               <div key={p.step} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="rounded-3xl bg-white/[0.03] p-7">
-                  <div className="font-display text-4xl font-bold text-white/10">{p.step}</div>
-                  <h3 className="mt-2 text-lg font-semibold text-white">{p.title}</h3>
-                  <p className="mt-2 text-sm text-slate-400 leading-relaxed">{p.desc}</p>
+                <div className="rounded-3xl bg-white p-7">
+                  <div className="font-display text-4xl font-bold text-ink-950/10">{p.step}</div>
+                  <h3 className="mt-2 text-lg font-semibold text-ink-950">{p.title}</h3>
+                  <p className="mt-2 text-sm text-ink-600 leading-relaxed">{p.desc}</p>
                 </div>
               </div>
             ))}
@@ -426,8 +426,8 @@ export default function GuestPosting() {
           </div>
           <div className="reveal reveal-delay-2">
             <span className="eyebrow">Why Us</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Choose Rank Flow Agency</h2>
-            <p className="mt-4 text-slate-400 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Choose Rank Flow Agency</h2>
+            <p className="mt-4 text-ink-600 leading-relaxed">
               We are not a link marketplace. We are a <strong>guest posting agency</strong> that builds real relationships with real websites — earning links that are safe, powerful, and built to last.
             </p>
             <ul className="mt-6 space-y-4">
@@ -437,8 +437,8 @@ export default function GuestPosting() {
                     <Check className="h-4 w-4" />
                   </span>
                   <div>
-                    <span className="font-semibold text-white">{w.title}</span>
-                    <p className="mt-0.5 text-sm text-slate-400">{w.desc}</p>
+                    <span className="font-semibold text-ink-950">{w.title}</span>
+                    <p className="mt-0.5 text-sm text-ink-600">{w.desc}</p>
                   </div>
                 </li>
               ))}
@@ -454,10 +454,10 @@ export default function GuestPosting() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">FAQ</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl reveal reveal-delay-1">
             Guest Posting <span className="text-gradient">Questions</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             Answers to the most common questions about guest posting and how authority backlinks improve your SEO.
           </p>
         </div>
@@ -471,14 +471,14 @@ export default function GuestPosting() {
       {/* STRONG CTA */}
       <section className="container-x py-24">
         <div className="grad-border relative overflow-hidden rounded-3xl">
-          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-16 text-center sm:px-16">
+          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-slate-50 px-6 py-16 text-center sm:px-16">
             <div className="blob -left-10 top-0 h-64 w-64 bg-brand-500/30" />
             <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-500/20" />
             <div className="relative">
-              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal">
+              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal">
                 Ready to Build Authority That Lasts?
               </h2>
-              <p className="mx-auto mt-4 max-w-xl text-lg text-slate-300 reveal reveal-delay-1">
+              <p className="mx-auto mt-4 max-w-xl text-lg text-ink-600 reveal reveal-delay-1">
                 Get a free guest posting consultation today. We will analyze your backlink profile, research your competitors\' links, and build a custom link building campaign to improve your rankings. No obligation, just clarity.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
@@ -499,13 +499,13 @@ export default function GuestPosting() {
 
 function Breadcrumbs() {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+    <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-600" aria-label="Breadcrumb">
       {crumbs.map((item, i) => (
         <span key={item.path} className="flex items-center gap-2">
-          {i > 0 && <span className="text-slate-600">/</span>}
+          {i > 0 && <span className="text-ink-600">/</span>}
           <button
             onClick={() => navigate(item.path)}
-            className={i === crumbs.length - 1 ? 'text-white' : 'hover:text-brand-300'}
+            className={i === crumbs.length - 1 ? 'text-ink-950' : 'hover:text-brand-600'}
           >
             {item.name}
           </button>

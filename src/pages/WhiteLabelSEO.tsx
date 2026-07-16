@@ -88,10 +88,10 @@ export default function WhiteLabelSEO() {
             <div>
               <Breadcrumbs />
               <span className="eyebrow mt-6 reveal">White Label SEO Services</span>
-              <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl reveal reveal-delay-1">
+              <h1 className="mt-5 text-4xl font-bold leading-tight text-ink-950 sm:text-5xl md:text-6xl reveal reveal-delay-1">
                 White Label SEO Services for Agencies That Want to <span className="text-gradient">Scale</span>
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">
                 You run the client relationships. We run the <strong>SEO outsourcing</strong>. Our <strong>white label SEO services</strong> give your agency a full SEO team without the hiring costs. We do the work, you put your brand on the reports, and your clients never know we exist. Scale faster, deliver better results, and increase your agency revenue.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
@@ -122,8 +122,8 @@ export default function WhiteLabelSEO() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">The Basics</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">What Is White Label SEO?</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">What Is White Label SEO?</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 <strong>White label SEO</strong> is a partnership where our team does all the SEO work for your clients, but everything is delivered under your brand name. Your clients see your logo on the reports, your name on the emails, and your agency on the deliverables. They never know the work is outsourced.
               </p>
@@ -168,34 +168,34 @@ export default function WhiteLabelSEO() {
             </div>
             <div className="order-1 lg:order-2 reveal">
               <span className="eyebrow">The Impact</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Agencies Choose White Label SEO</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Agencies Choose White Label SEO</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 Hiring an in-house SEO team is expensive, slow, and risky. White label SEO gives you an experienced team on day one, without the overhead. Here is what it delivers for your agency:
               </p>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><TrendingUp className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Scale faster</strong> — add SEO services to your agency overnight without hiring or training</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><TrendingUp className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Scale faster</strong> — add SEO services to your agency overnight without hiring or training</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Briefcase className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Save hiring costs</strong> — no salaries, no benefits, no office space, no turnover risk</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Briefcase className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Save hiring costs</strong> — no salaries, no benefits, no office space, no turnover risk</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Users className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Expert SEO team</strong> — get experienced specialists who know what works across industries</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Users className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Expert SEO team</strong> — get experienced specialists who know what works across industries</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Award className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Deliver better results</strong> — your clients get better rankings and more traffic with expert work</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Award className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Deliver better results</strong> — your clients get better rankings and more traffic with expert work</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><ShieldCheck className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Keep your brand</strong> — everything is white labeled with your logo, colors, and domain</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><ShieldCheck className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Keep your brand</strong> — everything is white labeled with your logo, colors, and domain</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><BarChart3 className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Increase agency revenue</strong> — add a high-margin recurring service without increasing overhead</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><BarChart3 className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Increase agency revenue</strong> — add a high-margin recurring service without increasing overhead</span>
                 </li>
               </ul>
             </div>
@@ -207,10 +207,10 @@ export default function WhiteLabelSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">What We Do</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our White Label SEO <span className="text-gradient">Services</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A complete white label SEO service covering every aspect of search engine optimization. Offer all of these to your clients without hiring a single in-house specialist.
           </p>
         </div>
@@ -227,12 +227,12 @@ export default function WhiteLabelSEO() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {services.map((s, i) => (
             <div key={s.title} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-6 hover:bg-white/[0.06] transition-colors">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <div className="group h-full rounded-3xl bg-white p-6 hover:bg-slate-50 transition-colors">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <s.icon className="h-6 w-6" />
                 </div>
-                <h3 className="mt-4 text-base font-semibold text-white">{s.title}</h3>
-                <p className="mt-1.5 text-sm leading-relaxed text-slate-400">{s.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{s.title}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-ink-600">{s.desc}</p>
               </div>
             </div>
           ))}
@@ -246,8 +246,8 @@ export default function WhiteLabelSEO() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">White Label Link Building</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">White Label Link Building</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   <strong>White label link building</strong> is one of our most popular services for agencies. We build high authority backlinks for your clients through manual outreach, guest posting, and digital PR. Every link is white hat, placed on real websites with genuine traffic.
                 </p>
@@ -288,8 +288,8 @@ export default function WhiteLabelSEO() {
           </div>
           <div className="order-1 lg:order-2 reveal">
             <span className="eyebrow">Core Service</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">White Label Content Writing</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">White Label Content Writing</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 <strong>White label content writing</strong> gives your clients SEO-optimized content without you having to hire writers. We create blog posts, product descriptions, landing page copy, and long-form articles that rank on Google and convert visitors into customers.
               </p>
@@ -310,10 +310,10 @@ export default function WhiteLabelSEO() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">Who You Can Serve</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
               Industries Your Agency Can <span className="text-gradient">Serve</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               With our white label SEO services, your agency can serve clients across dozens of industries. We have the expertise to deliver results in each niche.
             </p>
           </div>
@@ -330,10 +330,10 @@ export default function WhiteLabelSEO() {
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {industries.map((ind, i) => (
               <div key={ind.name} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="group h-full rounded-3xl bg-white/[0.03] p-6 text-center hover:bg-white/[0.06] transition-colors">
+                <div className="group h-full rounded-3xl bg-white p-6 text-center hover:bg-slate-50 transition-colors">
                   <div className="text-4xl">{ind.icon}</div>
-                  <h3 className="mt-4 text-base font-semibold text-white">{ind.name}</h3>
-                  <p className="mt-2 text-xs leading-relaxed text-slate-400">{ind.desc}</p>
+                  <h3 className="mt-4 text-base font-semibold text-ink-950">{ind.name}</h3>
+                  <p className="mt-2 text-xs leading-relaxed text-ink-600">{ind.desc}</p>
                 </div>
               </div>
             ))}
@@ -345,10 +345,10 @@ export default function WhiteLabelSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">How It Works</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our White Label <span className="text-gradient">Process</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A simple 6-step process that makes white label SEO seamless for your agency and your clients.
           </p>
         </div>
@@ -365,10 +365,10 @@ export default function WhiteLabelSEO() {
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {process.map((p, i) => (
             <div key={p.step} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="rounded-3xl bg-white/[0.03] p-7">
-                <div className="font-display text-4xl font-bold text-white/10">{p.step}</div>
-                <h3 className="mt-2 text-lg font-semibold text-white">{p.title}</h3>
-                <p className="mt-2 text-sm text-slate-400 leading-relaxed">{p.desc}</p>
+              <div className="rounded-3xl bg-white p-7">
+                <div className="font-display text-4xl font-bold text-ink-950/10">{p.step}</div>
+                <h3 className="mt-2 text-lg font-semibold text-ink-950">{p.title}</h3>
+                <p className="mt-2 text-sm text-ink-600 leading-relaxed">{p.desc}</p>
               </div>
             </div>
           ))}
@@ -392,8 +392,8 @@ export default function WhiteLabelSEO() {
             </div>
             <div className="reveal reveal-delay-2">
               <span className="eyebrow">Why Us</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Partner With Rank Flow Agency</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Partner With Rank Flow Agency</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 We are a <strong>white label SEO agency</strong> that treats your clients like our own. We work behind the scenes, deliver under your brand, and help you grow your agency revenue. Here is why agencies partner with us:
               </p>
               <ul className="mt-6 space-y-4">
@@ -403,8 +403,8 @@ export default function WhiteLabelSEO() {
                       <Check className="h-4 w-4" />
                     </span>
                     <div>
-                      <span className="font-semibold text-white">{w.title}</span>
-                      <p className="mt-0.5 text-sm text-slate-400">{w.desc}</p>
+                      <span className="font-semibold text-ink-950">{w.title}</span>
+                      <p className="mt-0.5 text-sm text-ink-600">{w.desc}</p>
                     </div>
                   </li>
                 ))}
@@ -421,10 +421,10 @@ export default function WhiteLabelSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">FAQ</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl reveal reveal-delay-1">
             White Label SEO <span className="text-gradient">Questions</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             Answers to the most common questions about white label SEO and how it works for agencies.
           </p>
         </div>
@@ -438,14 +438,14 @@ export default function WhiteLabelSEO() {
       {/* STRONG CTA */}
       <section className="container-x py-24">
         <div className="grad-border relative overflow-hidden rounded-3xl">
-          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-16 text-center sm:px-16">
+          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-slate-50 px-6 py-16 text-center sm:px-16">
             <div className="blob -left-10 top-0 h-64 w-64 bg-brand-500/30" />
             <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-500/20" />
             <div className="relative">
-              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal">
+              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal">
                 Ready to Scale Your Agency With White Label SEO?
               </h2>
-              <p className="mx-auto mt-4 max-w-xl text-lg text-slate-300 reveal reveal-delay-1">
+              <p className="mx-auto mt-4 max-w-xl text-lg text-ink-600 reveal reveal-delay-1">
                 Book a free strategy call today. We will learn about your agency, your clients, and your goals, then show you exactly how our <strong>SEO reseller services</strong> can help you scale faster, deliver better results, and increase your revenue. No obligation, no pressure.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
@@ -466,13 +466,13 @@ export default function WhiteLabelSEO() {
 
 function Breadcrumbs() {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+    <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-600" aria-label="Breadcrumb">
       {crumbs.map((item, i) => (
         <span key={item.path} className="flex items-center gap-2">
-          {i > 0 && <span className="text-slate-600">/</span>}
+          {i > 0 && <span className="text-ink-600">/</span>}
           <button
             onClick={() => navigate(item.path)}
-            className={i === crumbs.length - 1 ? 'text-white' : 'hover:text-brand-300'}
+            className={i === crumbs.length - 1 ? 'text-ink-950' : 'hover:text-brand-600'}
           >
             {item.name}
           </button>

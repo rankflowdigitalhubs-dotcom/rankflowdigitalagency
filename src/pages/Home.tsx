@@ -31,11 +31,11 @@ export default function Home() {
             <span className="eyebrow reveal animate-fade-in">
               <Sparkles className="h-3.5 w-3.5" /> Premium SEO & Digital Marketing
             </span>
-            <h1 className="mt-6 text-4xl font-bold leading-[1.05] text-white sm:text-6xl md:text-7xl reveal reveal-delay-1">
+            <h1 className="mt-6 text-4xl font-bold leading-[1.05] text-ink-950 sm:text-6xl md:text-7xl reveal reveal-delay-1">
               Rank higher. <span className="text-gradient">Grow faster.</span>
               <br /> Convert more visitors into clients.
             </h1>
-            <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-300 reveal reveal-delay-2">
+            <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">
               We are Rank Flow Digital — a data-driven SEO agency that turns search traffic into revenue.
               White-hat strategies, transparent reporting, and results that compound month over month.
             </p>
@@ -47,10 +47,10 @@ export default function Home() {
                 Book a Consultation
               </button>
             </div>
-            <div className="mt-8 flex items-center justify-center gap-2 text-sm text-slate-400 reveal reveal-delay-4">
+            <div className="mt-8 flex items-center justify-center gap-2 text-sm text-ink-600 reveal reveal-delay-4">
               <div className="flex -space-x-2">
                 {[733872, 774909, 614810, 415829].map((id) => (
-                  <img key={id} src={`https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=80`} alt="Client" className="h-8 w-8 rounded-full border-2 border-ink-950 object-cover" />
+                  <img key={id} src={`https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=80`} alt="Client" className="h-8 w-8 rounded-full border-2 border-white object-cover" />
                 ))}
               </div>
               <div className="flex text-amber-400">
@@ -64,14 +64,14 @@ export default function Home() {
           <Parallax strength={30}>
             <div className="mx-auto mt-16 max-w-5xl reveal reveal-delay-3">
               <div className="grad-border rounded-3xl">
-                <div className="rounded-3xl bg-ink-900/80 p-2 backdrop-blur-xl">
-                  <div className="rounded-2xl bg-gradient-to-br from-ink-800 to-ink-900 p-6 sm:p-8">
+                <div className="rounded-3xl bg-slate-50/80 p-2 backdrop-blur-xl">
+                  <div className="rounded-2xl bg-gradient-to-br from-ink-800 to-slate-50 p-6 sm:p-8">
                     <div className="flex items-center justify-between">
                       <div>
-                        <div className="text-xs uppercase tracking-wider text-slate-400">Organic Traffic</div>
-                        <div className="mt-1 font-display text-3xl font-bold text-white">+412%</div>
+                        <div className="text-xs uppercase tracking-wider text-ink-600">Organic Traffic</div>
+                        <div className="mt-1 font-display text-3xl font-bold text-ink-950">+412%</div>
                       </div>
-                      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-500/20 text-brand-300">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-500/20 text-brand-600">
                         <TrendingUp className="h-6 w-6" />
                       </div>
                     </div>
@@ -80,11 +80,11 @@ export default function Home() {
                         <div key={i} className="flex-1 rounded-t-md bg-gradient-to-t from-brand-700 to-brand-400 transition-all duration-700 hover:from-brand-500 hover:to-accent-400" style={{ height: `${h}%` }} />
                       ))}
                     </div>
-                    <div className="mt-6 grid grid-cols-3 gap-4 border-t border-white/10 pt-5">
+                    <div className="mt-6 grid grid-cols-3 gap-4 border-t border-slate-200 pt-5">
                       {[['Keywords', '8,400+'], ['Backlinks', '12.4k'], ['Domain Rating', '68']].map(([k, v]) => (
                         <div key={k}>
-                          <div className="text-xs text-slate-400">{k}</div>
-                          <div className="mt-1 font-display text-lg font-semibold text-white">{v}</div>
+                          <div className="text-xs text-ink-600">{k}</div>
+                          <div className="mt-1 font-display text-lg font-semibold text-ink-950">{v}</div>
                         </div>
                       ))}
                     </div>
@@ -99,7 +99,7 @@ export default function Home() {
       {/* STATS */}
       <section className="container-x py-20">
         <div className="grad-border rounded-3xl">
-          <div className="grid grid-cols-2 gap-8 rounded-3xl bg-ink-900/60 p-10 backdrop-blur-xl lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-8 rounded-3xl bg-slate-50/60 p-10 backdrop-blur-xl lg:grid-cols-4">
             {stats.map((s) => <Counter key={s.label} {...s} />)}
           </div>
         </div>
@@ -108,11 +108,11 @@ export default function Home() {
       {/* CLIENT LOGOS */}
       <section className="py-12">
         <div className="container-x">
-          <p className="text-center text-sm uppercase tracking-[0.25em] text-slate-500">Trusted by ambitious brands worldwide</p>
+          <p className="text-center text-sm uppercase tracking-[0.25em] text-ink-600">Trusted by ambitious brands worldwide</p>
           <div className="mask-fade-x mt-8 overflow-hidden">
             <div className="marquee-track gap-12">
               {[...clientLogos, ...clientLogos].map((logo, i) => (
-                <div key={i} className="flex items-center gap-2 px-4 text-2xl font-display font-semibold text-slate-500 transition-colors hover:text-white">
+                <div key={i} className="flex items-center gap-2 px-4 text-2xl font-display font-semibold text-ink-600 transition-colors hover:text-ink-950">
                   <span className="h-2 w-2 rounded-full bg-brand-500/60" /> {logo}
                 </div>
               ))}
@@ -131,13 +131,13 @@ export default function Home() {
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s, i) => (
             <div key={s.slug} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <Link to={`/${s.slug}/`} className="group flex h-full flex-col rounded-3xl bg-white/[0.03] p-7 hover:bg-white/[0.06]">
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <Link to={`/${s.slug}/`} className="group flex h-full flex-col rounded-3xl bg-white p-7 hover:bg-slate-50">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <s.icon className="h-7 w-7" />
                 </div>
-                <h3 className="mt-5 text-xl font-semibold text-white">{s.title}</h3>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-slate-400">{s.short}</p>
-                <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-300">
+                <h3 className="mt-5 text-xl font-semibold text-ink-950">{s.title}</h3>
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-600">{s.short}</p>
+                <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-600">
                   Learn More <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </span>
               </Link>
@@ -158,11 +158,11 @@ export default function Home() {
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {whyChooseUs.map((w, i) => (
               <div key={w.title} className={`glass lift p-7 reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-500/15 text-brand-300">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-500/15 text-brand-600">
                   <Check className="h-6 w-6" />
                 </div>
-                <h3 className="mt-5 text-lg font-semibold text-white">{w.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-slate-400">{w.desc}</p>
+                <h3 className="mt-5 text-lg font-semibold text-ink-950">{w.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-600">{w.desc}</p>
               </div>
             ))}
           </div>
@@ -179,10 +179,10 @@ export default function Home() {
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {processSteps.map((p, i) => (
             <div key={p.title} className={`grad-border lift reveal reveal-delay-${(i % 4) + 1}`}>
-              <div className="relative rounded-3xl bg-white/[0.03] p-7">
-                <div className="font-display text-5xl font-bold text-white/10">0{i + 1}</div>
-                <h3 className="mt-2 text-lg font-semibold text-white">{p.title}</h3>
-                <p className="mt-2 text-sm text-slate-400">{p.desc}</p>
+              <div className="relative rounded-3xl bg-white p-7">
+                <div className="font-display text-5xl font-bold text-ink-950/10">0{i + 1}</div>
+                <h3 className="mt-2 text-lg font-semibold text-ink-950">{p.title}</h3>
+                <p className="mt-2 text-sm text-ink-600">{p.desc}</p>
                 {i < processSteps.length - 1 && (
                   <div className="absolute -right-2 top-1/2 hidden h-px w-4 bg-brand-500/40 lg:block" />
                 )}
@@ -209,13 +209,13 @@ export default function Home() {
               <div className="overflow-hidden rounded-3xl">
                 <div className="relative h-52 overflow-hidden rounded-t-3xl">
                   <img src={c.img} alt={`${c.client} SEO results`} className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-110" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/40 to-transparent" />
-                  <span className="absolute left-4 top-4 rounded-full bg-brand-500/90 px-3 py-1 text-xs font-semibold text-white">{c.industry}</span>
+                  <div className="absolute inset-0 bg-gradient-to-t from-white via-slate-50/40 to-transparent" />
+                  <span className="absolute left-4 top-4 rounded-full bg-brand-500/90 px-3 py-1 text-xs font-semibold text-ink-950">{c.industry}</span>
                 </div>
-                <div className="rounded-b-3xl bg-white/[0.03] p-6">
-                  <h3 className="text-lg font-semibold text-white">{c.client}</h3>
-                  <p className="mt-1 text-sm text-slate-400">{c.summary}</p>
-                  <div className="mt-4 flex items-center gap-2 text-sm font-semibold text-brand-300">
+                <div className="rounded-b-3xl bg-white p-6">
+                  <h3 className="text-lg font-semibold text-ink-950">{c.client}</h3>
+                  <p className="mt-1 text-sm text-ink-600">{c.summary}</p>
+                  <div className="mt-4 flex items-center gap-2 text-sm font-semibold text-brand-600">
                     <TrendingUp className="h-4 w-4" /> {c.result}
                   </div>
                 </div>
@@ -238,12 +238,12 @@ export default function Home() {
             {testimonials.map((t, i) => (
               <div key={t.name} className={`glass lift p-7 reveal reveal-delay-${(i % 3) + 1}`}>
                 <Quote className="h-8 w-8 text-brand-400/60" />
-                <p className="mt-4 text-sm leading-relaxed text-slate-200">“{t.quote}”</p>
-                <div className="mt-5 flex items-center gap-3 border-t border-white/10 pt-5">
+                <p className="mt-4 text-sm leading-relaxed text-ink-700">“{t.quote}”</p>
+                <div className="mt-5 flex items-center gap-3 border-t border-slate-200 pt-5">
                   <img src={t.img} alt={t.name} className="h-11 w-11 rounded-full object-cover" />
                   <div>
-                    <div className="text-sm font-semibold text-white">{t.name}</div>
-                    <div className="text-xs text-slate-400">{t.role}</div>
+                    <div className="text-sm font-semibold text-ink-950">{t.name}</div>
+                    <div className="text-xs text-ink-600">{t.role}</div>
                   </div>
                   <div className="ml-auto flex text-amber-400">
                     {[...Array(t.rating)].map((_, j) => <Star key={j} className="h-4 w-4 fill-current" />)}

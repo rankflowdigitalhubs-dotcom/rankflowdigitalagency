@@ -32,7 +32,7 @@ const iconMap: Record<string, (p: { className?: string }) => JSX.Element> = {
   fiverr: FiverrIcon,
 };
 
-export function SocialIcons({ size = 'md' }: { size?: 'sm' | 'md' }) {
+export function SocialIcons({ size = 'md', variant = 'light' }: { size?: 'sm' | 'md'; variant?: 'light' | 'dark' }) {
   const dim = size === 'sm' ? 'h-4 w-4' : 'h-5 w-5';
   return (
     <div className="flex items-center gap-3">
@@ -45,7 +45,10 @@ export function SocialIcons({ size = 'md' }: { size?: 'sm' | 'md' }) {
             target="_blank"
             rel="noopener noreferrer"
             aria-label={s.name}
-            className="group flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:border-brand-400/50 hover:bg-brand-500/15 hover:text-white hover:shadow-glow-sm"
+            className={variant === 'dark'
+              ? 'group flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:border-brand-400/50 hover:bg-brand-500/15 hover:text-white'
+              : 'group flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 bg-white text-ink-600 transition-all duration-300 hover:-translate-y-1 hover:border-brand-300 hover:bg-brand-50 hover:text-brand-600 hover:shadow-glow-sm'
+            }
           >
             <Icon className={dim} />
           </a>
@@ -64,17 +67,17 @@ export function Loader() {
   }, []);
   if (done) return null;
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-ink-950">
+    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-white">
       <div className="relative flex flex-col items-center gap-6">
         <div className="relative h-20 w-20">
-          <div className="absolute inset-0 rounded-full border-2 border-brand-500/20" />
-          <div className="absolute inset-0 rounded-full border-2 border-transparent border-t-brand-400 animate-spin" />
+          <div className="absolute inset-0 rounded-full border-2 border-brand-100" />
+          <div className="absolute inset-0 rounded-full border-2 border-transparent border-t-brand-500 animate-spin" />
           <div className="absolute inset-2 rounded-full border-2 border-transparent border-b-accent-400 animate-spin-slow" />
           <div className="absolute inset-0 flex items-center justify-center">
             <span className="font-display text-xl font-bold text-gradient">RF</span>
           </div>
         </div>
-        <div className="h-1 w-44 overflow-hidden rounded-full bg-white/10">
+        <div className="h-1 w-44 overflow-hidden rounded-full bg-slate-100">
           <div className="h-full w-1/2 rounded-full bg-gradient-to-r from-brand-400 to-accent-400 animate-marquee" />
         </div>
       </div>
@@ -108,7 +111,7 @@ export function Cursor() {
   }, []);
   return (
     <>
-      <div ref={dot} className="pointer-events-none fixed left-0 top-0 z-[90] -ml-1 h-2 w-2 rounded-full bg-brand-400 mix-blend-difference" />
+      <div ref={dot} className="pointer-events-none fixed left-0 top-0 z-[90] -ml-1 h-2 w-2 rounded-full bg-brand-500 mix-blend-difference" />
       <div ref={ring} className="pointer-events-none fixed left-0 top-0 z-[90] -ml-4 h-8 w-8 rounded-full border border-brand-400/40 transition-[width,height,opacity] duration-200 hidden md:block" />
     </>
   );
@@ -138,7 +141,7 @@ export function Navbar() {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
-        scrolled ? 'bg-ink-950/80 backdrop-blur-xl border-b border-white/10 py-3' : 'py-5'
+        scrolled ? 'bg-white/90 backdrop-blur-xl border-b border-slate-200 shadow-sm py-3' : 'bg-transparent py-5'
       }`}
     >
       <nav className="container-x flex items-center justify-between">
@@ -147,7 +150,7 @@ export function Navbar() {
             <span className="font-display text-sm font-bold text-white">RF</span>
             <span className="absolute inset-0 rounded-xl ring-1 ring-white/20" />
           </span>
-          <span className="font-display text-lg font-semibold tracking-tight text-white">
+          <span className="font-display text-lg font-semibold tracking-tight text-ink-950">
             Rank<span className="text-gradient">Flow</span>
           </span>
         </Link>
@@ -160,25 +163,25 @@ export function Navbar() {
                 <button
                   className={`flex items-center gap-1 rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
                     isActive('/services') || path.match(/^\/(seo|local-seo|technical-seo|guest-posting|content-writing|logo-design|website-design|monthly-seo-management|link-building|shopify-seo|seo-audit|google-business-profile|ecommerce-seo|on-page-seo|off-page-seo|white-label-seo|international-seo|cro-services|website-maintenance-seo|enterprise-seo)/)
-                      ? 'text-white'
-                      : 'text-slate-300 hover:text-white'
+                      ? 'text-brand-600'
+                      : 'text-ink-700 hover:text-brand-600'
                   }`}
                 >
                   Services <ChevronDown className="h-4 w-4 transition-transform group-hover:rotate-180" />
                 </button>
                 <div className="invisible absolute left-1/2 top-full -translate-x-1/2 pt-3 opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   <div className="grad-border w-[34rem] rounded-2xl p-2">
-                    <div className="grid grid-cols-2 gap-1 rounded-2xl bg-ink-900/95 p-2">
+                    <div className="grid grid-cols-2 gap-1 rounded-2xl bg-white p-2">
                       {services.map((s) => (
                         <Link
                           key={s.slug}
                           to={`/${s.slug}/`}
-                          className="flex items-start gap-3 rounded-xl p-3 transition-colors hover:bg-white/5"
+                          className="flex items-start gap-3 rounded-xl p-3 transition-colors hover:bg-brand-50"
                         >
-                          <s.icon className="mt-0.5 h-5 w-5 shrink-0 text-brand-300" />
+                          <s.icon className="mt-0.5 h-5 w-5 shrink-0 text-brand-500" />
                           <div>
-                            <div className="text-sm font-semibold text-white">{s.title}</div>
-                            <div className="text-xs text-slate-400">{s.short}</div>
+                            <div className="text-sm font-semibold text-ink-950">{s.title}</div>
+                            <div className="text-xs text-ink-600">{s.short}</div>
                           </div>
                         </Link>
                       ))}
@@ -191,12 +194,12 @@ export function Navbar() {
                 key={l.path}
                 to={l.path}
                 className={`relative rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
-                  isActive(l.path) ? 'text-white' : 'text-slate-300 hover:text-white'
+                  isActive(l.path) ? 'text-brand-600' : 'text-ink-700 hover:text-brand-600'
                 }`}
               >
                 {l.label}
                 {isActive(l.path) && (
-                  <span className="absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full bg-gradient-to-r from-brand-400 to-accent-400" />
+                  <span className="absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full bg-gradient-to-r from-brand-500 to-brand-700" />
                 )}
               </Link>
             )
@@ -212,7 +215,7 @@ export function Navbar() {
 
         {/* Mobile toggle */}
         <button
-          className="rounded-lg p-2 text-white lg:hidden"
+          className="rounded-lg p-2 text-ink-950 lg:hidden"
           onClick={() => setOpen((o) => !o)}
           aria-label="Toggle menu"
         >
@@ -224,21 +227,21 @@ export function Navbar() {
       {open && (
         <div className="container-x mt-3 lg:hidden">
           <div className="grad-border rounded-2xl p-3">
-            <div className="rounded-2xl bg-ink-900/95 p-3">
+            <div className="rounded-2xl bg-white p-3">
               {navLinks.map((l) =>
                 l.label === 'Services' ? (
                   <div key={l.path}>
                     <button
                       onClick={() => setServicesOpen((o) => !o)}
-                      className="flex w-full items-center justify-between rounded-lg px-3 py-2.5 text-sm font-medium text-slate-200"
+                      className="flex w-full items-center justify-between rounded-lg px-3 py-2.5 text-sm font-medium text-ink-800"
                     >
                       Services <ChevronDown className={`h-4 w-4 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} />
                     </button>
                     {servicesOpen && (
-                      <div className="ml-3 border-l border-white/10 pl-3">
-                        <Link to="/services/" className="block rounded-lg px-3 py-2 text-sm text-slate-300">All Services</Link>
+                      <div className="ml-3 border-l border-slate-200 pl-3">
+                        <Link to="/services/" className="block rounded-lg px-3 py-2 text-sm text-ink-600">All Services</Link>
                         {services.map((s) => (
-                          <Link key={s.slug} to={`/${s.slug}/`} className="block rounded-lg px-3 py-2 text-sm text-slate-300">
+                          <Link key={s.slug} to={`/${s.slug}/`} className="block rounded-lg px-3 py-2 text-sm text-ink-600">
                             {s.title}
                           </Link>
                         ))}
@@ -246,7 +249,7 @@ export function Navbar() {
                     )}
                   </div>
                 ) : (
-                  <Link key={l.path} to={l.path} className="block rounded-lg px-3 py-2.5 text-sm font-medium text-slate-200">
+                  <Link key={l.path} to={l.path} className="block rounded-lg px-3 py-2.5 text-sm font-medium text-ink-800">
                     {l.label}
                   </Link>
                 )
@@ -282,10 +285,10 @@ export function BackToTop() {
   );
 }
 
-/* ---------------- Footer ---------------- */
+/* ---------------- Footer (dark) ---------------- */
 export function Footer() {
   return (
-    <footer className="relative mt-24 border-t border-white/10 bg-ink-950">
+    <footer className="relative mt-24 bg-ink-950">
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand-500/50 to-transparent" />
       <div className="container-x py-16">
         <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
@@ -313,7 +316,7 @@ export function Footer() {
               </div>
             </div>
             <div className="mt-6">
-              <SocialIcons />
+              <SocialIcons variant="dark" />
             </div>
           </div>
 
@@ -360,8 +363,8 @@ export function SectionHeading({ eyebrow, title, subtitle, center = true }: { ey
   return (
     <div className={`max-w-2xl ${center ? 'mx-auto text-center' : ''}`}>
       {eyebrow && <span className="eyebrow reveal">{eyebrow}</span>}
-      <h2 className="mt-4 text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">{title}</h2>
-      {subtitle && <p className="mt-4 text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">{subtitle}</p>}
+      <h2 className="mt-4 text-3xl font-bold leading-tight text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">{title}</h2>
+      {subtitle && <p className="mt-4 text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">{subtitle}</p>}
     </div>
   );
 }
@@ -370,21 +373,21 @@ export function CTASection({ title, subtitle }: { title?: string; subtitle?: str
   return (
     <section className="container-x py-24">
       <div className="grad-border relative overflow-hidden rounded-3xl">
-        <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-16 text-center sm:px-16">
-          <div className="blob -left-10 top-0 h-64 w-64 bg-brand-500/30" />
-          <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-500/20" />
+        <div className="relative rounded-3xl bg-gradient-to-br from-brand-600 to-brand-800 px-6 py-16 text-center sm:px-16">
+          <div className="blob -left-10 top-0 h-64 w-64 bg-white/10" />
+          <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-400/20" />
           <div className="relative">
             <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal">
               {title || 'Ready to grow your organic traffic?'}
             </h2>
-            <p className="mx-auto mt-4 max-w-xl text-lg text-slate-300 reveal reveal-delay-1">
+            <p className="mx-auto mt-4 max-w-xl text-lg text-brand-100 reveal reveal-delay-1">
               {subtitle || 'Get a free SEO audit and a custom growth plan. No obligation, just clarity.'}
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
               <button onClick={() => navigate('/contact/')} className="btn-glow">
                 Get Free SEO Audit <ArrowRight className="h-4 w-4" />
               </button>
-              <button onClick={() => navigate('/contact/')} className="btn-ghost">
+              <button onClick={() => navigate('/contact/')} className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/30 bg-white/10 px-6 py-3.5 font-semibold text-white backdrop-blur transition-all duration-300 hover:bg-white/20">
                 Book a Consultation
               </button>
             </div>
@@ -397,11 +400,11 @@ export function CTASection({ title, subtitle }: { title?: string; subtitle?: str
 
 export function Breadcrumbs({ items }: { items: { name: string; path: string }[] }) {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+    <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-600" aria-label="Breadcrumb">
       {items.map((item, i) => (
         <span key={item.path} className="flex items-center gap-2">
-          {i > 0 && <span className="text-slate-600">/</span>}
-          <Link to={item.path} className={i === items.length - 1 ? 'text-white' : 'hover:text-brand-300'}>{item.name}</Link>
+          {i > 0 && <span className="text-slate-300">/</span>}
+          <Link to={item.path} className={i === items.length - 1 ? 'text-ink-950 font-medium' : 'hover:text-brand-600'}>{item.name}</Link>
         </span>
       ))}
     </nav>
@@ -412,12 +415,12 @@ export function PageHero({ eyebrow, title, subtitle, breadcrumbs }: { eyebrow: s
   return (
     <section className="relative overflow-hidden pt-36 pb-16">
       <div className="absolute inset-0 bg-radial-glow" />
-      <div className="blob left-1/4 top-10 h-72 w-72 bg-brand-500/20" />
+      <div className="blob left-1/4 top-10 h-72 w-72 bg-brand-500/15" />
       <div className="container-x relative">
         <Breadcrumbs items={breadcrumbs} />
         <span className="eyebrow mt-6 reveal">{eyebrow}</span>
-        <h1 className="mt-5 max-w-3xl text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl reveal reveal-delay-1">{title}</h1>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">{subtitle}</p>
+        <h1 className="mt-5 max-w-3xl text-4xl font-bold leading-tight text-ink-950 sm:text-5xl md:text-6xl reveal reveal-delay-1">{title}</h1>
+        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">{subtitle}</p>
       </div>
     </section>
   );
@@ -453,10 +456,10 @@ export function Counter({ value, suffix, label }: { value: number; suffix: strin
   const formatted = n >= 1000 ? n.toLocaleString() : n;
   return (
     <div ref={ref} className="text-center">
-      <div className="font-display text-4xl font-bold text-white sm:text-5xl">
+      <div className="font-display text-4xl font-bold text-ink-950 sm:text-5xl">
         {formatted}<span className="text-gradient">{suffix}</span>
       </div>
-      <div className="mt-2 text-sm uppercase tracking-wider text-slate-400">{label}</div>
+      <div className="mt-2 text-sm uppercase tracking-wider text-ink-600">{label}</div>
     </div>
   );
 }
@@ -470,14 +473,14 @@ export function FAQList({ faqs }: { faqs: { q: string; a: string }[] }) {
         <div key={i} className="grad-border rounded-2xl">
           <button
             onClick={() => setOpen(open === i ? null : i)}
-            className="flex w-full items-center justify-between gap-4 rounded-2xl bg-white/[0.03] p-5 text-left"
+            className="flex w-full items-center justify-between gap-4 rounded-2xl bg-white p-5 text-left"
           >
-            <span className="font-semibold text-white">{f.q}</span>
-            <ChevronDown className={`h-5 w-5 shrink-0 text-brand-300 transition-transform ${open === i ? 'rotate-180' : ''}`} />
+            <span className="font-semibold text-ink-950">{f.q}</span>
+            <ChevronDown className={`h-5 w-5 shrink-0 text-brand-500 transition-transform ${open === i ? 'rotate-180' : ''}`} />
           </button>
           <div className={`grid transition-all duration-300 ${open === i ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}>
             <div className="overflow-hidden">
-              <p className="px-5 pb-5 text-slate-400">{f.a}</p>
+              <p className="px-5 pb-5 text-ink-600">{f.a}</p>
             </div>
           </div>
         </div>
@@ -496,11 +499,11 @@ export function ContactForm() {
   if (sent) {
     return (
       <div className="grad-border rounded-3xl p-10 text-center">
-        <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-brand-500/20 text-brand-300">
+        <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-brand-50 text-brand-600">
           <ArrowRight className="h-6 w-6" />
         </div>
-        <h3 className="mt-5 text-2xl font-bold text-white">Thank you!</h3>
-        <p className="mt-2 text-slate-400">We’ve received your message and will reply within one business day.</p>
+        <h3 className="mt-5 text-2xl font-bold text-ink-950">Thank you!</h3>
+        <p className="mt-2 text-ink-600">We've received your message and will reply within one business day.</p>
         <button onClick={() => setSent(false)} className="btn-ghost mt-6">Send another</button>
       </div>
     );
@@ -514,15 +517,15 @@ export function ContactForm() {
         <Field label="Website" name="website" placeholder="https://" />
       </div>
       <div className="mt-5">
-        <label className="mb-2 block text-sm font-medium text-slate-300">Service of Interest</label>
-        <select className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white outline-none focus:border-brand-400">
-          {services.map((s) => <option key={s.slug} className="bg-ink-900">{s.title}</option>)}
-          <option className="bg-ink-900">Other</option>
+        <label className="mb-2 block text-sm font-medium text-ink-700">Service of Interest</label>
+        <select className="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-ink-900 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-200">
+          {services.map((s) => <option key={s.slug}>{s.title}</option>)}
+          <option>Other</option>
         </select>
       </div>
       <div className="mt-5">
-        <label className="mb-2 block text-sm font-medium text-slate-300">Message</label>
-        <textarea required rows={4} placeholder="Tell us about your goals…" className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white placeholder-slate-500 outline-none focus:border-brand-400" />
+        <label className="mb-2 block text-sm font-medium text-ink-700">Message</label>
+        <textarea required rows={4} placeholder="Tell us about your goals…" className="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-ink-900 placeholder-ink-600/60 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-200" />
       </div>
       <button type="submit" className="btn-glow mt-6 w-full">Send Message <ArrowRight className="h-4 w-4" /></button>
     </form>
@@ -532,8 +535,8 @@ export function ContactForm() {
 function Field({ label, name, type = 'text', placeholder }: { label: string; name: string; type?: string; placeholder?: string }) {
   return (
     <div>
-      <label className="mb-2 block text-sm font-medium text-slate-300">{label}</label>
-      <input required name={name} type={type} placeholder={placeholder} className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white placeholder-slate-500 outline-none focus:border-brand-400" />
+      <label className="mb-2 block text-sm font-medium text-ink-700">{label}</label>
+      <input required name={name} type={type} placeholder={placeholder} className="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-ink-900 placeholder-ink-600/60 outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-200" />
     </div>
   );
 }
@@ -563,12 +566,12 @@ export function RelatedServices({ currentSlug, title = 'Explore more services' }
   const related = services.filter((s) => s.slug !== currentSlug).slice(0, 4);
   return (
     <section className="container-x py-16">
-      <h2 className="text-2xl font-bold text-white">{title}</h2>
+      <h2 className="text-2xl font-bold text-ink-950">{title}</h2>
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {related.map((s) => (
           <Link key={s.slug} to={`/${s.slug}/`} className="glass lift p-5">
-            <s.icon className="h-6 w-6 text-brand-300" />
-            <h3 className="mt-3 text-sm font-semibold text-white">{s.title}</h3>
+            <s.icon className="h-6 w-6 text-brand-500" />
+            <h3 className="mt-3 text-sm font-semibold text-ink-950">{s.title}</h3>
           </Link>
         ))}
       </div>

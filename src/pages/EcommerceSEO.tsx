@@ -94,10 +94,10 @@ export default function EcommerceSEO() {
             <div>
               <Breadcrumbs />
               <span className="eyebrow mt-6 reveal">E-commerce SEO Services</span>
-              <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl reveal reveal-delay-1">
+              <h1 className="mt-5 text-4xl font-bold leading-tight text-ink-950 sm:text-5xl md:text-6xl reveal reveal-delay-1">
                 E-commerce SEO Services That Increase <span className="text-gradient">Organic Traffic & Online Sales</span>
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">
                 Your products deserve to be found. Our <strong>e-commerce SEO services</strong> optimize every product page, category page, and technical element so your store ranks higher on Google, attracts more qualified shoppers, and converts more visitors into paying customers.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
@@ -128,8 +128,8 @@ export default function EcommerceSEO() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">The Basics</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">What Is E-commerce SEO?</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">What Is E-commerce SEO?</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 <strong>E-commerce SEO</strong> is the process of optimizing your online store to rank higher in search engine results pages. It is SEO built specifically for the unique structure of online stores — with hundreds or thousands of product pages, category pages, filters, and faceted navigation that all need to be crawlable, indexable, and optimized.
               </p>
@@ -174,34 +174,34 @@ export default function EcommerceSEO() {
             </div>
             <div className="order-1 lg:order-2 reveal">
               <span className="eyebrow">The Impact</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why E-commerce SEO Matters</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why E-commerce SEO Matters</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 Paid ads get expensive fast. Social media traffic is unpredictable. But <strong>organic traffic</strong> from Google is free, consistent, and highly targeted. Here is what e-commerce SEO delivers:
               </p>
               <ul className="mt-6 space-y-4">
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><ShoppingCart className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>More product sales</strong> — targeted traffic from shoppers actively searching for your products</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><ShoppingCart className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>More product sales</strong> — targeted traffic from shoppers actively searching for your products</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><TrendingUp className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>More organic visitors</strong> — a steady stream of free traffic that grows month over month</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><TrendingUp className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>More organic visitors</strong> — a steady stream of free traffic that grows month over month</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Search className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Higher Google rankings</strong> — your products appear at the top when customers search for them</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Search className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Higher Google rankings</strong> — your products appear at the top when customers search for them</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><Smartphone className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Better user experience</strong> — faster pages, cleaner navigation, and easier product discovery</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><Smartphone className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Better user experience</strong> — faster pages, cleaner navigation, and easier product discovery</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><BarChart3 className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Increased revenue</strong> — more qualified traffic means more add-to-cart events and completed purchases</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><BarChart3 className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Increased revenue</strong> — more qualified traffic means more add-to-cart events and completed purchases</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-300"><TrendingUp className="h-4 w-4" /></span>
-                  <span className="text-slate-200"><strong>Long-term growth</strong> — SEO compounds over time, delivering increasing returns for years</span>
+                  <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20 text-brand-600"><TrendingUp className="h-4 w-4" /></span>
+                  <span className="text-ink-700"><strong>Long-term growth</strong> — SEO compounds over time, delivering increasing returns for years</span>
                 </li>
               </ul>
             </div>
@@ -213,10 +213,10 @@ export default function EcommerceSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">What We Do</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our E-commerce SEO <span className="text-gradient">Services</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A complete SEO service for online stores — from product page optimization to technical SEO, content, and link building. Everything your store needs to rank and sell.
           </p>
         </div>
@@ -233,12 +233,12 @@ export default function EcommerceSEO() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {services.map((s, i) => (
             <div key={s.title} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="group h-full rounded-3xl bg-white/[0.03] p-6 hover:bg-white/[0.06] transition-colors">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+              <div className="group h-full rounded-3xl bg-white p-6 hover:bg-slate-50 transition-colors">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                   <s.icon className="h-6 w-6" />
                 </div>
-                <h3 className="mt-4 text-base font-semibold text-white">{s.title}</h3>
-                <p className="mt-1.5 text-sm leading-relaxed text-slate-400">{s.desc}</p>
+                <h3 className="mt-4 text-base font-semibold text-ink-950">{s.title}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-ink-600">{s.desc}</p>
               </div>
             </div>
           ))}
@@ -252,8 +252,8 @@ export default function EcommerceSEO() {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Product Page Optimization</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Product Page Optimization</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   Every product page is a potential landing page. When a shopper searches for a specific product, your page needs to appear — and once they click through, the page needs to convert. <strong>Product page SEO</strong> makes both happen.
                 </p>
@@ -294,8 +294,8 @@ export default function EcommerceSEO() {
           </div>
           <div className="order-1 lg:order-2 reveal">
             <span className="eyebrow">Core Service</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Technical SEO for E-commerce</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Technical SEO for E-commerce</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 E-commerce sites are technically complex. With hundreds of product pages, faceted navigation, filter combinations, and pagination, it is easy for Google to get lost. <strong>Technical SEO</strong> ensures Google can crawl, understand, and index every important page.
               </p>
@@ -316,10 +316,10 @@ export default function EcommerceSEO() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">Who We Serve</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
               Industries We <span className="text-gradient">Serve</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               We have optimized online stores across dozens of industries — each with unique products, search behavior, and competitive landscapes.
             </p>
           </div>
@@ -336,10 +336,10 @@ export default function EcommerceSEO() {
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {industries.map((ind, i) => (
               <div key={ind.name} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="group h-full rounded-3xl bg-white/[0.03] p-6 text-center hover:bg-white/[0.06] transition-colors">
+                <div className="group h-full rounded-3xl bg-white p-6 text-center hover:bg-slate-50 transition-colors">
                   <div className="text-4xl">{ind.icon}</div>
-                  <h3 className="mt-4 text-base font-semibold text-white">{ind.name}</h3>
-                  <p className="mt-2 text-xs leading-relaxed text-slate-400">{ind.desc}</p>
+                  <h3 className="mt-4 text-base font-semibold text-ink-950">{ind.name}</h3>
+                  <p className="mt-2 text-xs leading-relaxed text-ink-600">{ind.desc}</p>
                 </div>
               </div>
             ))}
@@ -351,10 +351,10 @@ export default function EcommerceSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">How It Works</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
             Our SEO <span className="text-gradient">Process</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             A proven 8-step process that takes your online store from audit to sustained growth.
           </p>
         </div>
@@ -371,10 +371,10 @@ export default function EcommerceSEO() {
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {process.map((p, i) => (
             <div key={p.step} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-              <div className="rounded-3xl bg-white/[0.03] p-7">
-                <div className="font-display text-4xl font-bold text-white/10">{p.step}</div>
-                <h3 className="mt-2 text-lg font-semibold text-white">{p.title}</h3>
-                <p className="mt-2 text-sm text-slate-400 leading-relaxed">{p.desc}</p>
+              <div className="rounded-3xl bg-white p-7">
+                <div className="font-display text-4xl font-bold text-ink-950/10">{p.step}</div>
+                <h3 className="mt-2 text-lg font-semibold text-ink-950">{p.title}</h3>
+                <p className="mt-2 text-sm text-ink-600 leading-relaxed">{p.desc}</p>
               </div>
             </div>
           ))}
@@ -398,8 +398,8 @@ export default function EcommerceSEO() {
             </div>
             <div className="reveal reveal-delay-2">
               <span className="eyebrow">Why Us</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Choose Rank Flow Agency</h2>
-              <p className="mt-4 text-slate-400 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Choose Rank Flow Agency</h2>
+              <p className="mt-4 text-ink-600 leading-relaxed">
                 We are an <strong>eCommerce SEO agency</strong> that understands online retail. We do not just chase rankings — we focus on traffic, conversions, and revenue. Here is why online stores choose us:
               </p>
               <ul className="mt-6 space-y-4">
@@ -409,8 +409,8 @@ export default function EcommerceSEO() {
                       <Check className="h-4 w-4" />
                     </span>
                     <div>
-                      <span className="font-semibold text-white">{w.title}</span>
-                      <p className="mt-0.5 text-sm text-slate-400">{w.desc}</p>
+                      <span className="font-semibold text-ink-950">{w.title}</span>
+                      <p className="mt-0.5 text-sm text-ink-600">{w.desc}</p>
                     </div>
                   </li>
                 ))}
@@ -427,10 +427,10 @@ export default function EcommerceSEO() {
       <section className="container-x py-20">
         <div className="text-center">
           <span className="eyebrow reveal">FAQ</span>
-          <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl reveal reveal-delay-1">
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl reveal reveal-delay-1">
             E-commerce SEO <span className="text-gradient">Questions</span>
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
             Answers to the most common questions about e-commerce SEO and how it grows online stores.
           </p>
         </div>
@@ -444,14 +444,14 @@ export default function EcommerceSEO() {
       {/* STRONG CTA */}
       <section className="container-x py-24">
         <div className="grad-border relative overflow-hidden rounded-3xl">
-          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-16 text-center sm:px-16">
+          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-slate-50 px-6 py-16 text-center sm:px-16">
             <div className="blob -left-10 top-0 h-64 w-64 bg-brand-500/30" />
             <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-500/20" />
             <div className="relative">
-              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal">
+              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal">
                 Ready to Grow Your Online Store?
               </h2>
-              <p className="mx-auto mt-4 max-w-xl text-lg text-slate-300 reveal reveal-delay-1">
+              <p className="mx-auto mt-4 max-w-xl text-lg text-ink-600 reveal reveal-delay-1">
                 Request a free e-commerce SEO audit today. We will analyze your store, identify the issues keeping you from ranking, and show you exactly how to increase organic traffic and online sales. No obligation, just results.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
@@ -472,13 +472,13 @@ export default function EcommerceSEO() {
 
 function Breadcrumbs() {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+    <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-600" aria-label="Breadcrumb">
       {crumbs.map((item, i) => (
         <span key={item.path} className="flex items-center gap-2">
-          {i > 0 && <span className="text-slate-600">/</span>}
+          {i > 0 && <span className="text-ink-600">/</span>}
           <button
             onClick={() => navigate(item.path)}
-            className={i === crumbs.length - 1 ? 'text-white' : 'hover:text-brand-300'}
+            className={i === crumbs.length - 1 ? 'text-ink-950' : 'hover:text-brand-600'}
           >
             {item.name}
           </button>

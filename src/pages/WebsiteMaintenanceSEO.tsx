@@ -74,10 +74,10 @@ export default function WebsiteMaintenanceSEO() {
             <div>
               <Breadcrumbs />
               <span className="eyebrow mt-6 reveal">Website Maintenance & SEO</span>
-              <h1 className="mt-5 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl reveal reveal-delay-1">
+              <h1 className="mt-5 text-4xl font-bold leading-tight text-ink-950 sm:text-5xl md:text-6xl reveal reveal-delay-1">
                 Website Maintenance & SEO Services That Keep Your Site <span className="text-gradient">Fast, Secure, and Ranking</span>
               </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-400 reveal reveal-delay-2">
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-600 reveal reveal-delay-2">
                 Your website is your hardest-working employee. It runs 24/7, but without maintenance, it gets slow, vulnerable, and invisible in search results. Our <strong>monthly website maintenance</strong> service handles security, backups, updates, <strong>website speed optimization</strong>, and <strong>technical SEO</strong> so your site stays fast, secure, and ranking. One plan, complete <strong>website management</strong>.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row reveal reveal-delay-3">
@@ -108,8 +108,8 @@ export default function WebsiteMaintenanceSEO() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">The Problem</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Website Maintenance Matters</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Website Maintenance Matters</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 A website is not a one-time project. It is a living system that needs ongoing care. Every day, new security vulnerabilities are discovered. Plugins and themes release updates. Links break. Content goes stale. Performance slowly degrades. Without <strong>website maintenance services</strong>, these issues compound until your site is slow, vulnerable, and dropping in search rankings.
               </p>
@@ -143,10 +143,10 @@ export default function WebsiteMaintenanceSEO() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">What We Do</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
               Our Maintenance <span className="text-gradient">Services</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               A complete monthly maintenance service covering security, performance, updates, and technical SEO. Everything your website needs to stay fast, secure, and ranking.
             </p>
           </div>
@@ -163,12 +163,12 @@ export default function WebsiteMaintenanceSEO() {
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {services.map((s, i) => (
               <div key={s.title} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="group h-full rounded-3xl bg-white/[0.03] p-6 hover:bg-white/[0.06] transition-colors">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+                <div className="group h-full rounded-3xl bg-white p-6 hover:bg-slate-50 transition-colors">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                     <s.icon className="h-6 w-6" />
                   </div>
-                  <h3 className="mt-4 text-base font-semibold text-white">{s.title}</h3>
-                  <p className="mt-1.5 text-sm leading-relaxed text-slate-400">{s.desc}</p>
+                  <h3 className="mt-4 text-base font-semibold text-ink-950">{s.title}</h3>
+                  <p className="mt-1.5 text-sm leading-relaxed text-ink-600">{s.desc}</p>
                 </div>
               </div>
             ))}
@@ -181,8 +181,8 @@ export default function WebsiteMaintenanceSEO() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">Core Service</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Security Monitoring</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Security Monitoring</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 <strong>Website security</strong> is not a one-time setup. It is an ongoing process. New threats emerge every day, and without continuous monitoring, your site is a sitting target. Our security monitoring runs 24/7, scanning for malware, suspicious activity, unauthorized changes, and known vulnerabilities.
               </p>
@@ -224,8 +224,8 @@ export default function WebsiteMaintenanceSEO() {
             </div>
             <div className="order-1 lg:order-2 reveal">
               <span className="eyebrow">Core Service</span>
-              <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Website Backups</h2>
-              <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+              <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Website Backups</h2>
+              <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
                 <p>
                   Backups are your safety net. If your site gets hacked, breaks during an update, or experiences server failure, a clean backup means the difference between a 10-minute recovery and a total loss. Our <strong>website maintenance services</strong> include daily automated backups of your entire website.
                 </p>
@@ -246,8 +246,8 @@ export default function WebsiteMaintenanceSEO() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="reveal">
             <span className="eyebrow">Core Service</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Speed Optimization</h2>
-            <div className="mt-6 space-y-4 text-slate-300 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Speed Optimization</h2>
+            <div className="mt-6 space-y-4 text-ink-600 leading-relaxed">
               <p>
                 <strong>Website speed optimization</strong> is critical for both user experience and SEO. Google uses Core Web Vitals as a ranking factor. Visitors abandon slow sites. Every second of delay reduces conversions. Our maintenance service keeps your site fast and meeting Google performance standards.
               </p>
@@ -278,10 +278,10 @@ export default function WebsiteMaintenanceSEO() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">Who We Help</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal reveal-delay-1">
               Industries We <span className="text-gradient">Serve</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               We maintain websites for businesses across every industry. Each has unique security, performance, and compliance requirements, and we know how to meet them.
             </p>
           </div>
@@ -298,12 +298,12 @@ export default function WebsiteMaintenanceSEO() {
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {industries.map((ind, i) => (
               <div key={ind.name} className={`grad-border lift reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="group h-full rounded-3xl bg-white/[0.03] p-6 text-center hover:bg-white/[0.06] transition-colors">
-                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-300 transition-transform group-hover:scale-110">
+                <div className="group h-full rounded-3xl bg-white p-6 text-center hover:bg-slate-50 transition-colors">
+                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500/20 to-accent-500/10 text-brand-600 transition-transform group-hover:scale-110">
                     <ind.icon className="h-6 w-6" />
                   </div>
-                  <h3 className="mt-4 text-base font-semibold text-white">{ind.name}</h3>
-                  <p className="mt-2 text-xs leading-relaxed text-slate-400">{ind.desc}</p>
+                  <h3 className="mt-4 text-base font-semibold text-ink-950">{ind.name}</h3>
+                  <p className="mt-2 text-xs leading-relaxed text-ink-600">{ind.desc}</p>
                 </div>
               </div>
             ))}
@@ -326,8 +326,8 @@ export default function WebsiteMaintenanceSEO() {
           </div>
           <div className="reveal reveal-delay-2">
             <span className="eyebrow">Why Us</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">Why Choose Rank Flow Agency</h2>
-            <p className="mt-4 text-slate-400 leading-relaxed">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl">Why Choose Rank Flow Agency</h2>
+            <p className="mt-4 text-ink-600 leading-relaxed">
               We are a <strong>website support</strong> and maintenance agency that treats your website like our own. We do not just fix problems. We prevent them. Here is why businesses trust us with their <strong>website management</strong>:
             </p>
             <ul className="mt-6 space-y-4">
@@ -337,8 +337,8 @@ export default function WebsiteMaintenanceSEO() {
                     <Check className="h-4 w-4" />
                   </span>
                   <div>
-                    <span className="font-semibold text-white">{w.title}</span>
-                    <p className="mt-0.5 text-sm text-slate-400">{w.desc}</p>
+                    <span className="font-semibold text-ink-950">{w.title}</span>
+                    <p className="mt-0.5 text-sm text-ink-600">{w.desc}</p>
                   </div>
                 </li>
               ))}
@@ -356,10 +356,10 @@ export default function WebsiteMaintenanceSEO() {
         <div className="container-x relative">
           <div className="text-center">
             <span className="eyebrow reveal">FAQ</span>
-            <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl reveal reveal-delay-1">
+            <h2 className="mt-4 text-3xl font-bold text-ink-950 sm:text-4xl reveal reveal-delay-1">
               Maintenance <span className="text-gradient">Questions</span>
             </h2>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400 reveal reveal-delay-2">
+            <p className="mt-4 max-w-2xl mx-auto text-lg text-ink-600 reveal reveal-delay-2">
               Answers to the most common questions about website maintenance and how it keeps your site fast, secure, and ranking.
             </p>
           </div>
@@ -374,14 +374,14 @@ export default function WebsiteMaintenanceSEO() {
       {/* STRONG CTA */}
       <section className="container-x py-24">
         <div className="grad-border relative overflow-hidden rounded-3xl">
-          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-ink-900 px-6 py-16 text-center sm:px-16">
+          <div className="relative rounded-3xl bg-gradient-to-br from-ink-800 to-slate-50 px-6 py-16 text-center sm:px-16">
             <div className="blob -left-10 top-0 h-64 w-64 bg-brand-500/30" />
             <div className="blob -right-10 bottom-0 h-64 w-64 bg-accent-500/20" />
             <div className="relative">
-              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl md:text-5xl reveal">
+              <h2 className="mx-auto max-w-2xl text-3xl font-bold text-ink-950 sm:text-4xl md:text-5xl reveal">
                 Is Your Website Fast, Secure, and Ranking?
               </h2>
-              <p className="mx-auto mt-4 max-w-xl text-lg text-slate-300 reveal reveal-delay-1">
+              <p className="mx-auto mt-4 max-w-xl text-lg text-ink-600 reveal reveal-delay-1">
                 Get a free website maintenance audit today. We will scan your site for security issues, performance problems, broken links, and SEO gaps. Then we will show you exactly what needs fixing. No obligation, just a clear picture of your website health.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row reveal reveal-delay-2">
@@ -402,13 +402,13 @@ export default function WebsiteMaintenanceSEO() {
 
 function Breadcrumbs() {
   return (
-    <nav className="flex flex-wrap items-center gap-2 text-sm text-slate-400" aria-label="Breadcrumb">
+    <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-600" aria-label="Breadcrumb">
       {crumbs.map((item, i) => (
         <span key={item.path} className="flex items-center gap-2">
-          {i > 0 && <span className="text-slate-600">/</span>}
+          {i > 0 && <span className="text-ink-600">/</span>}
           <button
             onClick={() => navigate(item.path)}
-            className={i === crumbs.length - 1 ? 'text-white' : 'hover:text-brand-300'}
+            className={i === crumbs.length - 1 ? 'text-ink-950' : 'hover:text-brand-600'}
           >
             {item.name}
           </button>

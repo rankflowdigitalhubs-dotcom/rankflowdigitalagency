@@ -32,48 +32,48 @@ export default function Contact() {
           {/* Info */}
           <div className="space-y-6">
             <div className="glass p-7">
-              <h3 className="text-lg font-semibold text-white">Get in touch</h3>
-              <p className="mt-2 text-sm text-slate-400">We typically reply within one business day.</p>
+              <h3 className="text-lg font-semibold text-ink-950">Get in touch</h3>
+              <p className="mt-2 text-sm text-ink-600">We typically reply within one business day.</p>
               <div className="mt-6 space-y-4">
                 {contactInfo.emails.map((email) => (
                   <a key={email} href={`mailto:${email}`} className="flex items-center gap-3 group">
-                    <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/15 text-brand-300"><Mail className="h-5 w-5" /></span>
+                    <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/15 text-brand-600"><Mail className="h-5 w-5" /></span>
                     <div>
-                      <div className="text-xs text-slate-400">Email</div>
-                      <div className="text-sm font-medium text-white group-hover:text-brand-300">{email}</div>
+                      <div className="text-xs text-ink-600">Email</div>
+                      <div className="text-sm font-medium text-ink-950 group-hover:text-brand-600">{email}</div>
                     </div>
                   </a>
                 ))}
                 <a href={contactInfo.website} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 group">
-                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/15 text-brand-300"><Globe className="h-5 w-5" /></span>
+                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/15 text-brand-600"><Globe className="h-5 w-5" /></span>
                   <div>
-                    <div className="text-xs text-slate-400">Website</div>
-                    <div className="text-sm font-medium text-white group-hover:text-brand-300">{contactInfo.websiteLabel}</div>
+                    <div className="text-xs text-ink-600">Website</div>
+                    <div className="text-sm font-medium text-ink-950 group-hover:text-brand-600">{contactInfo.websiteLabel}</div>
                   </div>
                 </a>
                 <div className="flex items-center gap-3">
-                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/15 text-brand-300"><MapPin className="h-5 w-5" /></span>
+                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/15 text-brand-600"><MapPin className="h-5 w-5" /></span>
                   <div>
-                    <div className="text-xs text-slate-400">Location</div>
-                    <div className="text-sm font-medium text-white">{contactInfo.location}</div>
+                    <div className="text-xs text-ink-600">Location</div>
+                    <div className="text-sm font-medium text-ink-950">{contactInfo.location}</div>
                   </div>
                 </div>
               </div>
-              <div className="mt-6 border-t border-white/10 pt-5">
-                <div className="text-xs uppercase tracking-wider text-slate-400">Message us</div>
+              <div className="mt-6 border-t border-slate-200 pt-5">
+                <div className="text-xs uppercase tracking-wider text-ink-600">Message us</div>
                 <div className="mt-3"><SocialIcons /></div>
               </div>
             </div>
 
             {/* Map placeholder */}
             <div className="grad-border rounded-3xl overflow-hidden">
-              <div className="relative h-56 bg-gradient-to-br from-ink-800 to-ink-900">
+              <div className="relative h-56 bg-gradient-to-br from-ink-800 to-slate-50">
                 <div className="absolute inset-0 bg-grid-faint [background-size:40px_40px] opacity-40" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-center">
-                  <span className="flex h-14 w-14 items-center justify-center rounded-full bg-brand-500/20 text-brand-300 animate-pulse-ring">
+                  <span className="flex h-14 w-14 items-center justify-center rounded-full bg-brand-500/20 text-brand-600 animate-pulse-ring">
                     <MapPin className="h-7 w-7" />
                   </span>
-                  <p className="text-sm text-slate-400">Serving clients worldwide</p>
+                  <p className="text-sm text-ink-600">Serving clients worldwide</p>
                 </div>
               </div>
             </div>
@@ -81,7 +81,7 @@ export default function Contact() {
 
           {/* Form */}
           <div>
-            <div className="mb-5 flex items-center gap-2 text-sm text-slate-400">
+            <div className="mb-5 flex items-center gap-2 text-sm text-ink-600">
               <MessageSquare className="h-4 w-4 text-brand-400" /> Fields marked with * are required.
             </div>
             <ContactForm />
@@ -93,8 +93,8 @@ export default function Contact() {
       <section className="container-x py-12">
         <div className="text-center">
           <span className="eyebrow reveal">Our Services</span>
-          <h2 className="mt-4 text-2xl font-bold text-white reveal reveal-delay-1">Not sure where to start?</h2>
-          <p className="mt-3 text-slate-400">Explore our most popular services and see how we can help your business grow.</p>
+          <h2 className="mt-4 text-2xl font-bold text-ink-950 reveal reveal-delay-1">Not sure where to start?</h2>
+          <p className="mt-3 text-ink-600">Explore our most popular services and see how we can help your business grow.</p>
         </div>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <Link to="/seo/" className="btn-ghost text-sm">SEO Services</Link>
@@ -111,7 +111,7 @@ export default function Contact() {
       <section className="container-x py-16">
         <div className="text-center">
           <span className="eyebrow reveal">FAQ</span>
-          <h2 className="mt-4 text-3xl font-bold text-white reveal reveal-delay-1">Before you reach out</h2>
+          <h2 className="mt-4 text-3xl font-bold text-ink-950 reveal reveal-delay-1">Before you reach out</h2>
         </div>
         <div className="mt-10">
           <FAQList faqs={contactFaqs} />
